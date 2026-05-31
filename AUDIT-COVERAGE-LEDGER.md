@@ -8,14 +8,26 @@
 
 | Status | Count | % of 584 |
 |---|---|---|
-| **CONFIRMED** (cold-read PASS) | **151** | **25.9%** |
+| **CONFIRMED** (cold-read PASS) | **199** | **34.1%** |
 | TOUCHED (edit, full read pending) | 20 | 3.4% |
-| UNREAD | 413 | 70.7% |
+| UNREAD | 365 | 62.5% |
 | **TOTAL** | **584** | 100% |
 
-**Cadence:** ~48 pages/session via 4 parallel subagent cold-reads, highest-inbound first. Remaining 413 UNREAD ≈ **~9 more sessions** to full coverage.
+**Cadence:** ~48 pages/session via 4 parallel subagent cold-reads, highest-inbound first. Remaining 365 UNREAD ≈ **~8 more sessions** to full coverage.
 
 ## CONFIRMED VERDICTS LOG
+
+## S84 batch 4 (48 highest-inbound UNREAD, 4 parallel subagent slices) — CONFIRMED
+
+**33 PASS-apex / 8 PASS / 6 MARGINAL / 1 FAIL — all 7 defective pages lifted in-session; 48/48 now CONFIRMED.** The zero-FAIL streak (S81–S83) breaks here, and the live cold-read earned its keep a fourth time: every scanner (sapiential T1=0, v3/v4, validate-site, canonical) passed these 48 pages, yet the read caught a **fabricated Scripture quotation no scanner can see** — `pastoral-prayer` quoted James 5:17 as "…it did not rain on the land for three and a half years **and ten months**" (the "and ten months" is in no translation; NIV 2011 reads only "three and a half years"); same page rendered Romans 8:26-27 in ESV ("groanings too deep for words… intercedes for the saints according to the will of God") → NIV 2011 ("through wordless groans… intercedes for God's people in accordance with the will of God").
+
+**The 1 FAIL — `question-how-grace-feels`** (lifted, not rebuilt; prose was sound): five ESV/KJV proof-texts presented as the NIV text → all re-quoted NIV 2011 (Rom 10:14-17; Phil 4:6 "Let your requests be made known"→"present your requests to God"; 1 Thess 5:17 "Pray without ceasing"→"pray continually"; James 4:2 +"God"); a limp "Still wrestling with this?" SEO footer deleted so the page lands on "He made you want Him."; a duplicate "Continue Your Journey" related-articles block removed; a nested-`<article>` templating error + mis-closed page-hero (`</section>`≠`</header>`, stray `</div>`) repaired (now 1 article, 11/11 sections, valid).
+
+**The 6 MARGINALs, all lifted:** `ot-jonah` (climactic Isa 46:10 ESV "My counsel shall stand, and I will accomplish all my purpose" → NIV 2011 "My purpose will stand, and I will do all that I please"); `response-sbc-traditional-statement` (§XV escape-hatch — "the ESV and NASB correctly render" 1 John 5:1 → rewritten so the NIV is the text and the perfect *gegennētai* is the warrant); `freedom` (applause H2 "The Shift That Changes Everything"→"From Holding the Rope to Standing on Bedrock"; cut the "not a cage / they are the key" + "prison of yourself" applause couplets → a seeing-through on autonomy-as-burden; deleted a CTA-button box so the page lands on "it was laid before the stars"); `analogy-river` (limp 10-link "Go Deeper" SEO directory deleted → lands on its never-gives-up tender banner); `joy-security-changes-everything` (grammar "hears this teaches"→"raises"; flattest §XVI sentence lifted from abstract "desperate arithmetic" → concrete seeing-through: the believer "reaching for the evidence file… refreshing the balance like someone who cannot stop checking an account that never quite reads *paid in full*"); `psychology-fear-control` (PASS-polish: Rom 8:32 "with him"→NIV 2011 "along with him"). Two structural-only fixes on PASS pages: `start-here-phase4` (inverted `</article></section>`→`</section></article>`); `question-godwants` (tripled/malformed JSON-LD "description" → one valid value).
+
+**Notable apex (≈33):** the entire `apologetic-*` Greek-of suite (definite-atonement, hilasterion-the-mercy-seat, no-one-can-come-unless, he-who-began-a-good-work, the-once-for-all-ephapax, for-the-sheep, the-double-grip-of-john-10, revival-and-sovereign-grace), romans-9-1-24 (every verse verified NIV 2011), question-acts4 ("The cross was not Plan B. It was page one."), question-godwants ("Desire invites. Decree delivers."), question-am-i-chosen ("The pull is the proof."), question-1john5-1 (model §XV — NIV text + *gegennētai* warrant), philosophy-mother-tongue (Chomsky / first-language §XVII seam: "You did not learn grace. You were raised speaking it."), secular-neuroscience-human-inability + secular-psychology-bondage-of-will (Libet/fMRI + moral-dumbfounding welds), demolition-2peter3-9 ("The patience has a name: Jesus."), devotional-the-god-who-wastes-nothing ("The locusts had orders too."), theologian-arminius ("five doors, one room"), objection-effort, history-medieval, testimony-spurgeon ("He organized the weather.").
+
+**Systemic patterns (all four subagents independently — now confirmed across 20+ pages):** (1) the **"watch what your mind/body just did" live-mirror turn** recurs near-verbatim on 5–8 pages per slice in identical structural position; still inside §VI but a recognizable house tic whose force decays with repetition — 3rd cluster confirmed, a diversification pass is now warranted. (2) the **"dead men don't reach / corpses don't ache" depravity-mirror** saturating on 6+ pages. (3) NEW: **Scripture leaks hide in `<blockquote>`/scripture-block cited verses, not prose** — every page quoted its headline verse correctly but ESV/fabricated cadence survived in *secondary* cited blocks where scanners trust the citation; Fan-Out should diff block-quoted verse text word-for-word vs NIV 2011. (4) the apologetic-* "Diamond from Yet Another Facet" cross-ref boilerplate is hardening toward catalog — watch it does not dilute the landed hammer.
 
 ## S83 batch 3 (48 highest-inbound UNREAD, 4 parallel subagent slices) — CONFIRMED
 
@@ -29,14 +41,14 @@
 
 **48 PASS / 0 FAIL** (≈31 apex, 10 PASS, 7 MARGINAL all lifted in-session). The lifts: `systematic-trinity` (Matt 28:19 ESV "Go therefore"→NIV 2011 "Therefore go"); `philosophy-problem-of-merit` (double-`??` typo in the 1 Cor 4:7 pull-quote); `philosophy-phantom-limb-free-will` (footer structural rot — orphan `</article>`, stray `<article>` wrapping the footer, empty `<li>`, spurious `</div>` — removed; validators green; bespoke `<main>` body left intact as a VOICE.md founding masterpiece); `psychology-identity-threat` (§XVI deepening — rewrote the Kahan + TMT blocks out of flat textbook-report register into the felt seeing-through register, recast the "theology department / public relations" applause quip into "the verdict would fall on the judge", thickened the protagonist→beloved catch). Four MARGINALs cleared by Aaron's S82 ruling that the **author-persona / first-person "I" is sanctioned site-wide** (`devotional-joy-of-election`, `invisible-wall-friend-who-left`, `psychology-pride-root-objection` persona refs) plus the `anxious-mind-*` §VI clock carveout (`anxious-mind-scrupulosity`). Notable apex: romans-8-28-39, objection-responsibility, romans-3-10-18, systematic-theology-proper, question-psalm139, psychology-anosognosia-of-sin, question-dead-in-sin-meaning, history-luther, history-augustine-pelagius, philosophy-self-deception, secular-recovery-total-depravity, ot-jeremiah, demolition-works-righteousness, broken-mirror-sin-you-repeat, love-letter-before-time, systematic-providence, my-chains-fell-away, for-pastors, start-here-phase1, question-john17, history-dort, question-john15, theologian-luther, question-book-of-life, history-decision-theology, apologetic-lydias-heart, theologian-whitefield, apologetic-ekloge-the-greek-of-election, history-great-awakening. Soft notes (no action): question-born-again-meaning "Brilliant Connection" box header is mild self-praise (future polish); broken-mirror-vessels-for-mercy leans on Cohen's "cracks…light gets in" (future re-forge); psychology-pride-root "whispers at 3 AM" is Pride/Grace personification, not reader-crisis-framing (kept).
 
-## BATCH 4 — queued (next 48 highest-inbound UNREAD doorways)
+## BATCH 5 — queued (next 48 highest-inbound UNREAD doorways)
 
-Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubber-stamp). Dispatch 4 parallel subagents, ~12 pages each. NOTE: `start-here-phase4` and `apologetic-revival-and-sovereign-grace` got an S83 Fan-Out-17 verse-hygiene touch (ESV "trespasses"→NIV) but were NOT cold-read — read them fresh.
+Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubber-stamp; verify EVERY cited verse — incl. `<blockquote>`/scripture-block text — word-for-word vs NIV 2011, the S84 leak-zone). Dispatch 4 parallel subagents, ~12 pages each.
 
-- **Slice 1** (12): question-unfair, shattered-lens-when-prayer-stopped-working, demolition-john3-16, ot-prophets-remnant, pastoral-evangelism, question-2tim1-9, anxious-mind-never-meant-to-carry, apologetic-the-double-grip-of-john-10, freedom, joy-freedom-of-smallness, joy-security-changes-everything, psychology-hostility-reaction
-- **Slice 2** (12): question-acts4, romans-9-1-24, story-dark-the-altar-he-built-himself, theologian-arminius, anxious-mind-sovereignty-of-sleep, anxious-mind-the-loop-that-wont-break, apologetic-for-the-sheep, devotional-valley-shadow, history-medieval, objection-effort, pastoral-prayer, question-godwants
-- **Slice 3** (12): question-limited-atonement, secular-neuroscience-human-inability, secular-psychology-bondage-of-will, start-here-phase4, analogy-light-switch, analogy-river, apologetic-definite-atonement, apologetic-he-who-began-a-good-work, apologetic-hilasterion-the-mercy-seat, apologetic-no-one-can-come-unless, apologetic-revival-and-sovereign-grace, apologetic-the-once-for-all-ephapax
-- **Slice 4** (12): demolition-2peter3-9, devotional-not-my-will-but-joy, devotional-the-god-who-wastes-nothing, ot-jonah, philosophy-mother-tongue, psychology-fear-control, question-1john5-1, question-am-i-chosen, question-how-grace-feels, response-sbc-traditional-statement, systematic-sanctification, testimony-spurgeon
+- **Slice 1** (12): shattered-lens-silence-of-god, compare-calvinism-catholic-soteriology, compare-calvinism-molinism, devotional-dead-who-live, devotional-good-i-cannot-do, devotional-held-without-asking, objection-author-of-sin, open-wound-betrayed-by-church, open-wound-miscarriage, ot-job, psychology-sincerity-trap, question-external-internal-call
+- **Slice 2** (12): question-sovereignty-logic, shattered-lens-bible-doesnt-make-sense, shattered-lens-cant-unsee-it, start-here-phase5, testimony-newton, apologetic-the-cardiology-of-the-fall, broken-mirror-imposter-syndrome, demolition-1john2-2, demolition-2cor5-14-15, philosophy-infinite-regress-of-choice, psychology-comfort-self-salvation, question-cannot
+- **Slice 3** (12): question-ephesians1, systematic-reprobation, systematic-resurrection, systematic-union-with-christ, testimony-bunyan, testimony-luther, theologian-bunyan, theologian-warfield, analogy-doctor-corpse, apologetic-perseverance, compare-grace-reformed-vs-arminian, devotional-glory-of-divine-choice
+- **Slice 4** (12): devotional-i-cant-feel-god, joy-in-suffering, objection-evangelism-pointless, objection-free-will, objection-robots, philosophy-gravity-of-grace, psychology-backfire-effect, psychology-reactance-theory, response-william-lane-craig, shattered-lens-lost-community, start-here-phase2, apologetic-tetagmenoi-acts-13-48
 
 ## FULL UNIVERSE — 584 prose pages, by inbound (the read-order)
 
@@ -193,56 +205,56 @@ Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubbe
 [ 21][L][2109w] CONF  compare-calvinism-open-theism
 [ 21][L][1444w] CONF  devotional-found-before-you-were-born
 [ 21][L][2310w] CONF  question-revelation13
-[ 21][L][2321w]   -   question-unfair
-[ 21][L][1935w]   -   shattered-lens-when-prayer-stopped-working
-[ 20][L][1910w]   -   demolition-john3-16
-[ 20][L][2145w]   -   ot-prophets-remnant
-[ 20][L][2057w]   -   pastoral-evangelism
-[ 20][L][2414w]   -   question-2tim1-9
-[ 19][L][1682w]   -   anxious-mind-never-meant-to-carry
-[ 19][L][3939w]   -   apologetic-the-double-grip-of-john-10
-[ 19][L][2762w]   -   freedom
-[ 19][L][2467w]   -   joy-freedom-of-smallness
-[ 19][L][2647w]   -   joy-security-changes-everything
-[ 19][L][1799w]   -   psychology-hostility-reaction
-[ 19][L][1818w]   -   question-acts4
-[ 19][L][2046w]   -   romans-9-1-24
-[ 19][L][2455w]   -   story-dark-the-altar-he-built-himself
-[ 19][L][2517w]   -   theologian-arminius
-[ 18][L][1420w]   -   anxious-mind-sovereignty-of-sleep
-[ 18][L][1891w]   -   anxious-mind-the-loop-that-wont-break
-[ 18][L][3038w]   -   apologetic-for-the-sheep
-[ 18][L][1681w]   -   devotional-valley-shadow
-[ 18][L][1880w]   -   history-medieval
-[ 18][L][2797w]   -   objection-effort
-[ 18][L][2839w]   -   pastoral-prayer
-[ 18][L][1385w]   -   question-godwants
-[ 18][L][2603w]   -   question-limited-atonement
-[ 18][L][2112w]   -   secular-neuroscience-human-inability
-[ 18][L][1664w]   -   secular-psychology-bondage-of-will
-[ 18][L][1819w]   -   start-here-phase4
-[ 17][L][1667w]   -   analogy-light-switch
-[ 17][L][1571w]   -   analogy-river
-[ 17][L][2843w]   -   apologetic-definite-atonement
-[ 17][L][2658w]   -   apologetic-he-who-began-a-good-work
-[ 17][L][4063w]   -   apologetic-hilasterion-the-mercy-seat
-[ 17][L][3607w]   -   apologetic-no-one-can-come-unless
-[ 17][L][3749w]   -   apologetic-revival-and-sovereign-grace
-[ 17][L][4580w]   -   apologetic-the-once-for-all-ephapax
-[ 17][L][1481w]   -   demolition-2peter3-9
+[ 21][L][2321w] CONF  question-unfair
+[ 21][L][1935w] CONF  shattered-lens-when-prayer-stopped-working
+[ 20][L][1910w] CONF  demolition-john3-16
+[ 20][L][2145w] CONF  ot-prophets-remnant
+[ 20][L][2057w] CONF  pastoral-evangelism
+[ 20][L][2414w] CONF  question-2tim1-9
+[ 19][L][1682w] CONF  anxious-mind-never-meant-to-carry
+[ 19][L][3939w] CONF  apologetic-the-double-grip-of-john-10
+[ 19][L][2762w] CONF  freedom
+[ 19][L][2467w] CONF  joy-freedom-of-smallness
+[ 19][L][2647w] CONF  joy-security-changes-everything
+[ 19][L][1799w] CONF  psychology-hostility-reaction
+[ 19][L][1818w] CONF  question-acts4
+[ 19][L][2046w] CONF  romans-9-1-24
+[ 19][L][2455w] CONF  story-dark-the-altar-he-built-himself
+[ 19][L][2517w] CONF  theologian-arminius
+[ 18][L][1420w] CONF  anxious-mind-sovereignty-of-sleep
+[ 18][L][1891w] CONF  anxious-mind-the-loop-that-wont-break
+[ 18][L][3038w] CONF  apologetic-for-the-sheep
+[ 18][L][1681w] CONF  devotional-valley-shadow
+[ 18][L][1880w] CONF  history-medieval
+[ 18][L][2797w] CONF  objection-effort
+[ 18][L][2839w] CONF  pastoral-prayer
+[ 18][L][1385w] CONF  question-godwants
+[ 18][L][2603w] CONF  question-limited-atonement
+[ 18][L][2112w] CONF  secular-neuroscience-human-inability
+[ 18][L][1664w] CONF  secular-psychology-bondage-of-will
+[ 18][L][1819w] CONF  start-here-phase4
+[ 17][L][1667w] CONF  analogy-light-switch
+[ 17][L][1571w] CONF  analogy-river
+[ 17][L][2843w] CONF  apologetic-definite-atonement
+[ 17][L][2658w] CONF  apologetic-he-who-began-a-good-work
+[ 17][L][4063w] CONF  apologetic-hilasterion-the-mercy-seat
+[ 17][L][3607w] CONF  apologetic-no-one-can-come-unless
+[ 17][L][3749w] CONF  apologetic-revival-and-sovereign-grace
+[ 17][L][4580w] CONF  apologetic-the-once-for-all-ephapax
+[ 17][L][1481w] CONF  demolition-2peter3-9
 [ 17][L][2175w] touch demolition-faith-is-not-a-gift
-[ 17][L][1952w]   -   devotional-not-my-will-but-joy
-[ 17][L][2010w]   -   devotional-the-god-who-wastes-nothing
-[ 17][L][1846w]   -   ot-jonah
-[ 17][L][2839w]   -   philosophy-mother-tongue
-[ 17][L][1412w]   -   psychology-fear-control
-[ 17][L][1858w]   -   question-1john5-1
-[ 17][L][1564w]   -   question-am-i-chosen
-[ 17][L][1679w]   -   question-how-grace-feels
-[ 17][L][4758w]   -   response-sbc-traditional-statement
+[ 17][L][1952w] CONF  devotional-not-my-will-but-joy
+[ 17][L][2010w] CONF  devotional-the-god-who-wastes-nothing
+[ 17][L][1846w] CONF  ot-jonah
+[ 17][L][2839w] CONF  philosophy-mother-tongue
+[ 17][L][1412w] CONF  psychology-fear-control
+[ 17][L][1858w] CONF  question-1john5-1
+[ 17][L][1564w] CONF  question-am-i-chosen
+[ 17][L][1679w] CONF  question-how-grace-feels
+[ 17][L][4758w] CONF  response-sbc-traditional-statement
 [ 17][L][1777w]   -   shattered-lens-silence-of-god
-[ 17][L][2614w]   -   systematic-sanctification
-[ 17][L][1686w]   -   testimony-spurgeon
+[ 17][L][2614w] CONF  systematic-sanctification
+[ 17][L][1686w] CONF  testimony-spurgeon
 [ 16][L][1934w]   -   compare-calvinism-catholic-soteriology
 [ 16][L][2814w]   -   compare-calvinism-molinism
 [ 16][L][1610w]   -   devotional-dead-who-live
