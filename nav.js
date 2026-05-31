@@ -498,7 +498,7 @@
  { name: 'Did C.S. Lewis Refute Calvinism? — What They Won\'t Tell You', href: '/counter-cs-lewis-free-will', desc: 'But does Scripture teach this? Not "does it sound reasonable?" — does God\'s Word say this is how salvation works?' },
  { name: 'Does "The Whole World" in 1 John 2:2 Prove Universal Atonement?', href: '/demolition-1john2-2', desc: 'So slow down. Read it again. And this time, do not move past the word propitiation .' },
  { name: 'Does God Take Pleasure in Death?', href: '/demolition-ezekiel18-23', desc: 'What Ezekiel 18:23 actually means — and why the prophet\'s own words destroy the Arminian reading.' },
- { name: 'Does God Want Everyone Saved?', href: '/demolition-1tim2-4', desc: 'God "desires all people to be saved" — but Paul wrote that sentence one verse after commanding prayer "for all people, f' },
+ { name: 'Does God Want Everyone Saved?', href: '/demolition-1tim2-4', desc: 'God "wants all people to be saved" — but Paul wrote that sentence one verse after commanding prayer "for all people, for' },
  { name: 'Ezekiel 33:11 — "I Take No Pleasure in the Death of the Wicked"', href: '/demolition-ezekiel33-11', desc: 'The verse Arminians wield to prove God wants to save everyone equally teaches — when read honestly — the crucial distinc' },
  { name: 'FACTS Check — The Arminian Framework Dismantled Point by Point', href: '/demolition-arminian-facts', desc: 'The Society of Evangelical Arminians built a framework called FACTS. We examine each point with seminary-level exegesis ' },
  { name: 'Galatians 5:4 — Can a Christian Really "Fall from Grace"?', href: '/demolition-galatians5-4', desc: 'The verse Arminians use to prove a believer can lose salvation says the opposite of what they think.' },

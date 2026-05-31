@@ -2,12 +2,12 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-05-31T14:18:34.096Z",
+  "generated": "2026-05-31T19:59:49.223Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 589,
     "total_redundancy_pairs_flagged": 12,
-    "total_sentences_flagged": 1281,
+    "total_sentences_flagged": 1282,
     "total_redundancy_pairs_suppressed": 20,
     "total_sentences_suppressed": 182,
     "articles_with_redundancy": 12,
@@ -10081,6 +10081,14 @@
           "preview": "Two thousand years of revival history have left a single sentence on the record: when the church preaches the absolute sovereignty of God in salvation, the Spirit moves through the streets like wind t"
         },
         {
+          "paragraph": 13,
+          "sentence_index": 0,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "Here is the fact almost never mentioned: the stretch of western New York where Finney's revivals burned hottest passed into history under a name  —  the Burned-Over District , scorched so often by wav"
+        },
+        {
           "paragraph": 20,
           "sentence_index": 0,
           "flags": [
@@ -10092,10 +10100,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 2,
+      "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 2
+      "score": 3
     },
     {
       "file": "history-golden-thread.html",
@@ -11866,7 +11874,7 @@
     },
     {
       "file": "open-wound-sovereignty-in-grief.html",
-      "paragraphs": 39,
+      "paragraphs": 38,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -12833,11 +12841,11 @@
     },
     {
       "file": "philosophy-marriage-election.html",
-      "paragraphs": 35,
+      "paragraphs": 34,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 17,
+          "paragraph": 16,
           "sentence_index": 2,
           "flags": [
             "long-simile:16w"
@@ -12845,7 +12853,7 @@
           "preview": "And that thought — that our salvation is not in our hands — feels like a threat to every human being who has built their identity on the foundation of personal autonomy ."
         },
         {
-          "paragraph": 26,
+          "paragraph": 25,
           "sentence_index": 1,
           "flags": [
             "long:56w"
@@ -14725,7 +14733,7 @@
     },
     {
       "file": "question-goldchain.html",
-      "paragraphs": 35,
+      "paragraphs": 25,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
