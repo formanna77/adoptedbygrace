@@ -8,14 +8,28 @@
 
 | Status | Count | % of 584 |
 |---|---|---|
-| **CONFIRMED** (cold-read PASS) | **225** | **38.5%** |
-| TOUCHED (edit, full read pending) | 20 | 3.4% |
-| UNREAD | 339 | 58.0% |
+| **CONFIRMED** (cold-read PASS) | **272** | **46.6%** |
+| TOUCHED (edit, full read pending) | 23 | 3.9% |
+| UNREAD | 289 | 49.5% |
 | **TOTAL** | **584** | 100% |
 
-**Cadence:** ~48 pages/session via 4 parallel subagent cold-reads, highest-inbound first. Remaining 339 UNREAD ≈ **~7 more sessions** to full coverage.
+**Cadence:** ~47 pages/session via parallel subagent cold-reads (Read-tool channel, mount-race-free), highest-inbound first. Remaining 289 UNREAD ≈ **~6 more sessions** to full coverage.
 
 ## CONFIRMED VERDICTS LOG
+
+## S86 batch 5–6 finish (slices 3–4 + 25-page top-up = 47 cold-read; 35 apex / 8 PASS / 4 MARGINAL lifted / 0 FAIL) — CONFIRMED
+
+**47 doorways individually cold-read** (1 serialized probe + 6 parallel subagents). **Infra breakthrough:** the singleton-mount race that crippled S85 is a *bash* problem — subagents read reliably via the **Read tool on the absolute macOS path**, so parallel dispatch is safe and the race is sidestepped entirely. **35 PASS-apex / 8 PASS / 4 MARGINAL (all lifted in-session) / 0 FAIL.** Coverage **225 → 272 / 584 CONFIRMED (46.6%)**.
+
+**Slice 3a (5 apex):** systematic-resurrection (TWO inline ESV leaks fixed — Rom 1:4 "declared…to be the Son of God"→NIV 2011 "appointed the Son of God in power"; Heb 2:14 "destroy[ed] him who holds the power of death"→NIV "break the power of him who holds the power of death — that is, the devil"), systematic-union-with-christ ("ontologically relocated"), testimony-bunyan, testimony-luther, theologian-bunyan.
+
+**Slice 3b (5 apex):** theologian-warfield ("we measure our faithfulness… the way short men measure height against shorter men"), analogy-doctor-corpse ("Cooperation with resurrection is a contradiction in terms"), apologetic-perseverance ("You were never held by your grip. You were held by His"), compare-grace-reformed-vs-arminian ("The handwriting is a marketing budget"), devotional-glory-of-divine-choice ("a theological pickpocket… quietly pocketing the credit").
+
+**Slice 4 (12): 8 apex / 3 PASS / 1 MARGINAL(lifted).** apex: devotional-i-cant-feel-god, objection-free-will, objection-robots (+11 trailing-.html in-prose hrefs normalized to extensionless), philosophy-gravity-of-grace, psychology-reactance-theory, response-william-lane-craig, start-here-phase2, apologetic-tetagmenoi-acts-13-48. PASS: joy-in-suffering, psychology-backfire-effect, shattered-lens-lost-community. **MARGINAL lifted:** objection-evangelism-pointless (2 Tim 2:10 ESV "that they also may obtain… with eternal glory"→NIV 2011 "that they too may obtain… Christ Jesus, with eternal glory").
+
+**Top-up (25): 17 apex / 4 PASS / 3 MARGINAL(lifted) + 1 PASS (canons-of-dort, reference register).** apex: broken-mirror-grace-too-good, demolition-ezekiel33-11, objection-manipulation, objection-why-command, open-wound-senseless-death, ot-joseph, philosophy-copernican-revolution, philosophy-munchhausen-trilemma, question-are-arminians-saved, question-seven-questions, resistance-last-idol, response-andy-stanley, secular-billion-decisions, start-here-phase3 (recap "I will cause"→"I will move", matching the displayed NIV Ezek 36 blockquote), systematic-covenant-redemption, testimony-augustine, apologetic-the-mind-that-cannot-submit. PASS: canons-of-dort-plain-english, philosophy-sleep-surrender (Matt 11:28 "all who are weary"→NIV "all you who are weary"), philosophy-theater-script, psychology-addiction-proof, resistance-redefining-grace (typo "should unsettles"→"should unsettle"). **MARGINAL lifted:** demolition-matt23-37 (Matt 23:13 **NRSV** "you lock people out of the kingdom"→NIV 2011 "You shut the door of the kingdom of heaven in people's faces. You yourselves do not enter…"; banned `<cite>NIV</cite>` tag→"Matthew 23:37"; 2 hub-card .html hrefs stripped), invisible-wall-lonely-theological (limp `.cta-section` + a pure-inline-styled "Keep Reading" 3-card grid removed → lands on "You are not invisible. You never have been." before the sanctioned hub-grid + related block), question-is-salvation-my-choice-or-gods (Phil 1:29 ESV "that for the sake of Christ you should not only believe… for his sake"→NIV 2011 "For it has been granted to you on behalf of Christ not only to believe in him, but also to suffer for him" + a **FABRICATED Rom 3:11 in the FAQ JSON-LD** "There is no one who seeks God, no one even one"→NIV "There is no one who understands; there is no one who seeks God").
+
+**The cold read earned its keep a SIXTH consecutive time** — six fidelity defects no scanner sees (sapiential T1=0 / v3 / v4 / validate-site / canonical all green on these pages): an NRSV Matt 23:13, an ESV Phil 1:29, a fabricated Rom 3:11 buried in invisible FAQ JSON-LD, an ESV 2 Tim 2:10, a dropped "you" in Matt 11:28, and two inline ESV citations (Rom 1:4 / Heb 2:14). **NEW SYSTEMIC FINDING:** the FAQPage JSON-LD layer hides verse leaks no visual cold-read catches → **Cycle-20 = a site-wide grep of FAQ schema for ESV/garbled verse text.**
 
 ## S85 batch 5 (PARTIAL — slices 1–2 of 4 cold-read + 2 self-reads; 26 newly CONFIRMED) — CONFIRMED
 
@@ -56,15 +70,13 @@
 
 **48 PASS / 0 FAIL** (≈31 apex, 10 PASS, 7 MARGINAL all lifted in-session). The lifts: `systematic-trinity` (Matt 28:19 ESV "Go therefore"→NIV 2011 "Therefore go"); `philosophy-problem-of-merit` (double-`??` typo in the 1 Cor 4:7 pull-quote); `philosophy-phantom-limb-free-will` (footer structural rot — orphan `</article>`, stray `<article>` wrapping the footer, empty `<li>`, spurious `</div>` — removed; validators green; bespoke `<main>` body left intact as a VOICE.md founding masterpiece); `psychology-identity-threat` (§XVI deepening — rewrote the Kahan + TMT blocks out of flat textbook-report register into the felt seeing-through register, recast the "theology department / public relations" applause quip into "the verdict would fall on the judge", thickened the protagonist→beloved catch). Four MARGINALs cleared by Aaron's S82 ruling that the **author-persona / first-person "I" is sanctioned site-wide** (`devotional-joy-of-election`, `invisible-wall-friend-who-left`, `psychology-pride-root-objection` persona refs) plus the `anxious-mind-*` §VI clock carveout (`anxious-mind-scrupulosity`). Notable apex: romans-8-28-39, objection-responsibility, romans-3-10-18, systematic-theology-proper, question-psalm139, psychology-anosognosia-of-sin, question-dead-in-sin-meaning, history-luther, history-augustine-pelagius, philosophy-self-deception, secular-recovery-total-depravity, ot-jeremiah, demolition-works-righteousness, broken-mirror-sin-you-repeat, love-letter-before-time, systematic-providence, my-chains-fell-away, for-pastors, start-here-phase1, question-john17, history-dort, question-john15, theologian-luther, question-book-of-life, history-decision-theology, apologetic-lydias-heart, theologian-whitefield, apologetic-ekloge-the-greek-of-election, history-great-awakening. Soft notes (no action): question-born-again-meaning "Brilliant Connection" box header is mild self-praise (future polish); broken-mirror-vessels-for-mercy leans on Cohen's "cracks…light gets in" (future re-forge); psychology-pride-root "whispers at 3 AM" is Pride/Grace personification, not reader-crisis-framing (kept).
 
-## BATCH 5 — slices 1–2 DONE (S85); slices 3–4 carry to S86
+## BATCH 7 — S87 starting queue (next 48 non-CONF by inbound)
 
-S85 completed slices 1–2 (24 pages, all CONFIRMED) + self-read question-ephesians1 & systematic-reprobation (out of slice 3). **Slices 3–4 below are the S86 starting queue** (drop the two already-confirmed slice-3 pages and top up to a full 48 with the next-highest-inbound UNREAD). Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubber-stamp; verify EVERY cited verse — incl. `<blockquote>`/scripture-block text — word-for-word vs NIV 2011, the S84 leak-zone). Serialize subagent bash (one call at a time) — the mount is a singleton and parallel dispatch caused hard "already running" failures in S85.
+Batches 5–6 are DONE (S85 slices 1–2 = 26; S86 slices 3–4 + 25-page top-up = 47). The next 48 highest-inbound non-CONF doorways are below. **The top four are high-inbound TOUCHED pages still awaiting a full cold-read — `question-faithgift` chief among them at 405 inbound, the 2nd-most-linked page on the entire site.** Recompute live from `sapiential-audit-report.txt` to confirm, skipping any slug on a CONFIRMED line.
 
-- **Slice 1** (12) — DONE S85, CONFIRMED
-- **Slice 2** (12) — DONE S85, CONFIRMED
-- **Slice 3** (10 remaining; ephesians1 + reprobation done): systematic-resurrection, systematic-union-with-christ, testimony-bunyan, testimony-luther, theologian-bunyan, theologian-warfield, analogy-doctor-corpse, apologetic-perseverance, compare-grace-reformed-vs-arminian, devotional-glory-of-divine-choice
-- **Slice 4** (12): devotional-i-cant-feel-god, joy-in-suffering, objection-evangelism-pointless, objection-free-will, objection-robots, philosophy-gravity-of-grace, psychology-backfire-effect, psychology-reactance-theory, response-william-lane-craig, shattered-lens-lost-community, start-here-phase2, apologetic-tetagmenoi-acts-13-48
-- **S86 top-up (next-highest-inbound UNREAD, ~26 to refill toward 48):** recompute live from `sapiential-audit-report.txt` inbound order, skipping every slug on a CONFIRMED line in this ledger.
+question-faithgift, question-foreknowledge, question-goldchain, demolition-philippians2-12-13, demolition-faith-is-not-a-gift, demolition-acts17-30, demolition-romans10-9, compare-every-decision-point, demolition-galatians5-4, demolition-john12-32, demolition-romans2-4, demolition-titus2-11, devotional-when-god-says-no, ethics-abortion, history-every-revival-sovereign-grace, history-heresy-free-will, open-wound-sovereignty-in-grief, psychology-language-acquisition, question-1peter1, question-does-god-love-everyone-equally, question-pharaoh-hardened, question-titus3, question-unconditional, question-why-does-god-choose-some-not-others, response-dave-hunt, response-jerry-walls, scripture-tsunami-faith-as-gift, shattered-lens-pastor, systematic-bibliology, apologetic-the-prayer-you-never-spontaneously-prayed, apologetic-those-you-gave-me, demolition-steel-man-arminianism, devotional-i-dont-think-im-saved, devotional-the-quiet-after-the-storm, devotional-when-pride-dies, found-you, history-dort-deep, invisible-wall-spiritual-envy, joy-staggering-contrast, just-realized, objection-love, objection-why-not-save-everyone, open-wound-empty-nursery, philosophy-exclusive-love, philosophy-marriage-election, philosophy-observer-effect-sin, philosophy-what-if-wrong, psychology-attribution-error
+
+Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubber-stamp). Verify EVERY cited verse — `<blockquote>`/scripture-block text, prose-embedded inline citations, AND **FAQPage JSON-LD** (the S86 leak-zone: invisible schema verses no visual read catches) — word-for-word vs NIV 2011. Subagents read via the **Read tool on the absolute path** `/Users/aaronforman/Documents/adoptedbygracewebsite/<slug>.html` — the file-tool channel works for subagents and is parallel-safe (no bash-mount race).
 
 ## FULL UNIVERSE — 584 prose pages, by inbound (the read-order)
 
@@ -268,86 +280,86 @@ S85 completed slices 1–2 (24 pages, all CONFIRMED) + self-read question-ephesi
 [ 17][L][1564w] CONF  question-am-i-chosen
 [ 17][L][1679w] CONF  question-how-grace-feels
 [ 17][L][4758w] CONF  response-sbc-traditional-statement
-[ 17][L][1777w]   -   shattered-lens-silence-of-god
+[ 17][L][1777w] CONF  shattered-lens-silence-of-god
 [ 17][L][2614w] CONF  systematic-sanctification
 [ 17][L][1686w] CONF  testimony-spurgeon
-[ 16][L][1934w]   -   compare-calvinism-catholic-soteriology
-[ 16][L][2814w]   -   compare-calvinism-molinism
-[ 16][L][1610w]   -   devotional-dead-who-live
-[ 16][L][1947w]   -   devotional-good-i-cannot-do
-[ 16][L][1859w]   -   devotional-held-without-asking
-[ 16][L][2083w]   -   objection-author-of-sin
-[ 16][L][2422w]   -   open-wound-betrayed-by-church
-[ 16][L][1370w]   -   open-wound-miscarriage
-[ 16][L][1958w]   -   ot-job
-[ 16][L][1592w]   -   psychology-sincerity-trap
-[ 16][L][1494w]   -   question-external-internal-call
-[ 16][L][2610w]   -   question-sovereignty-logic
-[ 16][L][1841w]   -   shattered-lens-bible-doesnt-make-sense
-[ 16][L][1505w]   -   shattered-lens-cant-unsee-it
-[ 16][L][2061w]   -   start-here-phase5
-[ 16][L][1677w]   -   testimony-newton
+[ 16][L][1934w] CONF  compare-calvinism-catholic-soteriology
+[ 16][L][2814w] CONF  compare-calvinism-molinism
+[ 16][L][1610w] CONF  devotional-dead-who-live
+[ 16][L][1947w] CONF  devotional-good-i-cannot-do
+[ 16][L][1859w] CONF  devotional-held-without-asking
+[ 16][L][2083w] CONF  objection-author-of-sin
+[ 16][L][2422w] CONF  open-wound-betrayed-by-church
+[ 16][L][1370w] CONF  open-wound-miscarriage
+[ 16][L][1958w] CONF  ot-job
+[ 16][L][1592w] CONF  psychology-sincerity-trap
+[ 16][L][1494w] CONF  question-external-internal-call
+[ 16][L][2610w] CONF  question-sovereignty-logic
+[ 16][L][1841w] CONF  shattered-lens-bible-doesnt-make-sense
+[ 16][L][1505w] CONF  shattered-lens-cant-unsee-it
+[ 16][L][2061w] CONF  start-here-phase5
+[ 16][L][1677w] CONF  testimony-newton
 [ 15][L][2958w] CONF  analogy-chess-grandmaster
-[ 15][L][5057w]   -   apologetic-the-cardiology-of-the-fall
-[ 15][L][2350w]   -   broken-mirror-imposter-syndrome
-[ 15][L][1713w]   -   demolition-1john2-2
-[ 15][L][2724w]   -   demolition-2cor5-14-15
+[ 15][L][5057w] CONF  apologetic-the-cardiology-of-the-fall
+[ 15][L][2350w] CONF  broken-mirror-imposter-syndrome
+[ 15][L][1713w] CONF  demolition-1john2-2
+[ 15][L][2724w] CONF  demolition-2cor5-14-15
 [ 15][L][1808w] touch demolition-acts17-30
 [ 15][L][1806w] touch demolition-romans10-9
-[ 15][L][2989w]   -   philosophy-infinite-regress-of-choice
-[ 15][L][2225w]   -   psychology-comfort-self-salvation
-[ 15][L][2110w]   -   question-cannot
-[ 15][L][3151w]   -   question-ephesians1
-[ 15][L][6405w]   -   systematic-reprobation
-[ 15][L][1608w]   -   systematic-resurrection
-[ 15][L][3074w]   -   systematic-union-with-christ
-[ 15][L][1628w]   -   testimony-bunyan
-[ 15][L][1663w]   -   testimony-luther
-[ 15][L][1974w]   -   theologian-bunyan
-[ 15][L][1545w]   -   theologian-warfield
-[ 14][L][2219w]   -   analogy-doctor-corpse
-[ 14][L][1834w]   -   apologetic-perseverance
-[ 14][L][2639w]   -   compare-grace-reformed-vs-arminian
-[ 14][L][1165w]   -   devotional-glory-of-divine-choice
-[ 14][L][2529w]   -   devotional-i-cant-feel-god
+[ 15][L][2989w] CONF  philosophy-infinite-regress-of-choice
+[ 15][L][2225w] CONF  psychology-comfort-self-salvation
+[ 15][L][2110w] CONF  question-cannot
+[ 15][L][3151w] CONF  question-ephesians1
+[ 15][L][6405w] CONF  systematic-reprobation
+[ 15][L][1608w] CONF  systematic-resurrection
+[ 15][L][3074w] CONF  systematic-union-with-christ
+[ 15][L][1628w] CONF  testimony-bunyan
+[ 15][L][1663w] CONF  testimony-luther
+[ 15][L][1974w] CONF  theologian-bunyan
+[ 15][L][1545w] CONF  theologian-warfield
+[ 14][L][2219w] CONF  analogy-doctor-corpse
+[ 14][L][1834w] CONF  apologetic-perseverance
+[ 14][L][2639w] CONF  compare-grace-reformed-vs-arminian
+[ 14][L][1165w] CONF  devotional-glory-of-divine-choice
+[ 14][L][2529w] CONF  devotional-i-cant-feel-god
 [ 14][L][1774w] CONF  history-apostolic
-[ 14][L][1699w]   -   joy-in-suffering
-[ 14][L][1534w]   -   objection-evangelism-pointless
-[ 14][L][3678w]   -   objection-free-will
-[ 14][L][1805w]   -   objection-robots
-[ 14][L][2640w]   -   philosophy-gravity-of-grace
-[ 14][L][1610w]   -   psychology-backfire-effect
-[ 14][L][1525w]   -   psychology-reactance-theory
-[ 14][L][4153w]   -   response-william-lane-craig
-[ 14][L][1533w]   -   shattered-lens-lost-community
-[ 14][L][1736w]   -   start-here-phase2
-[ 13][L][5097w]   -   apologetic-tetagmenoi-acts-13-48
-[ 13][L][2015w]   -   broken-mirror-grace-too-good
-[ 13][L][8328w]   -   canons-of-dort-plain-english
-[ 13][L][2037w]   -   demolition-ezekiel33-11
-[ 13][L][1566w]   -   demolition-matt23-37
-[ 13][L][1408w]   -   invisible-wall-lonely-theological
-[ 13][L][1931w]   -   objection-manipulation
-[ 13][L][2092w]   -   objection-why-command
-[ 13][L][3091w]   -   open-wound-senseless-death
-[ 13][L][2236w]   -   ot-joseph
+[ 14][L][1699w] CONF  joy-in-suffering
+[ 14][L][1534w] CONF  objection-evangelism-pointless
+[ 14][L][3678w] CONF  objection-free-will
+[ 14][L][1805w] CONF  objection-robots
+[ 14][L][2640w] CONF  philosophy-gravity-of-grace
+[ 14][L][1610w] CONF  psychology-backfire-effect
+[ 14][L][1525w] CONF  psychology-reactance-theory
+[ 14][L][4153w] CONF  response-william-lane-craig
+[ 14][L][1533w] CONF  shattered-lens-lost-community
+[ 14][L][1736w] CONF  start-here-phase2
+[ 13][L][5097w] CONF  apologetic-tetagmenoi-acts-13-48
+[ 13][L][2015w] CONF  broken-mirror-grace-too-good
+[ 13][L][8328w] CONF  canons-of-dort-plain-english
+[ 13][L][2037w] CONF  demolition-ezekiel33-11
+[ 13][L][1566w] CONF  demolition-matt23-37
+[ 13][L][1408w] CONF  invisible-wall-lonely-theological
+[ 13][L][1931w] CONF  objection-manipulation
+[ 13][L][2092w] CONF  objection-why-command
+[ 13][L][3091w] CONF  open-wound-senseless-death
+[ 13][L][2236w] CONF  ot-joseph
 [ 13][L][2137w] CONF  philosophy-bootstrap-paradox
-[ 13][L][2125w]   -   philosophy-copernican-revolution
-[ 13][L][1804w]   -   philosophy-munchhausen-trilemma
-[ 13][L][3553w]   -   philosophy-sleep-surrender
-[ 13][L][1473w]   -   philosophy-theater-script
-[ 13][L][1310w]   -   psychology-addiction-proof
-[ 13][L][2115w]   -   question-are-arminians-saved
-[ 13][L][1388w]   -   question-is-salvation-my-choice-or-gods
-[ 13][L][3342w]   -   question-seven-questions
-[ 13][L][2280w]   -   resistance-last-idol
-[ 13][L][2919w]   -   resistance-redefining-grace
-[ 13][L][4669w]   -   response-andy-stanley
-[ 13][L][2006w]   -   secular-billion-decisions
-[ 13][L][1693w]   -   start-here-phase3
-[ 13][L][4280w]   -   systematic-covenant-redemption
-[ 13][L][1632w]   -   testimony-augustine
-[ 12][L][2993w]   -   apologetic-the-mind-that-cannot-submit
+[ 13][L][2125w] CONF  philosophy-copernican-revolution
+[ 13][L][1804w] CONF  philosophy-munchhausen-trilemma
+[ 13][L][3553w] CONF  philosophy-sleep-surrender
+[ 13][L][1473w] CONF  philosophy-theater-script
+[ 13][L][1310w] CONF  psychology-addiction-proof
+[ 13][L][2115w] CONF  question-are-arminians-saved
+[ 13][L][1388w] CONF  question-is-salvation-my-choice-or-gods
+[ 13][L][3342w] CONF  question-seven-questions
+[ 13][L][2280w] CONF  resistance-last-idol
+[ 13][L][2919w] CONF  resistance-redefining-grace
+[ 13][L][4669w] CONF  response-andy-stanley
+[ 13][L][2006w] CONF  secular-billion-decisions
+[ 13][L][1693w] CONF  start-here-phase3
+[ 13][L][4280w] CONF  systematic-covenant-redemption
+[ 13][L][1632w] CONF  testimony-augustine
+[ 12][L][2993w] CONF  apologetic-the-mind-that-cannot-submit
 [ 12][L][1722w]   -   compare-every-decision-point
 [ 12][L][1857w]   -   demolition-galatians5-4
 [ 12][L][1370w]   -   demolition-john12-32
@@ -403,7 +415,7 @@ S85 completed slices 1–2 (24 pages, all CONFIRMED) + self-read question-ephesi
 [ 11][L][3822w]   -   systematic-common-grace
 [ 11][-][1448w]   -   testimony-wall
 [ 10][L][2132w]   -   analogy-orchestra
-[ 10][L][1812w]   -   anxious-mind-brain-decides
+[ 10][L][1812w] touch anxious-mind-brain-decides
 [ 10][L][2204w]   -   anxious-mind-fear-of-hell
 [ 10][L][2233w]   -   apologetic-he-bore-the-sin-of-many
 [ 10][L][3869w]   -   apologetic-not-because-but-because
@@ -580,7 +592,7 @@ S85 completed slices 1–2 (24 pages, all CONFIRMED) + self-read question-ephesi
 [  5][L][3084w]   -   question-arminian-steelman
 [  5][L][2833w]   -   question-visual-theology
 [  5][L][2273w]   -   reformed-apologetics-transcendental
-[  5][L][3204w]   -   story-children-the-king-who-chose
+[  5][L][3204w] touch story-children-the-king-who-chose
 [  5][L][2397w]   -   story-surgeon-stone-heart
 [  5][L][1783w]   -   story-tender-the-gardener-who-waited
 [  5][L][1915w]   -   story-the-fish-who-chose-the-ocean
@@ -611,7 +623,7 @@ S85 completed slices 1–2 (24 pages, all CONFIRMED) + self-read question-ephesi
 [  4][L][2472w]   -   reformed-apologetics-consciousness
 [  4][L][2620w]   -   reformed-apologetics-fine-tuning
 [  4][L][2145w]   -   reformed-apologetics-moral-argument
-[  4][L][2811w]   -   scripture-tsunami-sovereignty
+[  4][L][2811w] touch scripture-tsunami-sovereignty
 [  4][L][1453w]   -   story-cross-examination
 [  4][L][1823w]   -   story-humor-the-man-who-sued-god
 [  4][L][2022w]   -   story-thought-the-god-who-let-you-watch

@@ -2,14 +2,14 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-05-31T05:29:45.825Z",
+  "generated": "2026-05-31T14:18:34.096Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 589,
     "total_redundancy_pairs_flagged": 12,
     "total_sentences_flagged": 1281,
     "total_redundancy_pairs_suppressed": 20,
-    "total_sentences_suppressed": 183,
+    "total_sentences_suppressed": 182,
     "articles_with_redundancy": 12,
     "articles_with_flagged_sentences": 439,
     "articles_clean": 144,
@@ -10644,7 +10644,7 @@
     },
     {
       "file": "invisible-wall-lonely-theological.html",
-      "paragraphs": 46,
+      "paragraphs": 42,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -14920,20 +14920,11 @@
         }
       ],
       "suppressed_redundancy": [],
-      "suppressed_sentences": [
-        {
-          "paragraph": 12,
-          "sentence_index": 0,
-          "suppressed_flags": [
-            "length-suppressed-chiasm:appointment,fruit,determines,appointing"
-          ],
-          "preview": "And the appointment has a purpose: hina (in order that)  —  \"that you should go and bear fruit, and that your fruit shou"
-        }
-      ],
+      "suppressed_sentences": [],
       "redundancy_count": 0,
       "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1,
+      "suppressed_sentence_count": 0,
       "score": 2
     },
     {
