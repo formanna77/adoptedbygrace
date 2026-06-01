@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-05-31T22:52:08.252Z",
+  "generated": "2026-06-01T16:01:52.056Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 589,
     "total_redundancy_pairs_flagged": 12,
-    "total_sentences_flagged": 1282,
+    "total_sentences_flagged": 1281,
     "total_redundancy_pairs_suppressed": 20,
     "total_sentences_suppressed": 182,
     "articles_with_redundancy": 12,
-    "articles_with_flagged_sentences": 439,
-    "articles_clean": 144,
+    "articles_with_flagged_sentences": 438,
+    "articles_clean": 145,
     "suppression_by_class": {
       "scripture-tsunami": 11,
       "pedagogical-anaphora": 2,
@@ -10569,11 +10569,11 @@
     },
     {
       "file": "history-today.html",
-      "paragraphs": 19,
+      "paragraphs": 18,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 18,
+          "paragraph": 17,
           "sentence_index": 0,
           "flags": [
             "long:48w"
@@ -10665,11 +10665,11 @@
     },
     {
       "file": "invisible-wall-marriage.html",
-      "paragraphs": 44,
+      "paragraphs": 43,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 2,
+          "paragraph": 1,
           "sentence_index": 4,
           "flags": [
             "padding-modifier:in the dark"
@@ -10677,7 +10677,7 @@
           "preview": "But the God they are addressing  —  the one who waits for human initiative, who offers and hopes, who sets the table but never seats the guests  —  is not the God who found you in the dark and seated "
         },
         {
-          "paragraph": 42,
+          "paragraph": 41,
           "sentence_index": 1,
           "flags": [
             "padding-modifier:in the silence"
@@ -14822,23 +14822,14 @@
       "file": "question-is-predestination-in-the-bible.html",
       "paragraphs": 30,
       "redundancy_pairs": [],
-      "flagged_sentences": [
-        {
-          "paragraph": 15,
-          "sentence_index": 1,
-          "flags": [
-            "long:55w"
-          ],
-          "preview": "And all inhabitants of the earth will worship the beast  —  all whose names have not been written in the book of life of the Lamb that was slain from the creation of the world .\" (13:8) John sees that"
-        }
-      ],
+      "flagged_sentences": [],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 0
     },
     {
       "file": "question-is-salvation-my-choice-or-gods.html",

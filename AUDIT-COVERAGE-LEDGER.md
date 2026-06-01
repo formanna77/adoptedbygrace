@@ -8,14 +8,26 @@
 
 | Status | Count | % of 584 |
 |---|---|---|
-| **CONFIRMED** (cold-read PASS) | **368** | **63.0%** |
-| TOUCHED (edit, full read pending) | 13 | 2.2% |
-| UNREAD | 203 | 34.8% |
+| **CONFIRMED** (cold-read PASS) | **416** | **71.2%** |
+| TOUCHED (edit, full read pending) | 11 | 1.9% |
+| UNREAD | 157 | 26.9% |
 | **TOTAL** | **584** | 100% |
 
-**Cadence:** ~47 pages/session via parallel subagent cold-reads (Read-tool channel, mount-race-free), highest-inbound first. Remaining 203 UNREAD ≈ **~4 more sessions** to full coverage.
+**Cadence:** ~47 pages/session via parallel subagent cold-reads (Read-tool channel, mount-race-free), highest-inbound first. Remaining 157 UNREAD ≈ **~3-4 more sessions** to full coverage.
 
 ## CONFIRMED VERDICTS LOG
+
+## S89 batch 9 (48 highest-inbound non-CONF, 7 parallel subagent slices) — CONFIRMED
+
+**38 PASS-apex / 5 PASS / 5 MARGINAL / 0 FAIL — all defective pages lifted in-session; 48/48 now CONFIRMED.** Coverage **368 → 416 / 584 (71.2%)**. The cold read earned its keep a **NINTH** consecutive time — defects no scanner sees (sapiential T1=0, v3/v4, validate-site, canonical all green on these pages).
+
+**The 5 MARGINALs (all lifted):** `history-today` — body was competent magazine-survey journalism with the wisdom back-loaded; rebuilt around a **§XVII new-ground frame** (the internet drove access to the truth to near-zero cost across the whole earth, a planetary natural experiment that holds access constant and finds the *seeing* still unequal — controlling for intelligence, exposure, and culture, leaving only *gift* as the explanation), wisdom now governs the whole piece; 21 verified internal links, Jude 24-25 doxology preserved. `demolition-arianism` — **factual error in the apex scene-setter**: "Constantinople, 4th century" → "Alexandria, early fourth century" (Arius was the presbyter of Alexandria; the controversy began ~318; Constantinople was not founded until 330 — verified via Britannica/EWTN). `invisible-wall-marriage` — **structural rebuild**: a `<header>` nested inside `<article>` + a doubled `<div class="container article-body">` + a redundant legacy `.keep-reading`/`.card` wall (the page already carried the canonical related-articles section AND an article-continue-journey hub-grid); normalized to hero-as-sibling + single `article-body`, removed the redundant card wall (div 34/34, article 1/1, section 1/1 asserted via anchored Python). `demolition-acts7-51` — **Acts 7:51 clause-ORDER swap** (page had "You always resist the Holy Spirit! You are just like your ancestors" → NIV 2011 "You are just like your ancestors: You always resist the Holy Spirit!") + Ezek 37:5 "I will cause breath to enter you" → NIV "I will make breath enter you" (this is a direct Ezek 37:5 citation, NOT the sanctioned Ezek 36:27 hiphil gloss). `question-is-predestination-in-the-bible` — **two book-NAME mislabels** on the verse-catalogue (a Psalm 90:2-3 quote labeled "In Isaiah:" → replaced with the actual Isaiah 46:9-10 "I make known the end from the beginning," which makes the heading true *and* proves the page's point; an Ephesians 1:4-5 quote labeled "Genesis 1:" → relabeled "Ephesians 1:") + Eph 1:11 dropped "In him" (restored) + Rev 13:8 ESV word-order ×2 → NIV "the Lamb's book of life, the Lamb who was slain" + a §XVI wisdom-lift (the flat enumeration-summary recast into the seeing-through turn: the arrow points one way in every text, a pattern-with-no-exceptions is "the grain of the wood," and the reader is invited to fail to find the counterexample).
+
+**Fan-Out Cycle 22 (tag-stripped ESV sweep, site-wide beyond the 48):** caught **2 flagship-page leaks invisible to scanners** — `scripture-tsunami` (#1-inbound, 657 in): Heb 12:1-2 verse-data rendered NIV-1984/ESV "a great cloud… Let us fix… the author and perfecter of our faith" while the same file's JS verse object already had the 2011 "pioneer and perfecter" (internal contradiction) → corrected verse text + commentary gloss to NIV 2011 "such a great cloud… fixing our eyes… the pioneer and perfecter of faith"; `question-where-did-your-faith-come-from`: Phil 1:29 in the **FAQ JSON-LD** read ESV "you should not only believe in him but also suffer for his sake" while the visible blockquote was correct NIV → aligned the schema to NIV 2011 "not only to believe in him, but also to suffer for him." Also fixed `devotional-you-are-not-the-hero` (1 Cor 1:31 prose "So then, whoever boasts, should boast in the Lord" → NIV "Let the one who boasts boast in the Lord"; stale "author and perfecter" keyword-meta → "pioneer and perfecter"). The card-wall grep (part b) found 6 files with `<div style="background:` but all are single styled callout boxes, NOT the banned testimony-wall card-grid pattern — no regression. The three §XV carveouts held (theopneustos "breathed out by God", Westminster KJV "LORD of hosts", scripture-tsunami epitelesei "bring to completion").
+
+**Verification discipline (false-positives averted):** every flagged verse verified against the authoritative NIV 2011 (Bible Gateway / Bible Hub / YouVersion) BEFORE editing — John 5:25 ("a time is coming and has now come," not ESV "an hour…is now here"), Rev 13:8 word-order, Ezek 37:5 ("make"), Acts 7:51 clause-order, Psalm 90 vs Isaiah, 1 Cor 1:31, Heb 12:1-2 all confirmed. The "guarded by God" hits on `apologetic-kept-by-the-power-of-god` were checked and left untouched — the verse quote correctly reads "shielded by God's power"; "guarded/garrison" is the page's own *phroureo* exegetical gloss, not a misquote. The 21 limit-failed-then-retried pages also passed a site-wide scripture/emoji/version-tag safety-net grep before the cold-read retries confirmed them.
+
+**Systemic patterns (S89):** (1) **NIV clause-ORDER (not just word choice) is a distinct leak class** — Acts 7:51 was word-perfect NIV but with the final two clauses swapped; raw ESV-word greps miss this. (2) **Verse-catalogue pages carry book-NAME mislabels** — question-is-predestination labeled a Psalm "Isaiah" and an Ephesians text "Genesis," a credibility kill on a site whose thesis is "open your own Bible and look." (3) **The #1-inbound flagship still hid a 1984 verse** in JS verse-data (scripture-tsunami Heb 12:2) — the Cycle-21/22 tag-stripped sweep reaches JS strings raw grep splits; keep running it. (4) **"Eloquent-but-not-wiser" remains the live §XVI failure mode** — history-today was the lone page that passed force + scripture and still failed the wisdom bar (survey journalism); the fix was a generative new-ground reframe, not polish. (5) **The infra held a NINTH time:** parallel Read-tool subagents, zero mount contention; the only friction was an account-level subagent rate-limit that nulled 3 of 7 slices on first dispatch — re-dispatched after a brief wait, all returned.
 
 ## S88 batch 8 (48 highest-inbound non-CONF, 7 parallel subagent slices) — CONFIRMED
 
@@ -98,13 +110,13 @@
 
 **48 PASS / 0 FAIL** (≈31 apex, 10 PASS, 7 MARGINAL all lifted in-session). The lifts: `systematic-trinity` (Matt 28:19 ESV "Go therefore"→NIV 2011 "Therefore go"); `philosophy-problem-of-merit` (double-`??` typo in the 1 Cor 4:7 pull-quote); `philosophy-phantom-limb-free-will` (footer structural rot — orphan `</article>`, stray `<article>` wrapping the footer, empty `<li>`, spurious `</div>` — removed; validators green; bespoke `<main>` body left intact as a VOICE.md founding masterpiece); `psychology-identity-threat` (§XVI deepening — rewrote the Kahan + TMT blocks out of flat textbook-report register into the felt seeing-through register, recast the "theology department / public relations" applause quip into "the verdict would fall on the judge", thickened the protagonist→beloved catch). Four MARGINALs cleared by Aaron's S82 ruling that the **author-persona / first-person "I" is sanctioned site-wide** (`devotional-joy-of-election`, `invisible-wall-friend-who-left`, `psychology-pride-root-objection` persona refs) plus the `anxious-mind-*` §VI clock carveout (`anxious-mind-scrupulosity`). Notable apex: romans-8-28-39, objection-responsibility, romans-3-10-18, systematic-theology-proper, question-psalm139, psychology-anosognosia-of-sin, question-dead-in-sin-meaning, history-luther, history-augustine-pelagius, philosophy-self-deception, secular-recovery-total-depravity, ot-jeremiah, demolition-works-righteousness, broken-mirror-sin-you-repeat, love-letter-before-time, systematic-providence, my-chains-fell-away, for-pastors, start-here-phase1, question-john17, history-dort, question-john15, theologian-luther, question-book-of-life, history-decision-theology, apologetic-lydias-heart, theologian-whitefield, apologetic-ekloge-the-greek-of-election, history-great-awakening. Soft notes (no action): question-born-again-meaning "Brilliant Connection" box header is mild self-praise (future polish); broken-mirror-vessels-for-mercy leans on Cohen's "cracks…light gets in" (future re-forge); psychology-pride-root "whispers at 3 AM" is Pride/Grace personification, not reader-crisis-framing (kept).
 
-## BATCH 9 — S89 starting queue (next 48 non-CONF by inbound)
+## BATCH 10 — S90 starting queue (next 48 non-CONF by inbound)
 
-Batch 8 is DONE (S88: 48 cold-read — 40 apex / 6 PASS / 2 MARGINAL, all defective pages lifted in-session). The next 48 highest-inbound non-CONF doorways are below. **Recompute live from `sapiential-audit-report.txt` to confirm, skipping any slug on a CONFIRMED line.** Coverage after S88: **368/584 (63.0%)**; 203 UNREAD + 13 TOUCHED remain ≈ ~4–5 sessions to 100%.
+Batch 9 is DONE (S89: 48 cold-read — 38 apex / 5 PASS / 5 MARGINAL, all defective pages lifted in-session; 0 FAIL). The next 48 highest-inbound non-CONF doorways are below. **Recompute live from `sapiential-audit-report.txt` to confirm, skipping any slug on a CONFIRMED line.** Coverage after S89: **416/584 (71.2%)**; 157 UNREAD + 11 TOUCHED remain ≈ ~3–4 sessions to 100%. Queue inbound tier: 8 → 7.
 
-theologian-bradwardine, theologian-lloydjones, apologetic-babies, apologetic-save-his-people, argument-logical-collapse-arminianism, creed-canons-dort, demolition-acts7-51, demolition-arminian-facts, demolition-joshua24-15, demolition-matthew-23-37, devotional-cold-church, history-calvin-geneva, history-heresy-foreknowledge, history-today, invisible-wall-family, invisible-wall-marriage, joy-worship-without-ceiling, objection-unfair-to-choose-some, ot-abraham, ot-election, philosophy-adam-test, psychology-language-you-already-speak, psychology-sunk-cost-faith, question-calvinist-on-knees, question-dead-bury-dead, question-is-predestination-in-the-bible, question-matt11, response-norman-geisler, secular-genetics-sovereignty, story-real-conversions, systematic-imputation, the-fork, the-objection-collapse, anxious-mind-intrusive-thoughts, apologetic-kept-by-the-power-of-god, apologetic-the-conscience-that-only-accuses, apologetic-the-road-to-damascus, counter-cs-lewis-free-will, creed-heidelberg-catechism, demolition-1peter1-5, demolition-2peter3-15, demolition-arianism, demolition-hebrews2-9, devotional-the-first-prayer-after-surrender, devotional-the-ground-disappeared, devotional-you-are-not-the-hero, ethics-end-of-life, history-20th-century
+history-golden-thread, history-open-theism, open-wound-terminal-diagnosis, philosophy-godel-incompleteness, psychology-groupthink, question-dead-man-visual, question-every-conversion-acts, question-parables, question-what-is-sovereign-grace, secular-history-sovereignty, story-historical-luther-storm, story-humor-committee-to-save-yourself, story-the-kings-banquet, story-the-room-where-you-chose, story-thought-the-machine-that-asked-why, systematic-federal-headship, systematic-glorification, systematic-perseverance, theologian-machen, word-study-every-all, analogy-song-you-didnt-compose, apologetic-god-works-the-willing, apologetic-he-is-faithful, apologetic-his-own-purpose-and-grace, apologetic-i-shall-lose-none, apologetic-you-did-not-choose-me, argument-five-points-vs-five-articles, demolition-2peter2-1, demolition-hebrews10-26, demolition-jude21, demolition-romans11-32, history-korean-revival, invisible-wall-only-one-who-sees, objection-babies, objection-why-evangelize, objection-why-pray, philosophy-immune-system-grace, psychology-terror-management, question-bible-says-sick, secular-economics-depravity, secular-hard-problem-consciousness, story-dark-the-woman-who-earned-her-seat, story-hard-hitting-the-drowning-man, story-humor-the-man-who-tried-to-make-himself-hungry, story-the-letter-before-the-world, story-the-person-who-chose-god, systematic-covenant-works, systematic-faith
 
-Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubber-stamp). Verify EVERY cited verse — `<blockquote>`/scripture-block text, prose-embedded inline citations, AND **FAQPage JSON-LD** — word-for-word vs NIV 2011, with EXTRA scrutiny on (a) mid-paragraph secondary citations of non-headline verses and (b) older-vintage pages (datePublished 2026-01-01) which carry whole-page ESV residue (S88's ot-isaiah-servant). Subagents read via the **Read tool on the absolute path** `/Users/aaronforman/Documents/adoptedbygracewebsite/<slug>.html` — parallel-safe, no bash-mount race.
+Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubber-stamp). Verify EVERY cited verse — `<blockquote>`/scripture-block text, prose-embedded inline citations (INCLUDING quotes split across inline `<em>`/`<a>` tags), AND **FAQPage JSON-LD** — word-for-word vs NIV 2011, with EXTRA scrutiny on (a) mid-paragraph secondary citations of non-headline verses, (b) older-vintage pages (datePublished 2026-01-01) which carry whole-page ESV residue, and (c) **multi-clause verses where the NIV clause-ORDER differs from ESV** (S89's Acts 7:51 — clauses were swapped while every word was NIV) and **book-NAME mislabels on verse-catalogue pages** (S89's question-is-predestination labeled a Psalm "Isaiah" and an Ephesians quote "Genesis"). Subagents read via the **Read tool on the absolute path** `/Users/aaronforman/Documents/adoptedbygracewebsite/<slug>.html` — parallel-safe, no bash-mount race.
 
 ## FULL UNIVERSE — 584 prose pages, by inbound (the read-order)
 
@@ -477,55 +489,55 @@ Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubbe
 [ 10][L][2085w] CONF  the-golden-chain
 [ 10][L][1766w] CONF  the-mirror
 [ 10][L][2621w] CONF  theologian-boston
-[ 10][L][2828w] -     theologian-bradwardine
-[ 10][L][2497w] -     theologian-lloydjones
-[  9][L][2320w] -     apologetic-babies
-[  9][L][1932w] -     apologetic-save-his-people
-[  9][L][4779w] touch argument-logical-collapse-arminianism
-[  9][L][1834w] -     creed-canons-dort
-[  9][L][2704w] touch demolition-acts7-51
-[  9][L][1432w] -     demolition-arminian-facts
-[  9][L][1780w] -     demolition-joshua24-15
-[  9][L][1933w] -     demolition-matthew-23-37
-[  9][L][1786w] -     devotional-cold-church
-[  9][L][1555w] -     history-calvin-geneva
-[  9][L][1847w] -     history-heresy-foreknowledge
-[  9][L][1253w] -     history-today
-[  9][L][1627w] -     invisible-wall-family
-[  9][L][2753w] -     invisible-wall-marriage
-[  9][L][2604w] -     joy-worship-without-ceiling
-[  9][L][2453w] -     objection-unfair-to-choose-some
-[  9][L][2150w] -     ot-abraham
-[  9][L][2867w] -     ot-election
-[  9][L][2225w] -     philosophy-adam-test
-[  9][L][2751w] -     psychology-language-you-already-speak
-[  9][L][1285w] -     psychology-sunk-cost-faith
-[  9][L][1539w] -     question-calvinist-on-knees
-[  9][L][1882w] -     question-dead-bury-dead
-[  9][L][1423w] -     question-is-predestination-in-the-bible
-[  9][L][2063w] -     question-matt11
-[  9][L][3269w] -     response-norman-geisler
-[  9][L][2709w] -     secular-genetics-sovereignty
-[  9][L][1853w] -     story-real-conversions
-[  9][L][2855w] -     systematic-imputation
-[  9][L][1793w] -     the-fork
-[  9][L][1253w] -     the-objection-collapse
-[  8][L][2801w] -     anxious-mind-intrusive-thoughts
-[  8][L][2244w] -     apologetic-kept-by-the-power-of-god
-[  8][L][3052w] -     apologetic-the-conscience-that-only-accuses
-[  8][L][2790w] -     apologetic-the-road-to-damascus
-[  8][L][2649w] -     counter-cs-lewis-free-will
-[  8][L][1885w] -     creed-heidelberg-catechism
-[  8][L][2542w] -     demolition-1peter1-5
-[  8][L][1780w] touch demolition-2peter3-15
-[  8][L][1388w] -     demolition-arianism
-[  8][L][2594w] -     demolition-hebrews2-9
+[ 10][L][2828w] CONF  theologian-bradwardine
+[ 10][L][2497w] CONF  theologian-lloydjones
+[  9][L][2320w] CONF  apologetic-babies
+[  9][L][1932w] CONF  apologetic-save-his-people
+[  9][L][4779w] CONF  argument-logical-collapse-arminianism
+[  9][L][1834w] CONF  creed-canons-dort
+[  9][L][2704w] CONF  demolition-acts7-51
+[  9][L][1432w] CONF  demolition-arminian-facts
+[  9][L][1780w] CONF  demolition-joshua24-15
+[  9][L][1933w] CONF  demolition-matthew-23-37
+[  9][L][1786w] CONF  devotional-cold-church
+[  9][L][1555w] CONF  history-calvin-geneva
+[  9][L][1847w] CONF  history-heresy-foreknowledge
+[  9][L][1253w] CONF  history-today
+[  9][L][1627w] CONF  invisible-wall-family
+[  9][L][2753w] CONF  invisible-wall-marriage
+[  9][L][2604w] CONF  joy-worship-without-ceiling
+[  9][L][2453w] CONF  objection-unfair-to-choose-some
+[  9][L][2150w] CONF  ot-abraham
+[  9][L][2867w] CONF  ot-election
+[  9][L][2225w] CONF  philosophy-adam-test
+[  9][L][2751w] CONF  psychology-language-you-already-speak
+[  9][L][1285w] CONF  psychology-sunk-cost-faith
+[  9][L][1539w] CONF  question-calvinist-on-knees
+[  9][L][1882w] CONF  question-dead-bury-dead
+[  9][L][1423w] CONF  question-is-predestination-in-the-bible
+[  9][L][2063w] CONF  question-matt11
+[  9][L][3269w] CONF  response-norman-geisler
+[  9][L][2709w] CONF  secular-genetics-sovereignty
+[  9][L][1853w] CONF  story-real-conversions
+[  9][L][2855w] CONF  systematic-imputation
+[  9][L][1793w] CONF  the-fork
+[  9][L][1253w] CONF  the-objection-collapse
+[  8][L][2801w] CONF  anxious-mind-intrusive-thoughts
+[  8][L][2244w] CONF  apologetic-kept-by-the-power-of-god
+[  8][L][3052w] CONF  apologetic-the-conscience-that-only-accuses
+[  8][L][2790w] CONF  apologetic-the-road-to-damascus
+[  8][L][2649w] CONF  counter-cs-lewis-free-will
+[  8][L][1885w] CONF  creed-heidelberg-catechism
+[  8][L][2542w] CONF  demolition-1peter1-5
+[  8][L][1780w] CONF  demolition-2peter3-15
+[  8][L][1388w] CONF  demolition-arianism
+[  8][L][2594w] CONF  demolition-hebrews2-9
 [  8][L][1946w] CONF  demolition-mark16-16
-[  8][L][1561w] -     devotional-the-first-prayer-after-surrender
-[  8][L][1962w] -     devotional-the-ground-disappeared
-[  8][L][1626w] -     devotional-you-are-not-the-hero
-[  8][L][2788w] -     ethics-end-of-life
-[  8][L][2732w] -     history-20th-century
+[  8][L][1561w] CONF  devotional-the-first-prayer-after-surrender
+[  8][L][1962w] CONF  devotional-the-ground-disappeared
+[  8][L][1626w] CONF  devotional-you-are-not-the-hero
+[  8][L][2788w] CONF  ethics-end-of-life
+[  8][L][2732w] CONF  history-20th-century
 [  8][L][2282w] -     history-golden-thread
 [  8][L][2231w] -     history-open-theism
 [  8][L][2039w] -     open-wound-terminal-diagnosis
