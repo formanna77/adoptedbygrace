@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-06T05:32:04.814Z",
+  "generated": "2026-06-06T19:24:43.298Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 589,
     "total_redundancy_pairs_flagged": 12,
-    "total_sentences_flagged": 1280,
+    "total_sentences_flagged": 1281,
     "total_redundancy_pairs_suppressed": 20,
-    "total_sentences_suppressed": 183,
+    "total_sentences_suppressed": 184,
     "articles_with_redundancy": 12,
-    "articles_with_flagged_sentences": 438,
-    "articles_clean": 145,
+    "articles_with_flagged_sentences": 439,
+    "articles_clean": 144,
     "suppression_by_class": {
       "scripture-tsunami": 11,
       "pedagogical-anaphora": 2,
@@ -132,11 +132,11 @@
     {
       "file": "ephesians-1-3-14.html",
       "score": 9,
-      "paragraphs": 33,
+      "paragraphs": 35,
       "redundancy_count": 0,
       "flagged_sentence_count": 9,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 3
+      "suppressed_sentence_count": 4
     },
     {
       "file": "reformed-apologetics-fine-tuning.html",
@@ -292,15 +292,6 @@
       "suppressed_sentence_count": 0
     },
     {
-      "file": "ethics-power-authority.html",
-      "score": 7,
-      "paragraphs": 16,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 7,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1
-    },
-    {
       "file": "ot-joseph.html",
       "score": 7,
       "paragraphs": 26,
@@ -362,6 +353,15 @@
       "flagged_sentence_count": 6,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
+    },
+    {
+      "file": "ethics-power-authority.html",
+      "score": 6,
+      "paragraphs": 16,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 6,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
     },
     {
       "file": "ethics-race.html",
@@ -749,6 +749,14 @@
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
+          "paragraph": 9,
+          "sentence_index": 1,
+          "flags": [
+            "long:57w"
+          ],
+          "preview": "The NIV footnote carries it: \"Some manuscripts because from the beginning God chose you.\" Archē is the word with which the Gospel of John opens  —  en archē ēn ho logos , \"in the beginning was the Wor"
+        },
+        {
           "paragraph": 10,
           "sentence_index": 1,
           "flags": [
@@ -769,10 +777,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
-      "score": 1
+      "score": 2
     },
     {
       "file": "acts-13-48.html",
@@ -791,9 +799,9 @@
           "paragraph": 0,
           "sentence_index": 4,
           "flags": [
-            "long:52w"
+            "long:53w"
           ],
-          "preview": "What he said next is one of the longest sermons of his Luke records  —  a careful traversal of Israelite history from the patriarchs through the kings to John the Baptist, climaxing in the resurrectio"
+          "preview": "What he said next is one of the longest sermons of his that Luke records  —  a careful traversal of Israelite history from the patriarchs through the kings to John the Baptist, climaxing in the resurr"
         },
         {
           "paragraph": 4,
@@ -801,7 +809,7 @@
           "flags": [
             "long:52w"
           ],
-          "preview": "It is the verb the Roman centurion uses in Matthew 8:9 when he tells Jesus he himself is a man under authority  —  hupo exousian tassomenos , \"placed under authority.\" It is the verb Paul uses in Roma"
+          "preview": "It is the verb the Roman centurion uses in Luke 7:8 when he tells Jesus he himself is a man under authority  —  hupo exousian tassomenos , \"placed under authority.\" It is the verb Paul uses in Romans "
         },
         {
           "paragraph": 30,
@@ -8754,7 +8762,7 @@
     },
     {
       "file": "ephesians-1-3-14.html",
-      "paragraphs": 33,
+      "paragraphs": 35,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -8766,7 +8774,7 @@
           "preview": "In the Greek of the earliest manuscripts, Ephesians 1:3 through 1:14 is a single, unpunctuated, breathlessly cascading sentence  —  202 words without a period, 8 finite verbs, 12 participles, 11 prepo"
         },
         {
-          "paragraph": 1,
+          "paragraph": 3,
           "sentence_index": 5,
           "flags": [
             "long:50w"
@@ -8774,7 +8782,7 @@
           "preview": "Paul is composing, in twelve consecutive verses, a eulogy for the work of the Triune God in the salvation of the elect. (The Greek of the sentence is treated exhaustively in the eulogy Greek of Ephesi"
         },
         {
-          "paragraph": 2,
+          "paragraph": 4,
           "sentence_index": 4,
           "flags": [
             "long:57w"
@@ -8782,7 +8790,7 @@
           "preview": "Each movement closes with the same refrain: eis epainon doxēs autou , \"to the praise of His glory.\" The refrain functions as the rhyme in a sonnet  —  it falls at the end of each section, marks the se"
         },
         {
-          "paragraph": 16,
+          "paragraph": 18,
           "sentence_index": 0,
           "flags": [
             "long:89w"
@@ -8790,7 +8798,7 @@
           "preview": "And the Spirit is named, in verse 14, as ho arrabōn tēs klēronomias hēmōn  —  \"the down payment of our inheritance.\" The Greek arrabōn is a commercial term from the marketplace: the first installment "
         },
         {
-          "paragraph": 18,
+          "paragraph": 20,
           "sentence_index": 1,
           "flags": [
             "long:62w"
@@ -8798,7 +8806,7 @@
           "preview": "On this reading, God before the foundation of the world chose Christ , and chose that there would be a people in Christ ; the individual believer enters this elect group by his own free decision to be"
         },
         {
-          "paragraph": 23,
+          "paragraph": 25,
           "sentence_index": 1,
           "flags": [
             "long:46w"
@@ -8806,7 +8814,7 @@
           "preview": "If God's choosing of Christ is what verse 4 is about, then the phrase before the foundation of the world is filler  —  of course the eternal Son was eternally with the Father; of course there was no c"
         },
         {
-          "paragraph": 25,
+          "paragraph": 27,
           "sentence_index": 0,
           "flags": [
             "long:49w"
@@ -8814,7 +8822,7 @@
           "preview": "Which means  —  and this is where the crown jewel lands  —  that if you have come to believe in Christ , your believing is the historical evidence of an eternal love that has been pursuing you since b"
         },
         {
-          "paragraph": 30,
+          "paragraph": 32,
           "sentence_index": 4,
           "flags": [
             "long:65w"
@@ -8822,7 +8830,7 @@
           "preview": "The grace is not a partial achievement of human and divine working together; the grace is the unilateral act of a sovereign God whose decision to save you was made before you existed, executed in a So"
         },
         {
-          "paragraph": 30,
+          "paragraph": 32,
           "sentence_index": 5,
           "flags": [
             "long-simile:15w"
@@ -8833,7 +8841,15 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [
         {
-          "paragraph": 14,
+          "paragraph": 7,
+          "sentence_index": 1,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:the same×4"
+          ],
+          "preview": "The same verb Paul uses three times in 1 Corinthians 1:27-28  —  God chose the foolish, the weak, the lowly; the same ve"
+        },
+        {
+          "paragraph": 16,
           "sentence_index": 0,
           "suppressed_flags": [
             "length-suppressed-embedded-quotation:74w-raw/53w-prose"
@@ -8841,15 +8857,15 @@
           "preview": "The Son's movement ends at the second occurrence of the refrain: eis to einai hēmas eis epainon doxēs autou tous proēlpi"
         },
         {
-          "paragraph": 22,
+          "paragraph": 24,
           "sentence_index": 1,
           "suppressed_flags": [
-            "length-suppressed-chiasm:writes,chose"
+            "length-suppressed-chiasm:writes,chose,saved"
           ],
-          "preview": "The same Paul who writes he chose us in him before the foundation of the world in Ephesians 1:4 writes those whom he for"
+          "preview": "The same Paul who writes he chose us in him before the creation of the world in Ephesians 1:4 writes those God foreknew "
         },
         {
-          "paragraph": 28,
+          "paragraph": 30,
           "sentence_index": 3,
           "suppressed_flags": [
             "length-suppressed-anaphora:2-word:if the×3"
@@ -8860,7 +8876,7 @@
       "redundancy_count": 0,
       "flagged_sentence_count": 9,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 3,
+      "suppressed_sentence_count": 4,
       "score": 9
     },
     {
@@ -9247,14 +9263,6 @@
           "preview": "The slow work of grace in you is, in part, the dismantling of the throne in your chest, one beam at a time, until the authority you wield finally bends toward the good of the ones beneath it instead o"
         },
         {
-          "paragraph": 13,
-          "sentence_index": 1,
-          "flags": [
-            "long:58w"
-          ],
-          "preview": "It bore the Name in vain  —  it took the Name of the God who washes feet and used it to do the opposite of what that God does  —  and the real God \"will not hold them guiltless.\" He saw every misuse o"
-        },
-        {
           "paragraph": 14,
           "sentence_index": 1,
           "flags": [
@@ -9275,10 +9283,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 7,
+      "flagged_sentence_count": 6,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
-      "score": 7
+      "score": 6
     },
     {
       "file": "ethics-race.html",
@@ -15734,7 +15742,7 @@
     },
     {
       "file": "question-whose-side-are-you-on.html",
-      "paragraphs": 50,
+      "paragraphs": 47,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -15865,9 +15873,9 @@
           "paragraph": 1,
           "sentence_index": 3,
           "flags": [
-            "long:103w"
+            "long:105w"
           ],
-          "preview": "The astronomer Fred Hoyle, no friend of religion, discovered that the production of carbon in stars depends on an energy resonance tuned so exactly that he wrote his atheism could not survive it: \"a c"
+          "preview": "The astronomer Fred Hoyle, no friend of religion, discovered that the production of carbon in stars depends on an energy resonance tuned so exactly that he wrote that his atheism was greatly shaken by"
         },
         {
           "paragraph": 4,
@@ -16815,14 +16823,23 @@
       "file": "scripture-tsunami-sovereignty.html",
       "paragraphs": 106,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 98,
+          "sentence_index": 0,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The phrase can attach to the slaying or  —  as the NIV footnote and Revelation 17:8 read it  —  to the writing of the names; 17:8 says it without ambiguity: names \"written in the book of life from the"
+        }
+      ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 0
+      "score": 1
     },
     {
       "file": "scripture-tsunami.html",
@@ -17536,9 +17553,9 @@
           "paragraph": 15,
           "sentence_index": 1,
           "flags": [
-            "long:67w"
+            "long:70w"
           ],
-          "preview": "Let me read Ephesians 2:8-9 : 'For by grace you have been saved, through faith  —  and this not from yourselves, it is the gift of God  —  not by works, so that no one can boast.' If faith is a gift ,"
+          "preview": "Let me read Ephesians 2:8-9 : 'For it is by grace you have been saved, through faith  —  and this is not from yourselves, it is the gift of God  —  not by works, so that no one can boast.' If faith is"
         }
       ],
       "suppressed_redundancy": [],
@@ -18305,11 +18322,11 @@
     },
     {
       "file": "story-thought-the-god-who-let-you-watch.html",
-      "paragraphs": 45,
+      "paragraphs": 44,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 8,
+          "paragraph": 7,
           "sentence_index": 3,
           "flags": [
             "padding-modifier:into the dark"
@@ -18317,7 +18334,7 @@
           "preview": "Every prayer you would whisper into the dark."
         },
         {
-          "paragraph": 36,
+          "paragraph": 35,
           "sentence_index": 2,
           "flags": [
             "long:63w"

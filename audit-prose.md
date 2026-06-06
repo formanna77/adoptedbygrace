@@ -1,6 +1,6 @@
 # Prose Integrity Audit (Phase F) — Scanner v2
 
-**Generated:** 2026-06-06T05:32:04.836Z
+**Generated:** 2026-06-06T19:24:43.319Z
 **Spec:** `audit-prose.js v2` — redundancy (Jaccard ≥ 0.35 on significant-word bags) with **eight-class exemption filter** (closing-recurrence, Scripture-tsunami, pedagogical-anaphora, antithetical-parallelism, confessional-translation, historical-document-quotation, exegetical-comparison, research→pairing structural) + sentence-coherence heuristic with **anaphora/chiasm/embedded-quotation positive suppressors** + new **vehicle-tenor mismatch detector** (catches the original Aaron failure mode: simile whose vehicle and tenor are in incompatible domains).
 
 **Mandate (Aaron, 2026-04-27):** "many articles repeat themselves usually a couple times but sometimes even 3 times within the article... also some sentences don't make sense... we do not start expanding the website until every last sentence, paragraph, and article are written perfectly."
@@ -14,13 +14,13 @@
 | Metric | Value |
 |---|---|
 | Articles audited | 589 |
-| Articles entirely clean | 145 (24.6%) |
+| Articles entirely clean | 144 (24.4%) |
 | Articles with (genuine) redundancy | 12 (2.0%) |
-| Articles with (genuine) flagged sentences | 438 (74.4%) |
+| Articles with (genuine) flagged sentences | 439 (74.5%) |
 | **Total redundancy pairs flagged (genuine)** | **12** |
-| **Total sentences flagged (genuine)** | **1280** |
+| **Total sentences flagged (genuine)** | **1281** |
 | Redundancy pairs suppressed (apex-tier exemptions) | 20 |
-| Sentence flags suppressed (coherence-positive) | 183 |
+| Sentence flags suppressed (coherence-positive) | 184 |
 
 ### Suppression breakdown by exemption class
 
@@ -49,7 +49,7 @@
 10. **ethics-sexuality.html** — score 10 (0 redundancy pairs, 10 flagged sentences, 13 paragraphs)
 11. **apologetic-darkened-in-their-understanding.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 19 paragraphs)
 12. **apologetic-hilasterion-the-mercy-seat.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 36 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-13. **ephesians-1-3-14.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 33 paragraphs) *[0 pairs + 3 sentences auto-suppressed]*
+13. **ephesians-1-3-14.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 35 paragraphs) *[0 pairs + 4 sentences auto-suppressed]*
 14. **reformed-apologetics-fine-tuning.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 15 paragraphs)
 15. **response-jerry-walls.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 63 paragraphs)
 16. **systematic-perseverance.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 34 paragraphs) *[0 pairs + 3 sentences auto-suppressed]*
@@ -67,14 +67,14 @@
 28. **apologetic-he-did-not-spare-his-own-son.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 11 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
 29. **apologetic-loved-darkness-rather-than-light.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 13 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
 30. **apologetic-purchased-from-every-tribe.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 12 paragraphs)
-31. **ethics-power-authority.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 16 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-32. **ot-joseph.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 26 paragraphs)
-33. **apologetic-ekloge-the-greek-of-election.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 44 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-34. **apologetic-the-double-grip-of-john-10.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 40 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-35. **apologetic-the-road-to-damascus.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 21 paragraphs)
-36. **apologetic-the-washing-of-rebirth.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 15 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-37. **apologetic-those-you-gave-me.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 23 paragraphs)
-38. **ethics-end-of-life.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 15 paragraphs)
+31. **ot-joseph.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 26 paragraphs)
+32. **apologetic-ekloge-the-greek-of-election.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 44 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+33. **apologetic-the-double-grip-of-john-10.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 40 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+34. **apologetic-the-road-to-damascus.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 21 paragraphs)
+35. **apologetic-the-washing-of-rebirth.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 15 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+36. **apologetic-those-you-gave-me.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 23 paragraphs)
+37. **ethics-end-of-life.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 15 paragraphs)
+38. **ethics-power-authority.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 16 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
 39. **ethics-race.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 14 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
 40. **history-puritans.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 26 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
 41. **presuppositional-impossibility-of-the-contrary.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 14 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
@@ -298,25 +298,25 @@
 **Flagged sentences (9):**
 
 - [long:48w] (¶0): "In the Greek of the earliest manuscripts, Ephesians 1:3 through 1:14 is a single, unpunctuated, breathlessly cascading sentence  —  202 words without a period, 8 finite verbs, 12 participles, 11 prepo…"
-- [long:50w] (¶1): "Paul is composing, in twelve consecutive verses, a eulogy for the work of the Triune God in the salvation of the elect. (The Greek of the sentence is treated exhaustively in the eulogy Greek of Ephesi…"
-- [long:57w] (¶2): "Each movement closes with the same refrain: eis epainon doxēs autou , "to the praise of His glory." The refrain functions as the rhyme in a sonnet  —  it falls at the end of each section, marks the se…"
-- [long:89w] (¶16): "And the Spirit is named, in verse 14, as ho arrabōn tēs klēronomias hēmōn  —  "the down payment of our inheritance." The Greek arrabōn is a commercial term from the marketplace: the first installment …"
-- [long:62w] (¶18): "On this reading, God before the foundation of the world chose Christ , and chose that there would be a people in Christ ; the individual believer enters this elect group by his own free decision to be…"
-- [long:46w] (¶23): "If God's choosing of Christ is what verse 4 is about, then the phrase before the foundation of the world is filler  —  of course the eternal Son was eternally with the Father; of course there was no c…"
-- [long:49w] (¶25): "Which means  —  and this is where the crown jewel lands  —  that if you have come to believe in Christ , your believing is the historical evidence of an eternal love that has been pursuing you since b…"
-- [long:65w] (¶30): "The grace is not a partial achievement of human and divine working together; the grace is the unilateral act of a sovereign God whose decision to save you was made before you existed, executed in a So…"
+- [long:50w] (¶3): "Paul is composing, in twelve consecutive verses, a eulogy for the work of the Triune God in the salvation of the elect. (The Greek of the sentence is treated exhaustively in the eulogy Greek of Ephesi…"
+- [long:57w] (¶4): "Each movement closes with the same refrain: eis epainon doxēs autou , "to the praise of His glory." The refrain functions as the rhyme in a sonnet  —  it falls at the end of each section, marks the se…"
+- [long:89w] (¶18): "And the Spirit is named, in verse 14, as ho arrabōn tēs klēronomias hēmōn  —  "the down payment of our inheritance." The Greek arrabōn is a commercial term from the marketplace: the first installment …"
+- [long:62w] (¶20): "On this reading, God before the foundation of the world chose Christ , and chose that there would be a people in Christ ; the individual believer enters this elect group by his own free decision to be…"
+- [long:46w] (¶25): "If God's choosing of Christ is what verse 4 is about, then the phrase before the foundation of the world is filler  —  of course the eternal Son was eternally with the Father; of course there was no c…"
+- [long:49w] (¶27): "Which means  —  and this is where the crown jewel lands  —  that if you have come to believe in Christ , your believing is the historical evidence of an eternal love that has been pursuing you since b…"
+- [long:65w] (¶32): "The grace is not a partial achievement of human and divine working together; the grace is the unilateral act of a sovereign God whose decision to save you was made before you existed, executed in a So…"
 - … and 1 more.
 
 **Suppressions** (auto-filtered as exemptions / coherence-positives):
 
-- 3 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
+- 4 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
 
 ### reformed-apologetics-fine-tuning.html — score 9
 
 **Flagged sentences (9):**
 
 - [long:54w] (¶1): "If it were larger by a fraction that physicists express as roughly one part in ten followed by a hundred and twenty zeros, the universe would have flown apart too fast for any galaxy ever to form; if …"
-- [long:103w] (¶1): "The astronomer Fred Hoyle, no friend of religion, discovered that the production of carbon in stars depends on an energy resonance tuned so exactly that he wrote his atheism could not survive it: "a c…"
+- [long:105w] (¶1): "The astronomer Fred Hoyle, no friend of religion, discovered that the production of carbon in stars depends on an energy resonance tuned so exactly that he wrote that his atheism was greatly shaken by…"
 - [long:59w] (¶4): "If our universe is one of an immense, perhaps infinite, ensemble of universes, each with its own randomly assigned constants, then a life-permitting one is no longer a miracle  —  it is a statistical …"
 - [long:54w] (¶5): "First, a universe-generating multiverse is not a free lunch: the inflationary machinery and the landscape themselves require finely tuned starting conditions and physical laws to produce universes at …"
 - [long:56w] (¶5): "Second, the multiverse is, by the nature of the proposal, unobservable in principle: other universes are causally disconnected from ours, which means the theory is invoked precisely where it cannot be…"

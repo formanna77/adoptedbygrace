@@ -8,14 +8,24 @@
 
 | Status | Count | % of 584 |
 |---|---|---|
-| **CONFIRMED** (cold-read PASS) | **512** | **87.7%** |
-| TOUCHED (edit, full read pending) | 15 | 2.6% |
-| UNREAD | 57 | 9.8% |
+| **CONFIRMED** (cold-read PASS) | **560** | **95.9%** |
+| TOUCHED (edit, full read pending) | 4 | 0.7% |
+| UNREAD | 20 | 3.4% |
 | **TOTAL** | **584** | 100% |
 
-**Cadence:** ~48 pages/session via parallel subagent cold-reads (Read-tool channel, mount-race-free), highest-inbound first. Remaining 72 non-CONF ≈ **~1-2 more sessions** to full coverage.
+**Cadence:** ~48 pages/session via parallel subagent cold-reads (Read-tool channel, mount-race-free), highest-inbound first. Remaining 24 non-CONF = **ONE final session** (S93) to full coverage.
 
 ## CONFIRMED VERDICTS LOG
+
+## S92 batch 12 (48 lowest-inbound non-CONF, 7 parallel subagent slices) — CONFIRMED
+
+**2026-06-06. 48 cold-read → 8 PASS(apex) / 1 PASS / 35 MARGINAL / 4 FAIL — the heaviest defect load of the campaign (the bottom of the inbound ladder, exactly as predicted); every defective page lifted in-session; 48/48 CONFIRMED.** Apex: story-the-fish-who-chose-the-ocean ("I was chosen well"), apologetic-the-remnant-chosen-by-grace (the boast test), devotional-you-cannot-undo-being-chosen ("The after cannot redecorate the before"), ethics-technology-ai ("Dignity is conferred, never computed"), ethics-work-vocation (the Marx steel-man inverted), reformed-apologetics-consciousness (neshamah vs the hard problem), story-humor-the-man-who-sued-god (salvation tried as a consent-culture tort), apologetic-bought-with-his-own-blood (definite atonement "off a receipt"). **The 4 FAILs (all lifted):** `ephesians-1-3-14` (ESV/1984 proof-text cluster in ONE paragraph — Rom 8:29 "those whom he foreknew", 2 Tim 1:9 "not because of our works", 2 Thess 2:13 1984 "from the beginning" + Eph 1:3 "Blessed be"/1:10 1984 "under one head"/1:13 non-NIV participial + a FALSE eklegō-family claim about 2 Thess heilato + &lt;em&gt; debris in og/cards + NO display blockquote of its own flagship passage → all re-quoted NIV 2011, heilato repositioned as independent-vocabulary witness, Eph 1:3-6 NIV blockquote added); `objection-why-believe` (dozens of raw markdown asterisks rendering as literal text incl. FAQ JSON + the Continue-the-Journey grid injected INSIDE the Spurgeon blockquote severing quote from attribution + ESV Rom 9:19 + KJV Acts 16:31 ×2 + Isa 6:5 hybrid + 1 Pet 1:16 ×2 + "Paul writes" for Acts 18:27 (Luke) + a Matt 22/Luke 14 CONFLATED parable carrying a whole argument + pastiche Edwards/Calvin quotes → asterisks converted/stripped, grid extracted, all verses NIV, parable split honestly via Luke 14:23, verified Edwards (Freedom of the Will) + Calvin (Institutes III.1.4) substituted); `question-whose-side-are-you-on` (John 6:44 omission + Rom 8:29 missing God + ESV John 1:12/Rom 6:13 + KJV Rom 10:17 + NKJV Acts 13:48 + THREE unverifiable theologian blockquotes + invented "future tense, passive sense" grammar with the real periphrastic passive unnamed + the chess-master line reducing ordination to foreknowledge + a third stacked link-grid → all six verses NIV, verified Augustine (Predestination of the Saints)/WCF X.1/Spurgeon (Autobiography) substituted, the tassō periphrastic now named, Playwright-and-Joseph line replaces the chess master, Keep-Reading grid removed so "He chose. You woke up." lands); `scripture-tsunami-sovereignty` (an NLT Phil 2:13 and 1984 2 Tim 2:25 as display blockquotes UNDER the page's own "All quotations are NIV" banner + Rev 13:8 names-written commentary resting on the footnote construal without saying so + "sixty verses" overclaim vs 48 quotations → both verses NIV 2011, Rev 17:8 now carries the names-written point explicitly, count trued to "more than fifty").
+
+**Notable MARGINALs:** `westminster-chapter-3-plain-english` (a shipped INTERNAL-PROTOCOL leak — "every agent of this site must commit these to memory" — rendering to readers; + Malachi 3:6-7 falsely labeled "the verse the Divines quoted for Section 1" (it is a 2.1 proof); + "God knows middle knowledge" conceding the Molinist category the section refuses); `2-thessalonians-2-13` (ARCHITECTURE INVERSION on the sanctioned variant: title/subtitle/H2 staked the load-bearing temporal argument on ap' archēs while its own §XV variant paragraph concedes NIV aparchēn is original → re-anchored on "as firstfruits" with the variant honestly demoted; + Thessalonica called "a Roman colonia" (it was a free city; Philippi was the colonia)); `acts-13-48` (Acts 22:10 quoted "appointed" where NIV reads "assigned" — the Greek warrant bleeding into the NIV quotation on the page whose thesis is "the grammar does not bend"; + title layers carried ESV "as many as" → NIV "all who" + hosoi glossed); `apologetic-i-will-move-you` (claimed "seven I wills" while its own italic list enumerates EIGHT → eight everywhere); `apologetic-i-know-whom-i-have-believed` ("I am not ashamed" ×2 as the 1984 memory-form of the verse the page expounds + wrong Greek case hon→hō + "warm Roman dungeon" contradicting the cloak request); `demolition-hosea11-7-8` (Admah/Zeboyim destruction cited "Genesis 14" (kings' war; the destruction is Gen 19/Deut 29:23) + a FABRICATED hāpak/Jacob-wrestling claim (Gen 32 uses 'ābaq) → replaced with the heart-overturned-instead-of-the-cities move the page had been one inch from); `argument-arminian-sermon-illustrations-refuted` (capstone Jonah 2:9 ESV "belongs to" ×2 with the argument leaning on the ESV verb → re-argued on NIV "comes from"; + Sallman/Hunt lantern conflation + compelle-intrare overclaim + deity-caps inside quotes normalized); plus structural rot (corrupted Article JSON-LD on demolition-1cor10-13 + demolition-2cor6-1, both dateModified 2026-04-20 — duplicated/spliced description fragments with unescaped quotes), the tldr orphan-`</p>` cohort (slave-to-sin, darkened — and via sweep: pioneer-and-perfecter, resurrection), tombstone/Contact/escaped-entity cards in related grids (gardener, darkened, john5-40, power-authority, moral-argument), and small-number rot everywhere (Wesley "seven years older"→eleven; Augustine "fifteen centuries"→sixteen; "three verses up"→sixteen; "two chapters earlier"→four — cold-reads must target every numeral).
+
+**Fan-Out Cycle 25:** (a) the flagship-promise battery caught **ESV Jonah 2:9 "Salvation belongs to the LORD" quoted-as-verse in 4 more files** (apologetics, devotional-rescued-without-a-say, start-here-phase3, ot-jonah ×3 layers) **+ an ESV Psalm 3:8 in the HOMEPAGE's own JS verse-data** (index.html "Salvation belongs to the LORD! Your blessing be on your people" → NIV "From the LORD comes deliverance. May your blessing be on your people."); (b) **two more non-NIV layers on the #1 flagship scripture-tsunami** (its FIFTH and SIXTH in four sessions): ESV Rom 8:1 "There is therefore now no condemnation" in JS verse-data + commentary echo → NIV "Therefore, there is now…", and the Acts 13:48 commentary's "as many as" order-illustration → "all who"; (c) the Acts 13:48 ESV "as many as were appointed" class swept site-wide: john-6-37-44 ×2 (quoted), demolition-orthodox-predestination (tag-split quote on a CONFIRMED page — locks are not exemptions), apologetic-unreached + systematic-repentance (stale related-card mirrors of acts-13-48's old description); (d) hear/listen + will/shall stragglers: question-limited-atonement "My sheep hear my voice" (tag-split em) + question-john10's own "will never perish" recap → NIV; (e) **the blockquote pronoun-anchor sweep found ONE true contradiction in 57 anchors: systematic-covenant-works linked "in him" to /devotional-in-christ where the "him" is ADAM** (the covenant of works) — anchor stripped; all other "in him" blockquote anchors verified referent-consistent (Christ); (f) pre-flight had already caught the demolition-hub card cluster (2 Pet 3:9 card description directing readers to v8 "Beloved" where NIV reads "dear friends" → rebuilt; 3 non-NIV quoted card titles → NIV "Sovereign Lord"/"Have Longed"/"Declare With Your Mouth"). Sanctioned and left: canons-of-dort + comparative-theology-hub "only begotten" (confessional document text), tetagmenoi-acts-13-48's literal-gloss frame, psychology-backfire-effect's objector-voice KJV.
+
+**Coverage after S92: 560/584 CONFIRMED (95.9%); 4 TOUCHED; 20 UNREAD; ONE final leg (S93, 24 pages) to 100%.**
 
 ## S91 batch 11 (48 highest-inbound non-CONF, 7 parallel subagent slices) — CONFIRMED
 
@@ -133,14 +143,13 @@
 
 **48 PASS / 0 FAIL** (≈31 apex, 10 PASS, 7 MARGINAL all lifted in-session). The lifts: `systematic-trinity` (Matt 28:19 ESV "Go therefore"→NIV 2011 "Therefore go"); `philosophy-problem-of-merit` (double-`??` typo in the 1 Cor 4:7 pull-quote); `philosophy-phantom-limb-free-will` (footer structural rot — orphan `</article>`, stray `<article>` wrapping the footer, empty `<li>`, spurious `</div>` — removed; validators green; bespoke `<main>` body left intact as a VOICE.md founding masterpiece); `psychology-identity-threat` (§XVI deepening — rewrote the Kahan + TMT blocks out of flat textbook-report register into the felt seeing-through register, recast the "theology department / public relations" applause quip into "the verdict would fall on the judge", thickened the protagonist→beloved catch). Four MARGINALs cleared by Aaron's S82 ruling that the **author-persona / first-person "I" is sanctioned site-wide** (`devotional-joy-of-election`, `invisible-wall-friend-who-left`, `psychology-pride-root-objection` persona refs) plus the `anxious-mind-*` §VI clock carveout (`anxious-mind-scrupulosity`). Notable apex: romans-8-28-39, objection-responsibility, romans-3-10-18, systematic-theology-proper, question-psalm139, psychology-anosognosia-of-sin, question-dead-in-sin-meaning, history-luther, history-augustine-pelagius, philosophy-self-deception, secular-recovery-total-depravity, ot-jeremiah, demolition-works-righteousness, broken-mirror-sin-you-repeat, love-letter-before-time, systematic-providence, my-chains-fell-away, for-pastors, start-here-phase1, question-john17, history-dort, question-john15, theologian-luther, question-book-of-life, history-decision-theology, apologetic-lydias-heart, theologian-whitefield, apologetic-ekloge-the-greek-of-election, history-great-awakening. Soft notes (no action): question-born-again-meaning "Brilliant Connection" box header is mild self-praise (future polish); broken-mirror-vessels-for-mercy leans on Cohen's "cracks…light gets in" (future re-forge); psychology-pride-root "whispers at 3 AM" is Pride/Grace personification, not reader-crisis-framing (kept).
 
-## BATCH 12 — S92 starting queue (next 48 non-CONF by inbound)
+## BATCH 13 — S93 FINAL LEG (the last 24 non-CONF: 20 UNREAD + 4 TOUCHED conversions)
 
-Batch 11 is DONE (S91: 48 cold-read — 17 apex / 15 PASS / 15 MARGINAL / 1 FAIL, all defective pages lifted in-session). The next 48 highest-inbound non-CONF doorways are below. **Recompute live from the FULL UNIVERSE registry below to confirm, skipping any slug now on a `CONF` line.** Coverage after S91: **512/584 (87.7%)**; 57 UNREAD + 15 TOUCHED = 72 non-CONF remain ≈ **~1-2 sessions to 100%**.
+Batch 12 is DONE (S92: 48 cold-read — 8 apex / 1 PASS / 35 MARGINAL / 4 FAIL, all defective pages lifted in-session; the heaviest defect load of the campaign). **The final 24 below close the campaign at 100%.** Recompute live from the FULL UNIVERSE registry below, skipping any slug now on a `CONF` line. The 4 TOUCHED (connections, john-6-37-44, apologetic-the-pioneer-and-perfecter, reformed-apologetics-resurrection) get FULL cold-reads to convert touch→CONF.
 
-story-tender-the-gardener-who-waited, story-the-fish-who-chose-the-ocean, westminster-chapter-3-plain-english, acts-13-48, apologetic-a-slave-to-sin, apologetic-darkened-in-their-understanding, apologetic-light-shine-out-of-darkness, apologetic-no-one-righteous, apologetic-the-deceitful-heart, apologetic-the-remnant-chosen-by-grace, apologetic-the-washing-of-rebirth, demolition-2peter1-10, demolition-acts2-21, demolition-hosea11-7-8, demolition-jer18, demolition-john5-40, devotional-you-cannot-undo-being-chosen, ephesians-1-3-14, ethics-power-authority, ethics-technology-ai, ethics-wealth-stewardship, ethics-work-vocation, history-whitefield-wesley, objection-why-believe, question-what-does-chosen-mean, question-whose-side-are-you-on, reformed-apologetics-consciousness, reformed-apologetics-fine-tuning, reformed-apologetics-moral-argument, scripture-tsunami-sovereignty, story-cross-examination, story-humor-the-man-who-sued-god, story-thought-the-god-who-let-you-watch, 2-thessalonians-2-13, apologetic-born-not-of-human-will, apologetic-bought-with-his-own-blood, apologetic-chosen-as-firstfruits, apologetic-i-know-whom-i-have-believed, apologetic-i-will-move-you, apologetic-loved-darkness-rather-than-light, apologetic-many-people-in-this-city, apologetic-only-evil-all-the-time, apologetic-purchased-from-every-tribe, apologetic-unreached, argument-arminian-sermon-illustrations-refuted, demolition-1cor10-13, demolition-2cor6-1, devotional-the-kindest-shock
+ethics-marriage, ethics-race, ethics-sexuality, golden-chain, history-african-fathers, letters-senior-demon-arminianism, presuppositional-impossibility-of-the-contrary, presuppositional-no-neutral-ground, psychology-why-this-objection-proves-our-point, reformed-apologetics-resurrection, the-two-arms, apologetic-he-did-not-spare-his-own-son, apologetic-the-lord-knows-those-who-are-his, ethics-just-war, john-6-37-44, philosophy-children-argument, reformed-apologetics-theodicy, story-the-garden-that-grew-itself, story-thought-the-day-you-chose-again, analogy-the-prodigal-already-home, apologetic-the-pioneer-and-perfecter, connections, ethics-speech, psychology-the-question-beneath-the-question
 
-Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubber-stamp). Verify EVERY cited verse — blockquotes, prose-embedded inline citations (INCLUDING quotes split across inline <em>/<a> tags), FAQPage JSON-LD, AND JS verse-data arrays — word-for-word vs NIV 2011, with EXTRA scrutiny on (a) enumeration/proof-stack pages (the ESV reservoir — site-wide-grep every flagged verse: S91 proved one flag can mean 57 siblings), (b) the will/shall and that/those single-word ESV tells on famous promises (John 10:28, John 6:37 class), (c) NIV clause-ORDER transpositions, (d) book/testament mislabels, (e) JS verse-data + FAQ JSON-LD invisible layers, and (f) auto-linker anchors INSIDE scripture blockquotes whose pronoun referent contradicts the link target (S91: "in him" = the devil, linked to /devotional-in-christ). NOTE `westminster-chapter-3-plain-english` carries the sanctioned "LORD of hosts" §XV carveout. Subagents read via the **Read tool on the absolute path** `/Users/aaronforman/Documents/adoptedbygracewebsite/<slug>.html` — parallel-safe, no bash-mount race.
-
+Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubber-stamp). Verify EVERY cited verse — blockquotes, prose-embedded inline citations (INCLUDING quotes split across inline <em>/<a> tags), FAQPage JSON-LD, AND JS verse-data arrays — word-for-word vs NIV 2011, with EXTRA scrutiny on (a) the S92 systemic finding: EVERY NUMERAL is suspect (verse-distances, chapter-counts, "N promises" enumerations, century arithmetic, ages — S92 found seven distinct small-number errors no scanner sees); (b) the Greek-warrant-bleeding-into-quotation class (Acts 22:10 "appointed" for NIV "assigned" — exegesis pages silently substituting the literal rendering inside NIV quotation marks); (c) corrupted Article JSON-LD descriptions (duplicated/spliced fragments with unescaped quotes — check every page dateModified 2026-04-20); (d) the famous-promise single-word tells (will/shall, that/those, hear/listen, belongs/comes-from, confess/declare); (e) tldr orphan </p>; (f) anchors inside blockquotes whose pronoun referent contradicts the target (S92: "in him" = Adam → /devotional-in-christ). NOTE: connections is 9,643 words — give it its own slice. letters-senior-demon-arminianism (4,055w) is Screwtape-register — judge the satire by whether it serves the truth. Subagents read via the **Read tool on the absolute path** `/Users/aaronforman/Documents/adoptedbygracewebsite/<slug>.html` — parallel-safe, no bash-mount race.
 
 ## FULL UNIVERSE — 584 prose pages, by inbound (the read-order)
 
@@ -658,55 +667,55 @@ Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubbe
 [  5][L][2273w] CONF     reformed-apologetics-transcendental
 [  5][L][3204w] CONF story-children-the-king-who-chose
 [  5][L][2397w] CONF     story-surgeon-stone-heart
-[  5][L][1783w] -     story-tender-the-gardener-who-waited
-[  5][L][1915w] -     story-the-fish-who-chose-the-ocean
-[  5][L][6333w] -     westminster-chapter-3-plain-english
-[  4][L][3598w] touch     acts-13-48
-[  4][L][2482w] -     apologetic-a-slave-to-sin
-[  4][L][2780w] -     apologetic-darkened-in-their-understanding
-[  4][L][2164w] -     apologetic-light-shine-out-of-darkness
-[  4][L][2229w] -     apologetic-no-one-righteous
-[  4][L][2257w] -     apologetic-the-deceitful-heart
-[  4][L][2124w] -     apologetic-the-remnant-chosen-by-grace
-[  4][L][2483w] -     apologetic-the-washing-of-rebirth
-[  4][L][2042w] touch     demolition-2peter1-10
-[  4][L][2422w] touch demolition-acts2-21
-[  4][L][2926w] touch demolition-hosea11-7-8
-[  4][L][3889w] -     demolition-jer18
-[  4][L][1932w] touch     demolition-john5-40
-[  4][L][1683w] touch     devotional-you-cannot-undo-being-chosen
-[  4][L][3715w] -     ephesians-1-3-14
-[  4][L][2769w] -     ethics-power-authority
-[  4][L][2024w] -     ethics-technology-ai
-[  4][L][2389w] -     ethics-wealth-stewardship
-[  4][L][2499w] -     ethics-work-vocation
-[  4][L][1742w] touch     history-whitefield-wesley
-[  4][L][3372w] touch objection-why-believe
-[  4][L][1393w] touch     question-what-does-chosen-mean
-[  4][L][2664w] touch     question-whose-side-are-you-on
-[  4][L][2472w] -     reformed-apologetics-consciousness
-[  4][L][2620w] -     reformed-apologetics-fine-tuning
-[  4][L][2145w] -     reformed-apologetics-moral-argument
-[  4][L][2811w] touch scripture-tsunami-sovereignty
-[  4][L][1453w] -     story-cross-examination
-[  4][L][1823w] -     story-humor-the-man-who-sued-god
-[  4][L][2022w] -     story-thought-the-god-who-let-you-watch
-[  3][L][3646w] touch     2-thessalonians-2-13
-[  3][L][1947w] -     apologetic-born-not-of-human-will
-[  3][L][1972w] -     apologetic-bought-with-his-own-blood
-[  3][L][2349w] -     apologetic-chosen-as-firstfruits
-[  3][L][2270w] -     apologetic-i-know-whom-i-have-believed
-[  3][L][2277w] -     apologetic-i-will-move-you
-[  3][L][2457w] -     apologetic-loved-darkness-rather-than-light
-[  3][L][1973w] -     apologetic-many-people-in-this-city
-[  3][L][2381w] -     apologetic-only-evil-all-the-time
-[  3][L][1995w] -     apologetic-purchased-from-every-tribe
-[  3][L][1486w] -     apologetic-unreached
-[  3][L][7410w] -     argument-arminian-sermon-illustrations-refuted
-[  3][L][1665w] -     demolition-1cor10-13
-[  3][L][2972w] touch demolition-2cor6-1
+[  5][L][1783w] CONF  story-tender-the-gardener-who-waited
+[  5][L][1915w] CONF  story-the-fish-who-chose-the-ocean
+[  5][L][6333w] CONF  westminster-chapter-3-plain-english
+[  4][L][3598w] CONF  acts-13-48
+[  4][L][2482w] CONF  apologetic-a-slave-to-sin
+[  4][L][2780w] CONF  apologetic-darkened-in-their-understanding
+[  4][L][2164w] CONF  apologetic-light-shine-out-of-darkness
+[  4][L][2229w] CONF  apologetic-no-one-righteous
+[  4][L][2257w] CONF  apologetic-the-deceitful-heart
+[  4][L][2124w] CONF  apologetic-the-remnant-chosen-by-grace
+[  4][L][2483w] CONF  apologetic-the-washing-of-rebirth
+[  4][L][2042w] CONF  demolition-2peter1-10
+[  4][L][2422w] CONF  demolition-acts2-21
+[  4][L][2926w] CONF  demolition-hosea11-7-8
+[  4][L][3889w] CONF  demolition-jer18
+[  4][L][1932w] CONF  demolition-john5-40
+[  4][L][1683w] CONF  devotional-you-cannot-undo-being-chosen
+[  4][L][3715w] CONF  ephesians-1-3-14
+[  4][L][2769w] CONF  ethics-power-authority
+[  4][L][2024w] CONF  ethics-technology-ai
+[  4][L][2389w] CONF  ethics-wealth-stewardship
+[  4][L][2499w] CONF  ethics-work-vocation
+[  4][L][1742w] CONF  history-whitefield-wesley
+[  4][L][3372w] CONF  objection-why-believe
+[  4][L][1393w] CONF  question-what-does-chosen-mean
+[  4][L][2664w] CONF  question-whose-side-are-you-on
+[  4][L][2472w] CONF  reformed-apologetics-consciousness
+[  4][L][2620w] CONF  reformed-apologetics-fine-tuning
+[  4][L][2145w] CONF  reformed-apologetics-moral-argument
+[  4][L][2811w] CONF  scripture-tsunami-sovereignty
+[  4][L][1453w] CONF  story-cross-examination
+[  4][L][1823w] CONF  story-humor-the-man-who-sued-god
+[  4][L][2022w] CONF  story-thought-the-god-who-let-you-watch
+[  3][L][3646w] CONF  2-thessalonians-2-13
+[  3][L][1947w] CONF  apologetic-born-not-of-human-will
+[  3][L][1972w] CONF  apologetic-bought-with-his-own-blood
+[  3][L][2349w] CONF  apologetic-chosen-as-firstfruits
+[  3][L][2270w] CONF  apologetic-i-know-whom-i-have-believed
+[  3][L][2277w] CONF  apologetic-i-will-move-you
+[  3][L][2457w] CONF  apologetic-loved-darkness-rather-than-light
+[  3][L][1973w] CONF  apologetic-many-people-in-this-city
+[  3][L][2381w] CONF  apologetic-only-evil-all-the-time
+[  3][L][1995w] CONF  apologetic-purchased-from-every-tribe
+[  3][L][1486w] CONF  apologetic-unreached
+[  3][L][7410w] CONF  argument-arminian-sermon-illustrations-refuted
+[  3][L][1665w] CONF  demolition-1cor10-13
+[  3][L][2972w] CONF  demolition-2cor6-1
 [  3][L][1862w] CONF  demolition-orthodox-predestination
-[  3][L][1480w] -     devotional-the-kindest-shock
+[  3][L][1480w] CONF  devotional-the-kindest-shock
 [  3][L][2495w] -     ethics-marriage
 [  3][L][2387w] -     ethics-race
 [  3][L][2490w] -     ethics-sexuality
@@ -716,7 +725,7 @@ Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubbe
 [  3][L][2599w] -     presuppositional-impossibility-of-the-contrary
 [  3][L][2631w] -     presuppositional-no-neutral-ground
 [  3][L][1156w] -     psychology-why-this-objection-proves-our-point
-[  3][L][1957w] -     reformed-apologetics-resurrection
+[  3][L][1957w] touch reformed-apologetics-resurrection
 [  3][L][1557w] -     the-two-arms
 [  2][L][2414w] -     apologetic-he-did-not-spare-his-own-son
 [  2][L][1968w] -     apologetic-the-lord-knows-those-who-are-his
@@ -727,7 +736,7 @@ Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubbe
 [  2][L][1512w] -     story-the-garden-that-grew-itself
 [  2][L][2286w] -     story-thought-the-day-you-chose-again
 [  1][L][1682w] -     analogy-the-prodigal-already-home
-[  1][L][2467w] -     apologetic-the-pioneer-and-perfecter
+[  1][L][2467w] touch apologetic-the-pioneer-and-perfecter
 [  1][-][9643w] touch connections
 [  1][L][2297w] -     ethics-speech
 [  1][L][1605w] -     psychology-the-question-beneath-the-question
