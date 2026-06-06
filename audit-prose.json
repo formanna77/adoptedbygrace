@@ -2,14 +2,14 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-06T01:23:41.589Z",
+  "generated": "2026-06-06T05:32:04.814Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 589,
     "total_redundancy_pairs_flagged": 12,
-    "total_sentences_flagged": 1281,
+    "total_sentences_flagged": 1280,
     "total_redundancy_pairs_suppressed": 20,
-    "total_sentences_suppressed": 182,
+    "total_sentences_suppressed": 183,
     "articles_with_redundancy": 12,
     "articles_with_flagged_sentences": 438,
     "articles_clean": 145,
@@ -6658,7 +6658,7 @@
     },
     {
       "file": "demolition-cut-off-from-root.html",
-      "paragraphs": 33,
+      "paragraphs": 34,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -8420,7 +8420,7 @@
           "flags": [
             "long-simile:21w"
           ],
-          "preview": "It looks like a sermon on James 5:16  —  confess your sins to one another  —  and your whole body going rigid in the pew, as if the pastor might somehow say your name."
+          "preview": "It looks like a sermon on James 5:16  —  confess your sins to each other  —  and your whole body going rigid in the pew, as if the pastor might somehow say your name."
         },
         {
           "paragraph": 30,
@@ -8567,11 +8567,20 @@
         }
       ],
       "suppressed_redundancy": [],
-      "suppressed_sentences": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 10,
+          "sentence_index": 1,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:he also×3"
+          ],
+          "preview": "And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified.\" Fi"
+        }
+      ],
       "redundancy_count": 0,
       "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0,
+      "suppressed_sentence_count": 1,
       "score": 2
     },
     {
@@ -17916,23 +17925,15 @@
             "long:62w"
           ],
           "preview": "Miriam's desire to find the surgeon  —  her heart aching toward the one who gave it to her  —  is a picture of what happens when God gives a sinner a new heart : they seek the One who saved them, not "
-        },
-        {
-          "paragraph": 51,
-          "sentence_index": 1,
-          "flags": [
-            "long:49w"
-          ],
-          "preview": "Something in you recoils from people who take God seriously, and you dress that recoil in socially acceptable language: \"they're judgmental,\" \"they're too intense,\" \"they take things too far.\" But the"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 4,
+      "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 4
+      "score": 3
     },
     {
       "file": "story-tender-the-gardener-who-waited.html",
@@ -18250,7 +18251,7 @@
           "paragraph": 16,
           "sentence_index": 0,
           "flags": [
-            "long:52w"
+            "long:50w"
           ],
           "preview": "What I could not know was that the book was written by a man named Clive Lewis, who became Christian through decades of journey — his mother's death, World War One trauma, conversations with colleague"
         },
@@ -20945,11 +20946,11 @@
     },
     {
       "file": "word-study-every-world.html",
-      "paragraphs": 92,
+      "paragraphs": 93,
       "redundancy_pairs": [
         {
-          "paragraph_a": 37,
-          "paragraph_b": 74,
+          "paragraph_a": 38,
+          "paragraph_b": 75,
           "similarity": 0.46,
           "a_preview": "Obviously \"world\" here is not every human being — we are commanded elsewhere to love human beings. \"World\" her",
           "b_preview": "\"Do not love the world\" (1 John 2:15): Meaning 4. The moral-ethical realm of rebellion, not every individual h"
@@ -20957,7 +20958,7 @@
       ],
       "flagged_sentences": [
         {
-          "paragraph": 87,
+          "paragraph": 88,
           "sentence_index": 1,
           "flags": [
             "long:49w"
@@ -20967,8 +20968,8 @@
       ],
       "suppressed_redundancy": [
         {
-          "paragraph_a": 79,
-          "paragraph_b": 80,
+          "paragraph_a": 80,
+          "paragraph_b": 81,
           "similarity": 0.44,
           "a_preview": "Question 1: \"When John says in 1 John 2:15, 'Do not love the world,' is he telling us not to love human beings",
           "b_preview": "Question 2: \"When John says in 1 John 5:19, 'The whole world is under the control of the evil one,' does that ",
