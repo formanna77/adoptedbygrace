@@ -1,6 +1,6 @@
 # Prose Integrity Audit (Phase F) — Scanner v2
 
-**Generated:** 2026-06-06T19:24:43.319Z
+**Generated:** 2026-06-06T20:43:06.074Z
 **Spec:** `audit-prose.js v2` — redundancy (Jaccard ≥ 0.35 on significant-word bags) with **eight-class exemption filter** (closing-recurrence, Scripture-tsunami, pedagogical-anaphora, antithetical-parallelism, confessional-translation, historical-document-quotation, exegetical-comparison, research→pairing structural) + sentence-coherence heuristic with **anaphora/chiasm/embedded-quotation positive suppressors** + new **vehicle-tenor mismatch detector** (catches the original Aaron failure mode: simile whose vehicle and tenor are in incompatible domains).
 
 **Mandate (Aaron, 2026-04-27):** "many articles repeat themselves usually a couple times but sometimes even 3 times within the article... also some sentences don't make sense... we do not start expanding the website until every last sentence, paragraph, and article are written perfectly."
@@ -18,9 +18,9 @@
 | Articles with (genuine) redundancy | 12 (2.0%) |
 | Articles with (genuine) flagged sentences | 439 (74.5%) |
 | **Total redundancy pairs flagged (genuine)** | **12** |
-| **Total sentences flagged (genuine)** | **1281** |
+| **Total sentences flagged (genuine)** | **1282** |
 | Redundancy pairs suppressed (apex-tier exemptions) | 20 |
-| Sentence flags suppressed (coherence-positive) | 184 |
+| Sentence flags suppressed (coherence-positive) | 185 |
 
 ### Suppression breakdown by exemption class
 
@@ -64,7 +64,7 @@
 25. **theologian-augustine.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 43 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
 26. **theologian-gottschalk.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 28 paragraphs)
 27. **apologetic-gave-himself-for-the-bride.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 14 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-28. **apologetic-he-did-not-spare-his-own-son.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 11 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+28. **apologetic-he-did-not-spare-his-own-son.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 12 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
 29. **apologetic-loved-darkness-rather-than-light.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 13 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
 30. **apologetic-purchased-from-every-tribe.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 12 paragraphs)
 31. **ot-joseph.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 26 paragraphs)
@@ -532,12 +532,12 @@
 **Flagged sentences (7):**
 
 - [long:65w] (¶0): "Paul has been climbing toward it for a whole chapter  —  no condemnation, the Spirit's witness, the groaning creation, the unbreakable chain of "foreknew, predestined, called, justified, glorified"  —…"
-- [long:60w] (¶1): "And Paul reaches for the single greatest gift in the universe  —  not a kidney, not a rescue, but the Father's "own Son," the eternal beloved, handed over to a Roman cross  —  and says: if that has al…"
-- [long:66w] (¶4): "The cross and the intercession are the two halves of one priestly act, and they cover exactly the same people  —  the chosen, the given, the "us all." This is what the older writers meant by a definit…"
-- [long:49w] (¶5): "And the whole Bible breathes a love for the world: 'God so loved the world that he gave his one and only Son.' Your 'definite atonement' makes God stingy, shrinks His love down to a chosen few, and tu…"
-- [long:57w] (¶6): "Run it out: if the gift of the Son guarantees "all things" including final glory, and the Son was given for every person without exception, then every person without exception will be glorified  —  un…"
-- [long:56w] (¶8): "The logic runs from Calvary forward and it never breaks, because the premise stands forever on a hill outside Jerusalem where a Father did not withhold His Son, and a Son did not refuse the cup, and a…"
-- [long:48w] (¶9): "So we confess it, who once measured our safety by the strength of our own hold: that we were bought, not browsed; saved, not merely offered; that the Son was given for us by name, and the Father who d…"
+- [long:60w] (¶2): "And Paul reaches for the single greatest gift in the universe  —  not a kidney, not a rescue, but the Father's "own Son," the eternal beloved, handed over to a Roman cross  —  and says: if that has al…"
+- [long:66w] (¶5): "The cross and the intercession are the two halves of one priestly act, and they cover exactly the same people  —  the chosen, the given, the "us all." This is what the older writers meant by a definit…"
+- [long:49w] (¶6): "And the whole Bible breathes a love for the world: 'God so loved the world that he gave his one and only Son.' Your 'definite atonement' makes God stingy, shrinks His love down to a chosen few, and tu…"
+- [long:61w] (¶7): "Run it out: if the gift of the Son guarantees "all things" including final glory, and the Son was given for every person without exception, then every person without exception will be glorified  —  un…"
+- [long:56w] (¶9): "The logic runs from Calvary forward and it never breaks, because the premise stands forever on a hill outside Jerusalem where a Father did not withhold His Son, and a Son did not refuse the cup, and a…"
+- [long:48w] (¶10): "So we confess it, who once measured our safety by the strength of our own hold: that we were bought, not browsed; saved, not merely offered; that the Son was given for us by name, and the Father who d…"
 
 **Suppressions** (auto-filtered as exemptions / coherence-positives):
 
