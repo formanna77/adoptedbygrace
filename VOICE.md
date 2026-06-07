@@ -62,7 +62,7 @@ Laws of H2 construction:
 
 The last fifth of every page is the tender landing. It is where the sledgehammer becomes a hand on the reader's shoulder. The tonal shift is audible; the reader should feel the gear change without being told a gear has changed. Four reliable shapes:
 
-- **The Circular Return.** Go back to the scene from the opener, altered by the truth. Mara on the bathroom floor. The reader whose knuckles were white in paragraph two, now with their hand open. The 2:47 AM bedroom where something has shifted.
+- **The Circular Return.** Go back to the scene from the opener, altered by the truth. Mara on the bathroom floor. The fireman still kneeling on the wet grass over the child he carried out. (AMENDED S95: the return must be to a scene that landed — a universal or clearly-offered picture-frame scene. A return to a manufactured reader-tableau multiplies the §VI violation; the old "2:47 AM bedroom" exemplar was retired with its page.)
 - **The Pastoral Whisper.** The volume drops. Sentences shorten. First-person plural or second-person singular. No more argument, only address. "He has you. He always did."
 - **The Embedded Prayer.** A prayer the reader cannot read without praying, even if they did not intend to pray. Italicized. Three or four sentences. Addressed to the Father, not to the reader.
 - **The Door Left Open.** The last line is a threshold, not a conclusion. "And the door has been open since before you were born."
@@ -180,10 +180,12 @@ Each answer falls into the same trap. The reader is watching their own mental ma
 
 *The final section returns to the opening scene with the truth of the page now inside it.*
 
-**Canonical example** (devotional-chosen-before-you-were-broken):
-> "Back to 2:47. The ceiling is still dark. The reel is still there... but something has shifted."
+**Canonical example** (devotional-rescued-without-a-say, closing its own opening fire-rescue picture-frame):
+> "The streetlight is still on. The fireman is still kneeling. He has a name. His name is Jesus. He came."
 
-**When to use:** When the opener was a specific scene. The circular return pays the opener off; the page becomes a single closed shape rather than a list of points.
+(The former exemplar — chosen-before-you-were-broken's "Back to 2:47" — was retired when the staged-bedroom class was banned; the quoted text no longer exists on that page.)
+
+**When to use:** When the opener was a specific scene that passes the §I.2 universality bar (a genuinely shared experience, or a deliberately offered picture-frame). The circular return pays the opener off; the page becomes a single closed shape rather than a list of points. NEVER return to a manufactured reader-tableau (§VI) — if the opener scene fails the universality bar, every return to it fails with it.
 
 **Law:** The scene is identical in its exterior details. What has changed is inside the reader. The move is felt, not announced. Never say "now you can see this differently" — show the same thing differently and let the reader feel their own eyes changing.
 

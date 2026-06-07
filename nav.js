@@ -371,7 +371,7 @@
  { name: 'What Are You? Created in Glory, Ruined by Sin, Rescued by Grace', href: '/systematic-anthropology', desc: 'You are more glorious and more ruined than you have ever imagined. Both at the same time. And that combination is why yo' },
  { name: 'Who Is God? The Foundation Everything Else Stands On', href: '/systematic-theology-proper', desc: 'Before you can understand how God saves, you must understand who He is — because His nature is the reason grace works th' },
  { name: 'Why Scripture Is the Final Word', href: '/systematic-prolegomena', desc: 'Before you can answer any question about God, you must answer where truth comes from. Get this wrong and every doctrine ' },
- { name: 'You\'re Not Sick in Sin', href: '/systematic-hamartiology', desc: 'Run the test further. The reason you mildly dislike certain Christians is not their personality — it is their holiness. ' }
+ { name: 'You\'re Not Sick in Sin', href: '/systematic-hamartiology', desc: 'Sin is not a list of mistakes. It is a nature — hamartia, the bent of a heart that loves the world and not God. The diag' }
  ]
  },
  {
@@ -819,14 +819,14 @@
  count: 41,
  pages: [
  { name: 'Can God Stop Loving You?', href: '/devotional-never-gives-up', desc: 'God chose you before time existed. He holds you in two unbreakable hands. Nothing in all creation can separate you from ' },
- { name: 'Can You Lose God\'s Love? What "Forever" Actually Means', href: '/devotional-forever-loved', desc: 'Now. The question this devotional is asking is not "Are you strong enough to stay on the shoulder?" The question is "Who' },
+ { name: 'Can You Lose God\'s Love? What "Forever" Actually Means', href: '/devotional-forever-loved', desc: 'Nothing in creation can separate you from a love that was set on you before the world existed. Paul searched the cosmos ' },
  { name: 'Chosen Before You Were Broken', href: '/devotional-chosen-before-you-were-broken', desc: 'You were chosen before the creation of the world — before any sin, before any shame, before any breaking. The love that ' },
  { name: 'Drawn, Not Dragged — The Gentleness of Irresistible Grace', href: '/devotional-drawn-not-dragged', desc: 'Your fear of irresistible grace is that you would be dragged to God — your will overridden, your personhood crushed, a m' },
  { name: 'For the Secretly Ashamed', href: '/devotional-the-secretly-ashamed', desc: 'The house is asleep. The blue light of the phone is washing over your face, and you have just closed a tab too fast, the' },
  { name: 'Found Before You Were Born', href: '/devotional-found-before-you-were-born', desc: 'A keepsake devotional for the soul when the silence comes back. You were not chosen because He saw what you' },
  { name: 'He Loved You Before the World Was Made', href: '/devotional-love-before-the-world', desc: 'Before time. Before space. Before anything existed — God loved you. A meditation on the eternal, electing love that pred' },
  { name: 'Held Without Asking — The Comfort of Involuntary Safety', href: '/devotional-held-without-asking', desc: 'You were held before you knew to ask. A devotional on the strange comfort of a love that did not wait for your invitatio' },
- { name: 'I Can\'t Feel God Anymore', href: '/devotional-i-cant-feel-god', desc: 'Nothing comes. No warmth moves across the chest. No sentence arrives in the mind that feels like it is from elsewhere. T' },
+ { name: 'I Can\'t Feel God Anymore', href: '/devotional-i-cant-feel-god', desc: 'You pray and nothing comes back. No warmth, no whisper. The numbness is not abandonment — your standing never rested on ' },
  { name: 'I Don\'t Think I\'m Saved', href: '/devotional-i-dont-think-im-saved', desc: 'The fact that you are terrified about your salvation is among the strongest possible evidence that you are saved. The de' },
  { name: 'I Was Lazarus — And I Did Not Volunteer to Rise', href: '/devotional-i-was-lazarus', desc: 'Lazarus did not hear the offer of resurrection from inside the tomb and decide to accept. Lazarus was dead. Dead men do ' },
  { name: 'In Christ — The Two Words That Change Everything', href: '/devotional-in-christ', desc: 'Paul uses "in Christ," "in Him," or "in the Beloved" eleven times in twelve verses (Ephesians 1:3-14). Every spiritual b' },
@@ -867,7 +867,7 @@
  href: '/anxious-mind-what-if-not-chosen',
  count: 44,
  pages: [
- { name: 'Religious OCD — When Your Mind Won\'t Stop Accusing You', href: '/anxious-mind-scrupulosity', desc: 'It is the middle of the night and you are gripping the edge of the mattress. Your knuckles are white. The thought came a' },
+ { name: 'Religious OCD — When Your Mind Won\'t Stop Accusing You', href: '/anxious-mind-scrupulosity', desc: 'The blasphemous thought that ambushes your prayers is not your heart speaking. It is your fear speaking — and a soul ind' },
  { name: 'The Ache of Watching Others Feel What You Can\'t', href: '/invisible-wall-spiritual-envy', desc: 'Spiritual envy — watching others seem to experience God while you feel nothing — is one of the loneliest experiences a b' },
  { name: 'The Anxious Mind — When Your Brain Won\'t Stop Screaming', href: '/anxious-mind-hub', desc: 'The thoughts you can\'t stop thinking. The fear that your faith isn\'t real. The terror of the unforgivable sin. The con' },
  { name: 'The Broken Mirror — When You Believe You\'re Not Enough', href: '/broken-mirror-hub', desc: 'You weren\'t an accident. You weren\'t a mistake. You were created as a vessel for mercy—designed to receive what you co' },
@@ -882,7 +882,7 @@
  { name: 'The Relapse — When You Fall Back Into the Sin You Thought You\'d Conquered', href: '/broken-mirror-the-relapse', desc: 'You swore you were done. You were certain the last time was the last time. And then you did it again. This is for the mo' },
  { name: 'The Shattered Lens — When You Can\'t Tell What\'s True Anymore', href: '/shattered-lens-hub', desc: 'Every institution that claimed to tell you truth has failed. Algorithms lie. News outlets lie. Governments lie. Social m' },
  { name: 'The Sin You Keep Repeating', href: '/broken-mirror-sin-you-repeat', desc: 'You fall. You repent with tears. You promise God never again. Three days later, you\'re back. The voice says: "If you we' },
- { name: 'The Terror That Won\'t Quiet: When You\'re Afraid of Hell', href: '/anxious-mind-fear-of-hell', desc: 'You woke up gasping. Heart hammering, drenched in the kind of sweat that has nothing to do with the temperature. The tho' },
+ { name: 'The Terror That Won\'t Quiet: When You\'re Afraid of Hell', href: '/anxious-mind-fear-of-hell', desc: 'The fear that you might be going to hell is itself the strongest evidence you are not headed there. The damned do not dr' },
  { name: 'Three in Five Are Lonely — And It\'s a Theological Problem', href: '/invisible-wall-lonely-theological', desc: 'Loneliness isn\'t a social problem—it\'s a theological one. The hole isn\'t people-shaped; it\'s God-shaped. You can hav' },
  { name: 'What If I\'m Not One of the Chosen?', href: '/anxious-mind-what-if-not-chosen', desc: 'The very fact that you are asking this question is powerful evidence that you are chosen. Scripture says the unregenerat' },
  { name: 'When Everything You Were Taught Was Wrong', href: '/shattered-lens-taught-wrong', desc: 'For the one who opened their Bible and found a God they had never been introduced to.' },
@@ -908,7 +908,7 @@
  { name: 'Why Do Bad Things Happen?', href: '/open-wound-hospital-room', desc: 'The hospital room is quiet. The machines beep. Someone you love is behind that curtain, or maybe it\'s you. And the ques' },
  { name: 'Why You Can Sleep When Everything Is Falling Apart', href: '/anxious-mind-sovereignty-of-sleep', desc: 'Sovereignty is the pillow your head has been looking for. What insomnia reveals about what you actually believe about co' },
  { name: 'You Are Not a Self-Made Anything', href: '/broken-mirror-not-self-made', desc: 'It\'s actually crushing. The Myth of the Self-Made The self-made person is America\'s favorite fiction. Every success st' },
- { name: 'You Were Never Meant to Carry This', href: '/anxious-mind-never-meant-to-carry', desc: 'Anxiety is the emotional price of believing the outcome depends on you. The same lie that fuels your late-hour spiral fu' },
+ { name: 'You Were Never Meant to Carry This', href: '/anxious-mind-never-meant-to-carry', desc: 'Anxiety is the emotional price of believing the outcome depends on you. The same lie that fuels your anxious spiral fuel' },
  { name: 'You Were Not an Accident — You Were Created for Mercy', href: '/broken-mirror-vessels-for-mercy', desc: 'Romans 9 :23 doesn\'t say you received mercy — it says you were created for mercy. The Greek word proētoimasen means "pr' },
  { name: 'Your Brain Decides Before You Do — And That\'s Good News', href: '/anxious-mind-brain-decides', desc: 'Neuroscience proves your brain decides before consciousness catches up. The secular mind panics — but Scripture already ' }
  ]
@@ -919,7 +919,7 @@
  href: '/pastoral-assurance',
  count: 6,
  pages: [
- { name: 'Can I Be Sure I\'m Saved?', href: '/pastoral-assurance', desc: 'The house is quiet in a way that is almost a sound. The ceiling fan ticks on every third rotation. You are on your back ' },
+ { name: 'Can I Be Sure I\'m Saved?', href: '/pastoral-assurance', desc: 'The fear that you might not be saved is itself evidence that you are — the unregenerate do not agonize over their standi' },
  { name: 'If God Already Chose, Why Share the Gospel?', href: '/pastoral-evangelism', desc: 'Because your mouth is the very means God ordained to call His elect home. Sovereignty does not kill evangelism. It guara' },
  { name: 'If God Decreed Everything, Why Pray?', href: '/pastoral-prayer', desc: 'You are kneeling beside your bed. Or sitting in your car in the parking lot. Or walking the dog at dawn with your lips m' },
  { name: 'What It Feels Like When the Truth Lands', href: '/pastoral-when-truth-lands', desc: 'When the reality of sovereign grace first lands, the ground disappears. A pastoral map for the vertigo, anger, grief, te' },

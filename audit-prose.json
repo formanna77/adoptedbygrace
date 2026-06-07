@@ -2,19 +2,19 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-07T05:59:05.389Z",
+  "generated": "2026-06-07T22:28:24.587Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 594,
     "total_redundancy_pairs_flagged": 12,
-    "total_sentences_flagged": 1289,
-    "total_redundancy_pairs_suppressed": 20,
+    "total_sentences_flagged": 1282,
+    "total_redundancy_pairs_suppressed": 19,
     "total_sentences_suppressed": 185,
     "articles_with_redundancy": 12,
-    "articles_with_flagged_sentences": 444,
-    "articles_clean": 144,
+    "articles_with_flagged_sentences": 443,
+    "articles_clean": 145,
     "suppression_by_class": {
-      "scripture-tsunami": 11,
+      "scripture-tsunami": 10,
       "pedagogical-anaphora": 2,
       "confessional-translation": 6,
       "antithetical-parallelism": 1
@@ -472,15 +472,6 @@
       "suppressed_sentence_count": 0
     },
     {
-      "file": "devotional-i-cant-feel-god.html",
-      "score": 5,
-      "paragraphs": 44,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 5,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
       "file": "devotional-joy-of-election.html",
       "score": 5,
       "paragraphs": 52,
@@ -580,15 +571,6 @@
       "suppressed_sentence_count": 0
     },
     {
-      "file": "question-chosen.html",
-      "score": 5,
-      "paragraphs": 37,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 5,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
       "file": "question-revelation13.html",
       "score": 5,
       "paragraphs": 30,
@@ -610,15 +592,6 @@
       "file": "response-william-lane-craig.html",
       "score": 5,
       "paragraphs": 57,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 5,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "romans-3-10-18.html",
-      "score": 5,
-      "paragraphs": 31,
       "redundancy_count": 0,
       "flagged_sentence_count": 5,
       "suppressed_redundancy_count": 0,
@@ -740,6 +713,33 @@
       "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
+    },
+    {
+      "file": "apologetic-i-know-whom-i-have-believed.html",
+      "score": 4,
+      "paragraphs": 12,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
+    },
+    {
+      "file": "apologetic-kept-by-the-power-of-god.html",
+      "score": 4,
+      "paragraphs": 17,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
+    },
+    {
+      "file": "apologetic-only-evil-all-the-time.html",
+      "score": 4,
+      "paragraphs": 14,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2
     }
   ],
   "articles": [
@@ -1314,14 +1314,23 @@
       "file": "anxious-mind-fear-of-hell.html",
       "paragraphs": 42,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 30,
+          "sentence_index": 5,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "They are not crying in the dark."
+        }
+      ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 0
+      "score": 1
     },
     {
       "file": "anxious-mind-intrusive-thoughts.html",
@@ -1347,16 +1356,29 @@
     },
     {
       "file": "anxious-mind-never-meant-to-carry.html",
-      "paragraphs": 30,
+      "paragraphs": 29,
+      "redundancy_pairs": [],
+      "flagged_sentences": [],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 0,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 0
+    },
+    {
+      "file": "anxious-mind-scrupulosity.html",
+      "paragraphs": 63,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 27,
-          "sentence_index": 2,
+          "paragraph": 28,
+          "sentence_index": 6,
           "flags": [
-            "padding-modifier:in the dark"
+            "long:48w"
           ],
-          "preview": "But something has shifted in the dark  —  not the room, but the weight."
+          "preview": "It will follow you into every prayer, every sermon, every worship service, until you see it for what it is: not the voice of God evaluating your soul, but a broken loop in a brain that God chose , lov"
         }
       ],
       "suppressed_redundancy": [],
@@ -1368,50 +1390,12 @@
       "score": 1
     },
     {
-      "file": "anxious-mind-scrupulosity.html",
-      "paragraphs": 64,
-      "redundancy_pairs": [],
-      "flagged_sentences": [
-        {
-          "paragraph": 0,
-          "sentence_index": 4,
-          "flags": [
-            "padding-modifier:in the dark"
-          ],
-          "preview": "And now you are lying in the dark, heart hammering, convinced that the thought proves something about your soul that you have always feared was true."
-        },
-        {
-          "paragraph": 1,
-          "sentence_index": 3,
-          "flags": [
-            "padding-modifier:in the dark"
-          ],
-          "preview": "For the person gripping the mattress in the dark, certain they are the exception to grace."
-        },
-        {
-          "paragraph": 29,
-          "sentence_index": 6,
-          "flags": [
-            "long:48w"
-          ],
-          "preview": "It will follow you into every prayer, every sermon, every worship service, until you see it for what it is: not the voice of God evaluating your soul, but a broken loop in a brain that God chose , lov"
-        }
-      ],
-      "suppressed_redundancy": [],
-      "suppressed_sentences": [],
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0,
-      "score": 3
-    },
-    {
       "file": "anxious-mind-sovereignty-of-sleep.html",
-      "paragraphs": 38,
+      "paragraphs": 37,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 33,
+          "paragraph": 32,
           "sentence_index": 8,
           "flags": [
             "padding-modifier:in the dark"
@@ -1429,7 +1413,7 @@
     },
     {
       "file": "anxious-mind-the-loop-that-wont-break.html",
-      "paragraphs": 40,
+      "paragraphs": 38,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -5561,7 +5545,7 @@
     },
     {
       "file": "broken-mirror-performance-treadmill.html",
-      "paragraphs": 38,
+      "paragraphs": 37,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -5588,7 +5572,7 @@
       "flagged_sentences": [
         {
           "paragraph": 1,
-          "sentence_index": 3,
+          "sentence_index": 2,
           "flags": [
             "padding-modifier:in the dark",
             "vehicle-tenor-mismatch:tenor=dark,vehicle=water"
@@ -6171,21 +6155,12 @@
       "file": "compare-monergism-synergism.html",
       "paragraphs": 34,
       "redundancy_pairs": [],
-      "flagged_sentences": [
-        {
-          "paragraph": 2,
-          "sentence_index": 3,
-          "flags": [
-            "long:49w"
-          ],
-          "preview": "It is the heart's refusal to surrender the title of co-author after it has already surrendered the title of author  —  a quiet bid to keep one toe inside the question, one finger on the scale, one syl"
-        }
-      ],
+      "flagged_sentences": [],
       "suppressed_redundancy": [
         {
           "paragraph_a": 16,
           "paragraph_b": 19,
-          "similarity": 0.52,
+          "similarity": 0.4,
           "a_preview": "New Birth : \"children born not of natural descent, nor of human decision or a husband's will, but born of God\"",
           "b_preview": "John 1:12-13: \"Children born not of natural descent, nor of human decision or a husband's will, but born of Go",
           "exemption_class": "scripture-tsunami",
@@ -6203,10 +6178,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 1,
       "suppressed_sentence_count": 1,
-      "score": 1
+      "score": 0
     },
     {
       "file": "compare-predestination-foreknowledge.html",
@@ -7846,11 +7821,11 @@
     },
     {
       "file": "devotional-forever-loved.html",
-      "paragraphs": 35,
+      "paragraphs": 34,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 7,
+          "paragraph": 6,
           "sentence_index": 1,
           "flags": [
             "long:46w"
@@ -7858,7 +7833,7 @@
           "preview": "On your worst day  —  in the lightning-struck moment when you stand most ashamed of yourself, when you have plummeted into the very sin you swore you would never commit again  —  do you believe, in th"
         },
         {
-          "paragraph": 15,
+          "paragraph": 14,
           "sentence_index": 4,
           "flags": [
             "long:51w"
@@ -7866,7 +7841,7 @@
           "preview": "Before a child has a self strong enough to not dissolve under the weight of its own existence, the mother is doing the holding for it  —  and the child, unable to perceive this, experiences the world "
         },
         {
-          "paragraph": 20,
+          "paragraph": 19,
           "sentence_index": 6,
           "flags": [
             "long:53w"
@@ -7874,7 +7849,7 @@
           "preview": "And your flesh would rather be held by a love that requires something of you  —  even a sliver, even a stipulation, even the tiniest condition you can point to and say \"I am at least providing that \" "
         },
         {
-          "paragraph": 24,
+          "paragraph": 23,
           "sentence_index": 3,
           "flags": [
             "long-simile:14w"
@@ -7885,7 +7860,7 @@
       "suppressed_redundancy": [
         {
           "paragraph_a": 3,
-          "paragraph_b": 34,
+          "paragraph_b": 33,
           "similarity": 1,
           "a_preview": "\"For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future",
           "b_preview": "\"For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future",
@@ -7972,27 +7947,19 @@
     },
     {
       "file": "devotional-i-cant-feel-god.html",
-      "paragraphs": 44,
+      "paragraphs": 29,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 14,
-          "sentence_index": 4,
+          "paragraph": 8,
+          "sentence_index": 1,
           "flags": [
             "padding-modifier:in the dark"
           ],
-          "preview": "You are grieving a warmth you cannot summon and a Voice you cannot hear and a nearness you cannot feel, and the grief itself is so sharp you are willing to read a devotional in the dark to make sense "
+          "preview": "You are grieving a warmth you cannot summon and a Voice you cannot hear, and the grief is sharp enough to send you searching in the dark."
         },
         {
-          "paragraph": 14,
-          "sentence_index": 6,
-          "flags": [
-            "padding-modifier:in the dark"
-          ],
-          "preview": "That is the behavior of a child who has been held and now, in the dark, cannot tell where the hand went, and is terrified because the hand was the thing."
-        },
-        {
-          "paragraph": 33,
+          "paragraph": 20,
           "sentence_index": 3,
           "flags": [
             "abstract-simile:like a memory"
@@ -8000,30 +7967,21 @@
           "preview": "My faith feels like a memory of something I used to have."
         },
         {
-          "paragraph": 35,
+          "paragraph": 22,
           "sentence_index": 0,
           "flags": [
             "padding-modifier:in the dark"
           ],
           "preview": "So hold me in the dark."
-        },
-        {
-          "paragraph": 42,
-          "sentence_index": 4,
-          "flags": [
-            "long:47w",
-            "long-simile:19w"
-          ],
-          "preview": "And in the morning, when the cold mug is in the sink and the sun is coming through the blinds and you are brushing your teeth like a person who does not remember why she was weeping just hours ago  — "
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 5,
+      "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 5
+      "score": 3
     },
     {
       "file": "devotional-i-dont-think-im-saved.html",
@@ -8248,6 +8206,14 @@
           "preview": "You are inside both of them simultaneously, like a seal within a seal  —  the image Scripture reaches for in the unbreakable grip the Shepherd never announces and never relaxes ."
         },
         {
+          "paragraph": 10,
+          "sentence_index": 0,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The Greek beneath that one word is devastating. Οὐ μὴ ἀπόλωνται ( ou mē apolōntai )  —  the strongest form of denial the language possesses, every negation Greek contained piled onto one word to weld "
+        },
+        {
           "paragraph": 15,
           "sentence_index": 0,
           "flags": [
@@ -8267,10 +8233,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 3,
+      "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 3
+      "score": 4
     },
     {
       "file": "devotional-not-my-will-but-joy.html",
@@ -10715,7 +10681,7 @@
     },
     {
       "file": "history-timeline.html",
-      "paragraphs": 43,
+      "paragraphs": 42,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -11673,7 +11639,7 @@
       "flagged_sentences": [
         {
           "paragraph": 20,
-          "sentence_index": 4,
+          "sentence_index": 3,
           "flags": [
             "long:54w"
           ],
@@ -12602,16 +12568,16 @@
     },
     {
       "file": "pastoral-assurance.html",
-      "paragraphs": 27,
+      "paragraphs": 26,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 25,
-          "sentence_index": 9,
+          "paragraph": 24,
+          "sentence_index": 7,
           "flags": [
             "padding-modifier:in the silence"
           ],
-          "preview": "The same God who named you in the silence before creation is the One holding you up off the mattress right now, and His is not a tired hand."
+          "preview": "The same God who named you in the silence before creation is holding you up right now, and His is not a tired hand."
         }
       ],
       "suppressed_redundancy": [],
@@ -14158,11 +14124,11 @@
     },
     {
       "file": "psychology-why-we-resist.html",
-      "paragraphs": 91,
+      "paragraphs": 90,
       "redundancy_pairs": [
         {
-          "paragraph_a": 18,
-          "paragraph_b": 39,
+          "paragraph_a": 17,
+          "paragraph_b": 38,
           "similarity": 0.58,
           "a_preview": "The core finding is this: When people are reminded of their mortality or existential vulnerability, they cling",
           "b_preview": "When reminded of mortality, people cling more tightly to worldviews that give them significance and control. W"
@@ -14170,7 +14136,7 @@
       ],
       "flagged_sentences": [
         {
-          "paragraph": 12,
+          "paragraph": 11,
           "sentence_index": 3,
           "flags": [
             "long:46w"
@@ -14182,7 +14148,7 @@
       "suppressed_sentences": [
         {
           "paragraph": 5,
-          "sentence_index": 1,
+          "sentence_index": 0,
           "suppressed_flags": [
             "length-suppressed-anaphora:1-word:despite×3"
           ],
@@ -14425,11 +14391,11 @@
     },
     {
       "file": "question-boasting.html",
-      "paragraphs": 36,
+      "paragraphs": 35,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 27,
+          "paragraph": 26,
           "sentence_index": 2,
           "flags": [
             "long:50w"
@@ -14437,7 +14403,7 @@
           "preview": "But if it depends on the God who chose you before the foundation of the world  —  the God who chose the foolish, the weak, and the despised precisely so that His grace could never be confused with you"
         },
         {
-          "paragraph": 28,
+          "paragraph": 27,
           "sentence_index": 5,
           "flags": [
             "padding-modifier:in the dark"
@@ -14445,7 +14411,7 @@
           "preview": "And the minute your grip slips  —  you are back out in the dark."
         },
         {
-          "paragraph": 29,
+          "paragraph": 28,
           "sentence_index": 0,
           "flags": [
             "long:47w"
@@ -14453,7 +14419,7 @@
           "preview": "But if your salvation depends on the God who chose you before you existed  —  before the foundation of the world, before your grandparents had surnames, before the stars were pressed into the sky  —  "
         },
         {
-          "paragraph": 29,
+          "paragraph": 28,
           "sentence_index": 1,
           "flags": [
             "padding-modifier:in the dark"
@@ -14464,7 +14430,7 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [
         {
-          "paragraph": 32,
+          "paragraph": 31,
           "sentence_index": 0,
           "suppressed_flags": [
             "length-suppressed-anaphora:2-word:when the×3"
@@ -14575,23 +14541,15 @@
             "long:49w"
           ],
           "preview": "You are loved by the kind of love that set a universe in motion just so it could eventually find you in an ordinary room, reading an ordinary screen, on an ordinary Tuesday, with the ordinary ache in "
-        },
-        {
-          "paragraph": 33,
-          "sentence_index": 2,
-          "flags": [
-            "long:52w"
-          ],
-          "preview": "And the entire story of redemption  —  Egypt, Sinai, Bethlehem, Calvary, the empty tomb, the Spirit poured out, the book you are reading right now, the quiet stirring under your ribs as you read these"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 5,
+      "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 5
+      "score": 4
     },
     {
       "file": "question-dead-bury-dead.html",
@@ -14856,7 +14814,7 @@
     },
     {
       "file": "question-foreknowledge.html",
-      "paragraphs": 24,
+      "paragraphs": 23,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -14930,14 +14888,6 @@
         },
         {
           "paragraph": 12,
-          "sentence_index": 1,
-          "flags": [
-            "padding-modifier:in the night"
-          ],
-          "preview": "System 1 is the part of you that wakes in the night afraid you will not make it."
-        },
-        {
-          "paragraph": 12,
           "sentence_index": 4,
           "flags": [
             "padding-modifier:in the dark"
@@ -14945,23 +14895,13 @@
           "preview": "You can prove eternal security on paper and still feel unsaved in the dark."
         }
       ],
-      "suppressed_redundancy": [
-        {
-          "paragraph_a": 3,
-          "paragraph_b": 14,
-          "similarity": 0.44,
-          "a_preview": "Romans 8:28-30 is the foundation of eternal security . It describes a chain of five divine actions, each in th",
-          "b_preview": "Romans 8:28-30 is the foundation of eternal security. It is not a promise that God will try to keep us saved. ",
-          "exemption_class": "scripture-tsunami",
-          "reason": "both paragraphs are Scripture-quote-dominated; deliberate verse stacking"
-        }
-      ],
+      "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 1,
+      "flagged_sentence_count": 2,
+      "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 3
+      "score": 2
     },
     {
       "file": "question-hardening.html",
@@ -15291,7 +15231,7 @@
     },
     {
       "file": "question-perseverance.html",
-      "paragraphs": 33,
+      "paragraphs": 32,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -15555,7 +15495,7 @@
           "flags": [
             "padding-modifier:in the dark"
           ],
-          "preview": "You are awake in the dark, replaying a sentence you said yesterday  —  or a private sin you told yourself was buried  —  and the old question has risen again: Did I do it this time?"
+          "preview": "You know the night  —  awake in the dark, replaying a sentence you said yesterday, or a private sin you told yourself was buried, while the old question rises again: Did I do it this time?"
         },
         {
           "paragraph": 11,
@@ -15564,15 +15504,23 @@
             "padding-modifier:in the dark"
           ],
           "preview": "If you manufactured your own faith, then yes  —  you could un-manufacture it, you could lose the seal, and your terror in the dark makes sense."
+        },
+        {
+          "paragraph": 29,
+          "sentence_index": 7,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "And the next time the old question rises  —  the next night you lie rehearsing your failures  —  somewhere in that same courtroom, a Father is reading the decree aloud, for the ten-thousandth time, ov"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 2,
+      "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 2
+      "score": 3
     },
     {
       "file": "question-secure.html",
@@ -16783,23 +16731,15 @@
             "padding-modifier:in the dark"
           ],
           "preview": "He does not bury you under \"not even one\" to leave you in the dark."
-        },
-        {
-          "paragraph": 28,
-          "sentence_index": 3,
-          "flags": [
-            "long:52w"
-          ],
-          "preview": "He buries the lie that you could save yourself, so that when the verdict is finally read in full, your hands are empty enough to be filled  —  and a God who justifies the ungodly drapes you in a right"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 5,
+      "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 5
+      "score": 4
     },
     {
       "file": "romans-8-28-39.html",
@@ -16868,12 +16808,11 @@
       "flagged_sentences": [
         {
           "paragraph": 2,
-          "sentence_index": 7,
+          "sentence_index": 6,
           "flags": [
-            "long:48w",
             "padding-modifier:in the dark"
           ],
-          "preview": "By the end it will have answered it more tenderly than you dared hope  —  but it will walk you down the whole hard road first, because a comfort handed out before the truth is only sentiment, and sent"
+          "preview": "The chapter does not dodge it  —  but it walks you down the whole hard road first, because a comfort handed out before the truth is only sentiment, and sentiment has never once held a soul in the dark"
         },
         {
           "paragraph": 20,
@@ -17234,11 +17173,11 @@
       "flagged_sentences": [
         {
           "paragraph": 9,
-          "sentence_index": 1,
+          "sentence_index": 0,
           "flags": [
             "long:53w"
           ],
-          "preview": "When you lost your temper at your spouse last Thursday, you will not be absolved before God on the ground that your amygdala fired before your prefrontal cortex could intervene  —  that the firing was"
+          "preview": "The last time you lost your temper at someone you love, you were not absolved before God on the ground that your amygdala fired before your prefrontal cortex could intervene  —  that the firing was ca"
         }
       ],
       "suppressed_redundancy": [],
@@ -18552,11 +18491,11 @@
     },
     {
       "file": "systematic-atonement.html",
-      "paragraphs": 34,
+      "paragraphs": 33,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 26,
+          "paragraph": 25,
           "sentence_index": 0,
           "flags": [
             "long:56w"
@@ -20228,7 +20167,7 @@
       "suppressed_sentences": [
         {
           "paragraph": 39,
-          "sentence_index": 4,
+          "sentence_index": 2,
           "suppressed_flags": [
             "length-suppressed-anaphora:2-word:and the×4"
           ],
@@ -20385,14 +20324,6 @@
           "preview": "Because before you can hear anything about \"Calvinism,\" you need to see the actual man  —  not the cartoon your youth pastor warned you about, not the tyrant in the Netflix documentary about Servetus,"
         },
         {
-          "paragraph": 3,
-          "sentence_index": 2,
-          "flags": [
-            "long:56w"
-          ],
-          "preview": "He was a shy French lawyer who tried to run from ministry, who wept over the deaths of his children, who preached through every book of the Bible while his body was falling apart, and who built an ent"
-        },
-        {
           "paragraph": 15,
           "sentence_index": 0,
           "flags": [
@@ -20421,10 +20352,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 4,
+      "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
-      "score": 4
+      "score": 3
     },
     {
       "file": "theologian-edwards.html",
