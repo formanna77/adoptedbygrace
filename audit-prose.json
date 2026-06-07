@@ -2,12 +2,12 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-07T00:47:52.779Z",
+  "generated": "2026-06-07T05:59:05.389Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 594,
     "total_redundancy_pairs_flagged": 12,
-    "total_sentences_flagged": 1294,
+    "total_sentences_flagged": 1289,
     "total_redundancy_pairs_suppressed": 20,
     "total_sentences_suppressed": 185,
     "articles_with_redundancy": 12,
@@ -400,15 +400,6 @@
       "suppressed_sentence_count": 2
     },
     {
-      "file": "question-predestined-to-hell.html",
-      "score": 6,
-      "paragraphs": 45,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 6,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
       "file": "reformed-apologetics-resurrection.html",
       "score": 6,
       "paragraphs": 12,
@@ -736,6 +727,15 @@
       "file": "apologetic-arrabon-the-down-payment.html",
       "score": 4,
       "paragraphs": 33,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
+      "file": "apologetic-god-works-the-willing.html",
+      "score": 4,
+      "paragraphs": 14,
       "redundancy_count": 0,
       "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
@@ -15326,65 +15326,25 @@
     },
     {
       "file": "question-predestined-to-hell.html",
-      "paragraphs": 45,
+      "paragraphs": 25,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 1,
+          "paragraph": 18,
           "sentence_index": 2,
           "flags": [
-            "padding-modifier:in the dark"
+            "long-simile:16w"
           ],
-          "preview": "The ceiling is somewhere above you in the dark, and you cannot see it, but you know it is there the way you know the floor of an ocean is there under a boat at night."
-        },
-        {
-          "paragraph": 23,
-          "sentence_index": 0,
-          "flags": [
-            "padding-modifier:in the dark"
-          ],
-          "preview": "Lie still again in the dark bedroom."
-        },
-        {
-          "paragraph": 37,
-          "sentence_index": 2,
-          "flags": [
-            "padding-modifier:into the dark"
-          ],
-          "preview": "Vessels of wrath do not lie awake weeping into the dark that they might not be chosen."
-        },
-        {
-          "paragraph": 39,
-          "sentence_index": 3,
-          "flags": [
-            "padding-modifier:in the dark"
-          ],
-          "preview": "And you are lying in the dark, and the pressure in your chest is not condemnation any longer  —  it is ache."
-        },
-        {
-          "paragraph": 40,
-          "sentence_index": 0,
-          "flags": [
-            "padding-modifier:in the dark"
-          ],
-          "preview": "So hear this in the dark."
-        },
-        {
-          "paragraph": 42,
-          "sentence_index": 2,
-          "flags": [
-            "padding-modifier:in the dark"
-          ],
-          "preview": "But because it has been answered, and the Answer is already in bed with you holding you like a Father holds a frightened child in the dark, whispering the one sentence that will finally let you sleep:"
+          "preview": "It is why reprobation makes you angry and election feels like an offense  —  and it is what Paul means by \" dead in sin \": not unconscious, but running a courtroom against God every day of your life."
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 6,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 6
+      "score": 1
     },
     {
       "file": "question-proverbs-sovereignty.html",
