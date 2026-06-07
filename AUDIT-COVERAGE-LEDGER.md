@@ -19,6 +19,17 @@
 
 ## CONFIRMED VERDICTS LOG
 
+## CAMPAIGN 2 — THE TIGHTENING RE-READ — OPENED S94 (2026-06-06) — 1/589
+
+**Aaron's directive, confirmed explicitly at S94's close: every article that was passed up because it carried a "CONFIRMED" / "apex" / any other stamp gets re-read. No prior verdict is a pass.** Campaign 1's stamps stand for what they tested (NIV-all-layers, structure, landing force, §XVI/§XVII). They are **VOID on the two axes Campaign 1 never carried**: (1) **opener universality** — the manufactured crisis scene and its Circular Returns (VOICE.md §I.2 amended + §VI), and failed central analogies; (2) **wordiness/sharpness** — frame-bouncing, re-stated points, scaffolding prose (§VI + §VII.1). Verdict scale: SHARP / TRIM / REFRAME / REBUILD — every non-SHARP fixed in-session before its C2 flip. Read-order: highest-inbound first (the Campaign 1 ladder). Wave-1 priority queue (S94 scoping read, worst first): devotional-i-cant-feel-god, anxious-mind-the-loop-that-wont-break, anxious-mind-scrupulosity, anxious-mind-sovereignty-of-sleep, joy-security-changes-everything, anxious-mind-what-if-not-chosen, + borderline devotional-chosen-before-you-were-broken (founding masterpiece — Aaron's call before heavy recasting). **Expansion is blocked until 589/589.**
+
+| Campaign 2 status | Count |
+|---|---|
+| RE-CONFIRMED (C2) | 1 |
+| REMAINING | 588 |
+
+**C2 log.** S94: question-predestined-to-hell — REBUILD (3,192 → ~1,710w; bedroom tableau stripped from 4 positions + FAQ-schema relic; cold-read PASS) → re-CONFIRMED. The calibration case.
+
 ## S94 AUDITOR-IN-CHIEF OVERRIDE + REBUILD — question-predestined-to-hell — CONF → REBUILT → re-CONFIRMED — 2026-06-06
 
 **Aaron's live read overruled a CONFIRMED stamp** — the page "bounces around too much... too wordy... super specific scenarios that only a very few would connect to... stirs no one's spirit." This is first-order calibration: the thirteen-leg campaign never tested OPENER UNIVERSALITY or WORDINESS. Both are now audit axes (VOICE.md §I.2 amended + §VI "The Manufactured Crisis Scene" / "Wordiness"; CLAUDE.md "Sharp prose + universal openers"). **Locks are not exemptions, and neither are CONF stamps.**
