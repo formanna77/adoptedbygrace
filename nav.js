@@ -22,7 +22,7 @@
  href: '/start-here',
  count: 7,
  pages: [
- { name: '480+ Bible Verses That Prove God\'s Sovereignty in Salvation', href: '/scripture-tsunami', desc: 'Nearly 500 Bible verses on God\'s sovereignty in salvation — searchable, categorized, impossible to ignore. This is what' },
+ { name: '470 Bible Verses That Prove God\'s Sovereignty in Salvation', href: '/scripture-tsunami', desc: 'Nearly 500 Bible verses on God\'s sovereignty in salvation — searchable, categorized, impossible to ignore. This is what' },
  { name: 'But What About Free Will and Fairness? — Phase 4', href: '/start-here-phase4', desc: 'Every objection matters. The deepest thinkers in church history discovered: objections don\'t weaken the case for sovere' },
  { name: 'Living as an Elect Child of God — Phase 5', href: '/start-here-phase5', desc: 'Phase 5: Living as an elect child of God — how sovereign grace transforms your assurance, prayer, worship, mission, and ' },
  { name: 'New to Sovereign Grace? Start Here.', href: '/start-here', desc: 'Different people arrive at the doctrines of grace from different directions. This is a collection of doorways. Pick the ' },
@@ -139,7 +139,7 @@
  { name: 'The Valley of Dry Bones — How the Dead Are Made to Live (Ezekiel 37)', href: '/apologetic-the-valley-of-dry-bones', desc: 'God set Ezekiel in a valley of very dry bones and asked, can these bones live? They did not stir until the word was prea' },
  { name: 'The Washing of Rebirth — Born Again Before You Believed (Titus 3:5)', href: '/apologetic-the-washing-of-rebirth', desc: 'Paul says God saved us not because of righteous things we had done, but through the washing of rebirth and renewal by th' },
  { name: 'There Is No One Who Seeks God — The Verse That Ends the Seeker Myth (Romans 3:10-18)', href: '/apologetic-no-one-righteous', desc: 'Everyone believes they were a seeker who found God. Romans 3:10-12 says the opposite in the most absolute negation in Sc' },
- { name: 'Those You Gave Me — The Given Ones of John 17', href: '/apologetic-those-you-gave-me', desc: 'Seven times in His longest recorded prayer, Jesus calls the people He came to save the ones the Father gave Him — hous d' },
+ { name: 'Those You Gave Me — The Given Ones of John 17', href: '/apologetic-those-you-gave-me', desc: 'Five times in His longest recorded prayer, Jesus calls the people He came to save the ones the Father gave Him — hous de' },
  { name: 'What About Babies Who Die?', href: '/apologetic-babies', desc: 'What happens to babies who die? Scripture gives grieving parents a sovereign, rock-solid hope that no free-will theology' },
  { name: 'What About Those Who Never Heard the Gospel?', href: '/apologetic-unreached', desc: 'The question assumes that people without the gospel are innocent and waiting. Scripture says the opposite: every human b' },
  { name: 'When the Spirit Moves in Obvious Power — What Three Centuries of Revival Reveal About the Doctrine the Awakened Were Pre', href: '/apologetic-revival-and-sovereign-grace', desc: 'Three centuries of revival history converge on a single observation: where the Spirit moved in obvious power, the doctri' },
@@ -426,7 +426,7 @@
  { name: '2 Thessalonians 2:13 — God Chose You as Firstfruits to Be Saved', href: '/2-thessalonians-2-13', desc: 'Paul' },
  { name: 'Acts 13:48 — All Who Were Appointed for Eternal Life Believed', href: '/acts-13-48', desc: 'Luke' },
  { name: 'Ephesians 1:3-14 — The One-Sentence Eulogy of Eternal Election', href: '/ephesians-1-3-14', desc: 'Twelve verses. One sentence in Greek. Three movements — Father, Son, Spirit — with the same refrain at the seam of each:' },
- { name: 'Every Bible Verse That Teaches Faith Is a Gift from God', href: '/scripture-tsunami-faith-as-gift', desc: '40+ Bible verses proving faith is a gift of God, not a human achievement. From Genesis to Revelation, Scripture is unani' },
+ { name: 'Every Bible Verse That Teaches Faith Is a Gift from God', href: '/scripture-tsunami-faith-as-gift', desc: '30+ Bible verses proving faith is a gift of God, not a human achievement. From Genesis to Revelation, Scripture is unani' },
  { name: 'Every Verse Teaching God\'s Sovereignty Over Salvation', href: '/scripture-tsunami-sovereignty', desc: 'All quotations are NIV. Each verse is followed by one sentence explaining why it matters. For deeper analysis of individ' },
  { name: 'John 6:37-44 — All Those the Father Gives Me Will Come', href: '/john-6-37-44', desc: 'In one paragraph at Capernaum, Jesus stacked four monergistic claims: the Father gives, the given come, the Son loses no' },
  { name: 'Romans 3:10-18 — The Indictment Nobody Escapes', href: '/romans-3-10-18', desc: 'Paul weaves six Old Testament passages into a seven-charge indictment of the entire human race: no one righteous, no one' },
@@ -498,7 +498,7 @@
  { name: 'Did C.S. Lewis Refute Calvinism? — What They Won\'t Tell You', href: '/counter-cs-lewis-free-will', desc: 'But does Scripture teach this? Not "does it sound reasonable?" — does God\'s Word say this is how salvation works?' },
  { name: 'Does "The Whole World" in 1 John 2:2 Prove Universal Atonement?', href: '/demolition-1john2-2', desc: 'So slow down. Read it again. And this time, do not move past the word propitiation .' },
  { name: 'Does God Take Pleasure in Death?', href: '/demolition-ezekiel18-23', desc: 'What Ezekiel 18:23 actually means — and why the prophet\'s own words destroy the Arminian reading.' },
- { name: 'Does God Want Everyone Saved?', href: '/demolition-1tim2-4', desc: 'God "wants all people to be saved" — but Paul wrote that sentence one verse after commanding prayer "for all people, for' },
+ { name: 'Does God Want Everyone Saved?', href: '/demolition-1tim2-4', desc: 'God "wants all people to be saved" — but Paul wrote that sentence two verses after commanding prayer "for all people, fo' },
  { name: 'Ezekiel 33:11 — "I Take No Pleasure in the Death of the Wicked"', href: '/demolition-ezekiel33-11', desc: 'The verse Arminians wield to prove God wants to save everyone equally teaches — when read honestly — the crucial distinc' },
  { name: 'FACTS Check — The Arminian Framework Dismantled Point by Point', href: '/demolition-arminian-facts', desc: 'The Society of Evangelical Arminians built a framework called FACTS. We examine each point with seminary-level exegesis ' },
  { name: 'Galatians 5:4 — Can a Christian Really "Fall from Grace"?', href: '/demolition-galatians5-4', desc: 'The verse Arminians use to prove a believer can lose salvation says the opposite of what they think.' },
@@ -574,7 +574,7 @@
  { name: 'What AI Teaches Us About Free Will', href: '/secular-ai-determinism', desc: 'Ask a skeptic whether they believe free will exists. They\'ll probably say yes. Ask them whether they think a machine ca' },
  { name: 'Why Every Economist Assumes Total Depravity', href: '/secular-economics-depravity', desc: 'Economics has always assumed what Scripture teaches: humans are self-interested, short-sighted, and prone to exploitatio' },
  { name: 'Written Before You Were Born: DNA and Sovereignty', href: '/secular-genetics-sovereignty', desc: 'You are looking at your hands. You have looked at them ten thousand times and never once asked the question that should ' },
- { name: 'Your Brain Decided Before You Did', href: '/secular-neuroscience-human-inability', desc: 'In 1983, Benjamin Libet discovered that the brain commits to a "decision" 550 milliseconds before consciousness is aware' }
+ { name: 'Your Brain Decided Before You Did', href: '/secular-neuroscience-human-inability', desc: 'In 1983, Benjamin Libet discovered that the brain commits to a "decision" a third of a second before consciousness is aw' }
  ]
  }
  ]
@@ -704,8 +704,8 @@
  { name: 'The Puritans — When Theology Set Nations on Fire', href: '/history-puritans', desc: 'Owen. Bunyan. Edwards. The Westminster Assembly. For 150 years, Puritan theology was fire in the bones — devotional dept' },
  { name: 'The Pyongyang Revival: When Sovereign Grace Shook Korea', href: '/history-korean-revival', desc: 'In 1907, the Holy Spirit fell on Pyongyang with a power that eyewitnesses compared to Pentecost. The theology behind the' },
  { name: 'The Reformed Resurgence — How Sovereign Grace Came Back in the 20th Century', href: '/history-20th-century', desc: 'Liberal theology gutted the mainline before 1920. God raised Machen, Lloyd-Jones, Sproul, and MacArthur as guardians of ' },
- { name: 'The Synod of Dort — When the Church Formally Chose Grace Over Works', href: '/history-dort', desc: 'In 1619, 86 theologians from 8 countries examined Arminianism against Scripture and rejected it point by point. The five' },
- { name: 'The Synod of Dort: Five Points Forged in Fire', href: '/history-dort-deep', desc: 'For seven months in 1618-1619, the Reformed church put Arminianism on trial. Eighty-four theologians from eight nations.' },
+ { name: 'The Synod of Dort — When the Church Formally Chose Grace Over Works', href: '/history-dort', desc: 'In 1619, 84 theologians from 8 countries examined Arminianism against Scripture and rejected it point by point. The five' },
+ { name: 'The Synod of Dort: Five Points Forged in Fire', href: '/history-dort-deep', desc: 'For six months in 1618-1619, the Reformed church put Arminianism on trial. Eighty-four theologians from eight nations. F' },
  { name: 'Westminster Confession Chapter 3 in Plain English', href: '/westminster-chapter-3-plain-english', desc: 'The Westminster Confession of Faith was written by roughly 150 of the finest theological minds in seventeenth-century En' },
  { name: 'When Spurgeon Stood Alone for Truth', href: '/history-spurgeon-downgrade', desc: 'The most beloved preacher in the world saw his denomination abandoning biblical truth — and said so publicly. It cost hi' },
  { name: 'When the Gospel Almost Died', href: '/history-medieval', desc: 'The story the modern church tells goes something like this: the early Christians believed in free will . Then Augustine ' },
@@ -829,7 +829,7 @@
  { name: 'I Can\'t Feel God Anymore', href: '/devotional-i-cant-feel-god', desc: 'Nothing comes. No warmth moves across the chest. No sentence arrives in the mind that feels like it is from elsewhere. T' },
  { name: 'I Don\'t Think I\'m Saved', href: '/devotional-i-dont-think-im-saved', desc: 'The fact that you are terrified about your salvation is among the strongest possible evidence that you are saved. The de' },
  { name: 'I Was Lazarus — And I Did Not Volunteer to Rise', href: '/devotional-i-was-lazarus', desc: 'Lazarus did not hear the offer of resurrection from inside the tomb and decide to accept. Lazarus was dead. Dead men do ' },
- { name: 'In Christ — The Two Words That Change Everything', href: '/devotional-in-christ', desc: 'Paul uses "in Christ," "in Him," or "in the Beloved" eleven times in fourteen verses (Ephesians 1:3-14). Every spiritual' },
+ { name: 'In Christ — The Two Words That Change Everything', href: '/devotional-in-christ', desc: 'Paul uses "in Christ," "in Him," or "in the Beloved" eleven times in twelve verses (Ephesians 1:3-14). Every spiritual b' },
  { name: 'My Chains Fell Away', href: '/devotional-my-chains-fell-away', desc: 'What does it feel like when God breaks your chains? A devotional on the moment grace becomes irresistible — when the sou' },
  { name: 'Rescued Without a Say', href: '/devotional-rescued-without-a-say', desc: 'Consider Jonah . Here is a man assigned by God to preach to Nineveh who does the precise opposite — flees on a ship goin' },
  { name: 'The First Prayer After Surrender', href: '/devotional-the-first-prayer-after-surrender', desc: 'When everything you thought was yours has just been handed back to God — what do you pray? A devotional on the shape of ' },

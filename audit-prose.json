@@ -2,16 +2,16 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-06T20:43:06.053Z",
+  "generated": "2026-06-07T00:47:52.779Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
-    "articles_audited": 589,
+    "articles_audited": 594,
     "total_redundancy_pairs_flagged": 12,
-    "total_sentences_flagged": 1282,
+    "total_sentences_flagged": 1294,
     "total_redundancy_pairs_suppressed": 20,
     "total_sentences_suppressed": 185,
     "articles_with_redundancy": 12,
-    "articles_with_flagged_sentences": 439,
+    "articles_with_flagged_sentences": 444,
     "articles_clean": 144,
     "suppression_by_class": {
       "scripture-tsunami": 11,
@@ -301,6 +301,15 @@
       "suppressed_sentence_count": 0
     },
     {
+      "file": "systematic-covenant-redemption.html",
+      "score": 7,
+      "paragraphs": 61,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 7,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
+    },
+    {
       "file": "apologetic-ekloge-the-greek-of-election.html",
       "score": 6,
       "paragraphs": 44,
@@ -416,15 +425,6 @@
       "flagged_sentence_count": 6,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
-    },
-    {
-      "file": "systematic-covenant-redemption.html",
-      "score": 6,
-      "paragraphs": 61,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 6,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1
     },
     {
       "file": "systematic-effectual-calling.html",
@@ -715,6 +715,15 @@
       "suppressed_sentence_count": 0
     },
     {
+      "file": "analytical-aseity-and-decree.html",
+      "score": 4,
+      "paragraphs": 17,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
       "file": "apologetic-a-slave-to-sin.html",
       "score": 4,
       "paragraphs": 17,
@@ -727,15 +736,6 @@
       "file": "apologetic-arrabon-the-down-payment.html",
       "score": 4,
       "paragraphs": 33,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "apologetic-god-works-the-willing.html",
-      "score": 4,
-      "paragraphs": 14,
       "redundancy_count": 0,
       "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
@@ -1129,6 +1129,164 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
       "score": 1
+    },
+    {
+      "file": "analytical-aseity-and-decree.html",
+      "paragraphs": 17,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 2,
+          "sentence_index": 1,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "The Mississippi thins to a stream you can step across in Minnesota; the stream is fed by a lake; the lake is fed by rain; the rain is lifted out of an ocean by the sun; the sun burns borrowed hydrogen"
+        },
+        {
+          "paragraph": 8,
+          "sentence_index": 1,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "At the summit of Romans  —  after three chapters of sovereign mercy hard enough to draw the objection out of every honest reader  —  he stops arguing and starts singing, and the song is a set of quest"
+        },
+        {
+          "paragraph": 12,
+          "sentence_index": 4,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "A god whose choice of you was fed by something in you is a god on the same fine print, scaled to eternity: his commitment is, at bottom, a response, and responses track their objects, and you know bet"
+        },
+        {
+          "paragraph": 15,
+          "sentence_index": 0,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "This is why the saints have always run to aseity in the dark, not away from it."
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 4
+    },
+    {
+      "file": "analytical-grounding-objection-molinism.html",
+      "paragraphs": 22,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 2,
+          "sentence_index": 1,
+          "flags": [
+            "long:53w"
+          ],
+          "preview": "Its shelves run out of sight in every direction, and on them stands a volume for every person who could ever possibly exist  —  not a record of what they will do, but of what they would do: every choi"
+        },
+        {
+          "paragraph": 18,
+          "sentence_index": 2,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "God scanned a trillion worlds, read your volume cover to cover  —  every cowardice in every circumstance, every version of you that walks away  —  and then chose a world , optimized across billions of"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 2,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 2
+    },
+    {
+      "file": "analytical-identity-regeneration.html",
+      "paragraphs": 18,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 2,
+          "sentence_index": 3,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "But somewhere in the back row, a careful listener  —  an engineer, maybe, or a philosophy student dragged along by his roommate  —  quietly files the objection he is too polite to raise: if the old he"
+        },
+        {
+          "paragraph": 17,
+          "sentence_index": 3,
+          "flags": [
+            "long:53w"
+          ],
+          "preview": "The same one He knew when she was a child in a photograph, and a stranger to Him at thirty, and a corpse in trespasses the morning before the water  —  one unbroken \"her,\" held together not by anythin"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 2,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 2
+    },
+    {
+      "file": "analytical-information-and-imago.html",
+      "paragraphs": 15,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 7,
+          "sentence_index": 2,
+          "flags": [
+            "padding-modifier:into the dark"
+          ],
+          "preview": "An entire economy now exists in which every person is a broadcaster  —  channels, feeds, platforms, followers  —  hundreds of millions of selves transmitting content all day into the dark."
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 1,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 1
+    },
+    {
+      "file": "analytical-modal-collapse-answered.html",
+      "paragraphs": 17,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 10,
+          "sentence_index": 7,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "The dominoes objection dies here too, and it dies at Gethsemane : facing arrest, Jesus holds both registers in two consecutive sentences  —  \"Do you think I cannot call on my Father, and he will at on"
+        },
+        {
+          "paragraph": 14,
+          "sentence_index": 7,
+          "flags": [
+            "long:62w"
+          ],
+          "preview": "And inside that gift, smaller than a sparrow against the cosmos and weighed more precisely than the stars, there is you  —  not necessary, never necessary, and therefore wanted ; not fated, but decree"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 2,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 2
     },
     {
       "file": "anxious-mind-brain-decides.html",
@@ -1706,9 +1864,9 @@
           "paragraph": 3,
           "sentence_index": 6,
           "flags": [
-            "long:50w"
+            "long:59w"
           ],
-          "preview": "In the New Testament, Luke uses it for Jesus choosing the Twelve out of His broader following, and Paul uses the related noun eklogē seven times  —  every single instance referring to a divine selecti"
+          "preview": "In the New Testament, Luke uses it for Jesus choosing the Twelve out of His broader following, and the New Testament uses the related noun eklogē seven times  —  five of them from Paul's pen  —  every"
         },
         {
           "paragraph": 6,
@@ -3793,7 +3951,7 @@
           "flags": [
             "long:47w"
           ],
-          "preview": "Twice in the Hebrew Bible  —  once in Genesis, once in Jeremiah, six centuries apart, by two writers who never met, in two completely different genres of literature  —  the LORD looks at the chart of "
+          "preview": "Twice in the Hebrew Bible  —  once in Genesis, once in Jeremiah, eight centuries apart, by two writers who never met, in two completely different genres of literature  —  the LORD looks at the chart o"
         },
         {
           "paragraph": 5,
@@ -3807,7 +3965,7 @@
           "paragraph": 10,
           "sentence_index": 1,
           "flags": [
-            "long:59w"
+            "long:60w"
           ],
           "preview": "The kingdom of Israel has split, the northern tribes have been carried into Assyria, the southern kingdom of Judah is on the verge of being carried into Babylon, and the prophet Jeremiah is standing a"
         },
@@ -4996,7 +5154,7 @@
           "flags": [
             "long:46w"
           ],
-          "preview": "And on the last night of His life, in the same upper room where He would soon pray for the people the Father had given Him, Jesus looked at the men closest to Him and took that sentence apart with sev"
+          "preview": "And on the last night of His life, in the same upper room where He would soon pray for the people the Father had given Him, Jesus looked at the men closest to Him and took that sentence apart with nin"
         },
         {
           "paragraph": 3,
@@ -9970,7 +10128,7 @@
           "flags": [
             "long:92w"
           ],
-          "preview": "Step back and see the shape of it. 1561: the Inquisition burning Protestants  —  a pastor writes a confession, throws it over a wall, and dies for it. 1563: the churches fractured  —  a 26-year-old wr"
+          "preview": "Step back and see the shape of it. 1561: the Inquisition burning Protestants  —  a pastor writes a confession, throws it over a wall, and dies for it. 1563: the churches fractured  —  a 28-year-old wr"
         }
       ],
       "suppressed_redundancy": [],
@@ -18587,6 +18745,14 @@
           "preview": "And it means that your name  —  if you are in Christ  —  was spoken in the silence before starlight, when the Three were one and already agreeing on the rescue that would unfold through galaxies and m"
         },
         {
+          "paragraph": 12,
+          "sentence_index": 0,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "Then in John 17 , on the night before the cross, Jesus prays the longest recorded prayer in Scripture  —  and He returns to \"those you gave me\" again and again  —  from verse 2 to verse 24, the prayer"
+        },
+        {
           "paragraph": 14,
           "sentence_index": 4,
           "flags": [
@@ -18632,10 +18798,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 6,
+      "flagged_sentence_count": 7,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
-      "score": 6
+      "score": 7
     },
     {
       "file": "systematic-covenant-theology.html",
@@ -19672,7 +19838,7 @@
           "flags": [
             "long:56w"
           ],
-          "preview": "He became, for the next forty-three years, the most relentless defender in church history of a single truth: the human will is not free in the way fallen man imagines it to be free, and grace is not a"
+          "preview": "He became, for the next forty-four years, the most relentless defender in church history of a single truth: the human will is not free in the way fallen man imagines it to be free, and grace is not a "
         },
         {
           "paragraph": 19,
