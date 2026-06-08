@@ -2,12 +2,12 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-08T22:33:17.646Z",
+  "generated": "2026-06-08T23:40:17.123Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 594,
     "total_redundancy_pairs_flagged": 10,
-    "total_sentences_flagged": 1268,
+    "total_sentences_flagged": 1269,
     "total_redundancy_pairs_suppressed": 18,
     "total_sentences_suppressed": 183,
     "articles_with_redundancy": 10,
@@ -10700,7 +10700,7 @@
     },
     {
       "file": "invisible-wall-family.html",
-      "paragraphs": 31,
+      "paragraphs": 30,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -14818,7 +14818,7 @@
     },
     {
       "file": "question-is-predestination-in-the-bible.html",
-      "paragraphs": 30,
+      "paragraphs": 28,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -15239,21 +15239,29 @@
           "preview": "Check Box B and you have just admitted, without realizing it, that you are saved by works  —  because a decision that determines your eternity, made by a will you describe as still healthy enough to m"
         },
         {
+          "paragraph": 25,
+          "sentence_index": 2,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "And then, in a moment whose timing the person did not choose, the hand that has been gripping the wheel of one's own salvation slips  —  not because the person decided to let go, but because the grip "
+        },
+        {
           "paragraph": 26,
           "sentence_index": 4,
           "flags": [
-            "long:98w"
+            "long:47w"
           ],
-          "preview": "Repentance is the moment the hum stops and you discover that the hands you thought were holding you were in fact being held all along  —  that the will you were so proud of was a borrowed instrument, "
+          "preview": "It is the moment you stop performing and discover that the will you were so proud of was a borrowed instrument, and that the Hand now catching your fall is the same Hand that wrote your name in the Bo"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 3,
+      "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 3
+      "score": 4
     },
     {
       "file": "question-revelation13.html",

@@ -45,9 +45,12 @@ function encodeAttr(s) {
 function trimToBoundary(text, max = 157) {
   if (text.length <= max) return text;
   const slice = text.slice(0, max);
+  // Prefer ending on a COMPLETE sentence within the window (never a trailing ellipsis).
+  const sent = Math.max(slice.lastIndexOf('. '), slice.lastIndexOf('? '), slice.lastIndexOf('! '));
+  if (sent > max * 0.5) return slice.slice(0, sent + 1).trim();
   const lastSpace = slice.lastIndexOf(' ');
   const cut = lastSpace > max * 0.6 ? slice.slice(0, lastSpace) : slice;
-  return cut.replace(/[,;:\-–—\s]+$/, '') + '…';
+  return cut.replace(/[,;:\-–—\s]+$/, '');   // S100: do NOT append '…' — that artifact is what we fix
 }
 
 // Extract a description from HTML body.
@@ -120,8 +123,11 @@ function isTruncated(desc) {
   if (/^\d{1,3}\s+[A-Z]/.test(clean)) return true;
   // Nondescript short intro
   if (clean.length < 90 && /^(That|This|It|He|She|They)\s/.test(clean)) return true;
+  // S100: a trailing ellipsis IS the truncation artifact — always treat as truncated (was wrongly
+  // counted as valid terminal punctuation, so the buggy tool skipped the very pages it should fix).
+  if (/…$/.test(clean)) return true;
   // Ends without any terminal punctuation — likely truncated mid-sentence
-  if (!/[.?!…"'"»)]$/.test(clean)) return true;
+  if (!/[.?!"'"»)]$/.test(clean)) return true;
   return false;
 }
 
