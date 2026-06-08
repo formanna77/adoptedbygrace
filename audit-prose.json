@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-08T17:11:54.740Z",
+  "generated": "2026-06-08T22:33:17.646Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 594,
     "total_redundancy_pairs_flagged": 10,
-    "total_sentences_flagged": 1270,
+    "total_sentences_flagged": 1268,
     "total_redundancy_pairs_suppressed": 18,
-    "total_sentences_suppressed": 184,
+    "total_sentences_suppressed": 183,
     "articles_with_redundancy": 10,
-    "articles_with_flagged_sentences": 438,
-    "articles_clean": 151,
+    "articles_with_flagged_sentences": 437,
+    "articles_clean": 152,
     "suppression_by_class": {
       "scripture-tsunami": 10,
       "pedagogical-anaphora": 2,
@@ -36,7 +36,7 @@
       "redundancy_count": 0,
       "flagged_sentence_count": 12,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 4
+      "suppressed_sentence_count": 3
     },
     {
       "file": "apologetic-lydias-heart.html",
@@ -237,15 +237,6 @@
       "suppressed_sentence_count": 2
     },
     {
-      "file": "theologian-gottschalk.html",
-      "score": 8,
-      "paragraphs": 28,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 8,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
       "file": "apologetic-gave-himself-for-the-bride.html",
       "score": 7,
       "paragraphs": 14,
@@ -307,6 +298,15 @@
       "flagged_sentence_count": 7,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1
+    },
+    {
+      "file": "theologian-gottschalk.html",
+      "score": 7,
+      "paragraphs": 28,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 7,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
     },
     {
       "file": "apologetic-ekloge-the-greek-of-election.html",
@@ -3774,14 +3774,6 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [
         {
-          "paragraph": 5,
-          "sentence_index": 2,
-          "suppressed_flags": [
-            "length-suppressed-embedded-quotation:73w-raw/48w-prose"
-          ],
-          "preview": "When Pilate stands before the Lord and says, in John 19:11, \"You would have no power over me if it were not given to you"
-        },
-        {
           "paragraph": 16,
           "sentence_index": 0,
           "suppressed_flags": [
@@ -3809,7 +3801,7 @@
       "redundancy_count": 0,
       "flagged_sentence_count": 12,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 4,
+      "suppressed_sentence_count": 3,
       "score": 12
     },
     {
@@ -6496,7 +6488,7 @@
     },
     {
       "file": "demolition-2cor5-14-15.html",
-      "paragraphs": 50,
+      "paragraphs": 48,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -7872,7 +7864,7 @@
     },
     {
       "file": "devotional-glory-of-divine-choice.html",
-      "paragraphs": 19,
+      "paragraphs": 18,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -11102,25 +11094,16 @@
     },
     {
       "file": "joy-staggering-contrast.html",
-      "paragraphs": 33,
+      "paragraphs": 29,
       "redundancy_pairs": [],
-      "flagged_sentences": [
-        {
-          "paragraph": 0,
-          "sentence_index": 4,
-          "flags": [
-            "long:46w"
-          ],
-          "preview": "The clock on the dresser is the only thing in the room with anything to say, and what it says is the same thing it has been saying for an hour: this is the hour your defenses come off, whether you wan"
-        }
-      ],
+      "flagged_sentences": [],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 0
     },
     {
       "file": "joy-worship-without-ceiling.html",
@@ -11137,7 +11120,7 @@
     },
     {
       "file": "just-realized.html",
-      "paragraphs": 38,
+      "paragraphs": 37,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -12721,11 +12704,11 @@
     },
     {
       "file": "philosophy-exclusive-love.html",
-      "paragraphs": 52,
+      "paragraphs": 51,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 38,
+          "paragraph": 37,
           "sentence_index": 1,
           "flags": [
             "long:53w"
@@ -13486,7 +13469,7 @@
     },
     {
       "file": "psychology-backfire-effect.html",
-      "paragraphs": 41,
+      "paragraphs": 42,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -16085,11 +16068,11 @@
     },
     {
       "file": "resistance-last-idol.html",
-      "paragraphs": 30,
+      "paragraphs": 29,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 29,
+          "paragraph": 28,
           "sentence_index": 3,
           "flags": [
             "long:54w"
@@ -20324,14 +20307,6 @@
         },
         {
           "paragraph": 27,
-          "sentence_index": 2,
-          "flags": [
-            "long:50w"
-          ],
-          "preview": "The question is: what kind of God is real, if a man you have never met held a sentence under torture for twenty years so that you, in your warm room, scrolling on your screen at this very hour, could "
-        },
-        {
-          "paragraph": 27,
           "sentence_index": 6,
           "flags": [
             "padding-modifier:in the dark"
@@ -20342,10 +20317,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 8,
+      "flagged_sentence_count": 7,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 8
+      "score": 7
     },
     {
       "file": "theologian-lloydjones.html",

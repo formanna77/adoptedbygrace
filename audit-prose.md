@@ -1,6 +1,6 @@
 # Prose Integrity Audit (Phase F) — Scanner v2
 
-**Generated:** 2026-06-08T17:11:54.756Z
+**Generated:** 2026-06-08T22:33:17.666Z
 **Spec:** `audit-prose.js v2` — redundancy (Jaccard ≥ 0.35 on significant-word bags) with **eight-class exemption filter** (closing-recurrence, Scripture-tsunami, pedagogical-anaphora, antithetical-parallelism, confessional-translation, historical-document-quotation, exegetical-comparison, research→pairing structural) + sentence-coherence heuristic with **anaphora/chiasm/embedded-quotation positive suppressors** + new **vehicle-tenor mismatch detector** (catches the original Aaron failure mode: simile whose vehicle and tenor are in incompatible domains).
 
 **Mandate (Aaron, 2026-04-27):** "many articles repeat themselves usually a couple times but sometimes even 3 times within the article... also some sentences don't make sense... we do not start expanding the website until every last sentence, paragraph, and article are written perfectly."
@@ -14,13 +14,13 @@
 | Metric | Value |
 |---|---|
 | Articles audited | 594 |
-| Articles entirely clean | 151 (25.4%) |
+| Articles entirely clean | 152 (25.6%) |
 | Articles with (genuine) redundancy | 10 (1.7%) |
-| Articles with (genuine) flagged sentences | 438 (73.7%) |
+| Articles with (genuine) flagged sentences | 437 (73.6%) |
 | **Total redundancy pairs flagged (genuine)** | **10** |
-| **Total sentences flagged (genuine)** | **1270** |
+| **Total sentences flagged (genuine)** | **1268** |
 | Redundancy pairs suppressed (apex-tier exemptions) | 18 |
-| Sentence flags suppressed (coherence-positive) | 184 |
+| Sentence flags suppressed (coherence-positive) | 183 |
 
 ### Suppression breakdown by exemption class
 
@@ -37,7 +37,7 @@
 ## §II — Top 50 Most Broken Articles (Rebuild Queue, post-suppression)
 
 1. **canons-of-dort-plain-english.html** — score 28 (0 redundancy pairs, 28 flagged sentences, 98 paragraphs) *[1 pairs + 11 sentences auto-suppressed]*
-2. **apologetic-tetagmenoi-acts-13-48.html** — score 12 (0 redundancy pairs, 12 flagged sentences, 47 paragraphs) *[0 pairs + 4 sentences auto-suppressed]*
+2. **apologetic-tetagmenoi-acts-13-48.html** — score 12 (0 redundancy pairs, 12 flagged sentences, 47 paragraphs) *[0 pairs + 3 sentences auto-suppressed]*
 3. **apologetic-lydias-heart.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 42 paragraphs) *[0 pairs + 3 sentences auto-suppressed]*
 4. **apologetic-not-because-but-because.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 40 paragraphs) *[0 pairs + 3 sentences auto-suppressed]*
 5. **apologetic-revival-and-sovereign-grace.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 33 paragraphs)
@@ -60,14 +60,14 @@
 22. **ethics-marriage.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 14 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
 23. **story-dark-the-rope-you-wove-yourself.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 49 paragraphs)
 24. **theologian-augustine.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 43 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-25. **theologian-gottschalk.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 28 paragraphs)
-26. **apologetic-gave-himself-for-the-bride.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 14 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-27. **apologetic-he-did-not-spare-his-own-son.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 12 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-28. **apologetic-loved-darkness-rather-than-light.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 13 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-29. **apologetic-purchased-from-every-tribe.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 12 paragraphs)
-30. **apologetic-the-once-for-all-ephapax.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 43 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-31. **ot-joseph.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 26 paragraphs)
-32. **systematic-covenant-redemption.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 61 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+25. **apologetic-gave-himself-for-the-bride.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 14 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+26. **apologetic-he-did-not-spare-his-own-son.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 12 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+27. **apologetic-loved-darkness-rather-than-light.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 13 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+28. **apologetic-purchased-from-every-tribe.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 12 paragraphs)
+29. **apologetic-the-once-for-all-ephapax.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 43 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+30. **ot-joseph.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 26 paragraphs)
+31. **systematic-covenant-redemption.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 61 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+32. **theologian-gottschalk.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 28 paragraphs)
 33. **apologetic-ekloge-the-greek-of-election.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 44 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
 34. **apologetic-the-double-grip-of-john-10.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 40 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
 35. **apologetic-the-road-to-damascus.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 21 paragraphs)
@@ -126,7 +126,7 @@
 
 **Suppressions** (auto-filtered as exemptions / coherence-positives):
 
-- 4 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
+- 3 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
 
 ### apologetic-lydias-heart.html — score 11
 
@@ -480,19 +480,6 @@
 
 - 2 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
 
-### theologian-gottschalk.html — score 8
-
-**Flagged sentences (8):**
-
-- [long:57w] (¶18): "The message is that you "choose Jesus." You "invite Him into your heart." You "make a decision." And anyone who stands up and says what Gottschalk said  —  that your choice is itself a gift of God , t…"
-- [long:74w] (¶20): "Box A: A sovereign God who had set His love on Gottschalk before the foundation of the world was actively, moment by moment, hour by hour, year by year, sustaining a faith that Gottschalk could not ha…"
-- [long:66w] (¶20): "Box B: Gottschalk possessed an uncommon strength of will the rest of us happen to lack  —  a moral fiber, a backbone, a constitution  —  that allowed him to outlast the cell on his own steam, and the …"
-- [long:46w] (¶26): "There is a piece of parchment on the floor  —  smuggled in, perhaps, by a sympathetic novice  —  and on it, in ink mixed with ash, he is composing what will be one of his last sentences in defense of …"
-- [padding-modifier:in the dark] (¶26): "Outside the slit window, somewhere in the dark, a bell is ringing for compline, and he can hear, faintly, the brothers chanting an antiphon he taught them as a young man.…"
-- [padding-modifier:in the silence] (¶26): "And in the silence between the words of the chant drifting in through the stones, he is  —  with absolutely no audience, no expectation of vindication, no posthumous fame he can imagine  —  still argu…"
-- [long:50w] (¶27): "The question is: what kind of God is real, if a man you have never met held a sentence under torture for twenty years so that you, in your warm room, scrolling on your screen at this very hour, could …"
-- [padding-modifier:in the dark] (¶27): "The same Hand that held Gottschalk in the dark is the Hand that is holding you in your light .…"
-
 ### apologetic-gave-himself-for-the-bride.html — score 7
 
 **Flagged sentences (7):**
@@ -568,6 +555,18 @@
 **Suppressions** (auto-filtered as exemptions / coherence-positives):
 
 - 2 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
+
+### ot-joseph.html — score 7
+
+**Flagged sentences (7):**
+
+- [long:49w] (¶0): "After decades of betrayal, slavery, false accusation, and imprisonment  —  after Joseph has risen from the pit to the right hand of Pharaoh and his terrified brothers stand before him begging for merc…"
+- [long:72w] (¶5): "The flesh has a deeply trained reflex that fires the moment Scripture insists God is more sovereign over our suffering than we are comfortable allowing  —  because if God genuinely governs the pit, th…"
+- [long:47w] (¶14): "The parallels between Joseph and Christ are so precise they cannot be accidental: beloved son, betrayed by his own, sold for silver, falsely accused, innocent suffering, raised from the pit, exalted t…"
+- [long:70w] (¶19): "Box A: The cross was sovereignly purposed before the foundation of the world by the same Father who, in Joseph's words, devised good through the evil men did, and the very chashav that governed the pi…"
+- [long:48w] (¶19): "Box B: The cross was the unforeseen tragedy God responded to creatively after the fact  —  Pilate's decision, the Sanhedrin's decision, Judas's decision, all genuinely outside the divine decree, and G…"
+- [long:49w] (¶23): "And the God who sent Joseph through slavery to save a nation is the same God who chose you before the foundation of the world  —  and who is working every detail of your life, including the parts that…"
+- [long:48w] (¶24): "He does not know there will be a famine, or a reunion, or a sentence about what they meant and what God meant, or a son named Manasseh, or a tomb in Shechem, or a coffin carried out of Egypt four hund…"
 
 ---
 

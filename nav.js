@@ -258,7 +258,7 @@
  href: '/questions',
  count: 15,
  pages: [
- { name: 'A Response to Andy Stanley', href: '/response-andy-stanley', desc: 'This is not a take-down. Andy Stanley has shepherded more people through one Sunday service than most pastors will sheph' },
+ { name: 'A Response to Andy Stanley', href: '/response-andy-stanley', desc: 'A careful, respectful response to Andy Stanley' },
  { name: 'A Response to Dave Hunt — What Love Is This, Really?', href: '/response-dave-hunt', desc: 'The same problem hits heaven. Glorified saints, according to every Arminian, Reformed, Catholic, and Orthodox tradition ' },
  { name: 'A Response to Jerry Walls', href: '/response-jerry-walls', desc: 'When philosophy outranks Scripture, the system that results is beautiful, careful, and quietly inverted. Six moves throu' },
  { name: 'A Response to Leighton Flowers', href: '/response-leighton-flowers', desc: 'A careful, respectful, thorough answer to the central arguments of Leighton Flowers and Soteriology 101 — ten moves exam' },
@@ -340,7 +340,7 @@
  { name: 'Before the Foundation of the World — God\'s Eternal Decrees', href: '/systematic-divine-decrees', desc: 'Nothing has ever surprised God. Before a single atom existed, He decreed everything that would come to pass — including ' },
  { name: 'Born Again — What It Really Means and Why You Didn\'t Do It to Yourself', href: '/systematic-regeneration', desc: 'You did not choose to be born the first time. You did not choose to be born again either. Scripture teaches that regener' },
  { name: 'Chosen Before the Foundation of the World', href: '/systematic-election', desc: 'God chose His people before creation — not based on anything they would do, but according to His sovereign will and grac' },
- { name: 'Common Grace — Why God Is Kind to People Who Hate Him', href: '/systematic-common-grace', desc: 'Read that slowly. The sun rises on the evil. The rain falls on the unrighteous. The God who is daily cursed by millions ' },
+ { name: 'Common Grace — Why God Is Kind to People Who Hate Him', href: '/systematic-common-grace', desc: 'God keeps the sun rising on the men who curse Him and the rain falling on fields that will never thank Him. The non-savi' },
  { name: 'Effectual Calling — The Voice the Dead Cannot Refuse', href: '/systematic-effectual-calling', desc: 'Scripture distinguishes between two callings. The general call is the outward proclamation of the gospel — the sermon, t' },
  { name: 'Federal Headship: Two Men, Two Races, Two Destinies', href: '/systematic-federal-headship', desc: 'Every human being stands under one of two representatives: Adam or Christ. Federal headship is the architecture of salva' },
  { name: 'Glorification: The Last Link in the Golden Chain', href: '/systematic-glorification', desc: 'Glorification is the final act of salvation — when sin ends forever and we are made fully like Christ. The certainty Pau' },
@@ -517,7 +517,7 @@
  { name: 'Revelation 22:17 — "Whoever Is Thirsty" Is Not a Universal Offer', href: '/demolition-rev22-17', desc: 'The closing verse of the Bible is cited as the ultimate proof of free-will salvation. Read the whole sentence and it tur' },
  { name: 'Revelation 3:20 — "I Stand at the Door and Knock" Is Not an Altar Call', href: '/demolition-rev3-20', desc: 'Revelation 3:20 is addressed to the church at Laodicea — believers who have grown lukewarm, not unbelievers hearing the ' },
  { name: 'Romans 11:32 — &ldquo;Mercy on Them All&rdquo;', href: '/demolition-romans11-32', desc: 'Arminian and universalist readers seize on &ldquo;mercy on them all&rdquo; as proof that God intends to save every indiv' },
- { name: 'Romans 2:4 — Does "Kindness Leads to Repentance" Prove Prevenient Grace?', href: '/demolition-romans2-4', desc: 'Compare it to a road sign. A sign that reads "This road leads to Boston" is not a guarantee that every car on it will ar' },
+ { name: 'Romans 2:4 — Does "Kindness Leads to Repentance" Prove Prevenient Grace?', href: '/demolition-romans2-4', desc: 'Romans 2:4 is the great proof-text for prevenient grace. But in context, Paul is indicting the unrepentant moralist — an' },
  { name: 'The Orthodox Case Against Predestination', href: '/demolition-orthodox-predestination', desc: 'The Eastern Orthodox argument against predestination cites one verse partially, quotes six philosophers, quotes zero Eas' },
  { name: 'The Strongest Case for Free Will — And Why It Still Breaks', href: '/demolition-steel-man-arminianism', desc: 'We built the strongest possible case for Arminian free will — fairer than most Arminians build it themselves. Then we as' },
  { name: 'Works-Righteousness — Why "I Just Believed" Is the Oldest Claim There Is', href: '/demolition-works-righteousness', desc: 'The humblest-sounding sentence in modern evangelicalism is a works-righteousness claim in disguise. Faith that originate' }
@@ -550,10 +550,10 @@
  { name: 'Why "I Found Jesus" Fits on a T-Shirt and "Jesus Found Me" Never Will', href: '/philosophy-i-found-jesus-t-shirt', desc: 'The language you use about your conversion is a confession. One phrase is on ten million shirts. The other almost never ' },
  { name: 'Why Exclusive Love Is the Only Real Love', href: '/philosophy-exclusive-love', desc: 'A God who "loves" all people identically does not love any of them. Love by definition requires distinction. Love means ' },
  { name: 'Why Is Marriage Special? A Philosophical Proof of Election', href: '/philosophy-marriage-election', desc: 'A wedding proposal moves us to tears because someone said "you and no one else." Discover what this reveals about God\'s' },
- { name: 'Why You Can\'t Will Yourself to Sleep', href: '/philosophy-sleep-surrender', desc: 'You\'re lying in the dark. Your eyes are closed. Your body is heavy with exhaustion. You need to sleep —desperately. You' },
+ { name: 'Why You Can\'t Will Yourself to Sleep', href: '/philosophy-sleep-surrender', desc: 'You cannot command sleep into coming — the harder you try, the more it flees. The insomniac meets the wall where the wil' },
  { name: 'You Didn\'t Choose to Be Born', href: '/philosophy-children-argument', desc: 'You didn\'t choose your parents, your DNA, your century, your language, or your temperament. Everything that makes you y' },
  { name: 'Your Mother Tongue Chose You', href: '/philosophy-mother-tongue', desc: 'No child decides to learn their native language. It happens to them. The deepest structure of your mind was given, not c' },
- { name: 'Your Salvation Doesn\'t Revolve Around You', href: '/philosophy-copernican-revolution', desc: 'Then: "It\'s all backwards. The sun doesn\'t move. The Earth does. You\'re not the center."' }
+ { name: 'Your Salvation Doesn\'t Revolve Around You', href: '/philosophy-copernican-revolution', desc: 'For a lifetime, salvation seemed to revolve around your decision. The Copernican shift of the soul is discovering the ce' }
  ]
  },
  {
