@@ -40,7 +40,7 @@
  { name: 'For Pastors: Preaching Sovereign Grace Without Splitting Your Church', href: '/for-pastors', desc: 'How to faithfully preach the doctrines of grace to your congregation. Practical guidance for pastors navigating election' },
  { name: 'For the One Who Can\'t Stop Doubting', href: '/for-doubters', desc: 'For the believer who is terrified the faith they have isn' },
  { name: 'For the Person Who Just Realized', href: '/just-realized', desc: 'Your hands might be shaking. Or maybe it is quieter than that — maybe you are just sitting very still, staring at a wall' },
- { name: 'The Truth Will Set You Free', href: '/freedom', desc: 'Am I really saved? If you are a sincere believer, you know this dread. It visits at night, sometimes in the middle of wo' },
+ { name: 'The Truth Will Set You Free', href: '/freedom', desc: 'Am I really saved? The dread visits sincere believers in worship, in the car after church, in the quiet. The doctrines o' },
  { name: 'You Came Here Hunting for Intellectual Honesty', href: '/for-skeptics', desc: 'Here\'s the deal. Most religious websites will try to sell you something warm and fuzzy. We won\'t. This site makes a sp' },
  { name: 'You Deconstructed Everything — Here\'s What\'s Left', href: '/for-deconstructed', desc: 'For the one who tore it all down and is standing in the rubble wondering if anything true survives.' },
  { name: 'You Just Heard About Election and It Broke Your Brain', href: '/for-new-believers', desc: 'Welcome. Someone said God chooses who gets saved and the ground shifted under your feet. This path builds the scaffoldin' },
@@ -90,7 +90,7 @@
  { name: 'Can You Lose Your Salvation?', href: '/apologetic-perseverance', desc: 'If salvation depends on God\'s eternal decree rather than your flickering will, then it cannot be lost — because the One' },
  { name: 'Chosen As Firstfruits to Be Saved — When the Choice Came Before the Belief (2 Thessalonians 2:13)', href: '/apologetic-chosen-as-firstfruits', desc: '2 Thessalonians 2:13 says God chose you' },
  { name: 'Darkened in Their Understanding — Why the Mind Is Dark Because the Heart Is Stone', href: '/apologetic-darkened-in-their-understanding', desc: 'Brilliant people reject the gospel they cannot refute. Ephesians 4:18 explains why: the mind is darkened not for lack of' },
- { name: 'Did Jesus Die for Everyone? Scripture on Definite Atonement', href: '/apologetic-definite-atonement', desc: 'Imagine two surgeons. The first enters an operating room for a critical surgery. She studies the patient\'s X-rays, maps' },
+ { name: 'Did Jesus Die for Everyone? Scripture on Definite Atonement', href: '/apologetic-definite-atonement', desc: 'Did Jesus die for everyone, or for His sheep? The two-surgeons picture, the actual language of John 10, John 17, and Heb' },
  { name: 'Doesn\'t Election Make Evangelism Pointless?', href: '/apologetic-evangelism', desc: 'If God has already decided who will be saved, why bother preaching? Because God decrees means as well as ends. He ordain' },
  { name: 'Ephapax — The Single Greek Adverb That Settles Definite Atonement', href: '/apologetic-the-once-for-all-ephapax', desc: 'Ephapax — once for all. The Greek adverb the writer of Hebrews uses to bolt the door of the atonement against any readin' },
  { name: 'For the Sheep — The Particular Pronoun of John 10', href: '/apologetic-for-the-sheep', desc: 'Jesus does not say the good shepherd lays down his life for everyone. He says he lays it down for the sheep — hyper ton ' },
@@ -194,7 +194,7 @@
  { name: 'Does God Love Everyone Equally?', href: '/question-does-god-love-everyone-equally', desc: 'This is real love. It is generous, sustaining, and undeserved. But it is not saving love. The rain falls on the unrighte' },
  { name: 'Does God Predestine People to Hell? The Honest Answer', href: '/question-predestined-to-hell', desc: 'If God chooses some for salvation, does He choose others for damnation? Scripture draws a devastating asymmetry: salvati' },
  { name: 'Does the Bible Say We\'re Sick, Not Dead?', href: '/question-bible-says-sick', desc: 'A handful of verses use "sick" language in connection with sin. But in every case, the context reveals a sickness that i' },
- { name: 'Doesn\'t God Want Everyone Saved? — The Two Wills of God', href: '/question-godwants', desc: '1 Timothy 2:4 says God " wants all people to be saved ." But if God\'s desire guarantees the outcome, then all would be ' },
+ { name: 'Doesn\'t God Want Everyone Saved? — The Two Wills of God', href: '/question-godwants', desc: '1 Timothy 2:4 says God wants all people to be saved. But if God\'s desire guaranteed the outcome, all would be saved — w' },
  { name: 'Drawn, Not Dragged — The Unstoppable Grace of Effectual Calling', href: '/question-irresistible', desc: 'They do. Scripture has always distinguished between the external call of the gospel — which goes out broadly and can be ' },
  { name: 'Effectual Calling: The Call You Can Ignore vs. the Call That Creates Life', href: '/question-external-internal-call', desc: 'Scripture teaches two kinds of calling: the external call that goes to all and can be refused, and the internal call tha' },
  { name: 'Elect According to Foreknowledge', href: '/question-1peter1', desc: 'Notice the structure. Peter grounds their election in a Trinitarian work — the Father foreknows, the Spirit sanctifies, ' },
@@ -208,7 +208,7 @@
  { name: 'If You Chose God, You Can Boast — The Boasting Problem with Free Will', href: '/question-boasting', desc: '1 Corinthians 1:26-31 — God chose the foolish to shame the wise, for one reason: so that no one may boast.' },
  { name: 'Is Faith a Gift from God? What the Bible Actually Says', href: '/question-faithgift', desc: 'Paul already answered. And the answer should make your knees buckle.' },
  { name: 'Is Free Will Real? What the Bible Actually Teaches About Human Choice', href: '/question-freewill', desc: 'Scripture never teaches libertarian free will. It teaches death — and dead people do not choose their own resurrection. ' },
- { name: 'Is God Unjust? Romans 9 and Paul\'s Answer to the Charge', href: '/question-unfair', desc: 'You want God to be fair. Paul heard that objection before you were born. His answer was not to soften election or walk i' },
+ { name: 'Is God Unjust? Romans 9 and Paul\'s Answer to the Charge', href: '/question-unfair', desc: 'You want God to be fair. Paul heard the objection before you were born — and his answer was not to soften election but t' },
  { name: 'Is Predestination in the Bible?', href: '/question-is-predestination-in-the-bible', desc: 'Predestination appears by name in Romans 8 and Ephesians 1. But the concept saturates all of Scripture — from Genesis to' },
  { name: 'Is Salvation Your Choice or God\'s?', href: '/question-is-salvation-my-choice-or-gods', desc: 'Either God\'s choice was decisive in your salvation or yours was. If yours was, you are the hero of your salvation story' },
  { name: 'Isaiah 53: The Servant Who Bore the Sins of Many', href: '/question-isaiah53', desc: 'The cross was not Plan B. The Servant\'s death is called an asham — a guilt offering, a technical term from the Levitica' },
@@ -227,7 +227,7 @@
  { name: 'The Cross Was Predestined', href: '/question-acts4', desc: 'Everyone asks why Jesus died. Almost no one asks the harder question: who decided that He would?' },
  { name: 'The Dead Man — A Visual Argument for Total Depravity', href: '/question-dead-man-visual', desc: 'A visual argument for Total Depravity: a corpse cannot reach for rescue. If you are alive in Christ, a voice reached int' },
  { name: 'The Doctrines of Grace, Explained Visually — Sovereign Grace You Can See', href: '/question-visual-theology', desc: 'The Reformed soteriological argument presented visually through logical flowcharts, diagrams, and devastating comparison' },
- { name: 'The Greek Tense That Settles the Debate — 1 John 5:1', href: '/question-1john5-1', desc: '1 John 5:1 — Everyone Who Believes Has Already Been Born of God' },
+ { name: 'The Greek Tense That Settles the Debate — 1 John 5:1', href: '/question-1john5-1', desc: 'In 1 John 5:1' },
  { name: 'The Prayer That Proves Election — John 17', href: '/question-john17', desc: 'In John 17, Jesus prays exclusively for "those you have given me" — repeating the phrase seven times. He explicitly says' },
  { name: 'The Verse in Acts That Nobody Preaches – Acts 13:48', href: '/question-acts', desc: 'Luke the historian records a fact: in Pisidian Antioch, "all who were appointed for eternal life believed" (Acts 13:48).' },
  { name: 'Unconditional Election — On What Basis Did God Choose You?', href: '/question-unconditional', desc: 'Unconditional Election — On What Basis Did God Choose You?' },
@@ -264,7 +264,7 @@
  { name: 'A Response to Leighton Flowers', href: '/response-leighton-flowers', desc: 'A careful, respectful, thorough answer to the central arguments of Leighton Flowers and Soteriology 101 — ten moves exam' },
  { name: 'A Response to Norman Geisler', href: '/response-norman-geisler', desc: 'Start with total depravity . If fallen human beings are truly dead in sin , truly unable to respond to God without a pri' },
  { name: 'A Response to Roger Olson', href: '/response-roger-olson', desc: 'Here is the problem. The Christian posture toward Scripture is not "I will believe what it says unless I find it morally' },
- { name: 'A Response to the SBC Traditional Statement (2012)', href: '/response-sbc-traditional-statement', desc: 'Read that twice. It denies that Adam\'s sin rendered any person guilty before he has personally sinned. It denies, in ot' },
+ { name: 'A Response to the SBC Traditional Statement (2012)', href: '/response-sbc-traditional-statement', desc: 'The 2012 Traditional Statement denied the imputation of Adam\'s guilt — and with it, the tradition it claimed. A move-by' },
  { name: 'A Response to William Lane Craig', href: '/response-william-lane-craig', desc: 'Molinism is the most sophisticated attempt to rescue libertarian freedom from Reformed sovereignty — and it is an elegan' },
  { name: 'Arminianism Secretly Assumes Calvinism', href: '/argument-arminianism-secretly-assumes-calvinism', desc: 'The Arminian position, followed honestly at every critical juncture, smuggles in the Calvinist assumptions it spends the' },
  { name: 'Five Articles vs. Five Heads', href: '/argument-five-points-vs-five-articles', desc: 'The Five Articles of the Remonstrance (1610) vs. the Five Heads of the Canons of Dort (1619) — the actual points contest' },
@@ -286,7 +286,7 @@
  { name: 'Does Prayer Change God\'s Mind? Prayer and the Sovereign Decree', href: '/objection-why-pray', desc: 'That\'s the hinge. God\'s predestination includes not only the ends you\'re praying for, but the means by which those en' },
  { name: 'Does Predestination Make Evangelism Pointless? God Ordains the Means', href: '/objection-evangelism-pointless', desc: 'God ordains the ends and the means. He didn\'t just choose who would be saved — He chose how: through the preaching of t' },
  { name: 'Does Predestination Make Us Robots?', href: '/objection-robots', desc: 'The most common objection to sovereignty answered. Predestination does not make you a robot. It makes you free for the f' },
- { name: 'If Everything Is Predetermined, Why Even Try?', href: '/objection-effort', desc: 'The objection confuses outcomes with means. God doesn\'t just ordain where the story ends—He ordains how it gets there. ' },
+ { name: 'If Everything Is Predetermined, Why Even Try?', href: '/objection-effort', desc: 'The objection confuses outcomes with means. God ordains not just where the story ends but how it gets there — your effor' },
  { name: 'If God Already Chose Us, Why Do We Have to Believe?', href: '/objection-why-believe', desc: 'Dear friend — I know what just happened. Someone showed you a verse, or you stumbled across it yourself, and now everyth' },
  { name: 'If God Already Chose Who\'s Saved, Why Evangelize?', href: '/objection-why-evangelize', desc: 'This is the hinge question. God doesn\'t simply decree that someone will believe as a disconnected fact floating in the ' },
  { name: 'If God Controls Everything, How Can He Blame Us?', href: '/objection-responsibility', desc: 'If God predetermines everything, how can He hold us responsible? Romans 9 contains the objection you are about to make —' },
@@ -318,7 +318,7 @@
  { name: 'Comparative Theology — Christ Among the Religions of the World', href: '/comparative-theology-hub', desc: 'Comparative theology engages the world' },
  { name: 'Does God Save Alone, or Do You Help? Monergism vs Synergism', href: '/compare-monergism-synergism', desc: 'The most fundamental divide in all of Christianity: Does God save alone, or does He need your cooperation? Scripture ans' },
  { name: 'Predestination vs Foreknowledge — Which Comes First?', href: '/compare-predestination-foreknowledge', desc: '"God looked down the corridor of time, saw who would believe, and chose them." The Bible never says this. Not once. The ' },
- { name: 'Reformed vs Catholic', href: '/compare-calvinism-catholic-soteriology', desc: 'Imputed or infused? Faith alone or faith plus works? The Reformation\'s most consequential divide — and why the differen' },
+ { name: 'Reformed vs Catholic — How Are We Actually Justified Before God?', href: '/compare-calvinism-catholic-soteriology', desc: 'Imputed or infused? Faith alone or faith plus works? The Reformation\'s most consequential divide — and why the differen' },
  { name: 'Two Versions of Grace — One Is Real. One Is Man-Made.', href: '/compare-grace-reformed-vs-arminian', desc: 'Reformed grace vs. Arminian grace compared side by side. One is a resurrection. The other is a suggestion. One is divine' }
  ]
  }
@@ -413,7 +413,7 @@
  { name: 'Jonah: The Prophet Who Tried to Outrun God', href: '/ot-jonah', desc: 'Jonah ran from God and discovered what everyone discovers: you cannot outrun divine sovereignty. The worst sermon in his' },
  { name: 'Moses, Pharaoh, and the God Who Hardened a King\'s Heart', href: '/ot-moses-pharaoh', desc: 'Two men, two destinies, one sovereign God. Moses receives mercy; Pharaoh receives hardening. Both were decreed before ei' },
  { name: 'Noah: Chosen for Preservation', href: '/ot-noah', desc: 'Not "most inclinations." Every. Not "often evil." All the time. Not mixed or neutral — evil. The human heart was not sic' },
- { name: 'The Remnant — How God Has Always Preserved His Chosen Few', href: '/ot-prophets-remnant', desc: 'There is a pattern running through every prophetic book in the Old Testament , and once you see it, you cannot unsee it:' },
+ { name: 'The Remnant — How God Has Always Preserved His Chosen Few', href: '/ot-prophets-remnant', desc: 'A pattern runs through every prophetic book: judgment falls, nations crumble — and God preserves a remnant He chose. Jer' },
  { name: 'When God Answered Suffering with Sovereignty', href: '/ot-job', desc: 'Job lost everything and demanded answers. God gave him something better: Himself.' }
  ]
  },
@@ -432,7 +432,7 @@
  { name: 'Romans 3:10-18 — The Indictment Nobody Escapes', href: '/romans-3-10-18', desc: 'Paul weaves six Old Testament passages into a seven-charge indictment of the entire human race: no one righteous, no one' },
  { name: 'Romans 8:28-39: The Chain No One Can Break', href: '/romans-8-28-39', desc: 'Five links. One chain. Every link forged by God alone. The Golden Chain of Romans 8 — foreknowledge, predestination, cal' },
  { name: 'Romans 9 Deep Dive — The Chapter That Settles It', href: '/romans-9-deep-dive', desc: 'Verse-by-verse through the load-bearing chapter of the doctrines of grace. Paul anticipates every Arminian objection in ' },
- { name: 'Romans 9:1-24: The Potter and the Clay', href: '/romans-9-1-24', desc: 'He leaves only divine mercy. The person who says "I chose God" must reckon with Paul saying it depends not on human desi' }
+ { name: 'Romans 9:1-24: The Potter and the Clay', href: '/romans-9-1-24', desc: 'Romans 9 walked verse by verse — Jacob and Esau, Pharaoh, the potter and the clay. Paul removes every human contribution' }
  ]
  },
  {
@@ -486,7 +486,7 @@
  { name: '2 Peter 3:15 — &ldquo;Our Lord\'s Patience Means Salvation&rdquo;', href: '/demolition-2peter3-15', desc: 'Arminian readers extend &ldquo;our Lord\'s patience means salvation&rdquo; to mean &ldquo;God is patient with everyone i' },
  { name: 'Acts 2:21 / Romans 10:13 — "Everyone Who Calls" Demolished', href: '/demolition-acts2-21', desc: 'It is an elegant structure. It is also a structure Peter and Paul would not recognize. Because both of them, when they w' },
  { name: 'Arianism — The Ancient Heresy That Tried to Kill Christ\'s Deity', href: '/demolition-arianism', desc: 'Arius (4th century) taught that Christ was the highest created being — not truly God. The church responded with the Nice' },
- { name: 'Can You Lose Your Salvation?', href: '/demolition-hebrews6-4-6', desc: 'Hebrews 6:4-6 describes people who experienced the covenant community — enlightened, tasted, shared in the Spirit — but ' },
+ { name: 'Can You Lose Your Salvation?', href: '/demolition-hebrews6-4-6', desc: 'Hebrews 6:4-6 names the enlightened, the tasters, the sharers — everything except born again. What the warning passage a' },
  { name: 'Children of Satan — What Scripture Actually Calls the Unregenerate', href: '/demolition-children-of-satan', desc: 'The church speaks of "lost sheep." Jesus spoke of children of the devil . Scripture identifies the unregenerate as ensla' },
  { name: 'Cut Off from the Root — Why Sin Doesn\'t Wound. It Kills.', href: '/demolition-cut-off-from-root', desc: 'When a creature is severed from the source of its life, corruption is not a punishment imposed from outside. It is what ' },
  { name: 'Demolition: 2 Peter 3:9', href: '/demolition-2peter3-9', desc: '"Not wishing that any should perish" is addressed to believers ("you"), not to all humanity. The "any" and "all" are sub' },
@@ -610,12 +610,12 @@
  { name: 'Why Believing You Saved Yourself Feels Right', href: '/psychology-comfort-self-salvation', desc: '"Where, then, is boasting? It is excluded. Because of what law? The law that requires works? No, because of the law that' },
  { name: 'Why Do People Reject What They Know Is True?', href: '/psychology-suppressing-truth', desc: 'Romans 1:18 reveals the deepest human problem: we suppress what we already know about God. Modern psychology calls it mo' },
  { name: 'Why Do We Resist Predestination? The Psychology Explained', href: '/psychology-why-we-resist', desc: 'Why do intelligent, Bible-believing Christians reject predestination? Psychology reveals motivated reasoning, cognitive ' },
- { name: 'Why Does God\'s Sovereignty Terrify Us?', href: '/psychology-fear-control', desc: 'When you hear "God is sovereign," the objection that rises in your chest is not intellectual — it is visceral. Four conv' },
+ { name: 'Why Does God\'s Sovereignty Terrify Us?', href: '/psychology-fear-control', desc: 'When you hear "God is sovereign," the objection that rises in your chest is not intellectual — it is visceral. Four psyc' },
  { name: 'Why Evidence Makes Some People Believe Harder', href: '/psychology-backfire-effect', desc: 'Why does showing someone Scripture about election make them believe harder in free will? The backfire effect reveals how' },
  { name: 'Why Grace Feels Like an Attack on Your Identity', href: '/psychology-identity-threat', desc: 'Why does grace feel like an attack on your identity? Identity-protective cognition explains how belief becomes self-conc' },
  { name: 'Why Grace Makes You Angry — And What That Anger Reveals', href: '/psychology-offense-of-grace', desc: 'Why does unconditional election trigger moral outrage? Moral Foundations Theory and psychological reactance explain the ' },
  { name: 'Why People Defend the Theology That Enslaves Them', href: '/psychology-system-justification', desc: 'System Justification Theory explains why people defend systems that hurt them — and why millions of Christians fiercely ' },
- { name: 'Why the Truth That Makes You Angriest Is the One That Will Set You Free', href: '/psychology-hostility-reaction', desc: 'The doctrines of grace provoke explosive hostility because they threaten not a theology but an identity . When someone w' },
+ { name: 'Why the Truth That Makes You Angriest Is the One That Will Set You Free', href: '/psychology-hostility-reaction', desc: 'Why the doctrines of grace provoke explosive hostility: they threaten not a theology but an identity. The amygdala fires' },
  { name: 'Why This Objection Proves Our Point', href: '/psychology-why-this-objection-proves-our-point', desc: 'The most common objection to the Crown Jewel argument — "I don\'t claim credit for my salvation; I just chose to accept ' },
  { name: 'Why Your Church All Believes the Same Thing', href: '/psychology-groupthink', desc: 'Why do church friends all believe the same theology? Discover how conformity bias, groupthink, and social identity keep ' },
  { name: 'Why Your Soul Rebels When It Hears the Truth', href: '/psychology-reactance-theory', desc: 'In 1966, psychologist Jack Brehm documented what happens when someone threatens your perceived freedom: your brain fires' },
@@ -708,7 +708,7 @@
  { name: 'The Synod of Dort: Five Points Forged in Fire', href: '/history-dort-deep', desc: 'For six months in 1618-1619, the Reformed church put Arminianism on trial. Eighty-four theologians from eight nations. F' },
  { name: 'Westminster Confession Chapter 3 in Plain English', href: '/westminster-chapter-3-plain-english', desc: 'The Westminster Confession of Faith was written by roughly 150 of the finest theological minds in seventeenth-century En' },
  { name: 'When Spurgeon Stood Alone for Truth', href: '/history-spurgeon-downgrade', desc: 'The most beloved preacher in the world saw his denomination abandoning biblical truth — and said so publicly. It cost hi' },
- { name: 'When the Gospel Almost Died', href: '/history-medieval', desc: 'The story the modern church tells goes something like this: the early Christians believed in free will . Then Augustine ' },
+ { name: 'When the Gospel Almost Died', href: '/history-medieval', desc: 'Sovereign grace is the ancient stream — works and merit crept in late. A thousand years of medieval theology, and the ha' },
  { name: 'Where Sovereign Grace Stands Now — The Global Picture', href: '/history-today', desc: 'Reformed theology is exploding in Africa, Asia, and Latin America. The digital reformation is reaching people no mission' },
  { name: 'Whitefield vs. Wesley — Two Revivals, One Question', href: '/history-whitefield-wesley', desc: 'George Whitefield and John Wesley both shook nations with revival fire — but they disagreed on the one question that mat' },
  { name: 'Written in Blood and Fire', href: '/history-confessions-story', desc: 'The Belgic Confession, Heidelberg Catechism, Canons of Dort, Westminster Standards, 1689 Baptist Confession — behind eve' }
@@ -736,7 +736,7 @@
  { name: 'Jonathan Edwards — The Mind That Set a Nation on Fire', href: '/theologian-edwards', desc: 'Jonathan Edwards (1703–1758) was America\'s greatest theologian and the intellectual architect of the Great Awakening . ' },
  { name: 'Martin Luther: The Monk Who Broke the Church to Save It', href: '/theologian-luther', desc: 'Then came the tower. Lecturing through Romans as a young professor at Wittenberg, Luther stopped at chapter 1, verse 17:' },
  { name: 'Martyn Lloyd-Jones — The Doctor Who Left Medicine to Diagnose the Soul', href: '/theologian-lloydjones', desc: 'He left a royal physician' },
- { name: 'R.C. Sproul: The Theologian Grace Wouldn\'t Release', href: '/theologian-sproul', desc: 'Robert Charles Sproul arrived in seminary with a mission: to dismantle Calvinism from the inside. He was not hostile—he ' },
+ { name: 'R.C. Sproul: The Theologian Grace Wouldn\'t Release', href: '/theologian-sproul', desc: 'Robert Charles Sproul arrived in seminary determined to refute Calvinism from the inside — and walked out conquered by R' },
  { name: 'Thomas Boston: The Scottish Pastor Who Fought Legalism with Grace', href: '/theologian-boston', desc: 'Thomas Boston (1676-1732) spent his life in tiny Scottish parishes and changed the faith of a nation. His recovery of fr' },
  { name: 'Thomas Bradwardine — The Mathematician Who Proved God\'s Sovereignty', href: '/theologian-bradwardine', desc: 'A 14th-century mathematician brought equations to bear on the doctrines of grace — and forty days after becoming Archbis' }
  ]
@@ -836,7 +836,7 @@
  { name: 'The Freedom of Not Choosing', href: '/devotional-the-freedom-of-not-choosing', desc: 'You were afraid of losing your free will. What you actually lost was a burden. What you gained was rest. A devotional on' },
  { name: 'The Glory of Divine Choice', href: '/devotional-glory-of-divine-choice', desc: 'God did not see you coming and decide to pick you. He chose you before time, in love, according to the purpose of His wi' },
  { name: 'The God Who Wastes Nothing', href: '/devotional-the-god-who-wastes-nothing', desc: 'The pain you carry was not an accident. The God who numbered the hairs on your head numbered the tears on your face. A d' },
- { name: 'The Good That I Cannot Do', href: '/devotional-good-i-cannot-do', desc: 'Not that the temptation was too strong — it was, but that is not the worst of it. The worst of it is that something in y' },
+ { name: 'The Good That I Cannot Do', href: '/devotional-good-i-cannot-do', desc: 'Paul' },
  { name: 'The Ground Disappeared — And Something Caught You', href: '/devotional-the-ground-disappeared', desc: 'A devotional for the reader whose foundation just collapsed. The demolition was real. But the arms underneath were older' },
  { name: 'The Hands That Hold You — Your Faith Was Never Yours to Lose', href: '/devotional-the-hands-that-hold-you', desc: 'Your faith is not held up by your grip. It is held in the hands of God. A devotional for anyone terrified they will lose' },
  { name: 'The Joy of Election', href: '/devotional-joy-of-election', desc: 'For years the truth of election terrified me. Then one day the gravity settled and I saw what I had missed — there is no' },
@@ -921,7 +921,7 @@
  pages: [
  { name: 'Can I Be Sure I\'m Saved?', href: '/pastoral-assurance', desc: 'The fear that you might not be saved is itself evidence that you are — the unregenerate do not agonize over their standi' },
  { name: 'If God Already Chose, Why Share the Gospel?', href: '/pastoral-evangelism', desc: 'Because your mouth is the very means God ordained to call His elect home. Sovereignty does not kill evangelism. It guara' },
- { name: 'If God Decreed Everything, Why Pray?', href: '/pastoral-prayer', desc: 'You are kneeling beside your bed. Or sitting in your car in the parking lot. Or walking the dog at dawn with your lips m' },
+ { name: 'If God Decreed Everything, Why Pray?', href: '/pastoral-prayer', desc: 'If God has already decided everything, why pray? Because He ordained your prayer as one of the means by which His decree' },
  { name: 'What It Feels Like When the Truth Lands', href: '/pastoral-when-truth-lands', desc: 'When the reality of sovereign grace first lands, the ground disappears. A pastoral map for the vertigo, anger, grief, te' },
  { name: 'When Theology Meets Your Actual Life — Pastoral Guidance', href: '/pastoral-hub', desc: 'Assurance in doubt. Courage in evangelism. Power in prayer. Comfort in suffering. This is where the truth about grace st' },
  { name: 'When You\'re Suffering and God Is Sovereign', href: '/pastoral-suffering', desc: 'When suffering strikes, every soul asks: Is anyone in charge? If no — you are a victim of chaos. If yes — if an infinite' }
