@@ -496,7 +496,7 @@
  { name: 'Demolition: Matthew 7:7 — "Ask, Seek, Knock"', href: '/demolition-matt7-7', desc: 'The favorite seeker-friendly verse, taken out of its own sermon. The context, the Greek, and the Father-to-children fram' },
  { name: 'Deuteronomy 30:19 — "Choose Life" and the Free Will Myth', href: '/demolition-deut30-19', desc: 'The verse most often used as a free-will proof-text is addressed to an already-elect covenant nation, not to unregenerat' },
  { name: 'Did C.S. Lewis Refute Calvinism? — What They Won\'t Tell You', href: '/counter-cs-lewis-free-will', desc: 'But does Scripture teach this? Not "does it sound reasonable?" — does God\'s Word say this is how salvation works?' },
- { name: 'Does "The Whole World" in 1 John 2:2 Prove Universal Atonement?', href: '/demolition-1john2-2', desc: 'So slow down. Read it again. And this time, do not move past the word propitiation .' },
+ { name: 'Does "The Whole World" in 1 John 2:2 Prove Universal Atonement?', href: '/demolition-1john2-2', desc: 'So slow down. Read it again. And this time, do not move past the word propitiation.' },
  { name: 'Does God Take Pleasure in Death?', href: '/demolition-ezekiel18-23', desc: 'What Ezekiel 18:23 actually means — and why the prophet\'s own words destroy the Arminian reading.' },
  { name: 'Does God Want Everyone Saved?', href: '/demolition-1tim2-4', desc: 'God "wants all people to be saved" — but Paul wrote that sentence two verses after commanding prayer "for all people, fo' },
  { name: 'Ezekiel 33:11 — "I Take No Pleasure in the Death of the Wicked"', href: '/demolition-ezekiel33-11', desc: 'The verse Arminians wield to prove God wants to save everyone equally teaches — when read honestly — the crucial distinc' },

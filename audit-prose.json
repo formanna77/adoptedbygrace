@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-08T03:46:05.991Z",
+  "generated": "2026-06-08T17:11:54.740Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 594,
-    "total_redundancy_pairs_flagged": 11,
+    "total_redundancy_pairs_flagged": 10,
     "total_sentences_flagged": 1270,
     "total_redundancy_pairs_suppressed": 18,
-    "total_sentences_suppressed": 186,
-    "articles_with_redundancy": 11,
+    "total_sentences_suppressed": 184,
+    "articles_with_redundancy": 10,
     "articles_with_flagged_sentences": 438,
-    "articles_clean": 150,
+    "articles_clean": 151,
     "suppression_by_class": {
       "scripture-tsunami": 10,
       "pedagogical-anaphora": 2,
@@ -921,14 +921,6 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [
         {
-          "paragraph": 0,
-          "sentence_index": 4,
-          "suppressed_flags": [
-            "length-suppressed-anaphora:2-word:and you×3"
-          ],
-          "preview": "The pastor's voice dropped to a whisper and said if you want Jesus, just raise your hand , and you did, and you meant it"
-        },
-        {
           "paragraph": 33,
           "sentence_index": 12,
           "suppressed_flags": [
@@ -940,7 +932,7 @@
       "redundancy_count": 0,
       "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 2,
+      "suppressed_sentence_count": 1,
       "score": 0
     },
     {
@@ -5061,7 +5053,7 @@
           "flags": [
             "long:50w"
           ],
-          "preview": "Over and over  —  seven times in twenty-six verses  —  He refers to the people He is about to die for, and He never once calls them the people who chose Him, or the people who decided for Him, or the "
+          "preview": "Over and over  —  five times in twenty-six verses  —  He refers to the people He is about to die for, and He never once calls them the people who chose Him, or the people who decided for Him, or the p"
         },
         {
           "paragraph": 13,
@@ -5501,7 +5493,7 @@
     },
     {
       "file": "broken-mirror-imposter-syndrome.html",
-      "paragraphs": 44,
+      "paragraphs": 43,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -5513,7 +5505,7 @@
           "preview": "Charles Spurgeon  —  the Prince of Preachers, packing a tabernacle of six thousand twice every Sunday in Victorian London  —  fought clinical depression so severe that he repeatedly told his congregat"
         },
         {
-          "paragraph": 41,
+          "paragraph": 40,
           "sentence_index": 1,
           "flags": [
             "long:55w"
@@ -7349,23 +7341,15 @@
     {
       "file": "demolition-matt23-37.html",
       "paragraphs": 36,
-      "redundancy_pairs": [
-        {
-          "paragraph_a": 30,
-          "paragraph_b": 32,
-          "similarity": 0.53,
-          "a_preview": "4. The prophecy is fulfilled exactly: Jesus pronounces judgment with absolute confidence. Forty years later, R",
-          "b_preview": "The truth is simple: God's will to judge was not thwarted. Jesus pronounced judgment with absolute certainty. "
-        }
-      ],
+      "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
-      "redundancy_count": 1,
+      "redundancy_count": 0,
       "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 2
+      "score": 0
     },
     {
       "file": "demolition-matt7-7.html",
@@ -15466,24 +15450,15 @@
     },
     {
       "file": "question-sovereignty-logic.html",
-      "paragraphs": 45,
+      "paragraphs": 39,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
-      "suppressed_sentences": [
-        {
-          "paragraph": 43,
-          "sentence_index": 0,
-          "suppressed_flags": [
-            "length-suppressed-embedded-quotation:68w-raw/51w-prose"
-          ],
-          "preview": "When that gap becomes real to you  —  when you stop measuring yourself against your neighbor and start measuring yoursel"
-        }
-      ],
+      "suppressed_sentences": [],
       "redundancy_count": 0,
       "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1,
+      "suppressed_sentence_count": 0,
       "score": 0
     },
     {
@@ -20627,7 +20602,7 @@
     },
     {
       "file": "theologian-warfield.html",
-      "paragraphs": 26,
+      "paragraphs": 25,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
