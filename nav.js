@@ -308,17 +308,20 @@
  name: 'Side by Side',
  icon: '',
  href: '/compare-calvinism-arminianism',
- count: 10,
+ count: 13,
  pages: [
  { name: 'At Every Decision Point, Scripture Sides with God — Not You', href: '/compare-every-decision-point', desc: 'Ten crucial doctrinal decision points. At each one, man-centered theology sides with man. God-centered theology sides wi' },
  { name: 'Calvinism vs Arminianism', href: '/compare-calvinism-arminianism', desc: 'Point by point, verse by verse — what Scripture actually teaches about salvation, and why the Arminian reading collapses' },
  { name: 'Calvinism vs Everything — What Scripture Actually Teaches', href: '/comparisons-hub', desc: 'Theological comparisons examined: Calvinism vs Arminianism, Catholicism, Molinism, Open Theism. What does Scripture actu' },
  { name: 'Calvinism vs Molinism', href: '/compare-calvinism-molinism', desc: 'Molinism promises a sovereign God and libertarian free will through middle knowledge. Scripture presents a God who does ' },
  { name: 'Calvinism vs Open Theism', href: '/compare-calvinism-open-theism', desc: 'Does God know every detail of the future — or is He discovering it alongside you? One view has been held for two millenn' },
+ { name: 'Can the Saved Be Lost?', href: '/compare-can-the-saved-be-lost', desc: 'Lutherans say a regenerate soul can fall away. But a corpse that could not raise itself cannot re-bury itself — and the ' },
  { name: 'Comparative Theology — Christ Among the Religions of the World', href: '/comparative-theology-hub', desc: 'Comparative theology engages the world' },
  { name: 'Does God Save Alone, or Do You Help? Monergism vs Synergism', href: '/compare-monergism-synergism', desc: 'The most fundamental divide in all of Christianity: Does God save alone, or does He need your cooperation? Scripture ans' },
  { name: 'Predestination vs Foreknowledge — Which Comes First?', href: '/compare-predestination-foreknowledge', desc: '"God looked down the corridor of time, saw who would believe, and chose them." The Bible never says this. Not once.' },
  { name: 'Reformed vs Catholic — How Are We Actually Justified Before God?', href: '/compare-calvinism-catholic-soteriology', desc: 'Imputed or infused? Faith alone or faith plus works? The Reformation\'s most consequential divide — and why the differen' },
+ { name: 'Reformed vs. Lutheran', href: '/compare-lutheranism', desc: 'Lutheran and Reformed soteriology agree that a dead man cannot raise himself — and then part at two places. The closest ' },
+ { name: 'Single vs. Double Predestination', href: '/compare-single-vs-double-predestination', desc: 'If God chose to save some, did He choose to pass over the rest? The crux theologorum, the Lutheran fear, and the asymmet' },
  { name: 'Two Versions of Grace — One Is Real. One Is Man-Made.', href: '/compare-grace-reformed-vs-arminian', desc: 'Reformed grace vs. Arminian grace compared side by side. One is a resurrection. The other is a suggestion. One is divine' }
  ]
  }

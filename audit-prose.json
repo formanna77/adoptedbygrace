@@ -2,16 +2,16 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-09T21:54:47.410Z",
+  "generated": "2026-06-09T22:43:10.819Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
-    "articles_audited": 594,
+    "articles_audited": 597,
     "total_redundancy_pairs_flagged": 10,
-    "total_sentences_flagged": 1269,
+    "total_sentences_flagged": 1279,
     "total_redundancy_pairs_suppressed": 18,
     "total_sentences_suppressed": 183,
     "articles_with_redundancy": 10,
-    "articles_with_flagged_sentences": 437,
+    "articles_with_flagged_sentences": 440,
     "articles_clean": 152,
     "suppression_by_class": {
       "scripture-tsunami": 10,
@@ -6066,6 +6066,44 @@
       "score": 0
     },
     {
+      "file": "compare-can-the-saved-be-lost.html",
+      "paragraphs": 16,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 2,
+          "sentence_index": 2,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "They ask it in the dark, and what they mean is: am I safe?"
+        },
+        {
+          "paragraph": 6,
+          "sentence_index": 0,
+          "flags": [
+            "long:62w"
+          ],
+          "preview": "That instinct  —  the refusal to turn assurance into presumption  —  is the reflex of Romans 6, and it is holy. (It is the very instinct that makes the Lutheran stop short at election's far side too  "
+        },
+        {
+          "paragraph": 8,
+          "sentence_index": 6,
+          "flags": [
+            "long:49w"
+          ],
+          "preview": "The very helplessness that made the new birth all of grace makes the loss of it impossible on the same terms  —  because to fall away decisively, finally, you would need a sovereign power over your sp"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 3,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 3
+    },
+    {
       "file": "compare-every-decision-point.html",
       "paragraphs": 21,
       "redundancy_pairs": [],
@@ -6127,6 +6165,52 @@
       "score": 2
     },
     {
+      "file": "compare-lutheranism.html",
+      "paragraphs": 20,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 3,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "There is a tradition that stood with Luther when he wrote that the will is bound, that agrees a corpse cannot choose its own resurrection, that calls faith a gift and means it down to the root  —  and"
+        },
+        {
+          "paragraph": 3,
+          "sentence_index": 1,
+          "flags": [
+            "long:62w"
+          ],
+          "preview": "The Formula of Concord, the confessional bedrock laid down in 1577, says it in cold print: the unconverted will does not cooperate in the new birth ; conversion is the work of the Holy Spirit alone; f"
+        },
+        {
+          "paragraph": 11,
+          "sentence_index": 1,
+          "flags": [
+            "direction-mismatch:\\b(rose|rising|ascended|climbing|climbed"
+          ],
+          "preview": "If you contributed nothing to your rising, you have nothing to contribute to your falling  —  a gift you could not earn is a gift you cannot un-earn."
+        },
+        {
+          "paragraph": 11,
+          "sentence_index": 2,
+          "flags": [
+            "long:55w"
+          ],
+          "preview": "And if grace in fact landed on you and not on the man beside you  —  if, as everyone in this family agrees, some dead men are raised and some are not  —  then the difference between you and him traces"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 4
+    },
+    {
       "file": "compare-monergism-synergism.html",
       "paragraphs": 34,
       "redundancy_pairs": [],
@@ -6179,6 +6263,44 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
       "score": 1
+    },
+    {
+      "file": "compare-single-vs-double-predestination.html",
+      "paragraphs": 17,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 4,
+          "sentence_index": 0,
+          "flags": [
+            "long:53w"
+          ],
+          "preview": "And the Lutheran levels a charge at that second answer that deserves to be heard at full volume, not waved away: double predestination, he says, makes God the author of damnation  —  a tyrant who fash"
+        },
+        {
+          "paragraph": 5,
+          "sentence_index": 5,
+          "flags": [
+            "long:53w"
+          ],
+          "preview": "If \"double predestination\" meant that God creates innocent people in order to damn them  —  that He is the efficient cause of a man's sin the way He is the efficient cause of a man's faith  —  then th"
+        },
+        {
+          "paragraph": 10,
+          "sentence_index": 4,
+          "flags": [
+            "long:91w"
+          ],
+          "preview": "Of the objects of wrath he uses katērtismena  —  a participle with no named agent at all; they stand \"fitted for destruction,\" and Paul conspicuously does not say by whom. (The voice of that participl"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 3,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 3
     },
     {
       "file": "connections.html",

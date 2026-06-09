@@ -6,16 +6,24 @@
 
 ## TALLY toward 100%
 
-| Status | Count | % of 589 |
+| Status | Count | % of 592 |
 |---|---|---|
-| **CONFIRMED** (cold-read PASS) | **589** | **100%** |
+| **CONFIRMED / CONSECRATED-at-birth** | **592** | **100%** |
 | TOUCHED (edit, full read pending) | 0 | 0% |
 | UNREAD | 0 | 0% |
-| **TOTAL** | **589** | 100% |
+| **TOTAL** | **592** | 100% |
 
 *S94: the universe grew 584 → 589 — Phase D's first FIVE pages (analytical-grounding-objection-molinism, analytical-identity-regeneration, analytical-aseity-and-decree, analytical-modal-collapse-answered, analytical-information-and-imago) were born CONSECRATED and cold-read the same session (3 apex / 2 PASS, 6 lifts total). The campaign standard is the floor for all new work: nothing ships UNREAD.*
 
 **THE CAMPAIGN IS CLOSED (S93, 2026-06-06).** Every one of the 584 prose doorways has been individually cold-read and confirmed at the landing-force + §XVI/§XVII bar, every defect lifted in-session, every verse on every layer checked against NIV 2011. Zero un-lifted FAILs across all thirteen legs. This ledger is now the campaign's permanent record; future re-verification passes (post-edit re-reads, periodic apex spot-checks) log here.
+
+## S105 — PHASE D NEW BUILDS (the second register: the Lutheran comparison family) — 3/3 born-CONSECRATED — 2026-06-09
+
+**The universe grew 589 → 592.** Campaign 2 closed the tightening re-read at 589/589 (S104) and Aaron's expansion hold lifted; Phase D reopened. The `compare-*` shelf fought every synergism but had never engaged Lutheranism — the one major tradition that is itself **monergist**. New ground (§XVII), the same on all three: Lutheranism owns the bound will (*De Servo Arbitrio* 1525), sovereign regeneration, the gift of faith, and confessional unconditional election (FC 1577, grounded in grace not foreseen faith) — yet stops short (single predestination + grace resistible-unto-loss). The thesis no compare-* page had run: a monergism that will not finish its own sentence.
+
+**The 3 (each: universal opener · §XVI sapiential + ends in awe · §XVII new-ground · sharp 1,600–2,000w · In-Brief on top · 10–18 woven verified links · NIV 2011 + §XV · wired to comparisons-hub same session):** **compare-lutheranism** (flagship — the two-monergisms overview; the two forks shown to be one fork) · **compare-single-vs-double-predestination** (the crux theologorum; the §XV spine — the GRAMMAR of Romans 9:22-23 refuses the symmetry: *proētoimasen* aorist-active God-subject for the vessels of mercy vs *katērtismena* agentless participle for the vessels of wrath, the middle/passive debate conceded honestly) · **compare-can-the-saved-be-lost** (amissibility; the crown jewel pressed into perseverance — perseverance-by-your-grip makes the gift a wage; "a corpse that could not raise itself cannot re-bury itself"; John 10:28 *ou mē*).
+
+**Born-consecrated cold-read** (1 subagent, all three read full on the macOS path + independent verification): all three **SHARP on every axis**; every Scripture quote verified exact against NIV 2011 (John 10:28-29, Rom 9:22-23, 1 John 2:19, Phil 1:6, John 6:39, Jas 1:13, 1 John 1:5, Ezek 33:11, Rom 3:11, Jude 24); every fact confirmed (the cold-read surfaced Luther's 9 July 1537 letter to Capito corroborating "the only one of his works worth keeping" verbatim; FC 1577; the Greek); the Lutheran steel-man judged charitable and accurate. 3 polish fixes applied main-thread before ship (page-1 double-landing compressed; page-1 grip-image de-doubled; page-3 steel-man airtightened — grants the Lutheran frames the fall as resistance not self-destruction, then turns it). Surgical queue (standing 8-page P0 sample-read → all SHARP) cleared 2 defects: philosophy-problem-of-merit empty `<p>` at the §07 hinge; systematic-reprobation "In Brief." → "In Brief:". Structural catch: the 3 article tags born with `id="main-content"` were conformed to the canonical bare `<article class="article-body">` string (the S97 light-switch law) → prose 592.
 
 ## CONFIRMED VERDICTS LOG
 
