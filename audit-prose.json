@@ -2,7 +2,7 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-09T06:19:34.591Z",
+  "generated": "2026-06-09T18:26:19.969Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 594,
@@ -6774,7 +6774,7 @@
     },
     {
       "file": "demolition-cut-off-from-root.html",
-      "paragraphs": 34,
+      "paragraphs": 33,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -15552,7 +15552,7 @@
     },
     {
       "file": "question-visual-theology.html",
-      "paragraphs": 41,
+      "paragraphs": 40,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -15673,7 +15673,7 @@
     },
     {
       "file": "question-whose-side-are-you-on.html",
-      "paragraphs": 47,
+      "paragraphs": 44,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
