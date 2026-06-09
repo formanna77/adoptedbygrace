@@ -2,12 +2,12 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-09T00:12:40.771Z",
+  "generated": "2026-06-09T06:19:34.591Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 594,
     "total_redundancy_pairs_flagged": 10,
-    "total_sentences_flagged": 1268,
+    "total_sentences_flagged": 1269,
     "total_redundancy_pairs_suppressed": 18,
     "total_sentences_suppressed": 183,
     "articles_with_redundancy": 10,
@@ -6467,7 +6467,7 @@
     },
     {
       "file": "demolition-1tim4-10.html",
-      "paragraphs": 27,
+      "paragraphs": 24,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -6930,7 +6930,7 @@
     },
     {
       "file": "demolition-hebrews10-26.html",
-      "paragraphs": 25,
+      "paragraphs": 24,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -7260,15 +7260,23 @@
             "long:48w"
           ],
           "preview": "\"To him who is able to keep you from stumbling and to present you before his glorious presence without fault and with great joy  —  to the only God our Savior be glory, majesty, power and authority, t"
+        },
+        {
+          "paragraph": 15,
+          "sentence_index": 0,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "And the command to keep yourself in verse 21 is addressed to the very people verse 24 promises to keep  —  which is why pursuing it is not anxious self-rescue but the visible shape of a keeping alread"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 2
     },
     {
       "file": "demolition-mark16-16.html",
@@ -17898,7 +17906,7 @@
     },
     {
       "file": "story-tender-the-letter-already-written.html",
-      "paragraphs": 36,
+      "paragraphs": 35,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
