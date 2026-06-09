@@ -2,7 +2,7 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-09T18:26:19.969Z",
+  "generated": "2026-06-09T21:54:47.410Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 594,
@@ -491,7 +491,7 @@
     {
       "file": "devotional-the-secretly-ashamed.html",
       "score": 5,
-      "paragraphs": 36,
+      "paragraphs": 35,
       "redundancy_count": 0,
       "flagged_sentence_count": 5,
       "suppressed_redundancy_count": 0,
@@ -6339,7 +6339,7 @@
     },
     {
       "file": "demolition-1cor15-22.html",
-      "paragraphs": 35,
+      "paragraphs": 34,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -6359,7 +6359,7 @@
           "preview": "Something that felt less like a decision you were making and more like a door opening from the other side."
         },
         {
-          "paragraph": 34,
+          "paragraph": 33,
           "sentence_index": 1,
           "flags": [
             "long:53w"
@@ -6367,7 +6367,7 @@
           "preview": "A leather-bound book so large its spine has to rest on the floor of the throne room, and the pages are the thinness of breath, and every name on every page is written in the same handwriting  —  the S"
         },
         {
-          "paragraph": 34,
+          "paragraph": 33,
           "sentence_index": 8,
           "flags": [
             "long:75w"
@@ -8484,7 +8484,7 @@
     },
     {
       "file": "devotional-the-secretly-ashamed.html",
-      "paragraphs": 36,
+      "paragraphs": 35,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
