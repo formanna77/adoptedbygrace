@@ -2,12 +2,12 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-08T23:40:17.123Z",
+  "generated": "2026-06-09T00:12:40.771Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 594,
     "total_redundancy_pairs_flagged": 10,
-    "total_sentences_flagged": 1269,
+    "total_sentences_flagged": 1268,
     "total_redundancy_pairs_suppressed": 18,
     "total_sentences_suppressed": 183,
     "articles_with_redundancy": 10,
@@ -651,15 +651,6 @@
       "suppressed_sentence_count": 2
     },
     {
-      "file": "analogy-song-you-didnt-compose.html",
-      "score": 4,
-      "paragraphs": 41,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
       "file": "analytical-aseity-and-decree.html",
       "score": 4,
       "paragraphs": 17,
@@ -739,6 +730,15 @@
       "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
+    },
+    {
+      "file": "apologetic-the-fourth-day-corpse.html",
+      "score": 4,
+      "paragraphs": 31,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
     }
   ],
   "articles": [
@@ -1063,7 +1063,7 @@
     },
     {
       "file": "analogy-song-you-didnt-compose.html",
-      "paragraphs": 41,
+      "paragraphs": 40,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -1090,23 +1090,15 @@
             "padding-modifier:in the dark"
           ],
           "preview": "And now, in the dark, listen under the silence  —  under the applause that is about to come  —  and you will hear an older song, one you did not notice because it has been playing your whole life, the"
-        },
-        {
-          "paragraph": 40,
-          "sentence_index": 4,
-          "flags": [
-            "padding-modifier:in the dark"
-          ],
-          "preview": "You are the instrument He picked up in the dark and has been tuning, string by string, for this one moment  —  the moment you finally stop composing and start listening."
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 4,
+      "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 4
+      "score": 3
     },
     {
       "file": "analogy-the-prodigal-already-home.html",
@@ -6248,20 +6240,20 @@
           "preview": "Box A: The Hound of Heaven, having pursued a man through Norse myth and George MacDonald and Tolkien's Addison's Walk argument and an entire Oxford career of deflection, finally caught him  —  soverei"
         },
         {
-          "paragraph": 29,
-          "sentence_index": 2,
-          "flags": [
-            "long:48w"
-          ],
-          "preview": "The thirty-year-old don in the sidecar  —  wool overcoat, pipe cold in his pocket, the Headington fog coming in off the fields  —  is, by every measure he can articulate, a happy atheist who has won e"
-        },
-        {
           "paragraph": 31,
           "sentence_index": 2,
           "flags": [
             "long:63w"
           ],
           "preview": "The question is whether you are willing to sit in the sidecar with him for a moment and notice that the same Hand that closed in on Lewis on that road has been closing in on you for years  —  through "
+        },
+        {
+          "paragraph": 31,
+          "sentence_index": 6,
+          "flags": [
+            "direction-mismatch:\\bclosed[^.]{0,40}?\\bopened\\b"
+          ],
+          "preview": "They closed once and have never once opened."
         }
       ],
       "suppressed_redundancy": [],
