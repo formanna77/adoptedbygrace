@@ -2,16 +2,16 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-09T23:28:01.724Z",
+  "generated": "2026-06-10T05:39:32.700Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
-    "articles_audited": 599,
+    "articles_audited": 602,
     "total_redundancy_pairs_flagged": 10,
-    "total_sentences_flagged": 1284,
+    "total_sentences_flagged": 1290,
     "total_redundancy_pairs_suppressed": 18,
     "total_sentences_suppressed": 184,
     "articles_with_redundancy": 10,
-    "articles_with_flagged_sentences": 442,
+    "articles_with_flagged_sentences": 445,
     "articles_clean": 152,
     "suppression_by_class": {
       "scripture-tsunami": 10,
@@ -660,6 +660,15 @@
       "suppressed_sentence_count": 0
     },
     {
+      "file": "analytical-impassibility.html",
+      "score": 4,
+      "paragraphs": 17,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
       "file": "apologetic-a-slave-to-sin.html",
       "score": 4,
       "paragraphs": 17,
@@ -730,15 +739,6 @@
       "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
-    },
-    {
-      "file": "apologetic-the-fourth-day-corpse.html",
-      "score": 4,
-      "paragraphs": 31,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1
     }
   ],
   "articles": [
@@ -1169,6 +1169,28 @@
       "score": 4
     },
     {
+      "file": "analytical-divine-simplicity.html",
+      "paragraphs": 17,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 16,
+          "sentence_index": 2,
+          "flags": [
+            "long:58w"
+          ],
+          "preview": "The love that meets you at the door and the will that gave you the faith to walk through it and the grace that was a gift before you asked are one simple, seamless, undivided act of being  —  and that"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 1,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 1
+    },
+    {
       "file": "analytical-grounding-objection-molinism.html",
       "paragraphs": 22,
       "redundancy_pairs": [],
@@ -1227,6 +1249,74 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
       "score": 2
+    },
+    {
+      "file": "analytical-immutability.html",
+      "paragraphs": 16,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 2,
+          "sentence_index": 1,
+          "flags": [
+            "long:53w"
+          ],
+          "preview": "A marriage cools across a decade, a friendship thins to a yearly text, the mentor stops calling, the church that felt like family feels like a lobby  —  and when someone finally asks what happened, th"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 1,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 1
+    },
+    {
+      "file": "analytical-impassibility.html",
+      "paragraphs": 17,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 6,
+          "sentence_index": 0,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "That is the truth the church was guarding when it confessed, in the words of the Westminster Confession , that God is \"without body, parts, or passions.\" A passion , in the old precise sense, is not a"
+        },
+        {
+          "paragraph": 9,
+          "sentence_index": 4,
+          "flags": [
+            "long:53w"
+          ],
+          "preview": "The fuel line has only been moved to another room: if the decree waits on a fact God did not author, then the content of the eternal will was supplied from outside it, and a God who must receive befor"
+        },
+        {
+          "paragraph": 12,
+          "sentence_index": 4,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "The eternal Son took to Himself a human nature, a body and soul in which He could hunger and bleed and die, precisely so that the love that cannot be acted upon could act  —  could walk into the one t"
+        },
+        {
+          "paragraph": 16,
+          "sentence_index": 0,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "Somewhere in the wilderness the bush is still the truest picture you have been given: a fire perfectly at rest in its own burning, consuming nothing, needing nothing, announcing a name that is not a p"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 4
     },
     {
       "file": "analytical-information-and-imago.html",
@@ -5941,11 +6031,11 @@
       "flagged_sentences": [
         {
           "paragraph": 17,
-          "sentence_index": 1,
+          "sentence_index": 0,
           "flags": [
-            "long:55w"
+            "long:62w"
           ],
-          "preview": "Cialdini documented, across hundreds of controlled studies, a phenomenon he named commitment-and-consistency bias : a person who contributes even the smallest initial token toward a decision  —  check"
+          "preview": "The social psychologist Robert Cialdini spent fifty years documenting, across hundreds of controlled studies, a phenomenon he named commitment-and-consistency bias : a person who contributes even the "
         },
         {
           "paragraph": 24,
@@ -6295,9 +6385,9 @@
           "paragraph": 4,
           "sentence_index": 0,
           "flags": [
-            "long:53w"
+            "long:54w"
           ],
-          "preview": "And the Lutheran levels a charge at that second answer that deserves to be heard at full volume, not waved away: double predestination, he says, makes God the author of damnation  —  a tyrant who fash"
+          "preview": "And the Lutheran levels a charge at that second answer that deserves to be heard at full volume, not waved away: double predestination , he says, makes God the author of damnation  —  a tyrant who fas"
         },
         {
           "paragraph": 5,

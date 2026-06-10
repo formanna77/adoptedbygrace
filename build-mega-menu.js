@@ -213,7 +213,7 @@ const UMBRELLAS = [
   name: 'Logic & Philosophy',
   icon: '',
   hub: '/philosophy-problem-of-merit',
-  prefixes: ['philosophy'],
+  prefixes: ['philosophy', 'analytical'],
   },
   {
   key: 'secular',

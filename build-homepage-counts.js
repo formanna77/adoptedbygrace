@@ -48,7 +48,7 @@ const CATEGORIES = [
   { href: '/ot-hub', patterns: [/^ot-/, /^psalm-/, /^psalms-/] },
   { href: '/history-timeline', patterns: [/^history-/, /^creed-/, /^canons-/, /^westminster-/, /^heidelberg-/] },
   { href: '/secular-evidence', patterns: [/^secular-/] },
-  { href: '/philosophy-hub', patterns: [/^philosophy-/, /^freedom/] },
+  { href: '/philosophy-hub', patterns: [/^philosophy-/, /^analytical-/, /^freedom/] },
   { href: '/theologians', patterns: [/^theologian-/] },
   // Analogies merged into /stories — { href: '/analogies-illustrations' } is retired
   { href: '/comparisons-hub', patterns: [/^compare-/, /^comparison-/] },
