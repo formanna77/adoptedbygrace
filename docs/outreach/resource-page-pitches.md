@@ -67,3 +67,47 @@ adoptedbygrace.net
 ---
 
 **Why these three:** reformed.org gives a durable directory backlink from a decades-old domain; Reasonable Theology gives a contextual editorial link beside Piper and Sproul recommendations on a page that ranks for the exact head terms we target; Challies gives a one-day referral flood and the attention of every Reformed blogger who reads A La Carte — the people who write the NEXT links pages.
+
+---
+
+# S109 additions — 2 more verified targets (2026-06-10)
+
+Both fetched and read live before drafting. Also investigated and passed over this session: **The Old Guys** (theoldguys.org — last post July 2019, stale), **Heidelblog** (heidelblog.net — 403-blocks fetchers, could not verify), **Grace Online Library** (graceonlinelibrary.org — HTTP 402, dead), **Feeding on Christ** (live but its resources page is sermon-prep indexes, wrong shelf).
+
+## Target 4 — Reformed Books Online (Travis Fentiman) — "Websites of Interest"
+
+**Page:** https://reformedbooksonline.com/links/websites-of-interest — a curated directory page (Historicist.com, PCA Historical Center, A Puritan's Mind, Post-Reformation Digital Library, Grace Gems, etc.) on a site whose whole mission is pointing readers to the best free Reformed literature. Contact: the Feedback form at https://reformedbooksonline.com/contact/.
+
+**The natural pitch is our Source Library, not the homepage** — RBO's readers are free-classic-literature readers.
+
+**Subject:** A free Reformed source library for your Websites of Interest page
+
+Hello,
+
+Reformed Books Online has been a service to more readers than you likely know — thank you for it. One site for your consideration: the Reformed Source Library at https://adoptedbygrace.net/reformed-sources — 113 classic Reformed works (Calvin, Owen, Pink, Charnock, Boston, the confessions and catechisms) as free PDFs, organized into nine reading shelves by purpose: demolition of self-trust, systematic doctrine, devotional, pastoral, church history, and more.
+
+The library sits inside a larger free site making the Scripture-first case for the doctrines of grace (adoptedbygrace.net) — everything free, ad-free, no registration.
+
+If it fits your Websites of Interest, I'd be honored; either way, thank you for the work.
+
+In Christ,
+Aaron Forman
+adoptedbygrace.net
+
+## Target 5 — The Highway (the-highway.com) — Resources / Calvinism links
+
+**Page:** http://www.the-highway.com/resourc1.html (the CALVINISM section of its three-page links directory — ~60 external links). Site founded January 6, 1996; **last updated June 1, 2026** — a thirty-year-old, still-maintained repository dedicated to "Historic Christianity and the Reformed Faith," with whole sections on Calvinism and Predestination. Contact (verified on-site): **webmeister@the-highway.com**.
+
+**Subject:** A site for your Calvinism resources page
+
+Hello,
+
+The Highway has been pointing people to the Reformed faith since 1996 — thirty years of quiet service, and the June 2026 update date says you're still at the post. Thank you.
+
+One site for your Calvinism resources page: adoptedbygrace.net — a free, ad-free site making the biblical case for the doctrines of grace for the ordinary reader. The quickest doors: a plain-language explanation of sovereign grace at https://adoptedbygrace.net/question-what-is-sovereign-grace, the scriptural case that faith itself is a gift at https://adoptedbygrace.net/question-faithgift, and a free library of 113 Reformed classics at https://adoptedbygrace.net/reformed-sources.
+
+If it fits your list, I'd be honored; if not, no worries at all.
+
+In Christ,
+Aaron Forman
+adoptedbygrace.net

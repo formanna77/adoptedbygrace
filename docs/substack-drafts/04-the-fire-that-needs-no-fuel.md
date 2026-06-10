@@ -1,0 +1,63 @@
+# Substack Draft 04 — The Fire That Needs No Fuel
+
+**Canonical:** https://adoptedbygrace.net/analytical-impassibility
+**Subject (27 chars):** The Fire That Needs No Fuel
+**Dek / subtitle:** Every love you have ever known had to be fed. The first thing God showed Moses was a fire that did not.
+**Arm:** the essay (doctrine of God pressed into the comfort of unconditional election)
+**Prepared S109 (2026-06-10) per docs/SUBSTACK-CROSSPOSTING.md.** Links flattened to prose or full URLs; Scripture untouched; the In Brief converted to an opening block per Substack form. Paste as plain text; use H2 + blockquote controls where marked.
+
+---
+
+**In Brief:** The old confessions say God is "without passions," and the modern ear hears an insult to the God of love. It is the opposite. Impassibility is the confession that God's love is never a *reaction* — nothing outside God reaches in and lights it, feeds it, or cools it. "The LORD did not set his affection on you... because" of anything in you; "it was because the LORD loved you" (Deuteronomy 7:7-8). Election conditioned on foreseen faith quietly requires the opposite kind of God — one your faith can act upon, strike like a match. And the cross does not refute the doctrine; it proves it: "No one takes it from me, but I lay it down of my own accord" (John 10:18). A love that nothing caused is a love nothing can extinguish.
+
+## Every Love You Know Runs on Fuel
+
+You learned it before you could name it: the people who love you have a temperature, and the temperature must be managed. A child reads the weather of a parent's face by age four. A spouse knows the exact sound of a sigh that means the warmth is thinning. Somewhere along the way you discovered that every love in your life had to be fed — with attention, with gratitude, with performance, with presence — and that you were one of its fuel sources. Let the feeding lapse long enough and you could watch the thing cool with your own eyes.
+
+Listen to the language we reach for, because it confesses what we know. Relationships *burn out*. Affection *cools*. An old flame is *rekindled*. We have stopped *feeding* the marriage. We talk about love the way we talk about fire, because every human love is one: a combustion, sustained by what it consumes, warming you exactly as long as the fuel holds out. And for many believers, prayer inherits the same physics — the secret fear that God's affection is a hearth you are responsible for keeping lit, and that your cold seasons are starving it.
+
+## The Bush That Did Not Burn Up
+
+Now stand where Moses stood. He was a shepherd; he had built ten thousand fires and knew their one unbreakable law — fire eats. Flame is the visible form of consumption, and when the fuel is gone the fire is too. Then, on the far side of the wilderness: "There the angel of the LORD appeared to him in flames of fire from within a bush. Moses saw that though the bush was on fire it did not burn up. So Moses thought, 'I will go over and see this strange sight—why the bush does not burn up'" (Exodus 3:2-3).
+
+What turned Moses aside was not the flame. He had seen flame all his life. It was the broken law. Before God spoke a single word at that bush, before the name was given, the sight itself was the first lesson in the doctrine of God: *what burns here is not being fed*. Then the voice, and the name to match the sight: "I AM WHO I AM" (Exodus 3:14). Not *I am kept burning*. No fuel line runs into the being of God from anywhere.
+
+That is the truth the church was guarding when it confessed, in the words of the Westminster Confession, that God is "without body, parts, or passions." A *passion*, in the old precise sense, is not a feeling; it is a suffering — a state inflicted from outside, a passivity. To say God is without passions is not to say He is marble. It is to say nothing reaches into God and *makes* Him feel — that His love is not weather, blown into being by causes outside Him, but His own being in eternal act. Anselm prayed the distinction better than the textbooks teach it: "you are compassionate in terms of our experience, and not compassionate in terms of your being" — when He saves the wretched we feel the full warmth of compassion, and what stands behind that warmth is not a flicker that passed through God but a fullness that never wavers.
+
+And the Bible's emotional language for God — the grief, the burning anger, the heart that recoils? It is real revelation in our mother tongue, and Scripture itself tells you how to read it. In Hosea, at the very summit of the Old Testament's most passionate oracle — "My heart is changed within me; all my compassion is aroused" — God grounds the whole speech in this: "For I am God, and not a man—the Holy One among you" (Hosea 11:8-9). The reason His compassion will not fail is precisely that it is *not like yours*: not a mood that rises and falls, but a perfection that cannot be provoked into existence or out of it. Your compassion is the wind-stirred surface of the sea. His is the deep.
+
+## The God Foreseen Faith Could Set On Fire
+
+Now bring the bush to the question this site exists to press. The most popular account of election in the modern church runs like this: God, surveying the future, sees who will believe, and on the basis of that foreseen faith, chooses them. Election conditioned on the foreseen response. It is meant to protect God's fairness. Watch what it does to His fire.
+
+On that account, your foreseen faith *moves* God. It is the consideration that tips the eternal will, the spark that catches — the creature strikes the match, and the Creator ignites. Refine the proposal as carefully as you like. Say faith does not *cause* the choice but merely informs it — a criterion, not a spark; a decision that respects what He foresees. The fuel line has only been moved to another room: if the decree waits on a fact God did not author, then the content of the eternal will was supplied from outside it, and a God who must receive before He can choose is passible in the mind if not in the heart. And the floor under the whole proposal was never there, because the foreseen faith is itself a gift — what God sees at the end of the corridor is His own giving, so the condition collapses back into the Giver. However softly it is said, the original picture remains a *passible* god: a god who, in the most consequential act he ever performs, is acted upon. The system does not merely adjust the doctrine of election; it rewires the doctrine of God. It runs a fuel line from earth into heaven and makes your believing the wood. And every instinct you have about fires that are fed applies from that moment with full force: what is lit can be unlit; what burns *because of* you burns *only as long as* you. The theology that was built to comfort you has handed you back the hearth and the bellows and the long anxious vigil.
+
+Scripture's grammar of election runs the other way, and it is the grammar of the bush. "The LORD did not set his affection on you and choose you because you were more numerous than other peoples... But it was because the LORD loved you" (Deuteronomy 7:7-8). Moses reaches for the cause of God's love and finds — God's love. The circle is the point: a fire fed by nothing outside itself. "While we were still sinners, Christ died for us" (Romans 5:8) — the love arrived while nothing lovable stood on the receiving end, which means nothing on the receiving end caused it. This is what unconditional election actually is, seen from inside the doctrine of God: impassibility applied to salvation — the ground A. W. Pink works, chapter by chapter, in *The Sovereignty of God* (free in the site's source library: https://adoptedbygrace.net/reformed-sources). Not a cold decree — an *uncaused* love. The only kind that is not, at bottom, a transaction. He needs nothing; He receives nothing; therefore what He gives, He gives from fullness — the way the bush burned.
+
+## He Suffered Impassibly
+
+Here the honest reader stands up with the strongest objection in Christian theology, and it deserves to be heard at full strength. *The cross.* Did God not suffer? Is the whole gospel not the story of a God in pain? If impassibility were true, would Calvary not be impossible?
+
+Listen first to how Jesus Himself frames His death: "No one takes it from me, but I lay it down of my own accord. I have authority to lay it down and authority to take it up again" (John 10:18). That is the bush speaking. The suffering of Christ was real — wounds, thirst, forsakenness, death — and it was never once *inflicted on God by a force outside His will*. The eternal Son took to Himself a human nature, a body and soul in which He could hunger and bleed and die, precisely so that the love that cannot be acted upon could act — could walk into the one thing fire cannot feel and make it His own, on purpose. The early church held this paradox with both hands and refused to drop either side. Cyril of Alexandria gave it its permanent form: *He suffered impassibly*. The Word did not become passible; the Word took flesh, and in that flesh chose every nail.
+
+So the cross is not the exception to impassibility. It is its masterpiece. A passible god would have been provoked — driven to the cross by grief the world inflicted, reacting to a tragedy he did not govern. The impassible God was not driven; He *came*. Nothing in Gethsemane was happening *to* Him that He had not, from all eternity, willed to bear. The fire that needs no fuel walked into a world soaked in everything that extinguishes love — betrayal, mockery, agony, abandonment — and burned through all of it without flickering once. That is not the denial that God loves you. That is the only proof in history of how much.
+
+## The Love You Cannot Blow Out
+
+Come back, then, to the hearth you have been tending all your life. You have read the temperature of every person who ever loved you. You have fed those fires with your charm, your usefulness, your agreement, your apologies, and you have lain awake doing the arithmetic of whether the fuel would last. Some of those fires went out anyway. You stood in the cold they left and concluded, reasonably, that this is what love is — a thing that eats, and dies when you stop feeding it.
+
+Hear the doctrine, then, as the rest it was always meant to be. The love of God for His own is the one fire in your life that you do not keep lit. You did not light it: "We love because he first loved us" (1 John 4:19). You do not feed it: it was burning before the creation of the world, on nothing, for you. And you cannot starve it — your coldest season subtracts nothing from a flame that never drew on your warmth in the first place. When Paul stacks up the universe at the end of Romans 8 — death, life, angels, demons, present, future, powers, height, depth, "nor anything else in all creation" (Romans 8:38-39) — notice what the list is: an inventory of created things. Causes. Everything that could conceivably act on a love that could be acted upon. None of it can separate you, because the love of God in Christ Jesus is not downwind of any of it. There is no fuel line to cut. The hands that hold you do not tremble. "He will take great delight in you... but will rejoice over you with singing" (Zephaniah 3:17) — and the joy is His own, rising from His own depths, needing nothing from yours.
+
+Somewhere in the wilderness the bush is still the truest picture you have been given: a fire perfectly at rest in its own burning, consuming nothing, needing nothing, announcing a name that is not a promise to stay lit but a statement that going out is impossible. I AM. You spent your whole life as fuel for the loves around you — never for His. You cannot lose a love you never caused.
+
+---
+
+*This piece first appeared at [adoptedbygrace.net](https://adoptedbygrace.net) — a free, no-paywall site built on one conviction: salvation is God's work from first to last, and the people He chose before the foundation of the world will be found. If it reaches you, share it. The site has hundreds more pieces waiting.*
+
+*Read the original at [adoptedbygrace.net/analytical-impassibility](https://adoptedbygrace.net/analytical-impassibility).*
+
+**More from the site:**
+
+- [No God Behind God](https://adoptedbygrace.net/analytical-divine-simplicity) — the fear of a colder will behind the loving Christ, dissolved.
+- [Forever Loved](https://adoptedbygrace.net/devotional-forever-loved) — the devotional arm of the same truth.
+- [Where Did Your Faith Come From?](https://adoptedbygrace.net/question-where-did-your-faith-come-from) — the question that ends the argument.

@@ -2,7 +2,7 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-10T17:53:51.494Z",
+  "generated": "2026-06-10T23:06:55.745Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 602,
@@ -7112,7 +7112,7 @@
     },
     {
       "file": "demolition-faith-is-not-a-gift.html",
-      "paragraphs": 42,
+      "paragraphs": 41,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -7124,7 +7124,7 @@
           "preview": "And a very sincere, very intelligent person is leaning forward with a Bible open in their lap and saying, voice lowered the way people lower their voices when they think they are about to win somethin"
         },
         {
-          "paragraph": 38,
+          "paragraph": 37,
           "sentence_index": 9,
           "flags": [
             "long:49w"
@@ -7135,7 +7135,7 @@
       "suppressed_redundancy": [
         {
           "paragraph_a": 2,
-          "paragraph_b": 14,
+          "paragraph_b": 13,
           "similarity": 0.35,
           "a_preview": "The objection always arrives in the same three forms. First: \"The Greek grammar in Ephesians 2:8 proves faith ",
           "b_preview": "The second objection: \"Faith isn't a work of the law, so it doesn't need to be divinely gifted. Anyone can bel",
@@ -11440,7 +11440,7 @@
     },
     {
       "file": "objection-author-of-sin.html",
-      "paragraphs": 31,
+      "paragraphs": 29,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -11452,7 +11452,7 @@
           "preview": "For who is able to resist his will?' But who are you, a human being, to talk back to God? 'Shall what is formed say to the one who formed it, \"Why did you make me like this?\"' Does not the potter have"
         },
         {
-          "paragraph": 19,
+          "paragraph": 18,
           "sentence_index": 1,
           "flags": [
             "long:53w"
@@ -11460,7 +11460,7 @@
           "preview": "If God planned the cross  —  the most unjust event in the history of the universe, the torture-murder of the only innocent man who ever lived  —  and that plan is the reason you are not damned, then t"
         },
         {
-          "paragraph": 20,
+          "paragraph": 19,
           "sentence_index": 1,
           "flags": [
             "long:46w"
@@ -11471,7 +11471,7 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [
         {
-          "paragraph": 27,
+          "paragraph": 26,
           "sentence_index": 6,
           "suppressed_flags": [
             "length-suppressed-anaphora:2-word:the one×3"
@@ -15623,7 +15623,7 @@
           "preview": "Moreover, if Romans 9 is only about nations, then God loved the nation of Jacob and hated the nation of Esau before either nation existed  —  which is a truly impressive feat of national politics give"
         },
         {
-          "paragraph": 28,
+          "paragraph": 24,
           "sentence_index": 0,
           "flags": [
             "long:54w"
@@ -15920,7 +15920,7 @@
     },
     {
       "file": "question-where-did-your-faith-come-from.html",
-      "paragraphs": 78,
+      "paragraphs": 75,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -19032,7 +19032,7 @@
     },
     {
       "file": "systematic-election.html",
-      "paragraphs": 46,
+      "paragraphs": 44,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -19047,9 +19047,9 @@
           "paragraph": 22,
           "sentence_index": 0,
           "flags": [
-            "long:68w"
+            "long:56w"
           ],
-          "preview": "Now here is the question secular philosophy can raise but cannot answer: if your thrownness is the condition of everything you call freedom  —  if every choice you make is made on a floor that was lai"
+          "preview": "If your thrownness is the condition of everything you call freedom  —  if every choice you make is made on a floor that was laid before your first breath  —  on what grounds would you expect the most "
         }
       ],
       "suppressed_redundancy": [],
