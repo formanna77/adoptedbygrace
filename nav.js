@@ -494,7 +494,7 @@
  { name: 'Can You Lose Your Salvation?', href: '/demolition-hebrews6-4-6', desc: 'Hebrews 6:4-6 names the enlightened, the tasters, the sharers — everything except born again. What the warning passage a' },
  { name: 'Children of Satan — What Scripture Actually Calls the Unregenerate', href: '/demolition-children-of-satan', desc: 'The church speaks of "lost sheep." Jesus spoke of children of the devil . Scripture identifies the unregenerate as ensla' },
  { name: 'Cut Off from the Root — Why Sin Doesn\'t Wound. It Kills.', href: '/demolition-cut-off-from-root', desc: 'When a creature is severed from the source of its life, corruption is not a punishment imposed from outside. It is what ' },
- { name: 'Demolition: 2 Peter 3:9', href: '/demolition-2peter3-9', desc: '"Not wishing that any should perish" is addressed to believers ("you"), not to all humanity. The "any" and "all" are sub' },
+ { name: 'Demolition: 2 Peter 3:9', href: '/demolition-2peter3-9', desc: '"Not wanting anyone to perish" is addressed to believers ("you"), not to all humanity. The "anyone" and "everyone" are s' },
  { name: 'Demolition: James 4:7-8', href: '/demolition-james4-7-8', desc: 'The favorite synergism proof-text — and the verses immediately before and after that prove it cannot mean what Arminians' },
  { name: 'Demolition: John 12:32 — "I Will Draw ALL People"', href: '/demolition-john12-32', desc: '"I will draw all people to myself" sounds like universal grace until you meet the Greek — helkō, the word for hauling, d' },
  { name: 'Demolition: Matthew 23:37 — Jesus\'s Lament Over Jerusalem', href: '/demolition-matt23-37', desc: 'Who are "you" in verse 37? The scribes and Pharisees. The leaders Jesus has been addressing throughout the chapter.' },

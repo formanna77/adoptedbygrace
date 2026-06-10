@@ -7737,3 +7737,17 @@ div[aria-label*="table of contents" i] {
 .wall-verse{margin:2.5rem 0;padding:2rem 1.75rem;background:rgba(212,162,84,0.08);border-left:3px solid #d4a254;border-radius:6px;}
 .wall-verse-quote{font-family:'Playfair Display',serif;font-style:italic;font-size:1.18rem;line-height:1.7;color:#f5ecdc;margin:0 0 1rem;}
 .wall-verse-cite{font-size:0.82rem;letter-spacing:0.12em;text-transform:uppercase;color:#b07a2c;margin:0;}
+
+/* ==================== THE VISIBLE STAIRCASE (S108, benchmarking gap #3) ==================== */
+.journey-strip{display:flex;align-items:flex-start;justify-content:center;gap:0.15rem;max-width:920px;margin:2.5rem auto 0 auto;padding:0 1rem;flex-wrap:wrap;}
+.journey-strip a{display:flex;flex-direction:column;align-items:center;gap:0.4rem;text-decoration:none;padding:0.6rem 0.8rem;border-radius:8px;transition:background 0.25s ease;min-width:92px;}
+.journey-strip a:hover{background:rgba(212,162,84,0.08);}
+.journey-step-num{width:36px;height:36px;border-radius:50%;border:1.5px solid var(--accent-gold);color:var(--accent-gold);display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-size:0.85rem;}
+.journey-strip a:hover .journey-step-num{background:var(--accent-gold);color:#0a0a0f;}
+.journey-step-label{font-size:0.7rem;letter-spacing:0.07em;text-transform:uppercase;color:var(--text-secondary);text-align:center;line-height:1.4;}
+.journey-arrow{color:var(--accent-gold);opacity:0.5;font-size:1.05rem;align-self:center;padding-bottom:1.1rem;}
+@media (max-width:640px){.journey-arrow{display:none;}.journey-strip{gap:0.4rem;}}
+.phase-next{display:block;max-width:680px;margin:3rem auto 0 auto;padding:1.4rem 1.8rem;border:1px solid rgba(212,162,84,0.35);border-radius:10px;text-decoration:none;background:linear-gradient(135deg,rgba(212,162,84,0.07),rgba(232,100,44,0.04));transition:border-color 0.3s ease,transform 0.3s ease;}
+.phase-next:hover{border-color:var(--accent-gold);transform:translateY(-2px);}
+.phase-next-eyebrow{display:block;font-family:'JetBrains Mono',monospace;font-size:0.7rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--accent-gold);margin-bottom:0.4rem;}
+.phase-next-title{display:block;font-family:'Playfair Display',serif;font-size:1.25rem;font-weight:700;color:var(--text-primary);line-height:1.35;}

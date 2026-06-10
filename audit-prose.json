@@ -2,14 +2,14 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-10T16:42:30.064Z",
+  "generated": "2026-06-10T17:53:51.494Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 602,
     "total_redundancy_pairs_flagged": 10,
-    "total_sentences_flagged": 1290,
+    "total_sentences_flagged": 1289,
     "total_redundancy_pairs_suppressed": 18,
-    "total_sentences_suppressed": 184,
+    "total_sentences_suppressed": 185,
     "articles_with_redundancy": 10,
     "articles_with_flagged_sentences": 445,
     "articles_clean": 152,
@@ -4710,7 +4710,7 @@
         },
         {
           "paragraph": 5,
-          "sentence_index": 2,
+          "sentence_index": 1,
           "suppressed_flags": [
             "length-suppressed-anaphora:2-word:in the×3"
           ],
@@ -6395,7 +6395,7 @@
           "flags": [
             "long:53w"
           ],
-          "preview": "If \"double predestination\" meant that God creates innocent people in order to damn them  —  that He is the efficient cause of a man's sin the way He is the efficient cause of a man's faith  —  then th"
+          "preview": "If \" double predestination \" meant that God creates innocent people in order to damn them  —  that He is the efficient cause of a man's sin the way He is the efficient cause of a man's faith  —  then "
         },
         {
           "paragraph": 10,
@@ -6855,43 +6855,44 @@
     },
     {
       "file": "demolition-2peter3-9.html",
-      "paragraphs": 25,
+      "paragraphs": 23,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 16,
+          "paragraph": 15,
           "sentence_index": 2,
           "flags": [
             "long:48w"
           ],
           "preview": "The eternal Son  —  the only Mediator between God and men, our great High Priest who lives forever to intercede for the ones whose names He carries upon His shoulders  —  is the One whose return is be"
-        },
-        {
-          "paragraph": 16,
-          "sentence_index": 6,
-          "flags": [
-            "long:47w"
-          ],
-          "preview": "Spurgeon thundered the same from the Metropolitan pulpit: the patience of God is the salvation of God's people, and the delay is the doctor's hand on the pulse of the last sheep yet to be found. 2 Pet"
         }
       ],
       "suppressed_redundancy": [
         {
           "paragraph_a": 3,
           "paragraph_b": 7,
-          "similarity": 0.35,
+          "similarity": 0.4,
           "a_preview": "\"The Lord is not slow in keeping his promise, as some understand slowness. Instead he is patient with you, not",
-          "b_preview": "Read it correctly: \"The Lord is patient with you [believers], not wanting any [of you ] to perish, but everyon",
+          "b_preview": "Read it correctly: \"The Lord is patient with you [believers], not wanting anyone [of you ] to perish, but ever",
           "exemption_class": "scripture-tsunami",
           "reason": "both paragraphs are Scripture-quote-dominated; deliberate verse stacking"
         }
       ],
-      "suppressed_sentences": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 15,
+          "sentence_index": 5,
+          "suppressed_flags": [
+            "length-suppressed-embedded-quotation:136w-raw/81w-prose"
+          ],
+          "preview": "The Westminster Confession of Faith says it cleanly in chapter III: \"By the decree of God, for the manifestation of his "
+        }
+      ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 2,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 1,
-      "suppressed_sentence_count": 0,
-      "score": 2
+      "suppressed_sentence_count": 1,
+      "score": 1
     },
     {
       "file": "demolition-acts17-30.html",
@@ -17661,7 +17662,7 @@
     },
     {
       "file": "start-here-phase2.html",
-      "paragraphs": 29,
+      "paragraphs": 28,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
