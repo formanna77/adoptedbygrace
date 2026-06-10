@@ -2,16 +2,16 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-09T22:43:10.819Z",
+  "generated": "2026-06-09T23:28:01.724Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
-    "articles_audited": 597,
+    "articles_audited": 599,
     "total_redundancy_pairs_flagged": 10,
-    "total_sentences_flagged": 1279,
+    "total_sentences_flagged": 1284,
     "total_redundancy_pairs_suppressed": 18,
-    "total_sentences_suppressed": 183,
+    "total_sentences_suppressed": 184,
     "articles_with_redundancy": 10,
-    "articles_with_flagged_sentences": 440,
+    "articles_with_flagged_sentences": 442,
     "articles_clean": 152,
     "suppression_by_class": {
       "scripture-tsunami": 10,
@@ -6254,6 +6254,28 @@
             "long-simile:13w"
           ],
           "preview": "It's like a teacher announcing \"I've selected the students who passed\"  —  after grading their exams."
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 1,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 1
+    },
+    {
+      "file": "compare-reformed-vs-eastern-orthodox.html",
+      "paragraphs": 21,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 17,
+          "sentence_index": 1,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "If salvation ends in God filling the creature entirely, then it must begin with God too  —  with grace that does not wait at the bedside for a yes the dead cannot give, but walks to the slab and speak"
         }
       ],
       "suppressed_redundancy": [],
@@ -14829,6 +14851,61 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
       "score": 0
+    },
+    {
+      "file": "question-free-offer-of-the-gospel.html",
+      "paragraphs": 18,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 6,
+          "sentence_index": 0,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "The hyper-Calvinist looked at sovereign election and spiritual death and drew what felt like the consistent conclusion: if a man cannot believe until God makes him alive, then it cannot be his duty to"
+        },
+        {
+          "paragraph": 7,
+          "sentence_index": 2,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "Spurgeon spent his ministry fighting it, and in his 1863 sermon on the warrant of faith he put his finger on the wound: the hyper-Calvinist had relocated the sinner's warrant  —  his permission to com"
+        },
+        {
+          "paragraph": 16,
+          "sentence_index": 1,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "God ordained to save His own, and He ordained to save them through the offer freely cried to all  —  the universal call is the very net by which the chosen are gathered, which is why to silence it is "
+        },
+        {
+          "paragraph": 16,
+          "sentence_index": 3,
+          "flags": [
+            "padding-modifier:into the dark"
+          ],
+          "preview": "It is the revealed heart of God walking out to the highway, and behind the herald's come the King Himself stoops into the dark houses and opens the ears of His own."
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 3,
+          "sentence_index": 2,
+          "suppressed_flags": [
+            "length-suppressed-embedded-quotation:72w-raw/55w-prose"
+          ],
+          "preview": "The Reformed standards say it in cold confessional print: the Canons of Dort declare that the promise of the gospel, wit"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1,
+      "score": 4
     },
     {
       "file": "question-free-will-bible-verses.html",

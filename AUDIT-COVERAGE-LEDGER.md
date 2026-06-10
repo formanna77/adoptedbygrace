@@ -6,16 +6,24 @@
 
 ## TALLY toward 100%
 
-| Status | Count | % of 592 |
+| Status | Count | % of 594 |
 |---|---|---|
-| **CONFIRMED / CONSECRATED-at-birth** | **592** | **100%** |
+| **CONFIRMED / CONSECRATED-at-birth** | **594** | **100%** |
 | TOUCHED (edit, full read pending) | 0 | 0% |
 | UNREAD | 0 | 0% |
-| **TOTAL** | **592** | 100% |
+| **TOTAL** | **594** | 100% |
 
 *S94: the universe grew 584 → 589 — Phase D's first FIVE pages (analytical-grounding-objection-molinism, analytical-identity-regeneration, analytical-aseity-and-decree, analytical-modal-collapse-answered, analytical-information-and-imago) were born CONSECRATED and cold-read the same session (3 apex / 2 PASS, 6 lifts total). The campaign standard is the floor for all new work: nothing ships UNREAD.*
 
 **THE CAMPAIGN IS CLOSED (S93, 2026-06-06).** Every one of the 584 prose doorways has been individually cold-read and confirmed at the landing-force + §XVI/§XVII bar, every defect lifted in-session, every verse on every layer checked against NIV 2011. Zero un-lifted FAILs across all thirteen legs. This ledger is now the campaign's permanent record; future re-verification passes (post-edit re-reads, periodic apex spot-checks) log here.
+
+## S106 — PHASE D NEW BUILDS (the comparison/soteriology register continues) — 2/2 born-CONSECRATED — 2026-06-09
+
+**The universe grew 592 → 594.** The S105 kickoff's recommended track-A target ("Does God Desire Everyone to Be Saved?" / the two-wills page) was found **SATURATED** on the P0 grep — `question-godwants` (titled "Doesn't God Want Everyone Saved? — The Two Wills of God"), `objection-desire`, `demolition-1tim2-4`, `demolition-2peter3-9`, and `demolition-ezekiel33-11` already own that ground (the S105 grep that claimed "no page exists" was simply wrong). Building it would have been a matt23-37-class twin. Pivoted to two confirmed genuine gaps — threading the doctrines of grace between two ditches: Orthodox synergism on one flank, hyper-Calvinism on the other.
+
+**The 2 (each: universal opener · §XVI sapiential + ends in awe · §XVII new-ground · sharp ~1,900–2,100w · In-Brief on top · woven verified links + a reformed-sources PDF deep-link · NIV 2011 + §XV · wired to its hub same session):** **compare-reformed-vs-eastern-orthodox** (genuine gap — only the narrow polemic `demolition-orthodox-predestination` + `compare-monergism-synergism` existed; new ground §XVII: the East holds the highest destination in Christendom — *theosis*, 2 Pet 1:4, Athanasius "God became man that man might become god" — and the lowest door; the whole quarrel reduces to ONE prior question, *how dead is the patient?* — a sick man cooperates, a corpse must be raised; §XV spine = 1 John 5:1 *gegennētai* perfect passive, regeneration precedes faith; charitable steel-man of theosis / essence-energies / ancestral-sin / synergeia; Pink Total-Depravity PDF deep-link; wired comparisons-hub 11→12) · **question-free-offer-of-the-gospel** (ZERO prior page on hyper-Calvinism or the free/well-meant offer; new ground §XVII: hyper-Calvinism and Arminianism are TWINS — both assume the offer's sincerity requires ABILITY in the sinner; Arminianism grants ability and keeps the offer, hyper-Calvinism denies ability and ditches it; the shared floorboard pried up by Edwards's natural/moral inability — *a command measures what you owe, not what you can*; the warrant = the command, not the sinner's own pulse [Spurgeon, "Warrant of Faith" 1863]; **definite-atonement-safe** — the offer is the sincere COMMAND/call, never universal atonement [the site's own demolition of Rev 22:17-as-universal-offer left intact]; Canons-of-Dort PDF deep-link; wired questions-hub 77→78 / EXHIBIT D-16).
+
+**Born-consecrated cold-read** (2 subagents, each page read full on the macOS path + independent verification): both **SHARP on every axis**; every Scripture quote verified exact against NIV 2011 (2 Pet 1:4, Eph 2:1, 1 John 5:1, Acts 17:30, 2 Cor 5:20, Ezek 33:11, Matt 23:37, Isa 55:1); every authority confirmed by web before ship (Athanasius *On the Incarnation* 54.3; Palamas essence/energies; EO ancestral-sin = consequences-not-guilt + synergeia; Canons of Dort 2.5 "promiscuously and without distinction" + 3/4.8 "unfeignedly called"; Gospel Standard 1878 "We deny duty faith and duty repentance"; Murray/Stonehouse OPC report 1948; Edwards natural/moral inability). 4 polish fixes applied main-thread before ship (EO: "Here is the turn" scaffolding cut + inherited-guilt phrasing softened for fair representation; free-offer: floorboard/ditch mixed-metaphor unmixed + Spurgeon's 1863 sermon named for credibility). Pipeline ×9 GREEN; canonical bare `<article class="article-body">` string preserved on both (no `id=` injected — the S97/S105 light-switch law held); auto-linker raised both to 18 woven links, 0 nested anchors, all resolve.
 
 ## S105 — PHASE D NEW BUILDS (the second register: the Lutheran comparison family) — 3/3 born-CONSECRATED — 2026-06-09
 

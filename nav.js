@@ -175,7 +175,7 @@
  name: 'Scripture Questions',
  icon: '',
  href: '/questions',
- count: 73,
+ count: 74,
  pages: [
  { name: '"Not Because of Our Works" — 2 Timothy 1:9', href: '/question-2tim1-9', desc: 'Seven words. That is all it took to end the debate.' },
  { name: 'Are Arminians Saved?', href: '/question-are-arminians-saved', desc: 'The Arminian framework, when followed honestly to its logical conclusion, places the decisive factor in salvation on a h' },
@@ -227,6 +227,7 @@
  { name: 'The Cross Was Predestined', href: '/question-acts4', desc: 'Everyone asks why Jesus died. Almost no one asks the harder question: who decided that He would?' },
  { name: 'The Dead Man — A Visual Argument for Total Depravity', href: '/question-dead-man-visual', desc: 'A visual argument for Total Depravity: a corpse cannot reach for rescue. If you are alive in Christ, a voice reached int' },
  { name: 'The Doctrines of Grace, Explained Visually — Sovereign Grace You Can See', href: '/question-visual-theology', desc: 'The Reformed soteriological argument presented visually through logical flowcharts, diagrams, and devastating comparison' },
+ { name: 'The Free Offer of the Gospel', href: '/question-free-offer-of-the-gospel', desc: 'If God has already chosen, why does the gospel command and beg every soul to come? The free offer is no performance — an' },
  { name: 'The Greek Tense That Settles the Debate — 1 John 5:1', href: '/question-1john5-1', desc: 'In 1 John 5:1' },
  { name: 'The Prayer That Proves Election — John 17', href: '/question-john17', desc: 'In John 17, on the last night of His life, Jesus prays — and He prays not for the world in general but, seven separate t' },
  { name: 'The Verse in Acts That Nobody Preaches – Acts 13:48', href: '/question-acts', desc: 'Luke the historian records a fact: in Pisidian Antioch, "all who were appointed for eternal life believed" (Acts 13:48).' },
@@ -308,7 +309,7 @@
  name: 'Side by Side',
  icon: '',
  href: '/compare-calvinism-arminianism',
- count: 13,
+ count: 14,
  pages: [
  { name: 'At Every Decision Point, Scripture Sides with God — Not You', href: '/compare-every-decision-point', desc: 'Ten crucial doctrinal decision points. At each one, man-centered theology sides with man. God-centered theology sides wi' },
  { name: 'Calvinism vs Arminianism', href: '/compare-calvinism-arminianism', desc: 'Point by point, verse by verse — what Scripture actually teaches about salvation, and why the Arminian reading collapses' },
@@ -320,6 +321,7 @@
  { name: 'Does God Save Alone, or Do You Help? Monergism vs Synergism', href: '/compare-monergism-synergism', desc: 'The most fundamental divide in all of Christianity: Does God save alone, or does He need your cooperation? Scripture ans' },
  { name: 'Predestination vs Foreknowledge — Which Comes First?', href: '/compare-predestination-foreknowledge', desc: '"God looked down the corridor of time, saw who would believe, and chose them." The Bible never says this. Not once.' },
  { name: 'Reformed vs Catholic — How Are We Actually Justified Before God?', href: '/compare-calvinism-catholic-soteriology', desc: 'Imputed or infused? Faith alone or faith plus works? The Reformation\'s most consequential divide — and why the differen' },
+ { name: 'Reformed vs. Eastern Orthodox', href: '/compare-reformed-vs-eastern-orthodox', desc: 'Eastern Orthodoxy aims salvation at the highest goal in Christendom — union with God Himself — and rests the first step ' },
  { name: 'Reformed vs. Lutheran', href: '/compare-lutheranism', desc: 'Lutheran and Reformed soteriology agree that a dead man cannot raise himself — and then part at two places. The closest ' },
  { name: 'Single vs. Double Predestination', href: '/compare-single-vs-double-predestination', desc: 'If God chose to save some, did He choose to pass over the rest? The crux theologorum, the Lutheran fear, and the asymmet' },
  { name: 'Two Versions of Grace — One Is Real. One Is Man-Made.', href: '/compare-grace-reformed-vs-arminian', desc: 'Reformed grace vs. Arminian grace compared side by side. One is a resurrection. The other is a suggestion. One is divine' }
