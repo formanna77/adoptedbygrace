@@ -6,19 +6,19 @@ Send from Aaron's email. Log each send in `docs/outreach-log.md`. One follow-up 
 
 ---
 
-## Target 1 — Reformed.org "Links of Interest" (Center for Reformed Theology and Apologetics)
+## Target 1 — Reformed.org "Links of Interest" + A Puritan's Mind "Internet Links" (both C. Matthew McMahon)
 
-**Page:** https://reformed.org/links-of-interest/ — a long-standing curated page of external Reformed sites with one-line descriptions, organized by category, with an explicit "be discerning" ethos. Run in association with A Puritan's Mind (C. Matthew McMahon). Contact: the email link at the top of reformed.org (webmaster address), or the newsletter/contact channel on the site.
+**Pages:** https://reformed.org/links-of-interest/ — a long-standing curated page of external Reformed sites with one-line descriptions, organized by category, with an explicit "be discerning" ethos. **And** https://www.apuritansmind.com/internet-links/ — "Reformed Internet Links," the equivalent directory on A Puritan's Mind ("the largest Puritan and Reformed Christian website on the internet," © 1996–2026, verified live and active 2026-06-11; it categorizes sites as Presbyterian/Reformed, Parachurch, Independent/Baptist, and No-Affiliation, each with a short description). **Both properties belong to Dr. C. Matthew McMahon** (APM's footer links reformed.org and CRTA as sister sites), so this is ONE email covering both surfaces — never two. Contact: https://www.apuritansmind.com/send-an-email-to-dr-mcmahon/ (his direct contact page), or the webmaster email at reformed.org.
 
-**Subject:** A resource for your Links of Interest page
+**Subject:** A resource for your links pages
 
-Hello,
+Dear Dr. McMahon,
 
-I came across your Links of Interest page at reformed.org — thank you for curating it with the discernment you do. I'd like to offer a site for your consideration: adoptedbygrace.net, a free, ad-free, no-paywall site making the Scripture-first case for the doctrines of grace — total depravity through perseverance — written for the ordinary reader rather than the academy.
+I came across the Links of Interest page at reformed.org and the Reformed Internet Links page at A Puritan's Mind — thank you for decades of curating both with the discernment you do. I'd like to offer a site for your consideration for either list, whichever fits better: adoptedbygrace.net, a free, ad-free, no-paywall site making the Scripture-first case for the doctrines of grace — total depravity through perseverance — written for the ordinary reader rather than the academy. No new theology; the old paths, argued fresh.
 
 Two pages give the quickest sense of it: a plain-language explanation of the doctrines of grace at https://adoptedbygrace.net/question-what-is-sovereign-grace, and a free library of 113 classic Reformed works (Calvin, Owen, Pink, Charnock, the confessions) at https://adoptedbygrace.net/reformed-sources.
 
-If it fits your list, I'd be honored; if not, no worries at all, and thank you for the work you're doing.
+If it fits either list, I'd be honored; if not, no worries at all, and thank you for the work you're doing.
 
 In Christ,
 Aaron Forman

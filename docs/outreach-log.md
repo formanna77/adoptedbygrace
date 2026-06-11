@@ -13,8 +13,10 @@ One row per outreach action. Update on every send, response, and link acquired. 
 | **Reformation21** (r21Editorial@AllianceNet.org, Jeff Stivason) | Guest essay (Pitch #2) — personalized | `docs/outreach/reformation21-pitch.md` | — | — | — |
 | Reformed Books Online (Websites of Interest) | Resource-page inclusion | `docs/outreach/resource-page-pitches.md` §4 | — | — | — |
 | The Highway (the-highway.com, Calvinism links) | Resource-page inclusion | `docs/outreach/resource-page-pitches.md` §5 | — | — | — |
+| **A Puritan's Mind (apuritansmind.com, Internet Links)** | Resource-page inclusion — FOLDED INTO the reformed.org pitch (§1): both properties are C. Matthew McMahon's; one email covers both surfaces (verified live S111) | `docs/outreach/resource-page-pitches.md` §1 (amended S111) | — | — | — |
+| **The Aquila Report (theaquilareport.com)** | REPUBLICATION offer (2 essays: free-offer + crown jewel) — verified live S111, archive current through June 2026 | `docs/outreach/aquila-republication-pitch.md` | — | — | — |
 
-**Rejected targets (do not contact):** GraceNet UK (grace.org.uk) — links directory is live but the homepage is compromised with injected spam (verified 2026-06-10). **The Old Guys** (theoldguys.org) — stale, last post July 2019 (verified S109). **Grace Online Library** (graceonlinelibrary.org) — HTTP 402, dead (S109). **Heidelblog** — 403-blocks fetchers, unverifiable from here; a future session may verify in a browser (S109). **Aquila Report** — live but primarily an aggregator/republisher, not a guest-essay home; hold for a future REPUBLICATION pitch of an existing article (S109). Place for Truth = fallback if Reformation21 declines.
+**Rejected targets (do not contact):** GraceNet UK (grace.org.uk) — links directory is live but the homepage is compromised with injected spam (verified 2026-06-10). **The Old Guys** (theoldguys.org) — stale, last post July 2019 (verified S109). **Grace Online Library** (graceonlinelibrary.org) — HTTP 402, dead (S109). **Heidelblog** — VERIFIED IN BROWSER S111: live and very active, but its /resources/ pages are curated indexes of R. Scott Clark's OWN content (Heidelcast episodes, internal topic roundups) — no external-links directory exists, so there is no inclusion surface. PASSED with reason; do not pitch. **Aquila Report** — live but primarily an aggregator/republisher, not a guest-essay home; hold for a future REPUBLICATION pitch of an existing article (S109). Place for Truth = fallback if Reformation21 declines.
 
 ## Substack (@ForeknownOne)
 
@@ -31,6 +33,13 @@ One row per outreach action. Update on every send, response, and link acquired. 
 |---|---|---|---|---|
 | 2026-05-22 | 21 | 3 (3mo) | 17.9 | Baseline; sitemap re-submitted; 3 flagships requested |
 | — | — | — | — | Next read: Aaron's GSC numbers (not yet logged as of S109, 2026-06-10) |
+
+## Deploy & machine-trust verification (S111, 2026-06-11)
+
+- **IndexNow VERIFIED + ACCEPTED: HTTP 200, 675 URLs submitted** (S109's 403 `SiteVerificationNotCompleted` is resolved — the key file verification crawl completed). Bing/Seznam/Naver/Yandex now hold the full URL list.
+- **Stale-sitemap defect found + fixed:** `sitemap.xml` had not been rebuilt since 2026-06-06 — the 11 pages added in S106–S110 (including the three new analytical flagships) were missing from it. Ran `node build-sitemap.js` → 664 → **675 URLs**; re-pinged IndexNow with the full 675 (HTTP 200). **`build-sitemap.js` should join the close pipeline whenever pages are added.** Google sees the corrected sitemap on Aaron's next push.
+- **Live deploy is current with S110:** `analytical-glory-and-election` serves with correct metadata, and all 3 new og-cards return 200 (`analytical-glory-and-election.png`, `analytical-archetypal-ectypal.png`, `analytical-necessity-of-the-atonement.png`).
+- GSC indexed-count re-read: still Aaron-bound (no KPI row logged yet). Bing Webmaster import status: Aaron-bound.
 
 ## Deploy & machine-trust verification (S109, 2026-06-10)
 

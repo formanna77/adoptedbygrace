@@ -216,7 +216,7 @@
  { name: 'Limited Atonement? — Did Christ Die For Everyone or For His Sheep?', href: '/question-limited-atonement', desc: 'The word' },
  { name: 'Names Written Before Creation — Revelation 13:8 & 17:8', href: '/question-revelation13', desc: 'Revelation 13:8 and 17:8 prove names were written in the Book of Life before creation — not in response to foreseen fait' },
  { name: 'No Dice, No Chance — God\'s Sovereignty over Lots and Kings', href: '/question-proverbs-sovereignty', desc: 'You live in a world that worships luck and fears powerful people. Proverbs says both are illusions. The dice are God\'s,' },
- { name: 'No One Can Come to Me Unless the Father Draws Him', href: '/question-john6', desc: '"No one can come to me unless the Father who sent me draws them." Not "no one will." Cannot.' },
+ { name: 'No One Can Come to Me Unless the Father Draws Them', href: '/question-john6', desc: '"No one can come to me unless the Father who sent me draws them." Not "no one will." Cannot.' },
  { name: 'Not Because of Righteous Things We Had Done — Titus 3:3-7', href: '/question-titus3', desc: 'Titus 3:3-7 contains the entire order of salvation in five verses — and at no point does a human being contribute anythi' },
  { name: 'One Question That Reveals Where Your Faith Came From', href: '/question-one-question', desc: 'There is one question that, honestly answered, will change everything you believe about salvation. Not where the gospel ' },
  { name: 'Regeneration Precedes Faith', href: '/question-regeneration-precedes-faith', desc: 'Proves that spiritual rebirth comes BEFORE faith, not after. The order matters. This single truth demolishes the Arminia' },
