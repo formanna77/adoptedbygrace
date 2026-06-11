@@ -41,6 +41,8 @@ const FLAGSHIPS = [
   'compare-lutheranism', 'compare-can-the-saved-be-lost', 'analytical-divine-simplicity',
   'analytical-impassibility', 'analytical-immutability', 'question-free-offer-of-the-gospel',
   'question-1john5-1', 'best-reads',
+  // — S110 Phase D builds —
+  'analytical-archetypal-ectypal', 'analytical-necessity-of-the-atonement', 'analytical-glory-and-election',
 ];
 
 const FONT_FILES = [

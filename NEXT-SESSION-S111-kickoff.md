@@ -1,0 +1,25 @@
+# NEXT SESSION — S111 — CAMPAIGN 3, ROADS LEG 3 (cadence 2 Roads : 1 build; S110 was the build — 3 pages, prose 597 → 600)
+
+**CONTEXT.** The content war is won and growing (676 HTML / 600 prose, all CONSECRATED; S110 added `analytical-archetypal-ectypal`, `analytical-necessity-of-the-atonement`, `analytical-glory-and-election` — born CONSECRATED, hub-wired, og-carded 53/53). The reach war is the campaign: Campaign 3 (The Roads, adopted 2026-06-10 — full plan `docs/deep-dive-2026-06-10.md` §III). Legs 1-2 (S108-S109) shipped the indexing surface, the JSON-LD repairs, /logo.png, IndexNow keyfile, the visible staircase, the OG quote-card multiplier (now 53), 7 pitch drafts + 4 Substack drafts banked, outreach-log with KPI baseline (21 indexed / 3 clicks / avg pos 17.9). **S111 = Roads leg 3: read the instruments, then push the roads further.** S112 = Roads leg 4; S113 = next build session (paste `NEXT-SESSION-PHASE-D-RESUME-kickoff.md` and re-verify counts — it still says 597/673; the live numbers are 600/676).
+
+**READ FIRST (sections only — never an `*-ARCHIVE.md` whole):** `CLAUDE.md` → `SAPIENTIAL-AUDIT.md` §LIV-§LVI (the two Roads legs + S110's CARRIES) → `MISSION-CONTROL.md` Session 108-110 entries + the Strategy Review pointer → `docs/outreach-log.md` (the KPI row + pitch states) → `docs/deep-dive-2026-06-10.md` §III only. INTAKE: cross-device `mv` onto the repo mount FAILS — `sed/awk … > /tmp/x && cat /tmp/x > FILE`; helpers to /tmp/; `rm` needs allow_cowork_file_delete. CANONICAL-STRING TRAP live: never add anything to `<article class="article-body">`.
+
+## PRIORITY 0 — STANDING PRE-FLIGHT + SAMPLE-READ
+1. `ls -1 *.html | wc -l` (expect 676). 2. `node sapiential-audit.js` (T1=0; 600 prose). 3. `node audit-prose.js` (v3 ✓ + v4 ✓, 0/676). 4. Hygiene greps expect 0: truncated-meta `…"`, double-encoded `&amp;(amp|apos|#0?39);`, `&amp;ldquo;`, emoji ranges, `(NIV)` literal. 5. **THE STANDING P0 SAMPLE-READ:** 5 pages live-read (parallel READ-ONLY subagents, macOS paths, verify-don't-blind-strip — S110's rejected flags prove the discipline matters: the subagent's knife reached the §VII.3 exemplar line). Prefer pages NOT in the S107-S110 sample sets; weight toward the request-indexing queue. Fix every non-SHARP main-thread BEFORE Roads work.
+
+## PRIORITY 1 — LANE 1: READ THE INSTRUMENTS (Aaron-gated items first)
+(a) If Aaron has pushed + run GSC: read indexed-count / clicks / avg position → append the KPI row to `docs/outreach-log.md`; adjust the request-indexing queue if pages crawled. (b) `node indexnow-ping.js` re-run — S109 got 403 SiteVerificationNotCompleted (transient first-submission); expect 200/202 now; if still 403, check the keyfile serves at the live URL and log for Bing-verification follow-up. (c) Bing Webmaster import status if Aaron ran it. (d) Spot-verify 3 live pages serve the S110 og-cards (the three new analytical pages) once Aaron pushes.
+
+## PRIORITY 2 — LANE 2: THE PITCHES (response handling + next targets)
+(a) If any pitch replies arrived (Monergism, Reformation21, reformed.org, ReasonableTheology, Challies, Reformed Books Online, The Highway): draft the response same-session (first-response protocol — gracious, no hard sell, offer the specific page that fits THEIR audience). (b) If no replies: verify-then-draft the next 2-3 resource targets from the deep-dive §III list (Heidelblog browser-verify was a carry; Aquila = republication channel pitch). (c) Substack: draft 05 if the bank is below 4 unpublished (Aaron pastes 01 manually).
+
+## PRIORITY 3 — LANE 3: THE MULTIPLIERS (only if Lanes 1-2 are exhausted)
+(a) OG cards tier 2 (the next ~25 pages by inbound-link weight) IF any share/crawl data warrants. (b) Audio pilot ONLY if Aaron has chosen a voice (standing skip otherwise). (c) DEEPENING QUEUE (standing, expansion deferred): systematic-election's Assurance section — tightening precedes expanding.
+
+## STANDING CARRIES (do not act without Aaron)
+matt23-37 / matthew-23-37 duplicate-canonical (Aaron's call) · /essays/ ESV ×2 (Aaron's call) · NO git ever (print the push command at close).
+
+## SPECIAL — STANDING PROTOCOL
+v3+v4 clean before AND after; banned-move grep on every touched page; NIV 2011 only + §XV; verify every verse/numeral/authority by web BEFORE it ships; close pipeline ×9 (search-index 673 / mega-menu 644 / homepage-counts 563 / wire-orphans ~73 unmapped are the S110 baselines — rise only if pages added; do NOT run fix-meta-descriptions.js or build-related-articles.js); post-pipeline hygiene re-greps; pre-close context audit (fill the window); ledger + MISSION-CONTROL (newest-at-top) + SAPIENTIAL-AUDIT §LVII; archive roll if live logs exceed 6; write NEXT-SESSION-S112-kickoff.md (Roads leg 4); print the push command as the last thing.
+
+**THE MEASURE (restated).** The pages are ready — 600 doorways, every one carrying the force. The Roads sessions exist so the person searching can actually find one. Read the instruments honestly, push the roads patiently, and keep every new word at the standard: nothing ships UNREAD.
