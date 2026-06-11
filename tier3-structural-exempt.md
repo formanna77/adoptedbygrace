@@ -12,6 +12,7 @@ Because (1) auto-excludes most hubs from Tier-3 to begin with, BUCKET A within T
 
 - `testimony-wall` — community testimony index; the body is a roster of testimonies, not a single thesis-driven argument. The sapiential bar does not apply.
 - `connections` — hub for site-wide article connections / weave; not a prose doorway.
+- `scripture-tsunami` — **added S111 (2026-06-11) by Aaron's directive**: "there is too much writing when people simply want to use the tool!" The three intro essay sections (Why the Argument Has Already Been Won / The Linchpin Beneath Everything Below / The Crown Jewel) were removed; the page now runs hero → In Brief → pull-quote → How to Use → the 470-verse filterable database. Its remaining prose (~850w) correctly trips the audit's `short` flag — **expected and exempt; do not re-expand the intro.** The page's substance is the verse-card commentaries and the doorway pages it links; the sapiential bar does not call for an essay on top of the tool.
 
 ## Allowlist patterns (per `STRUCTURAL_EXEMPT_PATTERNS` in `tier3-inventory.js`)
 
