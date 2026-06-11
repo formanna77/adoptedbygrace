@@ -34,6 +34,17 @@ One row per outreach action. Update on every send, response, and link acquired. 
 | 2026-05-22 | 21 | 3 (3mo) | 17.9 | Baseline; sitemap re-submitted; 3 flagships requested |
 | — | — | — | — | Next read: Aaron's GSC numbers (not yet logged as of S109, 2026-06-10) |
 
+## Netlify Web Analytics — BASELINE LOGGED (S111, 2026-06-11; Aaron toggled it on — the campaign has eyes)
+
+**30 days (May 12 – Jun 11): 13,593 pageviews · 4,488 unique visitors · 2 GB bandwidth.** Daily trend is climbing steeply: 81 pageviews/day (May 12) → 878/day (Jun 11), peak 1,219; uniques 74/day → 339/day, peak 511.
+
+- **Top pages (30d):** / 1,415 · /demolition-hub 95 · /questions 85 · /about 75 · /scripture-tsunami 68 · /start-here 66 · /systematic-theology 66 · /devotionals 65 · /best-reads 65 · /psychology-hub 64 · **/question-where-did-your-faith-come-from 61 (the crown jewel is in the top 15)** · /stories 61 · /the-60-second-case 58 · /devotional-chosen-before-you-were-broken 56 · /question-chosen 56.
+- **Top pages (7d, from Aaron's dashboard):** / 368 · /demolition-hub 49 · /about 28 · /questions 28 · /psychology-hub 24 · /start-here 23 · /systematic-theology 22 · /devotionals 22 · /best-reads 21 · /stories 20 · /scripture-tsunami 20 · /question-chosen 18 · /presuppositional-apologetics-hub 18 · /apologetics 18 · /devotional-chosen-before-you-were-broken 18.
+- **Sources (30d): Direct 11,713 · google.com 8 · aisearchindex.space 4 · bing.com 2.** Search referrals are effectively ZERO — the second instrument confirms the GSC diagnosis exactly: the content draws and holds whoever arrives, but search sends almost no one. The bottleneck remains indexing + authority — the pitches and request-indexing queue are the cure, not more content.
+- **Geography (30d):** US 6,594 · Canada 1,284 · **Finland 978 · Singapore 960 · Luxembourg 779 · Russia 537** — the non-US block is a classic data-center/crawler signature. A meaningful share of "Direct" is bot/crawler traffic (Netlify counts server-side and does not filter bots) — which is not bad news: the steep June climb means the machines have FOUND the site (IndexNow/Bing/AI crawlers — note `aisearchindex.space` appearing as a referrer). Crawling precedes indexing; indexing precedes humans.
+- **404 noise:** the entire resource-not-found table is credential-scanner background radiation (.env.*, .git/HEAD, config.json, secrets.json, credentials.json, appsettings.json…) — harmless on a static site, nothing to change. The four `.js.map` 404s were checked: NO sourceMappingURL comments exist in our JS, so those are scanner probes too. No action.
+- **Re-read weekly** alongside the GSC row; log deltas here.
+
 ## Deploy & machine-trust verification (S111, 2026-06-11)
 
 - **IndexNow VERIFIED + ACCEPTED: HTTP 200, 675 URLs submitted** (S109's 403 `SiteVerificationNotCompleted` is resolved — the key file verification crawl completed). Bing/Seznam/Naver/Yandex now hold the full URL list.
