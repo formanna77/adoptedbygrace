@@ -2,19 +2,19 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-12T04:17:15.850Z",
+  "generated": "2026-06-12T16:56:10.111Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 607,
     "total_redundancy_pairs_flagged": 9,
-    "total_sentences_flagged": 1293,
-    "total_redundancy_pairs_suppressed": 18,
-    "total_sentences_suppressed": 184,
+    "total_sentences_flagged": 1292,
+    "total_redundancy_pairs_suppressed": 17,
+    "total_sentences_suppressed": 183,
     "articles_with_redundancy": 9,
     "articles_with_flagged_sentences": 447,
     "articles_clean": 155,
     "suppression_by_class": {
-      "scripture-tsunami": 10,
+      "scripture-tsunami": 9,
       "pedagogical-anaphora": 2,
       "confessional-translation": 6
     }
@@ -417,15 +417,6 @@
       "suppressed_sentence_count": 0
     },
     {
-      "file": "systematic-effectual-calling.html",
-      "score": 6,
-      "paragraphs": 35,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 6,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
       "file": "westminster-chapter-3-plain-english.html",
       "score": 6,
       "paragraphs": 93,
@@ -591,6 +582,15 @@
       "file": "story-the-garden-that-grew-itself.html",
       "score": 5,
       "paragraphs": 44,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 5,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
+      "file": "systematic-effectual-calling.html",
+      "score": 5,
+      "paragraphs": 37,
       "redundancy_count": 0,
       "flagged_sentence_count": 5,
       "suppressed_redundancy_count": 0,
@@ -6388,34 +6388,15 @@
     },
     {
       "file": "compare-monergism-synergism.html",
-      "paragraphs": 34,
+      "paragraphs": 31,
       "redundancy_pairs": [],
       "flagged_sentences": [],
-      "suppressed_redundancy": [
-        {
-          "paragraph_a": 16,
-          "paragraph_b": 19,
-          "similarity": 0.4,
-          "a_preview": "New Birth : \"children born not of natural descent, nor of human decision or a husband's will, but born of God\"",
-          "b_preview": "John 1:12-13: \"Children born not of natural descent, nor of human decision or a husband's will, but born of Go",
-          "exemption_class": "scripture-tsunami",
-          "reason": "both paragraphs are Scripture-quote-dominated; deliberate verse stacking"
-        }
-      ],
-      "suppressed_sentences": [
-        {
-          "paragraph": 15,
-          "sentence_index": 0,
-          "suppressed_flags": [
-            "length-suppressed-embedded-quotation:68w-raw/51w-prose"
-          ],
-          "preview": "When that gap becomes real to you  —  when you stop measuring yourself against your neighbor and start measuring yoursel"
-        }
-      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
       "redundancy_count": 0,
       "flagged_sentence_count": 0,
-      "suppressed_redundancy_count": 1,
-      "suppressed_sentence_count": 1,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
       "score": 0
     },
     {
@@ -6757,11 +6738,11 @@
     },
     {
       "file": "demolition-1tim2-4.html",
-      "paragraphs": 32,
+      "paragraphs": 34,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 6,
+          "paragraph": 7,
           "sentence_index": 4,
           "flags": [
             "long-simile:24w"
@@ -6769,7 +6750,7 @@
           "preview": "You grabbed \"all\" like a life raft because the alternative  —  that God's saving purpose is particular  —  feels like a loss of something you thought belonged to you."
         },
         {
-          "paragraph": 30,
+          "paragraph": 31,
           "sentence_index": 0,
           "flags": [
             "long-simile:19w"
@@ -7176,11 +7157,11 @@
     },
     {
       "file": "demolition-ezekiel33-11.html",
-      "paragraphs": 24,
+      "paragraphs": 26,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 19,
+          "paragraph": 20,
           "sentence_index": 0,
           "flags": [
             "long:57w"
@@ -15912,11 +15893,11 @@
     },
     {
       "file": "question-unfair.html",
-      "paragraphs": 39,
+      "paragraphs": 41,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 29,
+          "paragraph": 30,
           "sentence_index": 2,
           "flags": [
             "long:49w"
@@ -15924,7 +15905,7 @@
           "preview": "The potter is a Father who shaped you before the foundation of the world, who chose you before you existed , who endured your rebellion with patience, and who is  —  at this very moment  —  drawing yo"
         },
         {
-          "paragraph": 33,
+          "paragraph": 34,
           "sentence_index": 1,
           "flags": [
             "long:50w"
@@ -19052,19 +19033,11 @@
     },
     {
       "file": "systematic-effectual-calling.html",
-      "paragraphs": 35,
+      "paragraphs": 37,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 1,
-          "sentence_index": 7,
-          "flags": [
-            "long:48w"
-          ],
-          "preview": "And by Tuesday afternoon, one hundred and ninety-eight have forgotten it ever happened, one is irritated and tells a friend the pastor was too intense, and one cannot stop weeping because something in"
-        },
-        {
-          "paragraph": 26,
+          "paragraph": 28,
           "sentence_index": 1,
           "flags": [
             "long:52w"
@@ -19072,7 +19045,7 @@
           "preview": "If your salvation depended on your continued ability to keep responding well to the general call  —  to keep hearing it, keep wanting it, keep reaching for it  —  then any week of dryness, any month o"
         },
         {
-          "paragraph": 27,
+          "paragraph": 29,
           "sentence_index": 0,
           "flags": [
             "long:53w"
@@ -19080,7 +19053,7 @@
           "preview": "But if the effectual call is what brought you in  —  if the voice you heard underneath the sermon was not the pastor's but the One who speaks galaxies into being and calls dead Lazarus from the tomb  "
         },
         {
-          "paragraph": 32,
+          "paragraph": 34,
           "sentence_index": 0,
           "flags": [
             "long:52w"
@@ -19088,7 +19061,7 @@
           "preview": "If you have read this far, and something in you is leaning forward  —  if there is a recognition rising in your chest that this might be the truest description of your own conversion you have ever enc"
         },
         {
-          "paragraph": 33,
+          "paragraph": 35,
           "sentence_index": 1,
           "flags": [
             "long:58w"
@@ -19096,7 +19069,7 @@
           "preview": "He spoke into the silence of your spiritual tomb, and you came out, blinking and bewildered, with the grave clothes still hanging from you, into a world you did not make, held by a Father you did not "
         },
         {
-          "paragraph": 34,
+          "paragraph": 36,
           "sentence_index": 6,
           "flags": [
             "long:56w"
@@ -19107,10 +19080,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 6,
+      "flagged_sentence_count": 5,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 6
+      "score": 5
     },
     {
       "file": "systematic-election.html",
