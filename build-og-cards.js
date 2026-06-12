@@ -162,7 +162,7 @@ function rewriteMeta(html, slug, altText) {
   out = out.replace(/(<meta name="twitter:image" content=")[^"]+(")/,
     (_, a, b) => { changed++; return a + url + b; });
   out = out.replace(/(<meta property="og:image:alt" content=")[^"]+(")/,
-    (_, a, b) => { changed++; return a + altText.replace(/"/g, '’') + b; });
+    (_, a, b) => { changed++; return a + altText.replace(/"([^"]*)"/g, '‘$1’').replace(/"/g, '’') + b; });
   return { out, changed };
 }
 

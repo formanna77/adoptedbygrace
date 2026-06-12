@@ -2,7 +2,7 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-11T21:39:49.489Z",
+  "generated": "2026-06-12T02:36:07.444Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 605,
@@ -15552,7 +15552,7 @@
     },
     {
       "file": "question-regeneration-precedes-faith.html",
-      "paragraphs": 80,
+      "paragraphs": 74,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],

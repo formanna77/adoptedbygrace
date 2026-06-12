@@ -111,3 +111,23 @@ If it fits your list, I'd be honored; if not, no worries at all.
 In Christ,
 Aaron Forman
 adoptedbygrace.net
+
+## Target 6 — FiveSolas.com "Reformed Links Page" (DRAFTED S112 — one browser step before sending)
+
+**Page:** https://www.fivesolas.com/reflink.htm — "FiveSolas.com Reformed Links Page," a curated directory of ~23 ministries that is exactly our neighborhood: Monergism, Ligonier, A Puritan's Mind, The Highway, Desiring God, MLJ Trust. A second surface exists at /o_link.htm ("Interesting Christian Links"). Site verified live over HTTPS 2026-06-11 (S112); tagline "Committed to the Five Solas of the Reformation," self-described as committed to the Doctrines of Grace. **CAVEAT — contact path not yet verified:** no email or form rendered to our fetcher across six pages (mailto links may be stripped); one of the dead entries on their own links page (Apprising Ministries) suggests curation may be old. **Before sending: open fivesolas.com in a browser, click any mailto/contact link, and confirm the site still accepts submissions.** If no contact surfaces in the browser either, retire this target with reason.
+
+**Subject:** A site for your Reformed Links page
+
+Hello,
+
+FiveSolas.com says on its masthead what too few sites will: committed to the five solas, committed to the doctrines of grace. Thank you for keeping that flag up.
+
+One site for your Reformed Links page: adoptedbygrace.net — a free, ad-free site making the Scripture-first case for sovereign grace for the ordinary reader. The quickest doors: the case that faith itself is a gift at https://adoptedbygrace.net/question-faithgift, a plain-language tour of sovereign grace at https://adoptedbygrace.net/question-what-is-sovereign-grace, and a free library of 113 Reformed classics (Calvin, Owen, Pink, Charnock, the confessions) at https://adoptedbygrace.net/reformed-sources.
+
+You already point readers to Monergism and A Puritan's Mind — this site aims to serve the same reader at the same depth, without charge or registration.
+
+If it fits your list, I'd be honored; if not, no worries at all.
+
+In Christ,
+Aaron Forman
+adoptedbygrace.net
