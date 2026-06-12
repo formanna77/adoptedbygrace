@@ -43,6 +43,8 @@ const FLAGSHIPS = [
   'question-1john5-1', 'best-reads',
   // — S110 Phase D builds —
   'analytical-archetypal-ectypal', 'analytical-necessity-of-the-atonement', 'analytical-glory-and-election',
+  // — S113 Phase D builds —
+  'demolition-john15-2', 'apologetic-i-never-knew-you',
 ];
 
 const FONT_FILES = [

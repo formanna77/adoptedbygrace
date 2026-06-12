@@ -2,16 +2,16 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-12T02:36:07.444Z",
+  "generated": "2026-06-12T04:17:15.850Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
-    "articles_audited": 605,
+    "articles_audited": 607,
     "total_redundancy_pairs_flagged": 9,
-    "total_sentences_flagged": 1291,
+    "total_sentences_flagged": 1293,
     "total_redundancy_pairs_suppressed": 18,
     "total_sentences_suppressed": 184,
     "articles_with_redundancy": 9,
-    "articles_with_flagged_sentences": 445,
+    "articles_with_flagged_sentences": 447,
     "articles_clean": 155,
     "suppression_by_class": {
       "scripture-tsunami": 10,
@@ -2664,6 +2664,28 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
       "score": 4
+    },
+    {
+      "file": "apologetic-i-never-knew-you.html",
+      "paragraphs": 18,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 16,
+          "sentence_index": 2,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "On that day the saved present no works, recite no statistics, swipe no name  —  they are simply recognized, the way a child is recognized at the end of a long driveway, because the recognition was dec"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 1,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 1
     },
     {
       "file": "apologetic-i-shall-lose-none.html",
@@ -7483,6 +7505,28 @@
       "score": 3
     },
     {
+      "file": "demolition-john15-2.html",
+      "paragraphs": 21,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 4,
+          "sentence_index": 4,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "Within the hour, Jesus says \"Come now; let us leave\" (John 14:31)  —  and whether still at the table or already in the dark streets, He begins: \"I am the true vine, and my Father is the gardener."
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 1,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 1
+    },
+    {
       "file": "demolition-john3-16.html",
       "paragraphs": 30,
       "redundancy_pairs": [],
@@ -7731,7 +7775,7 @@
     },
     {
       "file": "demolition-prevenient-grace.html",
-      "paragraphs": 28,
+      "paragraphs": 27,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -7746,7 +7790,7 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [
         {
-          "paragraph": 19,
+          "paragraph": 18,
           "sentence_index": 11,
           "suppressed_flags": [
             "length-suppressed-embedded-quotation:73w-raw/56w-prose"
@@ -8211,7 +8255,7 @@
     },
     {
       "file": "devotional-i-cant-feel-god.html",
-      "paragraphs": 29,
+      "paragraphs": 28,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -8223,7 +8267,7 @@
           "preview": "You are grieving a warmth you cannot summon and a Voice you cannot hear, and the grief is sharp enough to send you searching in the dark."
         },
         {
-          "paragraph": 20,
+          "paragraph": 19,
           "sentence_index": 3,
           "flags": [
             "abstract-simile:like a memory"
@@ -8231,7 +8275,7 @@
           "preview": "My faith feels like a memory of something I used to have."
         },
         {
-          "paragraph": 22,
+          "paragraph": 21,
           "sentence_index": 0,
           "flags": [
             "padding-modifier:in the dark"

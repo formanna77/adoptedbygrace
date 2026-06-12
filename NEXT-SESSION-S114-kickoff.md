@@ -1,0 +1,25 @@
+# NEXT SESSION — S114 — CAMPAIGN 3, ROADS LEG 5 (cadence 2 Roads : 1 build — S113 was the build; S115 = Roads leg 6; S116 = next build)
+
+**CONTEXT (what S113 did):** The build session — 2 net-new apex pages born CONSECRATED (prose 600 → 602, files 678): **demolition-john15-2** (the vine — the LAST unanswered falling-away proof-text; Judas as the first fruitless branch; the NIV's own prunes=cleans footnote; "The saw is for the dead. The shears are for His own.") and **apologetic-i-never-knew-you** (Matt 7:21-23 — *oudepote* ends the falling-away debate; Amos 3:2's NIV "chosen" as the translators' own witness; "Heaven's door does not open for the people who know the name. It opens for the people the Name knows."). Both hub-wired, both into og-cards FLAGSHIPS (53→55), sitemap 677, IndexNow re-pinged HTTP 200. P0 sample-read lifted 5 pages ×23 fixes (lazarus's misquoted John 11:39 on an og-flagship; prevenient's helkō overclaim + pre-firing pull-quote; irresistible's doubly-false John 21:11 claim; i-cant-feel-god's VERBATIM pull-quote pre-fire healed by promotion; the theologian-augustine inverted-prayer cross-page catch). Full log: MISSION-CONTROL.md Session 113 + SAPIENTIAL-AUDIT.md §LIX.
+
+**READ FIRST (sections only — never an `*-ARCHIVE.md` whole):** `CLAUDE.md` → `SAPIENTIAL-AUDIT.md` §LVII (the Roads-leg shape: instruments → sample-read → Lane 2) + §LIX → `MISSION-CONTROL.md` Session 112–113 → `docs/outreach-log.md` (the KPI table + Netlify baseline + read plan). INTAKE: cross-device `mv` onto the repo mount FAILS — `sed/awk … > /tmp/x && cat /tmp/x > FILE`; helpers to /tmp/; `rm` needs allow_cowork_file_delete. CANONICAL-STRING TRAP live: never add anything to `<article class="article-body">`.
+
+## PRIORITY 0 — PRE-FLIGHT + THE STANDING SAMPLE-READ
+1. `ls -1 *.html | wc -l` (678 at S113 close) · `node sapiential-audit.js` (T1=0; 602 prose; short 1 = scripture-tsunami EXEMPT) · `node audit-prose.js` (v3+v4 0/678) · hygiene greps (truncated-meta / double-encoded / &amp;ldquo; / emoji / "(NIV)") all 0. 2. **THE STANDING P0 SAMPLE-READ:** 5 pages, parallel READ-ONLY subagents, macOS paths — draw from the og-flagship 55 or request-indexing queue, NONE from the S107–S113 sample sets; verify-don't-blind-strip; every verse correction web-fetched NIV-exact BEFORE editing; banned-move grep on every touched page.
+
+## PRIORITY 1 — LANE 1: READ THE INSTRUMENTS
+(a) Verify Aaron's push carried S113 live (sitemap serves 677; /demolition-john15-2 + /apologetic-i-never-knew-you + their og-card PNGs return 200). (b) IndexNow: re-ping ONLY if pages were added this session. (c) GSC KPI row + Bing import remain Aaron-bound — nag only in the close box. (d) **Chrome-bound (if the extension is connected this session):** Netlify Analytics weekly delta (plan logged in docs/outreach-log.md — 7d pv/uniques + google/bing referrals vs the S111 baseline) · puritansermons.com browser check (fetcher-invisible, frames-era) · fivesolas.com contact-path confirm (then Aaron sends Target 6).
+
+## PRIORITY 2 — LANE 2: AUTHORITY
+(a) **Pitch-response handling** (first-response protocol) the session any reply lands — as of S113 Gmail shows no sends, no replies; 9 pitches sit in Aaron's queue (the 8 + Five Solas pending contact check). (b) If no replies: verify-then-draft the next 2-3 resource targets (the rejected/dead/toxic list in outreach-log.md is binding — twoagespilgrims is REJECTED-TOXIC, never contact). (c) Substack bank holds 4 unpublished = the protocol floor — draft 05 only if Aaron has pasted 01.
+
+## PRIORITY 3 — LANE 3: GATES (all currently closed — skip unless data opens them)
+OG tier 2 only if share/crawl data warrants · audio decision Aaron-bound · **DEEPENING QUEUE (standing, expansion deferred — tightening precedes expanding):** systematic-election's Assurance section · question-john10's unworked "greater than all" seam (security rests on the greatness of the Gripper, not the tightness of the grip) · question-foreknowledge's surveillance-generation turn (watched by feeds that record everything and love nothing).
+
+## STANDING (Aaron's call only)
+matt23-37 duplicate-canonical · /essays/ ESV ×2 · NO git ever (print the push command at close).
+
+## CLOSE
+Pipeline GREEN ×9 (+ sitemap + IndexNow only if pages added); og-cards --check 55/55; ledger entry if any page lifted; MISSION-CONTROL entry (newest-at-top); SAPIENTIAL-AUDIT §LX; roll the oldest live entry if logs exceed 6; pre-close context audit (fill the window); print the push command; write `NEXT-SESSION-S115-kickoff.md` (Roads leg 6; S116 = build — paste `NEXT-SESSION-PHASE-D-RESUME-kickoff.md`, counts corrected in the brief at S113 close).
+
+**THE MEASURE (restated).** 602 doorways carry the force; the falling-away family is complete — there is no verse left for the frightened to be ambushed by that does not have an answer waiting. This leg paves roads to those doors. Read the instruments, lift what the sample-read finds, handle any reply the moment it lands — and remember whose rescue operation this is: nothing ships UNREAD, and nothing depends on us that was not first decided by Him.

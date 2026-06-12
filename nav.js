@@ -80,7 +80,7 @@
  name: 'The Five Points',
  icon: '',
  href: '/apologetics',
- count: 62,
+ count: 63,
  pages: [
  { name: 'A Remnant Chosen by Grace — The Engine That Ends the Debate (Romans 11:5-6)', href: '/apologetic-the-remnant-chosen-by-grace', desc: 'Paul states the engine that decides the whole debate over election: if by grace, then it cannot be based on works; if it' },
  { name: 'A Slave to Sin — The Bondage You Mistook for Freedom', href: '/apologetic-a-slave-to-sin', desc: 'Jesus said everyone who sins is a slave to sin — no exceptions, no escape by the slave' },
@@ -104,6 +104,7 @@
  { name: 'He Will Save His People — The Scope Named at the Cradle (Matthew 1:21)', href: '/apologetic-save-his-people', desc: 'Before the child was born, the angel named both the work and its object: he will save his people from their sins. Not of' },
  { name: 'I Have Many People in This City — Named Before They Believed (Acts 18:10)', href: '/apologetic-many-people-in-this-city', desc: 'Acts 18:10 — God calls a city of unconverted pagans' },
  { name: 'I Know Whom I Have Believed — The Soul You Deposited in an Unbreakable Vault (2 Timothy 1:12)', href: '/apologetic-i-know-whom-i-have-believed', desc: 'Paul' },
+ { name: 'I Never Knew You — The Sentence That Ends Every Résumé', href: '/apologetic-i-never-knew-you', desc: 'They arrive at the judgment with prophecy, exorcisms, and miracles on the books — and Jesus does not dispute one line. H' },
  { name: 'I Shall Lose None — The Guarantee Built Into Christ\'s Obedience (John 6:37-39)', href: '/apologetic-i-shall-lose-none', desc: 'Jesus binds the security of every believer to his own obedience: this is the will of the Father, that I shall lose none ' },
  { name: 'I Will Move You — The Grace That Causes the Walking (Ezekiel 36:26-27)', href: '/apologetic-i-will-move-you', desc: 'Ezekiel 36 is a monologue of pure divine action — eight first-person I wills, and the human heart contributes only the s' },
  { name: 'Kept by the Power of God — The Garrison at Both Ends (1 Peter 1:3-5)', href: '/apologetic-kept-by-the-power-of-god', desc: 'Peter says the inheritance is kept in heaven for you, and you are shielded by God' },
@@ -470,7 +471,7 @@
  name: 'Verse by Verse',
  icon: '',
  href: '/demolition-hub',
- count: 54,
+ count: 55,
  pages: [
  { name: '"Choose This Day Whom You Will Serve"', href: '/demolition-joshua24-15', desc: 'Does Joshua 24:15 prove free will? Three verses later, Joshua answers that question himself — and the answer is devastat' },
  { name: '"Christ Died for All"', href: '/demolition-2cor5-14-15', desc: '"One died for all, and therefore all died" — Paul\'s logic is union, not arithmetic.' },
@@ -493,6 +494,7 @@
  { name: 'Arianism — The Ancient Heresy That Tried to Kill Christ\'s Deity', href: '/demolition-arianism', desc: 'Arius (4th century) taught that Christ was the highest created being — not truly God.' },
  { name: 'Can You Lose Your Salvation?', href: '/demolition-hebrews6-4-6', desc: 'Hebrews 6:4-6 names the enlightened, the tasters, the sharers — everything except born again. What the warning passage a' },
  { name: 'Children of Satan — What Scripture Actually Calls the Unregenerate', href: '/demolition-children-of-satan', desc: 'The church speaks of "lost sheep." Jesus spoke of children of the devil . Scripture identifies the unregenerate as ensla' },
+ { name: 'Cut Off and Thrown Into the Fire — Does John 15 Mean You Can Lose Your Salvation?', href: '/demolition-john15-2', desc: 'He cuts off every branch in me that bears no fruit — does John 15 teach you can lose your salvation? Judas had just left' },
  { name: 'Cut Off from the Root — Why Sin Doesn\'t Wound. It Kills.', href: '/demolition-cut-off-from-root', desc: 'When a creature is severed from the source of its life, corruption is not a punishment imposed from outside. It is what ' },
  { name: 'Demolition: 2 Peter 3:9', href: '/demolition-2peter3-9', desc: '"Not wanting anyone to perish" is addressed to believers ("you"), not to all humanity. The "anyone" and "everyone" are s' },
  { name: 'Demolition: James 4:7-8', href: '/demolition-james4-7-8', desc: 'The favorite synergism proof-text — and the verses immediately before and after that prove it cannot mean what Arminians' },
