@@ -2,16 +2,16 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-14T19:49:47.744Z",
+  "generated": "2026-06-14T20:36:35.816Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
-    "articles_audited": 607,
+    "articles_audited": 609,
     "total_redundancy_pairs_flagged": 9,
-    "total_sentences_flagged": 1292,
+    "total_sentences_flagged": 1302,
     "total_redundancy_pairs_suppressed": 17,
-    "total_sentences_suppressed": 181,
+    "total_sentences_suppressed": 182,
     "articles_with_redundancy": 9,
-    "articles_with_flagged_sentences": 447,
+    "articles_with_flagged_sentences": 449,
     "articles_clean": 155,
     "suppression_by_class": {
       "scripture-tsunami": 9,
@@ -280,6 +280,15 @@
       "flagged_sentence_count": 7,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 2
+    },
+    {
+      "file": "compare-wesleyan-methodism.html",
+      "score": 7,
+      "paragraphs": 21,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 7,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
     },
     {
       "file": "ot-joseph.html",
@@ -726,15 +735,6 @@
       "file": "apologetic-save-his-people.html",
       "score": 4,
       "paragraphs": 14,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "apologetic-the-conscience-that-only-accuses.html",
-      "score": 4,
-      "paragraphs": 25,
       "redundancy_count": 0,
       "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
@@ -6422,6 +6422,45 @@
       "score": 1
     },
     {
+      "file": "compare-provisionism.html",
+      "paragraphs": 15,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 7,
+          "sentence_index": 7,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "The unaided will that could close with Christ on the strength of good information is a will that needed no cross to enable it  —  and a gospel whose Calvary merely confirmed an ability you already had"
+        },
+        {
+          "paragraph": 12,
+          "sentence_index": 1,
+          "flags": [
+            "long:60w"
+          ],
+          "preview": "And it is the hinge the whole comparison turns on, because if your faith is finally your own contribution  —  the decisive thing you did that the man beside you did not  —  then you have, at the last,"
+        },
+        {
+          "paragraph": 14,
+          "sentence_index": 2,
+          "flags": [
+            "long:55w",
+            "padding-modifier:into the dark"
+          ],
+          "preview": "You were the body on the bottom, and the Lord of life went down into the dark after you and brought you up, and the first breath you ever drew as a Christian  —  the breath that felt so much like your"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 3,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 3
+    },
+    {
       "file": "compare-reformed-vs-eastern-orthodox.html",
       "paragraphs": 21,
       "redundancy_pairs": [],
@@ -6480,6 +6519,85 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
       "score": 3
+    },
+    {
+      "file": "compare-wesleyan-methodism.html",
+      "paragraphs": 21,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 4,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "In 1757 he answered a Unitarian doctor with a long, hard book called The Doctrine of Original Sin , and his thesis was blunt: human nature is not wounded but ruined, not sick but dead, and any gospel "
+        },
+        {
+          "paragraph": 4,
+          "sentence_index": 0,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "This site has pressed that doctrine hard elsewhere, and there is no need to re-fight it here  —  the verse it is built on does not say what it needs to say , and the historical story of Wesley and Whi"
+        },
+        {
+          "paragraph": 6,
+          "sentence_index": 2,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "Sometime after the new birth, he held, the believer may receive a second definite work of grace  —  a moment of full surrender in which God cleanses the heart of inbred sin , the lingering inward bent"
+        },
+        {
+          "paragraph": 8,
+          "sentence_index": 1,
+          "flags": [
+            "long:54w"
+          ],
+          "preview": "The whole point of the gospel of grace is to pry your hands off your own salvation finger by finger  —  to move every cause of your standing before God out of you and into Him, so that boasting is exc"
+        },
+        {
+          "paragraph": 13,
+          "sentence_index": 1,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "When John 6 says no one can come unless the Father draws him, or Romans 9 says it depends not on human will but on God's mercy, the Wesleyan has a court of appeal the Calvinist does not: the felt expe"
+        },
+        {
+          "paragraph": 14,
+          "sentence_index": 1,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "The defining creed of the modern age is my truth : the conviction that the final court of what is real is the authority of my own inner experience, that no text and no tradition and no reasoned argume"
+        },
+        {
+          "paragraph": 16,
+          "sentence_index": 1,
+          "flags": [
+            "long:55w"
+          ],
+          "preview": "The broader Wesleyan-Arminian stream increasingly framed Calvary not as a penal substitution in which Christ paid the actual debt of actual people, but as a public demonstration upholding the moral go"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 11,
+          "sentence_index": 2,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:ryles,answer"
+          ],
+          "preview": "Ryle's Holiness was written into the teeth of the Victorian \"higher life\" movement, the Keswick cousin of Wesleyan perfe"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 7,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1,
+      "score": 7
     },
     {
       "file": "connections.html",

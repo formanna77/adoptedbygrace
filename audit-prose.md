@@ -1,6 +1,6 @@
 # Prose Integrity Audit (Phase F) — Scanner v2
 
-**Generated:** 2026-06-14T19:49:47.766Z
+**Generated:** 2026-06-14T20:36:35.836Z
 **Spec:** `audit-prose.js v2` — redundancy (Jaccard ≥ 0.35 on significant-word bags) with **eight-class exemption filter** (closing-recurrence, Scripture-tsunami, pedagogical-anaphora, antithetical-parallelism, confessional-translation, historical-document-quotation, exegetical-comparison, research→pairing structural) + sentence-coherence heuristic with **anaphora/chiasm/embedded-quotation positive suppressors** + new **vehicle-tenor mismatch detector** (catches the original Aaron failure mode: simile whose vehicle and tenor are in incompatible domains).
 
 **Mandate (Aaron, 2026-04-27):** "many articles repeat themselves usually a couple times but sometimes even 3 times within the article... also some sentences don't make sense... we do not start expanding the website until every last sentence, paragraph, and article are written perfectly."
@@ -13,14 +13,14 @@
 
 | Metric | Value |
 |---|---|
-| Articles audited | 607 |
+| Articles audited | 609 |
 | Articles entirely clean | 155 (25.5%) |
 | Articles with (genuine) redundancy | 9 (1.5%) |
-| Articles with (genuine) flagged sentences | 447 (73.6%) |
+| Articles with (genuine) flagged sentences | 449 (73.7%) |
 | **Total redundancy pairs flagged (genuine)** | **9** |
-| **Total sentences flagged (genuine)** | **1292** |
+| **Total sentences flagged (genuine)** | **1302** |
 | Redundancy pairs suppressed (apex-tier exemptions) | 17 |
-| Sentence flags suppressed (coherence-positive) | 181 |
+| Sentence flags suppressed (coherence-positive) | 182 |
 
 ### Suppression breakdown by exemption class
 
@@ -65,27 +65,27 @@
 27. **apologetic-loved-darkness-rather-than-light.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 13 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
 28. **apologetic-purchased-from-every-tribe.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 12 paragraphs)
 29. **apologetic-the-once-for-all-ephapax.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 43 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-30. **ot-joseph.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 26 paragraphs)
-31. **systematic-covenant-redemption.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 61 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-32. **theologian-gottschalk.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 28 paragraphs)
-33. **apologetic-ekloge-the-greek-of-election.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 44 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-34. **apologetic-the-double-grip-of-john-10.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 40 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-35. **apologetic-the-road-to-damascus.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 21 paragraphs)
-36. **apologetic-the-washing-of-rebirth.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 15 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-37. **apologetic-those-you-gave-me.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 23 paragraphs)
-38. **ethics-end-of-life.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 15 paragraphs)
-39. **ethics-power-authority.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 16 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-40. **ethics-race.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 14 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-41. **history-puritans.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 26 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-42. **presuppositional-impossibility-of-the-contrary.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 14 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-43. **reformed-apologetics-resurrection.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 12 paragraphs)
-44. **romans-9-deep-dive.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 85 paragraphs)
-45. **westminster-chapter-3-plain-english.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 93 paragraphs) *[5 pairs + 2 sentences auto-suppressed]*
-46. **apologetic-arrabon-the-down-payment.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 33 paragraphs)
-47. **apologetic-for-the-sheep.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 25 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-48. **apologetic-he-bore-the-sin-of-many.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 15 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-49. **apologetic-the-remnant-chosen-by-grace.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 13 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-50. **demolition-romans2-4.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 22 paragraphs)
+30. **compare-wesleyan-methodism.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 21 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+31. **ot-joseph.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 26 paragraphs)
+32. **systematic-covenant-redemption.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 61 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+33. **theologian-gottschalk.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 28 paragraphs)
+34. **apologetic-ekloge-the-greek-of-election.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 44 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+35. **apologetic-the-double-grip-of-john-10.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 40 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+36. **apologetic-the-road-to-damascus.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 21 paragraphs)
+37. **apologetic-the-washing-of-rebirth.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 15 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+38. **apologetic-those-you-gave-me.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 23 paragraphs)
+39. **ethics-end-of-life.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 15 paragraphs)
+40. **ethics-power-authority.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 16 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+41. **ethics-race.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 14 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+42. **history-puritans.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 26 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+43. **presuppositional-impossibility-of-the-contrary.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 14 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+44. **reformed-apologetics-resurrection.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 12 paragraphs)
+45. **romans-9-deep-dive.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 85 paragraphs)
+46. **westminster-chapter-3-plain-english.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 93 paragraphs) *[5 pairs + 2 sentences auto-suppressed]*
+47. **apologetic-arrabon-the-down-payment.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 33 paragraphs)
+48. **apologetic-for-the-sheep.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 25 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+49. **apologetic-he-bore-the-sin-of-many.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 15 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+50. **apologetic-the-remnant-chosen-by-grace.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 13 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
 
 ---
 
@@ -556,17 +556,21 @@
 
 - 2 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
 
-### ot-joseph.html — score 7
+### compare-wesleyan-methodism.html — score 7
 
 **Flagged sentences (7):**
 
-- [long:49w] (¶0): "After decades of betrayal, slavery, false accusation, and imprisonment  —  after Joseph has risen from the pit to the right hand of Pharaoh and his terrified brothers stand before him begging for merc…"
-- [long:72w] (¶5): "The flesh has a deeply trained reflex that fires the moment Scripture insists God is more sovereign over our suffering than we are comfortable allowing  —  because if God genuinely governs the pit, th…"
-- [long:47w] (¶14): "The parallels between Joseph and Christ are so precise they cannot be accidental: beloved son, betrayed by his own, sold for silver, falsely accused, innocent suffering, raised from the pit, exalted t…"
-- [long:70w] (¶19): "Box A: The cross was sovereignly purposed before the foundation of the world by the same Father who, in Joseph's words, devised good through the evil men did, and the very chashav that governed the pi…"
-- [long:48w] (¶19): "Box B: The cross was the unforeseen tragedy God responded to creatively after the fact  —  Pilate's decision, the Sanhedrin's decision, Judas's decision, all genuinely outside the divine decree, and G…"
-- [long:49w] (¶23): "And the God who sent Joseph through slavery to save a nation is the same God who chose you before the foundation of the world  —  and who is working every detail of your life, including the parts that…"
-- [long:48w] (¶24): "He does not know there will be a famine, or a reunion, or a sentence about what they meant and what God meant, or a son named Manasseh, or a tomb in Shechem, or a coffin carried out of Egypt four hund…"
+- [long:46w] (¶0): "In 1757 he answered a Unitarian doctor with a long, hard book called The Doctrine of Original Sin , and his thesis was blunt: human nature is not wounded but ruined, not sick but dead, and any gospel …"
+- [long:50w] (¶4): "This site has pressed that doctrine hard elsewhere, and there is no need to re-fight it here  —  the verse it is built on does not say what it needs to say , and the historical story of Wesley and Whi…"
+- [long:46w] (¶6): "Sometime after the new birth, he held, the believer may receive a second definite work of grace  —  a moment of full surrender in which God cleanses the heart of inbred sin , the lingering inward bent…"
+- [long:54w] (¶8): "The whole point of the gospel of grace is to pry your hands off your own salvation finger by finger  —  to move every cause of your standing before God out of you and into Him, so that boasting is exc…"
+- [long:51w] (¶13): "When John 6 says no one can come unless the Father draws him, or Romans 9 says it depends not on human will but on God's mercy, the Wesleyan has a court of appeal the Calvinist does not: the felt expe…"
+- [long:47w] (¶14): "The defining creed of the modern age is my truth : the conviction that the final court of what is real is the authority of my own inner experience, that no text and no tradition and no reasoned argume…"
+- [long:55w] (¶16): "The broader Wesleyan-Arminian stream increasingly framed Calvary not as a penal substitution in which Christ paid the actual debt of actual people, but as a public demonstration upholding the moral go…"
+
+**Suppressions** (auto-filtered as exemptions / coherence-positives):
+
+- 1 sentence flag suppressed (anaphora / chiasm / embedded-quotation)
 
 ---
 

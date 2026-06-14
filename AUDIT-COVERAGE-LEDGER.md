@@ -6,16 +6,29 @@
 
 ## TALLY toward 100%
 
-| Status | Count | % of 602 |
+| Status | Count | % of 604 |
 |---|---|---|
-| **CONFIRMED / CONSECRATED-at-birth** | **602** | **100%** |
+| **CONFIRMED / CONSECRATED-at-birth** | **604** | **100%** |
 | TOUCHED (edit, full read pending) | 0 | 0% |
 | UNREAD | 0 | 0% |
-| **TOTAL** | **602** | 100% |
+| **TOTAL** | **604** | 100% |
 
 *S94: the universe grew 584 → 589 — Phase D's first FIVE pages (analytical-grounding-objection-molinism, analytical-identity-regeneration, analytical-aseity-and-decree, analytical-modal-collapse-answered, analytical-information-and-imago) were born CONSECRATED and cold-read the same session (3 apex / 2 PASS, 6 lifts total). The campaign standard is the floor for all new work: nothing ships UNREAD.*
 
 **THE CAMPAIGN IS CLOSED (S93, 2026-06-06).** Every one of the 584 prose doorways has been individually cold-read and confirmed at the landing-force + §XVI/§XVII bar, every defect lifted in-session, every verse on every layer checked against NIV 2011. Zero un-lifted FAILs across all thirteen legs. This ledger is now the campaign's permanent record; future re-verification passes (post-edit re-reads, periodic apex spot-checks) log here.
+
+## S116 — PHASE D NEW BUILDS (the comparison/soteriology track: Wesleyan + Provisionism) — 2/2 born-CONSECRATED — 2026-06-14
+
+**The universe grew 602 → 604.** Two net-new comparison flagships, each grep-first-confirmed a genuine gap (two adjacency subagents mapped the white space before drafting; the existing pages argue Reformed vs. *generic* Arminianism and rebut *men* — these compare the *systems*):
+
+- **compare-wesleyan-methodism** — "Reformed vs. Wesleyan — The Self at the Summit." White space: NOT prevenient grace (owned ×3 → linked, not re-fought) but entire sanctification / Christian perfection, the Wesleyan Quadrilateral, governmental atonement. Spine: "two bridges back across the deadness" (prevenient grace at the trailhead + the second blessing at the peak — the same shape handing the self its decisive inch twice). §XVII new ground: the Quadrilateral's experience-as-authority named as the seed of this century's "my truth" idol. Catch: "you are not the gardener. You are the garden" (Phil 1:6). Ryle's *Holiness* deep-linked. Wired to comparisons-hub card 13, stat 12→14; FLAGSHIP og-card rendered.
+- **compare-provisionism** — "Reformed vs. Provisionism — The Grace That Isn't There." The named opponent (Flowers / Soteriology 101 / the 2012 SBC Traditional Statement). White space neither response page works: the three-way structural contrast (effectual grace / prevenient grace / NO infused grace — only the gospel's information) and its collapse ("a message cannot raise the dead; if it could, Lazarus would have needed only a memo"). Owns Ezekiel 18 (command reveals duty not ability; 18:32 answered by 36:26's new heart). §XV transparency on 1 John 5:1 (*gegennētai* perfect). Catch: "the rescued, not the recruiter." Edwards' *Freedom of the Will* deep-linked. Wired to comparisons-hub card 14, stat → 14; FLAGSHIP og-card rendered.
+
+**Verification-first:** every verse web-verified NIV-exact BEFORE drafting (scripture-niv.js store mined as the authoritative NIV-2011 source + Bible Gateway for Eph 2:8-9 and 1 John 1:8, the two not in the store).
+
+**Born-consecrated cold-reads (2 parallel subagents, macOS paths): both SHARP.** compare-wesleyan-methodism returned SHARP with zero main-thread fixes — steel-man verified (Christian perfection stated as perfect *love*, not flawless performance), every verse NIV-exact, the Matt 5:48 allusion ruled house-acceptable, all three historical claims confirmed (*Doctrine of Original Sin* 1757; the Quadrilateral as Outler's distillation; governmental atonement correctly hedged). compare-provisionism SHARP with 1 polish — the "most expensive unnecessary act" pull-quote and a near-identical "most expensive redundancy" body line were a triple-landing with the In-Brief → the body instance recast onto the page's "dead" spine, the pull-quote keeping sole ownership.
+
+**P0 SAMPLE-READ (before building): 5 pages across registers (none from the S108–S115 sets): 5 SHARP on prose / 0 TRIM — but a clean prose-scan is not a clean fact-scan.** question-calvinist-on-knees · objection-author-of-sin · question-john6 · systematic-atonement re-confirmed SHARP. **history-korean-revival read SHARP on prose and carried a hard FACTUAL error** (the catch the sample-read exists for): "Underwood and Moffett, trained at Princeton Seminary… under Charles Hodge and B.B. Warfield" — false on three counts (Underwood → New Brunswick 1884; Moffett → McCormick 1888; Hodge d.1878 never overlapped Warfield's 1887 arrival) → rewritten accurate, the Reformed-missionary thesis + the Warfield cross-link preserved; the William Blair quote made verbatim ("in an agony" → "in **perfect** agony of conviction"; the (1910) citation CONFIRMED correct). Ledger TALLY 602 → 604.
 
 ## S115 — ROADS LEG 6: STANDING SAMPLE-READ (5 pages, none from the S107–S114 sets) + THE MIRROR DE-DUPLICATION CLOSED — 2 SHARP / 3 TRIM, 18 fixes + 3 mirror heals — 2026-06-14
 

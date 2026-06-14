@@ -310,7 +310,7 @@
  name: 'Side by Side',
  icon: '',
  href: '/compare-calvinism-arminianism',
- count: 14,
+ count: 16,
  pages: [
  { name: 'At Every Decision Point, Scripture Sides with God — Not You', href: '/compare-every-decision-point', desc: 'Ten crucial doctrinal decision points. At each one, man-centered theology sides with man. God-centered theology sides wi' },
  { name: 'Calvinism vs Arminianism', href: '/compare-calvinism-arminianism', desc: 'Point by point, verse by verse — what Scripture actually teaches about salvation, and why the Arminian reading collapses' },
@@ -324,6 +324,8 @@
  { name: 'Reformed vs Catholic — How Are We Actually Justified Before God?', href: '/compare-calvinism-catholic-soteriology', desc: 'Imputed or infused? Faith alone or faith plus works? The Reformation\'s most consequential divide — and why the differen' },
  { name: 'Reformed vs. Eastern Orthodox', href: '/compare-reformed-vs-eastern-orthodox', desc: 'Eastern Orthodoxy aims salvation at the highest goal in Christendom — union with God Himself — and rests the first step ' },
  { name: 'Reformed vs. Lutheran', href: '/compare-lutheranism', desc: 'Lutheran and Reformed soteriology agree that a dead man cannot raise himself — and then part at two places. The closest ' },
+ { name: 'Reformed vs. Provisionism', href: '/compare-provisionism', desc: 'Provisionism rejects both Calvin' },
+ { name: 'Reformed vs. Wesleyan', href: '/compare-wesleyan-methodism', desc: 'Wesley believed in human inability more deeply than most who quote him — then built a holiness machine that put the self' },
  { name: 'Single vs. Double Predestination', href: '/compare-single-vs-double-predestination', desc: 'If God chose to save some, did He choose to pass over the rest? The crux theologorum, the Lutheran fear, and the asymmet' },
  { name: 'Two Versions of Grace — One Is Real. One Is Man-Made.', href: '/compare-grace-reformed-vs-arminian', desc: 'Reformed grace vs. Arminian grace compared side by side. One is a resurrection. The other is a suggestion. One is divine' }
  ]

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://adoptedbygrace.net/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -117,7 +117,7 @@
   </url>
   <url>
     <loc>https://adoptedbygrace.net/comparisons-hub</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -290,6 +290,12 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://adoptedbygrace.net/compare-provisionism</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://adoptedbygrace.net/compare-reformed-vs-eastern-orthodox</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -298,6 +304,12 @@
   <url>
     <loc>https://adoptedbygrace.net/compare-single-vs-double-predestination</loc>
     <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/compare-wesleyan-methodism</loc>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -2235,7 +2247,7 @@
   </url>
   <url>
     <loc>https://adoptedbygrace.net/history-korean-revival</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
