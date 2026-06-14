@@ -2,14 +2,14 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-12T16:56:10.111Z",
+  "generated": "2026-06-14T19:49:47.744Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 607,
     "total_redundancy_pairs_flagged": 9,
     "total_sentences_flagged": 1292,
     "total_redundancy_pairs_suppressed": 17,
-    "total_sentences_suppressed": 183,
+    "total_sentences_suppressed": 181,
     "articles_with_redundancy": 9,
     "articles_with_flagged_sentences": 447,
     "articles_clean": 155,
@@ -14339,7 +14339,7 @@
     },
     {
       "file": "psychology-why-we-resist.html",
-      "paragraphs": 90,
+      "paragraphs": 89,
       "redundancy_pairs": [
         {
           "paragraph_a": 17,
@@ -14360,20 +14360,11 @@
         }
       ],
       "suppressed_redundancy": [],
-      "suppressed_sentences": [
-        {
-          "paragraph": 5,
-          "sentence_index": 0,
-          "suppressed_flags": [
-            "length-suppressed-anaphora:1-word:despite×3"
-          ],
-          "preview": "Despite perhaps never having read a serious Reformed treatment of election, despite not having studied the counterargume"
-        }
-      ],
+      "suppressed_sentences": [],
       "redundancy_count": 1,
       "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1,
+      "suppressed_sentence_count": 0,
       "score": 3
     },
     {
@@ -17221,7 +17212,7 @@
     },
     {
       "file": "secular-billion-decisions.html",
-      "paragraphs": 31,
+      "paragraphs": 30,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -17234,20 +17225,11 @@
         }
       ],
       "suppressed_redundancy": [],
-      "suppressed_sentences": [
-        {
-          "paragraph": 25,
-          "sentence_index": 0,
-          "suppressed_flags": [
-            "length-suppressed-embedded-quotation:68w-raw/51w-prose"
-          ],
-          "preview": "When that gap becomes real to you  —  when you stop measuring yourself against your neighbor and start measuring yoursel"
-        }
-      ],
+      "suppressed_sentences": [],
       "redundancy_count": 0,
       "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1,
+      "suppressed_sentence_count": 0,
       "score": 1
     },
     {
@@ -20930,7 +20912,7 @@
     },
     {
       "file": "theologian-warfield.html",
-      "paragraphs": 25,
+      "paragraphs": 21,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
