@@ -229,7 +229,7 @@
  { name: 'The Dead Man — A Visual Argument for Total Depravity', href: '/question-dead-man-visual', desc: 'A visual argument for Total Depravity: a corpse cannot reach for rescue. If you are alive in Christ, a voice reached int' },
  { name: 'The Doctrines of Grace, Explained Visually — Sovereign Grace You Can See', href: '/question-visual-theology', desc: 'The Reformed soteriological argument presented visually through logical flowcharts, diagrams, and devastating comparison' },
  { name: 'The Free Offer of the Gospel', href: '/question-free-offer-of-the-gospel', desc: 'If God has already chosen, why does the gospel command and beg every soul to come? The free offer is no performance — an' },
- { name: 'The Greek Tense That Settles the Debate — 1 John 5:1', href: '/question-1john5-1', desc: 'In 1 John 5:1' },
+ { name: 'The Greek Tense That Settles the Debate — 1 John 5:1', href: '/question-1john5-1', desc: 'In 1 John 5:1 “believes” is present tense and “has been born” is the Greek perfect: the birth already happened, and the ' },
  { name: 'The Prayer That Proves Election — John 17', href: '/question-john17', desc: 'In John 17, on the last night of His life, Jesus prays — and He prays not for the world in general but, seven separate t' },
  { name: 'The Verse in Acts That Nobody Preaches – Acts 13:48', href: '/question-acts', desc: 'Luke the historian records a fact: in Pisidian Antioch, "all who were appointed for eternal life believed" (Acts 13:48).' },
  { name: 'Unconditional Election — On What Basis Did God Choose You?', href: '/question-unconditional', desc: 'Unconditional Election — On What Basis Did God Choose You?' },

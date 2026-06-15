@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-14T20:36:35.816Z",
+  "generated": "2026-06-15T02:26:00.158Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 609,
     "total_redundancy_pairs_flagged": 9,
     "total_sentences_flagged": 1302,
     "total_redundancy_pairs_suppressed": 17,
-    "total_sentences_suppressed": 182,
+    "total_sentences_suppressed": 181,
     "articles_with_redundancy": 9,
-    "articles_with_flagged_sentences": 449,
-    "articles_clean": 155,
+    "articles_with_flagged_sentences": 450,
+    "articles_clean": 154,
     "suppression_by_class": {
       "scripture-tsunami": 9,
       "pedagogical-anaphora": 2,
@@ -915,25 +915,25 @@
     },
     {
       "file": "analogy-doctor-corpse.html",
-      "paragraphs": 34,
+      "paragraphs": 33,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
-      "suppressed_redundancy": [],
-      "suppressed_sentences": [
+      "flagged_sentences": [
         {
-          "paragraph": 33,
-          "sentence_index": 12,
-          "suppressed_flags": [
-            "length-suppressed-chiasm:finally,offer"
+          "paragraph": 32,
+          "sentence_index": 5,
+          "flags": [
+            "long:50w"
           ],
-          "preview": "And eventually, when the man is old and finally tired of striking his balance against a debt that was never a debt to be"
+          "preview": "And when the man finally tires of balancing a debt that was never a debt, he sits down, takes the plate that was always waiting, and weeps  —  not because he has nothing to offer, but because he sees "
         }
       ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1,
-      "score": 0
+      "suppressed_sentence_count": 0,
+      "score": 1
     },
     {
       "file": "analogy-drowning-man.html",
@@ -21010,23 +21010,15 @@
             "long:63w"
           ],
           "preview": "And the God who had packed that storm cloud over Essex for that exact morning, who had drifted the snow over that exact road at that exact hour, who had set an illiterate Methodist at that exact pulpi"
-        },
-        {
-          "paragraph": 28,
-          "sentence_index": 0,
-          "flags": [
-            "long:57w"
-          ],
-          "preview": "\"An evil is in the professed camp of the Lord, so gross in its impudence, that the most shortsighted can hardly fail to notice it. … The devil has seldom done a cleverer thing than hinting to the Chur"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 3,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 3
+      "score": 2
     },
     {
       "file": "theologian-warfield.html",
