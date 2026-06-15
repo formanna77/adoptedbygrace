@@ -1,6 +1,6 @@
 # Prose Integrity Audit (Phase F) — Scanner v2
 
-**Generated:** 2026-06-15T02:26:00.180Z
+**Generated:** 2026-06-15T20:02:48.553Z
 **Spec:** `audit-prose.js v2` — redundancy (Jaccard ≥ 0.35 on significant-word bags) with **eight-class exemption filter** (closing-recurrence, Scripture-tsunami, pedagogical-anaphora, antithetical-parallelism, confessional-translation, historical-document-quotation, exegetical-comparison, research→pairing structural) + sentence-coherence heuristic with **anaphora/chiasm/embedded-quotation positive suppressors** + new **vehicle-tenor mismatch detector** (catches the original Aaron failure mode: simile whose vehicle and tenor are in incompatible domains).
 
 **Mandate (Aaron, 2026-04-27):** "many articles repeat themselves usually a couple times but sometimes even 3 times within the article... also some sentences don't make sense... we do not start expanding the website until every last sentence, paragraph, and article are written perfectly."
@@ -562,7 +562,7 @@
 
 - [long:46w] (¶0): "In 1757 he answered a Unitarian doctor with a long, hard book called The Doctrine of Original Sin , and his thesis was blunt: human nature is not wounded but ruined, not sick but dead, and any gospel …"
 - [long:50w] (¶4): "This site has pressed that doctrine hard elsewhere, and there is no need to re-fight it here  —  the verse it is built on does not say what it needs to say , and the historical story of Wesley and Whi…"
-- [long:46w] (¶6): "Sometime after the new birth, he held, the believer may receive a second definite work of grace  —  a moment of full surrender in which God cleanses the heart of inbred sin , the lingering inward bent…"
+- [long:47w] (¶6): "Sometime after the new birth , he held, the believer may receive a second definite work of grace  —  a moment of full surrender in which God cleanses the heart of inbred sin , the lingering inward ben…"
 - [long:54w] (¶8): "The whole point of the gospel of grace is to pry your hands off your own salvation finger by finger  —  to move every cause of your standing before God out of you and into Him, so that boasting is exc…"
 - [long:51w] (¶13): "When John 6 says no one can come unless the Father draws him, or Romans 9 says it depends not on human will but on God's mercy, the Wesleyan has a court of appeal the Calvinist does not: the felt expe…"
 - [long:47w] (¶14): "The defining creed of the modern age is my truth : the conviction that the final court of what is real is the authority of my own inner experience, that no text and no tradition and no reasoned argume…"

@@ -35,7 +35,7 @@ One row per outreach action. Update on every send, response, and link acquired. 
 | Date | Pages indexed | Clicks (28d) | Avg position | Notes |
 |---|---|---|---|---|
 | 2026-05-22 | 21 | 3 (3mo) | 17.9 | Baseline; sitemap re-submitted; 3 flagships requested |
-| — | — | — | — | Next read: Aaron's GSC numbers (not yet logged as of S109, 2026-06-10) |
+| 2026-06-13 | — | 5 (28d) | — | **GSC click-milestone email** ("Congrats on reaching 5 clicks in 28 days!" from sc-noreply@google.com, arrived in Gmail 2026-06-15, caught S118). First measured movement on the campaign's primary number: 3 clicks/3mo (baseline) → 5 clicks/28d. Indexed-count + avg-position still need Aaron's GSC dashboard read. |
 
 ## Netlify Web Analytics — BASELINE LOGGED (S111, 2026-06-11; Aaron toggled it on — the campaign has eyes)
 
@@ -47,6 +47,17 @@ One row per outreach action. Update on every send, response, and link acquired. 
 - **Geography (30d):** US 6,594 · Canada 1,284 · **Finland 978 · Singapore 960 · Luxembourg 779 · Russia 537** — the non-US block is a classic data-center/crawler signature. A meaningful share of "Direct" is bot/crawler traffic (Netlify counts server-side and does not filter bots) — which is not bad news: the steep June climb means the machines have FOUND the site (IndexNow/Bing/AI crawlers — note `aisearchindex.space` appearing as a referrer). Crawling precedes indexing; indexing precedes humans.
 - **404 noise:** the entire resource-not-found table is credential-scanner background radiation (.env.*, .git/HEAD, config.json, secrets.json, credentials.json, appsettings.json…) — harmless on a static site, nothing to change. The four `.js.map` 404s were checked: NO sourceMappingURL comments exist in our JS, so those are scanner probes too. No action.
 - **Re-read weekly** alongside the GSC row; log deltas here.
+
+## Netlify Web Analytics — RELOCATION SOLVED + weekly delta #2 READ (S118, 2026-06-15 — Chrome connected)
+
+- **THE HUNT IS OVER — Web Analytics relocated, not lapsed.** Netlify's UI migration moved Web Analytics out of the old top-level `/projects/adoptedbygrace/analytics` route (now permanently blank) into a new **"Logs and metrics"** nav group. Live URL is now **`/projects/adoptedbygrace/logs-and-metrics/analytics`** (siblings under that group: Observability · Functions · Edge Functions · Web Analytics · Real User Monitoring · Log Drains · Audit log). Bookmark the new path for all future deltas. The subscription is ACTIVE — a "Cancel Web Analytics subscription" danger-zone at the page bottom confirms it is still the paid add-on, not cancelled.
+- **Deploy verified live and current with S117:** Netlify Production shows `main@9900309` **Published 1:40 PM** today ("S117 Roads leg 7: Spurgeon misattribution→genuine 1887 Downgrade quote +3 fact/date fixes; doctor-corpse 1 John 5:1 §XV + coda; …"). Independently confirmed by reading LIVE `/theologian-spurgeon` in-browser: it serves the genuine 1887 "no more Christianity than chalk is cheese" Downgrade quote, the "A Defence of Calvinism / The Autobiography" cite, the 1887 dates, and the Newberg-contemplatives retune — all S117 content is live. `sitemap.xml` serves (application/xml); no pages added S116→S118, so the 679-URL count stands.
+- **30d (May 16 – Jun 15): 14,674 pageviews · 4,724 unique visitors · 2 GB.** Window-over-window vs S114 delta #1 (May 13 – Jun 12: 14,270 / 4,496 / 2 GB): **+404 pv, +228 uniques.** vs S111 baseline (May 12 – Jun 11: 13,593 / 4,488): +1,081 pv / +236 uniques over ~5 weeks. The plateau holds, but uniques rose more than pageviews this window — modestly encouraging.
+- **Daily shape:** May 16 = 185 pv, climbing to a 1,219 peak, Jun 15 = 66 (partial, to 2 PM). Uniques range 53–511/day. Still deploy/crawl-driven bursts, not a weekday human rhythm.
+- **Top sources (30d): Direct 12,343 · google.com 11 · aisearchindex.space 4 · bing.com 3 · enxogo.com 1.** Search referrals remain effectively ZERO — the FOURTH consecutive instrument-read confirming the diagnosis: bottleneck = indexing + authority, and the unsent pitches are the binding constraint. Cross-check: the GSC email this week reports 5 clicks/28d — same order of magnitude as google.com's 11 referrals/30d; both instruments agree search sends almost no one yet.
+- **Top locations (30d):** US 7,286 · Canada 1,282 · Singapore 985 · Finland 977 · Luxembourg 778 · Russia 642 · UK 515 — the data-center/crawler bloc (SG/FI/LU/RU) persists at ~30%.
+- **Top pages (30d):** / 1,552 · /demolition-hub 98 · /questions 92 · /about 78 · /scripture-tsunami 71 · /systematic-theology 70 · /devotionals 68 · /best-reads 68 · /start-here 67 · /psychology-hub 67 · **/question-where-did-your-faith-come-from 66 (the crown jewel holds the top 15)** · /stories 64 · /the-60-second-case 63 · /devotional-chosen-before-you-were-broken 63 · /ot-hub 62.
+- **404 table:** unchanged credential-scanner radiation (.env.* variants, /api/.env, etc.) — harmless on a static site, no action.
 
 ## Netlify weekly delta #2 attempt + deploy verification (S117, 2026-06-14 — Chrome connected)
 
