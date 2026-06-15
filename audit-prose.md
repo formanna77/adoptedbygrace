@@ -1,6 +1,6 @@
 # Prose Integrity Audit (Phase F) — Scanner v2
 
-**Generated:** 2026-06-15T20:02:48.553Z
+**Generated:** 2026-06-15T21:08:42.180Z
 **Spec:** `audit-prose.js v2` — redundancy (Jaccard ≥ 0.35 on significant-word bags) with **eight-class exemption filter** (closing-recurrence, Scripture-tsunami, pedagogical-anaphora, antithetical-parallelism, confessional-translation, historical-document-quotation, exegetical-comparison, research→pairing structural) + sentence-coherence heuristic with **anaphora/chiasm/embedded-quotation positive suppressors** + new **vehicle-tenor mismatch detector** (catches the original Aaron failure mode: simile whose vehicle and tenor are in incompatible domains).
 
 **Mandate (Aaron, 2026-04-27):** "many articles repeat themselves usually a couple times but sometimes even 3 times within the article... also some sentences don't make sense... we do not start expanding the website until every last sentence, paragraph, and article are written perfectly."
@@ -13,14 +13,14 @@
 
 | Metric | Value |
 |---|---|
-| Articles audited | 609 |
-| Articles entirely clean | 154 (25.3%) |
+| Articles audited | 610 |
+| Articles entirely clean | 154 (25.2%) |
 | Articles with (genuine) redundancy | 9 (1.5%) |
-| Articles with (genuine) flagged sentences | 450 (73.9%) |
+| Articles with (genuine) flagged sentences | 451 (73.9%) |
 | **Total redundancy pairs flagged (genuine)** | **9** |
-| **Total sentences flagged (genuine)** | **1302** |
+| **Total sentences flagged (genuine)** | **1306** |
 | Redundancy pairs suppressed (apex-tier exemptions) | 17 |
-| Sentence flags suppressed (coherence-positive) | 181 |
+| Sentence flags suppressed (coherence-positive) | 184 |
 
 ### Suppression breakdown by exemption class
 
@@ -81,11 +81,11 @@
 43. **presuppositional-impossibility-of-the-contrary.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 14 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
 44. **reformed-apologetics-resurrection.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 12 paragraphs)
 45. **romans-9-deep-dive.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 85 paragraphs)
-46. **westminster-chapter-3-plain-english.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 93 paragraphs) *[5 pairs + 2 sentences auto-suppressed]*
-47. **apologetic-arrabon-the-down-payment.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 33 paragraphs)
-48. **apologetic-for-the-sheep.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 25 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-49. **apologetic-he-bore-the-sin-of-many.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 15 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-50. **apologetic-the-remnant-chosen-by-grace.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 13 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+46. **theologian-owen.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 33 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+47. **westminster-chapter-3-plain-english.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 93 paragraphs) *[5 pairs + 2 sentences auto-suppressed]*
+48. **apologetic-arrabon-the-down-payment.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 33 paragraphs)
+49. **apologetic-for-the-sheep.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 25 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+50. **apologetic-he-bore-the-sin-of-many.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 15 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
 
 ---
 

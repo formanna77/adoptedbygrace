@@ -2,16 +2,16 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-15T20:02:48.534Z",
+  "generated": "2026-06-15T21:08:42.158Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
-    "articles_audited": 609,
+    "articles_audited": 610,
     "total_redundancy_pairs_flagged": 9,
-    "total_sentences_flagged": 1302,
+    "total_sentences_flagged": 1306,
     "total_redundancy_pairs_suppressed": 17,
-    "total_sentences_suppressed": 181,
+    "total_sentences_suppressed": 184,
     "articles_with_redundancy": 9,
-    "articles_with_flagged_sentences": 450,
+    "articles_with_flagged_sentences": 451,
     "articles_clean": 154,
     "suppression_by_class": {
       "scripture-tsunami": 9,
@@ -426,6 +426,15 @@
       "suppressed_sentence_count": 0
     },
     {
+      "file": "theologian-owen.html",
+      "score": 6,
+      "paragraphs": 33,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 6,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
+    },
+    {
       "file": "westminster-chapter-3-plain-english.html",
       "score": 6,
       "paragraphs": 93,
@@ -640,15 +649,6 @@
       "flagged_sentence_count": 5,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
-    },
-    {
-      "file": "theologian-owen.html",
-      "score": 5,
-      "paragraphs": 33,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 5,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1
     },
     {
       "file": "acts-13-48.html",
@@ -6339,6 +6339,69 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
       "score": 2
+    },
+    {
+      "file": "compare-hyper-calvinism.html",
+      "paragraphs": 16,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 1,
+          "flags": [
+            "long:52w"
+          ],
+          "preview": "Many people carry a picture handed to them secondhand: a God who quietly selects a favored few and shrugs at the rest, a preacher who will not tell a sinner that Christ is offered to him, a doctrine t"
+        },
+        {
+          "paragraph": 9,
+          "sentence_index": 4,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "Each one walks up to the same unbearable tension  —  that God is utterly sovereign in salvation, and that He also genuinely commands, invites, pleads with, and grieves over all  —  and each one, unabl"
+        },
+        {
+          "paragraph": 13,
+          "sentence_index": 1,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "Andrew Fuller's The Gospel Worthy of All Acceptation (1785) argued, against the hyper-Calvinism of his own Baptist circles, that faith in Christ is the duty of everyone who hears  —  and that book lit"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 4,
+          "sentence_index": 2,
+          "suppressed_flags": [
+            "length-suppressed-embedded-quotation:75w-raw/49w-prose"
+          ],
+          "preview": "Jesus does not narrow His call to the pre-qualified; He throws it wide: \"Come to me, all you who are weary and burdened,"
+        },
+        {
+          "paragraph": 7,
+          "sentence_index": 1,
+          "suppressed_flags": [
+            "length-suppressed-embedded-quotation:112w-raw/91w-prose"
+          ],
+          "preview": "The Reformed hold that God shows real and daily kindness even to those He has not chosen: \"He causes his sun to rise on "
+        },
+        {
+          "paragraph": 14,
+          "sentence_index": 1,
+          "suppressed_flags": [
+            "length-suppressed-embedded-quotation:96w-raw/63w-prose"
+          ],
+          "preview": "The offer He makes is not narrow and it is not guarded; it is wide as the world and free as air: \"Let the one who is thi"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 3,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 3,
+      "score": 3
     },
     {
       "file": "compare-lutheranism.html",
@@ -20933,6 +20996,14 @@
             "long:54w"
           ],
           "preview": "This is why Spurgeon two centuries later read Owen and could not put him down, and why the Banner of Truth Trust labored to put him back into print, and why every preacher who has ever stood at a chil"
+        },
+        {
+          "paragraph": 25,
+          "sentence_index": 0,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "On August 22, 1683, two days before he died, Owen dictated a final letter to his friend Charles Fleetwood: I am leaving the ship of the church in a storm; but while the great Pilot is in it the loss o"
         }
       ],
       "suppressed_redundancy": [],
@@ -20947,10 +21018,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 5,
+      "flagged_sentence_count": 6,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
-      "score": 5
+      "score": 6
     },
     {
       "file": "theologian-sproul.html",

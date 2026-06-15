@@ -6,16 +6,32 @@
 
 ## TALLY toward 100%
 
-| Status | Count | % of 604 |
+| Status | Count | % of 605 |
 |---|---|---|
-| **CONFIRMED / CONSECRATED-at-birth** | **604** | **100%** |
+| **CONFIRMED / CONSECRATED-at-birth** | **605** | **100%** |
 | TOUCHED (edit, full read pending) | 0 | 0% |
 | UNREAD | 0 | 0% |
-| **TOTAL** | **604** | 100% |
+| **TOTAL** | **605** | 100% |
 
 *S94: the universe grew 584 → 589 — Phase D's first FIVE pages (analytical-grounding-objection-molinism, analytical-identity-regeneration, analytical-aseity-and-decree, analytical-modal-collapse-answered, analytical-information-and-imago) were born CONSECRATED and cold-read the same session (3 apex / 2 PASS, 6 lifts total). The campaign standard is the floor for all new work: nothing ships UNREAD.*
 
 **THE CAMPAIGN IS CLOSED (S93, 2026-06-06).** Every one of the 584 prose doorways has been individually cold-read and confirmed at the landing-force + §XVI/§XVII bar, every defect lifted in-session, every verse on every layer checked against NIV 2011. Zero un-lifted FAILs across all thirteen legs. This ledger is now the campaign's permanent record; future re-verification passes (post-edit re-reads, periodic apex spot-checks) log here.
+
+## S119 — PHASE D BUILD (+1 page, tally 604 → 605) + the standing sample-read (1 SHARP / 4 TRIM, 16 fixes) — 2026-06-15
+
+**One new doorway born CONSECRATED: compare-hyper-calvinism (tally now 605/605).** "Reformed vs. Hyper-Calvinism — The Caricature That Keeps People From Grace." Grep-first + 2 adjacency subagents confirmed genuine white space (the comparison matrix had no hyper-Calvinism entry; question-free-offer-of-the-gospel owns only the offer/duty-faith sub-point → ceded + linked). Owns the consolidated 5-line distinctives map (offer / duty-faith / means / common grace / God's posture toward the lost), the movement's history (the Modern Question; John Gill, contested label, fairly presented; the Gospel Standard Baptists' 1878 "deny duty faith and duty repentance"; Hoeksema / 1924 / the Protestant Reformed Churches, charitably framed), and the §XVII new-ground thesis "hyper-Calvinism and Arminianism are the same loss of nerve in opposite directions — one cannot let God reign, the other cannot let Him plead." Every verse web-verified NIV-2011-exact BEFORE drafting (Matt 11:28, Isa 55:1, 1 John 3:23, Acts 17:30, Rom 10:14, Matt 5:45, Ezek 33:11, 2 Cor 5:20, Rev 22:17); Spurgeon's "All of Grace" PDF deep-linked; wired to comparisons-hub (card 15, stat 14→15) + og-cards FLAGSHIPS (57→58, --check 58/58). Born-consecrated cold-read: **TRIM → SHARP** (all facts + 9 verses verified, new-ground sound, steel-man fairness strong; fixes = 1 misapplied link removed, 4 over-link duplicates de-duped, 2 micro-trims).
+
+**The standing sample-read — 5 doorways re-read (none from the S113–S118 sets), 1 SHARP / 4 TRIM, 16 fixes; a FOURTH week running the fact-scan caught what the prose-scan blessed. The tally holds at 605/605 CONFIRMED.**
+
+- **question-hardening** — TRIM → re-CONFIRMED (6 fixes). "Exodus 11:10" citation → **Exodus 10:1** (the quote is verbatim 10:1); a fabricated/conflated "Exodus 14:5" quotation read backwards (as too-late repentance) → the real **Exodus 14:8** ("so that he pursued the Israelites, who were marching out boldly"), reframed as God's hardening confirming defiance; the self/God hardening sequence rebuilt in canonical order (**8:15** self-hardening; **9:12** God's hardening, replacing the pre-plague 7:3-4 announcement); Exodus 8:32 → NIV-exact; 2 Thess 2:11 "Therefore" → "For this reason"; Romans 3:10-12 "there is" restored.
+- **theologian-owen** — TRIM → re-CONFIRMED (2 fixes). The Great Ejection conflation (the 1660 deanery loss fused with the 1662 Ejection of ~2,000, which Owen was not part of) → separated; the dying words "long-looked-for day" misattributed to the Aug-22 Fleetwood letter → restored to **William Payne, Aug 24** (death day), as his last words, wording "long **wished**-for" (TGC-verified). The Fleetwood "ship of the church" letter (Aug 22) confirmed genuine + kept.
+- **pastoral-assurance** — TRIM → re-CONFIRMED (2 fixes). "As John Owen wrote: the desire for grace is grace" (a Puritan commonplace, not Owen's) → Owen's genuine "Longing, breathing, and panting after deliverance is a grace in itself" (*Mortification of Sin*, CCEL-verified, cross-link kept); "fourteen billion years" → "nearly fourteen billion."
+- **secular-genetics-sovereignty** — TRIM → re-CONFIRMED (6 fixes). KEYSTONE Eph 2:8-9 "For by grace" → "**For it is by grace**" (NIV store); journal "Psychological Bulletin" → "**Journal of Neurobiology**" + the per-trait table relabeled "synthesized across twin studies" (the figures are not in the single cited paper); the unverifiable "another became electricians" twins anecdote CUT (the documented firefighter pair kept); the Haidt heritability-of-morality overclaim softened (evidence mixed); religiosity "40%" → "40% in adulthood"; Romans 9:11 colon restored.
+- **ot-joseph** — SHARP, re-CONFIRMED (0 fixes). Genesis 50:20 verbatim, all eight verses NIV-2011-exact, the *chashav* double-intention sound, "four hundred years" a defensible round figure — verify-don't-blind-strip held; no edit forced.
+
+**INSTRUMENTS (Lane 1/2):** deploy verified live and CURRENT WITH S118 (Netlify Production main@0a00538, Aaron pushed today 2:15 PM); Netlify delta #3 at `/logs-and-metrics/analytics` = 30d 14,684 pv / 4,733 uniques (same window as S118's delta #2, read hours later; sources Direct 12,351 · google 12 · bing 3 — search referrals ≈ 0, the 5th consecutive confirmation); Gmail 30-day sweep → r21 pitch still no reply (24 days), GSC 5-clicks re-confirmed.
+
+Pipeline GREEN ×9 + sitemap + IndexNow (680 URLs); og-cards 57→58 (--check 58/58, 0 failures); banned-move grep clean on all 5 touched; bare `<article class="article-body">` intact on all 4 sample pages + the new flagship.
 
 ## S118 — ROADS LEG 8 RE-VERIFICATION (the standing sample-read) — 5 doorways re-read, 3 TRIM lifted / 2 SHARP micro-confirmed; + 1 pre-flight hygiene catch — 2026-06-15
 

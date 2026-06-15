@@ -47,6 +47,8 @@ const FLAGSHIPS = [
   'demolition-john15-2', 'apologetic-i-never-knew-you',
   // — S116 Phase D builds —
   'compare-wesleyan-methodism', 'compare-provisionism',
+  // — S119 Phase D build —
+  'compare-hyper-calvinism',
 ];
 
 const FONT_FILES = [
