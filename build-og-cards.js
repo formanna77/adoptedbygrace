@@ -49,6 +49,8 @@ const FLAGSHIPS = [
   'compare-wesleyan-methodism', 'compare-provisionism',
   // — S119 Phase D build —
   'compare-hyper-calvinism',
+  // — S122 Phase D build —
+  'question-what-is-the-gospel',
 ];
 
 const FONT_FILES = [

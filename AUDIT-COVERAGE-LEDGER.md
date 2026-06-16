@@ -6,16 +6,30 @@
 
 ## TALLY toward 100%
 
-| Status | Count | % of 605 |
+| Status | Count | % of 606 |
 |---|---|---|
-| **CONFIRMED / CONSECRATED-at-birth** | **605** | **100%** |
+| **CONFIRMED / CONSECRATED-at-birth** | **606** | **100%** |
 | TOUCHED (edit, full read pending) | 0 | 0% |
 | UNREAD | 0 | 0% |
-| **TOTAL** | **605** | 100% |
+| **TOTAL** | **606** | 100% |
 
 *S94: the universe grew 584 → 589 — Phase D's first FIVE pages (analytical-grounding-objection-molinism, analytical-identity-regeneration, analytical-aseity-and-decree, analytical-modal-collapse-answered, analytical-information-and-imago) were born CONSECRATED and cold-read the same session (3 apex / 2 PASS, 6 lifts total). The campaign standard is the floor for all new work: nothing ships UNREAD.*
 
 **THE CAMPAIGN IS CLOSED (S93, 2026-06-06).** Every one of the 584 prose doorways has been individually cold-read and confirmed at the landing-force + §XVI/§XVII bar, every defect lifted in-session, every verse on every layer checked against NIV 2011. Zero un-lifted FAILs across all thirteen legs. This ledger is now the campaign's permanent record; future re-verification passes (post-edit re-reads, periodic apex spot-checks) log here.
+
+## S122 — CAMPAIGN 3 BUILD LEG — a NEW apex doorway born CONSECRATED (+1 page, tally 605 → 606) + the standing sample-read (2 SHARP / 3 with defects, 5 fixes) — 2026-06-15
+
+**One new doorway born CONSECRATED: question-what-is-the-gospel (tally now 606/606).** "What Is the Gospel?" — grep-first proved genuine white space (the site had no dedicated doorway for the most basic seeker query, "what is the gospel / how can I be saved"; the Phase-D brief's recommended `analytical-archetypal-ectypal` was already built post-S107 → grep saved a twin). The §XVII new ground: the gospel is **news, not advice** (Machen / Lloyd-Jones / Keller) pressed one turn past its plateau — the subtlest counterfeit hides the advice inside the word *believe*; the true gospel closes even that door (Phil 1:29 / John 6:29 / Acts 13:48), so "your faith is not the bridge you build across to the rescue. It is the first thing the rescue builds in you." Both arms (demolish the advice-gospel that mocks the helpless; catch the reader who fears he can't believe well enough); every verse web/store-verified NIV-2011-exact BEFORE drafting (1 Cor 15:3-4, Isa 53:5, 2 Cor 5:21, John 19:30, Rom 5:8, Eph 2:8-9, Phil 1:29, John 6:29, Acts 13:48, Rom 10:9, Rom 4:5, John 6:44, Eph 2:1); the Eph 2:8 *touto* grammar handled honestly per §XV; Machen's *What Is Faith* PDF deep-linked; wired to questions-hub EXHIBIT F (The Crown Jewel; stat 78→79) + og-cards FLAGSHIPS (58→59, --check 59/59). Born-consecrated cold-read: **TRIM → SHARP** — the one required fix was the very failure this discipline exists for: the *tetelestai* "merchant's paid-in-full receipt" claim is a debunked papyrus myth (the Arsinoite tax receipts read τετελώνηται, a different word; "paid in full" for *tetelestai* is unattested) → recast to the uncontested completion sense (§XV); plus a doubled "completed past fact" image trimmed and one verbatim refrain varied.
+
+**The standing sample-read — 5 doorways re-read (none from the S116–S121 sets), 2 SHARP / 3 with defects, 5 fixes; a SEVENTH week running the fact-scan caught what the prose-scan blessed. The tally holds at 606/606 CONFIRMED.**
+
+- **history-council-of-orange** — defects → re-CONFIRMED (2 fixes). "Council of Orange, eighty-two years after [Pelagius's] death" → "more than a century" (Pelagius d. c. 418–420, Orange 529 ≈ 109 yrs); Canon 5 paraphrase-as-quotation (closing clause matched no translation, dropped the canon's defining content) → an honestly-elided excerpt of the actual canon ("not only the increase of faith but also its beginning and the very desire for faith… it is proof that he is opposed to the teaching of the Apostles," web-verified). Canon 7's "natural vigor / deceived by a heretical spirit" has real translation support → KEPT.
+- **systematic-providence** — 1 fix, else SHARP (15 verses + WCF 5.4 verbatim). James 4:2 "you do not ask" → NIV-2011 "you do not ask **God**."
+- **question-romans9** — 1 verse fixed (two instances). v.19 "Why does He still find fault? For who can resist His will?" (ESV/NASB) → NIV-2011 "Then why does God still blame us? For who is able to resist his will?" (the σκληρύνει exegesis + the Haidt attribution + every block-quote already exact).
+- **analogy-light-switch** — SHARP, re-CONFIRMED (0 fixes). The physics is CORRECT, not reversed (the switch *completes* the circuit; it does not *generate* the current) — all 4 verses NIV-2011-exact; verify-don't-blind-strip held.
+- **theologian-calvin** — SHARP, re-CONFIRMED (0 fixes). Every date / quote / citation verified (b. 1509 Noyon / d. 1564 / *Institutes* 1536 at 26 / Servetus 1553 / unmarked grave; III.21.1, III.7.1, II.5.19 exact); the page avoids the spurious "cor meum tibi offero" motto; no edit forced.
+
+**INSTRUMENTS (Lane 1/2):** deploy verified live and CURRENT WITH S121 (web-fetched — /question-newheart serves the Jeremiah 31 twin-promise correction + וְנָתַתִּי, all S121 content); Netlify analytics + the full GSC dashboard remain Aaron-bound (the genuine first week-over-week read still awaits the calendar past Jun 15); pitch sends (SEND-CHECKLIST.md) + Substack 01 + Bing import + audio all Aaron-bound.
 
 ## S121 — CAMPAIGN 3 ROADS LEG (2nd of the cadence) — the standing sample-read (1 SHARP / 4 with defects, 19 fixes; tally holds 605/605) + Netlify delta #4 read — 2026-06-15
 

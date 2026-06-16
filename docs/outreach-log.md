@@ -2,6 +2,8 @@
 
 One row per outreach action. Update on every send, response, and link acquired. Follow-up policy: once after ~2 weeks, never more. White-hat only — never buy links, never exchange links, never mass-blast.
 
+**CHANNEL REALITY (corrected 2026-06-15 / S121 — Aaron flagged an empty draft box):** these targets were never Gmail drafts. Most are web **contact forms** (Monergism, McMahon/reformed.org+APM, ReasonableTheology, Reformed Books Online, Aquila); a few are **email** (The Highway → webmeister@the-highway.com; Challies → the email on his contact page; the Reformation21 follow-up → reply-in-thread to r21Editorial@alliancenet.org). FiveSolas is retired (no contact surface). Paste-ready subject + body + per-target instructions live in **`docs/outreach/SEND-CHECKLIST.md`**. Prior "pitch sends in the queue" wording wrongly implied drafts were sitting in the inbox — they were not; the pitch text lives only in `docs/outreach/`.
+
 ## Link & referral outreach
 
 | Target | Type | Pitch doc | Date sent | Response | Link acquired |
@@ -47,6 +49,11 @@ One row per outreach action. Update on every send, response, and link acquired. 
 - **Geography (30d):** US 6,594 · Canada 1,284 · **Finland 978 · Singapore 960 · Luxembourg 779 · Russia 537** — the non-US block is a classic data-center/crawler signature. A meaningful share of "Direct" is bot/crawler traffic (Netlify counts server-side and does not filter bots) — which is not bad news: the steep June climb means the machines have FOUND the site (IndexNow/Bing/AI crawlers — note `aisearchindex.space` appearing as a referrer). Crawling precedes indexing; indexing precedes humans.
 - **404 noise:** the entire resource-not-found table is credential-scanner background radiation (.env.*, .git/HEAD, config.json, secrets.json, credentials.json, appsettings.json…) — harmless on a static site, nothing to change. The four `.js.map` 404s were checked: NO sourceMappingURL comments exist in our JS, so those are scanner probes too. No action.
 - **Re-read weekly** alongside the GSC row; log deltas here.
+
+## Deploy verification (S122, 2026-06-15)
+
+- **Deploy verified live and CURRENT WITH S121** (web-fetched): `/question-newheart` serves the S121 corrections — "the New Covenant promise — Jeremiah 31:31-34," "I will put my law in their minds and write it on their hearts (Jeremiah 31:33)," the Hebrews 8:8-12 → Jeremiah framing, and the Hebrew וְנָתַתִּי (venatati). So Aaron pushed S121 after that session closed. **This session's S122 work — the new flagship `question-what-is-the-gospel` + its og-card + the questions-hub card + 3 sample-read fixes (history-council-of-orange, systematic-providence, question-romans9) + the 681-URL sitemap — awaits his next push.** Sitemap now 681 (the new page lands at the next push).
+- **Netlify analytics + the full GSC dashboard remain Aaron-bound** (authenticated session). The genuine first week-over-week read still waits on the calendar rolling past Jun 15 — every session since S118 has read the same May 16–Jun 15 window (last read 14,792 pv / 4,752 uniques, S121). S122 also ran on Jun 15 (US-local), so no new window.
 
 ## Netlify Web Analytics — delta #4 read + deploy verification (S121, 2026-06-15 — Chrome connected; Aaron's session live)
 

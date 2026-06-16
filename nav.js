@@ -176,7 +176,7 @@
  name: 'Scripture Questions',
  icon: '',
  href: '/questions',
- count: 74,
+ count: 75,
  pages: [
  { name: '"Not Because of Our Works" — 2 Timothy 1:9', href: '/question-2tim1-9', desc: 'Seven words. That is all it took to end the debate.' },
  { name: 'Are Arminians Saved?', href: '/question-are-arminians-saved', desc: 'The Arminian framework, when followed honestly to its logical conclusion, places the decisive factor in salvation on a h' },
@@ -242,6 +242,7 @@
  { name: 'What Does "Dead in Sin" Actually Mean?', href: '/question-dead-in-sin-meaning', desc: 'When Paul says you are dead in sin, he reaches for the Greek word a coroner writes on a chart — nekros — the same word u' },
  { name: 'What Does Romans 9 Really Mean?', href: '/question-romans9', desc: 'You already know what this chapter says. That is why you have been avoiding it.' },
  { name: 'What Is Eternal Security? The Believer Kept Safe by God\'s Power', href: '/question-secure', desc: 'What is eternal security? Scripture teaches that those whom God saves are kept safe by His power. John 10:27-29, Romans ' },
+ { name: 'What Is the Gospel?', href: '/question-what-is-the-gospel', desc: 'Most of what gets called the gospel is advice — something you must do. The real gospel is news — something already done,' },
  { name: 'Where Did Your Faith Come From?', href: '/question-where-did-your-faith-come-from', desc: 'Where did your faith come from? Trace it honestly and every road dead-ends in God.' },
  { name: 'Where Does Your "No" to God Come From? Free Will and the Unwilling Heart', href: '/question-where-does-your-no-come-from', desc: 'If you reject sovereign grace, where does that rejection originate? From your free will? The very will Scripture says is' },
  { name: 'Whose Side Are You On? Man-Centered vs God-Centered Theology', href: '/question-whose-side-are-you-on', desc: 'Strip away the jargon: one theology makes man the hero, the other makes God the hero. Which side are you really on?' },
