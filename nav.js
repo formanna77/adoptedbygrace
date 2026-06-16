@@ -683,7 +683,7 @@
  { name: 'The Orphanage — A Story About Being Chosen by Grace', href: '/story-the-orphanage', desc: 'Every child believed they chose their family. Then one girl found the records room.' },
  { name: 'The Person Who Chose God — A Dark Thought Experiment', href: '/story-the-person-who-chose-god', desc: 'Imagine someone who chose God entirely on their own — no grace, no regeneration, no gift of faith. What would that look ' },
  { name: 'The Prodigal Was Already Home', href: '/analogy-the-prodigal-already-home', desc: 'The boy was the father' },
- { name: 'The River That Thinks It Chose Its Path', href: '/analogy-river', desc: 'A river flows freely — rushing, turning, cascading. But every twist was determined by terrain carved before the first dr' },
+ { name: 'The River That Thinks It Chose Its Path', href: '/analogy-river', desc: 'A river flows freely — rushing, turning, cascading. But every twist was determined by terrain shaped before the first dr' },
  { name: 'The Rope You Wove Yourself', href: '/story-dark-the-rope-you-wove-yourself', desc: 'A man falls into a well. He climbs out on a rope he believes he wove himself. Years later, in the daylight, he sees what' },
  { name: 'The Self-Made Man: A Story About Self-Salvation', href: '/story-the-self-made-man', desc: 'A man takes credit for everything — his parents, his mind, his fortune, even his finding of God — and the comedy curdles' },
  { name: 'The Song You Didn\'t Compose — Why Beauty Proves Grace', href: '/analogy-song-you-didnt-compose', desc: 'Beauty moves you without your permission. It acts on you from outside. That is exactly how grace works — and the proof i' },

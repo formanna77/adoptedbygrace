@@ -2,12 +2,12 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-15T22:22:56.504Z",
+  "generated": "2026-06-16T00:07:35.418Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 610,
     "total_redundancy_pairs_flagged": 9,
-    "total_sentences_flagged": 1306,
+    "total_sentences_flagged": 1307,
     "total_redundancy_pairs_suppressed": 17,
     "total_sentences_suppressed": 184,
     "articles_with_redundancy": 9,
@@ -1036,6 +1036,14 @@
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
+          "paragraph": 5,
+          "sentence_index": 2,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "And because those boundaries are total — because there is no place the water can go except where the terrain allows — the river appears to flow wherever it wants, when in fact it has no path but the o"
+        },
+        {
           "paragraph": 26,
           "sentence_index": 0,
           "flags": [
@@ -1056,10 +1064,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
-      "score": 1
+      "score": 2
     },
     {
       "file": "analogy-song-you-didnt-compose.html",
