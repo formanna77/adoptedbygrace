@@ -2,7 +2,7 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-17T01:57:39.874Z",
+  "generated": "2026-06-17T04:50:01.020Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 611,
@@ -11,8 +11,8 @@
     "total_redundancy_pairs_suppressed": 17,
     "total_sentences_suppressed": 185,
     "articles_with_redundancy": 9,
-    "articles_with_flagged_sentences": 452,
-    "articles_clean": 154,
+    "articles_with_flagged_sentences": 453,
+    "articles_clean": 153,
     "suppression_by_class": {
       "scripture-tsunami": 9,
       "pedagogical-anaphora": 2,
@@ -895,23 +895,15 @@
             "long:51w"
           ],
           "preview": "The Greek word Peter chose for handed over is ekdoton  —  given out, given up  —  the same root that runs through the prophets and that ends, on Calvary, with the Son giving Himself up for the elect H"
-        },
-        {
-          "paragraph": 10,
-          "sentence_index": 0,
-          "flags": [
-            "long:63w"
-          ],
-          "preview": "Charles Spurgeon taught that Providence is simply the unfolding of what God has eternally decreed  —  in his own words from the 1858 sermon God's Providence : \"I believe that every particle of dust th"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 2,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 2
+      "score": 1
     },
     {
       "file": "analogy-doctor-corpse.html",
@@ -11850,14 +11842,23 @@
       "file": "objection-evangelism-pointless.html",
       "paragraphs": 26,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 15,
+          "sentence_index": 0,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "As the saying long attributed to Spurgeon goes: if God had painted a yellow stripe down the backs of the elect, he would go around lifting coats to find them  —  but since God had not, he preached the"
+        }
+      ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 0
+      "score": 1
     },
     {
       "file": "objection-fairness.html",
