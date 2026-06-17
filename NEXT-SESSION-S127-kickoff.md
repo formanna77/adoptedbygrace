@@ -1,0 +1,30 @@
+# NEXT SESSION — S127 — FACT-VERIFICATION BLITZ, LEG 3 (Calvin → Luther → Edwards → … → then Scripture sweep)
+
+**BUILDS ARE PAUSED.** The Fact-Verification Blitz (launched 2026-06-16 after the 70%-defect-rate finding) is a class-based site-wide sweep of the highest-risk categories: **(1) named-person quotations, (2) Scripture wording, (3) stats/dates.** No new pages until it closes. Held build plan: `NEXT-SESSION-PHASE-D-RESUME-kickoff.md`.
+
+**CONTEXT — legs done (do NOT redo):**
+- **Leg 1 (S125) = Spurgeon** — 9 defects fixed across 11 pages (fabricated free-will/earthquake/dust-tail quotes; the apocryphal "yellow stripe" quip on 3 pages; "kiss the wave"; a loose election paraphrase; a wrong sermon cite; etc.). Full log: MISSION-CONTROL Session 125 + SAPIENTIAL §LXXI + ledger S125.
+- **Leg 2 (S126) = Augustine** — 5 defects across 5 pages: a fabricated semi-Pelagian "foreknowledge foresees free choice" tail (restored to genuine *City of God* XIV.11); a Fulton-Sheen line misattributed to Augustine; garbled pear-theft Latin; a paraphrase-as-verbatim parables quote + an unverifiable Spurgeon sermon number (**both also duplicated in the page's JSON-LD FAQ field — fixed there too**); a "will is not free…" line miscited to *On the Spirit and the Letter*. Full log: MISSION-CONTROL Session 126 + SAPIENTIAL §LXXII + ledger S126.
+
+**THE METHOD (proven across 2 legs):** one major name per leg, highest-volume first. (1) Rebuild the per-author extractor `/tmp/extract_author2.js <name>` (ephemeral — it walks `<p>/<blockquote>/<li>` blocks, pulls blockquotes + in-block quoted spans ≥25 chars where the author is named in-block or in the preceding block, filters JSON-LD/meta/titles/URLs/Scripture, dedupes). (2) Dispatch parallel READ-ONLY subagents (macOS-path Read tool) to web-verify each quote against the author's real corpus. **Treat every in-quotes attribution as GUILTY until verified.** (3) Apply fixes: de-quote fabrications/apocrypha to hedged paraphrase, restore verbatim for miswordings, re-attribute misattributions, drop unverifiable source-cites. **verify-don't-blind-strip** (it has saved real lines every leg). **CRITICAL LESSON FROM LEG 2: when you fix a quote in the body, GREP THE WHOLE PAGE — the JSON-LD FAQ "text" field and the meta/og descriptions frequently carry a duplicate that must be fixed in tandem; re-validate the JSON-LD parses afterward.** Banned-move + bare `<article class="article-body">` check on every touched page; NIV-2011-exact for any Scripture touched.
+
+## PRIORITY 0 — PRE-FLIGHT (lean)
+`ls -1 *.html | wc -l` (**682**); `node sapiential-audit.js` (T1 0; 606 prose); `node audit-prose.js` (v3+v4 0/682); hygiene greps (emoji / "(NIV)" / double-encoded / truncated-meta) all 0. (Use `;` / `|| true` between `grep -c` calls.)
+
+## PRIORITY 1 — LEG 3: THE NEXT NAMED AUTHORS
+**Calvin first** (named on ~64 pages — the biggest remaining surface; expect Institutes cites — verify book/section numbers, a common slip), then **Luther, Edwards, Owen, Bunyan, Whitefield, Lewis, Chesterton, Pink, Tozer, Boston, Newton, Watson, Flavel, Knox, Bavinck, Sproul, Packer, Machen, Warfield.** Take one or two major names this leg (Calvin is large enough to be a leg on its own). Watch especially for: Institutes mis-cites; lines by one Reformer attributed to another; modern paraphrases (Piper/Keller/Sproul phrasings) hung on a Reformer; and the recurring "famous quip" that turns out apocryphal.
+
+## PRIORITY 2 — LEG(S) 3+: SCRIPTURE-WORDING SWEEP
+Once the named-author quotations are clean, triage the **271 verify-scripture "divergent" flags** (`node verify-scripture.js`; report `scripture-audit-report.txt`). Web-check each flagged verse against NIV 2011; fix genuine ESV/KJV/NASB bleed-through; leave true false-positives (legitimate truncations, divine-pronoun casing). This is the biggest class and the most central to the "open your own Bible" promise. Expect many false positives, so the real fix count is well under 271.
+
+## PRIORITY 3 — (later) STATS / DATES
+Historical claims, statistics, dates (the Dort-delegate-count and Machen-telegram-count class).
+
+## CLOSE
+Pipeline GREEN ×9 (build-search-index, build-mega-menu, build-homepage-counts, auto-linker, wire-orphans, then validate-site, canonical-conformance, verify-scripture [(NIV) must be 0], sapiential-audit, audit-prose). NO build-sitemap/IndexNow (the blitz adds no pages). `node build-og-cards.js --check`. Ledger entry; MISSION-CONTROL entry (newest-at-top); SAPIENTIAL-AUDIT §LXXIII (append at BOTTOM); roll the oldest live entry if logs exceed 6 (live now: S121–S126 / §LXVII–§LXXII — adding S127/§LXXIII will require rolling S121 + §LXVII via the `_roll.js` helper — update its REPO/OUT mount paths + §/Session markers first; this session used `/tmp/roll126.js` as the template). Pre-close context audit; print the push command; write `NEXT-SESSION-S128-kickoff.md` (next blitz leg, or — once quotations + Scripture are clean — the resume-builds brief pointing to `NEXT-SESSION-PHASE-D-RESUME-kickoff.md`).
+
+**Current counts at S126 close: 606 prose / 682 HTML / 681 sitemap / 650 mega-menu / 569 homepage / 59 og-cards / search-index 679.**
+
+**AARON-BOUND QUEUE (account-bound; nag in the close box):** push (S124 + S125 + S126 fixes — 17 pages total across the three legs); the first true week-over-week Netlify read at `/logs-and-metrics/analytics`; the GSC dashboard; the `docs/outreach/SEND-CHECKLIST.md` pitch sends + the Reformation21 follow-up (now ~33+ days); Substack 01 → 05; Bing import; the audio decision.
+
+**THE MEASURE.** Two legs in, the pattern is undeniable: the worst-abused names (Spurgeon, Augustine) were carrying fabricated quotes, garbled Latin, semi-Pelagian views put in the mouth of the man who refuted them, and a Catholic archbishop's line wearing Augustine's name — all in beautiful prose that read clean. The blitz makes the site's one promise true again: *go check it yourself, and what we told you will hold.* Take the next name. Distrust the polish. Open the source.

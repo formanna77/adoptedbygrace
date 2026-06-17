@@ -17,6 +17,19 @@
 
 **THE CAMPAIGN IS CLOSED (S93, 2026-06-06).** Every one of the 584 prose doorways has been individually cold-read and confirmed at the landing-force + §XVI/§XVII bar, every defect lifted in-session, every verse on every layer checked against NIV 2011. Zero un-lifted FAILs across all thirteen legs. This ledger is now the campaign's permanent record; future re-verification passes (post-edit re-reads, periodic apex spot-checks) log here.
 
+## S126 — FACT-VERIFICATION BLITZ, LEG 2 (AUGUSTINE) — builds paused; 5 defects fixed across 5 pages — 2026-06-16
+
+**Leg 2 = Augustine** (next-most-referenced name after Spurgeon; 58 pages). Per-author extractor + 3 parallel READ-ONLY subagents over ~25 quote-claims. **5 fixed across 5 pages; large clean block protected.**
+
+- **Fabricated / conflated (fixed):** analogy-chess-grandmaster — Augustine "foreknowledge… foresees that which free agents will freely choose" is a fabricated semi-Pelagian tail (the view Augustine refuted) → restored to genuine *City of God* XIV.11 "slave of vices and sins"; the foreknowledge point moved out of the quote.
+- **Misattributed (fixed):** question-does-god-love-everyone-equally — "valuable because God loves us" is FULTON SHEEN, not Augustine → de-quoted to the page's own voice.
+- **Garbled source-text (fixed):** story-historical-augustine-pears — the pear-theft LATIN matched no edition ("…ex satietate iniquitatis") → corrected to genuine *Confessions* II.4.9 ("…sagina iniquitatis").
+- **Paraphrase-as-verbatim / miscite (fixed):** question-parables — Augustine "clearly and without parables" quote reworded to his genuine argument (cite "AFTER AUGUSTINE"); unverifiable Spurgeon "SERMON NO. 1890" number dropped; **both duplicated in the JSON-LD FAQ field → fixed there too** (re-validated). apologetic-revival-and-sovereign-grace — "the will is not free to do what it does not love," miscited to *On the Spirit and the Letter* (not in it) → de-quoted to "the old Augustinian principle…"
+- **Protected (verify-don't-blind-strip):** "Give what You command" (Confessions X.29), "predestination of the saints — nothing else," "You have made us for yourself," the testimony-augustine quotes, Calvin III.1.4, WCF X.1, Whitefield's 1740 letter, theologian-augustine's "eternal decree" (correctly DORT), psychology-fear-control's "rebels who must lay down our arms" (correctly C.S. LEWIS).
+- **Flag for Aaron (internal):** VOICE.md's "two-volitions angle" note carries the same *On the Spirit and the Letter* miscite — correcting it stops re-propagation.
+
+**Pipeline GREEN** (validate 0 broken links; canonical 681/0; (NIV) 0; sapiential 606/T1 0; audit-prose v3+v4 clean; og-cards 59/59; JSON-LD re-validated). Builds paused; Leg 3 = Calvin/Luther/Edwards/Owen/… → then Scripture sweep. Kickoff `NEXT-SESSION-S127-kickoff.md`.
+
 ## S125 — FACT-VERIFICATION BLITZ, LEG 1 (SPURGEON) — builds paused; 9 defect-classes fixed across 11 pages — 2026-06-16
 
 **The blitz, launched on Aaron's directive** ("seems like we are finding a lot of errors"). Across S119–S124, 70% of sampled pages (21/30) carried a factual/scriptural/attribution defect — a base rate, not drift. Aaron chose the everything-blitz: a class-based site-wide sweep of the highest-risk categories, **builds paused until clean.** **Leg 1 = named-person quotations, Spurgeon first** (152 pages name him; fabricated twice in S121/S123). Per-author extractor + 5 parallel READ-ONLY verification subagents over ~25 quote-claims. **9 fixed across 11 pages; large clean block protected.**
