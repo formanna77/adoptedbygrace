@@ -136,7 +136,7 @@
  { name: 'The Prayer You Have Never Spontaneously Prayed', href: '/apologetic-the-prayer-you-never-spontaneously-prayed', desc: 'A single behavioral diagnostic that demonstrates total depravity from the reader' },
  { name: 'The Priest Who Cannot Forget Their Names — How the Vestments Settle the Atonement Question', href: '/apologetic-priest-shoulders', desc: 'The whole question of who Christ died for — settled by two onyx stones on Aaron' },
  { name: 'The Road to Damascus — The Conversion No One Chose', href: '/apologetic-the-road-to-damascus', desc: 'The most violent enemy the early church had was converted while marching to arrest Christians. Saul was not seeking, not' },
- { name: 'The Trilemma John Owen Set in 1648 — And Why It Has Never Been Answered', href: '/apologetic-owen-trilemma', desc: 'John Owen' },
+ { name: 'The Trilemma John Owen Set in 1647 — And Why It Has Never Been Answered', href: '/apologetic-owen-trilemma', desc: 'John Owen' },
  { name: 'The Valley of Dry Bones — How the Dead Are Made to Live (Ezekiel 37)', href: '/apologetic-the-valley-of-dry-bones', desc: 'God set Ezekiel in a valley of very dry bones and asked, can these bones live? They did not stir until the word was prea' },
  { name: 'The Washing of Rebirth — Born Again Before You Believed (Titus 3:5)', href: '/apologetic-the-washing-of-rebirth', desc: 'Paul says God saved us not because of righteous things we had done, but through the washing of rebirth and renewal by th' },
  { name: 'There Is No One Who Seeks God — The Verse That Ends the Seeker Myth (Romans 3:10-18)', href: '/apologetic-no-one-righteous', desc: 'Everyone believes they were a seeker who found God. Romans 3:10-12 says the opposite in the most absolute negation in Sc' },
