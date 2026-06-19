@@ -2,16 +2,16 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-19T19:58:16.721Z",
+  "generated": "2026-06-19T22:00:01.329Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
-    "articles_audited": 611,
+    "articles_audited": 614,
     "total_redundancy_pairs_flagged": 9,
-    "total_sentences_flagged": 1309,
+    "total_sentences_flagged": 1315,
     "total_redundancy_pairs_suppressed": 17,
     "total_sentences_suppressed": 185,
     "articles_with_redundancy": 9,
-    "articles_with_flagged_sentences": 453,
+    "articles_with_flagged_sentences": 456,
     "articles_clean": 153,
     "suppression_by_class": {
       "scripture-tsunami": 9,
@@ -15355,6 +15355,28 @@
       "score": 0
     },
     {
+      "file": "question-i-cant-believe.html",
+      "paragraphs": 19,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 18,
+          "sentence_index": 1,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "And if you want the argument from the man who first won it for the whole church, his words are in the library: Augustine's Anti-Pelagian Writings , where he proves, against every objection, that even "
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 1,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 1
+    },
+    {
       "file": "question-irresistible.html",
       "paragraphs": 32,
       "redundancy_pairs": [],
@@ -15366,6 +15388,28 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
       "score": 0
+    },
+    {
+      "file": "question-is-it-too-late.html",
+      "paragraphs": 15,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 1,
+          "sentence_index": 4,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "We are creatures of the clock, and the clock has taught us the same lesson over and over until it feels like the deepest law of the world: there is a window for every good thing, and the window closes"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 1,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 1
     },
     {
       "file": "question-is-predestination-in-the-bible.html",
@@ -16210,6 +16254,52 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
       "score": 1
+    },
+    {
+      "file": "question-what-must-i-do-to-be-saved.html",
+      "paragraphs": 16,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 7,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "It is a quiet, staggering relocation of the whole burden: the only thing required of you is to receive what was done while you were powerless to do anything at all  —  and even the open hand that rece"
+        },
+        {
+          "paragraph": 3,
+          "sentence_index": 0,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "He was a jailer in the Roman colony of Philippi  —  a functionary, a man of locks and keys, paid to keep other men in the dark."
+        },
+        {
+          "paragraph": 14,
+          "sentence_index": 6,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "But the door that mattered  —  the one no key in his ring could reach  —  was opened from the outside while he slept, by a God who had come all the way to a Roman jail in the dark to let one jailer ou"
+        },
+        {
+          "paragraph": 15,
+          "sentence_index": 6,
+          "flags": [
+            "long:54w"
+          ],
+          "preview": "Read on: where your faith actually came from , why the call that reaches the dead always raises them , and  —  if a part of you is afraid you have come too late  —  why there is no such thing as too l"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 4
     },
     {
       "file": "question-where-did-your-faith-come-from.html",

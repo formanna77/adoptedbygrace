@@ -51,6 +51,8 @@ const FLAGSHIPS = [
   'compare-hyper-calvinism',
   // — S122 Phase D build —
   'question-what-is-the-gospel',
+  // — S133 Phase D build: the Seeker's Threshold trio —
+  'question-what-must-i-do-to-be-saved', 'question-i-cant-believe', 'question-is-it-too-late',
 ];
 
 const FONT_FILES = [
