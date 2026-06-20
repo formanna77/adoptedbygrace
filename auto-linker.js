@@ -601,13 +601,16 @@ function extractArticleBody(html) {
  * Tags include everything from < to >.
  * We also mark <a>...</a>, <script>...</script>, <style>...</style>,
  * <code>...</code>, <pre>...</pre>, <svg>...</svg> blocks as 'unsafe'.
+ * <blockquote> is unsafe too: Scripture quotations live in blockquotes, and
+ * links must never be injected inside a verse quote (the recurring S134/S136
+ * re-injection hazard on question-is-it-too-late and any verse-blockquote page).
  */
 function splitIntoSegments(html) {
   const segments = [];
   // Split by HTML tags (also handle HTML comments)
   const parts = html.split(/(<[^>]+>|<!--[\s\S]*?-->)/);
   let unsafeDepth = 0;
-  const unsafeTagNames = new Set(['a', 'script', 'style', 'code', 'pre', 'svg', 'nav', 'button', 'cite']);
+  const unsafeTagNames = new Set(['a', 'script', 'style', 'code', 'pre', 'svg', 'nav', 'button', 'cite', 'blockquote']);
 
   for (const part of parts) {
   if (!part) continue;

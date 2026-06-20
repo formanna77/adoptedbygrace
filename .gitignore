@@ -2,3 +2,7 @@
 .netlify
 deploy-*.zip
 node_modules/
+
+# Session scratch backups (mount-locked; never deploy)
+.s137-bak/
+*-bak/

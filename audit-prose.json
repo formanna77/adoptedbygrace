@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-20T18:19:42.443Z",
+  "generated": "2026-06-20T18:50:07.838Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 614,
-    "total_redundancy_pairs_flagged": 9,
-    "total_sentences_flagged": 1309,
+    "total_redundancy_pairs_flagged": 8,
+    "total_sentences_flagged": 1302,
     "total_redundancy_pairs_suppressed": 17,
-    "total_sentences_suppressed": 178,
-    "articles_with_redundancy": 9,
+    "total_sentences_suppressed": 177,
+    "articles_with_redundancy": 8,
     "articles_with_flagged_sentences": 455,
-    "articles_clean": 154,
+    "articles_clean": 155,
     "suppression_by_class": {
       "scripture-tsunami": 9,
       "pedagogical-anaphora": 2,
@@ -57,24 +57,6 @@
       "suppressed_sentence_count": 1
     },
     {
-      "file": "apologetic-the-cardiac-transplant.html",
-      "score": 11,
-      "paragraphs": 41,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 11,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1
-    },
-    {
-      "file": "apologetic-the-eulogy-greek-of-ephesians-1.html",
-      "score": 11,
-      "paragraphs": 37,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 11,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
       "file": "apologetic-the-unbroken-chain.html",
       "score": 11,
       "paragraphs": 39,
@@ -93,13 +75,13 @@
       "suppressed_sentence_count": 0
     },
     {
-      "file": "apologetic-hilasterion-the-mercy-seat.html",
+      "file": "apologetic-the-cardiac-transplant.html",
       "score": 9,
-      "paragraphs": 36,
+      "paragraphs": 39,
       "redundancy_count": 0,
       "flagged_sentence_count": 9,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 2
+      "suppressed_sentence_count": 1
     },
     {
       "file": "apologetic-the-cardiology-of-the-fall.html",
@@ -109,6 +91,15 @@
       "flagged_sentence_count": 9,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 2
+    },
+    {
+      "file": "apologetic-the-eulogy-greek-of-ephesians-1.html",
+      "score": 9,
+      "paragraphs": 35,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 9,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
     },
     {
       "file": "ephesians-1-3-14.html",
@@ -156,6 +147,15 @@
       "suppressed_sentence_count": 3
     },
     {
+      "file": "apologetic-hilasterion-the-mercy-seat.html",
+      "score": 8,
+      "paragraphs": 32,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 8,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2
+    },
+    {
       "file": "apologetic-light-shine-out-of-darkness.html",
       "score": 8,
       "paragraphs": 11,
@@ -163,15 +163,6 @@
       "flagged_sentence_count": 8,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 2
-    },
-    {
-      "file": "apologetic-nothing-can-separate.html",
-      "score": 8,
-      "paragraphs": 27,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 8,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
     },
     {
       "file": "apologetic-revival-and-sovereign-grace.html",
@@ -264,6 +255,15 @@
       "suppressed_sentence_count": 1
     },
     {
+      "file": "apologetic-nothing-can-separate.html",
+      "score": 7,
+      "paragraphs": 25,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 7,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
       "file": "apologetic-purchased-from-every-tribe.html",
       "score": 7,
       "paragraphs": 12,
@@ -271,15 +271,6 @@
       "flagged_sentence_count": 7,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
-    },
-    {
-      "file": "apologetic-the-once-for-all-ephapax.html",
-      "score": 7,
-      "paragraphs": 43,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 7,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 2
     },
     {
       "file": "compare-wesleyan-methodism.html",
@@ -328,6 +319,15 @@
     },
     {
       "file": "apologetic-the-double-grip-of-john-10.html",
+      "score": 6,
+      "paragraphs": 37,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 6,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
+    },
+    {
+      "file": "apologetic-the-once-for-all-ephapax.html",
       "score": 6,
       "paragraphs": 40,
       "redundancy_count": 0,
@@ -455,7 +455,7 @@
     {
       "file": "apologetic-for-the-sheep.html",
       "score": 5,
-      "paragraphs": 25,
+      "paragraphs": 23,
       "redundancy_count": 0,
       "flagged_sentence_count": 5,
       "suppressed_redundancy_count": 0,
@@ -2071,7 +2071,7 @@
     },
     {
       "file": "apologetic-for-the-sheep.html",
-      "paragraphs": 25,
+      "paragraphs": 23,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -2099,7 +2099,7 @@
           "preview": "The preposition hyper , when it governs the genitive case as it does here, is the preposition of substitution and benefit: \"on behalf of,\" \"in the place of,\" \"for the sake of.\" It is the same preposit"
         },
         {
-          "paragraph": 21,
+          "paragraph": 19,
           "sentence_index": 5,
           "flags": [
             "long:51w"
@@ -2107,7 +2107,7 @@
           "preview": "But if, somewhere underneath your fear, the voice of Christ in this discourse does not repel you but draws you  —  if \"the Lord is my shepherd\" makes something in your chest lean toward Him rather tha"
         },
         {
-          "paragraph": 22,
+          "paragraph": 20,
           "sentence_index": 4,
           "flags": [
             "long:59w"
@@ -2487,7 +2487,7 @@
     },
     {
       "file": "apologetic-hilasterion-the-mercy-seat.html",
-      "paragraphs": 36,
+      "paragraphs": 32,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -2547,15 +2547,7 @@
           "preview": "If the atonement was made for the non-elect, then the non-elect have had their sins atoned for; and if their sins have been atoned for, then God cannot justly punish them in hell for those sins, becau"
         },
         {
-          "paragraph": 27,
-          "sentence_index": 3,
-          "flags": [
-            "long:69w"
-          ],
-          "preview": "Add to those three the Greek-of-election arguments for unconditional election ( Romans 9 and Ephesians 1's eulogy ), the Greek-of-perseverance arguments ( arrabōn and the proleptic aorist ), the irres"
-        },
-        {
-          "paragraph": 33,
+          "paragraph": 29,
           "sentence_index": 0,
           "flags": [
             "long:90w"
@@ -2574,7 +2566,7 @@
           "preview": "It sat in the most holy chamber of the tabernacle and later of the Solomonic and Herodian temples, behind a curtain that"
         },
         {
-          "paragraph": 29,
+          "paragraph": 26,
           "sentence_index": 3,
           "suppressed_flags": [
             "length-suppressed-chiasm:person,mercy"
@@ -2583,10 +2575,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 9,
+      "flagged_sentence_count": 8,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 2,
-      "score": 9
+      "score": 8
     },
     {
       "file": "apologetic-his-own-purpose-and-grace.html",
@@ -3140,7 +3132,7 @@
     },
     {
       "file": "apologetic-no-one-can-come-unless.html",
-      "paragraphs": 29,
+      "paragraphs": 27,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -3160,7 +3152,7 @@
           "preview": "Jesus then seals the whole scene by tracing even the apostasy back to the sovereign frame: verse 64, \"there are some of you who do not believe… This is why I told you that no one can come to me unless"
         },
         {
-          "paragraph": 27,
+          "paragraph": 25,
           "sentence_index": 2,
           "flags": [
             "long:52w"
@@ -3353,7 +3345,7 @@
     },
     {
       "file": "apologetic-nothing-can-separate.html",
-      "paragraphs": 27,
+      "paragraphs": 25,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -3406,14 +3398,6 @@
         },
         {
           "paragraph": 22,
-          "sentence_index": 4,
-          "flags": [
-            "long:48w"
-          ],
-          "preview": "This fourth one is the crescendo the chain was always building toward: the seven questions of Romans 8:31-39, where Paul takes the doctrine the chain established and shouts it into every realm of real"
-        },
-        {
-          "paragraph": 24,
           "sentence_index": 0,
           "flags": [
             "long:49w"
@@ -3424,10 +3408,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 8,
+      "flagged_sentence_count": 7,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 8
+      "score": 7
     },
     {
       "file": "apologetic-only-evil-all-the-time.html",
@@ -3918,7 +3902,7 @@
     },
     {
       "file": "apologetic-the-cardiac-transplant.html",
-      "paragraphs": 41,
+      "paragraphs": 39,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -3962,23 +3946,7 @@
           "preview": "If the seat of the will is in the brain  —  if every preference is the output of a brain state  —  then the question becomes: what kind of brain state would have to obtain for a human being whose defa"
         },
         {
-          "paragraph": 34,
-          "sentence_index": 4,
-          "flags": [
-            "long:62w"
-          ],
-          "preview": "Each grounded in a different register  —  apostolic narrative, historical pattern, prophetic oracle  —  but each arriving at the same observation: when grace reaches the elect heart, the grace is not "
-        },
-        {
-          "paragraph": 34,
-          "sentence_index": 5,
-          "flags": [
-            "long:64w"
-          ],
-          "preview": "Add to those three the Greek of eklogē and the eulogy of Ephesians 1 for unconditional election ; the priest's onyx stones , the Owen Trilemma , the mercy seat in Greek , and the ephapax chain in Hebr"
-        },
-        {
-          "paragraph": 35,
+          "paragraph": 33,
           "sentence_index": 1,
           "flags": [
             "long:47w"
@@ -3986,7 +3954,7 @@
           "preview": "A heart that has, somewhere along the way, come to love what it once did not love and to hate what it once hated is looking at the empirical evidence of a cardiac transplant it does not remember conse"
         },
         {
-          "paragraph": 35,
+          "paragraph": 33,
           "sentence_index": 4,
           "flags": [
             "long:53w"
@@ -3994,7 +3962,7 @@
           "preview": "Whatever year that was, the year before it was a heart of stone  —  and the year after it was a heart of flesh  —  and one cannot tell from the inside which day the surgery happened, because the surge"
         },
         {
-          "paragraph": 38,
+          "paragraph": 36,
           "sentence_index": 4,
           "flags": [
             "long:56w"
@@ -4002,7 +3970,7 @@
           "preview": "The LORD who removed the stone and installed the flesh and put His Spirit in His people and is even now causing them to walk in His decrees is the same LORD who promised in Philippians 1:6 that He who"
         },
         {
-          "paragraph": 39,
+          "paragraph": 37,
           "sentence_index": 0,
           "flags": [
             "long:80w"
@@ -4022,10 +3990,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 11,
+      "flagged_sentence_count": 9,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
-      "score": 11
+      "score": 9
     },
     {
       "file": "apologetic-the-cardiology-of-the-fall.html",
@@ -4208,7 +4176,7 @@
     },
     {
       "file": "apologetic-the-double-grip-of-john-10.html",
-      "paragraphs": 40,
+      "paragraphs": 37,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -4244,7 +4212,7 @@
           "preview": "Wesley's case for the possibility of apostasy held, in its most generous form, that perseverance is conditioned on continuing faith; that the believer who ceases to believe ceases to be a believer; th"
         },
         {
-          "paragraph": 36,
+          "paragraph": 33,
           "sentence_index": 0,
           "flags": [
             "long-simile:19w"
@@ -4252,7 +4220,7 @@
           "preview": "This is why the believer's faith, even at its weakest, even when it is mustard-seed small, even when it feels like a smoldering wick that the next breeze will extinguish  —  is sufficient evidence tha"
         },
         {
-          "paragraph": 38,
+          "paragraph": 35,
           "sentence_index": 0,
           "flags": [
             "long:73w"
@@ -4264,14 +4232,6 @@
       "suppressed_sentences": [
         {
           "paragraph": 31,
-          "sentence_index": 3,
-          "suppressed_flags": [
-            "length-suppressed-anaphora:2-word:and the×3"
-          ],
-          "preview": "Add to those three the Greek of eklogē and the eulogy of Ephesians 1 for unconditional election ; the priest's onyx ston"
-        },
-        {
-          "paragraph": 34,
           "sentence_index": 0,
           "suppressed_flags": [
             "length-suppressed-anaphora:2-word:the fear×3"
@@ -4282,12 +4242,12 @@
       "redundancy_count": 0,
       "flagged_sentence_count": 6,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 2,
+      "suppressed_sentence_count": 1,
       "score": 6
     },
     {
       "file": "apologetic-the-eulogy-greek-of-ephesians-1.html",
-      "paragraphs": 37,
+      "paragraphs": 35,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -4347,23 +4307,7 @@
           "preview": "To be elect in Christ is to be a member of the body of Christ; and to be a member of the body of Christ is, by Paul's repeated insistence, to have been placed there by the Spirit who applied the Fathe"
         },
         {
-          "paragraph": 30,
-          "sentence_index": 0,
-          "flags": [
-            "long:63w"
-          ],
-          "preview": "Add to those readings the Aaron's-onyx-stones case for definite atonement , the down-payment case for perseverance , the proleptic-aorist case for perseverance , the Acts 16:14 case for irresistible g"
-        },
-        {
-          "paragraph": 30,
-          "sentence_index": 2,
-          "flags": [
-            "long:66w"
-          ],
-          "preview": "Every Greek word, every historical episode, every philosophical move converging on the same observation that the apostle Paul, the Reformer Calvin, the Puritan Owen, the awakened Edwards, and the Wels"
-        },
-        {
-          "paragraph": 33,
+          "paragraph": 31,
           "sentence_index": 5,
           "flags": [
             "long:75w"
@@ -4371,7 +4315,7 @@
           "preview": "It sweeps you into the refrain  —  to the praise of His glory  —  which is the only sane response a creature can have to the discovery that her existence is not the cause of her salvation but the down"
         },
         {
-          "paragraph": 35,
+          "paragraph": 33,
           "sentence_index": 4,
           "flags": [
             "long:50w"
@@ -4382,10 +4326,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 11,
+      "flagged_sentence_count": 9,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 11
+      "score": 9
     },
     {
       "file": "apologetic-the-everlasting-covenant.html",
@@ -4519,7 +4463,7 @@
     },
     {
       "file": "apologetic-the-once-for-all-ephapax.html",
-      "paragraphs": 43,
+      "paragraphs": 40,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -4569,14 +4513,6 @@
             "long:81w"
           ],
           "preview": "The fuller treatment lives in the systematic apologetic for definite atonement ; the present article only need note the relevant contour. 1 Timothy 2:6's pantōn is governed, in context, by the same lo"
-        },
-        {
-          "paragraph": 34,
-          "sentence_index": 3,
-          "flags": [
-            "long:50w"
-          ],
-          "preview": "Add to those four the Greek of eklogē and the eulogy of Ephesians 1 for unconditional election ; the arrabōn and unbroken chain for perseverance ; the Lord's opening of Lydia's heart and the historica"
         }
       ],
       "suppressed_redundancy": [],
@@ -4599,10 +4535,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 7,
+      "flagged_sentence_count": 6,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 2,
-      "score": 7
+      "score": 6
     },
     {
       "file": "apologetic-the-pioneer-and-perfecter.html",
@@ -13878,7 +13814,7 @@
     },
     {
       "file": "psychology-backfire-effect.html",
-      "paragraphs": 42,
+      "paragraphs": 43,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -17346,24 +17282,16 @@
     },
     {
       "file": "secular-ai-determinism.html",
-      "paragraphs": 52,
-      "redundancy_pairs": [
-        {
-          "paragraph_a": 38,
-          "paragraph_b": 49,
-          "similarity": 0.37,
-          "a_preview": "Every time you interact with an AI and marvel at how it seems to think, to decide, to choose—while knowing wit",
-          "b_preview": "The next time you talk to an AI and watch it seem to think, to deliberate, to choose—remember: you are watchin"
-        }
-      ],
+      "paragraphs": 50,
+      "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
-      "redundancy_count": 1,
+      "redundancy_count": 0,
       "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 2
+      "score": 0
     },
     {
       "file": "secular-algorithm-sovereignty.html",
