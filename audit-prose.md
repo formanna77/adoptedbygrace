@@ -1,6 +1,6 @@
 # Prose Integrity Audit (Phase F) — Scanner v2
 
-**Generated:** 2026-06-20T02:09:54.600Z
+**Generated:** 2026-06-20T18:19:42.463Z
 **Spec:** `audit-prose.js v2` — redundancy (Jaccard ≥ 0.35 on significant-word bags) with **eight-class exemption filter** (closing-recurrence, Scripture-tsunami, pedagogical-anaphora, antithetical-parallelism, confessional-translation, historical-document-quotation, exegetical-comparison, research→pairing structural) + sentence-coherence heuristic with **anaphora/chiasm/embedded-quotation positive suppressors** + new **vehicle-tenor mismatch detector** (catches the original Aaron failure mode: simile whose vehicle and tenor are in incompatible domains).
 
 **Mandate (Aaron, 2026-04-27):** "many articles repeat themselves usually a couple times but sometimes even 3 times within the article... also some sentences don't make sense... we do not start expanding the website until every last sentence, paragraph, and article are written perfectly."
@@ -18,9 +18,9 @@
 | Articles with (genuine) redundancy | 9 (1.5%) |
 | Articles with (genuine) flagged sentences | 455 (74.1%) |
 | **Total redundancy pairs flagged (genuine)** | **9** |
-| **Total sentences flagged (genuine)** | **1315** |
+| **Total sentences flagged (genuine)** | **1309** |
 | Redundancy pairs suppressed (apex-tier exemptions) | 17 |
-| Sentence flags suppressed (coherence-positive) | 185 |
+| Sentence flags suppressed (coherence-positive) | 178 |
 
 ### Suppression breakdown by exemption class
 
@@ -36,24 +36,24 @@
 
 ## §II — Top 50 Most Broken Articles (Rebuild Queue, post-suppression)
 
-1. **canons-of-dort-plain-english.html** — score 28 (0 redundancy pairs, 28 flagged sentences, 98 paragraphs) *[1 pairs + 11 sentences auto-suppressed]*
-2. **apologetic-tetagmenoi-acts-13-48.html** — score 12 (0 redundancy pairs, 12 flagged sentences, 47 paragraphs) *[0 pairs + 3 sentences auto-suppressed]*
-3. **apologetic-lydias-heart.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 42 paragraphs) *[0 pairs + 3 sentences auto-suppressed]*
-4. **apologetic-not-because-but-because.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 40 paragraphs) *[0 pairs + 3 sentences auto-suppressed]*
-5. **apologetic-revival-and-sovereign-grace.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 33 paragraphs)
-6. **apologetic-the-cardiac-transplant.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 41 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-7. **apologetic-the-cardiology-of-the-fall.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 48 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-8. **apologetic-the-eulogy-greek-of-ephesians-1.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 37 paragraphs)
-9. **apologetic-the-unbroken-chain.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 39 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-10. **ethics-sexuality.html** — score 10 (0 redundancy pairs, 10 flagged sentences, 13 paragraphs)
-11. **apologetic-darkened-in-their-understanding.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 19 paragraphs)
-12. **apologetic-hilasterion-the-mercy-seat.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 36 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-13. **ephesians-1-3-14.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 35 paragraphs) *[0 pairs + 4 sentences auto-suppressed]*
-14. **reformed-apologetics-fine-tuning.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 15 paragraphs)
-15. **response-jerry-walls.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 63 paragraphs)
-16. **systematic-perseverance.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 34 paragraphs) *[0 pairs + 3 sentences auto-suppressed]*
-17. **apologetic-light-shine-out-of-darkness.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 11 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-18. **apologetic-nothing-can-separate.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 27 paragraphs)
+1. **canons-of-dort-plain-english.html** — score 28 (0 redundancy pairs, 28 flagged sentences, 98 paragraphs) *[1 pairs + 8 sentences auto-suppressed]*
+2. **apologetic-tetagmenoi-acts-13-48.html** — score 12 (0 redundancy pairs, 12 flagged sentences, 43 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+3. **apologetic-lydias-heart.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 41 paragraphs) *[0 pairs + 3 sentences auto-suppressed]*
+4. **apologetic-not-because-but-because.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 35 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+5. **apologetic-the-cardiac-transplant.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 41 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+6. **apologetic-the-eulogy-greek-of-ephesians-1.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 37 paragraphs)
+7. **apologetic-the-unbroken-chain.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 39 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+8. **apologetic-darkened-in-their-understanding.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 19 paragraphs)
+9. **apologetic-hilasterion-the-mercy-seat.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 36 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+10. **apologetic-the-cardiology-of-the-fall.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 45 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+11. **ephesians-1-3-14.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 35 paragraphs) *[0 pairs + 4 sentences auto-suppressed]*
+12. **ethics-sexuality.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 13 paragraphs)
+13. **reformed-apologetics-fine-tuning.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 15 paragraphs)
+14. **response-jerry-walls.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 63 paragraphs)
+15. **systematic-perseverance.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 34 paragraphs) *[0 pairs + 3 sentences auto-suppressed]*
+16. **apologetic-light-shine-out-of-darkness.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 11 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+17. **apologetic-nothing-can-separate.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 27 paragraphs)
+18. **apologetic-revival-and-sovereign-grace.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 28 paragraphs)
 19. **apologetic-the-prayer-you-never-spontaneously-prayed.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 35 paragraphs) *[0 pairs + 4 sentences auto-suppressed]*
 20. **argument-cost-of-being-wrong.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 63 paragraphs)
 21. **ethics-immigration.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 18 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
@@ -99,16 +99,16 @@
 - [long:57w] (¶13): "Article 7 (plain English): Election is the unchangeable purpose of God, by which, before the foundation of the world, He chose, from the whole human race (which had fallen from original integrity into…"
 - [long:56w] (¶13): "So, in order to actually save them, He also determined to give them to Christ, effectively call them, draw them into fellowship with Christ by His Word and Spirit, grant them true faith in Him , justi…"
 - [long:53w] (¶15): "Scripture teaches that there is one good pleasure, one purpose, one plan of God  —  according to which He has elected us from eternity both to grace and to glory, to salvation and to the way of salvat…"
+- [long:58w] (¶20): "They reach it not by prying curiously into the secret and deep things of God, but by observing within themselves, with spiritual joy and holy delight, the infallible fruits of election that God's Word…"
 - [long:51w] (¶21): "Article 13 (plain English): In their awareness and assurance of this election, the children of God find daily reason to humble themselves before Him, to adore the depth of His mercies, to cleanse them…"
-- [long:102w] (¶23): "Article 14 (plain English): Just as this teaching of divine election, by the most wise counsel of God, was proclaimed through the prophets, Christ Himself, and the apostles, and handed down in the Hol…"
-- [long:77w] (¶25): "Out of His completely free, most just, irreprehensible, and unchangeable good pleasure, God has decreed to leave them in the common misery into which they have, by their own fault, plunged themselves;…"
 - [long:73w] (¶27): "Article 16 (plain English): Those who do not yet actively feel a living faith in Christ , or an assured confidence in their soul, peace of conscience, serious effort at childlike obedience, and gloryi…"
+- [long:66w] (¶39): "Article 2 (plain English): Since, however, we ourselves cannot give this satisfaction nor deliver ourselves from the wrath of God, it has pleased Him in His boundless mercy to give His only begotten S…"
 - … and 20 more.
 
 **Suppressions** (auto-filtered as exemptions / coherence-positives):
 
 - 1 redundancy pair suppressed: confessional-translation
-- 11 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
+- 8 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
 
 ### apologetic-tetagmenoi-acts-13-48.html — score 12
 
@@ -126,7 +126,7 @@
 
 **Suppressions** (auto-filtered as exemptions / coherence-positives):
 
-- 3 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
+- 1 sentence flag suppressed (anaphora / chiasm / embedded-quotation)
 
 ### apologetic-lydias-heart.html — score 11
 
@@ -162,21 +162,7 @@
 
 **Suppressions** (auto-filtered as exemptions / coherence-positives):
 
-- 3 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
-
-### apologetic-revival-and-sovereign-grace.html — score 11
-
-**Flagged sentences (11):**
-
-- [long:60w] (¶0): "When the Spirit of God has descended on a town or a country in an outpouring so undeniable that even hostile observers conceded something supernatural was occurring, the question worth asking  —  quie…"
-- [long:60w] (¶1): "Across three of the most-studied awakenings of the last three centuries  —  New England in the 1730s and 1740s, Wales in 1859, Pyongyang in 1907  —  the doctrine the awakened were preaching, the doctr…"
-- [long:62w] (¶3): "The pattern: a sudden conviction of sin so deep the person could not shake it; a desperation that could not be alleviated by any moral reform; an arrival, often abrupt, of an apprehension of Christ as…"
-- [long:67w] (¶4): "The Spirit poured out in measurable, observable, sociologically documented power, and the message that was being preached when the outpouring came was the message that the human being is dead in trans…"
-- [long:49w] (¶6): "Its national spread came through itinerant preachers who criss-crossed the colonies in the 1740s  —  most famously George Whitefield , the English evangelist whose voice could be heard, by Benjamin Fr…"
-- [long:50w] (¶8): "Compare this with the contemporary work of Charles Finney , whose Pelagianizing methods produced large numerical results but, by Finney's own later admission in his Memoirs , an attrition rate so deva…"
-- [long:88w] (¶12): "Letters and diaries from the period record the experience again and again: a congregation gathered for an ordinary service; the minister rose to preach what he had prepared; before he had finished his…"
-- [long:46w] (¶23): "The conclusion is more modest and more disturbing: when the Spirit's outpouring has been sustained, undeniable, and historically transformative, the doctrine being preached at the pulpit has, with rem…"
-- … and 3 more.
+- 1 sentence flag suppressed (anaphora / chiasm / embedded-quotation)
 
 ### apologetic-the-cardiac-transplant.html — score 11
 
@@ -195,24 +181,6 @@
 **Suppressions** (auto-filtered as exemptions / coherence-positives):
 
 - 1 sentence flag suppressed (anaphora / chiasm / embedded-quotation)
-
-### apologetic-the-cardiology-of-the-fall.html — score 11
-
-**Flagged sentences (11):**
-
-- [long:47w] (¶1): "Twice in the Hebrew Bible  —  once in Genesis, once in Jeremiah, eight centuries apart, by two writers who never met, in two completely different genres of literature  —  the LORD looks at the chart o…"
-- [long:59w] (¶5): "The yetzer of a thing is what it has been shaped to incline toward; it is the engineered bent, the default trajectory. machshvot  —  "thoughts, plans, devisings"  —  the plural of machshavah , the cog…"
-- [long:60w] (¶10): "The kingdom of Israel has split, the northern tribes have been carried into Assyria, the southern kingdom of Judah is on the verge of being carried into Babylon, and the prophet Jeremiah is standing a…"
-- [long:47w] (¶19): "The entire architecture of therapy, of authenticity ethics, of "follow your heart," of "trust your gut," of "you do you," of every diagnostic the reader has ever applied to her own life depends on a h…"
-- [long:55w] (¶31): "This is what Augustine meant by his famous remark that the virtues of the pagans are, at best, "splendid vices"  —  the actions look like virtues from the outside but, when traced to the inclination b…"
-- [long:47w] (¶38): "Vekhol-yetzer raq ra kol-hayom  —  every inclination only evil all the time  —  is the diagnosis that makes the Son's definite atonement necessary, because nothing less than a substitute who actually …"
-- [long:57w] (¶40): "The angle joins the previously-deployed angles of the unprompted-prayer test ( start-here-phase1 ), the flesh-vs.-Bible test (the drowning-man analogy ), the infant-sin test, the sleep-test, the good-…"
-- [long:96w] (¶41): "Add to the depravity case the four facets the site has built for the other four doctrines of grace  —  the Greek of eklogē and the eulogy of Ephesians 1 for election ; the priest's onyx stones , the O…"
-- … and 3 more.
-
-**Suppressions** (auto-filtered as exemptions / coherence-positives):
-
-- 2 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
 
 ### apologetic-the-eulogy-greek-of-ephesians-1.html — score 11
 
@@ -246,20 +214,6 @@
 
 - 2 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
 
-### ethics-sexuality.html — score 10
-
-**Flagged sentences (10):**
-
-- [long:56w] (¶1): "The gospel's whole counter-testimony is that the autonomous self is an illusion, that our desires are not a reliable compass but a fallen instrument , and that our truest identity is not something we …"
-- [long:55w] (¶5): "The thoughtful critic says: "You are asking a whole category of human beings to accept a life without romantic love, without partnership, without the comfort of a body beside theirs  —  not for a seas…"
-- [long:62w] (¶6): "The celibate has been, across two thousand years of Christian history, not a tragic figure but often the freest and most fruitful of saints; the Lord Jesus Himself lived a fully human life of perfect …"
-- [long:62w] (¶6): "The answer to the church's failure of love is not to abandon the ethic but finally to obey the rest of it: to make the local church a true family, where the celibate believer is not consigned to lonel…"
-- [long:49w] (¶7): "The modern self is constructed : you look inward, find your deepest desire, and build your identity on it  —  "I am my sexuality." The Christian self is conferred : you look upward, receive who God ha…"
-- [long:51w] (¶7): "And this is liberating in a way the modern story can never be, because an identity you construct from your desires is at the mercy of your desires  —  it shifts when they shift, it shatters when they …"
-- [long:69w] (¶8): "And the Spirit who is sanctifying you supplies, day by day, the strength to walk a road you could not walk alone  —  not by gritted willpower scraping toward a verdict, for the verdict was never earne…"
-- [long:51w] (¶9): "The same Christ who calls you to costly faithfulness offers you Himself  —  union with the Bridegroom of whom every earthly marriage was only ever a picture, and a family in the church that should hav…"
-- … and 2 more.
-
 ### apologetic-darkened-in-their-understanding.html — score 9
 
 **Flagged sentences (9):**
@@ -292,6 +246,24 @@
 
 - 2 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
 
+### apologetic-the-cardiology-of-the-fall.html — score 9
+
+**Flagged sentences (9):**
+
+- [long:47w] (¶1): "Twice in the Hebrew Bible  —  once in Genesis, once in Jeremiah, eight centuries apart, by two writers who never met, in two completely different genres of literature  —  the LORD looks at the chart o…"
+- [long:59w] (¶5): "The yetzer of a thing is what it has been shaped to incline toward; it is the engineered bent, the default trajectory. machshvot  —  "thoughts, plans, devisings"  —  the plural of machshavah , the cog…"
+- [long:60w] (¶10): "The kingdom of Israel has split, the northern tribes have been carried into Assyria, the southern kingdom of Judah is on the verge of being carried into Babylon, and the prophet Jeremiah is standing a…"
+- [long:47w] (¶19): "The entire architecture of therapy, of authenticity ethics, of "follow your heart," of "trust your gut," of "you do you," of every diagnostic the reader has ever applied to her own life depends on a h…"
+- [long:55w] (¶31): "This is what Augustine meant by his famous remark that the virtues of the pagans are, at best, "splendid vices"  —  the actions look like virtues from the outside but, when traced to the inclination b…"
+- [long:47w] (¶38): "Vekhol-yetzer raq ra kol-hayom  —  every inclination only evil all the time  —  is the diagnosis that makes the Son's definite atonement necessary, because nothing less than a substitute who actually …"
+- [long:58w] (¶41): "The fact that the refinement is ongoing  —  that you still catch the heart in moments of self-deception , that the rehearsed grievance still surfaces, that the affection for God still feels weaker tha…"
+- [long:47w] (¶42): "The same LORD who read your chart and called the diagnosis aqov and anush is the LORD who, knowing the diagnosis was incurable by ordinary means, sent His own Son to die for the patient and His own Sp…"
+- … and 1 more.
+
+**Suppressions** (auto-filtered as exemptions / coherence-positives):
+
+- 2 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
+
 ### ephesians-1-3-14.html — score 9
 
 **Flagged sentences (9):**
@@ -309,6 +281,20 @@
 **Suppressions** (auto-filtered as exemptions / coherence-positives):
 
 - 4 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
+
+### ethics-sexuality.html — score 9
+
+**Flagged sentences (9):**
+
+- [long:56w] (¶1): "The gospel's whole counter-testimony is that the autonomous self is an illusion, that our desires are not a reliable compass but a fallen instrument , and that our truest identity is not something we …"
+- [long:55w] (¶5): "The thoughtful critic says: "You are asking a whole category of human beings to accept a life without romantic love, without partnership, without the comfort of a body beside theirs  —  not for a seas…"
+- [long:62w] (¶6): "The celibate has been, across two thousand years of Christian history, not a tragic figure but often the freest and most fruitful of saints; the Lord Jesus Himself lived a fully human life of perfect …"
+- [long:62w] (¶6): "The answer to the church's failure of love is not to abandon the ethic but finally to obey the rest of it: to make the local church a true family, where the celibate believer is not consigned to lonel…"
+- [long:49w] (¶7): "The modern self is constructed : you look inward, find your deepest desire, and build your identity on it  —  "I am my sexuality." The Christian self is conferred : you look upward, receive who God ha…"
+- [long:69w] (¶8): "And the Spirit who is sanctifying you supplies, day by day, the strength to walk a road you could not walk alone  —  not by gritted willpower scraping toward a verdict, for the verdict was never earne…"
+- [long:51w] (¶9): "The same Christ who calls you to costly faithfulness offers you Himself  —  union with the Bridegroom of whom every earthly marriage was only ever a picture, and a family in the church that should hav…"
+- [long:46w] (¶9): "And if you have sinned sexually in any of the thousand ways human beings do  —  and you have, and so has the writer of this page  —  the gospel for you is exactly the gospel for everyone: "And that is…"
+- … and 1 more.
 
 ### reformed-apologetics-fine-tuning.html — score 9
 
@@ -385,6 +371,19 @@
 - [long:69w] (¶20): "He conducted the most exhaustive search in Scripture for the one thing that could place a person outside the love of God  —  and he ransacked death, life, the spirit-world, time, power, the stars at t…"
 - [long:48w] (¶22): "This fourth one is the crescendo the chain was always building toward: the seven questions of Romans 8:31-39, where Paul takes the doctrine the chain established and shouts it into every realm of real…"
 - [long:49w] (¶24): "If you have read this and the security still feels too good to trust  —  if the old engine of fear is whispering that a promise this total must have fine print you have not read  —  then go back and r…"
+
+### apologetic-revival-and-sovereign-grace.html — score 8
+
+**Flagged sentences (8):**
+
+- [long:60w] (¶0): "When the Spirit of God has descended on a town or a country in an outpouring so undeniable that even hostile observers conceded something supernatural was occurring, the question worth asking  —  quie…"
+- [long:60w] (¶1): "Across three of the most-studied awakenings of the last three centuries  —  New England in the 1730s and 1740s, Wales in 1859, Pyongyang in 1907  —  the doctrine the awakened were preaching, the doctr…"
+- [long:62w] (¶3): "The pattern: a sudden conviction of sin so deep the person could not shake it; a desperation that could not be alleviated by any moral reform; an arrival, often abrupt, of an apprehension of Christ as…"
+- [long:67w] (¶4): "The Spirit poured out in measurable, observable, sociologically documented power, and the message that was being preached when the outpouring came was the message that the human being is dead in trans…"
+- [long:49w] (¶6): "Its national spread came through itinerant preachers who criss-crossed the colonies in the 1740s  —  most famously George Whitefield , the English evangelist whose voice could be heard, by Benjamin Fr…"
+- [long:50w] (¶8): "Compare this with the contemporary work of Charles Finney , whose Pelagianizing methods produced large numerical results but, by Finney's own later admission in his Memoirs , an attrition rate so deva…"
+- [long:88w] (¶12): "Letters and diaries from the period record the experience again and again: a congregation gathered for an ordinary service; the minister rose to preach what he had prepared; before he had finished his…"
+- [long:46w] (¶23): "The conclusion is more modest and more disturbing: when the Spirit's outpouring has been sustained, undeniable, and historically transformative, the doctrine being preached at the pulpit has, with rem…"
 
 ### apologetic-the-prayer-you-never-spontaneously-prayed.html — score 8
 

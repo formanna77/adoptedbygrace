@@ -2,14 +2,14 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-20T02:09:54.579Z",
+  "generated": "2026-06-20T18:19:42.443Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 614,
     "total_redundancy_pairs_flagged": 9,
-    "total_sentences_flagged": 1315,
+    "total_sentences_flagged": 1309,
     "total_redundancy_pairs_suppressed": 17,
-    "total_sentences_suppressed": 185,
+    "total_sentences_suppressed": 178,
     "articles_with_redundancy": 9,
     "articles_with_flagged_sentences": 455,
     "articles_clean": 154,
@@ -27,21 +27,21 @@
       "redundancy_count": 0,
       "flagged_sentence_count": 28,
       "suppressed_redundancy_count": 1,
-      "suppressed_sentence_count": 11
+      "suppressed_sentence_count": 8
     },
     {
       "file": "apologetic-tetagmenoi-acts-13-48.html",
       "score": 12,
-      "paragraphs": 47,
+      "paragraphs": 43,
       "redundancy_count": 0,
       "flagged_sentence_count": 12,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 3
+      "suppressed_sentence_count": 1
     },
     {
       "file": "apologetic-lydias-heart.html",
       "score": 11,
-      "paragraphs": 42,
+      "paragraphs": 41,
       "redundancy_count": 0,
       "flagged_sentence_count": 11,
       "suppressed_redundancy_count": 0,
@@ -50,20 +50,11 @@
     {
       "file": "apologetic-not-because-but-because.html",
       "score": 11,
-      "paragraphs": 40,
+      "paragraphs": 35,
       "redundancy_count": 0,
       "flagged_sentence_count": 11,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 3
-    },
-    {
-      "file": "apologetic-revival-and-sovereign-grace.html",
-      "score": 11,
-      "paragraphs": 33,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 11,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
+      "suppressed_sentence_count": 1
     },
     {
       "file": "apologetic-the-cardiac-transplant.html",
@@ -73,15 +64,6 @@
       "flagged_sentence_count": 11,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1
-    },
-    {
-      "file": "apologetic-the-cardiology-of-the-fall.html",
-      "score": 11,
-      "paragraphs": 48,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 11,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 2
     },
     {
       "file": "apologetic-the-eulogy-greek-of-ephesians-1.html",
@@ -102,15 +84,6 @@
       "suppressed_sentence_count": 2
     },
     {
-      "file": "ethics-sexuality.html",
-      "score": 10,
-      "paragraphs": 13,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 10,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
       "file": "apologetic-darkened-in-their-understanding.html",
       "score": 9,
       "paragraphs": 19,
@@ -129,6 +102,15 @@
       "suppressed_sentence_count": 2
     },
     {
+      "file": "apologetic-the-cardiology-of-the-fall.html",
+      "score": 9,
+      "paragraphs": 45,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 9,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2
+    },
+    {
       "file": "ephesians-1-3-14.html",
       "score": 9,
       "paragraphs": 35,
@@ -136,6 +118,15 @@
       "flagged_sentence_count": 9,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 4
+    },
+    {
+      "file": "ethics-sexuality.html",
+      "score": 9,
+      "paragraphs": 13,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 9,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
     },
     {
       "file": "reformed-apologetics-fine-tuning.html",
@@ -177,6 +168,15 @@
       "file": "apologetic-nothing-can-separate.html",
       "score": 8,
       "paragraphs": 27,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 8,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
+      "file": "apologetic-revival-and-sovereign-grace.html",
+      "score": 8,
+      "paragraphs": 28,
       "redundancy_count": 0,
       "flagged_sentence_count": 8,
       "suppressed_redundancy_count": 0,
@@ -2983,7 +2983,7 @@
     },
     {
       "file": "apologetic-lydias-heart.html",
-      "paragraphs": 42,
+      "paragraphs": 41,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -3242,7 +3242,7 @@
     },
     {
       "file": "apologetic-not-because-but-because.html",
-      "paragraphs": 40,
+      "paragraphs": 35,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -3318,7 +3318,7 @@
           "preview": "The election of Jerusalem as the place where the LORD would put His Name is grounded in nothing the text names about Jerusalem's prior holiness; the city was the stronghold of the Jebusites until Davi"
         },
         {
-          "paragraph": 33,
+          "paragraph": 29,
           "sentence_index": 1,
           "flags": [
             "long:59w"
@@ -3326,7 +3326,7 @@
           "preview": "If you are reading this and you find that you have, somewhere in your past or your present, been brought to faith in the Lord Jesus Christ, then the Hebrew of Deuteronomy 7:7 says of you, by structura"
         },
         {
-          "paragraph": 37,
+          "paragraph": 33,
           "sentence_index": 0,
           "flags": [
             "long:92w"
@@ -3343,28 +3343,12 @@
             "length-suppressed-embedded-quotation:87w-raw/46w-prose"
           ],
           "preview": "\"Yet, before the twins were born or had done anything good or bad  —  in order that God's purpose in election might stan"
-        },
-        {
-          "paragraph": 30,
-          "sentence_index": 5,
-          "suppressed_flags": [
-            "length-suppressed-anaphora:1-word:greek×3"
-          ],
-          "preview": "Each grounded in a different register  —  Greek dogmatic argument, Greek doxological architecture, Greek narrative restr"
-        },
-        {
-          "paragraph": 31,
-          "sentence_index": 0,
-          "suppressed_flags": [
-            "length-suppressed-anaphora:2-word:and the×5"
-          ],
-          "preview": "Add to the four facets of unconditional election the wider company already in place: the priest's onyx stones , the Owen"
         }
       ],
       "redundancy_count": 0,
       "flagged_sentence_count": 11,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 3,
+      "suppressed_sentence_count": 1,
       "score": 11
     },
     {
@@ -3661,7 +3645,7 @@
     },
     {
       "file": "apologetic-revival-and-sovereign-grace.html",
-      "paragraphs": 33,
+      "paragraphs": 28,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -3727,39 +3711,15 @@
             "long:46w"
           ],
           "preview": "The conclusion is more modest and more disturbing: when the Spirit's outpouring has been sustained, undeniable, and historically transformative, the doctrine being preached at the pulpit has, with rem"
-        },
-        {
-          "paragraph": 28,
-          "sentence_index": 0,
-          "flags": [
-            "long:62w"
-          ],
-          "preview": "And the case for unconditional election from the Greek of Romans 9 , the case for the Lazarus monergism diagram of the fourth-day corpse , the case for the Owen Trilemma in the death of death in the d"
-        },
-        {
-          "paragraph": 29,
-          "sentence_index": 0,
-          "flags": [
-            "long:53w"
-          ],
-          "preview": "The historical argument and the lexical argument and the philosophical argument and the experiential argument all converge on the same observation that the apostle Paul, the Reformer Calvin, the Purit"
-        },
-        {
-          "paragraph": 30,
-          "sentence_index": 1,
-          "flags": [
-            "long:47w"
-          ],
-          "preview": "The same Spirit who poured Himself on Northampton in 1734, on the Welsh chapels in 1859, on the Korean meetings in 1907, is the Spirit who is at work on the inside of every reader who has ever cared w"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 11,
+      "flagged_sentence_count": 8,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 11
+      "score": 8
     },
     {
       "file": "apologetic-save-his-people.html",
@@ -3839,7 +3799,7 @@
     },
     {
       "file": "apologetic-tetagmenoi-acts-13-48.html",
-      "paragraphs": 47,
+      "paragraphs": 43,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -3923,7 +3883,7 @@
           "preview": "The fallen heart trusts volume over voice, controversy over consonance, the loud \"perhaps\" over the quiet \"is.\" It will believe a clever paragraph by yesterday's commentator over a periphrastic pluper"
         },
         {
-          "paragraph": 41,
+          "paragraph": 38,
           "sentence_index": 1,
           "flags": [
             "long:73w"
@@ -3931,7 +3891,7 @@
           "preview": "If you have ever believed in the Lord Jesus Christ  —  if there is any moment in your life past or present at which the gospel struck you not as foolishness or as an interesting historical claim but a"
         },
         {
-          "paragraph": 45,
+          "paragraph": 42,
           "sentence_index": 0,
           "flags": [
             "long:92w"
@@ -3948,28 +3908,12 @@
             "length-suppressed-anaphora:2-word:not the×6"
           ],
           "preview": "The cumulative force of these three answers is the reason no major modern translation  —  not the NIV, not the ESV, not "
-        },
-        {
-          "paragraph": 39,
-          "sentence_index": 4,
-          "suppressed_flags": [
-            "length-suppressed-chiasm:pauline,appointing,elect"
-          ],
-          "preview": "Each grounded in a different register  —  dense Pauline argument, Pauline doxological architecture, Lukan narrative rest"
-        },
-        {
-          "paragraph": 39,
-          "sentence_index": 5,
-          "suppressed_flags": [
-            "length-suppressed-anaphora:2-word:and the×3"
-          ],
-          "preview": "Add to those three the priest's onyx stones , the Owen Trilemma , the mercy seat in Greek , and the ephapax chain in Heb"
         }
       ],
       "redundancy_count": 0,
       "flagged_sentence_count": 12,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 3,
+      "suppressed_sentence_count": 1,
       "score": 12
     },
     {
@@ -4085,7 +4029,7 @@
     },
     {
       "file": "apologetic-the-cardiology-of-the-fall.html",
-      "paragraphs": 48,
+      "paragraphs": 45,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -4137,23 +4081,7 @@
           "preview": "Vekhol-yetzer raq ra kol-hayom  —  every inclination only evil all the time  —  is the diagnosis that makes the Son's definite atonement necessary, because nothing less than a substitute who actually "
         },
         {
-          "paragraph": 40,
-          "sentence_index": 1,
-          "flags": [
-            "long:57w"
-          ],
-          "preview": "The angle joins the previously-deployed angles of the unprompted-prayer test ( start-here-phase1 ), the flesh-vs.-Bible test (the drowning-man analogy ), the infant-sin test, the sleep-test, the good-"
-        },
-        {
           "paragraph": 41,
-          "sentence_index": 0,
-          "flags": [
-            "long:96w"
-          ],
-          "preview": "Add to the depravity case the four facets the site has built for the other four doctrines of grace  —  the Greek of eklogē and the eulogy of Ephesians 1 for election ; the priest's onyx stones , the O"
-        },
-        {
-          "paragraph": 43,
           "sentence_index": 3,
           "flags": [
             "long:58w"
@@ -4161,7 +4089,7 @@
           "preview": "The fact that the refinement is ongoing  —  that you still catch the heart in moments of self-deception , that the rehearsed grievance still surfaces, that the affection for God still feels weaker tha"
         },
         {
-          "paragraph": 44,
+          "paragraph": 42,
           "sentence_index": 1,
           "flags": [
             "long:47w"
@@ -4169,7 +4097,7 @@
           "preview": "The same LORD who read your chart and called the diagnosis aqov and anush is the LORD who, knowing the diagnosis was incurable by ordinary means, sent His own Son to die for the patient and His own Sp"
         },
         {
-          "paragraph": 45,
+          "paragraph": 43,
           "sentence_index": 0,
           "flags": [
             "long:67w"
@@ -4197,10 +4125,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 11,
+      "flagged_sentence_count": 9,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 2,
-      "score": 11
+      "score": 9
     },
     {
       "file": "apologetic-the-conscience-that-only-accuses.html",
@@ -5013,7 +4941,7 @@
         },
         {
           "paragraph": 31,
-          "sentence_index": 3,
+          "sentence_index": 2,
           "flags": [
             "long:77w"
           ],
@@ -5811,28 +5739,20 @@
           "preview": "Scripture teaches that there is one good pleasure, one purpose, one plan of God  —  according to which He has elected us from eternity both to grace and to glory, to salvation and to the way of salvat"
         },
         {
+          "paragraph": 20,
+          "sentence_index": 1,
+          "flags": [
+            "long:58w"
+          ],
+          "preview": "They reach it not by prying curiously into the secret and deep things of God, but by observing within themselves, with spiritual joy and holy delight, the infallible fruits of election that God's Word"
+        },
+        {
           "paragraph": 21,
           "sentence_index": 0,
           "flags": [
             "long:51w"
           ],
           "preview": "Article 13 (plain English): In their awareness and assurance of this election, the children of God find daily reason to humble themselves before Him, to adore the depth of His mercies, to cleanse them"
-        },
-        {
-          "paragraph": 23,
-          "sentence_index": 0,
-          "flags": [
-            "long:102w"
-          ],
-          "preview": "Article 14 (plain English): Just as this teaching of divine election, by the most wise counsel of God, was proclaimed through the prophets, Christ Himself, and the apostles, and handed down in the Hol"
-        },
-        {
-          "paragraph": 25,
-          "sentence_index": 1,
-          "flags": [
-            "long:77w"
-          ],
-          "preview": "Out of His completely free, most just, irreprehensible, and unchangeable good pleasure, God has decreed to leave them in the common misery into which they have, by their own fault, plunged themselves;"
         },
         {
           "paragraph": 27,
@@ -5875,6 +5795,22 @@
           "preview": "Article 8 (plain English): For this was the sovereign counsel and most gracious will and purpose of God the Father: that the life-giving and saving effectiveness of His Son's most precious death shoul"
         },
         {
+          "paragraph": 46,
+          "sentence_index": 1,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "In other words: God willed that Christ, through the blood of the cross (by which He confirmed the new covenant), should effectively redeem from every people, tribe, nation, and language all those, and"
+        },
+        {
+          "paragraph": 46,
+          "sentence_index": 3,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "And He willed that Christ should cleanse them from all their sins, both original and actual, committed whether before or after believing; should faithfully preserve them to the very end; and should at"
+        },
+        {
           "paragraph": 48,
           "sentence_index": 0,
           "flags": [
@@ -5907,24 +5843,16 @@
           "preview": "So those who receive so much grace beyond and contrary to all that they deserve ought to acknowledge it with humble and grateful hearts; as for the others, who do not receive this grace, they should r"
         },
         {
-          "paragraph": 63,
-          "sentence_index": 2,
-          "flags": [
-            "long:86w"
-          ],
-          "preview": "No, it must be credited to God: just as from eternity He has chosen His own in Christ , so in time He effectively calls them, grants them faith and repentance, delivers them from the dominion of darkn"
-        },
-        {
           "paragraph": 65,
           "sentence_index": 0,
           "flags": [
-            "long:87w"
+            "long:58w"
           ],
-          "preview": "Article 11 (plain English): Moreover, when God accomplishes this good pleasure in the elect, or works in them true conversion, He not only has the Gospel outwardly preached to them, and powerfully ill"
+          "preview": "Article 11 (plain English): Moreover, when God accomplishes this good pleasure in the elect  —  when He works in them true conversion  —  He does not only have the Gospel outwardly preached to them an"
         },
         {
           "paragraph": 65,
-          "sentence_index": 1,
+          "sentence_index": 2,
           "flags": [
             "long:51w"
           ],
@@ -6016,14 +5944,6 @@
       ],
       "suppressed_sentences": [
         {
-          "paragraph": 20,
-          "sentence_index": 0,
-          "suppressed_flags": [
-            "length-suppressed-chiasm:election,things"
-          ],
-          "preview": "Article 12 (plain English): In due time, though to varying degrees and in differing measures, the elect attain the assur"
-        },
-        {
           "paragraph": 25,
           "sentence_index": 0,
           "suppressed_flags": [
@@ -6064,14 +5984,6 @@
           "preview": "And His justice requires (as He has revealed Himself in His Word) that our sins committed against His infinite majesty b"
         },
         {
-          "paragraph": 46,
-          "sentence_index": 1,
-          "suppressed_flags": [
-            "length-suppressed-anaphora:2-word:that he×3"
-          ],
-          "preview": "In other words: God willed that Christ, through the blood of the cross (by which He confirmed the new covenant), should "
-        },
-        {
           "paragraph": 62,
           "sentence_index": 0,
           "suppressed_flags": [
@@ -6094,20 +6006,12 @@
             "length-suppressed-chiasm:articles,believer,faith,grace"
           ],
           "preview": "Articles 13-17 (summary): These articles unfold the pastoral and practical implications: the manner of regeneration is m"
-        },
-        {
-          "paragraph": 78,
-          "sentence_index": 0,
-          "suppressed_flags": [
-            "length-suppressed-chiasm:totally,spirit"
-          ],
-          "preview": "Article 6 (plain English): But God  —  who is rich in mercy, according to the unchangeable purpose of His election  —  d"
         }
       ],
       "redundancy_count": 0,
       "flagged_sentence_count": 28,
       "suppressed_redundancy_count": 1,
-      "suppressed_sentence_count": 11,
+      "suppressed_sentence_count": 8,
       "score": 28
     },
     {
@@ -9992,14 +9896,6 @@
           "preview": "The modern self is constructed : you look inward, find your deepest desire, and build your identity on it  —  \"I am my sexuality.\" The Christian self is conferred : you look upward, receive who God ha"
         },
         {
-          "paragraph": 7,
-          "sentence_index": 2,
-          "flags": [
-            "long:51w"
-          ],
-          "preview": "And this is liberating in a way the modern story can never be, because an identity you construct from your desires is at the mercy of your desires  —  it shifts when they shift, it shatters when they "
-        },
-        {
           "paragraph": 8,
           "sentence_index": 4,
           "flags": [
@@ -10035,10 +9931,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 10,
+      "flagged_sentence_count": 9,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 10
+      "score": 9
     },
     {
       "file": "ethics-speech.html",
@@ -13547,13 +13443,13 @@
     },
     {
       "file": "philosophy-problem-of-merit.html",
-      "paragraphs": 48,
+      "paragraphs": 44,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
       "suppressed_sentences": [
         {
-          "paragraph": 39,
+          "paragraph": 37,
           "sentence_index": 2,
           "suppressed_flags": [
             "length-suppressed-anaphora:2-word:and so×3"
@@ -16230,7 +16126,7 @@
       "flagged_sentences": [
         {
           "paragraph": 18,
-          "sentence_index": 3,
+          "sentence_index": 2,
           "flags": [
             "long:53w"
           ],
