@@ -2,14 +2,14 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-20T18:50:07.838Z",
+  "generated": "2026-06-20T19:39:52.283Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 614,
     "total_redundancy_pairs_flagged": 8,
-    "total_sentences_flagged": 1302,
+    "total_sentences_flagged": 1300,
     "total_redundancy_pairs_suppressed": 17,
-    "total_sentences_suppressed": 177,
+    "total_sentences_suppressed": 174,
     "articles_with_redundancy": 8,
     "articles_with_flagged_sentences": 455,
     "articles_clean": 155,
@@ -5517,7 +5517,7 @@
     },
     {
       "file": "broken-mirror-imposter-syndrome.html",
-      "paragraphs": 43,
+      "paragraphs": 39,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -5529,7 +5529,7 @@
           "preview": "Charles Spurgeon  —  the Prince of Preachers, packing a tabernacle of six thousand twice every Sunday in Victorian London  —  fought clinical depression so severe that he repeatedly told his congregat"
         },
         {
-          "paragraph": 40,
+          "paragraph": 36,
           "sentence_index": 1,
           "flags": [
             "long:55w"
@@ -6707,7 +6707,7 @@
     },
     {
       "file": "demolition-1john2-2.html",
-      "paragraphs": 31,
+      "paragraphs": 26,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -6719,7 +6719,7 @@
           "preview": "That reflex  —  the speed of the read, the magnetic pull toward the proof-text fragment, the absence of any internal pause to ask what does the word in front of \"for the sins of\" actually mean?  —  is"
         },
         {
-          "paragraph": 29,
+          "paragraph": 25,
           "sentence_index": 4,
           "flags": [
             "long:56w"
@@ -8118,7 +8118,7 @@
     },
     {
       "file": "devotional-drawn-not-dragged.html",
-      "paragraphs": 23,
+      "paragraphs": 22,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -8773,14 +8773,6 @@
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 3,
-          "sentence_index": 4,
-          "flags": [
-            "padding-modifier:in the silence"
-          ],
-          "preview": "Because where  —  with your back against the cabinet, in the silence  —  did the reaching come from?"
-        },
-        {
           "paragraph": 20,
           "sentence_index": 3,
           "flags": [
@@ -8792,10 +8784,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 2,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 2
+      "score": 1
     },
     {
       "file": "devotional-the-quiet-after-the-storm.html",
@@ -11384,7 +11376,7 @@
     },
     {
       "file": "joy-security-changes-everything.html",
-      "paragraphs": 57,
+      "paragraphs": 52,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -11402,23 +11394,15 @@
             "long:46w"
           ],
           "preview": "But if your salvation is absolutely secure — if you truly believe that you are sealed by the Holy Spirit , that you cannot snatch yourself out of God's hand, that your glorification is already accompl"
-        },
-        {
-          "paragraph": 48,
-          "sentence_index": 0,
-          "flags": [
-            "long:57w"
-          ],
-          "preview": "But if your honest answer is no — if you truly believe that you cannot lose what God has given you, that no one can snatch you out of His hand, that the one who began the work in you will complete it "
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 3,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 3
+      "score": 2
     },
     {
       "file": "joy-staggering-contrast.html",
@@ -11720,7 +11704,7 @@
     },
     {
       "file": "objection-free-will.html",
-      "paragraphs": 43,
+      "paragraphs": 39,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -11757,28 +11741,12 @@
             "length-suppressed-anaphora:2-word:only the×3"
           ],
           "preview": "The argument comes out at the philosophical register, but it is being pushed up from a register that has no vocabulary o"
-        },
-        {
-          "paragraph": 38,
-          "sentence_index": 3,
-          "suppressed_flags": [
-            "length-suppressed-anaphora:2-word:perhaps at×3"
-          ],
-          "preview": "Somewhere in the middle of the reading  —  perhaps at the grip in your fist has been empty your whole life , perhaps at "
-        },
-        {
-          "paragraph": 40,
-          "sentence_index": 5,
-          "suppressed_flags": [
-            "length-suppressed-chiasm:sitting,laugh"
-          ],
-          "preview": "What is happening is that the throne is being carried out of the room while you are still sitting on it, and soon you wi"
         }
       ],
       "redundancy_count": 0,
       "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 3,
+      "suppressed_sentence_count": 1,
       "score": 3
     },
     {
@@ -12575,7 +12543,7 @@
     },
     {
       "file": "ot-jacob-esau.html",
-      "paragraphs": 29,
+      "paragraphs": 27,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -13431,7 +13399,7 @@
     },
     {
       "file": "philosophy-self-deception.html",
-      "paragraphs": 37,
+      "paragraphs": 36,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -13732,7 +13700,7 @@
     },
     {
       "file": "psychology-anosognosia-of-sin.html",
-      "paragraphs": 30,
+      "paragraphs": 29,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -14243,7 +14211,7 @@
     },
     {
       "file": "psychology-suppressing-truth.html",
-      "paragraphs": 27,
+      "paragraphs": 26,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -14497,7 +14465,7 @@
     },
     {
       "file": "question-am-i-chosen.html",
-      "paragraphs": 23,
+      "paragraphs": 20,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -14509,7 +14477,7 @@
           "preview": "Do you love the brothers? (1 John 3:14  —  \"We know that we have passed from death to life, because we love each other.\") Do you confess that Jesus is the Christ, come in the flesh? (1 John 4:2.) Do y"
         },
         {
-          "paragraph": 19,
+          "paragraph": 18,
           "sentence_index": 3,
           "flags": [
             "padding-modifier:into the dark"
@@ -16057,11 +16025,11 @@
     },
     {
       "file": "question-what-is-the-gospel.html",
-      "paragraphs": 19,
+      "paragraphs": 18,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 18,
+          "paragraph": 17,
           "sentence_index": 2,
           "flags": [
             "long:53w"
@@ -16070,20 +16038,11 @@
         }
       ],
       "suppressed_redundancy": [],
-      "suppressed_sentences": [
-        {
-          "paragraph": 16,
-          "sentence_index": 4,
-          "suppressed_flags": [
-            "length-suppressed-chiasm:saved,firmness,faith"
-          ],
-          "preview": "You are not saved by the firmness of your grip but by the firmness of His, and the trembling hand that barely touches th"
-        }
-      ],
+      "suppressed_sentences": [],
       "redundancy_count": 0,
       "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1,
+      "suppressed_sentence_count": 0,
       "score": 1
     },
     {
@@ -17937,7 +17896,7 @@
     },
     {
       "file": "story-cross-examination.html",
-      "paragraphs": 46,
+      "paragraphs": 45,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -18816,7 +18775,7 @@
     },
     {
       "file": "systematic-atonement.html",
-      "paragraphs": 34,
+      "paragraphs": 33,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -19788,7 +19747,7 @@
     },
     {
       "file": "systematic-reprobation.html",
-      "paragraphs": 86,
+      "paragraphs": 83,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
