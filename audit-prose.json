@@ -2,7 +2,7 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-20T00:01:33.027Z",
+  "generated": "2026-06-20T02:09:54.579Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 614,
@@ -11,8 +11,8 @@
     "total_redundancy_pairs_suppressed": 17,
     "total_sentences_suppressed": 185,
     "articles_with_redundancy": 9,
-    "articles_with_flagged_sentences": 456,
-    "articles_clean": 153,
+    "articles_with_flagged_sentences": 455,
+    "articles_clean": 154,
     "suppression_by_class": {
       "scripture-tsunami": 9,
       "pedagogical-anaphora": 2,
@@ -10758,34 +10758,25 @@
     },
     {
       "file": "history-great-awakening.html",
-      "paragraphs": 28,
+      "paragraphs": 29,
       "redundancy_pairs": [],
-      "flagged_sentences": [
-        {
-          "paragraph": 12,
-          "sentence_index": 1,
-          "flags": [
-            "padding-modifier:in the dark"
-          ],
-          "preview": "Not the rehearsed testimony kind  —  the good-kid-raised-in-the-church kind  —  but the actual terror of realizing you did not choose your salvation the way you chose your major or your spouse or your"
-        }
-      ],
+      "flagged_sentences": [],
       "suppressed_redundancy": [],
       "suppressed_sentences": [
         {
-          "paragraph": 12,
+          "paragraph": 13,
           "sentence_index": 1,
           "suppressed_flags": [
-            "length-suppressed-chiasm:terror,realizing"
+            "length-suppressed-chiasm:terror,choose"
           ],
           "preview": "Not the rehearsed testimony kind  —  the good-kid-raised-in-the-church kind  —  but the actual terror of realizing you d"
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
-      "score": 1
+      "score": 0
     },
     {
       "file": "history-heresy-foreknowledge.html",
@@ -12978,6 +12969,14 @@
       "flagged_sentences": [
         {
           "paragraph": 24,
+          "sentence_index": 2,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "It has been there since the hour you were knit together in the dark."
+        },
+        {
+          "paragraph": 24,
           "sentence_index": 7,
           "flags": [
             "padding-modifier:in the silence"
@@ -12988,10 +12987,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 2
     },
     {
       "file": "pastoral-evangelism.html",
@@ -19825,11 +19824,11 @@
         },
         {
           "paragraph": 27,
-          "sentence_index": 8,
+          "sentence_index": 6,
           "flags": [
-            "long:61w"
+            "long:59w"
           ],
-          "preview": "And the breath is in the sigh that escapes you, sometimes, in the middle of an ordinary afternoon, when an old verse comes to mind unbidden and you know  —  you do not reason your way to it, you know "
+          "preview": "It is in the sigh that escapes you, sometimes, in the middle of an ordinary afternoon, when an old verse comes to mind unbidden and you know  —  you do not reason your way to it, you know  —  that the"
         }
       ],
       "suppressed_redundancy": [],
