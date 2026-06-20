@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-20T19:39:52.283Z",
+  "generated": "2026-06-20T21:30:10.965Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 614,
     "total_redundancy_pairs_flagged": 8,
-    "total_sentences_flagged": 1300,
+    "total_sentences_flagged": 1299,
     "total_redundancy_pairs_suppressed": 17,
     "total_sentences_suppressed": 174,
     "articles_with_redundancy": 8,
-    "articles_with_flagged_sentences": 455,
-    "articles_clean": 155,
+    "articles_with_flagged_sentences": 454,
+    "articles_clean": 156,
     "suppression_by_class": {
       "scripture-tsunami": 9,
       "pedagogical-anaphora": 2,
@@ -527,7 +527,7 @@
     {
       "file": "ethics-wealth-stewardship.html",
       "score": 5,
-      "paragraphs": 14,
+      "paragraphs": 13,
       "redundancy_count": 0,
       "flagged_sentence_count": 5,
       "suppressed_redundancy_count": 0,
@@ -1563,25 +1563,16 @@
     },
     {
       "file": "anxious-mind-what-if-not-chosen.html",
-      "paragraphs": 34,
+      "paragraphs": 32,
       "redundancy_pairs": [],
-      "flagged_sentences": [
-        {
-          "paragraph": 31,
-          "sentence_index": 3,
-          "flags": [
-            "long:46w"
-          ],
-          "preview": "Come with your \"I believe; help my unbelief.\" The arms that hold the galaxies in orbit are the arms holding you now  —  not because you earned that embrace, not because your faith was strong enough to"
-        }
-      ],
+      "flagged_sentences": [],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 0
     },
     {
       "file": "apologetic-a-slave-to-sin.html",
@@ -6013,7 +6004,7 @@
     },
     {
       "file": "compare-calvinism-molinism.html",
-      "paragraphs": 44,
+      "paragraphs": 42,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -9951,7 +9942,7 @@
     },
     {
       "file": "ethics-wealth-stewardship.html",
-      "paragraphs": 14,
+      "paragraphs": 13,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -10303,7 +10294,7 @@
     },
     {
       "file": "history-augustine-pelagius.html",
-      "paragraphs": 24,
+      "paragraphs": 21,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -10323,7 +10314,7 @@
           "preview": "And the only possible response to a salvation we did not earn, did not choose, and cannot lose is the one Augustine modeled for every generation after him: falling on your face before a God whose merc"
         },
         {
-          "paragraph": 21,
+          "paragraph": 19,
           "sentence_index": 3,
           "flags": [
             "long:65w"
@@ -12169,7 +12160,7 @@
     },
     {
       "file": "open-wound-miscarriage.html",
-      "paragraphs": 28,
+      "paragraphs": 25,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -16777,7 +16768,7 @@
     },
     {
       "file": "response-leighton-flowers.html",
-      "paragraphs": 61,
+      "paragraphs": 59,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
