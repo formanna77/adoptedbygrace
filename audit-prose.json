@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-21T02:51:30.516Z",
+  "generated": "2026-06-21T03:37:29.580Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 614,
     "total_redundancy_pairs_flagged": 8,
-    "total_sentences_flagged": 1294,
+    "total_sentences_flagged": 1291,
     "total_redundancy_pairs_suppressed": 17,
-    "total_sentences_suppressed": 172,
+    "total_sentences_suppressed": 171,
     "articles_with_redundancy": 8,
-    "articles_with_flagged_sentences": 453,
-    "articles_clean": 157,
+    "articles_with_flagged_sentences": 451,
+    "articles_clean": 159,
     "suppression_by_class": {
       "scripture-tsunami": 9,
       "pedagogical-anaphora": 2,
@@ -606,15 +606,6 @@
       "suppressed_sentence_count": 0
     },
     {
-      "file": "systematic-effectual-calling.html",
-      "score": 5,
-      "paragraphs": 37,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 5,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
       "file": "systematic-faith.html",
       "score": 5,
       "paragraphs": 30,
@@ -735,6 +726,15 @@
       "file": "apologetic-save-his-people.html",
       "score": 4,
       "paragraphs": 14,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
+      "file": "apologetic-the-conscience-that-only-accuses.html",
+      "score": 4,
+      "paragraphs": 25,
       "redundancy_count": 0,
       "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
@@ -6917,18 +6917,9 @@
     },
     {
       "file": "demolition-2peter3-9.html",
-      "paragraphs": 23,
+      "paragraphs": 20,
       "redundancy_pairs": [],
-      "flagged_sentences": [
-        {
-          "paragraph": 15,
-          "sentence_index": 2,
-          "flags": [
-            "long:48w"
-          ],
-          "preview": "The eternal Son  —  the only Mediator between God and men, our great High Priest who lives forever to intercede for the ones whose names He carries upon His shoulders  —  is the One whose return is be"
-        }
-      ],
+      "flagged_sentences": [],
       "suppressed_redundancy": [
         {
           "paragraph_a": 3,
@@ -6940,21 +6931,12 @@
           "reason": "both paragraphs are Scripture-quote-dominated; deliberate verse stacking"
         }
       ],
-      "suppressed_sentences": [
-        {
-          "paragraph": 15,
-          "sentence_index": 5,
-          "suppressed_flags": [
-            "length-suppressed-embedded-quotation:136w-raw/81w-prose"
-          ],
-          "preview": "The Westminster Confession of Faith says it cleanly in chapter III: \"By the decree of God, for the manifestation of his "
-        }
-      ],
+      "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 1,
-      "suppressed_sentence_count": 1,
-      "score": 1
+      "suppressed_sentence_count": 0,
+      "score": 0
     },
     {
       "file": "demolition-acts17-30.html",
@@ -7817,7 +7799,7 @@
     },
     {
       "file": "demolition-romans10-9.html",
-      "paragraphs": 46,
+      "paragraphs": 45,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -7998,7 +7980,7 @@
     },
     {
       "file": "devotional-adoption-papers.html",
-      "paragraphs": 38,
+      "paragraphs": 33,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -8269,7 +8251,7 @@
     },
     {
       "file": "devotional-i-dont-think-im-saved.html",
-      "paragraphs": 31,
+      "paragraphs": 29,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -13990,25 +13972,16 @@
     },
     {
       "file": "psychology-illusion-free-will.html",
-      "paragraphs": 33,
+      "paragraphs": 32,
       "redundancy_pairs": [],
-      "flagged_sentences": [
-        {
-          "paragraph": 30,
-          "sentence_index": 7,
-          "flags": [
-            "long:47w"
-          ],
-          "preview": "Somewhere beneath it  —  earlier than you can access, older than you have memory of  —  a decision was made that you would be in this room, at this hour, feeling whatever you are feeling about the God"
-        }
-      ],
+      "flagged_sentences": [],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 0
     },
     {
       "file": "psychology-language-acquisition.html",
@@ -15682,7 +15655,7 @@
     },
     {
       "file": "question-romans9.html",
-      "paragraphs": 32,
+      "paragraphs": 30,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -16059,7 +16032,7 @@
     },
     {
       "file": "question-where-did-your-faith-come-from.html",
-      "paragraphs": 75,
+      "paragraphs": 72,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -16128,7 +16101,7 @@
     },
     {
       "file": "question-why-does-god-choose-some-not-others.html",
-      "paragraphs": 42,
+      "paragraphs": 41,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -19108,27 +19081,19 @@
             "long:58w"
           ],
           "preview": "He spoke into the silence of your spiritual tomb, and you came out, blinking and bewildered, with the grave clothes still hanging from you, into a world you did not make, held by a Father you did not "
-        },
-        {
-          "paragraph": 36,
-          "sentence_index": 6,
-          "flags": [
-            "long:56w"
-          ],
-          "preview": "And on the last day, when His voice calls one more time  —  not to your soul, but to the dust of your body  —  you will rise out of that grave for the same reason you rose out of the first one: becaus"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 5,
+      "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 5
+      "score": 4
     },
     {
       "file": "systematic-election.html",
-      "paragraphs": 44,
+      "paragraphs": 39,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {

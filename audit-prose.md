@@ -1,6 +1,6 @@
 # Prose Integrity Audit (Phase F) — Scanner v2
 
-**Generated:** 2026-06-21T02:51:30.538Z
+**Generated:** 2026-06-21T03:37:29.602Z
 **Spec:** `audit-prose.js v2` — redundancy (Jaccard ≥ 0.35 on significant-word bags) with **eight-class exemption filter** (closing-recurrence, Scripture-tsunami, pedagogical-anaphora, antithetical-parallelism, confessional-translation, historical-document-quotation, exegetical-comparison, research→pairing structural) + sentence-coherence heuristic with **anaphora/chiasm/embedded-quotation positive suppressors** + new **vehicle-tenor mismatch detector** (catches the original Aaron failure mode: simile whose vehicle and tenor are in incompatible domains).
 
 **Mandate (Aaron, 2026-04-27):** "many articles repeat themselves usually a couple times but sometimes even 3 times within the article... also some sentences don't make sense... we do not start expanding the website until every last sentence, paragraph, and article are written perfectly."
@@ -14,13 +14,13 @@
 | Metric | Value |
 |---|---|
 | Articles audited | 614 |
-| Articles entirely clean | 157 (25.6%) |
+| Articles entirely clean | 159 (25.9%) |
 | Articles with (genuine) redundancy | 8 (1.3%) |
-| Articles with (genuine) flagged sentences | 453 (73.8%) |
+| Articles with (genuine) flagged sentences | 451 (73.5%) |
 | **Total redundancy pairs flagged (genuine)** | **8** |
-| **Total sentences flagged (genuine)** | **1294** |
+| **Total sentences flagged (genuine)** | **1291** |
 | Redundancy pairs suppressed (apex-tier exemptions) | 17 |
-| Sentence flags suppressed (coherence-positive) | 172 |
+| Sentence flags suppressed (coherence-positive) | 171 |
 
 ### Suppression breakdown by exemption class
 

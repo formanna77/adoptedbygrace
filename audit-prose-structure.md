@@ -1,6 +1,6 @@
 # Structural-Rot Audit (v3 — v5 article-tag-position detector)
 
-**Generated:** 2026-06-21T02:51:25.908Z
+**Generated:** 2026-06-21T03:37:24.997Z
 **Method:** walk `<article>`/`</article>` tag stack to outer `</article>`; flag iff gap to `<section class="related-articles">` exceeds 800 bytes AND there is at least one orphaned `<h2>` or `<p>` in the gap. Canonical wired-in pattern places related-articles ~50 bytes after `</article>` (`wire-orphans.js` sibling injection). Real rot orphans thousands of bytes outside the wrapper.
 
 **Files scanned:** 685
