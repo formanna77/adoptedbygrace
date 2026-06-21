@@ -4,6 +4,18 @@
 
 ---
 
+### Session 139 — 2026-06-20 — Diamond Pass batch 5 (12 pages, the still-thin registers)
+
+**Shipped (12 cold-read across analytical / secular / history / theologian / compare / ethics / open / anxious / response / shattered; 5 DIAMOND, 7 lifted all-SUBTRACTION):**
+- DIAMOND: analytical-necessity-of-the-atonement (grounds necessity in Gethsemane, not modal logic; "Forgiveness just moves the bill… to yours"); analytical-glory-and-election (selective-attribute new ground — "worship is not God's vanity, it is your sanity"); analytical-archetypal-ectypal ("God doses, He does not dilute"; "the fully-known one is not God — it is you"); theologian-owen (definite atonement through the eleven graves; "the question at a grave is not *was the offer extended* but *was the work done*"); shattered-lens-when-prayer-stopped-working ("a God you can lose by a wrong medication").
+- Lifts: history-augustine-pelagius (cut two re-closes + "it is true of you" Return coda; ends on the burning-library line); open-wound-miscarriage (cut "Back to the Nursery" Return + 2nd catch + double stinger; kept Rev 21:4 catch + "the ache testifies to a *gift*, not a theft"); anxious-mind-what-if-not-chosen (fear=proof refrain 7×→once; cut In-Brief duplicate + Gibraltar 3rd image + redundant "Come to Him"; universalized a "head against the steering wheel" flicker); compare-calvinism-molinism (selector/speaker antithesis 5×→once; Molinism steel-man verified); ethics-wealth-stewardship (cut Trinitarian doxology re-walk; kept 2 Cor 8:9 catch); response-leighton-flowers (cut combative coda restating hero/rescued a 3rd time; Flowers steel-manned, claims verified); secular-evidence (hub).
+
+**Fixed:** history-augustine-pelagius factual slip — Possidius records the library was *preserved*; the city of Hippo burned → "the city he had served burned"; secular-evidence — dropped the discredited Stanford Prison study + "EVERY EXPERIMENT CONFIRMS IT" from card 06 (Le Texier 2018: guards coached, a breakdown faked), softened "firmer ground than ever" → science is a witness not the foundation, hardened card 13 AA "surrender to a power greater" → "the rescue must come from outside them"; child pages secular-sociology-human-inability + secular-recovery-total-depravity grepped clean (no Stanford launder).
+
+**Carries forward:** ~550 prose pages un-live-read; the site is lock-saturated (the unmarked pool is down to ~4 analytical/secular) but locks are NOT exemptions — the live read found real defects under them.
+
+**Pipeline:** GREEN; auto-linker 0; quotes 3640 unchanged.
+
 ### Session 138 — 2026-06-20 — Diamond Pass batch 4 (16 pages, two parallel batches)
 
 **Shipped (16 cold-read across 12 registers; 1 DIAMOND, 15 lifted all-SUBTRACTION):**
