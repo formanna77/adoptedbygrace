@@ -619,7 +619,7 @@
  { name: ' Are You Sure You\'re Saved?', href: '/psychology-cost-of-rejecting-grace', desc: 'One question exposes the most dangerous lie in the church: where did your faith come from? If you produced it, you are t' },
  { name: 'How We Secretly Redefine Grace to Include Ourselves', href: '/resistance-redefining-grace', desc: 'You think you understand grace. But have you unconsciously redefined it to include your own contribution? A gentle demol' },
  { name: 'Pride: The Root of Every Objection to Grace', href: '/psychology-pride-root-objection', desc: 'People who can calmly debate baptism, the Trinity , and the millennium will slam a fist on the table when you suggest Go' },
- { name: 'Terror Management and the Threat of Sovereignty', href: '/psychology-terror-management', desc: 'Ernest Becker\'s Pulitzer Prize-winning thesis — confirmed by 500+ experiments — reveals that humans manage death anxiet' },
+ { name: 'Terror Management and the Threat of Sovereignty', href: '/psychology-terror-management', desc: 'Ernest Becker\'s Pulitzer Prize-winning thesis — studied across 500+ experiments — reveals that humans manage death anxi' },
  { name: 'The Anosognosia of the Soul', href: '/psychology-anosognosia-of-sin', desc: 'Anosognosia is a neurological condition where brain damage destroys both a capacity and the ability to perceive its loss' },
  { name: 'The Autonomy Illusion — Why "Free Will" Feels So Real', href: '/psychology-autonomy-illusion', desc: 'Libet' },
  { name: 'The Conversion Memory Test', href: '/psychology-conversion-memory-test', desc: 'Try to locate the exact instant you chose God and your memory dissolves — not the season, not the sermon, but the precis' },

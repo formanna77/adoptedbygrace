@@ -2,12 +2,12 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-21T03:37:29.580Z",
+  "generated": "2026-06-21T14:30:48.583Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 614,
     "total_redundancy_pairs_flagged": 8,
-    "total_sentences_flagged": 1291,
+    "total_sentences_flagged": 1289,
     "total_redundancy_pairs_suppressed": 17,
     "total_sentences_suppressed": 171,
     "articles_with_redundancy": 8,
@@ -489,15 +489,6 @@
       "suppressed_sentence_count": 0
     },
     {
-      "file": "devotional-the-hands-that-hold-you.html",
-      "score": 5,
-      "paragraphs": 32,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 5,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
       "file": "devotional-the-secretly-ashamed.html",
       "score": 5,
       "paragraphs": 35,
@@ -509,7 +500,7 @@
     {
       "file": "devotional-valley-shadow.html",
       "score": 5,
-      "paragraphs": 37,
+      "paragraphs": 35,
       "redundancy_count": 0,
       "flagged_sentence_count": 5,
       "suppressed_redundancy_count": 0,
@@ -739,6 +730,15 @@
       "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
+    },
+    {
+      "file": "apologetic-the-fourth-day-corpse.html",
+      "score": 4,
+      "paragraphs": 31,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
     }
   ],
   "articles": [
@@ -6733,7 +6733,7 @@
     },
     {
       "file": "demolition-1tim2-4.html",
-      "paragraphs": 34,
+      "paragraphs": 32,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -6743,23 +6743,15 @@
             "long-simile:24w"
           ],
           "preview": "You grabbed \"all\" like a life raft because the alternative  —  that God's saving purpose is particular  —  feels like a loss of something you thought belonged to you."
-        },
-        {
-          "paragraph": 31,
-          "sentence_index": 0,
-          "flags": [
-            "long-simile:19w"
-          ],
-          "preview": "And if something in you is still resisting  —  if the three-door problem is sitting in your chest like a stone you cannot swallow  —  consider this: the discomfort you feel is not the pain of losing a"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 2,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 2
+      "score": 1
     },
     {
       "file": "demolition-1tim4-10.html",
@@ -7927,7 +7919,7 @@
     },
     {
       "file": "demolition-titus2-11.html",
-      "paragraphs": 27,
+      "paragraphs": 26,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -7939,7 +7931,7 @@
           "preview": "It teaches us to say 'No' to ungodliness and worldly passions, and to live self-controlled, upright and godly lives in this present age, while we wait for the blessed hope  —  the appearing of the glo"
         },
         {
-          "paragraph": 20,
+          "paragraph": 19,
           "sentence_index": 5,
           "flags": [
             "long:57w",
@@ -8628,7 +8620,7 @@
     },
     {
       "file": "devotional-the-hands-that-hold-you.html",
-      "paragraphs": 32,
+      "paragraphs": 29,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -8662,23 +8654,15 @@
             "long:47w"
           ],
           "preview": "And the One on the other end of it has not let go in eternity past, will not let go in eternity future, and is not going to let go now just because you finally noticed that He was the one with the gri"
-        },
-        {
-          "paragraph": 28,
-          "sentence_index": 4,
-          "flags": [
-            "long:54w"
-          ],
-          "preview": "And cradled between those two hands moves the breath of the Holy Spirit  —  the Spirit who regenerated your dead heart, gave you the very faith you have, seals you for the day of redemption, and whose"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 5,
+      "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 5
+      "score": 4
     },
     {
       "file": "devotional-the-kindest-shock.html",
@@ -8866,7 +8850,7 @@
     },
     {
       "file": "devotional-valley-shadow.html",
-      "paragraphs": 37,
+      "paragraphs": 35,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -8902,7 +8886,7 @@
           "preview": "Because if it was  —  if you generated it, if you sustain it, if it rises and falls with your emotional bandwidth  —  then you are about to discover that none of it has any power to hold you up in the"
         },
         {
-          "paragraph": 35,
+          "paragraph": 33,
           "sentence_index": 3,
           "flags": [
             "long:58w"
@@ -14202,7 +14186,7 @@
     },
     {
       "file": "psychology-terror-management.html",
-      "paragraphs": 25,
+      "paragraphs": 23,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -14766,11 +14750,11 @@
     },
     {
       "file": "question-ephesians1.html",
-      "paragraphs": 45,
+      "paragraphs": 42,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 42,
+          "paragraph": 39,
           "sentence_index": 0,
           "flags": [
             "long:52w"
@@ -15303,7 +15287,7 @@
     },
     {
       "file": "question-limited-atonement.html",
-      "paragraphs": 44,
+      "paragraphs": 39,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -19316,7 +19300,7 @@
     },
     {
       "file": "systematic-justification.html",
-      "paragraphs": 24,
+      "paragraphs": 23,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -19609,11 +19593,11 @@
     },
     {
       "file": "systematic-regeneration.html",
-      "paragraphs": 33,
+      "paragraphs": 31,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 31,
+          "paragraph": 29,
           "sentence_index": 3,
           "flags": [
             "long:51w"
