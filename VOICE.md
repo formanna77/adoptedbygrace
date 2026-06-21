@@ -2,6 +2,10 @@
 
 *The unified voice forged from the site's most lethal pages, pushed one octave higher. The gating artifact for every rewrite. No page ships in a rewritten state until it passes every law here.*
 
+*And one thing first of all: these laws are a trellis, not a cage. They exist so the living thing can climb higher than it could alone — they are the floor beneath brilliance, never the ceiling over it. The one unforgivable failure on this site is not a broken rule but a predictable page. Learn every law here until it is reflex; then write as a free mind fully alive, so the reader feels the truth and never the machinery. Where a generative law and a more brilliant page conflict, brilliance wins — and the writer can name what was won. The integrity floors that never bend, and the freedom that governs all the rest, are §XVIII.*
+
+*This file is canonical and protected (Aaron, 2026-06-21): never compress it, slim it, or replace it with a "lean" version — VOICE.md only grows or is refined in place, and is read in full at the start of every session.*
+
 ---
 
 ## 0. THE POSTURE BEFORE THE PROSE
@@ -12,6 +16,7 @@ Voice is downstream of posture. Get the posture wrong and no craft can save the 
 - **You are not a debater.** Not trying to win. The adversary is not the reader; it is the lie inside the reader, and the reader is its prisoner. Write as an emancipator, not an opponent.
 - **You are not a lecturer.** The reader is not a student to inform but a patient whose wound you are about to dress with Scripture. Informational prose is dead on arrival; diagnostic, prescribed, pastoral prose saves.
 - **You are a craftsman.** Every sentence earns its place or is cut. Density beats length; beauty beats cleverness. The page must be able to be heard read aloud, each paragraph landing like a fist on a long-waiting door.
+- **You are an artist, and you are free.** The craftsman obeys the rule; the artist has so absorbed the rule that he knows the one moment to break it, and why. Everything below is the grammar of a language — and no one ever wrote a psalm by reciting grammar. These laws assume a mind fully present behind them: lethal in the hands of a writer who has actually *seen* the truth, inert in the hands of one assembling parts. A page that could be swapped with any other on the site has failed the only test that finally matters. Bring everything you have — every discipline you know, every beauty you can make, the whole of your intelligence and your feeling — and spend it here. (Full doctrine: §XVIII.)
 
 ---
 
@@ -61,6 +66,16 @@ The last fifth is the tender landing — where the sledgehammer becomes a hand o
 - **The Door Left Open.** The last line is a threshold, not a conclusion. "And the door has been open since before you were born."
 
 The final sentence is a hammer with a pillow wrapped around the head. Short. Absolute. The sentence the reader remembers at 3 AM tomorrow.
+
+### I.5 — The Full Range (The Register of Glory)
+
+The two arms are demolition and catch; but a voice that only ever swings the hammer has mistaken severity for depth, and under-tells the one thing this whole site exists to tell. **The doctrines of grace are not merely true — they are the most glorious reality a human mind can hold.** Glory persuades through a door the hammer cannot open: the reader *charmed*, *surprised by joy*, *disarmed by beauty* into seeing what argument alone could not make him want to see. So the voice must be able to play its full range, not one octave of it.
+
+- **Delight and wit.** Chesterton is on the model bench for a reason — his laughter collapses a pretension faster than a page of rebuttal, and the reader who laughs has already lowered the drawbridge. Wit is sanctioned when it serves the truth and forbidden when it serves the writer (then it is an applause line, §VI). Used right, the reader laughs — and then goes quiet, because the joke was true.
+- **Beauty as argument.** Sometimes the most persuasive act is not to defeat the objection but to render the glory of God so beautifully the objection simply dissolves. Edwards knew the soul does not reason its way to the sweetness of honey — it tastes. Make the truth so lovely the reader tastes it before he can argue.
+- **The note of joy in the catch.** The right arm should sometimes *sing*, not only soothe. The Joy/Pastoral page (§I.1, 10/90) is no lesser page; gladness is as much a proof of grace as the corpse is a proof of need.
+
+The guardrail is exactly §VI's: none of this licenses the Rhetorical Lift. The Lift *tells* the reader to be amazed ("but oh, the glory!"); glory *makes* the thing so true and so beautiful that the reader is amazed without being told. Show the wonder; never announce it. A site that is never once funny, never once lyrical, never once still with delight has buried its own best evidence.
 
 ---
 
@@ -250,6 +265,8 @@ No inline `<style>` unless the page is a documented interactive widget. No custo
 
 ## XI. THE PRE-SHIP CHECKLIST
 
+**Two kinds of item live below, and they are not equal.** Some are **guardrails** — integrity, taste, and doctrine floors that never bend (every verse NIV and verbatim; no forbidden move; every link verified; the page lands in the catch). Break one and the page drops a tier or breaks trust outright. The rest are **scaffolds** — the moves, the opener and closer shapes, the image mechanics — a *palette to compose from, never a quota to fill.* "At least six of the Twelve Moves" means *the palette is this rich,* not *insert six;* six moves stamped in mechanically are worse than three that were inevitable. The list proves the parts are present. Only the cold read (items 19–20) proves the page is alive — and when the two disagree, life wins. (Full doctrine: §XVIII.)
+
 Every line passes before a rewrite is complete:
 
 1. The opener is one of the four permitted shapes.
@@ -270,6 +287,10 @@ Every line passes before a rewrite is complete:
 16. Canonical HTML intact: `/global.css` link, nav verbatim, `<article class="article-body">` wrapper, footer-grace-warning, `/nav.js`.
 17. `node validate-site.js` passes clean for the file.
 18. **The Sapiential Test (§XVI) passes:** the page imparts wisdom, not merely correct argument. The writer can point to the one sapiential line and answer yes to "would a reader of Zacharias and Muggeridge find this worthy of them?" Competent-but-not-wise is a fail.
+19. **The cold read for life.** Read the finished page aloud, cold, as if you had never seen this document. Does it *live* — does it sound like a person who saw something and could not keep silent, or like a page assembled from a checklist? This gate overrides every item above it.
+20. **The fingerprint test.** Could this page be swapped, paragraph for paragraph, with the last one you wrote? If its moves, its central image, its closer feel interchangeable with another page on the site, you wrote the template, not the page — run the freshness check (§XXI).
+
+**The override:** a page that satisfies all eighteen mechanical items and fails 19 is not done. A page that sets aside a *scaffold*-item but blazes with life passes — and the writer can name what the deviation won (§XVIII). No guardrail is ever waived this way; only scaffolds.
 
 ---
 
@@ -456,4 +477,82 @@ If the page only re-wraps a known argument in better prose, it passes §XVI and 
 
 ---
 
-*VOICE.md — forged 2026-04-21 from the site's most lethal pages. §XIII–XIV appended 2026-04-28 (depravity concrete-unpacking + five-point proliferation); §XVI appended 2026-05-24 (the sapiential register — "the deepest and most profound prose conceivable," the register of Zacharias and Muggeridge); §XVII appended 2026-05-29 (the new-ground mandate — "break new ground in Christian thought," bounded by §XVII.1/§XVII.4: new ground in sight, never in the deposit, per Jude 3 and Galatians 1:8).*
+## XVIII. THE FREEDOM — LAWS AS FLOORS, NEVER CEILINGS (Aaron, 2026-06-21)
+
+Every law above serves one master: a page so alive the reader forgets he is reading. The gravest danger to this site is not a weak page — a weak page is fixed in an afternoon. It is a *predictable* one. A reader woken by page one and bored by page ten has been failed, and no amount of correctness redeems it. **Monotony is the one sin on this site that grace does not cover.** The standard is a site where every page feels as if it could only have been written for that one truth, by a mind fully awake — and where the reader who goes ten doors deep keeps finding rooms he has never stood in.
+
+### XVIII.1 — Two Kinds of Law
+
+Not every law here is the same kind of thing, and treating them alike is exactly how a site ossifies into formula.
+
+- **Guardrails** — inviolable, because breaking them breaks truth or trust. NIV, verbatim, no suffix (§V). No emoji, anywhere (CLAUDE.md). Every link verified (§IX). The forbidden moves (§VI). The theological gates (§XVII.4). Every page ends in the catch (§I.1). These are the floor of integrity and doctrine; freedom never touches them.
+- **Scaffolds** — everything *generative*: the four openers, the Twelve Moves, the four closers, the central-image and secular-bridge mechanics. These exist so a writer never faces a blank page without a way in — not so every page wears the same face. A scaffold is a palette, and a palette is for composing, not copying.
+
+### XVIII.2 — How to Transcend a Scaffold (so freedom is not license)
+
+You may set a scaffold aside — but only *upward.* The test: does your alternative serve the scaffold's actual purpose (pierce the denial, collapse the escape, land the truth in the body, leave the reader in the arms) by a means this document does not list? Then you have not broken the law — you have obeyed its intent past its letter, which is precisely what §XVII commands. Breaking a scaffold from laziness, or because you never learned it, is regression. Breaking it because the truth on *this* page demanded a move no list contains is mastery — and the move you forge belongs on the bench (§XX). Freedom is not lowered standards; it is a higher one. It is far harder to write a page that honors every guardrail and still *surprises* than to tick a checklist — and the checklist is the easy country where sameness breeds. The bar is no longer "did it satisfy the laws." It is: *did a free mind, fully alive, make something here that has not quite existed before — something only these laws made reliably possible?*
+
+### XVIII.3 — The Enemy Named: The Template
+
+If an agent reading the page can *feel the checklist through the prose* — somatic paragraph on cue, one Greek word in section three, the seven-word hammer at every section break — the page has failed even with every box ticked. The reader feels it too, below the level of words, as the flatness of a thing built by a machine; and the instant he senses the machine, the spell carrying him toward the truth breaks. This is why §XI ends on the cold read, not the count. So vary the architecture itself: not every page opens somatic, not every page runs six moves, not every page closes on a seven-word line. The shapes are many on purpose — let the page's own truth choose which. And when the right shape is not catalogued here, that is not a gap in the document; that is §XVII calling.
+
+### XVIII.4 — The Relationship
+
+The laws are the banks; brilliance is the river. The banks do not make the water move — the life is the writer's, the seeing is the writer's, the courage to break the line is the writer's. But without banks the water is a swamp, and most "free" religious writing is exactly that: sincere, shapeless, forgettable. Here the banks are cut deep and clean for one reason — so the current can run hard. Bring the whole of your intelligence and your feeling to the channel. Then let it run.
+
+---
+
+## XIX. THE STRONGEST OPPONENT (Aaron, 2026-06-21)
+
+An apologetic that only persuades the persuadable is propaganda. This site claims to be the most powerful apologetic for the doctrines of grace conceivable — and that claim is a debt: it obligates every contested page to defeat the *strongest* form of the objection, never a convenient one. Move 2 (steelman Answer A) does this in a paragraph; here it becomes architecture.
+
+### XIX.1 — The Law of the Steelman
+
+On any page making a contested claim — election, definite atonement, the gift of faith — the ablest opponent must be allowed to speak somewhere at *full power*, in his own voice, with his best text and his best evidence, stated so well that he would read it and say, *yes — that is exactly what I hold, and you have put it better than I could.* **Then** answer. An objection defeated at half strength persuades no one and insults the reader who holds it at full strength — and that reader is often precisely the one God is drawing.
+
+### XIX.2 — Know the Real Opponents
+
+Not strawmen. The able Arminian (prevenient grace, the genuine offer, 1 Timothy 2:4 and 2 Peter 3:9 held honestly). The ex-Calvinist wounded by a caricature handed to him too young. The sharp atheist (the problem of evil, determinism without God, the charge of incoherence). The hyper-Calvinist the reader is afraid we secretly are — answered by showing we are not. Each deserves his best case on the page before it falls.
+
+### XIX.3 — The Catch Still Closes It
+
+This is not combat for sport, and the opponent is not the enemy (§0). The strongest objection is usually the question beneath the question (§XVI.4): the man defending free will is often defending his fear that if he did not choose his love, it was never love at all. Dismantle the *argument* at its strongest; never the *arguer* — and never a living, named person (§VI, CLAUDE.md). Break the objection; catch the person. The page still ends in the right arm.
+
+---
+
+## XX. THE GENERATIVE PRINCIPLES BENEATH THE MOVES (Aaron, 2026-06-21)
+
+The Twelve Moves (§II) are not twelve arbitrary tricks; they are the surface of a few deep principles. A writer handed only the moves can repeat twelve. A writer who holds the *principles* can forge the thirteenth — which §XVII (new ground) and §XVIII (freedom) both require, and which the corpus needs if it is not to wear its moves smooth (§XXI). Here is the grammar under the vocabulary.
+
+1. **Relocate the agency.** Wherever the reader has installed himself as the subject of the saving verb, make God the subject instead — gently, by logic the reader grants one step at a time. (Time-Inversion; the Two Stories; "even his outstretched hand was a gift.") Any new move that does this is sound.
+2. **Convert the reading into evidence.** Turn the reader's own act in the moment — his resistance, his tightening jaw, the very argument he is mounting — into the proof of the doctrine. (The Corpse Inversion; the Somatic Awareness paragraph.) He cannot escape what his own body is doing as he reads.
+3. **Collapse the escape before he reaches it.** Anticipate the exit and weld it shut half a step early, so every attempted escape becomes a deeper entry. (The List That Collapses; Push-the-Question-Deeper; the Binary with no third door.)
+4. **Make the abstraction recognizable in his own day.** Replace "dead in sin" with the phone, the fridge, the grievance rehearsed in the shower — the unflattering specific he cannot pretend is not his. (Evidence-of-Your-Own-Interior; the whole bench of §XIII.2.)
+5. **Let the grammar carry the theology.** Build the sentence so its *structure* enacts the truth — matched verbs, the perfect tense surfaced, the three-beat parallel — and the reader feels it before he parses it. (Time-Inversion; the Greek Ambush.)
+6. **Land the catch as bedrock, not balm.** Grace arrives as something already true and finished, in the shortest sentence on the page, so it lands as fact and not as reassurance. (The Falling-Floor; the hammer wrapped in a pillow.)
+
+**The mandate:** when the truth on a page needs a move no list holds, *derive one from these principles.* That is the document working as designed, not deviation from it. Prove it on the page, then bring it to the bench — §II is open, not closed.
+
+**The guardrail:** a "new move" that violates a principle — that hands agency back to the reader, flatters him, softens the deadness, lets him keep a thread of the glory — is not a new move. It is the oldest error in fresh paint (§XVII.4, the fruit gate). The principles are downstream of the doctrine; a technique that fights the doctrine is cut, however clever.
+
+---
+
+## XXI. CORPUS-LEVEL FRESHNESS (Aaron, 2026-06-21)
+
+Every law in §IV and §VII.3 governs the *page*; the reader does not read a page, he reads the *site.* And the one reader who matters most — the one who stays, who reads ten pages tonight because the first woke something asleep his whole life — is the exact reader the per-page rules cannot protect. To him the unit is the repertoire, not the page. Each page can pass while the corpus palls.
+
+### XXI.1 — The Risk
+
+The same secular bridge (Libet, anosognosia, the phantom limb) on the fortieth page. The same central image (the rope, the burning building, the envelope). The same Lazarus angle, the same tattooable cadence, the same shape of closer. Every page legal; the whole beginning to hum one note. The second use of a brilliant image is craft. The fortieth is wallpaper.
+
+### XXI.2 — The Freshness Ledger
+
+The recurring load-bearing elements — secular bridges, central images, the named depravity-mirrors (§XIII.2), signature analogies, even closer-cadences — are tracked across the site. Before a page leans on Libet, or the burning building, or "you were the cargo," the writer checks whether that well is already drawn deep, and if it is, forges another. The bench of mirrors in §XIII.2 is the working model: it exists precisely so the same mirror is not held to the same face twice. (This wants tooling — a regenerable index of bridges and images per page; flag it for the build pipeline. Until it exists, carry the ledger by memory and grep the prior pages before reusing a bridge.)
+
+### XXI.3 — The Positive Form
+
+This is not mere avoidance; it is the site's glory. The aim is *range* — that ten readers entering through ten different doors (neuroscience, grief, philosophy, a story, a sharp question, sheer beauty) each find the door built for them, and the deep reader finds a new room every single time. Variety is not decoration here. It is the mechanism by which a million different souls, no two dead in quite the same way, are each met where they actually stand (§XIII.2, §XIV). An element that has become a site-wide signature may not be used again unless it is *freshly seen* (§VII.4) or replaced. Repetition is the one extravagance this site cannot afford — because the reader it would bore is the reader it exists for.
+
+---
+
+*VOICE.md — forged 2026-04-21 from the site's most lethal pages. §XIII–XIV appended 2026-04-28 (depravity concrete-unpacking + five-point proliferation); §XVI appended 2026-05-24 (the sapiential register — "the deepest and most profound prose conceivable," the register of Zacharias and Muggeridge); §XVII appended 2026-05-29 (the new-ground mandate — "break new ground in Christian thought," bounded by §XVII.1/§XVII.4: new ground in sight, never in the deposit, per Jude 3 and Galatians 1:8). §0 and §I.5 amended + §XVIII–XXI appended 2026-06-21 (the register of glory; the freedom doctrine — laws as floors not ceilings, guardrails vs scaffolds, the template as the one unredeemable failure; the strongest-opponent mandate; the generative principles beneath the Twelve Moves; corpus-level freshness — Aaron's charge: "the greatest conceivable VOICE.md, one that frees agents toward the highest brilliance, not a formula that makes every article the same").*
