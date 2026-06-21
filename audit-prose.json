@@ -2,19 +2,19 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-21T16:39:38.235Z",
+  "generated": "2026-06-21T18:12:31.788Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 614,
     "total_redundancy_pairs_flagged": 8,
-    "total_sentences_flagged": 1289,
-    "total_redundancy_pairs_suppressed": 17,
+    "total_sentences_flagged": 1286,
+    "total_redundancy_pairs_suppressed": 16,
     "total_sentences_suppressed": 171,
     "articles_with_redundancy": 8,
     "articles_with_flagged_sentences": 453,
     "articles_clean": 157,
     "suppression_by_class": {
-      "scripture-tsunami": 9,
+      "scripture-tsunami": 8,
       "pedagogical-anaphora": 2,
       "confessional-translation": 6
     }
@@ -7096,11 +7096,11 @@
     },
     {
       "file": "demolition-ezekiel18-23.html",
-      "paragraphs": 30,
+      "paragraphs": 26,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 28,
+          "paragraph": 24,
           "sentence_index": 4,
           "flags": [
             "long:47w"
@@ -7108,7 +7108,7 @@
           "preview": "You were a femur in the dust, and the wind came, and you stood up, and you have been trying ever since to take credit for something you did not do because the alternative is to admit that the only liv"
         },
         {
-          "paragraph": 28,
+          "paragraph": 24,
           "sentence_index": 11,
           "flags": [
             "long:53w"
@@ -8063,11 +8063,11 @@
     },
     {
       "file": "devotional-forever-loved.html",
-      "paragraphs": 34,
+      "paragraphs": 26,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 6,
+          "paragraph": 5,
           "sentence_index": 1,
           "flags": [
             "long:46w"
@@ -8075,7 +8075,7 @@
           "preview": "On your worst day  —  in the lightning-struck moment when you stand most ashamed of yourself, when you have plummeted into the very sin you swore you would never commit again  —  do you believe, in th"
         },
         {
-          "paragraph": 14,
+          "paragraph": 13,
           "sentence_index": 4,
           "flags": [
             "long:51w"
@@ -8083,39 +8083,21 @@
           "preview": "Before a child has a self strong enough to not dissolve under the weight of its own existence, the mother is doing the holding for it  —  and the child, unable to perceive this, experiences the world "
         },
         {
-          "paragraph": 19,
+          "paragraph": 18,
           "sentence_index": 6,
           "flags": [
             "long:53w"
           ],
           "preview": "And your flesh would rather be held by a love that requires something of you  —  even a sliver, even a stipulation, even the tiniest condition you can point to and say \"I am at least providing that \" "
-        },
-        {
-          "paragraph": 23,
-          "sentence_index": 3,
-          "flags": [
-            "long-simile:14w"
-          ],
-          "preview": "The season when faith felt like a fairy tale and you could not remember why you ever believed God was real."
         }
       ],
-      "suppressed_redundancy": [
-        {
-          "paragraph_a": 3,
-          "paragraph_b": 33,
-          "similarity": 1,
-          "a_preview": "\"For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future",
-          "b_preview": "\"For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future",
-          "exemption_class": "scripture-tsunami",
-          "reason": "both paragraphs are Scripture-quote-dominated; deliberate verse stacking"
-        }
-      ],
+      "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 1,
+      "flagged_sentence_count": 3,
+      "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 4
+      "score": 3
     },
     {
       "file": "devotional-found-before-you-were-born.html",
@@ -9052,13 +9034,13 @@
     },
     {
       "file": "devotional-your-name-in-the-book.html",
-      "paragraphs": 23,
+      "paragraphs": 21,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
       "suppressed_sentences": [
         {
-          "paragraph": 20,
+          "paragraph": 18,
           "sentence_index": 1,
           "suppressed_flags": [
             "length-suppressed-anaphora:2-word:not your×3"
@@ -14057,7 +14039,7 @@
     },
     {
       "file": "psychology-reactance-theory.html",
-      "paragraphs": 28,
+      "paragraphs": 26,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -14292,23 +14274,15 @@
             "long:55w"
           ],
           "preview": "The things you most want to take credit for  —  your love for God, your love for other believers, your slow turning away from the sins that once owned you, your strange new appetite for Scripture that"
-        },
-        {
-          "paragraph": 21,
-          "sentence_index": 8,
-          "flags": [
-            "padding-modifier:in the dark"
-          ],
-          "preview": "The grip exists because a God whose kindness is older than anything ever made had already knit the tendons together in the dark, and the moment the light came the hand did what hands that have been gi"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 3,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 3
+      "score": 2
     },
     {
       "file": "question-1peter1.html",
@@ -15526,7 +15500,7 @@
     },
     {
       "file": "question-regeneration-precedes-faith.html",
-      "paragraphs": 74,
+      "paragraphs": 62,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -18965,7 +18939,7 @@
     },
     {
       "file": "systematic-divine-decrees.html",
-      "paragraphs": 20,
+      "paragraphs": 19,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -18993,7 +18967,7 @@
           "preview": "And here is where the decree meets the Crown Jewel of this entire site: if God decreed your salvation before creation  —  if He chose you, ordained the cross for you, and appointed the Spirit to bring"
         },
         {
-          "paragraph": 18,
+          "paragraph": 17,
           "sentence_index": 2,
           "flags": [
             "long-simile:20w"
@@ -19263,7 +19237,7 @@
     },
     {
       "file": "systematic-imputation.html",
-      "paragraphs": 31,
+      "paragraphs": 30,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -19273,14 +19247,6 @@
             "long:46w"
           ],
           "preview": "And it is also the only answer that removes all boasting  —  because the righteousness you plead is not yours, which means there is nothing in the transaction you can take credit for, which means the "
-        },
-        {
-          "paragraph": 29,
-          "sentence_index": 0,
-          "flags": [
-            "long:47w"
-          ],
-          "preview": "When the accuser comes  —  and he will come, often, in the long sleepless hours, in the form of your own voice reciting your recent failures as evidence you are not really saved  —  you do not defeat "
         }
       ],
       "suppressed_redundancy": [],
@@ -19295,10 +19261,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 2,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
-      "score": 2
+      "score": 1
     },
     {
       "file": "systematic-justification.html",
