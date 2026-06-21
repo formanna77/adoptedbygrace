@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-21T19:03:26.681Z",
+  "generated": "2026-06-21T20:04:14.097Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 614,
     "total_redundancy_pairs_flagged": 8,
-    "total_sentences_flagged": 1286,
+    "total_sentences_flagged": 1282,
     "total_redundancy_pairs_suppressed": 16,
-    "total_sentences_suppressed": 171,
+    "total_sentences_suppressed": 170,
     "articles_with_redundancy": 8,
-    "articles_with_flagged_sentences": 453,
-    "articles_clean": 157,
+    "articles_with_flagged_sentences": 452,
+    "articles_clean": 158,
     "suppression_by_class": {
       "scripture-tsunami": 8,
       "pedagogical-anaphora": 2,
@@ -140,7 +140,7 @@
     {
       "file": "systematic-perseverance.html",
       "score": 9,
-      "paragraphs": 34,
+      "paragraphs": 32,
       "redundancy_count": 0,
       "flagged_sentence_count": 9,
       "suppressed_redundancy_count": 0,
@@ -617,7 +617,7 @@
     {
       "file": "systematic-providence.html",
       "score": 5,
-      "paragraphs": 36,
+      "paragraphs": 33,
       "redundancy_count": 0,
       "flagged_sentence_count": 5,
       "suppressed_redundancy_count": 0,
@@ -6635,7 +6635,7 @@
     },
     {
       "file": "demolition-1cor15-22.html",
-      "paragraphs": 34,
+      "paragraphs": 32,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -6655,7 +6655,7 @@
           "preview": "Something that felt less like a decision you were making and more like a door opening from the other side."
         },
         {
-          "paragraph": 33,
+          "paragraph": 31,
           "sentence_index": 1,
           "flags": [
             "long:53w"
@@ -6663,7 +6663,7 @@
           "preview": "A leather-bound book so large its spine has to rest on the floor of the throne room, and the pages are the thinness of breath, and every name on every page is written in the same handwriting  —  the S"
         },
         {
-          "paragraph": 33,
+          "paragraph": 31,
           "sentence_index": 8,
           "flags": [
             "long:75w"
@@ -6967,7 +6967,7 @@
     },
     {
       "file": "demolition-acts7-51.html",
-      "paragraphs": 46,
+      "paragraphs": 40,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -6977,23 +6977,15 @@
             "long:46w"
           ],
           "preview": "Because they notice, finally, that the crown was made of paper and the King whose hand is reaching for it is wearing one made of gold and blood, and the only thing He is going to do with the paper one"
-        },
-        {
-          "paragraph": 39,
-          "sentence_index": 4,
-          "flags": [
-            "long-simile:14w"
-          ],
-          "preview": "Stood, like a Father walking to the door when He sees the child coming up the road."
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 2,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 2
+      "score": 1
     },
     {
       "file": "demolition-arianism.html",
@@ -7223,7 +7215,7 @@
     },
     {
       "file": "demolition-hebrews2-9.html",
-      "paragraphs": 47,
+      "paragraphs": 43,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -7245,24 +7237,15 @@
     },
     {
       "file": "demolition-hebrews3-12.html",
-      "paragraphs": 25,
+      "paragraphs": 24,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
-      "suppressed_sentences": [
-        {
-          "paragraph": 23,
-          "sentence_index": 2,
-          "suppressed_flags": [
-            "length-suppressed-chiasm:today,voice"
-          ],
-          "preview": "\"Today, if you hear his voice, do not harden your hearts.\" But the very ability to hear the voice today is itself a gift"
-        }
-      ],
+      "suppressed_sentences": [],
       "redundancy_count": 0,
       "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1,
+      "suppressed_sentence_count": 0,
       "score": 0
     },
     {
@@ -7462,7 +7445,7 @@
     },
     {
       "file": "demolition-john3-16.html",
-      "paragraphs": 30,
+      "paragraphs": 29,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -7762,7 +7745,7 @@
     },
     {
       "file": "demolition-rev3-20.html",
-      "paragraphs": 26,
+      "paragraphs": 24,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -8101,7 +8084,7 @@
     },
     {
       "file": "devotional-found-before-you-were-born.html",
-      "paragraphs": 31,
+      "paragraphs": 24,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -8158,7 +8141,7 @@
     },
     {
       "file": "devotional-held-without-asking.html",
-      "paragraphs": 20,
+      "paragraphs": 17,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -8376,7 +8359,7 @@
     },
     {
       "file": "devotional-love-letter-before-time.html",
-      "paragraphs": 31,
+      "paragraphs": 27,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -13585,7 +13568,7 @@
     },
     {
       "file": "psychology-addiction-proof.html",
-      "paragraphs": 36,
+      "paragraphs": 32,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -13620,11 +13603,11 @@
     },
     {
       "file": "psychology-attribution-error.html",
-      "paragraphs": 26,
+      "paragraphs": 24,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 24,
+          "paragraph": 22,
           "sentence_index": 0,
           "flags": [
             "long:48w"
@@ -13632,7 +13615,7 @@
           "preview": "And then something happens on a page like this one, or in a sermon you didn't plan to hear, or in a kitchen long after the dishes have been put away when you thought you were alone, and for the space "
         },
         {
-          "paragraph": 24,
+          "paragraph": 22,
           "sentence_index": 4,
           "flags": [
             "long:75w"
@@ -13693,7 +13676,7 @@
     },
     {
       "file": "psychology-cognitive-biases.html",
-      "paragraphs": 95,
+      "paragraphs": 92,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -13835,7 +13818,7 @@
     },
     {
       "file": "psychology-fear-control.html",
-      "paragraphs": 23,
+      "paragraphs": 22,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -13909,7 +13892,7 @@
     },
     {
       "file": "psychology-identity-threat.html",
-      "paragraphs": 33,
+      "paragraphs": 28,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -14131,7 +14114,7 @@
     },
     {
       "file": "psychology-system-justification.html",
-      "paragraphs": 25,
+      "paragraphs": 23,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -14143,7 +14126,7 @@
           "preview": "Applied to theology: millions of Christians defend a framework that places the weight of eternal destiny on their own shoulders, and resist the gift of sovereign grace  —  not because they've evaluate"
         },
         {
-          "paragraph": 24,
+          "paragraph": 22,
           "sentence_index": 2,
           "flags": [
             "padding-modifier:in the silence"
@@ -14523,7 +14506,7 @@
     },
     {
       "file": "question-book-of-life.html",
-      "paragraphs": 32,
+      "paragraphs": 27,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -15128,19 +15111,11 @@
     },
     {
       "file": "question-isaiah53.html",
-      "paragraphs": 26,
+      "paragraphs": 24,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 24,
-          "sentence_index": 2,
-          "flags": [
-            "long:48w"
-          ],
-          "preview": "It is a certainty, accomplished 700 years before Calvary in the words of a prophet, executed on a cross in Jerusalem, and confirmed by a risen Servant who looked at the fruit of His suffering and whis"
-        },
-        {
-          "paragraph": 25,
+          "paragraph": 23,
           "sentence_index": 7,
           "flags": [
             "padding-modifier:in the silence"
@@ -15160,10 +15135,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 2,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
-      "score": 2
+      "score": 1
     },
     {
       "file": "question-john10.html",
@@ -15180,7 +15155,7 @@
     },
     {
       "file": "question-john15.html",
-      "paragraphs": 27,
+      "paragraphs": 25,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -15412,7 +15387,7 @@
     },
     {
       "file": "question-pharaoh-hardened.html",
-      "paragraphs": 22,
+      "paragraphs": 20,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -19007,7 +18982,7 @@
     },
     {
       "file": "systematic-effectual-calling.html",
-      "paragraphs": 37,
+      "paragraphs": 35,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -19033,23 +19008,15 @@
             "long:52w"
           ],
           "preview": "If you have read this far, and something in you is leaning forward  —  if there is a recognition rising in your chest that this might be the truest description of your own conversion you have ever enc"
-        },
-        {
-          "paragraph": 35,
-          "sentence_index": 1,
-          "flags": [
-            "long:58w"
-          ],
-          "preview": "He spoke into the silence of your spiritual tomb, and you came out, blinking and bewildered, with the grave clothes still hanging from you, into a world you did not make, held by a Father you did not "
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 4,
+      "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 4
+      "score": 3
     },
     {
       "file": "systematic-election.html",
@@ -19290,11 +19257,11 @@
     },
     {
       "file": "systematic-ordo-salutis.html",
-      "paragraphs": 29,
+      "paragraphs": 24,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 25,
+          "paragraph": 21,
           "sentence_index": 1,
           "flags": [
             "long:73w"
@@ -19312,7 +19279,7 @@
     },
     {
       "file": "systematic-perseverance.html",
-      "paragraphs": 34,
+      "paragraphs": 32,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -19380,7 +19347,7 @@
           "preview": "This is why the genuine believer's experience of perseverance is not complacency but a holy restlessness  —  a war against sin that never fully quiets, a grief over failure that an apostate does not f"
         },
         {
-          "paragraph": 32,
+          "paragraph": 31,
           "sentence_index": 0,
           "flags": [
             "long:53w"
@@ -19407,7 +19374,7 @@
           "preview": "The One who keeps you is not described as hoping you will hold on; He is described as able  —  dynamenō , possessing the"
         },
         {
-          "paragraph": 32,
+          "paragraph": 31,
           "sentence_index": 2,
           "suppressed_flags": [
             "length-suppressed-anaphora:2-word:to the×3"
@@ -19507,7 +19474,7 @@
     },
     {
       "file": "systematic-providence.html",
-      "paragraphs": 36,
+      "paragraphs": 33,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -19561,25 +19528,16 @@
     },
     {
       "file": "systematic-regeneration.html",
-      "paragraphs": 31,
+      "paragraphs": 29,
       "redundancy_pairs": [],
-      "flagged_sentences": [
-        {
-          "paragraph": 29,
-          "sentence_index": 3,
-          "flags": [
-            "long:51w"
-          ],
-          "preview": "You woke into a life you did not start, in a world you did not make, named in a book you did not write  —  and the breath moving in and out of your lungs as you read this is on loan from the same God "
-        }
-      ],
+      "flagged_sentences": [],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 0
     },
     {
       "file": "systematic-repentance.html",

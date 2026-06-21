@@ -1,6 +1,6 @@
 # Prose Integrity Audit (Phase F) — Scanner v2
 
-**Generated:** 2026-06-21T19:03:26.703Z
+**Generated:** 2026-06-21T20:04:14.118Z
 **Spec:** `audit-prose.js v2` — redundancy (Jaccard ≥ 0.35 on significant-word bags) with **eight-class exemption filter** (closing-recurrence, Scripture-tsunami, pedagogical-anaphora, antithetical-parallelism, confessional-translation, historical-document-quotation, exegetical-comparison, research→pairing structural) + sentence-coherence heuristic with **anaphora/chiasm/embedded-quotation positive suppressors** + new **vehicle-tenor mismatch detector** (catches the original Aaron failure mode: simile whose vehicle and tenor are in incompatible domains).
 
 **Mandate (Aaron, 2026-04-27):** "many articles repeat themselves usually a couple times but sometimes even 3 times within the article... also some sentences don't make sense... we do not start expanding the website until every last sentence, paragraph, and article are written perfectly."
@@ -14,13 +14,13 @@
 | Metric | Value |
 |---|---|
 | Articles audited | 614 |
-| Articles entirely clean | 157 (25.6%) |
+| Articles entirely clean | 158 (25.7%) |
 | Articles with (genuine) redundancy | 8 (1.3%) |
-| Articles with (genuine) flagged sentences | 453 (73.8%) |
+| Articles with (genuine) flagged sentences | 452 (73.6%) |
 | **Total redundancy pairs flagged (genuine)** | **8** |
-| **Total sentences flagged (genuine)** | **1286** |
+| **Total sentences flagged (genuine)** | **1282** |
 | Redundancy pairs suppressed (apex-tier exemptions) | 16 |
-| Sentence flags suppressed (coherence-positive) | 171 |
+| Sentence flags suppressed (coherence-positive) | 170 |
 
 ### Suppression breakdown by exemption class
 
@@ -49,7 +49,7 @@
 11. **ethics-sexuality.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 13 paragraphs)
 12. **reformed-apologetics-fine-tuning.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 15 paragraphs)
 13. **response-jerry-walls.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 63 paragraphs)
-14. **systematic-perseverance.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 34 paragraphs) *[0 pairs + 3 sentences auto-suppressed]*
+14. **systematic-perseverance.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 32 paragraphs) *[0 pairs + 3 sentences auto-suppressed]*
 15. **apologetic-hilasterion-the-mercy-seat.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 32 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
 16. **apologetic-light-shine-out-of-darkness.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 11 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
 17. **apologetic-revival-and-sovereign-grace.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 28 paragraphs)

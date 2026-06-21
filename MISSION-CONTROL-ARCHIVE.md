@@ -4,6 +4,19 @@
 
 ---
 
+### Session 138 — 2026-06-20 — Diamond Pass batch 4 (16 pages, two parallel batches)
+
+**Shipped (16 cold-read across 12 registers; 1 DIAMOND, 15 lifted all-SUBTRACTION):**
+- DIAMOND: demolition-john15-2 (resists the doubled close; *airō* / *kathairō* exegesis honest — declines the soft "lift up" reading; "The saw is for the dead. The shears are for His own").
+- Lifts (batch 1 — demolition / question / systematic / devotional / psychology / objection / OT): demolition-1john2-2 (cut "What This Verse Actually Proclaims" + doubled tricolon + summary re-close + "it never loses"); question-am-i-chosen (cut "Mercy Hidden" duplicate; collapsed 4 trailing closes to one + "The pull is the proof"); systematic-atonement (5 endings → nails-catch + boat-return; preserved the faith-as-gift crown jewel); devotional-drawn-not-dragged (cut the 3rd "eyes" analogy + "remember the magnet" recap); psychology-anosognosia-of-sin (5-paragraph ending → surgeon-catch + bedside + false-floor); ot-jacob-esau (quadrupled → catch + the limp; Gen 25:23 verified NIV); systematic-reprobation (de-tripled the pastoral catch; Rom 11:33-36 doxology kept as the seal); psychology-suppressing-truth (merged two mercy paragraphs; "You did not open the crack… He did"); objection-free-will (deleted "What Has Happened While You Were Reading" + two body-coaching passages; "Rest. He has the will."); devotional-the-prayer-you-didnt-pray (DE-STAGED a banned manufactured "kitchen floor / dark phone / refrigerator" opener that was the page's SPINE in 8 places; "He dialed before you existed"); question-what-is-the-gospel (collapsed two final sections; the §XV refusal to rest on Eph 2:8 grammar is exemplary).
+- Lifts (batch 2 — story / joy / broken / philosophy): story-cross-examination (cut doubled courtroom Return); joy-security-changes-everything (cut "Question That Cannot Be Escaped"); broken-mirror-imposter-syndrome (cut the thesis-restating section + a duplicate sentence); philosophy-self-deception (cut 2 self-announcing transitions + the borrowed-"throne" restatement → the page's own lid metaphor; softened Sartre "three hundred pages").
+
+**Fixed (3 doctrinal slips — grace is God's, never the sinner's possession):** story-cross-examination "not your achievement but your *grace*" → "your *rescue*"; broken-mirror "you're not broken. You're not a fake" → names real weakness caught by greater grace (the Luther move); philosophy-self-deception hardened the "in some high proportion" autonomy hedge to full strength. Doctrinal hardenings: am-i-chosen 1 John tests "honest self-examination" → grace's fingerprints, not a bar to clear; drawn-not-dragged toddler analogy hardened against a resistible-grace reading ("the same Spirit who woos is the Spirit who changes the iron — the drawing never fails").
+
+**Carries forward:** ~560 prose pages un-live-read; two recurring catch-arm risks named — doctrinal slips that make grace the sinner's possession (3 this session), and manufactured-scene openers that are often the page's whole spine (requiring a site-wide de-stage, not just an opener swap).
+
+**Pipeline:** GREEN; auto-linker 0; quotes 3641→3640 (cut Jeremiah blockquote on jacob-esau); links 44–185.
+
 ### Session 137 — 2026-06-20 — Diamond Pass batch 3 (5 sample-read + 8 cold-read; the Five-Point Proliferation template fault CLOSED + the verse-blockquote hazard root-fixed)
 
 **Shipped (13 cold-read + a systemic template-fault sweep; 17 HTML files edited, all SUBTRACTION + one hardening):**
