@@ -1,6 +1,6 @@
 # Prose Integrity Audit (Phase F) — Scanner v2
 
-**Generated:** 2026-06-20T21:30:10.986Z
+**Generated:** 2026-06-21T02:51:30.538Z
 **Spec:** `audit-prose.js v2` — redundancy (Jaccard ≥ 0.35 on significant-word bags) with **eight-class exemption filter** (closing-recurrence, Scripture-tsunami, pedagogical-anaphora, antithetical-parallelism, confessional-translation, historical-document-quotation, exegetical-comparison, research→pairing structural) + sentence-coherence heuristic with **anaphora/chiasm/embedded-quotation positive suppressors** + new **vehicle-tenor mismatch detector** (catches the original Aaron failure mode: simile whose vehicle and tenor are in incompatible domains).
 
 **Mandate (Aaron, 2026-04-27):** "many articles repeat themselves usually a couple times but sometimes even 3 times within the article... also some sentences don't make sense... we do not start expanding the website until every last sentence, paragraph, and article are written perfectly."
@@ -14,13 +14,13 @@
 | Metric | Value |
 |---|---|
 | Articles audited | 614 |
-| Articles entirely clean | 156 (25.4%) |
+| Articles entirely clean | 157 (25.6%) |
 | Articles with (genuine) redundancy | 8 (1.3%) |
-| Articles with (genuine) flagged sentences | 454 (73.9%) |
+| Articles with (genuine) flagged sentences | 453 (73.8%) |
 | **Total redundancy pairs flagged (genuine)** | **8** |
-| **Total sentences flagged (genuine)** | **1299** |
+| **Total sentences flagged (genuine)** | **1294** |
 | Redundancy pairs suppressed (apex-tier exemptions) | 17 |
-| Sentence flags suppressed (coherence-positive) | 174 |
+| Sentence flags suppressed (coherence-positive) | 172 |
 
 ### Suppression breakdown by exemption class
 
@@ -58,29 +58,29 @@
 20. **ethics-immigration.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 18 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
 21. **ethics-marriage.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 14 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
 22. **story-dark-the-rope-you-wove-yourself.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 49 paragraphs)
-23. **theologian-augustine.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 43 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-24. **apologetic-gave-himself-for-the-bride.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 14 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-25. **apologetic-he-did-not-spare-his-own-son.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 12 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-26. **apologetic-loved-darkness-rather-than-light.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 13 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-27. **apologetic-nothing-can-separate.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 25 paragraphs)
-28. **apologetic-purchased-from-every-tribe.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 12 paragraphs)
-29. **compare-wesleyan-methodism.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 21 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-30. **ot-joseph.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 26 paragraphs)
-31. **systematic-covenant-redemption.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 61 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-32. **theologian-gottschalk.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 28 paragraphs)
-33. **apologetic-ekloge-the-greek-of-election.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 44 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-34. **apologetic-the-double-grip-of-john-10.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 37 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-35. **apologetic-the-once-for-all-ephapax.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 40 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-36. **apologetic-the-road-to-damascus.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 21 paragraphs)
-37. **apologetic-the-washing-of-rebirth.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 15 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-38. **apologetic-those-you-gave-me.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 23 paragraphs)
-39. **ethics-end-of-life.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 15 paragraphs)
-40. **ethics-power-authority.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 16 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-41. **ethics-race.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 14 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-42. **history-puritans.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 26 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-43. **presuppositional-impossibility-of-the-contrary.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 14 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-44. **reformed-apologetics-resurrection.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 12 paragraphs)
-45. **romans-9-deep-dive.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 85 paragraphs)
+23. **apologetic-gave-himself-for-the-bride.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 14 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+24. **apologetic-he-did-not-spare-his-own-son.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 12 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+25. **apologetic-loved-darkness-rather-than-light.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 13 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+26. **apologetic-nothing-can-separate.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 25 paragraphs)
+27. **apologetic-purchased-from-every-tribe.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 12 paragraphs)
+28. **compare-wesleyan-methodism.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 21 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+29. **ot-joseph.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 26 paragraphs)
+30. **systematic-covenant-redemption.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 61 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+31. **theologian-gottschalk.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 28 paragraphs)
+32. **apologetic-ekloge-the-greek-of-election.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 44 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+33. **apologetic-the-double-grip-of-john-10.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 37 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+34. **apologetic-the-once-for-all-ephapax.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 40 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+35. **apologetic-the-road-to-damascus.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 21 paragraphs)
+36. **apologetic-the-washing-of-rebirth.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 15 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+37. **apologetic-those-you-gave-me.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 23 paragraphs)
+38. **ethics-end-of-life.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 15 paragraphs)
+39. **ethics-power-authority.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 16 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+40. **ethics-race.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 14 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+41. **history-puritans.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 26 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+42. **presuppositional-impossibility-of-the-contrary.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 14 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+43. **reformed-apologetics-resurrection.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 12 paragraphs)
+44. **romans-9-deep-dive.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 85 paragraphs)
+45. **theologian-augustine.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 38 paragraphs)
 46. **theologian-owen.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 33 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
 47. **westminster-chapter-3-plain-english.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 93 paragraphs) *[5 pairs + 2 sentences auto-suppressed]*
 48. **apologetic-arrabon-the-down-payment.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 33 paragraphs)
@@ -448,23 +448,6 @@
 - [long:46w] (¶35): "This is the moment when the mirror finally shows you what you were  —  not a hero who climbed out, but a man who was lifted out by hands he did not see, who all that time mistook the lifting for a wor…"
 - [padding-modifier:in the dark] (¶43): "The work you did in the dark  —  the desperate, brave, painful, real work of trying to get out  —  was not wasted, but it was not what saved you.…"
 
-### theologian-augustine.html — score 8
-
-**Flagged sentences (8):**
-
-- [long:55w] (¶3): "He goes into the house and tells Monica, and Monica  —  who has been praying through his adolescence and through his Manichaean phase and through his mistress and through his ambition  —  weeps harder…"
-- [long:49w] (¶4): "By twenty he has found Manichaeism, a dualist cult that assures him his warring flesh is not his fault  —  there is a bad substance in him and a good substance, and they are at war, and if he could ju…"
-- [long:51w] (¶17): "Every prayer she offered, every tear she wept over her son's running, every candle she lit in the dark of the North African night  —  she was writing, into the deep tissue of his unconscious, one sent…"
-- [long:58w] (¶20): "Fifteen years after the garden, a British monk named Pelagius arrived in Rome and began teaching that the human will is morally neutral, that sin is an accumulation of bad habits rather than an inheri…"
-- [long:50w] (¶28): "What remains standing is a salvation entirely of God , which is the only kind that ever worked in the first place, which is the only kind Scripture ever taught, and which is the only kind that can rea…"
-- [long:52w] (¶35): "You have to let yourself be held  —  and even the letting is His gift, reached into you by the same hand that reached into the garden and broke whatever was broken in the will of a rhetorician with a …"
-- [long:46w, padding-modifier:in the dark] (¶36): "The Spirit who hovered over the chaos at creation hovered over the chaos in Augustine's chest, regenerated the dead heart, illumined the page of Romans, and sealed for the day of redemption a man who …"
-- [long:48w] (¶40): "We confess that every prayer Monica prayed, and every prayer you have ever prayed, and every prayer you will ever pray, is a sound the Spirit Himself has put in our throats  —  that we might pray it b…"
-
-**Suppressions** (auto-filtered as exemptions / coherence-positives):
-
-- 2 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
-
 ### apologetic-gave-himself-for-the-bride.html — score 7
 
 **Flagged sentences (7):**
@@ -564,6 +547,22 @@
 - [long:48w] (¶19): "Box B: The cross was the unforeseen tragedy God responded to creatively after the fact  —  Pilate's decision, the Sanhedrin's decision, Judas's decision, all genuinely outside the divine decree, and G…"
 - [long:49w] (¶23): "And the God who sent Joseph through slavery to save a nation is the same God who chose you before the foundation of the world  —  and who is working every detail of your life, including the parts that…"
 - [long:48w] (¶24): "He does not know there will be a famine, or a reunion, or a sentence about what they meant and what God meant, or a son named Manasseh, or a tomb in Shechem, or a coffin carried out of Egypt four hund…"
+
+### systematic-covenant-redemption.html — score 7
+
+**Flagged sentences (7):**
+
+- [long:51w] (¶5): "The answer is the covenant of redemption  —  what Reformed theologians have called the pactum salutis , the Latin for "covenant of salvation." It is the eternal agreement among the Father, Son, and Ho…"
+- [padding-modifier:in the silence] (¶7): "And it means that your name  —  if you are in Christ  —  was spoken in the silence before starlight, when the Three were one and already agreeing on the rescue that would unfold through galaxies and m…"
+- [long:46w] (¶12): "Then in John 17 , on the night before the cross, Jesus prays the longest recorded prayer in Scripture  —  and He returns to "those you gave me" again and again  —  from verse 2 to verse 24, the prayer…"
+- [long:57w, long-simile:21w] (¶14): "Read the whole chapter with this in mind and it reads like a legal proceeding  —  the Son reporting back to the Father that He has completed the work He was sent to do, that He has kept every one entr…"
+- [long:52w] (¶17): "Ephesians 1 is Paul's breathless attempt to trace salvation back to its ultimate source, and what he finds there is not a divine whim  —  he finds a plan , a purpose , a mystery of his will , an etern…"
+- [long:70w] (¶23): "The phrase translated "harmony between the two" is in Hebrew the ʿatsath shalom  —  literally, "a counsel of peace." Reformed theologians from Witsius to Herman Bavinck have pointed here: between the …"
+- [long:111w] (¶60): "→ Unconditional election  —  the decree that flows directly from this covenant. → Federal headship  —  the doctrine that explains why the covenant applies to you specifically. → Imputation  —  the mec…"
+
+**Suppressions** (auto-filtered as exemptions / coherence-positives):
+
+- 1 sentence flag suppressed (anaphora / chiasm / embedded-quotation)
 
 ---
 

@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-06-20T21:30:10.965Z",
+  "generated": "2026-06-21T02:51:30.516Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 614,
     "total_redundancy_pairs_flagged": 8,
-    "total_sentences_flagged": 1299,
+    "total_sentences_flagged": 1294,
     "total_redundancy_pairs_suppressed": 17,
-    "total_sentences_suppressed": 174,
+    "total_sentences_suppressed": 172,
     "articles_with_redundancy": 8,
-    "articles_with_flagged_sentences": 454,
-    "articles_clean": 156,
+    "articles_with_flagged_sentences": 453,
+    "articles_clean": 157,
     "suppression_by_class": {
       "scripture-tsunami": 9,
       "pedagogical-anaphora": 2,
@@ -219,15 +219,6 @@
       "suppressed_sentence_count": 0
     },
     {
-      "file": "theologian-augustine.html",
-      "score": 8,
-      "paragraphs": 43,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 8,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 2
-    },
-    {
       "file": "apologetic-gave-himself-for-the-bride.html",
       "score": 7,
       "paragraphs": 14,
@@ -420,6 +411,15 @@
       "file": "romans-9-deep-dive.html",
       "score": 6,
       "paragraphs": 85,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 6,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
+      "file": "theologian-augustine.html",
+      "score": 6,
+      "paragraphs": 38,
       "redundancy_count": 0,
       "flagged_sentence_count": 6,
       "suppressed_redundancy_count": 0,
@@ -1506,7 +1506,7 @@
     },
     {
       "file": "anxious-mind-scrupulosity.html",
-      "paragraphs": 63,
+      "paragraphs": 46,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -5943,26 +5943,9 @@
     },
     {
       "file": "compare-calvinism-arminianism.html",
-      "paragraphs": 26,
+      "paragraphs": 23,
       "redundancy_pairs": [],
-      "flagged_sentences": [
-        {
-          "paragraph": 17,
-          "sentence_index": 0,
-          "flags": [
-            "long:62w"
-          ],
-          "preview": "The social psychologist Robert Cialdini spent fifty years documenting, across hundreds of controlled studies, a phenomenon he named commitment-and-consistency bias : a person who contributes even the "
-        },
-        {
-          "paragraph": 24,
-          "sentence_index": 1,
-          "flags": [
-            "long:61w"
-          ],
-          "preview": "The low, constant hum beneath every sincere believer who still thinks they chose  —  the exhausting arithmetic of wondering whether your choice today was sincere enough to still count, whether your do"
-        }
-      ],
+      "flagged_sentences": [],
       "suppressed_redundancy": [],
       "suppressed_sentences": [
         {
@@ -5975,10 +5958,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 2,
+      "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
-      "score": 2
+      "score": 0
     },
     {
       "file": "compare-calvinism-catholic-soteriology.html",
@@ -10332,7 +10315,7 @@
     },
     {
       "file": "history-calvin-geneva.html",
-      "paragraphs": 25,
+      "paragraphs": 23,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -11059,7 +11042,7 @@
     },
     {
       "file": "invisible-wall-marriage.html",
-      "paragraphs": 43,
+      "paragraphs": 30,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -11071,7 +11054,7 @@
           "preview": "But the God they are addressing  —  the one who waits for human initiative, who offers and hopes, who sets the table but never seats the guests  —  is not the God who found you in the dark and seated "
         },
         {
-          "paragraph": 41,
+          "paragraph": 29,
           "sentence_index": 1,
           "flags": [
             "padding-modifier:in the silence"
@@ -12233,11 +12216,11 @@
     },
     {
       "file": "open-wound-terminal-diagnosis.html",
-      "paragraphs": 33,
+      "paragraphs": 31,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 27,
+          "paragraph": 26,
           "sentence_index": 7,
           "flags": [
             "padding-modifier:in the silence"
@@ -12245,26 +12228,18 @@
           "preview": "Sit in the silence."
         },
         {
-          "paragraph": 30,
+          "paragraph": 28,
           "sentence_index": 5,
           "flags": [
             "padding-modifier:in the dark"
           ],
           "preview": "And the Shepherd who walks beside you in the dark is the same Shepherd who called you by name before you knew His voice."
-        },
-        {
-          "paragraph": 31,
-          "sentence_index": 10,
-          "flags": [
-            "long:46w"
-          ],
-          "preview": "But the God who ordained your first heartbeat ordained your last one too, and He has walked every step between them beside you, and He will walk through the door at the end with you, and on the other "
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [
         {
-          "paragraph": 19,
+          "paragraph": 18,
           "sentence_index": 0,
           "suppressed_flags": [
             "length-suppressed-anaphora:2-word:if he×3"
@@ -12272,7 +12247,7 @@
           "preview": "But if salvation rests on God's sovereign choice  —  if He chose you before the creation of the world , if He sealed you"
         },
         {
-          "paragraph": 26,
+          "paragraph": 25,
           "sentence_index": 0,
           "suppressed_flags": [
             "length-suppressed-chiasm:suffering,absorbed"
@@ -12281,10 +12256,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 3,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 2,
-      "score": 3
+      "score": 2
     },
     {
       "file": "open-wound-the-prayer-god-didnt-answer.html",
@@ -17318,7 +17293,7 @@
     },
     {
       "file": "secular-economics-depravity.html",
-      "paragraphs": 48,
+      "paragraphs": 47,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -17680,7 +17655,7 @@
     },
     {
       "file": "shattered-lens-silence-of-god.html",
-      "paragraphs": 42,
+      "paragraphs": 40,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -20085,7 +20060,7 @@
     },
     {
       "file": "testimony-newton.html",
-      "paragraphs": 22,
+      "paragraphs": 21,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -20205,7 +20180,7 @@
     },
     {
       "file": "the-golden-chain.html",
-      "paragraphs": 32,
+      "paragraphs": 31,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -20361,7 +20336,7 @@
     },
     {
       "file": "theologian-augustine.html",
-      "paragraphs": 43,
+      "paragraphs": 38,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -20411,49 +20386,15 @@
             "long:52w"
           ],
           "preview": "You have to let yourself be held  —  and even the letting is His gift, reached into you by the same hand that reached into the garden and broke whatever was broken in the will of a rhetorician with a "
-        },
-        {
-          "paragraph": 36,
-          "sentence_index": 7,
-          "flags": [
-            "long:46w",
-            "padding-modifier:in the dark"
-          ],
-          "preview": "The Spirit who hovered over the chaos at creation hovered over the chaos in Augustine's chest, regenerated the dead heart, illumined the page of Romans, and sealed for the day of redemption a man who "
-        },
-        {
-          "paragraph": 40,
-          "sentence_index": 3,
-          "flags": [
-            "long:48w"
-          ],
-          "preview": "We confess that every prayer Monica prayed, and every prayer you have ever prayed, and every prayer you will ever pray, is a sound the Spirit Himself has put in our throats  —  that we might pray it b"
         }
       ],
       "suppressed_redundancy": [],
-      "suppressed_sentences": [
-        {
-          "paragraph": 39,
-          "sentence_index": 2,
-          "suppressed_flags": [
-            "length-suppressed-anaphora:2-word:and the×4"
-          ],
-          "preview": "The only move available to a fish already on the shore is to stop thrashing and look up at the One who dragged him home "
-        },
-        {
-          "paragraph": 42,
-          "sentence_index": 1,
-          "suppressed_flags": [
-            "length-suppressed-anaphora:2-word:to the×4"
-          ],
-          "preview": "To the Father who chose us in Christ before the world was; to the Son who is our only Mediator and our everlasting High "
-        }
-      ],
+      "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 8,
+      "flagged_sentence_count": 6,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 2,
-      "score": 8
+      "suppressed_sentence_count": 0,
+      "score": 6
     },
     {
       "file": "theologian-boston.html",
