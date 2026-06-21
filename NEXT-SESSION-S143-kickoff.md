@@ -1,5 +1,7 @@
 # NEXT SESSION — S143 — THE DIAMOND PASS, batch 10 (Aaron's directive, 2026-06-19, still in force)
 
+> **PRIORITY 0 THIS RUN — DO FIRST:** execute `NEXT-SESSION-context-optimization-brief.md` in full (compress the MISSION-CONTROL log, kill the kickoff/VOICE double-read, consolidate memory, and draft lean CLAUDE/VOICE proposals for Aaron's review). THEN continue the Diamond Pass below to fill the window to ≥80%.
+
 **THE DIRECTIVE (still in force).** *No new content until every existing page is a perfect diamond — "perfectly powerful prose, perfect arguments, perfect length, perfect wisdom, perfect resonance… every article should prove to the reader that this site is worthy of their time."* Build nothing new. Perfect what exists. Every lift is mostly SUBTRACTION. Verify-don't-blind-strip on every cut; preserve cohesion (rewrite whole passages, never fragment).
 
 ## THE UNIVERSAL FINDING — this is the bar (do NOT re-derive it)
@@ -18,7 +20,8 @@ Secondary catches the live read keeps surfacing in the CATCH arm — watch for a
 - Pipeline GREEN; counts unchanged (609 prose / 685 HTML; In Brief intact; quotes 3638→**3639** [added Luke 22:18 ref]; DIVERGENT 270; 0 "(NIV)").
 
 ## READ FIRST (sections only — never an `*-ARCHIVE.md` whole)
-`.claude/CLAUDE.md` → `MISSION-CONTROL.md` Session 142 (+ 141) → `VOICE.md` §I.2, §VI ("The Manufactured Crisis Scene", "Wordiness"), §VIII (closing protocol — ONE tender landing), §XV–XVII → `SAPIENTIAL-AUDIT.md` (tail).
+`CLAUDE.md` (repo root — it AUTO-LOADS into your context; do NOT re-read it) → `MISSION-CONTROL.md` Session 142 (+ 141 only) → `VOICE.md` §I.2, §VI ("The Manufactured Crisis Scene", "Wordiness"), §VIII (closing protocol — ONE tender landing), §XV–XVII → `SAPIENTIAL-AUDIT.md` (tail).
+**CONTEXT ECONOMY (Aaron, 2026-06-21) — maximize context for page CONTENT, minimize it for process:** read ONLY the sections named above, never whole docs. Pipe EVERY pipeline/audit command to `| tail` or `| grep` — `verify-scripture`, `audit-prose`, `validate-site`, and `sapiential-audit` all emit long output, and an un-piped `verify-scripture` alone floods ~8K tokens of file-list into context. Cold-read auditing is delegated to subagents precisely so the page-reading cost stays in THEIR context, not the lead's.
 
 ## PRIORITY 0 — PRE-FLIGHT + STANDING SAMPLE-READ
 1. `ls -1 *.html | wc -l` (**685** at S142 close) · `node sapiential-audit.js` (expect 609 prose / T1 0 / T2 156 / T3 453) · `node audit-prose.js` (note the ranking, but the top is genre length, not bloat) · `node validate-site.js` · `node canonical-conformance.js` · `node verify-scripture.js` (expect 0 "(NIV)"; DIVERGENT ~270; quotes ~3639).
