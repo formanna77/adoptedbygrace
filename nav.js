@@ -624,7 +624,7 @@
  { name: 'The Autonomy Illusion — Why "Free Will" Feels So Real', href: '/psychology-autonomy-illusion', desc: 'Libet' },
  { name: 'The Conversion Memory Test', href: '/psychology-conversion-memory-test', desc: 'Try to locate the exact instant you chose God and your memory dissolves — not the season, not the sermon, but the precis' },
  { name: 'The Credit Thief Inside Your Brain', href: '/psychology-attribution-error', desc: 'The fundamental attribution error: we credit our own good choices to wisdom and others’ to luck. Applied to faith, it ex' },
- { name: 'The Language You Already Speak', href: '/psychology-language-you-already-speak', desc: 'Christians unknowingly use Calvinist language every day. Your verbs betray your theology. Discover how your own words co' },
+ { name: 'The Language You Already Speak', href: '/psychology-language-you-already-speak', desc: 'Christians instinctively narrate their conversion in the passive voice — found, drawn, rescued, broken. That instinct is' },
  { name: 'The Last Idol: Why Self-Sovereignty Is the Hardest Thing to Surrender', href: '/resistance-last-idol', desc: 'Self-sovereignty is the idol that hides behind every other idol — the conviction that you are the captain of your soul. ' },
  { name: 'The Question Beneath the Question', href: '/psychology-the-question-beneath-the-question', desc: 'Every objection to grace is a refraction of a deeper question the objector has not yet been brave enough to ask.' },
  { name: 'The Sincerity Trap', href: '/psychology-sincerity-trap', desc: 'Why the warmest, most sincere believers are often the hardest to reach with truth. How sincerity itself becomes the armo' },
