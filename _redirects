@@ -13,6 +13,7 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /donate     /donate.html     200
 /support    /donate.html     301
 /contact    /contact.html    200
+/author     /author.html     200
 
 # Creeds & Confessions — deep-dive pages
 /creed-canons-dort           /creed-canons-dort.html           200

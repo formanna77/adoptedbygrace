@@ -144,7 +144,7 @@ function buildRelatedHTML(related) {
   html += `
 </div>
     <div class="related-articles-browse">
-   <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
+   <a href="/all-content" class="related-browse-link">Browse All 600+ Articles →</a>
    <a href="/topics" class="related-browse-link">Explore by Topic →</a>
 </div>
 </div>

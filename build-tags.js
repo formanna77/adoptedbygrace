@@ -21,7 +21,7 @@ const SKIP = new Set([
   'index.html', 'index-old.html', 'index-new.html',
   'google0af1fbedb3c930a8.html',
   'donate.html', 'contact.html', 'privacy.html', 'terms.html',
-  'about.html', 'freedom.html', 'belief-assessment.html', 'quiz.html',
+  'about.html', 'author.html', 'freedom.html', 'belief-assessment.html', 'quiz.html',
   'explore-map.html', 'connections.html', 'essays.html',
   'best-reads.html', 'verse-explorer.html',
   'all-content.html', 'topics.html',
@@ -280,6 +280,11 @@ for (const file of htmlFiles) {
   const { title, desc, bodyText } = extractMeta(html);
 
   if (!title) continue;
+
+  // Only index real articles — pages that wrap content in <article class="article-body">.
+  // This excludes hub pages, landing pages, and special feature pages (which lack the marker),
+  // giving ONE canonical, browseable article set shared by /all-content, /topics, and the homepage total.
+  if (!html.includes('<article class="article-body">')) continue;
 
   const category = getCategory(file);
   const tags = scoreTopics(title, desc, bodyText);

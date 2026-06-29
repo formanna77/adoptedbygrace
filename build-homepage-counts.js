@@ -1,12 +1,18 @@
 #!/usr/bin/env node
 /**
- * build-homepage-counts.js
+ * build-homepage-counts.js  (v2)
  *
- * Counts articles per category and updates the data-target attributes
- * in the Content Explorer section of index.html.
+ * Bakes REAL counts into index.html's "What's Inside" explorer — as BOTH the
+ * data-target (used by the JS count-up animation) AND the visible text content.
+ * Because the visible text is the real number, the true counts show even with
+ * zero JavaScript: no more "0 Articles" for crawlers, no-JS, or pre-scroll users.
  *
- * Run:  node build-homepage-counts.js
+ * Counts derive from tags.json — the single canonical article index
+ * (build-tags.js) — so the homepage total reconciles EXACTLY with /all-content.
+ * Special feature tiles (verse flood, source library, connections map, essays)
+ * are measured from their own pages, since they aren't article-body pages.
  *
+ * Run:  node build-homepage-counts.js   (after build-tags.js)
  * MUST be run after creating or deleting any HTML article pages.
  */
 
@@ -15,141 +21,91 @@ const path = require('path');
 
 const SITE_DIR = __dirname;
 const INDEX_FILE = path.join(SITE_DIR, 'index.html');
+const tags = JSON.parse(fs.readFileSync(path.join(SITE_DIR, 'tags.json'), 'utf8'));
+const pages = tags.pages || [];
+const TOTAL = pages.length; // canonical browseable article count (== /all-content)
 
-// Hub pages, utility pages, and non-article pages to exclude from counts
-const SKIP = new Set([
-  'index.html', '_nav-template.html', 'search.html', '404.html',
-  'about.html', 'contact.html', 'donate.html', 'privacy.html', 'terms.html',
-  'sitemap.html', 'all-content.html', 'topics.html',
-  'belief-assessment.html', 'question-faith-origin-test.html', 'verse-explorer.html',
-  'explore-map.html', 'connections.html', 'best-reads.html',
-  'google0af1fbedb3c930a8.html',
-  // Hub pages (not articles themselves)
-  'questions.html', 'demolition-hub.html', 'psychology-hub.html',
-  'systematic-theology.html', 'devotionals.html', 'stories.html',
-  'ot-hub.html', 'history-timeline.html', 'secular-evidence.html',
-  'philosophy-hub.html', 'theologians.html', 'analogies-illustrations.html',
-  'comparisons-hub.html', 'start-here.html', 'essays.html', 'pastoral-hub.html', 'joy-hub.html',
-  'creeds-confessions.html',
-  // Healing hub pages
-  'anxious-mind-hub.html', 'broken-mirror-hub.html', 'open-wound-hub.html',
-  'invisible-wall-hub.html', 'shattered-lens-hub.html',
-]);
+// Count canonical articles whose filename starts with any of these prefixes
+const byPrefix = (...prefixes) => pages.filter(p => prefixes.some(pre => p.file.startsWith(pre))).length;
 
-// Category definitions: each maps a hub href to filename patterns
-const CATEGORIES = [
-  { href: '/questions', patterns: [/^question-/, /^apologetic-/, /^debate-/, /^for-skeptics/, /^for-arminians/] },
-  { href: '/demolition-hub', patterns: [/^demolition-/, /^counter-/, /^romans-3/, /^romans-8/, /^romans-9/] },
-  { href: '/psychology-hub', patterns: [/^psychology-/, /^resistance-/] },
-  { href: '/systematic-theology', patterns: [/^systematic-/] },
-  { href: '/devotionals', patterns: [/^devotional-/, /^hymn-/, /^for-new-believers/, /^for-deconstructed/, /^for-hurting/] },
-  { href: '/stories', patterns: [/^story-/, /^analogy-/] },
-  { href: '/questions#objections', patterns: [/^objection-/] },
-  { href: '/ot-hub', patterns: [/^ot-/, /^psalm-/, /^psalms-/] },
-  { href: '/history-timeline', patterns: [/^history-/, /^creed-/, /^canons-/, /^westminster-/, /^heidelberg-/] },
-  { href: '/secular-evidence', patterns: [/^secular-/] },
-  { href: '/philosophy-hub', patterns: [/^philosophy-/, /^analytical-/, /^freedom/] },
-  { href: '/theologians', patterns: [/^theologian-/] },
-  // Analogies merged into /stories — { href: '/analogies-illustrations' } is retired
-  { href: '/comparisons-hub', patterns: [/^compare-/, /^comparison-/] },
-  { href: '/start-here', patterns: [/^start-here-/, /^phase-/, /^scripture-tsunami/] },
-  // Healing sub-hubs
-  { href: '/anxious-mind-hub', patterns: [/^anxious-mind-/] },
-  { href: '/broken-mirror-hub', patterns: [/^broken-mirror-/] },
-  { href: '/open-wound-hub', patterns: [/^open-wound-/] },
-  { href: '/invisible-wall-hub', patterns: [/^invisible-wall-/] },
-  { href: '/shattered-lens-hub', patterns: [/^shattered-lens-/] },
-  { href: '/pastoral-hub', patterns: [/^pastoral-/, /^for-pastors/, /^just-realized/] },
-  { href: '/joy-hub', patterns: [/^joy-/] },
-  { href: '/printables', patterns: [/^printable-/] },
-  // Combined healing count (all 5 sub-hubs merged for homepage tile)
-  { href: 'healing-combined', patterns: [/^anxious-mind-/, /^broken-mirror-/, /^open-wound-/, /^invisible-wall-/, /^shattered-lens-/] },
-];
+// ── Special feature pages (not in tags.json — they lack <article class="article-body">) ──
+const hubCardCount = (file) => ((fs.readFileSync(path.join(SITE_DIR, file), 'utf8').match(/class="hub-card"/g) || []).length);
+const tsunamiVerses = () => {
+  const h = fs.readFileSync(path.join(SITE_DIR, 'scripture-tsunami.html'), 'utf8');
+  const m = h.match(/contains (\d+) verses/i) || h.match(/(\d+) Bible Verses/i);
+  return m ? parseInt(m[1], 10) : 470;
+};
+const NAVISH = new Set(['/', '/best-reads', '/start-here', '/questions', '/systematic-theology',
+  '/demolition-hub', '/psychology-hub', '/scripture-tsunami', '/devotionals', '/about', '/contact',
+  '/donate', '/all-content', '/theologians', '/reformed-sources', '/connections', '/topics']);
+const uniqueArticleLinks = (file) => {
+  const h = fs.readFileSync(path.join(SITE_DIR, file), 'utf8');
+  const set = new Set([...h.matchAll(/href="(\/[a-z0-9-]+)"/g)].map(m => m[1]).filter(u => !NAVISH.has(u)));
+  return set.size;
+};
+const dirHtmlCount = (dir) => { try { return fs.readdirSync(path.join(SITE_DIR, dir)).filter(f => f.endsWith('.html')).length; } catch (e) { return 0; } };
 
-// Get all article HTML files
-const allFiles = fs.readdirSync(SITE_DIR).filter(f => {
-  if (!f.endsWith('.html')) return false;
-  if (SKIP.has(f)) return false;
-  if (f.startsWith('_') || f.startsWith('.')) return false;
-  return true;
-});
+// ── href (as written in index.html) -> real count ──
+const COUNT = {
+  '/start-here': byPrefix('start-here-', 'phase-'),
+  '/questions': byPrefix('question-'),
+  '/apologetics': byPrefix('apologetic-'),
+  '/reformed-apologetics-hub': byPrefix('reformed-apologetics-'),
+  '/presuppositional-apologetics-hub': byPrefix('presuppositional-'),
+  '/demolition-hub': byPrefix('demolition-', 'counter-'),
+  '/psychology-hub': byPrefix('psychology-', 'resistance-'),
+  '/systematic-theology': byPrefix('systematic-'),
+  '/devotionals': byPrefix('devotional-', 'hymn-'),
+  '/stories': byPrefix('story-', 'analogy-', 'parable-'),
+  '/questions#objections': byPrefix('objection-'),
+  '/ot-hub': byPrefix('ot-', 'psalm-'),
+  '/history-timeline': byPrefix('history-', 'creed-', 'canons-', 'westminster-', 'heidelberg-'),
+  '/secular-evidence': byPrefix('secular-'),
+  '/philosophy-hub': byPrefix('philosophy-', 'analytical-'),
+  '/theologians': byPrefix('theologian-'),
+  '/comparisons-hub': byPrefix('compare-', 'comparison-'),
+  // Printables aren't article-body pages, so count them on their own hub:
+  '/printables': hubCardCount('printables.html'),
+  '/anxious-mind-hub': byPrefix('anxious-mind-'),
+  '/broken-mirror-hub': byPrefix('broken-mirror-'),
+  '/open-wound-hub': byPrefix('open-wound-'),
+  '/invisible-wall-hub': byPrefix('invisible-wall-'),
+  '/shattered-lens-hub': byPrefix('shattered-lens-'),
+  '/pastoral-hub': byPrefix('pastoral-', 'for-pastors', 'just-realized'),
+  '/joy-hub': byPrefix('joy-'),
+  '/testimony-hub': byPrefix('testimony-', 'story-testimony'),
+  // Special feature tiles:
+  '/reformed-sources': hubCardCount('reformed-sources.html'),
+  '/scripture-tsunami': tsunamiVerses(),
+  '/connections': uniqueArticleLinks('connections.html'),
+  '/essays': dirHtmlCount('essays'),
+};
 
-// Count per category
-const counts = {};
-const assignedFiles = new Set();
-
-for (const cat of CATEGORIES) {
-  let count = 0;
-  for (const file of allFiles) {
-    if (cat.patterns.some(p => p.test(file))) {
-      count++;
-      assignedFiles.add(file);
-    }
-  }
-  counts[cat.href] = count;
-}
-
-const totalAssigned = assignedFiles.size;
-
-// Read index.html
 let html = fs.readFileSync(INDEX_FILE, 'utf8');
 let changes = 0;
 
-// Find all <a> tiles (explorer-tile and healing-tile) and update data-target within each
-// Strategy: find each <a ...class="explorer-tile"...>...</a> block and update its data-target
+// Update each explorer/healing tile: set BOTH data-target and the visible text.
 const tileRegex = /<a\s[^>]*class="(?:explorer-tile|healing-tile)"[^>]*>[\s\S]*?<\/a>/g;
-let match;
-while ((match = tileRegex.exec(html)) !== null) {
-  const tileHtml = match[0];
-  const tileStart = match.index;
+html = html.replace(tileRegex, (tile) => {
+  const hrefMatch = tile.match(/href="([^"]+)"/);
+  if (!hrefMatch) return tile;
+  const href = hrefMatch[1];
+  if (!(href in COUNT)) { console.log(`  (no rule for tile ${href} — left as-is)`); return tile; }
+  const n = COUNT[href];
+  const updated = tile.replace(
+    /(<span class="tile-count")\s+data-target="\d+"\s*>\s*[\d,]*\s*<\/span>/,
+    `$1 data-target="${n}">${n}</span>`
+  );
+  if (updated !== tile) { changes++; console.log(`  ${href}: ${n}`); }
+  return updated;
+});
 
-  // Check for combined healing tile first
-  const combinedMatch = tileHtml.match(/data-combined="healing"/);
-  let cat;
-  if (combinedMatch) {
-    cat = CATEGORIES.find(c => c.href === 'healing-combined');
-  } else {
-    // Extract href from this tile
-    const hrefMatch = tileHtml.match(/href="([^"]+)"/);
-    if (!hrefMatch) continue;
-    const href = hrefMatch[1];
-    cat = CATEGORIES.find(c => c.href === href);
-  }
-  if (!cat) continue;
+// Update the grand total: data-target AND visible text.
+html = html.replace(
+  /(<span class="total-number")\s+data-target="\d+"\s*>\s*[\d,]*\s*<\/span>/,
+  `$1 data-target="${TOTAL}">${TOTAL}</span>`
+);
+console.log(`  TOTAL: ${TOTAL}`);
 
-  // Extract current data-target
-  const targetMatch = tileHtml.match(/data-target="(\d+)"/);
-  if (!targetMatch) continue;
-  const oldVal = parseInt(targetMatch[1], 10);
-  const newVal = counts[cat.href];
-
-  if (oldVal !== newVal) {
-    const updatedTile = tileHtml.replace(/data-target="\d+"/, `data-target="${newVal}"`);
-    html = html.substring(0, tileStart) + updatedTile + html.substring(tileStart + tileHtml.length);
-    // Reset regex index since we modified the string
-    tileRegex.lastIndex = tileStart + updatedTile.length;
-    changes++;
-    console.log(`  ${cat.href}: ${oldVal} → ${newVal}`);
-  }
-}
-
-// Update total counter: the .total-number element
-const totalRegex = /(class="total-number"\s+data-target=")\d+(")/;
-const totalMatch2 = html.match(totalRegex);
-if (totalMatch2) {
-  const oldTotal = parseInt(html.match(/class="total-number"\s+data-target="(\d+)"/)[1], 10);
-  if (oldTotal !== totalAssigned) {
-    html = html.replace(totalRegex, `$1${totalAssigned}$2`);
-    changes++;
-    console.log(`  TOTAL: ${oldTotal} → ${totalAssigned}`);
-  }
-}
-
-// Write back
 fs.writeFileSync(INDEX_FILE, html, 'utf8');
-
-if (changes > 0) {
-  console.log(`\n✅ Updated ${changes} counter(s) in index.html (${totalAssigned} total articles)`);
-} else {
-  console.log(`✅ All counters already up to date (${totalAssigned} total articles)`);
-}
+console.log(`\nUpdated homepage counts to canonical totals (${TOTAL} articles). Tiles changed: ${changes}.`);

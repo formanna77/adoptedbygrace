@@ -43,7 +43,7 @@ function bylineHTML(dateIso) {
   const time = dateIso
   ? ` · <time datetime="${dateIso}">${pretty}</time>`
   : '';
-  return `  <p class="article-byline">By <a href="/about">Aaron Forman</a>${time}</p>`;
+  return `  <p class="article-byline">By <a href="/author">Aaron Forman</a>${time}</p>`;
 }
 
 function injectByline(content) {
