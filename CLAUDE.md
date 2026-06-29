@@ -101,15 +101,19 @@ Links go in prose content only — never in `href` / `class` / `id` / attribute 
 
 ---
 
-## AFTER CREATING OR MODIFYING HTML, RUN THESE FIVE SCRIPTS:
+## AFTER CREATING OR MODIFYING HTML, RUN THESE SEVEN SCRIPTS (in order):
 
 ```bash
+node build-tags.js          # regenerate the canonical article index (tags.json)
+node build-all-content.js   # re-bake the static, crawlable /all-content cards + counts
 node build-search-index.js
 node build-mega-menu.js
 node build-homepage-counts.js
 node auto-linker.js
 node wire-orphans.js
 ```
+
+`build-tags.js` + `build-all-content.js` were absent from this list before 2026-06-28 — which is exactly why `tags.json` went 3 months stale and `/all-content` + the homepage rendered wrong/zero counts. They MUST run first: `build-homepage-counts.js` and `/all-content` both derive from `tags.json` (one canonical number, currently 607 = pages with `<article class="article-body">`). When you add or delete pages, also run `node build-sitemap.js`.
 
 Then run `node validate-site.js` and fix anything it flags.
 
