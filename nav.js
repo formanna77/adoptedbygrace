@@ -971,14 +971,15 @@
  name: 'Testimonies',
  icon: '',
  href: '/testimony-hub',
- count: 6,
+ count: 7,
  pages: [
  { name: 'Augustine — The Voice in the Garden', href: '/testimony-augustine', desc: 'Augustine of Hippo wrestled God for over a decade — until a child\'s voice singing over a garden wall split his fortress' },
  { name: 'Charles Spurgeon — The Snowstorm and the Sentence', href: '/testimony-spurgeon', desc: 'A fifteen-year-old, snowbound in Colchester in January 1850, ducks into a tiny chapel where a substitute lay-preacher re' },
  { name: 'John Bunyan — Grace Abounding to the Chief of Sinners', href: '/testimony-bunyan', desc: 'A swearing tinker convinced he had committed the unforgivable sin spends years in spiritual agony — until a sentence abo' },
  { name: 'John Newton — The Slave-Trader Who Became the Hymn', href: '/testimony-newton', desc: 'A blasphemous slave-ship sailor cries the first sincere prayer of his life on a foundering vessel in the north Atlantic ' },
  { name: 'Martin Luther — The Tower of Mercy', href: '/testimony-luther', desc: 'Martin Luther entered an Augustinian monastery in 1505 to escape divine judgment and met it everywhere he turned. He fas' },
- { name: 'The Wall of the Rescued — Two Thousand Years of "He Found Me"', href: '/testimony-wall', desc: 'Not a list. A wall. Short, searing moments from Scripture and church history where a fugitive was caught by mercy. Two t' }
+ { name: 'The Wall of the Rescued — Two Thousand Years of "He Found Me"', href: '/testimony-wall', desc: 'Not a list. A wall. Short, searing moments from Scripture and church history where a fugitive was caught by mercy. Two t' },
+ { name: 'Your Story Is Received', href: '/testimony-thank-you', desc: 'Your testimony has been received. A real person will read every word.' }
  ]
  }
  ]

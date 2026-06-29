@@ -2,7 +2,7 @@
 
 *Paste-ready brief for the next agent. This is the "mechanical/UX/SEO/content-gap"
 track started from a roadmap, distinct from the autonomous content-writing campaign
-(the `NEXT-SESSION-S{N}` files). Last session: 2026-06-28.*
+(the `NEXT-SESSION-S{N}` files). Last session: 2026-06-29.*
 
 ---
 
@@ -33,6 +33,7 @@ scrupulous consciences is on-mission.
 
 After creating/modifying HTML:
 ```
+node build-testimonies.js   # render testimonies.json into testimony-hub (run FIRST if it changed)
 node build-tags.js          # canonical article index (tags.json)
 node build-all-content.js   # re-bake static crawlable /all-content + counts
 node build-search-index.js
@@ -48,7 +49,24 @@ were the missing step that let `tags.json` go 3 months stale. Always run them fi
 
 ---
 
-## WHAT LAST SESSION COMPLETED (do NOT redo) — full detail in `docs/session-summary-2026-06-28.md`
+## WHAT THE 2026-06-29 SESSION COMPLETED (do NOT redo) — full detail in `docs/session-summary-2026-06-29.md`
+
+- **Reader testimony stream + moderated intake (gap #4) — BUILT.** New
+  `share-your-story.html` (Netlify Forms intake, honeypot, consent), new
+  `testimony-thank-you.html` (noindex), new `testimonies.json` (empty on purpose —
+  never fabricate) + `build-testimonies.js` render pipeline, and a "Voices of the
+  Still-Being-Rescued" section on `testimony-hub.html` (invitation panel until real
+  stories are approved). **Two manual steps are on AARON** — see OPEN item 2.
+- **Start-here staircase — COMPLETED.** Phases 1, 2, 5 now have the same prev/next
+  `.phase-nav` + "Phase N of 5" indicator + back-link that 3 & 4 already had. All
+  five phase pages now orient the reader and move both directions.
+- **Diamond Pass — 6 prose fixes** (Newton encyclopedia-opener → forceful cold-open;
+  two-arms manufactured "she" scene → offered 2nd-person; devotional pastoral-sigh
+  cut; testimony-hub stat/subtitle reconcile; intake-page tightening).
+- Canonical **607 preserved** (new utility pages excluded from build-tags /
+  search / sitemap as appropriate). `validate-site.js` 6/6 on 685 files.
+
+## WHAT THE 2026-06-28 SESSION COMPLETED (do NOT redo) — full detail in `docs/session-summary-2026-06-28.md`
 
 The #1 roadmap bug (counter/index) is FIXED and validated:
 - **One canonical number: 607** (pages with `<article class="article-body">`), flowing from `tags.json` → homepage total → `/all-content` → meta. `build-tags.js` now filters to that set.
@@ -72,16 +90,21 @@ submitted; Bing/IndexNow is already wired (`indexnow-ping.js` + key file). Do NO
    on mobile: confirm the homepage shows 607 (not 0) before any scroll and with JS
    disabled; confirm `/all-content` lists all 607 with working filter; confirm long
    essays read comfortably on a phone. (These were UNVERIFIED last session — Chrome/
-   serving couldn't reach the deployed site from the sandbox.)
+   serving couldn't reach the deployed site from the sandbox.) **Also now verify:** the
+   `/testimony-hub` "Voices" invitation renders, `/share-your-story` displays the form
+   cleanly, and (after Forms is enabled) a test submission lands in the Netlify
+   dashboard and redirects to `/testimony-thank-you`.
 
-2. **Contemporary reader testimonies (roadmap gap #4).** Add a reader-testimony
-   stream + a *moderated* "Share Your Story" intake on the testimony hub
-   (`testimony-hub.html`). The site is static on Netlify with no backend and a
-   standing "no newsletter" rule — so the natural backend-free options are **Netlify
-   Forms** (submissions → Aaron moderates → approved ones added to a curated
-   `testimonies.json` rendered by a small build script) or a simple `mailto:`
-   intake. **Ask Aaron which**, and confirm a testimony intake doesn't conflict with
-   the eliminated-features list, before building.
+2. **Reader testimonies (gap #4) — BUILT; now needs AARON's two manual steps.**
+   (a) **Enable Netlify Forms** (Site config → Forms → detection ON; add a submission
+   email notification). The `testimony` form auto-detects on next deploy. Without
+   this, submitters still see the thank-you page but stories are NOT captured.
+   (b) **Moderate → publish:** read submissions in the Netlify dashboard; for each
+   approved one, add an entry to `testimonies.json` and run `node build-testimonies.js`
+   + the pipeline. The hub invitation panel becomes a stream of voices automatically.
+   Aaron's own testimony ("Christmas Day 2024", per existing meta) is the natural
+   first entry — only he can write it. A future agent can help format approved
+   stories into `testimonies.json` and verify the live form once Forms is enabled.
 
 3. **Audio / "Rest in Grace" podcast (roadmap gap #6) — was BLOCKED.** The prior
    deliverables (`audio-devotional/` with `make_devotional_audio.py`, the sample mp3,
@@ -96,9 +119,16 @@ submitted; Bing/IndexNow is already wired (`indexnow-ping.js` + key file). Do NO
    `Adopted-by-Grace-Roadmap.md` and `quick-win-1-titles-and-meta.md` (the latter has
    ready-to-paste meta for ~10 hub pages not yet applied — a quick win once present).
 
-6. **Optional, from peer benchmarking (CLAUDE.md):** drive "In Brief" summaries to
-   100% coverage atop deep pages; make `start-here-phase1–5` a visible beginner→
-   advanced staircase. (These edge toward the content campaign — coordinate.)
+6. **Peer-benchmark on-ramps:** the `start-here-phase1–5` staircase is now DONE
+   (2026-06-29). "In Brief" is effectively at full coverage (the only article-body
+   pages without it are utility/bio: author, privacy, terms, testimony-wall, plus the
+   two interactive flagships the-mirror / the-objection-collapse). Remaining optional
+   work edges into the content campaign — coordinate.
+
+7. **Diamond Pass carry-overs (subagent-flagged 2026-06-29, not yet done):**
+   corpus-freshness — the somatic "watch what your body does on the word *cannot*"
+   device recurs across pages (vary it); `question-where-did-your-faith-come-from.html`
+   has one slightly-academic metacognition paragraph to compress.
 
 ---
 

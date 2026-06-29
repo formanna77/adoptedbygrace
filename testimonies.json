@@ -1,0 +1,4 @@
+{
+  "_README": "Approved CONTEMPORARY reader testimonies, rendered into testimony-hub.html by build-testimonies.js. WORKFLOW: a reader submits via /share-your-story (Netlify Forms). Aaron reviews the submission in the Netlify dashboard. ONLY after moderating and approving a REAL story, add an entry here, then run `node build-testimonies.js` (and the rest of the pipeline). NEVER fabricate a testimony — these must be real rescues. Each entry: { quote: short first-person pull-line (the sentence that lands, keep it under ~90 chars), body: 2-4 sentences of the story, name: how the reader wishes to be credited ('Anonymous' and first-name-only are fine), location: optional (e.g. 'Ohio, USA'), year: optional (e.g. '2025'). The quote and body may contain simple inline HTML (<em>, and verified <a href> links) since Aaron curates this file. The stream shows a graceful invitation panel while the array is empty.",
+  "testimonies": []
+}

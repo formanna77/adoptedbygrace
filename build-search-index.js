@@ -20,6 +20,7 @@ const SKIP = new Set([
   'search.html',       // search page itself
   '404.html',
   'google0af1fbedb3c930a8.html', // verification files
+  'testimony-thank-you.html', // post-submission confirmation — not a search result
 ]);
 
 const SKIP_PREFIXES = ['_', '.'];

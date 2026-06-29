@@ -43,11 +43,13 @@ const HASH_MANIFEST = '.sitemap-hashes.json';
 const SKIP_FILES = new Set([
   '_nav-template.html',
   'nav-template.html',
+  'testimony-thank-you.html', // noindex post-submission page — keep out of sitemap
 ]);
 
 // Pages we intentionally de-prioritize
 const UTILITY = new Set([
   '404.html',
+  'share-your-story.html',
 ]);
 
 // The crown jewels — interactive flagship experiences. Maximum priority.

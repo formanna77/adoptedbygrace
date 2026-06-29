@@ -25,6 +25,7 @@ const SKIP = new Set([
   'explore-map.html', 'connections.html', 'essays.html',
   'best-reads.html', 'verse-explorer.html',
   'all-content.html', 'topics.html',
+  'share-your-story.html', 'testimony-thank-you.html',
 ]);
 
 // ── Topic definitions ──────────────────────────────────────────────
