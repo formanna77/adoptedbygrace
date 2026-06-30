@@ -482,7 +482,7 @@ function buildHtml(outFile, meta, items) {
   "headline": "${escAttr(title)}",
   "description": "${escAttr(meta.desc)}",
   "url": "https://adoptedbygrace.net${slug}",
-  "author": { "@type": "Person", "name": "Aaron Forman", "url": "https://adoptedbygrace.net/about" },
+  "author": { "@type": "Person", "name": "Foreknown", "url": "https://adoptedbygrace.net/about" },
   "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" },
   "datePublished": "2026-04-20",
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://adoptedbygrace.net${slug}" }

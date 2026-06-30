@@ -37,7 +37,7 @@ function headFor({slug, title, metaDesc, ogTitle, ogDesc, keywords, faqs, h1}) {
   "headline": "${ogTitle.replace(/"/g, '\\"')}",
   "description": "${ogDesc.replace(/"/g, '\\"')}",
   "url": "${BASE}/${slug}",
-  "author": {"@type": "Person", "name": "Aaron Forman", "url": "${BASE}/about"},
+  "author": {"@type": "Person", "name": "Foreknown", "url": "${BASE}/about"},
   "publisher": {"@type": "Organization", "name": "Adopted by Grace", "url": "${BASE}"},
   "mainEntityOfPage": {"@type": "WebPage", "@id": "${BASE}/${slug}"},
   "datePublished": "${TODAY}"
@@ -153,7 +153,7 @@ const PAGE_1 = {
 
    <p>Stop trying to verify your election from above. You were never given that job. Your job is the simpler one: come to Christ. Reach. Cry out. Cling. And in the coming, the election will reveal itself — not as a list you read, but as a hand you find already holding yours. You were held all along. You just did not know it until you tried to pull away and found you could not.</p>
 
-   <p>Aaron Forman, who built this site, spent a decade running from God. He tried to make God give up on him. He rebelled, traveled, drank, doubted, ran. And every time he was sure he had finally gotten free, he would find himself whispering into the dark: <em>please don\u2019t let me go.</em> That prayer was the rope. That prayer was the election. The very inability to stop caring was the mark of a sheep who could hear his shepherd even from the far country.</p>
+   <p>Foreknown, who built this site, spent a decade running from God. He tried to make God give up on him. He rebelled, traveled, drank, doubted, ran. And every time he was sure he had finally gotten free, he would find himself whispering into the dark: <em>please don\u2019t let me go.</em> That prayer was the rope. That prayer was the election. The very inability to stop caring was the mark of a sheep who could hear his shepherd even from the far country.</p>
 
    <p>If you are reading this, you are not too far. You are not too late. You are not disqualified by your doubts. Come to Christ today — not because you have proven yourself elect, but because the coming is how the elect are revealed. <a href="/question-dead-in-sin-meaning">The dead are raised when God speaks</a>. <a href="/devotional-joy-of-election">The joy of election</a> is not in peering into heaven\u2019s files — it is in finding yourself, at last, unable to walk away from the Shepherd who will never let you go.</p>
 

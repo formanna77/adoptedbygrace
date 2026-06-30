@@ -661,7 +661,7 @@
  { name: 'Did You Really Choose God?', href: '/story-the-room-where-you-chose', desc: 'Pull a golden thread back through time, watching how the moment you thought was your choice—when you decided to follow G' },
  { name: 'Letters from a Senior Demon', href: '/letters-senior-demon-arminianism', desc: 'Four letters from a senior demon to his junior tempter, on the usefulness of keeping an evangelical inside the Arminian ' },
  { name: 'Martin Luther\'s Thunderstorm', href: '/story-historical-luther-storm', desc: 'A terrified young man caught in a thunderstorm vows to become a monk, then spends years trying to earn a peace that will' },
- { name: 'Real Conversions: What Actually Happens When God Saves Someone', href: '/story-real-conversions', desc: 'Eight witnesses across the centuries — Augustine in the garden, Luther in his cell, Newton on a sinking ship — take the ' },
+ { name: 'Real Conversions: What Actually Happens When God Saves Someone', href: '/story-real-conversions', desc: 'Seven witnesses across the centuries — Augustine in the garden, Luther in his cell, Newton on a sinking ship — take the ' },
  { name: 'The Altar He Built Himself', href: '/story-dark-the-altar-he-built-himself', desc: 'Marcus built his faith with his own hands — a perfect life, a perfect church, a perfect testimony. Then God tore it down' },
  { name: 'The Chess Grandmaster', href: '/analogy-chess-grandmaster', desc: 'A grandmaster does not cheat the novice of real moves; she simply cannot lose. So with God — your choices are genuinely ' },
  { name: 'The Committee to Save Yourself', href: '/story-humor-committee-to-save-yourself', desc: 'A town of drowning people forms a committee to rescue themselves. A satirical story about the absurdity of trying to sav' },
