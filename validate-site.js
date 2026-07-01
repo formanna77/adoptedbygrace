@@ -23,7 +23,7 @@ function safeReadFileSync(filePath) {
   }
 }
 const IGNORE_FILES = new Set(['_nav-template.html', '404.html', 'search.html']);
-const REDIRECT_PAGES = new Set(['creeds-confessions.html', 'analogies-illustrations.html']); // minimal redirect pages — skip structural checks
+const REDIRECT_PAGES = new Set(['creeds-confessions.html', 'analogies-illustrations.html', 'demolition-matt23-37.html']); // minimal redirect pages — skip structural checks
 const UTILITY_PAGES = new Set([
     'index.html', 'about.html', 'contact.html', 'privacy.html', 'terms.html',
     'all-content.html', 'topics.html', 'connections.html', 'explore-map.html',
@@ -131,6 +131,8 @@ for (const [hubFile, prefixes] of Object.entries(HUB_REGISTRY)) {
 // Check each content file
 for (const file of htmlFiles) {
     if (UTILITY_PAGES.has(file)) continue;
+    // Skip redirect stubs — intentionally not linked from any hub
+    if (REDIRECT_PAGES.has(file)) continue;
     // Skip hub pages themselves
     if (Object.keys(HUB_REGISTRY).includes(file)) continue;
     // Skip files that don't match any known prefix

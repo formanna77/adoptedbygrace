@@ -79,7 +79,7 @@ const SKIP_PAGES = new Set([
   'comparisons-hub.html', 'pastoral-hub.html', 'ot-hub.html',
   'invisible-wall-hub.html', 'open-wound-hub.html', 'shattered-lens-hub.html',
   'broken-mirror-hub.html', 'anxious-mind-hub.html',
-  'creeds-confessions.html', 'best-reads.html',
+  'creeds-confessions.html', 'best-reads.html', 'demolition-matt23-37.html',
   'reformed-apologetics-hub.html', 'theological-ethics-hub.html', 'comparative-theology-hub.html',
   'presuppositional-apologetics-hub.html',
 ]);

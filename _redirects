@@ -115,5 +115,7 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 # Dead links — redirect to closest match
 /plans                         /start-here.html  301
 
+/demolition-matt23-37          /demolition-matthew-23-37.html  301
+
 # Custom 404
 /*  /404.html  404
