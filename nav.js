@@ -947,7 +947,7 @@
  href: '/pastoral-assurance',
  count: 6,
  pages: [
- { name: 'Can I Be Sure I\'m Saved?', href: '/pastoral-assurance', desc: 'The fear that you might not be saved is itself evidence that you are — the unregenerate do not agonize over their standi' },
+ { name: 'Can I Be Sure I\'m Saved?', href: '/pastoral-assurance', desc: 'Assurance does not rest on the strength of your faith or the steadiness of your feelings — it rests on God' },
  { name: 'If God Already Chose, Why Share the Gospel?', href: '/pastoral-evangelism', desc: 'Because your mouth is the very means God ordained to call His elect home. Sovereignty does not kill evangelism. It guara' },
  { name: 'If God Decreed Everything, Why Pray?', href: '/pastoral-prayer', desc: 'If God has already decided everything, why pray? Because He ordained your prayer as one of the means by which His decree' },
  { name: 'What It Feels Like When the Truth Lands', href: '/pastoral-when-truth-lands', desc: 'When the reality of sovereign grace first lands, the ground disappears. A pastoral map for the vertigo, anger, grief, te' },

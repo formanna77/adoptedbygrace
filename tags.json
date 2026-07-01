@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T00:17:31.511Z",
+  "generated": "2026-07-01T05:16:42.379Z",
   "pageCount": 609,
   "topicCount": 30,
   "pages": [
@@ -191,10 +191,9 @@
         "Arminianism & Objections",
         "Scripture & Bible",
         "Identity & Adoption",
-        "Sovereignty of God",
-        "Assurance & Comfort",
         "Salvation & Justification",
-        "Psychology & Resistance"
+        "Psychology & Resistance",
+        "Old Testament"
       ]
     },
     {
@@ -1071,17 +1070,16 @@
       "url": "/pastoral-assurance",
       "file": "pastoral-assurance.html",
       "title": "Can I Be Sure I'm Saved?",
-      "desc": "The fear that you might not be saved is itself evidence that you are — the unregenerate do not agonize over their standing before God. Assurance rests on His gr",
+      "desc": "Assurance does not rest on the strength of your faith or the steadiness of your feelings — it rests on God",
       "category": "Pastoral",
       "tags": [
         "Assurance & Comfort",
-        "Salvation & Justification",
-        "Science & Secular Evidence",
-        "Election & Predestination",
-        "Identity & Adoption",
         "Human Responsibility",
+        "Salvation & Justification",
+        "Election & Predestination",
         "Free Will",
-        "Healing & Mental Health"
+        "Healing & Mental Health",
+        "Prayer & Devotion"
       ]
     },
     {
@@ -5891,8 +5889,8 @@
       "desc": "In 1931, Kurt Gödel proved that no system can validate itself from within. Your soul is a system. It cannot prove its own righteousness. You need something from",
       "category": "General",
       "tags": [
-        "Fairness & Justice",
         "Salvation & Justification",
+        "Fairness & Justice",
         "Identity & Adoption"
       ]
     },
@@ -9713,7 +9711,9 @@
         "Human Responsibility",
         "Free Will",
         "Prayer & Devotion",
-        "John 6"
+        "Suffering & Grief",
+        "John 6",
+        "Fairness & Justice"
       ]
     }
   ],
@@ -10567,7 +10567,6 @@
     "Sovereignty of God": [
       "/demolition-acts17-30",
       "/question-2tim1-9",
-      "/demolition-2peter2-1",
       "/demolition-philippians2-12-13",
       "/ot-joseph",
       "/history-golden-thread",
@@ -11167,14 +11166,14 @@
       "/found-you",
       "/anxious-mind-never-meant-to-carry",
       "/broken-mirror-vessels-for-mercy",
-      "/systematic-hamartiology"
+      "/systematic-hamartiology",
+      "/philosophy-copernican-revolution"
     ],
     "Assurance & Comfort": [
       "/demolition-2cor5-14-15",
       "/demolition-1cor15-22",
       "/question-2tim1-9",
       "/ot-israel-chosen",
-      "/demolition-2peter2-1",
       "/demolition-philippians2-12-13",
       "/ot-joseph",
       "/demolition-1cor10-13",
@@ -12412,6 +12411,7 @@
       "/apologetic-born-not-of-human-will",
       "/story-surgeon-stone-heart",
       "/question-book-of-life",
+      "/pastoral-assurance",
       "/devotional-forever-loved",
       "/apologetic-perseverance",
       "/devotional-chosen-before-you-were-broken",
@@ -12542,6 +12542,7 @@
     "Old Testament": [
       "/demolition-joshua24-15",
       "/ot-israel-chosen",
+      "/demolition-2peter2-1",
       "/demolition-acts7-51",
       "/ot-joseph",
       "/apologetic-the-remnant-chosen-by-grace",
@@ -12889,7 +12890,6 @@
       "/theologian-augustine",
       "/theologian-warfield",
       "/presuppositional-borrowed-capital",
-      "/pastoral-assurance",
       "/systematic-common-grace",
       "/apologetic-evangelism",
       "/secular-sociology-human-inability",
@@ -13490,7 +13490,8 @@
       "/psychology-language-acquisition",
       "/devotional-you-were-wanted-before-you-were",
       "/psychology-illusion-free-will",
-      "/psychology-cognitive-biases"
+      "/psychology-cognitive-biases",
+      "/philosophy-copernican-revolution"
     ],
     "Identity & Adoption": [
       "/demolition-joshua24-15",
@@ -13529,7 +13530,6 @@
       "/question-book-of-life",
       "/devotional-never-gives-up",
       "/question-goldchain",
-      "/pastoral-assurance",
       "/apologetic-perseverance",
       "/demolition-hebrews6-4-6",
       "/demolition-children-of-satan",
@@ -13876,8 +13876,8 @@
   "topicCounts": {
     "Election & Predestination": 350,
     "Salvation & Justification": 323,
-    "Identity & Adoption": 378,
-    "Assurance & Comfort": 251,
+    "Identity & Adoption": 377,
+    "Assurance & Comfort": 250,
     "Free Will": 230,
     "Human Responsibility": 264,
     "Parables & Stories": 93,
@@ -13885,19 +13885,19 @@
     "Ephesians 1": 41,
     "Irresistible Grace": 68,
     "Psychology & Resistance": 82,
-    "Sovereignty of God": 183,
+    "Sovereignty of God": 182,
     "Arminianism & Objections": 133,
     "Total Depravity": 115,
-    "Suffering & Grief": 152,
-    "Prayer & Devotion": 142,
+    "Suffering & Grief": 153,
+    "Prayer & Devotion": 143,
     "Scripture & Bible": 192,
     "John 6": 35,
-    "Science & Secular Evidence": 94,
+    "Science & Secular Evidence": 93,
     "Evangelism & Mission": 65,
     "God's Love": 44,
     "Church History": 98,
-    "Old Testament": 119,
-    "Fairness & Justice": 205,
+    "Old Testament": 120,
+    "Fairness & Justice": 206,
     "Healing & Mental Health": 83,
     "Perseverance of the Saints": 27,
     "Covenant Theology": 64,
