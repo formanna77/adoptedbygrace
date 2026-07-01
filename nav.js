@@ -495,7 +495,7 @@
  { name: '1 Corinthians 10:13 — "A Way Out" Is Not Libertarian Free Will', href: '/demolition-1cor10-13', desc: '1 Corinthians 10:13 is cited to prove sinners have the innate power to choose righteousness.' },
  { name: '1 Peter 1:5 — "Shielded Through Faith" Demolished', href: '/demolition-1peter1-5', desc: '"Who through faith are shielded by God\'s power until the coming of the salvation that is ready to be revealed in the la' },
  { name: '2 Corinthians 6:1-2 — "Not in Vain" Demolished', href: '/demolition-2cor6-1', desc: '"As God\'s co-workers we urge you not to receive God\'s grace in vain." Arminians read this as proof that real saving gr' },
- { name: '2 Peter 1:10 — Does "Make Your Calling Sure" Prove You Can Lose It?', href: '/demolition-2peter1-10', desc: '"Therefore, my brothers and sisters, make every effort to confirm your calling and election.' },
+ { name: '2 Peter 1:10 — Does "Make Your Calling Sure" Prove You Can Lose It?', href: '/demolition-2peter1-10', desc: 'Peter' },
  { name: '2 Peter 2:20-22 — Does "A Dog Returns to Its Vomit" Prove the Saved Can Be Lost?', href: '/demolition-2pet2-20', desc: 'Peter does not call them fallen sheep. He calls them a dog and a washed pig — animals whose nature never changed. The wa' },
  { name: '2 Peter 3:15 — &ldquo;Our Lord\'s Patience Means Salvation&rdquo;', href: '/demolition-2peter3-15', desc: 'Arminian readers extend &ldquo;our Lord\'s patience means salvation&rdquo; to mean &ldquo;God is patient with everyone i' },
  { name: 'Acts 2:21 / Romans 10:13 — "Everyone Who Calls" Demolished', href: '/demolition-acts2-21', desc: '"Everyone who calls on the name of the Lord will be saved" is read as proof that every human being possesses the native ' },
