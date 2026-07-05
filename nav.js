@@ -910,9 +910,9 @@
  { name: 'The Relapse — When You Fall Back Into the Sin You Thought You\'d Conquered', href: '/broken-mirror-the-relapse', desc: 'You swore you were done. You were certain the last time was the last time. And then you did it again. This is for the mo' },
  { name: 'The Shattered Lens — When You Can\'t Tell What\'s True Anymore', href: '/shattered-lens-hub', desc: 'The Shattered Lens: Truth, Trust & the Modern Crisis of Belief. In a world of deepfakes, AI, misinformation, and politic' },
  { name: 'The Sin You Keep Repeating', href: '/broken-mirror-sin-you-repeat', desc: 'You fall. You repent with tears. You promise God never again. Three days later, you\'re back. The voice says: "If you we' },
- { name: 'The Terror That Won\'t Quiet: When You\'re Afraid of Hell', href: '/anxious-mind-fear-of-hell', desc: 'The fear that you might be going to hell is not the verdict it feels like. The damned do not dread separation from a God' },
+ { name: 'The Terror That Won\'t Quiet: When You\'re Afraid of Hell', href: '/anxious-mind-fear-of-hell', desc: 'The fear that you might be going to hell is not the verdict it feels like. Fear cannot read the Book of Life — but it ca' },
  { name: 'Three in Five Are Lonely — And It\'s a Theological Problem', href: '/invisible-wall-lonely-theological', desc: 'Loneliness isn\'t a social problem—it\'s a theological one. No friendship count touches it, because humans can never fil' },
- { name: 'What If I\'m Not One of the Chosen?', href: '/anxious-mind-what-if-not-chosen', desc: 'The very fact that you are asking this question is powerful evidence that you are chosen.' },
+ { name: 'What If I\'m Not One of the Chosen?', href: '/anxious-mind-what-if-not-chosen', desc: 'You were never asked to read the sealed decree. God answers this question at an open door: whoever comes is never driven' },
  { name: 'When Everything You Were Taught Was Wrong', href: '/shattered-lens-taught-wrong', desc: 'For the one who opened their Bible and found a God they had never been introduced to.' },
  { name: 'When God Goes Silent — And Faith Shatters', href: '/shattered-lens-silence-of-god', desc: 'You prayed and heard nothing. Faith shatters in the silence. A healing page for those who feel abandoned by God — discov' },
  { name: 'When God Is Sovereign and the Nursery Is Empty', href: '/open-wound-empty-nursery', desc: 'You believe God is in control. And then the ultrasound goes silent. How do you hold sovereignty and miscarriage in the s' },
@@ -930,7 +930,7 @@
  { name: 'When You See It and Your Church Doesn\'t — Singing Alone', href: '/invisible-wall-singing-alone', desc: 'You love your church. You love the people. But something has changed in you — and now the sermons feel incomplete. What ' },
  { name: 'When You\'re the Only One Who Sees It', href: '/invisible-wall-only-one-who-sees', desc: 'You\'ve seen something you can\'t unsee — that salvation is entirely God\'s work — and the people you love most don\'t s' },
  { name: 'When Your Family Doesn\'t See It', href: '/invisible-wall-family', desc: 'You discovered sovereign grace and your family didn\'t. Now there\'s a wall at Thanksgiving — not hostile, just present,' },
- { name: 'When Your Mind Becomes a War Zone', href: '/anxious-mind-intrusive-thoughts', desc: 'The thoughts you cannot stop are not the verdict on your soul; a mind cannot accuse itself of betraying a Lord it does n' },
+ { name: 'When Your Mind Becomes a War Zone', href: '/anxious-mind-intrusive-thoughts', desc: 'The thoughts you cannot stop are not the verdict on your soul — the verdict was rendered elsewhere, and not by your inne' },
  { name: 'When Your Pastor Teaches What You Know Isn\'t True', href: '/shattered-lens-pastor', desc: 'When you see God\'s sovereignty in Scripture and your pastor teaches something different, the guilt feels like rebellion' },
  { name: 'When Your World Collapses and God Is Still Sovereign', href: '/open-wound-sovereignty-in-grief', desc: 'The world you knew ended in a sentence, and now a lie waits in the pain: that if God is sovereign, He must not be good —' },
  { name: 'Why Do Bad Things Happen?', href: '/open-wound-hospital-room', desc: 'Machines, monitors, and the oldest question in the world: why? Every other answer fails you here — random chance leaves ' },
@@ -938,7 +938,7 @@
  { name: 'You Are Not a Self-Made Anything', href: '/broken-mirror-not-self-made', desc: 'The self-made person is America\'s favorite fiction — and a crushing one to live. You did not author yourself, and that ' },
  { name: 'You Were Never Meant to Carry This', href: '/anxious-mind-never-meant-to-carry', desc: 'Anxiety is the emotional price of believing the outcome depends on you. The same lie that fuels your anxious spiral fuel' },
  { name: 'You Were Not an Accident — You Were Created for Mercy', href: '/broken-mirror-vessels-for-mercy', desc: 'Romans 9 :23 doesn\'t say you received mercy — it says you were created for mercy. The Greek word proētoimasen means "pr' },
- { name: 'Your Brain Decides Before You Do — And That\'s Good News', href: '/anxious-mind-brain-decides', desc: 'Neuroscience proves your brain decides before consciousness catches up. The secular mind panics — but Scripture already ' }
+ { name: 'Your Brain Decides Before You Do — And That\'s Good News', href: '/anxious-mind-brain-decides', desc: 'Neuroscience suggests your brain stirs before you know your own mind. The secular mind panics — but Scripture already kn' }
  ]
  },
  {
