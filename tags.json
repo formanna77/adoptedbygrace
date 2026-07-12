@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T00:32:42.003Z",
+  "generated": "2026-07-12T18:48:55.615Z",
   "pageCount": 609,
   "topicCount": 30,
   "pages": [
@@ -837,10 +837,10 @@
         "Total Depravity",
         "Election & Predestination",
         "Suffering & Grief",
-        "Identity & Adoption",
         "Salvation & Justification",
         "Old Testament",
-        "Science & Secular Evidence"
+        "Science & Secular Evidence",
+        "Identity & Adoption"
       ]
     },
     {
@@ -4905,8 +4905,8 @@
         "Sovereignty of God",
         "Church History",
         "Famous Theologians",
-        "Evangelism & Mission",
         "Total Depravity",
+        "Evangelism & Mission",
         "Identity & Adoption",
         "Assurance & Comfort"
       ]
@@ -6088,7 +6088,7 @@
         "Famous Theologians",
         "Prayer & Devotion",
         "Parables & Stories",
-        "Identity & Adoption"
+        "Fairness & Justice"
       ]
     },
     {
@@ -8425,8 +8425,8 @@
         "Famous Theologians",
         "Scripture & Bible",
         "God's Love",
-        "Definite Atonement",
-        "Salvation & Justification"
+        "Salvation & Justification",
+        "Election & Predestination"
       ]
     },
     {
@@ -9120,8 +9120,8 @@
         "Prayer & Devotion",
         "Sovereignty of God",
         "Assurance & Comfort",
+        "Election & Predestination",
         "Healing & Mental Health",
-        "Covenant Theology",
         "Fairness & Justice"
       ]
     },
@@ -10012,6 +10012,7 @@
       "/broken-mirror-grace-too-good",
       "/devotional-when-pride-dies",
       "/shattered-lens-lost-community",
+      "/history-spurgeon-downgrade",
       "/shattered-lens-bible-doesnt-make-sense",
       "/apologetic-revival-and-sovereign-grace",
       "/shattered-lens-cant-unsee-it",
@@ -10040,6 +10041,7 @@
       "/philosophy-marriage-election",
       "/question-parables",
       "/psychology-system-justification",
+      "/question-why-pray-if-god-is-sovereign",
       "/systematic-prolegomena",
       "/psychology-hostility-reaction",
       "/psychology-why-this-objection-proves-our-point",
@@ -10556,7 +10558,6 @@
       "/apologetic-owen-trilemma",
       "/systematic-salvation",
       "/word-study-every-all",
-      "/history-spurgeon-downgrade",
       "/question-whose-side-are-you-on"
     ],
     "Sovereignty of God": [
@@ -13275,8 +13276,7 @@
       "/systematic-anthropology",
       "/objection-desire",
       "/psychology-addiction-proof",
-      "/invisible-wall-marriage",
-      "/question-why-pray-if-god-is-sovereign"
+      "/invisible-wall-marriage"
     ],
     "Fairness & Justice": [
       "/demolition-acts17-30",
@@ -13416,6 +13416,7 @@
       "/question-1john5-1",
       "/apologetic-ekloge-the-greek-of-election",
       "/devotional-the-ground-disappeared",
+      "/history-heresy-free-will",
       "/philosophy-inheritance-paradox",
       "/story-children-the-king-who-chose",
       "/story-the-kings-banquet",
@@ -13707,7 +13708,6 @@
       "/golden-chain",
       "/question-1john5-1",
       "/devotional-the-hands-that-hold-you",
-      "/history-heresy-free-will",
       "/secular-history-sovereignty",
       "/systematic-pneumatology",
       "/ethics-abortion",
@@ -13870,9 +13870,9 @@
     ]
   },
   "topicCounts": {
-    "Election & Predestination": 349,
+    "Election & Predestination": 351,
     "Salvation & Justification": 322,
-    "Identity & Adoption": 378,
+    "Identity & Adoption": 377,
     "Assurance & Comfort": 250,
     "Free Will": 228,
     "Human Responsibility": 264,
@@ -13893,11 +13893,11 @@
     "God's Love": 45,
     "Church History": 97,
     "Old Testament": 119,
-    "Fairness & Justice": 208,
+    "Fairness & Justice": 209,
     "Healing & Mental Health": 82,
     "Perseverance of the Saints": 28,
-    "Covenant Theology": 65,
-    "Definite Atonement": 44,
+    "Covenant Theology": 64,
+    "Definite Atonement": 43,
     "Romans 9": 29,
     "Famous Theologians": 66
   }
