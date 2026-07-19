@@ -604,12 +604,28 @@ function extractArticleBody(html) {
  * <blockquote> is unsafe too: Scripture quotations live in blockquotes, and
  * links must never be injected inside a verse quote (the recurring S134/S136
  * re-injection hazard on question-is-it-too-late and any verse-blockquote page).
+ *
+ * S177: tag names alone were not enough. On the start-here phases, Scripture
+ * lives in DIVs carrying a quotation class (.scripture-text, .passage-verse-text,
+ * .objection-verse-text). Those are ordinary <div>s, so the tag-name gate missed
+ * them and the linker re-injected anchors into quoted verses on every run —
+ * silently undoing the strip each session. UNSAFE_CLASSES closes that hole by
+ * arming a second, class-triggered depth counter keyed to the element that
+ * opened it.
  */
+const UNSAFE_CLASSES = [
+  'scripture-text', 'scripture-block', 'passage-verse-text',
+  'objection-verse-text', 'verse-text', 'quote-text', 'hymn-text',
+];
+
 function splitIntoSegments(html) {
   const segments = [];
   // Split by HTML tags (also handle HTML comments)
   const parts = html.split(/(<[^>]+>|<!--[\s\S]*?-->)/);
   let unsafeDepth = 0;
+  // class-triggered quotation guard
+  let classGuardTag = null;   // tag name that opened the guarded region
+  let classGuardDepth = 0;    // nesting depth of that tag inside the region
   const unsafeTagNames = new Set(['a', 'script', 'style', 'code', 'pre', 'svg', 'nav', 'button', 'cite', 'blockquote']);
 
   for (const part of parts) {
@@ -619,15 +635,39 @@ function splitIntoSegments(html) {
   // Skip HTML comments
   if (part.startsWith('<!--')) continue;
   const nameMatch = part.match(/^<\/?([a-zA-Z][a-zA-Z0-9]*)/);
-  if (nameMatch && unsafeTagNames.has(nameMatch[1].toLowerCase())) {
-  if (part.startsWith('</')) {
+  const tagName = nameMatch ? nameMatch[1].toLowerCase() : null;
+  const isClose = part.startsWith('</');
+  const selfClosing = part.endsWith('/>');
+
+  if (tagName && unsafeTagNames.has(tagName)) {
+  if (isClose) {
   unsafeDepth = Math.max(0, unsafeDepth - 1);
-  } else if (!part.endsWith('/>')) {
+  } else if (!selfClosing) {
   unsafeDepth++;
   }
   }
+
+  // class-triggered quotation guard
+  if (tagName && !isClose && !selfClosing) {
+  if (classGuardTag) {
+  if (tagName === classGuardTag) classGuardDepth++;
   } else {
-  segments.push({ type: unsafeDepth > 0 ? 'unsafe' : 'text', content: part });
+  const classAttr = part.match(/\sclass\s*=\s*["']([^"']*)["']/i);
+  if (classAttr) {
+  const classes = classAttr[1].split(/\s+/);
+  if (classes.some(c => UNSAFE_CLASSES.includes(c))) {
+  classGuardTag = tagName;
+  classGuardDepth = 1;
+  }
+  }
+  }
+  } else if (tagName && isClose && classGuardTag && tagName === classGuardTag) {
+  classGuardDepth--;
+  if (classGuardDepth <= 0) { classGuardTag = null; classGuardDepth = 0; }
+  }
+  } else {
+  const guarded = unsafeDepth > 0 || classGuardTag !== null;
+  segments.push({ type: guarded ? 'unsafe' : 'text', content: part });
   }
   }
   return segments;

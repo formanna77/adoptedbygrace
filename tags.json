@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-19T17:21:22.742Z",
+  "generated": "2026-07-19T18:03:43.359Z",
   "pageCount": 609,
   "topicCount": 30,
   "pages": [
@@ -787,9 +787,8 @@
         "Famous Theologians",
         "Assurance & Comfort",
         "Science & Secular Evidence",
-        "Free Will",
-        "Prayer & Devotion",
-        "Identity & Adoption"
+        "Identity & Adoption",
+        "Free Will"
       ]
     },
     {
@@ -932,7 +931,7 @@
         "Arminianism & Objections",
         "Church History",
         "Parables & Stories",
-        "Election & Predestination",
+        "Total Depravity",
         "Irresistible Grace"
       ]
     },
@@ -3455,8 +3454,8 @@
       "tags": [
         "Famous Theologians",
         "Prayer & Devotion",
+        "Identity & Adoption",
         "Scripture & Bible",
-        "Irresistible Grace",
         "Suffering & Grief",
         "Salvation & Justification",
         "Fairness & Justice"
@@ -3520,8 +3519,6 @@
       "category": "General",
       "tags": [
         "Prayer & Devotion",
-        "God's Love",
-        "Old Testament",
         "Identity & Adoption"
       ]
     },
@@ -3760,14 +3757,14 @@
       "desc": "Martin Luther entered an Augustinian monastery in 1505 to escape divine judgment and met it everywhere he turned. He fasted, vigiled, scourged, and confessed hi",
       "category": "General",
       "tags": [
-        "God's Love",
         "Famous Theologians",
+        "God's Love",
         "Assurance & Comfort",
-        "Church History",
-        "Human Responsibility",
         "Scripture & Bible",
         "Salvation & Justification",
-        "Science & Secular Evidence"
+        "Science & Secular Evidence",
+        "Fairness & Justice",
+        "Identity & Adoption"
       ]
     },
     {
@@ -5617,7 +5614,7 @@
         "Perseverance of the Saints",
         "Ephesians 1",
         "Salvation & Justification",
-        "Analogies & Illustrations"
+        "Fairness & Justice"
       ]
     },
     {
@@ -8078,10 +8075,10 @@
       "desc": "Phase 3: What does the Bible actually teach about salvation? A passage-by-passage journey through Romans 9, Ephesians 1, John 6, and more — in full context.",
       "category": "Start Here",
       "tags": [
-        "Election & Predestination",
         "Romans 9",
         "Ephesians 1",
         "Scripture & Bible",
+        "Election & Predestination",
         "John 6",
         "Salvation & Justification",
         "Old Testament",
@@ -8183,8 +8180,8 @@
         "Famous Theologians",
         "Human Responsibility",
         "Assurance & Comfort",
-        "Identity & Adoption",
         "Scripture & Bible",
+        "Identity & Adoption",
         "Evangelism & Mission"
       ]
     },
@@ -9746,7 +9743,6 @@
       "/history-augustine-pelagius",
       "/theologian-warfield",
       "/systematic-divine-decrees",
-      "/start-here-phase4",
       "/compare-calvinism-arminianism",
       "/compare-calvinism-molinism",
       "/compare-calvinism-open-theism",
@@ -10311,6 +10307,7 @@
       "/compare-every-decision-point",
       "/theologian-augustine",
       "/theologian-warfield",
+      "/start-here-phase4",
       "/compare-calvinism-arminianism",
       "/compare-can-the-saved-be-lost",
       "/question-repentance-total-depravity",
@@ -10448,7 +10445,6 @@
       "/ot-isaiah-servant",
       "/demolition-john3-16",
       "/john-6-37-44",
-      "/testimony-bunyan",
       "/apologetic-lydias-heart",
       "/ethics-marriage",
       "/devotional-my-chains-fell-away",
@@ -10853,7 +10849,6 @@
       "/apologetic-light-shine-out-of-darkness",
       "/question-limited-atonement",
       "/demolition-mark16-16",
-      "/testimony-luther",
       "/theologian-luther",
       "/ot-moses-pharaoh",
       "/creed-heidelberg-catechism",
@@ -12107,7 +12102,6 @@
       "/ot-jonah",
       "/theologian-edwards",
       "/ethics-just-war",
-      "/testimony-luther",
       "/history-luther",
       "/theologian-luther",
       "/secular-psychology-bondage-of-will",
@@ -12394,7 +12388,6 @@
       "/question-are-arminians-saved",
       "/argument-arminianism-secretly-assumes-calvinism",
       "/secular-art-literature-reformed-truth",
-      "/testimony-augustine",
       "/history-augustine-pelagius",
       "/theologian-augustine",
       "/systematic-divine-decrees",
@@ -12579,7 +12572,6 @@
       "/theologian-arminius",
       "/demolition-jer18",
       "/ot-jeremiah",
-      "/testimony-newton",
       "/ot-jonah",
       "/ethics-just-war",
       "/question-psalm139",
@@ -12816,7 +12808,6 @@
       "/reformed-apologetics-fine-tuning",
       "/story-children-the-fingerprint-before-the-world",
       "/story-the-fish-who-chose-the-ocean",
-      "/start-here-phase2",
       "/devotional-the-freedom-of-not-choosing",
       "/analytical-aseity-and-decree",
       "/the-golden-chain",
@@ -13178,7 +13169,6 @@
       "/objection-love-requires-choice",
       "/devotional-in-christ",
       "/objection-fairness",
-      "/testimony-newton",
       "/demolition-jude21",
       "/testimony-luther",
       "/ot-moses-pharaoh",
@@ -13363,6 +13353,7 @@
       "/joy-in-suffering",
       "/ethics-just-war",
       "/systematic-justification",
+      "/testimony-luther",
       "/history-luther",
       "/theologian-luther",
       "/story-historical-luther-storm",
@@ -13402,6 +13393,7 @@
       "/question-dead-man-visual",
       "/systematic-reprobation",
       "/devotional-the-first-prayer-after-surrender",
+      "/start-here-phase2",
       "/fork-in-the-road",
       "/story-tender-the-gardener-who-waited",
       "/devotional-glory-of-divine-choice",
@@ -13614,6 +13606,7 @@
       "/demolition-john3-16",
       "/demolition-john5-40",
       "/john-6-37-44",
+      "/testimony-bunyan",
       "/theologian-bunyan",
       "/testimony-newton",
       "/ot-jonah",
@@ -13625,6 +13618,7 @@
       "/start-here-phase5",
       "/apologetic-lydias-heart",
       "/ethics-marriage",
+      "/testimony-luther",
       "/demolition-matt11-28",
       "/secular-psychology-bondage-of-will",
       "/devotional-my-chains-fell-away",
@@ -13866,30 +13860,30 @@
     ]
   },
   "topicCounts": {
-    "Election & Predestination": 351,
+    "Election & Predestination": 350,
     "Salvation & Justification": 322,
-    "Identity & Adoption": 376,
+    "Identity & Adoption": 378,
     "Assurance & Comfort": 250,
     "Free Will": 229,
-    "Human Responsibility": 264,
+    "Human Responsibility": 263,
     "Parables & Stories": 94,
-    "Analogies & Illustrations": 124,
+    "Analogies & Illustrations": 123,
     "Ephesians 1": 41,
-    "Irresistible Grace": 68,
+    "Irresistible Grace": 67,
     "Psychology & Resistance": 82,
     "Sovereignty of God": 180,
     "Arminianism & Objections": 131,
-    "Total Depravity": 114,
+    "Total Depravity": 115,
     "Suffering & Grief": 154,
-    "Prayer & Devotion": 142,
+    "Prayer & Devotion": 141,
     "Scripture & Bible": 192,
     "John 6": 35,
     "Science & Secular Evidence": 92,
     "Evangelism & Mission": 65,
-    "God's Love": 45,
-    "Church History": 97,
-    "Old Testament": 119,
-    "Fairness & Justice": 210,
+    "God's Love": 44,
+    "Church History": 96,
+    "Old Testament": 118,
+    "Fairness & Justice": 212,
     "Healing & Mental Health": 82,
     "Perseverance of the Saints": 28,
     "Covenant Theology": 64,
