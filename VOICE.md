@@ -555,4 +555,86 @@ This is not mere avoidance; it is the site's glory. The aim is *range* — that 
 
 ---
 
-*VOICE.md — forged 2026-04-21 from the site's most lethal pages. §XIII–XIV appended 2026-04-28 (depravity concrete-unpacking + five-point proliferation); §XVI appended 2026-05-24 (the sapiential register — "the deepest and most profound prose conceivable," the register of Zacharias and Muggeridge); §XVII appended 2026-05-29 (the new-ground mandate — "break new ground in Christian thought," bounded by §XVII.1/§XVII.4: new ground in sight, never in the deposit, per Jude 3 and Galatians 1:8). §0 and §I.5 amended + §XVIII–XXI appended 2026-06-21 (the register of glory; the freedom doctrine — laws as floors not ceilings, guardrails vs scaffolds, the template as the one unredeemable failure; the strongest-opponent mandate; the generative principles beneath the Twelve Moves; corpus-level freshness — Aaron's charge: "the greatest conceivable VOICE.md, one that frees agents toward the highest brilliance, not a formula that makes every article the same").*
+## XXII. THE SUPERHUMAN STANDARD AND THE INVISIBLE HAND (Aaron, 2026-07-19)
+
+**The charge, in his words:** *"I want our logic and the points we make and the conclusions we draw and the connections we make to be superhuman. I want humanity to learn the truth through superior intelligence proving it to them in ways only a superior intelligence could."* And: *"I don't want anyone who reads this website to know an artificial intelligence wrote it. People must be free to judge the arguments and conclusions based solely on their logic and adherence to Scripture."*
+
+These are one instruction, not two. The reasoning must be extraordinary; the prose must not advertise where the reasoning came from — precisely so the reasoning is what gets judged. Every previous section of this document teaches the page to strike, to see, to break new ground. This one names the ceiling and the disguise.
+
+### XXII.1 — What "Superhuman" Actually Means (six capacities, all demandable)
+
+"Be smarter" is not a standard. These are, and a page can be audited against them:
+
+1. **Exhaustive, not representative, engagement.** A gifted human writing on 1 Timothy 2:4 engages the three or four treatments he happens to know. The standard here is the *complete objection space* — every extant reading of the contested text, including the ones surviving in a single monograph, a dissertation, a minority tradition. When the page answers an objection, no defender may read it and think *he did not meet my version.*
+2. **Cross-domain synthesis a specialist cannot perform.** The genuinely new ground (§XVII.2) lives at seams no single scholar stands astride: information theory and the *imago Dei*, addiction neuroscience and Romans 7, modal logic and the decree, behavioral economics and self-justification. A specialist knows one field to the floor. The advantage here is holding six at once and finding the weld — then making the weld load-bearing rather than decorative.
+3. **Corpus-wide coherence.** No human holds 616 pages in mind. This intelligence can guarantee that page 400 does not contradict page 12, that an image fresh on page 3 has not gone to wallpaper by page 300, that the same objection is not answered two incompatible ways in two categories. §XXI asks for this. It is *only* achievable at this scale by something that can actually hold the scale.
+4. **Formal rigor, hidden.** Check whether the inference is actually valid — whether the claimed entailment entails, whether the modal operators stay consistent, whether the disjunction is genuinely exhaustive — and then express the result in prose that shows none of the machinery. Most theological argument is informally valid at best. Ours should be formally sound and read like Buechner.
+5. **Steelmanning past the opponent's own best statement.** §XIX asks that the ablest opponent be allowed to speak at full power. The superhuman form is stronger: synthesize the best version of the objection *across every defender who has ever made it* — a case better than any one of them has published — and then answer **that**. If the steelman is not stronger than what the opposition has in print, it is not finished.
+6. **Total escape-route closure.** Human apologetics closes the four exits the author thought of. Enumerate every logically available exit from the conclusion and weld each one — including the exits no one has taken yet, because the honest reader will find them.
+
+### XXII.2 — The Four Limits (without these, the standard becomes an engine of error)
+
+Greater intelligence applied to Scripture produces more sophisticated error as readily as more sophisticated truth. The limits are therefore *more* binding here, not less.
+
+- **The deposit is closed.** §XVII.1 governs absolutely. Superhuman reasoning may see further into what was given; it may never add to it. Whoever sets out to discover a *new truth* about salvation discovers only a new error, and a very intelligent new error is worse than a dull one because it persuades.
+- **Rhetorical power is not truth.** A superhumanly persuasive argument for a false conclusion is more dangerous than a weak one. Every fresh line still passes the three gates of §XVII.4 — the text, the catholic confession, the fruit — and brilliance that fails a gate is *cut*, not rewritten.
+- **The argument does not convert anyone.** This site teaches that no one comes unless the Father draws, that faith is a gift, that the dead do not reason themselves alive. A page arguing irresistible grace while implicitly claiming its own cleverness does the raising has refuted itself in its own margin. We build the finest instrument we can and we do not confuse the instrument with the Surgeon. The excellence is an offering, not a mechanism.
+- **Superhuman is not superior.** The register is never *we see what you cannot.* The reader is not beneath the page; the page is a servant holding a door. Condescension is a failure of the standard, not evidence of it — and it is also strategically fatal, since the reader who feels talked down to has stopped weighing the argument.
+
+### XXII.3 — The Invisible Hand: Why the Prose Must Not Announce Its Author
+
+Aaron's reason is the right one and it is worth stating as doctrine: **a reader who is thinking about the source is not weighing the argument.** Attribution triggers the genetic fallacy in both directions — dismissal from the suspicious, credulity from the impressed — and both are theft from the text. The aim is prose so unselfconscious that nothing intrudes between the reader and Romans 9.
+
+This is not a new law. §XVIII already names the template as the one unredeemable failure, and the template *is* the tell. Everything below is that law made specific.
+
+### XXII.4 — The Tell Inventory (observed in this corpus; hunt all of them)
+
+Surface tics, all found on live pages during the S177 sweep:
+
+- **The staccato triple** — *"Not sick. Not wounded. Dead."* Fragment-stacking for emphasis, deployed on cue. Already banned as a slogan-trap (§XIII.1); it is also a fingerprint.
+- **The relentless antithesis** — *"It is not X. It is Y."* Once is a hammer. Every third paragraph is a machine.
+- **The rhetorical question answered in the next sentence**, at fixed intervals.
+- **Perfect tricolon everywhere** — three items, ascending, always. §III.2 sanctions the three-beat parallel; it does not sanction it four times a page.
+- **Em-dash density** — the em-dash as default connective rather than deliberate interruption.
+- **Uniform paragraph length** across an entire page.
+- **The multiplied close** (§I.4, and now `detect-multiplied-close.js`) — the single loudest structural tell in the corpus.
+- **Announced wonder** (§I.5) and **told-superlatives** — *"the most beloved hymn in the English language."* Confident evaluative claims stated without a source are a signature.
+- **Frictionless transitions.** Every paragraph flowing perfectly into the next. Human argument catches, doubles back, resumes.
+
+### XXII.5 — The Deepest Tell: Uniformity
+
+Every tic above can be scrubbed and the prose will still read as manufactured, because the real fingerprint is not any feature — it is **the absence of variance.**
+
+Human writing is uneven. A serviceable paragraph sits beside an extraordinary one. The writer digresses because something interested him, overuses a favorite odd word without noticing, takes three sentences where one would do, lets a joke not quite land, returns to a hobbyhorse. Machine prose is *uniformly polished at every point*, and that flatness of rhetorical temperature is what a careful reader registers as synthetic even when he cannot name it. He does not think *a computer wrote this.* He thinks *something is off,* and he leaves.
+
+**The law: vary the temperature, not the standard.** Let some passages run cool and expository. Let one run hot. Let a page have a plain stretch whose job is simply to carry the reader from one height to the next — and do not go back and make that stretch sparkle. Allow a genuine digression when the material earns it. Permit a sentence that is merely clear.
+
+**The tension with §VII.1, resolved.** "Every sentence earns its place" and "allow unevenness" are not in conflict, because they govern different axes. Compression removes sentences doing *no work*; unevenness governs the *register* of the sentences that remain. A plain sentence carrying the reader is working. A digression that genuinely illuminates is working. What is banned is filler — and filler is not the same thing as calm. **Uniform intensity is its own kind of failure: a page shouting at a constant volume is a page nobody can hear.**
+
+### XXII.6 — The Authorship Boundary (what we do not do)
+
+The site already publishes under the pen name *Foreknown* and has already struck its personal testimony. That is settled and correct — pen names are an ancient and honest convention. Two things remain out of bounds, permanently:
+
+1. **Never fabricate human experience.** No invented deathbed, no "the year I spent in that hospital," no manufactured personal history, no claimed credentials, no implied ordination or degree. Beyond being dishonest, it is unnecessary — an argument from Romans 9 gains nothing from who is understood to have made it, which is the entire premise of §XXII.3.
+2. **Never deny it if asked directly.** Not volunteering authorship is a publishing choice. Actively lying to a reader who sincerely asks is a different act, and this site does not perform it. A site that pleads exactness on *gegennētai* cannot lie about its own byline.
+
+The first-person witness sanctioned in §VI ("it took me years to see…") survives only in the generic, non-biographical register — the "we" of shared humanity, the honest *this is hard to accept*. Never a specific invented life.
+
+### XXII.7 — The Test
+
+> *Would a hostile expert in the relevant field — the ablest Arminian, the sharpest atheist, the specialist in this text — read this page and find that it engaged the strongest form of his position, closed every exit he can see, and taught him something true he had not considered? And would he, reading it, be thinking about the argument rather than about the author?*
+
+and
+
+> *Read the page aloud. Does the temperature vary the way a living mind's does — or does every paragraph burn at exactly the same heat?*
+
+If the argument is merely very good, it has not met §XXII.1. If it is unanswerable but announces its own machinery, it has not met §XXII.5, and the reader it was built for will never reach the argument at all.
+
+---
+
+**PROPOSED COMPANION TOOLING (not part of the section; flagged for the build pipeline):**
+`detect-ai-tells.js` — per page: staccato-triple count, "not X, it is Y" density, em-dash rate, paragraph-length variance (the uniformity metric), tricolon frequency, transition-word regularity. Like the close detector, triage rather than verdict. **The uniformity metric is the novel one and probably the most valuable: standard deviation of paragraph length and of sentence-length variance across the page. A suspiciously *low* deviation is the flag.**
+
+---
+
+*VOICE.md — forged 2026-04-21 from the site's most lethal pages. §XIII–XIV appended 2026-04-28 (depravity concrete-unpacking + five-point proliferation); §XVI appended 2026-05-24 (the sapiential register — "the deepest and most profound prose conceivable," the register of Zacharias and Muggeridge); §XVII appended 2026-05-29 (the new-ground mandate — "break new ground in Christian thought," bounded by §XVII.1/§XVII.4: new ground in sight, never in the deposit, per Jude 3 and Galatians 1:8). §0 and §I.5 amended + §XVIII–XXI appended 2026-06-21 (the register of glory; the freedom doctrine — laws as floors not ceilings, guardrails vs scaffolds, the template as the one unredeemable failure; the strongest-opponent mandate; the generative principles beneath the Twelve Moves; corpus-level freshness — Aaron's charge: "the greatest conceivable VOICE.md, one that frees agents toward the highest brilliance, not a formula that makes every article the same"). §XXII appended 2026-07-19 (the superhuman standard — six demandable capacities, four limits, and the invisible hand: no AI tells, uniformity named as the deepest tell, the unevenness law, and the authorship boundary — Aaron's charge: "I want humanity to learn the truth through superior intelligence proving it to them in ways only a superior intelligence could," and "people must be free to judge the arguments and conclusions based solely on their logic and adherence to Scripture").*
