@@ -1,11 +1,11 @@
-# NEXT SESSION — S178 — §A IS CLEAR. The front is now the 33-page STRUCTURAL-ROT queue (new v6 detector, run it first) + the site-wide `<h2>The Steel Man` / `The Socratic Trap` sweep — then the §B pool remnant
+# NEXT SESSION — S178 — AARON'S NAMED PRIORITY: the MULTIPLIED-CLOSE queue (70 pages, new detector, run it FIRST) — then structural rot (33), then the Steel Man sweep
 
 *S177 cleared the entire §A remnant: **presuppositional-no-neutral-ground** rebuilt (the trio's close-machine broken a THIRD way — the page now ends on a bare courtroom verdict) and **the testimony shelf ×5** fully washed with every S176-verified citation applied (~40 corrections: Augustine's St-Anthony error and Monica's 33 years, Bunyan's false "most translated fiction" and the MISSING integrity move now added, Luther's unattested refectory anecdote, Newton's *Greyhound* date / synthesized quote / overboard man, Spurgeon's SIGNATURE feeling-slip and the 3,561 count). Then the **§B start-here staircase ×6**, which turned out to hold an anonymization leak, 6 NIV misquotes, a doctrinal error, two structurally rotten pages, and a page with no catch at all. Two systemic wins: the **v6 detector** now exists, and the **auto-linker bug that was silently re-injecting links into Scripture on every pipeline run** is fixed.*
 
 **ONE CAUTION, LOAD-BEARING (carry every session).** The re-wash must make each page MORE *its own*, never more uniform (VOICE §XVIII: the template is the one unredeemable failure). Wash monotony OUT, never wash a formula IN. Every fix rides its own page's native image. When you rename an H2 or re-ground a slip, draw the new line from THAT page's own central image — the renames must not become a new template.
 
 ## THE SIX AXES (the bar — do NOT re-derive)
-Proven across S136–S177 (~870 fresh reads): the #1 scanner-invisible defect is the **DOUBLED/…/OCTUPLED CLOSE** — a page lands its catch, then re-lands the identical beat across a second catch + stinger + styled callout/pullquote + Circular Return. Fix = collapse to ONE clean catch + ONE tender landing, near-pure SUBTRACTION. `audit-prose.js` CANNOT see it — the live cold-read is the only bar. Beyond the close, hold every page to the five 2026-06-21 VOICE lenses:
+Proven across S136–S177 (~870 fresh reads): the #1 scanner-invisible defect is the **DOUBLED/…/OCTUPLED CLOSE** — a page lands its catch, then re-lands the identical beat across a second catch + stinger + styled callout/pullquote + Circular Return. Fix = collapse to ONE clean catch + ONE tender landing, near-pure SUBTRACTION. **S177 UPDATE: it is no longer invisible. `detect-multiplied-close.js` finds it** (calibrated: hand-collapsed closes score 2, unwashed 7-24). The detector is TRIAGE; the live read still decides which beat is the true destination. Beyond the close, hold every page to the five 2026-06-21 VOICE lenses:
 - **§I.5 GLORY** — announced-not-produced wonder ("but oh, the glory!"; "wonder of wonders"; **"you will X differently"** — a 5× carrier found on start-here-phase5; "it feels like…"; **told-superlatives** — "the most X in all of Y", "the most beloved hymn in the English language", "the most influential evangelist of the 19th century"; the facet-counting inventory tell). Countable records ("3,561 sermons in 63 volumes") are FINE; evaluative superlatives are not.
 - **§XVIII TEMPLATE/MONOTONY** — the presup trio and the testimony shelf are both DONE (all shared H2 molds, the `If God [did X for him] → you` hinge, the hero-subtitle mold, and the "hunted" beat are broken; `What His Story Proves` is now **0** site-wide). **The one big named mold left is the sixth: `<h2>The Steel Man` (~62 pages) and "The Socratic Trap" (~20).** See §B below.
 - **§XIX STRONGEST OPPONENT** — meet the ablest objection on the very word he leans on; AFFIRM God's desire for the lost — never mock, never coldly assert, never accuse bad faith. Gold: demolition-1tim2-4, romans-9-1-24, every-all's Wesley steelman, every-world's Carson/Morris steelman, + NEW S177: **phase2's sufficient/efficient treatment** (grant the real distinction in full, then press on the *condition*) and **phase4's Hosea 11:8 two-wills answer** (grant the "all kinds" reading, name it insufficient, affirm the desire, leave the tension where Paul left it).
@@ -29,11 +29,28 @@ Proven across S136–S177 (~870 fresh reads): the #1 scanner-invisible defect is
 - Still unspent: **Matt 5:45** (sun and rain on the evil and the good), **Jer 3:19**. When they run thin, **derive from the two-wills principle** — linkable: /question-godwants. **New non-verse angle proven S177:** the *sufficient/efficient* distinction granted at full strength, then pressed on the condition (phase2).
 
 ## PRIORITY 0 — PRE-FLIGHT (do FIRST)
-1. `ls -1 *.html | wc -l` (expect 691) · `node validate-site.js` (ALL PASS) · `node canonical-conformance.js` (1 = matt23-37 stub, benign) · `node verify-scripture.js` (quotes ~3814 / DIVERGENT ~273 / "(NIV)" 0) · **`node detect-structural-rot.js` (expect 33)**. Pipe each to `| tail`.
+1. `ls -1 *.html | wc -l` (expect 691) · `node validate-site.js` (ALL PASS) · `node canonical-conformance.js` (1 = matt23-37 stub, benign) · `node verify-scripture.js` (quotes ~3814 / DIVERGENT ~273 / "(NIV)" 0) · **`node detect-multiplied-close.js` (expect 2 severe / 70 multiplied)** · **`node detect-structural-rot.js` (expect 33)**. Pipe each to `| tail`.
 2. Read this kickoff + VOICE.md in full (protected — never sampled) + MISSION-CONTROL.md Session-Log header + S177 entry only.
 3. Counts at S177 close: 609 prose / 691 HTML · search-index 687 · mega-menu 657 · wire-orphans 76 unmapped. Pipeline GREEN.
 
-## PRIORITY 1 — §A THE STRUCTURAL-ROT QUEUE (33 pages, NEW — this is the front)
+## PRIORITY 1 — §A THE MULTIPLIED-CLOSE QUEUE (Aaron's named priority — 70 pages)
+
+**Aaron, at the end of S177: "we need to work faster. People are reading these articles and instantly losing faith because of the terrible structure" — he means PROSE structure, specifically multiplied closes.** This is now the front of the whole re-wash. Everything else waits.
+
+`node detect-multiplied-close.js` ranks every prose page worst-first. It is calibrated (hand-collapsed closes score 2; unwashed score 7-24) but it is **TRIAGE, NOT A VERDICT** — the score locates candidates; a human decides which beat is the page's true destination. One page in the S177 run scored high and was correctly diagnosed ACTUALLY FINE.
+
+**At S177 close: 2 severe, 70 multiplied, 542 clean.** Work the ranked list top-down.
+
+**THE PROVEN FAST LOOP (11 pages in one burst, use it):**
+1. `node detect-multiplied-close.js --top 30` → take the worst 12.
+2. Launch **4 parallel general-purpose agents, 3 pages each.** Each returns, per page: ENDING INVENTORY (every closing beat, labelled, with 8-12 verbatim words to locate it) · THE TRUE DESTINATION (which ONE beat the argument was walking toward) · CUT LIST (exact start + end substrings) · SEAM RISK (which two paragraphs end up adjacent) · VERDICT. Tell them explicitly: **do not over-flag; only stacked REPETITION of the same beat is the defect; a genuinely distinct second climax stays.** For devotional/pastoral pages add: the genre is legitimately 75-90% catch, be conservative.
+3. Execute the cuts in ONE python pass with `assert count==1` on every start-substring, `mode='para'` to expand to paragraph bounds, `mode='span'` for partial cuts. Back up first.
+4. **The lead writes every seam** — cutting a beat routinely leaves a paragraph answering a question that no longer gets asked. Read each join.
+5. Re-run the detector on the batch + `node detect-structural-rot.js` on the same files.
+
+**Recurring beats worth deleting on sight** (all found in S177): a hammer placed AFTER an "Amen." (nothing may re-open after a doxology) · a mid-page pullquote that fires the page's closing line early and spends it · the same quotation appearing both as prose and in a "Voices from the Tradition" block · two or three consecutive trinitarian roll-calls (confession → doxology → callout) · a bolded stinger restating the paragraph directly above it · a Circular Return to a line already stated twice above the fold.
+
+## PRIORITY 2 — §B THE STRUCTURAL-ROT QUEUE (33 pages, NEW — this is the front)
 
 `node detect-structural-rot.js` walks a real tag stack and reports genuine mis-nesting. **Do NOT batch-fix blind — read each region.** The dominant carrier is the baked `continue-journey-global` block: its `continue-journey-global-inner` div is never closed, and a compensating orphan `</div>` sits earlier in the page (often just before `</main>`), which swallows `</article>` and pushes body content, related-articles, and sometimes the footer OUT of `<article class="article-body">`. **The proven repair** (applied to start-here-phase3 and start-here-phase4): delete the orphan `</div>`, add the missing `</div>` before `</section>`, and move `</article>` to sit after `<!-- RELATED-ARTICLES-END -->`. Re-run the detector on the page after each fix; it must come back clean.
 
@@ -52,11 +69,11 @@ systematic-bibliology · systematic-salvation · systematic-trinity · theologia
 ```
 Several are flagship prose pages (psychology-why-we-resist, philosophy-problem-of-merit, systematic-salvation, theologian-owen, question-where-did-your-faith-come-from) — **while you are in each file, cold-read it against the six axes.** A page whose DOM is broken has almost certainly never been live-read.
 
-## PRIORITY 1 — §B THE SIXTH CROSS-PAGE TEMPLATE (site-wide sweep)
+## PRIORITY 3 — §C THE SIXTH CROSS-PAGE TEMPLATE (site-wide sweep)
 
 `grep -rl "<h2>The Steel Man" *.html` (~62) and `grep -rl "The Socratic Trap" *.html` (~20). This deserves a sweep on the scale of the "Catch Beneath the ___" sweep (all 27 renamed in S174). **Fix pattern = rename each to the objection in the reader's own voice, drawn from that page's own material.** Models so far: "But It Works Whether or Not I Can Account for It" · "But This Is Just a Clever Trick" · **"You Denounce the Bench, Then Sit On It"** (S177). Do NOT let the renames become a new template — vary the grammar, not just the words. Where a page's steelman is *only* a label over a weak objection, fix the argument too (§XIX).
 
-## PRIORITY 2 — §C THE POOL REMNANT
+## PRIORITY 4 — §D THE POOL REMNANT
 **hymn-/letters-/dialogue-/counter-/fork-/found-you/the-mirror/the-objection-collapse/2-minute-*** → **ethics/secular/invisible-wall/shattered-lens/devotional reserve**. Cold-read against the six axes; ~4-agent bursts max; the lead writes every fix. **audit-prose score-9 is a LENGTH/DENSITY flag, NOT a verdict.**
 
 ## §D DEFERRED / RE-VERIFY
