@@ -793,7 +793,7 @@
  count: 2,
  pages: [
  { name: 'The Word "All" — A Lexical Study of Pas / Panta', href: '/word-study-every-all', desc: 'Arminian theology lives or dies on a handful of verses.' },
- { name: 'The Word "World" — A Lexical Study of Kosmos', href: '/word-study-every-world', desc: 'The Greek word kosmos has at least five distinct meanings in the New Testament. Arminianism insists on reading only one ' }
+ { name: 'The Word "World" — A Lexical Study of Kosmos', href: '/word-study-every-world', desc: 'The Greek word kosmos carries at least five distinct senses in the New Testament. The universal-atonement reading leans ' }
  ]
  },
  {
