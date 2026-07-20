@@ -55,6 +55,7 @@ const TRAILING_FURNITURE = [
   '<section class="continue-journey-global"',
   '<div class="continue-journey',
   '<div class="article-continue-journey-links"',
+  '<div class="article-continue-journey"',   // S179: real class has no -links suffix
   '<div class="phase-nav"',
   '<div class="chain-cta"',
   '<div class="go-deeper',
@@ -84,7 +85,7 @@ function bodyOf(html) {
  * analysis. Without this the detector scores related-article decks as a
  * twelve-beat close (the S177 calibration false positive).
  */
-const FURNITURE = /related-article|hub-card|card-title|card-desc|card-meta|card-number|card-footer|card-read|card-scripture|journey-mini|phase-nav|phase-next|browse-link|breadcrumb|nav-|footer-|search-|mega-menu|quiz-|knowledge-check|deep-dive-card|section-label|eyebrow/i;
+const FURNITURE = /related-article|hub-card|card-title|card-desc|card-meta|card-number|card-footer|card-read|card-scripture|journey-mini|phase-nav|phase-next|browse-link|breadcrumb|nav-|footer-|search-|mega-menu|quiz-|knowledge-check|deep-dive-card|section-label|eyebrow|chain-node|chain-visual|chain-connector|chain-link|diagram-|timeline-|math-|eq-result/i;
 
 /** Split the body into top-level block elements we care about. */
 function blocks(body) {
@@ -96,7 +97,11 @@ function blocks(body) {
   // deck of related-article cards.)
   const cleaned = body
     .replace(/<a\b[^>]*>[\s\S]*?<\/a>/gi, m => /<(div|p|h[1-6])\b/i.test(m) ? ' ' : m)
-    .replace(/<section\b[^>]*class="[^"]*(related-articles|keep-reading|continue-journey)[^"]*"[\s\S]*?<\/section>/gi, ' ');
+    .replace(/<section\b[^>]*class="[^"]*(related-articles|keep-reading|continue-journey|further-reading)[^"]*"[\s\S]*?<\/section>/gi, ' ')
+    // S179: the 'Go Deeper' / 'Explore Further' rail also ships as a <div>,
+    // and its card blurbs are inline-styled <p>s that scored as 'callout'.
+    // (This — not grid connectors — is why objection-why-believe scored 14.)
+    .replace(/<div\b[^>]*class="[^"]*(further-reading|article-continue-journey)[^"]*"[\s\S]*?<\/div>/gi, ' ');
 
   const out = [];
   const re = /<(p|blockquote|div|h2|h3)\b([^>]*)>([\s\S]*?)<\/\1>/gi;
@@ -106,6 +111,17 @@ function blocks(body) {
     const attrs = m[2] || '';
     const inner = m[3];
     if (FURNITURE.test(attrs)) continue;
+    // S179 ROOT-CAUSE FIX. A <div> that WRAPS other block elements is a
+    // container, not a prose block. The regex above is non-greedy and does not
+    // track nesting, so a structural wrapper (<div class="chain-link-content">,
+    // <div class="further-reading">) captures only up to its FIRST child's
+    // </div>. Its text collapses to two or three words and scores as a
+    // 'hammer'. This one bug produced ALL THREE known false-positive classes:
+    // grid/diagram cells (the-golden-chain, the-two-arms), the baked
+    // "Explore Further" / "Continue the Journey" rails (8 pages), and the
+    // inflated top of the queue generally. Genuine prose children are matched
+    // on their own pass, so no real beat is lost by skipping the wrapper.
+    if (tag === 'div' && /<(div|section|p|h[1-6]|blockquote|ul|ol|table)\b/i.test(inner)) continue;
     // a block that is nothing but a link is navigation, not prose
     const stripped = inner.replace(/<[^>]*>/g, '').trim();
     const linkText = [...inner.matchAll(/<a\b[^>]*>([\s\S]*?)<\/a>/gi)]
@@ -170,10 +186,15 @@ function analyse(html) {
   return { beats, trailingRun, score, kinds: [...kinds], tailLen: tail.length };
 }
 
+// Legal/utility pages use the article-body wrapper but are not prose and must
+// never appear in the close queue (S179: terms.html ranked in the worst 32).
+const UTILITY_PAGES = new Set(['terms.html', 'privacy.html', '404.html']);
+
 const files = targets.length ? targets : fs.readdirSync('.').filter(f => f.endsWith('.html')).sort();
 const rows = [];
 
 for (const f of files) {
+  if (!targets.length && UTILITY_PAGES.has(f)) continue;
   let html;
   try { html = fs.readFileSync(f, 'utf8'); } catch { continue; }
   const a = analyse(html);
