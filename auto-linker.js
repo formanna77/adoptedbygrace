@@ -7,7 +7,7 @@
  * references, theologians, or analogies are mentioned.
  *
  * SAFETY:
- * - Only modifies text inside <p>, <li>, <blockquote>, <h2>, <h3>tags
+ * - Only modifies text inside <p> and <li> (blockquotes and headings are guarded)
  * - Never touches HTML attributes, class names, href values, or <script>/<style>
  * - Links first mention only per page (Wikipedia style)
  * - Never nests links (won't add <a>inside existing <a>)
@@ -613,9 +613,14 @@ function extractArticleBody(html) {
  * arming a second, class-triggered depth counter keyed to the element that
  * opened it.
  */
+// S178: the hole was only half-closed. <blockquote> was guarded, but <h2>/<h3> were not
+// (the header comment above still advertised headings as link targets), and several verse
+// wrappers were missing from the class list. One pipeline run re-injected 111 links into
+// quotations and headings across 72 files, silently undoing the strip. Both are closed below.
 const UNSAFE_CLASSES = [
   'scripture-text', 'scripture-block', 'passage-verse-text',
   'objection-verse-text', 'verse-text', 'quote-text', 'hymn-text',
+  'verse', 'chain-quote', 'chain-benediction', 'verse-block', 'scripture-quote',
 ];
 
 function splitIntoSegments(html) {
@@ -626,7 +631,7 @@ function splitIntoSegments(html) {
   // class-triggered quotation guard
   let classGuardTag = null;   // tag name that opened the guarded region
   let classGuardDepth = 0;    // nesting depth of that tag inside the region
-  const unsafeTagNames = new Set(['a', 'script', 'style', 'code', 'pre', 'svg', 'nav', 'button', 'cite', 'blockquote']);
+  const unsafeTagNames = new Set(['a', 'script', 'style', 'code', 'pre', 'svg', 'nav', 'button', 'cite', 'blockquote', 'h1', 'h2', 'h3', 'h4']);
 
   for (const part of parts) {
   if (!part) continue;
