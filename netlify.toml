@@ -1,0 +1,41 @@
+##############################################################################
+# adoptedbygrace.net — deploy configuration
+#
+# THERE IS DELIBERATELY NO [build] SECTION AND NO BUILD COMMAND.
+# Do not add one without Aaron's explicit say-so.
+#
+# WHY (decided S179, 2026-07-20)
+# ------------------------------
+# package.json lists netlify-cli and jsdom as dependencies. Netlify installs
+# dependencies whenever a build command is present, so adding one converts a
+# free static deploy into a real build — and CLAUDE.md's standing rule is
+# "every Netlify deploy costs build minutes." A build-time strip of internal
+# docs was written, verified, and then deliberately REJECTED for that reason.
+# The same protection is achieved for free in _redirects instead.
+#
+# HOW INTERNAL DOCS ARE KEPT OFF THE PUBLIC SITE
+# ----------------------------------------------
+# Netlify publishes the repo root, so anything committed here is served.
+# Verified live over HTTP on 2026-07-20: /CLAUDE.md and /VOICE.md were both
+# returning in full as text/markdown, exposing the manifesto, the complete
+# style bible, MISSION-CONTROL, 119 session kickoffs and 43 audit reports.
+#
+# The fix is in `_redirects`, and it depends on ONE non-obvious detail:
+#
+#   Netlify redirect rules are SHADOWED by real files. If a file exists at
+#   the requested path, Netlify serves the file and IGNORES the rule — unless
+#   the status code is FORCED with a trailing "!". Un-forced rules against
+#   existing files do nothing at all. This is why the first attempt failed.
+#
+# So the design is:
+#   * root-pinned docs that cannot move (CLAUDE.md, VOICE.md, MISSION-CONTROL*,
+#     SAPIENTIAL-AUDIT*) each get an explicit forced rule: `410!`
+#   * EVERYTHING ELSE internal lives under /archive/, covered forever by the
+#     single forced splat `/archive/*  /404.html  410!`
+#
+# THE ONE HABIT THIS DEPENDS ON
+# -----------------------------
+# New internal working documents (session kickoffs, audit reports, scratch
+# notes) go in `archive/` — NOT the repo root. Then they are covered with no
+# new rule and nothing to remember. This is recorded in CLAUDE.md.
+##############################################################################
