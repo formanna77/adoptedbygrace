@@ -296,4 +296,68 @@ if (errors === 0 && warnings === 0) {
 }
 console.log('══════════════════════════════════\n');
 
+
+// ============================================================
+// CHECK 7: Internal files must not be publicly served
+// ------------------------------------------------------------
+// Netlify publishes the repo root, so anything committed here is served.
+// On 2026-07-20 /CLAUDE.md and /VOICE.md were both verified live over HTTP,
+// returning the manifesto and the complete style bible as text/markdown.
+//
+// The block lives in _redirects, and the FORCED status ("410!") is
+// load-bearing: Netlify redirect rules are SHADOWED by real files, so an
+// un-forced rule against a file that exists on disk does nothing at all.
+// That is exactly how the first attempt at this fix silently failed.
+//
+// This check exists so the protection cannot rot. The runtime allowlist is
+// DERIVED from the actual <script src> tags in the HTML rather than hardcoded,
+// so adding a real front-end script needs no edit here — but adding a build
+// script, an internal .md, or an audit .txt without a rule FAILS the build.
+// ============================================================
+console.log('\n━━━ CHECK 7: Internal Files Not Publicly Served ━━━');
+
+const redirectsTxt = fs.existsSync('_redirects') ? fs.readFileSync('_redirects', 'utf8') : '';
+const forced = new Set(
+  [...redirectsTxt.matchAll(/^\/(\S+)\s+\S+\s+\d+!\s*$/gm)].map(m => m[1])
+);
+const archiveSplat = /^\/archive\/\*\s+\S+\s+\d+!/m.test(redirectsTxt);
+
+// Runtime assets are whatever the pages actually load.
+const runtimeJs = new Set();
+for (const f of fs.readdirSync('.').filter(x => x.endsWith('.html'))) {
+  const html = fs.readFileSync(f, 'utf8');
+  for (const m of html.matchAll(/src="\/?([A-Za-z0-9_.-]+\.js)"/g)) runtimeJs.add(m[1]);
+}
+
+const PUBLIC_TXT = new Set(['robots.txt', 'e1fe0ab8feb1cc06e7918835bec59ae9.txt']);
+const PUBLIC_JSON = new Set(['tags.json']);
+
+const mustBlock = fs.readdirSync('.').filter(f => {
+  if (!fs.statSync(f).isFile()) return false;
+  if (f.endsWith('.md')) return true;
+  if (f.endsWith('.js')) return !runtimeJs.has(f);
+  if (f.endsWith('.txt')) return !PUBLIC_TXT.has(f);
+  if (f.endsWith('.json')) return !PUBLIC_JSON.has(f);
+  return false;
+});
+
+const unblocked = mustBlock.filter(f => !forced.has(f));
+if (!archiveSplat) {
+  console.log('  ❌ MISSING the forced /archive/* splat in _redirects');
+  console.log('     Internal docs live under archive/ and rely on it.');
+  errors++;
+}
+if (unblocked.length) {
+  console.log(`  ❌ ${unblocked.length} internal file(s) would be served publicly:`);
+  unblocked.slice(0, 25).forEach(f => console.log(`     ${f}`));
+  if (unblocked.length > 25) console.log(`     …and ${unblocked.length - 25} more`);
+  console.log('     FIX: move it into archive/, or add to _redirects:');
+  console.log(`     /${unblocked[0]}   /404.html   410!`);
+  console.log('     The trailing ! is required — un-forced rules are ignored.');
+  errors++;
+} else {
+  console.log(`  ✅ All internal files blocked (${mustBlock.length} rules, ${runtimeJs.size} runtime assets public)`);
+}
+
+
 process.exit(errors > 0 ? 1 : 0);

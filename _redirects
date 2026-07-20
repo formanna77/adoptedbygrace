@@ -117,35 +117,128 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 
 /demolition-matt23-37          /demolition-matthew-23-37.html  301
 
-# ---------------------------------------------------------------------------
-# INTERNAL DOCUMENTS — BACKSTOP ONLY.
+# ===========================================================================
+# INTERNAL FILES — NEVER PUBLICLY SERVED
 #
-# The REAL fix lives in netlify.toml, which strips every internal .md / audit
-# .txt from the publish output at build time, so these paths do not exist to
-# be served. That is comprehensive and self-maintaining; this block is not.
+# Netlify publishes the repo root, so anything committed here is served. On
+# 2026-07-20 /CLAUDE.md and /VOICE.md were both verified live over HTTP,
+# returning the manifesto and the complete 640-line style bible as
+# text/markdown. 43 internal audit .txt reports were served as text/plain.
 #
-# These few rules exist ONLY to cover the case where netlify.toml is removed
-# or its build command stops running. Note the FORCED status codes ("410!"):
-# without the "!", Netlify serves an existing file and IGNORES the rule, which
-# is exactly why the un-forced rules first added in S179 did nothing at all.
+# THE TRAILING "!" IS LOAD-BEARING. Netlify redirect rules are SHADOWED by
+# real files: if a file exists at the requested path, Netlify serves the file
+# and IGNORES the rule unless the status code is FORCED. An un-forced block
+# was shipped first, reported as fixed, and did nothing at all. Never assert
+# a redirect fix without re-fetching the live URL.
 #
-# Do not expand this into a full enumeration — that was tried, went stale the
-# moment files moved, and gave a false sense of coverage. Extend netlify.toml.
-# ---------------------------------------------------------------------------
-/CLAUDE.md                                          /404.html  410!
-/VOICE.md                                           /404.html  410!
-/MISSION-CONTROL.md                                 /404.html  410!
-/MISSION-CONTROL-ARCHIVE.md                         /404.html  410!
-/SAPIENTIAL-AUDIT.md                                /404.html  410!
-/SAPIENTIAL-AUDIT-ARCHIVE.md                        /404.html  410!
+# THIS LIST IS ENFORCED, NOT REMEMBERED. validate-site.js CHECK 7 derives the
+# runtime allowlist from the actual <script src> tags in the HTML and fails if
+# any internal root file lacks a rule here. Add a build script or a working
+# doc without a rule and the validator tells you. Preferred alternative for
+# new working documents: put them in archive/ (CLAUDE.md INTEGRITY LAW 6),
+# covered forever by the single forced splat below.
+#
+# Public by design and deliberately absent: robots.txt, the site-verification
+# token, tags.json (fetched at runtime), the 11 front-end scripts, and every
+# PDF under /Reformed Sources/.
+# ===========================================================================
+
 /archive/*                                          /404.html  410!
 
-# Internal audit data files. These cannot move to archive/ without checking
-# every build script that reads them, so they are pinned here individually.
+/.sitemap-hashes.json                               /404.html  410!
+/.visual-qa-report.json                             /404.html  410!
+/.visual-qa-state.json                              /404.html  410!
+/AUDIT-2.md                                         /404.html  410!
+/AUDIT-COVERAGE-LEDGER.md                           /404.html  410!
+/AUDIT-REPORT.md                                    /404.html  410!
+/CLAUDE.md                                          /404.html  410!
+/DISTRIBUTION.md                                    /404.html  410!
+/HAMMER-200.md                                      /404.html  410!
+/HAMMER-50.md                                       /404.html  410!
+/HAMMER-EXPANSION.md                                /404.html  410!
+/JOURNEYS.md                                        /404.html  410!
+/MISSION-CONTROL-ARCHIVE.md                         /404.html  410!
+/MISSION-CONTROL.md                                 /404.html  410!
+/NEXT-SESSION-S180-kickoff.md                       /404.html  410!
+/OPTIMIZATION-PROGRESS.md                           /404.html  410!
+/PROSE-INTEGRITY.md                                 /404.html  410!
+/PRUNE-CANDIDATES.md                                /404.html  410!
+/REFORMED-SOURCES-INDEX.md                          /404.html  410!
+/SAPIENTIAL-AUDIT-ARCHIVE.md                        /404.html  410!
+/SAPIENTIAL-AUDIT.md                                /404.html  410!
+/SEARCH-INTENT.md                                   /404.html  410!
+/SPRINT-ROADMAP.md                                  /404.html  410!
+/VOICE.md                                           /404.html  410!
+/__btn_repro.js                                     /404.html  410!
+/__fix_1john51.js                                   /404.html  410!
+/__fix_missing_scripts.js                           /404.html  410!
+/__fix_niv3.js                                      /404.html  410!
+/__fix_niv_2.js                                     /404.html  410!
+/__fix_niv_quotes.js                                /404.html  410!
+/__functionality_scan.js                            /404.html  410!
+/__probe.js                                         /404.html  410!
+/__probe2.js                                        /404.html  410!
+/__probe3.js                                        /404.html  410!
+/__scan_missing_scripts.js                          /404.html  410!
+/_roll.js                                           /404.html  410!
+/add-bylines.js                                     /404.html  410!
 /audit-data.json                                    /404.html  410!
+/audit-prose-structure.md                           /404.html  410!
+/audit-prose.js                                     /404.html  410!
 /audit-prose.json                                   /404.html  410!
+/audit-prose.md                                     /404.html  410!
+/audit-titles.js                                    /404.html  410!
+/auto-linker.js                                     /404.html  410!
+/build-all-content.js                               /404.html  410!
+/build-essay-html.js                                /404.html  410!
+/build-gateway-pages.js                             /404.html  410!
+/build-homepage-counts.js                           /404.html  410!
+/build-mega-menu.js                                 /404.html  410!
+/build-og-cards.js                                  /404.html  410!
+/build-related-articles.js                          /404.html  410!
+/build-related.js                                   /404.html  410!
+/build-search-index.js                              /404.html  410!
+/build-sitemap.js                                   /404.html  410!
+/build-tags.js                                      /404.html  410!
+/build-testimonies.js                               /404.html  410!
+/canonical-conformance.js                           /404.html  410!
+/check_final.js                                     /404.html  410!
+/check_marks_temp.js                                /404.html  410!
+/check_one.js                                       /404.html  410!
+/check_tail.js                                      /404.html  410!
 /consecration-audit.json                            /404.html  410!
+/consecration-audit.md                              /404.html  410!
+/consecration-scan.js                               /404.html  410!
+/content-surgeon.js                                 /404.html  410!
+/dedupe-assets.js                                   /404.html  410!
+/detect-multiplied-close.js                         /404.html  410!
+/detect-structural-rot.js                           /404.html  410!
+/discipline-expansion-gaps.md                       /404.html  410!
 /docs-meta-fix-log.json                             /404.html  410!
+/fix-meta-descriptions.js                           /404.html  410!
+/generate-manifest.js                               /404.html  410!
+/indexnow-ping.js                                   /404.html  410!
+/inject-share-bar.js                                /404.html  410!
+/inject-ux-enhancements.js                          /404.html  410!
+/outreach-list.md                                   /404.html  410!
+/package-lock.json                                  /404.html  410!
+/package.json                                       /404.html  410!
+/prune-audit.js                                     /404.html  410!
+/rank-for-expansion.js                              /404.html  410!
+/sapiential-audit.js                                /404.html  410!
+/seo-audit-2026-04.md                               /404.html  410!
+/shorten-titles.js                                  /404.html  410!
+/strategic-audit.js                                 /404.html  410!
+/strip-dead-analytics-hints.js                      /404.html  410!
+/strip-legacy-breadcrumbs.js                        /404.html  410!
+/system-prompt-snapshot-2026-04-22.md               /404.html  410!
+/testimonies.json                                   /404.html  410!
+/tier3-inventory.js                                 /404.html  410!
+/tier3-structural-exempt.md                         /404.html  410!
+/validate-site.js                                   /404.html  410!
+/verify-scripture.js                                /404.html  410!
+/wire-manifest.js                                   /404.html  410!
+/wire-orphans.js                                    /404.html  410!
 
 # Custom 404
 /*  /404.html  404

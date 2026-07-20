@@ -6,7 +6,7 @@
 
 ## PRIORITY 0 — PRE-FLIGHT (do FIRST)
 
-1. `ls -1 *.html | wc -l` (expect **691**) · `node validate-site.js` (**ALL PASS**) · `node canonical-conformance.js` (**1** = matt23-37 stub, benign) · `node verify-scripture.js` (quotes **3822** / DIVERGENT **273** / "(NIV)" **0**) · `node detect-multiplied-close.js` (**1 severe, 48 multiplied, 563 clean — 612 prose pages scanned**) · `node detect-structural-rot.js` (**0 structural / 216 secondary — if not 0, something regressed**). Pipe each to `| tail`.
+1. `ls -1 *.html | wc -l` (expect **691**) · `node validate-site.js` (**ALL PASS**, incl. new **CHECK 7: Internal Files Not Publicly Served** — 94 rules / 11 runtime assets; if it fails, a new internal file needs a forced `410!` rule or a move to `archive/`) · `node canonical-conformance.js` (**1** = matt23-37 stub, benign) · `node verify-scripture.js` (quotes **3822** / DIVERGENT **273** / "(NIV)" **0**) · `node detect-multiplied-close.js` (**1 severe, 48 multiplied, 563 clean — 612 prose pages scanned**) · `node detect-structural-rot.js` (**0 structural / 216 secondary — if not 0, something regressed**). Pipe each to `| tail`.
 2. Read this kickoff + **VOICE.md in full (protected — never sampled; §XXII is the ceiling for this era)** + MISSION-CONTROL.md Session-Log header + the S179 and S178 entries.
 3. Counts at S179 close (no HTML edited; `_redirects` + `detect-multiplied-close.js` changed): 609 prose / 691 HTML · search-index 687 · mega-menu 657 · wire-orphans 76 unmapped. Pipeline GREEN. Structural rot 0.
 
