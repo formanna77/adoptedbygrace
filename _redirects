@@ -276,5 +276,10 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /index.html.orig                                    /404.html  410
 /question-freewill.html.bak                         /404.html  410
 
+# Archived session kickoffs (moved out of the web root). The enumerated .md
+# rules above only cover the ROOT path, so this splat is what keeps them
+# unreachable at their new location. Never remove it.
+/archive/*                                          /404.html  410
+
 # Custom 404
 /*  /404.html  404
