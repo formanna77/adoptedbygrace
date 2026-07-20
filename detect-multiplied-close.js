@@ -85,7 +85,15 @@ function bodyOf(html) {
  * analysis. Without this the detector scores related-article decks as a
  * twelve-beat close (the S177 calibration false positive).
  */
-const FURNITURE = /related-article|hub-card|card-title|card-desc|card-meta|card-number|card-footer|card-read|card-scripture|journey-mini|phase-nav|phase-next|browse-link|breadcrumb|nav-|footer-|search-|mega-menu|quiz-|knowledge-check|deep-dive-card|section-label|eyebrow|chain-node|chain-visual|chain-connector|chain-link|diagram-|timeline-|math-|eq-result/i;
+// S180: FOURTH false-positive class — INTERACTIVE-WIDGET CHROME. the-fork.html
+// is a branching widget, not a linear prose page; it topped the queue at 9 on
+// nothing but UI. Two of its five "beats" were <div class="fork-actions">
+// button rails ("Back  Show me the catch") — those divs wrap only <button>/<a>,
+// so the S179 container-div rule does not catch them, and the <a> is too short
+// a fraction of the text for the link-only rule. Strip the chrome by class;
+// the panel prose (fork-body <p>, fork-catch, fork-lede) is still scored on
+// its own merits, so nothing real is lost.
+const FURNITURE = /related-article|hub-card|card-title|card-desc|card-meta|card-number|card-footer|card-read|card-scripture|journey-mini|phase-nav|phase-next|browse-link|breadcrumb|nav-|footer-|search-|mega-menu|quiz-|knowledge-check|deep-dive-card|section-label|eyebrow|chain-node|chain-visual|chain-connector|chain-link|diagram-|timeline-|math-|eq-result|fork-actions|fork-btn|fork-progress|fork-stage|next-step/i;
 
 /** Split the body into top-level block elements we care about. */
 function blocks(body) {
@@ -178,12 +186,37 @@ function analyse(html) {
     if (beatKind(tail[i])) trailingRun++; else break;
   }
 
+  // S180: does anything RE-OPEN after the Amen? A prayer is a terminal act;
+  // a hammer, stinger or callout printed after it re-starts a page the reader
+  // had already been released from. This is a genuine cross-page defect
+  // (systematic-christology, devotional-cold-church, demolition-works-
+  // righteousness, anxious-mind-the-loop-that-wont-break all carried it), and
+  // unlike beat-count it is a positional fact, not a judgement call.
+  // Only an ACTUAL prayer counts. The DOXOLOGY regex also fires on doxological
+  // *prose* ("glory to Him", "forever and ever"), which is not a terminal act
+  // and may legitimately be followed by a hammer — that over-fired on 30 pages
+  // before this was tightened to a closing "Amen".
+  const doxAt = beats.findIndex(b => b.kind === 'doxology' && /\bamen[.!?"'’”\s]*$/i.test(b.text));
+  const afterAmen = doxAt !== -1 && doxAt < beats.length - 1;
+
   const kinds = new Set(beats.map(b => b.kind));
   let score = beats.length + trailingRun;
-  if (kinds.has('doxology') && kinds.size > 1) score += 2;   // doxology + anything else = classic stack
+  // S180 FIFTH false-positive class: TWO beats is the PRESCRIBED shape
+  // (one catch + one hammer), yet the doxology bonus alone pushed every such
+  // page to 6 — which is what put ~10 apologetic-* pages in the queue on a
+  // clean catch+stinger ending. The bonus exists to catch a doxology buried in
+  // a STACK, so require an actual stack (3+) before paying it out.
+  if (kinds.has('doxology') && kinds.size > 1 && beats.length >= 3) score += 2;
   if (kinds.has('stinger') && kinds.has('callout')) score += 1;
+  // Weighted at 1, not 2, deliberately. One short line after a prayer can be a
+  // legitimate shape — the prayer is the reader's, the last line is God's word
+  // back over him. It becomes a defect when it is mechanical, when it merely
+  // restates the prayer, or when it is part of a shared formula (the
+  // "So we confess it, who once ___" close-machine, S180). The `!` flag is the
+  // finding; the point is a hand-check, not an automatic cut.
+  if (afterAmen) score += 1;
 
-  return { beats, trailingRun, score, kinds: [...kinds], tailLen: tail.length };
+  return { beats, trailingRun, score, afterAmen, kinds: [...kinds], tailLen: tail.length };
 }
 
 // Legal/utility pages use the article-body wrapper but are not prose and must
@@ -207,7 +240,9 @@ rows.sort((x, y) => y.score - x.score || y.beats.length - x.beats.length);
 if (targets.length === 1 && rows.length === 1) {
   const r = rows[0];
   console.log(`\n${r.f}  —  score ${r.score}  (${r.beats.length} terminal beats, trailing run ${r.trailingRun})`);
-  console.log(`kinds: ${r.kinds.join(', ')}\n`);
+  console.log(`kinds: ${r.kinds.join(', ')}`);
+  if (r.afterAmen) console.log('*** RE-OPENS AFTER THE AMEN — a beat is printed past the prayer. Nothing may follow it. ***');
+  console.log('');
   r.beats.forEach(b => console.log(`  [${b.kind.padEnd(12)}] ${b.text.slice(0, 140)}${b.text.length > 140 ? '…' : ''}\n`));
   console.log('PRESCRIBED SHAPE: one catch + one tender landing (+ optional 7-word hammer).');
   console.log('Fix is near-pure SUBTRACTION. Verify-don\'t-blind-cut: keep the beat that is the page\'s true destination.\n');
@@ -217,13 +252,15 @@ if (targets.length === 1 && rows.length === 1) {
   console.log(`  score >=9  (severe — 4+ endings stacked) : ${rows.filter(r => r.score >= 9).length}`);
   console.log(`  score 6-8  (multiplied — needs a collapse): ${rows.filter(r => r.score >= 6 && r.score < 9).length}`);
   console.log(`  score <6   (prescribed shape or close to it): ${rows.filter(r => r.score < 6).length}\n`);
+  console.log(`  of which RE-OPEN AFTER THE AMEN (marked !): ${rows.filter(r => r.afterAmen).length}\n`);
   console.log('WORST FIRST');
-  console.log('score  beats  run  kinds                              page');
+  console.log('score  beats  run  !  kinds                              page');
   for (const r of flagged.slice(0, TOP === Infinity ? flagged.length : TOP)) {
     console.log(
       String(r.score).padStart(5),
       String(r.beats.length).padStart(6),
-      String(r.trailingRun).padStart(4), ' ',
+      String(r.trailingRun).padStart(4),
+      (r.afterAmen ? '!' : ' ').padStart(3), ' ',
       r.kinds.join(',').padEnd(34).slice(0, 34),
       r.f
     );
