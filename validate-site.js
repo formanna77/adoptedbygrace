@@ -359,5 +359,66 @@ if (unblocked.length) {
   console.log(`  ✅ All internal files blocked (${mustBlock.length} rules, ${runtimeJs.size} runtime assets public)`);
 }
 
+// ═══════════════════════════════════════
+// CHECK 8: Inline <style> allowlist (ALL pages, not just hubs)
+// ═══════════════════════════════════════
+//
+// WHY THIS EXISTS (S186). CLAUDE.md has carried an inline-<style> allowlist
+// since the early sessions — index.html, belief-assessment.html,
+// question-faith-origin-test.html, verse-explorer.html — and CHECK 4 enforces
+// the ban on HUB pages only. Nothing has ever enforced the allowlist itself.
+// After that drift ran unchecked, an audit found the list dead in BOTH
+// directions: two of the four named pages NO LONGER EXIST, the other two carry
+// NO inline <style> at all, and 27 pages that DO carry one were on no list
+// anywhere. A rule with no enforcement is a rule that quietly stops being true.
+//
+// The allowlist below is rebuilt from what is actually on disk and actually
+// justified, in three honest categories. Anything not listed is a prose article
+// someone decorated, and belongs in /global.css.
+const STYLE_ALLOWED = new Set([
+  // 1. Interactive widgets — inline JS drives UI state, CSS is scoped to it
+  'fork-in-the-road.html', 'scripture-tsunami.html', 'the-60-second-case.html',
+  'the-breath-prayer.html', 'the-fork.html', 'the-golden-chain.html',
+  'the-mirror.html', 'the-objection-collapse.html', 'the-scripture-cascade.html',
+  // 2. CSS-diagram pages — the stylesheet IS the illustration (flowcharts,
+  //    timelines, chain boxes, the two-panel split). No JS; nothing to extract.
+  'question-visual-theology.html', 'the-two-arms.html',
+  // 3. Print utilities + system pages — @media print rules by definition
+  'printable-adoption.html', 'printable-effectual-call.html', 'printable-eph-2.html',
+  'printable-faith-is-a-gift.html', 'printable-five-points.html',
+  'printable-gospel-in-one-page.html', 'printable-john-6.html',
+  'printable-perseverance.html', 'printable-romans-8-28-39.html',
+  'printable-romans-9.html', 'printable-the-cross.html', 'printable-the-mirror.html',
+  'printable-total-depravity.html', 'printable-twelve-lethal-moves.html',
+  'printable-where-did-your-faith-come-from.html',
+  '404.html',
+]);
+
+console.log('\n━━━ CHECK 8: Inline <style> Allowlist ━━━');
+const styleOffenders = [];
+for (const f of fs.readdirSync(ROOT)) {
+  if (!f.endsWith('.html') || STYLE_ALLOWED.has(f)) continue;
+  const content = safeReadFileSync(path.join(ROOT, f));
+  if (content && content.includes('<style')) styleOffenders.push(f);
+}
+const staleAllow = [...STYLE_ALLOWED].filter(f => {
+  const c = fs.existsSync(path.join(ROOT, f)) ? safeReadFileSync(path.join(ROOT, f)) : null;
+  return c === null || !c.includes('<style');
+});
+if (styleOffenders.length) {
+  console.log(`  ❌ ${styleOffenders.length} page(s) carry an inline <style> and are not allowlisted:`);
+  styleOffenders.forEach(f => console.log(`     ${f}`));
+  console.log('     FIX: move the rules into /global.css — or, if the page is a genuine');
+  console.log('     interactive widget, CSS-diagram page, or print utility, add it to');
+  console.log('     STYLE_ALLOWED in validate-site.js AND to the allowlist in CLAUDE.md.');
+  errors++;
+} else if (staleAllow.length) {
+  // Not an error — a dead entry breaks nothing. But it is exactly how the last
+  // list rotted, so say it out loud rather than letting it drift again.
+  console.log(`  ✅ No unlisted inline <style> (${STYLE_ALLOWED.size} allowlisted)`);
+  console.log(`  ⚠  ${staleAllow.length} stale allowlist entr(y/ies) — gone or no longer styled: ${staleAllow.join(', ')}`);
+} else {
+  console.log(`  ✅ No unlisted inline <style> (${STYLE_ALLOWED.size} allowlisted, none stale)`);
+}
 
 process.exit(errors > 0 ? 1 : 0);

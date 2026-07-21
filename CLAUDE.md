@@ -87,7 +87,15 @@ Links go in prose content only — never in `href` / `class` / `id` / attribute 
 
 **Hub pages** use the unified hub CSS: `.hub-hero`, `.hub-subtitle`, `.hub-stats`, `.hub-container`, `.hub-grid`, `.hub-card`, `.card-number`, `.card-title`, `.card-description`, `.card-scripture`, `.card-footer`, `.card-read`. Warm gold + ember + dark aesthetic. No white, gray, or cold tones. No custom card classes (`.devotional-card`, `.question-card`, etc.) — all dead.
 
-**No inline `<style>` tags** except on interactive widgets (index.html, belief-assessment.html, question-faith-origin-test.html, verse-explorer.html).
+**No inline `<style>` tags** except on the allowlist below. Everything else belongs in `/global.css`.
+
+**The allowlist (rebuilt + enforced 2026-07-21, S186).** The old list named four pages — `index.html`, `belief-assessment.html`, `question-faith-origin-test.html`, `verse-explorer.html` — and had gone dead in *both* directions: two of those files no longer exist, the other two carry no inline `<style>` at all, and 27 pages that do carry one were on no list anywhere. CHECK 4 only ever scanned hub pages, so nothing enforced the allowlist itself. **`validate-site.js` CHECK 8 now scans every page and fails on any inline `<style>` not listed in `STYLE_ALLOWED`** — keep the two lists in sync. Three categories, and a page must genuinely belong to one:
+
+1. **Interactive widgets** — inline JS drives UI state and the CSS is scoped to it: `fork-in-the-road`, `scripture-tsunami`, `the-60-second-case`, `the-breath-prayer`, `the-fork`, `the-golden-chain`, `the-mirror`, `the-objection-collapse`, `the-scripture-cascade`.
+2. **CSS-diagram pages** — the stylesheet *is* the illustration (flowcharts, timelines, chain boxes, the two-panel split), no JS, nothing to extract: `question-visual-theology`, `the-two-arms`.
+3. **Print utilities + system pages** — `@media print` rules by definition: the 15 `printable-*` pages and `404.html`.
+
+A prose article that someone decorated is **not** a fourth category. Move its rules to `/global.css`.
 
 ---
 
