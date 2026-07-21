@@ -25,8 +25,8 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /creed-heidelberg-catechism  /creed-heidelberg-catechism.html  200
 
 # Analogies & Illustrations
-/analogies-illustrations       /analogies-illustrations.html       200
-/analogies                     /analogies-illustrations.html       301
+/analogies-illustrations       /stories                            301!
+/analogies                     /stories                            301!
 /analogy-doctor-corpse         /analogy-doctor-corpse.html         200
 /analogy-lazarus-grave         /analogy-lazarus-grave.html         200
 /analogy-chess-grandmaster     /analogy-chess-grandmaster.html     200
@@ -93,7 +93,8 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /resources-books             /start-here.html               301
 /resources-sermons           /start-here.html               301
 /resources-commentaries      /start-here.html               301
-/resources-confessions       /creeds-confessions.html       301
+/resources-confessions       /history-timeline              301!
+/creeds-confessions          /history-timeline              301!
 /resources-catechisms        /start-here.html               301
 /resources-glossary          /start-here.html               301
 /resources-prayer            /start-here.html               301
@@ -120,7 +121,7 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 # Dead links — redirect to closest match
 /plans                         /start-here.html  301
 
-/demolition-matt23-37          /demolition-matthew-23-37.html  301
+/demolition-matt23-37          /demolition-matthew-23-37       301!
 
 # ===========================================================================
 # INTERNAL FILES — NEVER PUBLICLY SERVED
@@ -249,6 +250,8 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /verify-scripture.js                                /404.html  410!
 /wire-manifest.js                                   /404.html  410!
 /wire-orphans.js                                    /404.html  410!
+/_nav-template.html                                 /404.html  410!
+/_nav-template                                      /404.html  410!
 /sweep-quoted-links.js                              /404.html  410!
 /analyze-quoted-links.js                            /404.html  410!
 /fix-quoted-links.js                                /404.html  410!

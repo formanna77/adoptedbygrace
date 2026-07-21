@@ -23,7 +23,14 @@ function safeReadFileSync(filePath) {
   }
 }
 const IGNORE_FILES = new Set(['_nav-template.html', '404.html', 'search.html']);
-const REDIRECT_PAGES = new Set(['creeds-confessions.html', 'analogies-illustrations.html', 'demolition-matt23-37.html']); // minimal redirect pages — skip structural checks
+// S186: the three meta-refresh stubs that used to live here (creeds-confessions,
+// analogies-illustrations, demolition-matt23-37) were DELETED and replaced with
+// forced 301s in _redirects. A <meta http-equiv="refresh"> page is a soft redirect:
+// slower for the reader, leaky for link equity, and indexable as a thin page —
+// and each of these was ALSO shadowing its own rule, because Netlify serves a real
+// file in preference to an un-forced redirect. Keep this set empty unless a genuine
+// stub returns; a forced 301! in _redirects is always the better instrument.
+const REDIRECT_PAGES = new Set([]); // minimal redirect pages — skip structural checks
 const UTILITY_PAGES = new Set([
     'index.html', 'about.html', 'contact.html', 'privacy.html', 'terms.html',
     'all-content.html', 'topics.html', 'connections.html', 'explore-map.html',
@@ -41,9 +48,11 @@ const HUB_REGISTRY = {
     'demolition-hub.html': ['demolition-'],
     'psychology-hub.html': ['psychology-'],
     'philosophy-hub.html': ['philosophy-'],
-    'stories.html': ['story-'],
+    'stories.html': ['story-', 'analogy-'],
     'devotionals.html': ['devotional-'],
-    'analogies-illustrations.html': ['analogy-'],
+    // S186: analogies-illustrations.html was a redirect stub pointing at /stories.
+    // Stub deleted; stories.html already links all 10 analogy-* pages, so it owns
+    // the prefix now. Without this, every analogy-* page reads as an orphan.
     'secular-evidence.html': ['secular-'],
     'systematic-theology.html': ['systematic-'],
     'theologians.html': ['theologian-'],
@@ -420,5 +429,47 @@ if (styleOffenders.length) {
 } else {
   console.log(`  ✅ No unlisted inline <style> (${STYLE_ALLOWED.size} allowlisted, none stale)`);
 }
+
+// ═══════════════════════════════════════
+// CHECK 9: Hero subtitle class + duplicate <title>
+// ═══════════════════════════════════════
+//
+// WHY THIS EXISTS (S186). `.hub-subtitle` is styled in global.css ONLY as
+// `.hub-hero .hub-subtitle`. Article pages use `.page-hero`, never `.hub-hero`.
+// So every article carrying `<p class="hub-subtitle">` rendered its hero
+// subtitle — the first line under the headline — COMPLETELY UNSTYLED: default
+// body text, wrong colour, wrong size, full width, no centering. 452 pages were
+// in that state and nothing detected it, because no check has ever asked
+// whether a class a page uses is actually defined for the context it sits in.
+// Fixed site-wide; this check keeps it fixed.
+//
+// Duplicate <title> is bundled here for the same reason: two genuinely
+// different pages shipped the identical title AND h1 ("The Heresy That Won't
+// Die"), which is a search-result collision and a reader dead-end.
+console.log('\n━━━ CHECK 9: Hero Subtitle Class + Duplicate Titles ━━━');
+let heroIssues = 0;
+const titleMap = new Map();
+for (const f of fs.readdirSync(ROOT)) {
+  if (!f.endsWith('.html') || IGNORE_FILES.has(f)) continue;
+  const c = safeReadFileSync(path.join(ROOT, f));
+  if (!c) continue;
+  // hub-subtitle is only styled under .hub-hero; on a .page-hero it is dead CSS
+  if (c.includes('class="hub-subtitle"') && c.includes('page-hero') && !c.includes('hub-hero')) {
+    error(`${f} — <p class="hub-subtitle"> on a .page-hero renders UNSTYLED (use class="subtitle")`);
+    heroIssues++;
+  }
+  const t = c.match(/<title>([\s\S]*?)<\/title>/);
+  if (t) {
+    const key = t[1].trim();
+    if (!titleMap.has(key)) titleMap.set(key, []);
+    titleMap.get(key).push(f);
+  }
+}
+const dupes = [...titleMap.entries()].filter(([, v]) => v.length > 1);
+for (const [t, files] of dupes) {
+  error(`duplicate <title> "${t.slice(0, 60)}" on: ${files.join(', ')}`);
+  heroIssues++;
+}
+if (heroIssues === 0) ok('Hero subtitles correctly classed; no duplicate <title>');
 
 process.exit(errors > 0 ? 1 : 0);

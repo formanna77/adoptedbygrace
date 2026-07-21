@@ -1,0 +1,258 @@
+# Netlify Redirects — adoptedbygrace.net
+# Redirect old domain to new
+https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
+
+# Sitemap aliases — recover crawler traffic
+# Googlebot/Bingbot probe these paths; without redirects we lose indexing attempts
+/sitemap.xml.gz       /sitemap.xml    301
+/sitemap_index.xml    /sitemap.xml    301
+/sitemap/             /sitemap.xml    301
+
+# Merged pages — S186: golden-chain folded into the-golden-chain
+# (forced: an un-forced rule is shadowed by any real file at that path)
+/golden-chain        /the-golden-chain    301!
+/golden-chain.html   /the-golden-chain    301!
+
+# Engagement pages — clean URLs
+/connect    /contact.html    301
+/donate     /donate.html     200
+/support    /donate.html     301
+/contact    /contact.html    200
+/author     /author.html     200
+
+# Creeds & Confessions — deep-dive pages
+/creed-canons-dort           /creed-canons-dort.html           200
+/creed-heidelberg-catechism  /creed-heidelberg-catechism.html  200
+
+# Analogies & Illustrations
+/analogies-illustrations       /analogies-illustrations.html       200
+/analogies                     /analogies-illustrations.html       301
+/analogy-doctor-corpse         /analogy-doctor-corpse.html         200
+/analogy-lazarus-grave         /analogy-lazarus-grave.html         200
+/analogy-chess-grandmaster     /analogy-chess-grandmaster.html     200
+/analogy-light-switch          /analogy-light-switch.html          200
+/analogy-adoption              /analogy-adoption.html              200
+
+# Pastoral Applications
+/pastoral-suffering    /pastoral-suffering.html    200
+/pastoral-prayer       /pastoral-prayer.html       200
+/pastoral-assurance    /pastoral-assurance.html    200
+/pastoral-evangelism   /pastoral-evangelism.html   200
+
+# Counter-Apologetics
+/counter-cs-lewis-free-will  /counter-cs-lewis-free-will.html  200
+
+# Comparative Theology
+/compare-calvinism-open-theism           /compare-calvinism-open-theism.html           200
+/compare-predestination-foreknowledge    /compare-predestination-foreknowledge.html    200
+/compare-calvinism-catholic-soteriology  /compare-calvinism-catholic-soteriology.html  200
+
+# Theologian name fixes
+/theologian-john-owen          /theologian-owen.html          301
+/theologian-jonathan-edwards   /theologian-edwards.html       301
+
+# Demolition name fix
+/demolition-1timothy2-4        /demolition-1tim2-4.html       301
+
+# Systematic theology redirects to existing pages
+/systematic-theology-hub       /systematic-theology.html      301
+/systematic-depravity          /systematic-hamartiology.html   301
+/systematic-perseverance       /question-perseverance.html     301
+/systematic-faith              /question-faithgift.html        301
+
+# Generic topic redirects to best-fit pages
+/apologetics                   /demolition-hub.html           301
+/doctrine                      /systematic-theology.html      301
+/doctrine-election             /systematic-election.html      301
+/election                      /systematic-election.html      301
+/sovereignty                   /questions.html                301
+/predestination                /questions.html                301
+/grace                         /start-here.html               301
+/objections                    /demolition-hub.html           301
+/comparisons                   /compare-calvinism-arminianism.html  301
+/theology-total-depravity      /systematic-hamartiology.html  301
+/theology-gods-two-wills       /demolition-ezekiel18-23.html  301
+/subscribe                     /contact.html                  301
+/privacy                       /about.html                    301
+/terms                         /about.html                    301
+
+# Devotional redirects (pages not yet created — send to hub)
+/devotional-assurance          /devotionals.html              301
+/devotional-ezekiel36-37      /devotionals.html              301
+
+# Question redirects (pages not yet created — send to hub)
+/question-atonement            /systematic-atonement.html     301
+/question-irresistible-grace   /questions.html                301
+
+# Systematic sub-topics (pages not yet created — send to hub)
+/systematic-glorification      /systematic-ordo-salutis.html  301
+/systematic-sanctification     /systematic-ordo-salutis.html  301
+
+# Resources section redirects (deprecated)
+/resources                   /start-here.html               301
+/resources-books             /start-here.html               301
+/resources-sermons           /start-here.html               301
+/resources-commentaries      /start-here.html               301
+/resources-confessions       /creeds-confessions.html       301
+/resources-catechisms        /start-here.html               301
+/resources-glossary          /start-here.html               301
+/resources-prayer            /start-here.html               301
+/resources-podcasts          /start-here.html               301
+/resources-reading-plans     /start-here.html               301
+/resources-study-guides      /start-here.html               301
+/resource-finder             /start-here.html               301
+/start-here-resources        /start-here.html               301
+
+# Bot/hacker probes — return 410 Gone (stop crawling these)
+/wordpress/*                   /404.html  410
+/wp-admin/*                    /404.html  410
+/wp-login.php                  /404.html  410
+/wp-content/*                  /404.html  410
+/wp-includes/*                 /404.html  410
+/.env                          /404.html  410
+/.env.local                    /404.html  410
+/.env.bak                      /404.html  410
+/.git/config                   /404.html  410
+/backend/.env                  /404.html  410
+/admin/.env                    /404.html  410
+/config.js                     /404.html  410
+
+# Dead links — redirect to closest match
+/plans                         /start-here.html  301
+
+/demolition-matt23-37          /demolition-matthew-23-37.html  301
+
+# ===========================================================================
+# INTERNAL FILES — NEVER PUBLICLY SERVED
+#
+# Netlify publishes the repo root, so anything committed here is served. On
+# 2026-07-20 /CLAUDE.md and /VOICE.md were both verified live over HTTP,
+# returning the manifesto and the complete 640-line style bible as
+# text/markdown. 43 internal audit .txt reports were served as text/plain.
+#
+# THE TRAILING "!" IS LOAD-BEARING. Netlify redirect rules are SHADOWED by
+# real files: if a file exists at the requested path, Netlify serves the file
+# and IGNORES the rule unless the status code is FORCED. An un-forced block
+# was shipped first, reported as fixed, and did nothing at all. Never assert
+# a redirect fix without re-fetching the live URL.
+#
+# THIS LIST IS ENFORCED, NOT REMEMBERED. validate-site.js CHECK 7 derives the
+# runtime allowlist from the actual <script src> tags in the HTML and fails if
+# any internal root file lacks a rule here. Add a build script or a working
+# doc without a rule and the validator tells you. Preferred alternative for
+# new working documents: put them in archive/ (CLAUDE.md INTEGRITY LAW 6),
+# covered forever by the single forced splat below.
+#
+# Public by design and deliberately absent: robots.txt, the site-verification
+# token, tags.json (fetched at runtime), the 11 front-end scripts, and every
+# PDF under /Reformed Sources/.
+# ===========================================================================
+
+/archive/*                                          /404.html  410!
+
+/.sitemap-hashes.json                               /404.html  410!
+/.visual-qa-report.json                             /404.html  410!
+/.visual-qa-state.json                              /404.html  410!
+/AUDIT-2.md                                         /404.html  410!
+/AUDIT-COVERAGE-LEDGER.md                           /404.html  410!
+/AUDIT-REPORT.md                                    /404.html  410!
+/CLAUDE.md                                          /404.html  410!
+/DISTRIBUTION.md                                    /404.html  410!
+/HAMMER-200.md                                      /404.html  410!
+/HAMMER-50.md                                       /404.html  410!
+/HAMMER-EXPANSION.md                                /404.html  410!
+/JOURNEYS.md                                        /404.html  410!
+/MISSION-CONTROL-ARCHIVE.md                         /404.html  410!
+/MISSION-CONTROL.md                                 /404.html  410!
+/NEXT-SESSION-S180-kickoff.md                       /404.html  410!
+/OPTIMIZATION-PROGRESS.md                           /404.html  410!
+/PROSE-INTEGRITY.md                                 /404.html  410!
+/PRUNE-CANDIDATES.md                                /404.html  410!
+/REFORMED-SOURCES-INDEX.md                          /404.html  410!
+/SAPIENTIAL-AUDIT-ARCHIVE.md                        /404.html  410!
+/SAPIENTIAL-AUDIT.md                                /404.html  410!
+/SEARCH-INTENT.md                                   /404.html  410!
+/SPRINT-ROADMAP.md                                  /404.html  410!
+/VOICE.md                                           /404.html  410!
+/__btn_repro.js                                     /404.html  410!
+/__fix_1john51.js                                   /404.html  410!
+/__fix_missing_scripts.js                           /404.html  410!
+/__fix_niv3.js                                      /404.html  410!
+/__fix_niv_2.js                                     /404.html  410!
+/__fix_niv_quotes.js                                /404.html  410!
+/__functionality_scan.js                            /404.html  410!
+/__probe.js                                         /404.html  410!
+/__probe2.js                                        /404.html  410!
+/__probe3.js                                        /404.html  410!
+/__scan_missing_scripts.js                          /404.html  410!
+/_roll.js                                           /404.html  410!
+/add-bylines.js                                     /404.html  410!
+/audit-data.json                                    /404.html  410!
+/audit-prose-structure.md                           /404.html  410!
+/audit-prose.js                                     /404.html  410!
+/audit-prose.json                                   /404.html  410!
+/audit-prose.md                                     /404.html  410!
+/audit-titles.js                                    /404.html  410!
+/auto-linker.js                                     /404.html  410!
+/build-all-content.js                               /404.html  410!
+/build-essay-html.js                                /404.html  410!
+/build-gateway-pages.js                             /404.html  410!
+/build-homepage-counts.js                           /404.html  410!
+/build-mega-menu.js                                 /404.html  410!
+/build-og-cards.js                                  /404.html  410!
+/build-related-articles.js                          /404.html  410!
+/build-related.js                                   /404.html  410!
+/build-search-index.js                              /404.html  410!
+/build-sitemap.js                                   /404.html  410!
+/build-tags.js                                      /404.html  410!
+/build-testimonies.js                               /404.html  410!
+/canonical-conformance.js                           /404.html  410!
+/check_final.js                                     /404.html  410!
+/check_marks_temp.js                                /404.html  410!
+/check_one.js                                       /404.html  410!
+/check_tail.js                                      /404.html  410!
+/consecration-audit.json                            /404.html  410!
+/consecration-audit.md                              /404.html  410!
+/consecration-scan.js                               /404.html  410!
+/content-surgeon.js                                 /404.html  410!
+/dedupe-assets.js                                   /404.html  410!
+/detect-multiplied-close.js                         /404.html  410!
+/detect-structural-rot.js                           /404.html  410!
+/detect-shared-phrases.js   /404.html   410!
+/detect-feeling-slip.js   /404.html   410!
+/detect-self-repeating-close.js   /404.html   410!
+/detect-ai-tells.js   /404.html   410!
+/discipline-expansion-gaps.md                       /404.html  410!
+/docs-meta-fix-log.json                             /404.html  410!
+/fix-meta-descriptions.js                           /404.html  410!
+/generate-manifest.js                               /404.html  410!
+/indexnow-ping.js                                   /404.html  410!
+/inject-share-bar.js                                /404.html  410!
+/inject-ux-enhancements.js                          /404.html  410!
+/outreach-list.md                                   /404.html  410!
+/package-lock.json                                  /404.html  410!
+/package.json                                       /404.html  410!
+/prune-audit.js                                     /404.html  410!
+/rank-for-expansion.js                              /404.html  410!
+/sapiential-audit.js                                /404.html  410!
+/seo-audit-2026-04.md                               /404.html  410!
+/shorten-titles.js                                  /404.html  410!
+/strategic-audit.js                                 /404.html  410!
+/strip-dead-analytics-hints.js                      /404.html  410!
+/strip-legacy-breadcrumbs.js                        /404.html  410!
+/system-prompt-snapshot-2026-04-22.md               /404.html  410!
+/testimonies.json                                   /404.html  410!
+/tier3-inventory.js                                 /404.html  410!
+/tier3-structural-exempt.md                         /404.html  410!
+/scripture-audit-report.txt                         /404.html  410!
+/validate-site.js                                   /404.html  410!
+/verify-scripture.js                                /404.html  410!
+/wire-manifest.js                                   /404.html  410!
+/wire-orphans.js                                    /404.html  410!
+/sweep-quoted-links.js                              /404.html  410!
+/analyze-quoted-links.js                            /404.html  410!
+/fix-quoted-links.js                                /404.html  410!
+/fix-italic-scripture-links.js                      /404.html  410!
+
+# Custom 404
+/*  /404.html  404
