@@ -320,7 +320,7 @@
    <button class="fork-path" data-choose="a">
    <span class="fork-path-label">Door A</span>
    <span class="fork-path-head">God gave me the gift, and I received it by my own power</span>
-   <span class="fork-path-sub">God offered faith. My will — not dead, not unable — reached out and accepted. My decision was the deciding factor. If I had said no, I would not be saved.</span>
+   <span class="fork-path-sub">I was dead in sin and could not have responded on my own. God's grace went ahead of me and restored the ability I had lost. Then my will, freed by that grace, accepted. My decision was the deciding factor. If I had said no, I would not be saved.</span>
    </button>
    <button class="fork-path" data-choose="b">
    <span class="fork-path-label">Door B</span>
@@ -411,8 +411,8 @@
    <section class="fork-step" data-step="7">
    <p class="fork-eyebrow">Step 7 — Before you panic</p>
    <h2 class="fork-q">Breathe. This is good news.</h2>
-   <p class="fork-body">If you have walked this far and something in you is a little uneasy, that is not a problem. That is the Holy Spirit loosening a grip you never knew you had — a grip on the one thing you were never meant to hold: the weight of your own salvation.</p>
-   <p class="fork-body">Door A looked like humility. It wasn't. Door A was the last place your pride could hide — dressed in church clothes, quoting Bible verses, calling itself <em style="color: var(--accent-gold); font-style: normal;">your testimony.</em> Door A said: <em style="color: var(--text-muted); font-style: normal;">God did a lot, but in the end, I was the one who chose.</em></p>
+   <p class="fork-body">If you have walked this far and something in you is uneasy, that is not a problem, and it is also not a sign. Do not read your own standing off your own discomfort — an argument can unsettle a man without saving him, and a man can be saved and sit through this entirely unmoved. What the unease is worth is this: it means you followed the steps instead of skipping them. Now check whether they hold.</p>
+   <p class="fork-body">Door A is held by people more devout than most of us, and it is not held out of vanity — it is held because it seems to protect something precious, that your love for God was really yours. What the walk above tried to show is not that Door A's holders are proud, but that Door A's <em style="color: var(--accent-gold); font-style: normal;">logic</em> cannot avoid locating the decisive difference in the man. That is a claim about the position, and it stands or falls on the steps, not on anyone's motives. Door A said: <em style="color: var(--text-muted); font-style: normal;">God did a lot, but in the end, I was the one who chose.</em></p>
    <p class="fork-body" style="font-size: 1.2rem; color: var(--text-primary);">Door B says: <em style="color: var(--accent-gold); font-style: normal;">He chose me when I couldn't. He kept me when I couldn't. He will never let me go — because I was never the one holding on.</em></p>
    <p class="fork-body">That is not a loss of freedom. That is the end of a burden you were never strong enough to carry.</p>
    <div class="fork-actions">
@@ -427,7 +427,7 @@
    <div class="fork-catch">
    <h2>You were found before you were born.</h2>
    <p>Every moment of your life — every drift, every doubt, every rebellion, every prayer you prayed in the dark and thought no one heard — was happening inside a plan older than the universe that now holds it.</p>
-   <p>You did not find Him. He found you. And the reason you are reading this right now — the reason your eyes landed on these words, in this moment, on this page — is because He is <em style="color: var(--accent-gold); font-style: normal;">still</em> finding you.</p>
+   <p>You did not find Him. He found you. And if that is true of you, it was true before you opened this page and will be true long after you close it — which is exactly why we will not ask you to prove it by how the last ten minutes felt.</p>
    <p class="final-verse">"I have loved you with an everlasting love; I have drawn you with unfailing kindness."</p>
    <p class="final-ref">— JEREMIAH 31:3</p>
 </div>
@@ -618,14 +618,23 @@
   if (nextBtn) {
   const current = history[history.length - 1];
   const next = { '1': '2', '2': '3', '3': '4', '5a': '6', '5b': '6', '6': '7', '7': '8' }[current];
-  if (next) show(next);
 
-  // Strike the collapse lines on step 6 → 7 transition
-  if (current === '6') {
-  document.querySelectorAll('[data-collapse]').forEach((el, i) => {
+  // Step 6's button promises the reader that Scripture will strike those lines
+  // through. The strike has to happen while step 6 is still ON SCREEN. Advancing
+  // first called show(next), which drops .active — opacity:0, position:absolute —
+  // so the staggered animation ran on a hidden element and the reader never once
+  // saw the page's signature moment. Strike first, let it land, THEN advance.
+  if (current === '6' && !nextBtn.dataset.struck) {
+  nextBtn.dataset.struck = '1';
+  const lines = document.querySelectorAll('[data-collapse]');
+  lines.forEach((el, i) => {
   setTimeout(() => el.classList.add('struck'), i * 150);
   });
+  setTimeout(() => { if (next) show(next); }, lines.length * 150 + 1100);
+  return;
   }
+
+  if (next) show(next);
   }
   });
 

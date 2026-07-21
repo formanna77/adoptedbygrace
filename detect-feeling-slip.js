@@ -105,7 +105,21 @@ const INTERIOR = [
   'conviction', 'tenderness', 'groan', 'anguish', 'grief', 'sorrow',
   'discomfort', 'unease', 'desire', 'willingness', 'openness', 'curiosity',
   'wrestling', 'hesitation', 'reluctance', 'loosening', 'caring', 'concern',
-  'trouble', 'weeping'
+  'trouble', 'weeping',
+  // ---- S185 RECALL EXTENSION ----------------------------------------------
+  // Every token above is a NOUN or a GERUND. The corpus states the slip just as
+  // often with a PREDICATE ("if you are worried that you might not be chosen —
+  // that is evidence you are chosen"), and the predicate forms were absent, so
+  // six live slips sat inside pages this detector was reporting as clean.
+  // Found by hand-reading a stratum the detector claimed was clean, which the
+  // RECALL LAW says is the only way recall is ever measured.
+  // GUARD: none of these may appear in ELECT / STRONG_ELECT or the sentence
+  // certifies itself. Deliberately NOT added for that reason: 'drawn' (ELECT),
+  // 'moved' (STRONG_ELECT), 'at work' (ELECT).
+  'worried', 'worry', 'worrying', 'anxious', 'anxiety', 'afraid', 'frightened',
+  'scared', 'uneasy', 'troubled', 'burdened', 'stirred', 'aching', 'yearning',
+  'wondering', 'asking', 'seeking', 'searching', 'hungry', 'thirsty',
+  'unsettled', 'bothered', 'grieved', 'convicted', 'drawn toward'
 ].join('|');
 
 // Interior nouns unambiguous enough to take a bare `the`. Deliberately short:
@@ -117,8 +131,39 @@ const BARE = [
 ].join('|');
 
 // The reader's interior state, or the bare act of reading, offered as a premise.
+// ---- S185: THE PREDICATE FORM -------------------------------------------
+// Every branch of TRIGGER below expects the interior state to arrive as a NOUN
+// behind a determiner: "that stirring", "your ache", "the flicker". The corpus
+// states it just as often as a PREDICATE, where there is no determiner at all
+// to key on -- "if you ARE WORRIED that you might not be chosen, that is
+// evidence you are chosen" (the-objection-collapse) and "if you ARE ASKING the
+// question, you are likely in the answer" (same tile). Both are the defect in
+// its baldest form; both walked through v2 untouched, on a page the detector
+// was reporting clean, because no branch here could express the shape.
+//
+// This is the RECALL LAW's own lesson turned one turn further. S183 established
+// that a classifier cannot find what its VOCABULARY never learned to name. S185
+// adds: it also cannot find what its GRAMMAR never learned to name -- and a
+// vocabulary extension alone will not fix a missing shape. Adding the predicate
+// words to INTERIOR changed nothing until this branch existed to use them.
+//
+// GUARD unchanged and still load-bearing: no token here may appear in ELECT or
+// STRONG_ELECT, or the sentence certifies itself. 'drawn' and 'moved' are
+// deliberately excluded for exactly that reason.
+const PREDICATE = [
+  'worried', 'worrying', 'anxious', 'afraid', 'frightened', 'scared', 'uneasy',
+  'troubled', 'unsettled', 'bothered', 'burdened', 'grieved', 'convicted',
+  'stirred', 'aching', 'yearning', 'wondering', 'asking', 'seeking',
+  'searching', 'hungry', 'thirsty', 'weeping', 'trembling', 'leaning',
+  'reaching', 'wanting', 'longing', 'hesitating', 'wrestling'
+].join('|');
+
 const TRIGGER = new RegExp(
   '(' +
+  // THE PREDICATE FORM (S185) -- no determiner available to key on.
+  '(?:you(?:\'re| are)|you feel|you find yourself|you keep|you still)' +
+  '[^.!?<]{0,25}\\b(?:' + PREDICATE + ')\\b[^.!?<]{0,70}' +
+  '|' +
   // any "the fact that ... you ..." premise (S183: no longer requires adjacency)
   'the (?:very )?fact that[^.!?<]{0,90}\\byou\\b[^.!?<]{0,60}' +
   '|if you(?:\'re| are)[^.!?<]{0,60}(?:still )?(?:reading|here)[^.!?<]{0,60}' +
