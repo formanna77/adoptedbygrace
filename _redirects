@@ -213,6 +213,7 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /dedupe-assets.js                                   /404.html  410!
 /detect-multiplied-close.js                         /404.html  410!
 /detect-structural-rot.js                           /404.html  410!
+/detect-shared-phrases.js   /404.html   410!
 /discipline-expansion-gaps.md                       /404.html  410!
 /docs-meta-fix-log.json                             /404.html  410!
 /fix-meta-descriptions.js                           /404.html  410!
