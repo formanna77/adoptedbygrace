@@ -138,6 +138,50 @@ function contentCount(ws) {
   return ws.filter(w => !FUNCTION_WORDS.has(w) && w.length > 2).length;
 }
 
+/**
+ * S186 — THE LAST FALSE-POSITIVE CLASS: SCRIPTURE QUOTED WITHOUT QUOTATION MARKS.
+ *
+ * The existing masks cover quoted Scripture (blockquotes and "…" spans) and
+ * div.tldr. They do not cover the corpus's third habit: setting a verse in
+ * ordinary prose or italics with NO marks at all. When such a verse is stated
+ * early and returned to at the close, this detector scored it as the page
+ * repeating ITSELF — when in fact the page was returning to the Bible, which is
+ * §V.5 and Move 10, and is apex work.
+ *
+ * That produced the known residue: `question-visual-theology`'s "foreknew God
+ * predestined God called God justified God glorified" (Romans 8:29-30) and
+ * `demolition-john5-40`'s "me unless the Father who sent me draws them"
+ * (John 6:44) both ranked SEVERE while being nothing but Scripture.
+ *
+ * The mask is a lookup, not a guess: `scripture-niv.js` ships the NIV text of
+ * every verse the site quotes, so a repeated span is Scripture iff it appears
+ * in that corpus. (The same blind spot — unmarked Scripture — turned up
+ * independently in `sweep-quoted-links.js` this session. One shape, two
+ * detectors, one fix.)
+ */
+const NIV_SPANS = (() => {
+  const set = new Set();
+  const src = path.join(__dirname, 'scripture-niv.js');
+  if (!fs.existsSync(src)) return set;
+  let data;
+  try {
+    const raw = fs.readFileSync(src, 'utf8');
+    data = JSON.parse(raw.slice(raw.indexOf('{')).replace(/;\s*$/, ''));
+  } catch { return set; }
+  for (const text of Object.values(data)) {
+    const w = words(String(text));
+    for (let i = 0; i + N <= w.length; i++) set.add(w.slice(i, i + N).join(' '));
+  }
+  return set;
+})();
+
+function isScripture(spanWords) {
+  for (let i = 0; i + N <= spanWords.length; i++) {
+    if (NIV_SPANS.has(spanWords.slice(i, i + N).join(' '))) return true;
+  }
+  return NIV_SPANS.has(spanWords.slice(0, N).join(' '));
+}
+
 function analyse(file, html) {
   const body = extractArticleBody(stripComments(html));
   if (!body) return null;
@@ -161,6 +205,7 @@ function analyse(file, html) {
   for (const [key, hits] of grams) {
     if (hits.length < 2) continue;
     if (contentCount(key.split(' ')) < MIN_CONTENT) continue;
+    if (isScripture(key.split(' '))) continue;   // S186: a verse returned to is Move 10, not a self-repeat
     raw.push({ key, hits });
   }
   if (!raw.length) return null;

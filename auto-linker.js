@@ -617,6 +617,27 @@ function extractArticleBody(html) {
 // (the header comment above still advertised headings as link targets), and several verse
 // wrappers were missing from the class list. One pipeline run re-injected 111 links into
 // quotations and headings across 72 files, silently undoing the strip. Both are closed below.
+//
+// S186: THE HOLE HAD A THIRD FORM, AND IT WAS THE LARGEST. Tag-name and class
+// guards both assume the quotation is WRAPPED in something — a <blockquote>, a
+// <cite>, a .scripture-text div. But the corpus quotes Scripture inline, in
+// ordinary prose, marked by nothing but quotation marks:
+//
+//     <p>Peter writes that God is "not wanting anyone to perish, but everyone
+//     to come to repentance" (<a href="/demolition-2peter3-9">2 Peter 3:9</a>).</p>
+//
+// That <p> carries no guarded tag and no guarded class, so the linker treated
+// the verse as open prose and wove anchors through the Bible's own words —
+// 323 of them across 178 pages, most duplicating the citation link sitting
+// immediately outside the quote. `sweep-quoted-links.js` measures it.
+//
+// The fix is the same principle that fixed the sweep: PAIR THE QUOTE MARKS BY
+// ALTERNATION and treat everything between an opening and its closing mark as
+// unsafe. Parity is reset at every closing block tag so that one unbalanced
+// quote cannot poison the remainder of the document.
+const QUOTE_CHARS = new Set(['"', '“', '”']);
+const BLOCK_RESET = new Set(['p', 'li', 'div', 'section', 'article', 'td', 'th', 'blockquote', 'figcaption']);
+
 const UNSAFE_CLASSES = [
   'scripture-text', 'scripture-block', 'passage-verse-text',
   'objection-verse-text', 'verse-text', 'quote-text', 'hymn-text',
@@ -631,6 +652,7 @@ function splitIntoSegments(html) {
   // class-triggered quotation guard
   let classGuardTag = null;   // tag name that opened the guarded region
   let classGuardDepth = 0;    // nesting depth of that tag inside the region
+  let inQuote = false;        // S186: quotation-mark parity guard
   const unsafeTagNames = new Set(['a', 'script', 'style', 'code', 'pre', 'svg', 'nav', 'button', 'cite', 'blockquote', 'h1', 'h2', 'h3', 'h4']);
 
   for (const part of parts) {
@@ -670,9 +692,37 @@ function splitIntoSegments(html) {
   classGuardDepth--;
   if (classGuardDepth <= 0) { classGuardTag = null; classGuardDepth = 0; }
   }
+
+  // S186 quote-parity guard: a closing block tag ends any open quotation, so a
+  // single unbalanced mark cannot guard the rest of the document.
+  if (tagName && isClose && BLOCK_RESET.has(tagName)) inQuote = false;
   } else {
   const guarded = unsafeDepth > 0 || classGuardTag !== null;
-  segments.push({ type: guarded ? 'unsafe' : 'text', content: part });
+  if (guarded) {
+  segments.push({ type: 'unsafe', content: part });
+  continue;
+  }
+  // S186: split this text run on quotation-mark parity. Text inside a
+  // quotation is Scripture (or someone's words) and is never a link target.
+  let buf = '';
+  let bufQuoted = inQuote;
+  for (const ch of part) {
+  const isQuote = QUOTE_CHARS.has(ch);
+  const nextQuoted = !isQuote ? inQuote
+  : ch === '“' ? true
+  : ch === '”' ? false
+  : !inQuote;
+  // The mark itself belongs to the quoted run on both ends.
+  const chQuoted = isQuote ? (nextQuoted || inQuote) : inQuote;
+  if (chQuoted !== bufQuoted) {
+  if (buf) segments.push({ type: bufQuoted ? 'unsafe' : 'text', content: buf });
+  buf = '';
+  bufQuoted = chQuoted;
+  }
+  buf += ch;
+  inQuote = nextQuoted;
+  }
+  if (buf) segments.push({ type: bufQuoted ? 'unsafe' : 'text', content: buf });
   }
   }
   return segments;

@@ -8,6 +8,11 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /sitemap_index.xml    /sitemap.xml    301
 /sitemap/             /sitemap.xml    301
 
+# Merged pages — S186: golden-chain folded into the-golden-chain
+# (forced: an un-forced rule is shadowed by any real file at that path)
+/golden-chain        /the-golden-chain    301!
+/golden-chain.html   /the-golden-chain    301!
+
 # Engagement pages — clean URLs
 /connect    /contact.html    301
 /donate     /donate.html     200
@@ -244,6 +249,10 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /verify-scripture.js                                /404.html  410!
 /wire-manifest.js                                   /404.html  410!
 /wire-orphans.js                                    /404.html  410!
+/sweep-quoted-links.js                              /404.html  410!
+/analyze-quoted-links.js                            /404.html  410!
+/fix-quoted-links.js                                /404.html  410!
+/fix-italic-scripture-links.js                      /404.html  410!
 
 # Custom 404
 /*  /404.html  404
