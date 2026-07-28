@@ -1,0 +1,59 @@
+========================================================================
+  COVERAGE — adoptedbygrace.net prose corpus — review freshness vs. the newest bar
+========================================================================
+  Current standard: §XXII (2026-07-19); era begins ~S183
+  Ledger updated:   2026-07-28   |   prose pages: 615
+
+  At current standard (§XXII)    13    2.1%  █···························
+  Behind (older bar, dated)          408   66.3%  ███████████████████·········
+  Unknown (locked, no session tag)   194   31.5%  █████████···················
+
+  REMAINING for the §XXII pass: 602 pages (behind + unknown).
+  At 10 pages/session: ~61 sessions to full §XXII coverage.  (pass · rate with --rate=N)
+
+  Last-lifted era (approximate for older sessions):
+    §XXII (2026-07-19)           13  █···························
+    §XVIII-XXI (2026-06-21)      11  █···························
+    §XVII/XVI (2026-05)          11  █···························
+    pre-§XVI (<=S99)            386  ██████████████████··········
+    unknown / untagged          194  █████████···················
+
+  Exactly-tracked lifts (source: stamp) — 13:
+    S189  lifted   counter-cs-lewis-free-will.html  — three feeling-slips re-grounded on Gods prior work
+    S189  partial  demolition-1tim4-10.html  — self-repeat cleared and JSON-LD author fixed; body compression and malista pending
+    S189  partial  demolition-hebrews2-9.html  — FAQ JSON-LD repaired; one-insight-x6 and 7 antitheses compression pending
+    S189  lifted   demolition-matt11-28.html  — historical falsehood corrected; boulomai lemma and ho-ean-bouletai gift
+    S189  lifted   devotional-never-gives-up.html  — prescribed bodily-reaction slip softened to invitation
+    S189  lifted   devotional-rescued-without-a-say.html  — Acts 9:1 and 9:4 corrected to NIV 2011
+    S189  partial  dialogue-arminian-pastor-questions-himself.html  — sermon slip and crisis projection fixed; multiplied close pending
+    S189  lifted   john-6-37-44.html  — John 6:65 + atonement named + Jer 31:3 steelman; hexei singular; Acts 16:19; helkyo meta
+    S189  lifted   ot-isaiah-servant.html  — summit deepened with Isa 53:5-6 and 53:11; numerology and fifth-Gospel cut
+    S189  lifted   ot-joseph.html  — responsibility objection answered in body; most-loving-thing slip fixed; Box B trimmed; SEO ref cut
+    S189  lifted   philosophy-problem-of-merit.html  — literal markdown asterisks converted to em
+    S189  lifted   question-is-salvation-my-choice-or-gods.html  — touto objection met; opener anatomy and FAQ motive and stray-space fixed
+    S189  lifted   romans-9-deep-dive.html  — answered the abandoned wanted-vs-used question; recap 5 closes to 1; skeuos moved to vv20-21
+
+  Longest-un-lifted (oldest tagged session — first candidates for a §XXII re-read):
+    S 58  2-thessalonians-2-13.html
+    S 58  acts-13-48.html
+    S 58  analogy-doctor-corpse.html
+    S 58  analogy-river.html
+    S 58  analogy-song-you-didnt-compose.html
+    S 58  anxious-mind-brain-decides.html
+    S 58  anxious-mind-intrusive-thoughts.html
+    S 58  apologetic-babies.html
+    S 58  apologetic-definite-atonement.html
+    S 58  apologetic-evangelism.html
+    S 58  apologetic-for-the-sheep.html
+    S 58  apologetic-god-works-the-willing.html
+    S 58  apologetic-he-bore-the-sin-of-many.html
+    S 58  apologetic-he-who-began-a-good-work.html
+    S 58  apologetic-i-shall-lose-none.html
+    S 58  apologetic-kept-by-the-power-of-god.html
+    S 58  apologetic-no-one-can-come-unless.html
+    S 58  apologetic-not-because-but-because.html
+    S 58  apologetic-nothing-can-separate.html
+    S 58  apologetic-only-evil-all-the-time.html
+
+  (194 pages carry a lock but no session tag; they need a session assigned on next touch.)
+========================================================================
