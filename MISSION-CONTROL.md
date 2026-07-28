@@ -45,9 +45,9 @@ Only when the window is ≥80% used does GATE 1 open. Aaron's explicit standing 
 
 ---
 
-### GATE 1 — FIVE CLOSING STEPS (only after GATE 0 passes)
+### GATE 1 — SIX CLOSING STEPS (only after GATE 0 passes)
 
-The closing protocol has FIVE steps. Do them in order. Do not skip any.
+The closing protocol has SIX steps. Do them in order. Do not skip any.
 
 1. **Add a Session Log entry** — under the "Session Log" heading, append `### Session N — YYYY-MM-DD` and write what you did. Include: files touched, decisions made, gaps closed, surprises found. Be specific. Future agents read this to understand what they inherit. **One entry covers all spines shipped in the run** — do not write separate entries per spine.
 
@@ -70,6 +70,8 @@ The closing protocol has FIVE steps. Do them in order. Do not skip any.
    node verify-scripture.js
    ```
    The first eight must report GREEN. **`verify-scripture.js` is a REPORT, not a pass/fail gate** — it writes `scripture-audit-report.txt`; review it for any NEW divergent references that signal a genuine NIV-exactness misquote and fix those (most flags are false positives — partial-clause quotes and extractor noise — so do NOT treat a nonzero divergent count as failure). Paste the validator results + the auditor's one-line summary into your Session Log. If any of the eight validators failed, fix it before stopping.
+
+6. **Coverage snapshot — Aaron wants to know where we stand at the end of EVERY session (2026-07-28).** After the pipeline, stamp every page you lifted this run: `node archive/coverage.js stamp <page.html> N lifted|partial "<one-line note>"`. Then record the datapoint and read the standing: `node archive/coverage.js report --session=N`. **Copy the `END-OF-SESSION STANDING` block (at §XXII / remaining / Δ this session / ~N sessions to go) into BOTH the Session Log AND — verbatim — your closing chat message to Aaron, right before the push command.** This is a standing requirement, not a one-off: it is how he sees movement each session without having to ask. Carry it into every future kickoff's CLOSE. (Tracker built S189; `CURRENT` constant in `archive/coverage.js` must be bumped whenever VOICE.md gains a newer dated section.)
 
 If you stop without passing GATE 0, you under-used the window. If you stop without completing GATE 1, the next agent will re-walk paths you already walked, re-read pages you already mapped, re-write strategy you already wrote. Both failures are cardinal. Do not let either happen.
 

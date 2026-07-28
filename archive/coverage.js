@@ -145,6 +145,23 @@ function cmdReport(argv) {
   const eta = Math.ceil(remaining / rate);
   const pct = n => ((n / total) * 100).toFixed(1) + '%';
 
+  // --- session history / delta ---
+  const sessionArg = argv.find(a => a.startsWith('--session='));
+  const session = sessionArg ? parseInt(sessionArg.split('=')[1], 10) : null;
+  l.meta.history = Array.isArray(l.meta.history) ? l.meta.history : [];
+  const prior = l.meta.history.filter(h => session == null || h.session < session).slice(-1)[0];
+  let recorded = false;
+  if (session != null) {
+    const row = { session, date: new Date().toISOString().slice(0, 10), total, atCurrent: current.length, behind: behind.length, unknown: unknown.length, remaining };
+    const i = l.meta.history.findIndex(h => h.session === session);
+    if (i >= 0) l.meta.history[i] = row; else l.meta.history.push(row);
+    l.meta.history.sort((a, b) => a.session - b.session);
+    recorded = true;
+  }
+  const dAt = prior ? current.length - prior.atCurrent : null;
+  const dRem = prior ? remaining - prior.remaining : null;
+  const sign = n => (n >= 0 ? '+' : '') + n;
+
   const L = [];
   L.push('='.repeat(72));
   L.push('  COVERAGE — adoptedbygrace.net prose corpus — review freshness vs. the newest bar');
@@ -157,7 +174,17 @@ function cmdReport(argv) {
   L.push(`  Unknown (locked, no session tag)  ${String(unknown.length).padStart(4)}  ${pct(unknown.length).padStart(6)}  ${bar(unknown.length, total)}`);
   L.push('');
   L.push(`  REMAINING for the ${CURRENT.section} pass: ${remaining} pages (behind + unknown).`);
-  L.push(`  At ${rate} pages/session: ~${eta} sessions to full ${CURRENT.section} coverage.  (pass · rate with --rate=N)`);
+  L.push(`  At ${rate} pages/session: ~${eta} sessions to full ${CURRENT.section} coverage.  (tune rate with --rate=N)`);
+  L.push('');
+  L.push('  ── END-OF-SESSION STANDING ──');
+  if (prior) {
+    L.push(`  Since S${prior.session} (${prior.date}): at ${CURRENT.section} ${prior.atCurrent} -> ${current.length} (${sign(dAt)});  remaining ${prior.remaining} -> ${remaining} (${sign(dRem)}).`);
+  } else {
+    L.push('  (first recorded snapshot — session-over-session deltas begin next session.)');
+  }
+  if (l.meta.history.length) {
+    L.push('  Remaining trend: ' + l.meta.history.slice(-8).map(h => `S${h.session}:${h.remaining}`).join('  '));
+  }
   L.push('');
   // era histogram
   L.push('  Last-lifted era (approximate for older sessions):');
@@ -183,6 +210,7 @@ function cmdReport(argv) {
   const out = L.join('\n');
   console.log(out);
   fs.writeFileSync(REPORT, out + '\n');
+  if (recorded) saveLedger(l);
 }
 
 const [cmd, ...rest] = process.argv.slice(2);

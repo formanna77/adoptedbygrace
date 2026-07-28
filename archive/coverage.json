@@ -6,7 +6,18 @@
       "sinceSession": 183
     },
     "updated": "2026-07-28",
-    "note": "Historical seed from HTML markers is approximate (review-freshness, not pass/fail). source:\"stamp\" entries are exact."
+    "note": "Historical seed from HTML markers is approximate (review-freshness, not pass/fail). source:\"stamp\" entries are exact.",
+    "history": [
+      {
+        "session": 189,
+        "date": "2026-07-28",
+        "total": 615,
+        "atCurrent": 13,
+        "behind": 408,
+        "unknown": 194,
+        "remaining": 602
+      }
+    ]
   },
   "pages": {
     "2-thessalonians-2-13.html": {
