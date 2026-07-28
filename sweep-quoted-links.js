@@ -208,6 +208,34 @@ function analyze(file, html) {
 const SHINGLE = 7;
 const normWords = s => s.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(Boolean);
 
+/**
+ * S188 — WHY THIS SWEEP REPORTED A CLEAN CORPUS IT HAD ONLY PARTLY READ.
+ *
+ * The pairing logic keys on quote CHARACTERS. The corpus writes curly quotes as
+ * HTML ENTITIES far more often than literally — `&ldquo;` 346 times across 50
+ * pages, the literal `“` only 91 — so four quotations in five were never even
+ * tokenized, and the anchors woven through them could not be counted. 12 such
+ * anchors on 7 pages, including two inside Matthew 11:27, were sitting in plain
+ * sight while this tool and `analyze-quoted-links.js` both reported the class
+ * closed. `auto-linker.js`'s parity GUARD had the identical blind spot, for the
+ * identical reason: guard and detector were built from one model of a quotation.
+ *
+ * Decoding at read time is the whole fix — every downstream pairing, masking and
+ * shingle test then operates on the text a reader actually sees. Single-quote
+ * entities are left alone on purpose: `&rsquo;` is an apostrophe here.
+ *
+ * AND IT MUST DECODE TEXT ONLY, NEVER TAGS. `&quot;` occurs 2,501 times corpus-wide
+ * and some of those are INSIDE attribute values — `data-search="&quot;christ died
+ * for all&quot; …"` on the baked card pages. A blunk string replace turns those into
+ * bare `"` in the middle of an attribute and every tokenizer downstream loses the
+ * shape of the tag. So the tag alternative is matched FIRST and passed through
+ * untouched; only text runs are decoded.
+ */
+const decodeQuoteEntities = s => s.replace(
+  /(<[^>]*>)|(&ldquo;|&#8220;|&#x201C;)|(&rdquo;|&#8221;|&#x201D;)|(&quot;|&#34;|&#x22;)/gi,
+  (m, tag, open, close, straight) => tag ? tag : open ? '“' : close ? '”' : '"'
+);
+
 function buildNivShingles() {
   const set = new Set();
   const src = path.join(ROOT, 'scripture-niv.js');
@@ -259,7 +287,15 @@ function linkInsideScripture(inner) {
 
 function italicProbe(html) {
   const out = [];
-  const re = /<(em|i)\b[^>]*>([\s\S]{40,900}?)<\/\1>/gi;
+  // S188: THE ITALIC PROBE HAD THE PAIRING BUG IT WAS BUILT TO AVOID.
+  // The old pattern was /<(em|i)\b[^>]*>([\s\S]{40,900}?)<\/\1>/ — a 40-char MINIMUM on
+  // the RAW span. When a real italic span is shorter than that (`<em>anything else in
+  // all creation</em>`, 29 chars), the minimum forces the match past its own closing
+  // tag to the NEXT one, swallowing all the ordinary prose in between — and reporting
+  // that prose's perfectly legitimate links as links inside Scripture. This is S186's
+  // quote-mark mis-pairing exactly, recurring in tag form: pair to the NEAREST close.
+  // The plain-text length filter below already enforces the 40-char floor honestly.
+  const re = /<(em|i)\b[^>]*>((?:(?!<\/?(?:em|i)\b)[\s\S])*?)<\/\1>/gi;
   let m;
   while ((m = re.exec(html))) {
     const inner = m[2];
@@ -283,7 +319,7 @@ if (ITALIC) {
   let n = 0, pages = 0;
   console.log('\n  ITALIC PROBE — internal links inside UNMARKED (italic) Scripture\n');
   for (const f of files) {
-    const hits = italicProbe(fs.readFileSync(f, 'utf8'));
+    const hits = italicProbe(decodeQuoteEntities(fs.readFileSync(f, 'utf8')));
     if (!hits.length) continue;
     pages++; n += hits.length;
     console.log(`  ── ${path.relative(ROOT, f)}`);
@@ -303,6 +339,10 @@ let flagged = 0, total = 0, odd = 0;
 const rows = [];
 
 for (const f of files) {
+  // S188: the PAIRED path is deliberately NOT entity-decoded. Every decoded mark is
+  // another parity token, and with no BLOCK_RESET here one odd count lets a "quoted
+  // run" swallow the page's footer nav. The italic path above IS decoded, because it
+  // is gated on the NIV shingle and cannot run away. See analyze-quoted-links.js.
   const html = fs.readFileSync(f, 'utf8');
   const { findings, oddCount } = analyze(f, html);
   if (oddCount) odd++;

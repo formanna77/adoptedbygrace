@@ -64,12 +64,41 @@ function tokenize(html) {
 
 const href = t => (t.match(/href="([^"]*)"/) || [, ''])[1];
 
+/**
+ * S188 — A FINDING RECORDED HERE BECAUSE THE OBVIOUS FIX IS THE WRONG ONE.
+ *
+ * This classifier tokenizes quote CHARACTERS, and the corpus writes its quotes as
+ * ENTITIES far more often: `&ldquo;` 346× vs literal `“` 91×, and `&quot;` 2,501×.
+ * So it grades only a fraction of the corpus's quotations. `auto-linker.js`'s
+ * parity guard had the identical blind spot (closed in S188), and the natural
+ * conclusion was to decode entities here too.
+ *
+ * THAT WAS TRIED AND REVERTED, AND THE REASON IS THE POINT. Decoding raised the
+ * counts from A0/C0/B5 to A5/C44/B41 — and the new hits were overwhelmingly
+ * FALSE. Every fresh `"` is a fresh parity token, so a page with an odd count
+ * lets one "quoted run" swallow everything after it: on `ethics-immigration` a
+ * single run ran off the end of the prose and captured the entire footer nav
+ * (`Browse All Articles`, `About`, `Contact`), reporting a dozen site-chrome
+ * anchors as links inside Scripture. `auto-linker.js` survives entity decoding
+ * because BLOCK_RESET clears parity at every closing block tag; this tool has no
+ * such containment, so the same input makes it lie.
+ *
+ * THE LAW: A GUARD AND ITS DETECTOR MAY SHARE GROUND TRUTH BUT NOT THEIR ERROR
+ * BUDGET — and a fix that is correct in one can be corrupting in the other, because
+ * containment, not vocabulary, is what makes the parity model survive bad input.
+ * Where precision is required, the pairing heuristic is the wrong instrument
+ * entirely: gate on the NIV shingle (`sweep-quoted-links.js --italic` does), which
+ * asks whether the anchor's own words are in the Bible and cannot run away.
+ * The real entity-quoted-Scripture defects were found that way in S188 — 12
+ * anchors on 7 pages — and fixed; the guard now prevents new ones at the source.
+ */
+
 let A = 0, B = 0, C = 0, W = 0;
 const perFile = {};
 const files = walk(ROOT);
 
 for (const f of files) {
-  const html = fs.readFileSync(f, 'utf8');
+  const html = fs.readFileSync(f, 'utf8');   // S188: NOT entity-decoded — see above
   const { tokens, anchors } = tokenize(html);
   const pageHrefs = anchors.map(a => href(a.tag));
   const rel = path.relative(ROOT, f);

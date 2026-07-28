@@ -635,6 +635,131 @@ function extractArticleBody(html) {
 // ALTERNATION and treat everything between an opening and its closing mark as
 // unsafe. Parity is reset at every closing block tag so that one unbalanced
 // quote cannot poison the remainder of the document.
+// S188: THE HOLE HAD A FOURTH FORM, AND IT WAS A RATCHET.
+//
+// S177 guarded by CLASS, S178 by heading TAG, S186 by QUOTATION-MARK PARITY.
+// All three ask "is this verse wrapped in a marker I know?" The corpus has a
+// fourth marker none of them names — TYPOGRAPHY. Scripture set in italics with
+// no quotation marks at all:
+//
+//     <p><em>Nor anything else in all creation will be able to separate us from
+//     the love of God that is <a href="/devotional-in-christ">in Christ</a>
+//     Jesus our Lord.</em></p>
+//
+// That <em> carries no guarded tag, no guarded class, and not one quote mark to
+// pair, so every pass treated Romans 8:39 as open prose and wove anchors through
+// it. S186 built `sweep-quoted-links.js --italic` to MEASURE this and hand-fixed
+// 80 spans; but nothing stopped the linker from making more, so the queue refilled
+// itself on every pipeline run. S187 closed reporting 30 pages / 38 spans, having
+// measured BEFORE auto-linker ran in the close sequence; S188's pre-flight, on an
+// untouched disk, read 37 / 46. The repair was Sisyphean by construction.
+//
+// THE FIX IS S186'S OWN LAW APPLIED TO THE GUARD INSTEAD OF THE DETECTOR: stop
+// guessing what looks like Scripture and ASK. `scripture-niv.js` ships the NIV
+// text of every verse the site quotes; shingle it, and an italic span is Scripture
+// if and only if a run of its words is actually in the Bible. Emphasis-italic
+// stays linkable (434 anchors live inside <em>/<i> corpus-wide, most of them
+// legitimate); Scripture-italic becomes untouchable.
+//
+// AND A GUARD MUST NOT INHERIT A DETECTOR'S THRESHOLD. `sweep-quoted-links.js`
+// requires a shingle OVERLAPPING the anchor's own words, because a detector
+// reporting to a human spends human attention on every false positive and must
+// buy precision. A guard spends one skipped auto-link. The costs are asymmetric,
+// so the operating points must differ: the guard takes the broader test — a Bible
+// shingle ANYWHERE in the italic span — which S186 correctly rejected for the
+// detector and which is exactly right here. Same ground truth, opposite error
+// budget. A guard is a detector running backwards, and the costs run backwards too.
+const SHINGLE = 7;
+const normWords = s => s.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(Boolean);
+
+let _nivShingles = null;
+function nivShingles() {
+  if (_nivShingles) return _nivShingles;
+  _nivShingles = new Set();
+  const src = path.join(ROOT, 'scripture-niv.js');
+  if (!fs.existsSync(src)) return _nivShingles;
+  const raw = fs.readFileSync(src, 'utf8');
+  let data;
+  try { data = JSON.parse(raw.slice(raw.indexOf('{')).replace(/;\s*$/, '')); }
+  catch { return _nivShingles; }
+  for (const text of Object.values(data)) {
+    const w = normWords(String(text));
+    for (let i = 0; i + SHINGLE <= w.length; i++) _nivShingles.add(w.slice(i, i + SHINGLE).join(' '));
+  }
+  return _nivShingles;
+}
+
+// Byte ranges of every italic span whose text is provably Scripture. Computed
+// per document, before segmentation, so a verse split across nested tags is
+// judged whole rather than fragment by fragment.
+function scriptureItalicRanges(html) {
+  const ranges = [];
+  const shingles = nivShingles();
+  if (!shingles.size) return ranges;
+  // S188: pair to the NEAREST closing tag and never across a second span — the
+  // same bug the italic probe carried. A raw-length bound would make a long verse
+  // invisible and a short emphasis over-reach into the prose after it.
+  const re = /<(em|i)\b[^>]*>((?:(?!<\/?(?:em|i)\b)[\s\S])*?)<\/\1>/gi;
+  let m;
+  while ((m = re.exec(html))) {
+    const inner = m[2];
+    const w = normWords(inner.replace(/<[^>]*>/g, ' '));
+    if (w.length < SHINGLE) continue;
+    let isScripture = false;
+    for (let i = 0; i + SHINGLE <= w.length; i++) {
+      if (shingles.has(w.slice(i, i + SHINGLE).join(' '))) { isScripture = true; break; }
+    }
+    if (!isScripture) continue;
+    const start = m.index + m[0].indexOf(inner, m[0].indexOf('>'));
+    ranges.push([start, start + inner.length]);
+  }
+  return ranges;
+}
+
+// S188: AND THE HOLE HAD A FIFTH FORM, WHICH IS THE SECOND HALF OF S186's OWN FIX.
+//
+// The parity guard above was written and verified against literal quote marks —
+// `"`, `“`, `”`. The corpus does not predominantly write them that way. It writes
+// them as HTML ENTITIES: `&ldquo;` occurs 346 times on 50 pages, the literal `“`
+// only 91 times. So the guard that was believed to close the inline-quotation hole
+// was reading about one curly quote in five, and Matthew 11:27 sat fully exposed
+// on `analytical-archetypal-ectypal` with two anchors woven through it:
+//
+//     <p>Jesus says: &ldquo;All things have been committed to me by my Father.
+//     No one knows the Son except the Father, and <a …>no one knows the Father
+//     except</a> the Son and those to whom <a …>the Son chooses to reveal</a>
+//     him&rdquo; (Matthew 11:27).</p>
+//
+// `sweep-quoted-links.js` and `analyze-quoted-links.js` were blind to the same
+// thing for the same reason, which is why the class never showed up as a defect:
+// 12 anchors on 7 pages, unguarded AND unmeasured. THE LAW: a guard and its
+// detector are built from one model of the world, so they share its blind spots —
+// and a guard verified against a hand-typed example has been verified against the
+// author's habits, not the corpus's. Measure it against how the corpus actually
+// encodes the thing before believing the hole is closed.
+//
+// NOTE: single-quote entities are deliberately NOT quote marks here. The corpus
+// uses `&rsquo;` as an apostrophe (`my Father&rsquo;s hand`), and treating it as
+// a mark would invert parity for the rest of the block.
+const QUOTE_ENTITIES = [
+  ['&ldquo;', 'open'], ['&#8220;', 'open'], ['&#x201C;', 'open'],
+  ['&rdquo;', 'close'], ['&#8221;', 'close'], ['&#x201D;', 'close'],
+  ['&quot;', 'toggle'], ['&#34;', 'toggle'], ['&#x22;', 'toggle'],
+];
+
+// Returns the quote token starting at index i — one character or a whole entity —
+// or null. `kind` drives parity: open/close are directional, toggle alternates.
+function quoteTokenAt(s, i) {
+  const c = s[i];
+  if (c === '“') return { raw: c, kind: 'open' };
+  if (c === '”') return { raw: c, kind: 'close' };
+  if (c === '"') return { raw: c, kind: 'toggle' };
+  if (c === '&') {
+  for (const [ent, kind] of QUOTE_ENTITIES) if (s.startsWith(ent, i)) return { raw: ent, kind };
+  }
+  return null;
+}
+
 const QUOTE_CHARS = new Set(['"', '“', '”']);
 const BLOCK_RESET = new Set(['p', 'li', 'div', 'section', 'article', 'td', 'th', 'blockquote', 'figcaption']);
 
@@ -642,12 +767,25 @@ const UNSAFE_CLASSES = [
   'scripture-text', 'scripture-block', 'passage-verse-text',
   'objection-verse-text', 'verse-text', 'quote-text', 'hymn-text',
   'verse', 'chain-quote', 'chain-benediction', 'verse-block', 'scripture-quote',
+  // S188: this list was a remembered list, so it had drifted from disk. Auditing
+  // the corpus for every class whose name suggests a verse turned up 30 candidates
+  // — but guessing from names would have been wrong in both directions, so each was
+  // MEASURED for anchors actually sitting inside NIV text. `.card-scripture`, the
+  // most common of all at 721 uses, holds none (hub cards fall outside the article
+  // body); the citation-label classes `.scripture-ref` and `.verse-citation` must
+  // stay linkable, since the label IS the link. Exactly three were real:
+  'scripture', 'scripture-echo', 'fork-verse',
 ];
 
 function splitIntoSegments(html) {
   const segments = [];
   // Split by HTML tags (also handle HTML comments)
   const parts = html.split(/(<[^>]+>|<!--[\s\S]*?-->)/);
+  // S188: typographic quotation guard — byte ranges of Scripture set in italics.
+  const italicScripture = scriptureItalicRanges(html);
+  let offset = 0;
+  const inScriptureItalic = (lo, hi) =>
+  italicScripture.some(([a, b]) => lo < b && hi > a);
   let unsafeDepth = 0;
   // class-triggered quotation guard
   let classGuardTag = null;   // tag name that opened the guarded region
@@ -657,6 +795,8 @@ function splitIntoSegments(html) {
 
   for (const part of parts) {
   if (!part) continue;
+  const partStart = offset;
+  offset += part.length;
   if (part.startsWith('<')) {
   segments.push({ type: 'tag', content: part });
   // Skip HTML comments
@@ -697,7 +837,8 @@ function splitIntoSegments(html) {
   // single unbalanced mark cannot guard the rest of the document.
   if (tagName && isClose && BLOCK_RESET.has(tagName)) inQuote = false;
   } else {
-  const guarded = unsafeDepth > 0 || classGuardTag !== null;
+  const guarded = unsafeDepth > 0 || classGuardTag !== null
+  || inScriptureItalic(partStart, partStart + part.length);
   if (guarded) {
   segments.push({ type: 'unsafe', content: part });
   continue;
@@ -706,11 +847,16 @@ function splitIntoSegments(html) {
   // quotation is Scripture (or someone's words) and is never a link target.
   let buf = '';
   let bufQuoted = inQuote;
-  for (const ch of part) {
-  const isQuote = QUOTE_CHARS.has(ch);
+  // S188: walk by index, not by code point, so a mark spelled as an entity is
+  // consumed whole. `ch` is the original substring either way, so `buf` still
+  // reassembles the part byte-for-byte.
+  for (let i = 0; i < part.length; ) {
+  const tok = quoteTokenAt(part, i);
+  const ch = tok ? tok.raw : part[i];
+  const isQuote = !!tok;
   const nextQuoted = !isQuote ? inQuote
-  : ch === '“' ? true
-  : ch === '”' ? false
+  : tok.kind === 'open' ? true
+  : tok.kind === 'close' ? false
   : !inQuote;
   // The mark itself belongs to the quoted run on both ends.
   const chQuoted = isQuote ? (nextQuoted || inQuote) : inQuote;
@@ -721,6 +867,7 @@ function splitIntoSegments(html) {
   }
   buf += ch;
   inQuote = nextQuoted;
+  i += ch.length;
   }
   if (buf) segments.push({ type: bufQuoted ? 'unsafe' : 'text', content: buf });
   }

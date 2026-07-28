@@ -57,7 +57,7 @@ for (const f of walk(ROOT)) {
   const pageHrefs = [...html.matchAll(/href="([^"]+)"/g)].map(m => m[1]);
   const edits = [];
 
-  const spanRe = /<(em|i)\b[^>]*>([\s\S]{40,900}?)<\/\1>/gi;
+  const spanRe = /<(em|i)\b[^>]*>((?:(?!<\/?(?:em|i)\b)[\s\S])*?)<\/\1>/gi;  // S188: pair to NEAREST close
   let m;
   while ((m = spanRe.exec(html))) {
     const inner = m[2], innerOffset = m.index + m[0].indexOf(inner);
