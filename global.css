@@ -7769,3 +7769,68 @@ div[aria-label*="table of contents" i] {
 .phase-next:hover{border-color:var(--accent-gold);transform:translateY(-2px);}
 .phase-next-eyebrow{display:block;font-family:'JetBrains Mono',monospace;font-size:0.7rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--accent-gold);margin-bottom:0.4rem;}
 .phase-next-title{display:block;font-family:'Playfair Display',serif;font-size:1.25rem;font-weight:700;color:var(--text-primary);line-height:1.35;}
+
+/* ═══════════════════════════════════════════════════
+   HOMEPAGE CLOSING — THE LAST WORD (added 2026-07-28)
+   ───────────────────────────────────────────────────
+   .cta-section / .cta-quote / .cta-attribution were used on index.html but
+   had NO rules anywhere in this file — the homepage's final section rendered
+   as unstyled default paragraphs. Found during the gospel-absence sweep, when
+   the section's content was rebuilt from a demolition quote into the catch.
+   ═══════════════════════════════════════════════════ */
+.cta-section {
+    max-width: 780px;
+    margin: var(--space-9) auto;
+    padding: var(--space-8) var(--space-6);
+    text-align: center;
+    border-top: 1px solid var(--border-subtle);
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.cta-section .cta-quote {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(1.25rem, 2.6vw, 1.75rem);
+    line-height: 1.55;
+    color: var(--accent-scripture);
+    margin: 0 auto var(--space-4);
+    max-width: 44ch;
+    text-wrap: balance;
+}
+
+.cta-section .cta-attribution {
+    font-size: 0.8rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent-gold);
+    margin: 0 0 var(--space-7);
+}
+
+.cta-section .cta-closing {
+    font-size: clamp(1rem, 1.6vw, 1.1rem);
+    line-height: 1.75;
+    color: var(--text-primary);
+    max-width: 52ch;
+    margin: 0 auto var(--space-5);
+    text-wrap: pretty;
+}
+
+.cta-section .cta-closing-hammer {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(1.35rem, 3vw, 2rem);
+    line-height: 1.4;
+    color: var(--text-bright);
+    margin: 0;
+}
+
+.cta-section .cta-closing-hammer strong {
+    color: var(--accent-gold-bright);
+    display: block;
+    margin-top: var(--space-2);
+}
+
+@media (max-width: 640px) {
+    .cta-section {
+   margin: var(--space-7) auto;
+   padding: var(--space-6) var(--space-4);
+    }
+}
