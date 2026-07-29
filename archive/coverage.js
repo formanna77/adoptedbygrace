@@ -33,7 +33,7 @@ const REPORT = path.join(ROOT, 'archive', 'coverage-report.txt');
 // The current standard and the session its era begins. VOICE.md §XXII was appended
 // 2026-07-19; S183 (2026-07-20) is the first session held to it. Update BOTH lines
 // when Aaron appends a newer dated section to VOICE.md.
-const CURRENT = { section: '§XXII', date: '2026-07-19', sinceSession: 183 };
+const CURRENT = { section: '§XXIII', date: '2026-07-28', sinceSession: 191 };
 
 // Rough session->era map, for the histogram only (older boundaries are approximate;
 // only the §XXII threshold is load-bearing).

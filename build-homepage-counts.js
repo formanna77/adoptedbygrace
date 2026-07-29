@@ -57,7 +57,11 @@ const COUNT = {
   '/systematic-theology': byPrefix('systematic-'),
   '/devotionals': byPrefix('devotional-', 'hymn-'),
   '/stories': byPrefix('story-', 'analogy-', 'parable-'),
-  '/questions#objections': byPrefix('objection-'),
+  // S191: this key read '/questions#objections' and matched NO tile — index.html
+  // writes href="/questions#demolishing-the-objections". The Hard Objections
+  // count was therefore unmanaged and hand-frozen; it happened to be right, and
+  // would have drifted silently on the next objection page.
+  '/questions#demolishing-the-objections': byPrefix('objection-'),
   '/ot-hub': byPrefix('ot-', 'psalm-'),
   '/history-timeline': byPrefix('history-', 'creed-', 'canons-', 'westminster-', 'heidelberg-'),
   '/secular-evidence': byPrefix('secular-'),

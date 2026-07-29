@@ -1,28 +1,49 @@
 ========================================================================
   COVERAGE — adoptedbygrace.net prose corpus — review freshness vs. the newest bar
 ========================================================================
-  Current standard: §XXII (2026-07-19); era begins ~S183
+  Current standard: §XXIII (2026-07-28); era begins ~S191
   Ledger updated:   2026-07-28   |   prose pages: 615
 
-  At current standard (§XXII)    13    2.1%  █···························
-  Behind (older bar, dated)          408   66.3%  ███████████████████·········
-  Unknown (locked, no session tag)   194   31.5%  █████████···················
+  At current standard (§XXIII)    21    3.4%  █···························
+  Behind (older bar, dated)          407   66.2%  ███████████████████·········
+  Unknown (locked, no session tag)   187   30.4%  █████████···················
 
-  REMAINING for the §XXII pass: 602 pages (behind + unknown).
-  At 10 pages/session: ~61 sessions to full §XXII coverage.  (tune rate with --rate=N)
+  REMAINING for the §XXIII pass: 594 pages (behind + unknown).
+  At 10 pages/session: ~60 sessions to full §XXIII coverage.  (tune rate with --rate=N)
 
   ── END-OF-SESSION STANDING ──
-  Since S189 (2026-07-28): at §XXII 13 -> 13 (+0);  remaining 602 -> 602 (+0).
+  Since S189 (2026-07-28): at §XXIII 13 -> 21 (+8);  remaining 602 -> 594 (-8).
   Remaining trend: S189:602
 
   Last-lifted era (approximate for older sessions):
-    §XXII (2026-07-19)           13  █···························
+    §XXII (2026-07-19)           34  ██··························
     §XVIII-XXI (2026-06-21)      11  █···························
     §XVII/XVI (2026-05)          11  █···························
-    pre-§XVI (<=S99)            386  ██████████████████··········
-    unknown / untagged          194  █████████···················
+    pre-§XVI (<=S99)            372  █████████████████···········
+    unknown / untagged          187  █████████···················
 
-  Exactly-tracked lifts (source: stamp) — 13:
+  Exactly-tracked lifts (source: stamp) — 34:
+    S191  lifted   apologetic-babies.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   apologetic-evangelism.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   apologetic-only-evil-all-the-time.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   demolition-romans2-4.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   hymn-amazing-grace.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   objection-effort.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   objection-evangelism-pointless.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   objection-why-evangelize.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   ot-israel-chosen.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   psychology-emotional-vs-rational.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   psychology-hostility-reaction.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   psychology-offense-of-grace.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   psychology-why-we-resist.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   question-dead-in-sin-meaning.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   question-hardening.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   question-unconditional.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   systematic-covenant-works.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   testimony-newton.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   the-two-arms.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   two-arms.html  — S191 gospel-landing + feeling-slip sweep
+    S191  lifted   westminster-chapter-3-plain-english.html  — S191 gospel-landing + feeling-slip sweep
     S189  lifted   counter-cs-lewis-free-will.html  — three feeling-slips re-grounded on Gods prior work
     S189  partial  demolition-1tim4-10.html  — self-repeat cleared and JSON-LD author fixed; body compression and malista pending
     S189  partial  demolition-hebrews2-9.html  — FAQ JSON-LD repaired; one-insight-x6 and 7 antitheses compression pending
@@ -32,10 +53,6 @@
     S189  partial  dialogue-arminian-pastor-questions-himself.html  — sermon slip and crisis projection fixed; multiplied close pending
     S189  lifted   john-6-37-44.html  — John 6:65 + atonement named + Jer 31:3 steelman; hexei singular; Acts 16:19; helkyo meta
     S189  lifted   ot-isaiah-servant.html  — summit deepened with Isa 53:5-6 and 53:11; numerology and fifth-Gospel cut
-    S189  lifted   ot-joseph.html  — responsibility objection answered in body; most-loving-thing slip fixed; Box B trimmed; SEO ref cut
-    S189  lifted   philosophy-problem-of-merit.html  — literal markdown asterisks converted to em
-    S189  lifted   question-is-salvation-my-choice-or-gods.html  — touto objection met; opener anatomy and FAQ motive and stray-space fixed
-    S189  lifted   romans-9-deep-dive.html  — answered the abandoned wanted-vs-used question; recap 5 closes to 1; skeuos moved to vv20-21
 
   Longest-un-lifted (oldest tagged session — first candidates for a §XXII re-read):
     S 58  2-thessalonians-2-13.html
@@ -45,9 +62,7 @@
     S 58  analogy-song-you-didnt-compose.html
     S 58  anxious-mind-brain-decides.html
     S 58  anxious-mind-intrusive-thoughts.html
-    S 58  apologetic-babies.html
     S 58  apologetic-definite-atonement.html
-    S 58  apologetic-evangelism.html
     S 58  apologetic-for-the-sheep.html
     S 58  apologetic-god-works-the-willing.html
     S 58  apologetic-he-bore-the-sin-of-many.html
@@ -57,7 +72,9 @@
     S 58  apologetic-no-one-can-come-unless.html
     S 58  apologetic-not-because-but-because.html
     S 58  apologetic-nothing-can-separate.html
-    S 58  apologetic-only-evil-all-the-time.html
+    S 58  apologetic-perseverance.html
+    S 58  apologetic-priest-shoulders.html
+    S 58  apologetic-revival-and-sovereign-grace.html
 
-  (194 pages carry a lock but no session tag; they need a session assigned on next touch.)
+  (187 pages carry a lock but no session tag; they need a session assigned on next touch.)
 ========================================================================

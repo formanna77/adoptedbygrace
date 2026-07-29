@@ -229,6 +229,14 @@ const DENIED = /\b(is|are|was) not (?:a |an |the |itself |your |his |our |my )?(
   || null;
 const DENIED_APPOS = /\bnot (?:a|the|your) (?:proof|sign|credential|test|gauge|verdict|receipt|certificate|evidence)\b/i;
 
+// S191 — the NAMED-TRICK repudiation. VOICE.md §XXIII.3 move 3 prescribes naming
+// the slip out loud and refusing it ("the trick would be to point at the fact that
+// you are still reading and call it evidence"). That is the repair, and the v3
+// REPUDIATE pattern scored it as the defect, because it requires a leading
+// do-not/never/stop and this construction leads with the trick itself. Runs in the
+// same MODEL position as the other repudiation tests.
+const NAMED_TRICK = /\b(?:the trick|it is a trick|it's a trick|that would be|the alibi|the counterfeit|the old trick|hands (?:you|it) back|the audit reopen\w*|reopening the audit|in a softer chair|under new management)\b[^.!?<]{0,140}\b(?:evidence|proof|credential|certificate|grade|grading|audit|sign)\b/i;
+
 // Evidence pointing at a LACK is the depravity direction wearing election's
 // grammar: "the proof that you are not yet resting in the immutable counsel"
 // (ot-isaiah-servant) diagnoses a deficiency, it does not certify election.
@@ -266,7 +274,7 @@ function scan(file) {
     // an unambiguous election-object claim (S183), which outranks an incidental
     // depravity token. Only then does the depravity direction win.
     const verdict =
-      (REPUDIATE.test(s) || DENIED.test(s) || DENIED_APPOS.test(s) || DIAGNOSED.test(s)) ? 'MODEL'
+      (REPUDIATE.test(s) || DENIED.test(s) || DENIED_APPOS.test(s) || NAMED_TRICK.test(s) || DIAGNOSED.test(s)) ? 'MODEL'
         : STRONG_ELECT.test(s) ? 'SLIP'
           : (DEPRAVE.test(s) || NOT_YET.test(s)) ? 'SANCTIONED'
             : (ELECT.test(s) && GOD_REF.test(s)) ? 'SLIP'

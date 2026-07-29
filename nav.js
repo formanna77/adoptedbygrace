@@ -62,8 +62,8 @@
  { name: 'The Mirror', href: '/the-mirror', desc: 'Twelve quiet questions. Not about your theology — about your heart. The mirror Scripture holds up, in interactive form.' },
  { name: 'The Objection Collapse', href: '/the-objection-collapse', desc: 'Pick any Arminian objection. Watch Scripture walk it to the ground. Twelve objections, twelve collapses — in interactive' },
  { name: 'The Scripture Cascade', href: '/the-scripture-cascade', desc: 'Fifty-one passages. Five doctrines of grace. No commentary. Just the text, falling one after another until the escape ro' },
- { name: 'The Two Arms', href: '/the-two-arms', desc: 'The left arm tears down the lie of self-salvation. The right arm catches the one who falls. Both arms, always — because ' },
  { name: 'The Two Arms — How This Site Reaches You', href: '/two-arms', desc: 'Every page here operates with two arms. One demolishes the lie that you saved yourself. The other catches you in the sov' },
+ { name: 'The Two Arms — The Visual Map', href: '/the-two-arms', desc: 'The left arm tears down the lie of self-salvation. The right arm catches the one who falls. Both arms, always — because ' },
  { name: 'You Were Found Before You Knew You Were Lost', href: '/found-you', desc: 'The love that found you did not wait for you to be looking for it. You were chosen before the foundation of the world, a' }
  ]
  }

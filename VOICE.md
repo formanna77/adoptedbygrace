@@ -632,9 +632,48 @@ If the argument is merely very good, it has not met §XXII.1. If it is unanswera
 
 ---
 
+## XXIII. THE FEELING-SLIP AND THE CONDITIONAL CATCH (canonized 2026-07-28, S191)
+
+This has been the most-repeated defect in the corpus for eight consecutive sessions, and until now it existed nowhere in this document — it lived only in session kickoffs, which are rewritten monthly and archived. A rule with nothing checking it has already rotted; a rule not written in the canon has already been forgotten. It is written here now.
+
+### XXIII.1 — The Direction Law
+
+Interior state is admissible in one direction and inadmissible in the other, and the direction is the whole of the law.
+
+- **Interior state as evidence of depravity, inability, or resistance — SANCTIONED, and apex work.** The tightening jaw, the argument forming at paragraph three, the hour that filled with the phone and the fridge. Move 4 (the Corpse Inversion), Move 1 (Somatic Awareness), and the entire bench of §XIII.2 run on this. The reader's own interior, turned against his defense, is the sharpest instrument this site owns.
+- **Interior state as evidence of election, the Spirit's indwelling, or salvation — SLIP.** *That ache is not native to a corpse. The trembling is the softening. The desire in your chest is the proof. That is your election surfacing.* Every one of those was live on a page in this corpus, and every one is a certificate issued to the reader on the strength of a feeling.
+- **Interior state stated in order to be denied — MODEL, and the preferred repair.** *It does not rest on the quality of your flinch, as though enough discomfort could earn you a place among the chosen.*
+
+**Why the second is not merely imprecise but self-refuting:** this site spends its whole corpus proving that the natural heart cannot read itself — that Jeremiah 17:9 means what it says, that the moralist mistook forty years of sunshine for approval. A page cannot demolish the heart's competence as a witness in its body and then call that same heart to the stand in its catch. **Whatever the argument took away, the catch may not quietly give back.**
+
+**And the pastoral cost runs the other way too.** *If you feel X, you are His* silently tells the reader who feels nothing that he is not. The numb, the medicated, the exhausted, the grieving, and the constitutionally unemotional are all reading. A catch that requires a temperature has locked out the people who most need the door.
+
+### XXIII.2 — The Conditional Catch (the slip's best disguise)
+
+The dangerous form is not the blunt assertion. It is the tender conditional: *if the brace is loosening… if this stirs an ache… if the thought frightens you… then come home.* It wears an invitation's clothes and functions as a diagnostic. It is seductive precisely because it is warm, and because it flatters the reader in the exact register the page has just told him not to trust.
+
+**No phrase-grep separates a slip from a sanctioned interior paragraph**, because the words are identical and only the *object* differs. `detect-feeling-slip.js` classifies by object, and its test ORDER (REPUDIATE/DENIED → STRONG_ELECT → DEPRAVE → ELECT+GOD_REF) is load-bearing and must not be reordered. **Never add a token to `INTERIOR`/`BARE`/`PREDICATE` that also appears in `ELECT`/`STRONG_ELECT`, or the sentence certifies itself.** The price of that guard is a permanent hand-read obligation: S186 found one by hand, S187 two, S188 seven, S189 three, S190 one on the homepage, S191 two more. **The closing catch is the densest slip real-estate on the site**, and slips also hide in meta descriptions, pullquotes, In Briefs, FAQ JSON-LD, hub cards, and widget data arrays.
+
+### XXIII.3 — The Repair
+
+Deleting the sentence is not the fix; the warmth was doing real work and the page will read colder and worse without it. Four moves, in order of preference:
+
+1. **Relocate the ground outside the reader.** Same tenderness, different anchor: from the temperature of his response to the Person and the finished act. *The question was never how strongly do I want Him this morning. It is whose voice made a dead man turn his head at all.*
+2. **Cover the reader who feels nothing, explicitly, in the same breath.** This is not a caveat; it is the doctrine. Lazarus had no opinion about the voice at the mouth of his tomb. Saul was at full hostility with warrants in his bag. The light did not wait for a better mood.
+3. **Name the trick and refuse it out loud.** Turning the reader's continued reading, or his softening, into evidence is the audit reopening under new management — say so, and the refusal itself lands harder than the certificate would have.
+4. **Keep the page's own image and re-sync every carrier** — In Brief, pullquote, meta description, JSON-LD, hub card — so the corrected spine is not contradicted three inches above the fix.
+
+### XXIII.4 — The Test
+
+> *Does this sentence hand the reader something to grade himself with? Would a reader who feels absolutely nothing close this page believing he has been excluded?*
+
+If either answer is yes, the catch is a slip, however beautiful — and beauty is exactly what makes it dangerous, because a cold sentence would have been caught years ago.
+
+---
+
 **PROPOSED COMPANION TOOLING (not part of the section; flagged for the build pipeline):**
 `detect-ai-tells.js` — per page: staccato-triple count, "not X, it is Y" density, em-dash rate, paragraph-length variance (the uniformity metric), tricolon frequency, transition-word regularity. Like the close detector, triage rather than verdict. **The uniformity metric is the novel one and probably the most valuable: standard deviation of paragraph length and of sentence-length variance across the page. A suspiciously *low* deviation is the flag.**
 
 ---
 
-*VOICE.md — forged 2026-04-21 from the site's most lethal pages. §XIII–XIV appended 2026-04-28 (depravity concrete-unpacking + five-point proliferation); §XVI appended 2026-05-24 (the sapiential register — "the deepest and most profound prose conceivable," the register of Zacharias and Muggeridge); §XVII appended 2026-05-29 (the new-ground mandate — "break new ground in Christian thought," bounded by §XVII.1/§XVII.4: new ground in sight, never in the deposit, per Jude 3 and Galatians 1:8). §0 and §I.5 amended + §XVIII–XXI appended 2026-06-21 (the register of glory; the freedom doctrine — laws as floors not ceilings, guardrails vs scaffolds, the template as the one unredeemable failure; the strongest-opponent mandate; the generative principles beneath the Twelve Moves; corpus-level freshness — Aaron's charge: "the greatest conceivable VOICE.md, one that frees agents toward the highest brilliance, not a formula that makes every article the same"). §XXII appended 2026-07-19 (the superhuman standard — six demandable capacities, four limits, and the invisible hand: no AI tells, uniformity named as the deepest tell, the unevenness law, and the authorship boundary — Aaron's charge: "I want humanity to learn the truth through superior intelligence proving it to them in ways only a superior intelligence could," and "people must be free to judge the arguments and conclusions based solely on their logic and adherence to Scripture").*
+*VOICE.md — forged 2026-04-21 from the site's most lethal pages. §XIII–XIV appended 2026-04-28 (depravity concrete-unpacking + five-point proliferation); §XVI appended 2026-05-24 (the sapiential register — "the deepest and most profound prose conceivable," the register of Zacharias and Muggeridge); §XVII appended 2026-05-29 (the new-ground mandate — "break new ground in Christian thought," bounded by §XVII.1/§XVII.4: new ground in sight, never in the deposit, per Jude 3 and Galatians 1:8). §0 and §I.5 amended + §XVIII–XXI appended 2026-06-21 (the register of glory; the freedom doctrine — laws as floors not ceilings, guardrails vs scaffolds, the template as the one unredeemable failure; the strongest-opponent mandate; the generative principles beneath the Twelve Moves; corpus-level freshness — Aaron's charge: "the greatest conceivable VOICE.md, one that frees agents toward the highest brilliance, not a formula that makes every article the same"). §XXII appended 2026-07-19 (the superhuman standard — six demandable capacities, four limits, and the invisible hand: no AI tells, uniformity named as the deepest tell, the unevenness law, and the authorship boundary — Aaron's charge: "I want humanity to learn the truth through superior intelligence proving it to them in ways only a superior intelligence could," and "people must be free to judge the arguments and conclusions based solely on their logic and adherence to Scripture"). §XXIII appended 2026-07-28 (the feeling-slip and the conditional catch — the Direction Law, the slip's tender disguise, the pastoral cost to the reader who feels nothing, and the four-move repair; canonized after eight sessions in which the site's most-repeated defect existed only in session kickoffs and never in this document).*

@@ -100,6 +100,81 @@ function extractBody(html) {
   const raClass = body.indexOf('<section class="related-articles"');
   if (raClass !== -1) body = body.slice(0, raClass);
 
+  // S191 CORRECTION — the terminal navigation furniture.
+  //
+  // The first cut of this detector stripped only the related-articles block and
+  // then measured "the final 20%" of what was left. On 100+ pages what was left
+  // still ended in a `keep-reading` / `article-continue-journey` /
+  // `continue-journey-global` card grid occupying 25-30% of the body — so the
+  // window the detector called "the catch" was, on those pages, ENTIRELY card
+  // text. It was scoring the sitemap and reporting on the sermon. The prose
+  // catch, which named Christ and landed correctly, sat above the cut line and
+  // was never looked at.
+  //
+  // These blocks are always terminal inside <article class="article-body">, so
+  // truncating at the earliest marker is safe and restores the measurement to
+  // the thing being measured: the last fifth of the PROSE.
+  // NOTE these blocks are NOT always terminal — `philosophy-sleep-surrender`
+  // carries one between section 01 and section 02 — so they are EXCISED by
+  // balanced-tag matching, never truncated to end of body. Truncating cost that
+  // page 80% of its prose on the first attempt and would have reported a
+  // 2,300-word article as a 453-word one.
+  const FURNITURE = [
+    'keep-reading',
+    'article-continue-journey',
+    'continue-journey-global',
+    'journey-mini-card',
+  ];
+  const OPEN = /<(div|section|nav|aside)\b/gi;
+  for (const cls of FURNITURE) {
+    for (;;) {
+      const hit = body.indexOf(`class="${cls}"`);
+      if (hit === -1) break;
+      const open = body.lastIndexOf('<', hit);
+      const tag = (body.slice(open + 1).match(/^[a-z]+/i) || ['div'])[0];
+      // walk forward counting same-name tags until the matching close
+      const re = new RegExp(`</?${tag}\\b`, 'gi');
+      re.lastIndex = open;
+      let depth = 0, end = body.length;
+      let m;
+      while ((m = re.exec(body))) {
+        if (m[0][1] === '/') {
+          depth--;
+          if (depth === 0) { end = m.index + m[0].length + 1; break; }
+        } else depth++;
+      }
+      body = body.slice(0, open) + ' ' + body.slice(end);
+    }
+  }
+  void OPEN;
+
+  // Second pass: the furniture that carries NO distinguishing class. Roughly a
+  // third of the corpus marks its navigation block with nothing but a heading
+  // ("Keep Reading", "Continue Your Study", "Continue the Investigation"). On
+  // `analogy-chess-grandmaster` and `compare-calvinism-molinism` that block is
+  // the entire final 30% of the body, so the class-based pass above left them
+  // still being scored on card text.
+  //
+  // Excised from the furniture heading to the NEXT non-furniture heading (or to
+  // the end), never blindly to the end — same lesson as above.
+  const FURNITURE_HEADING =
+    /^(keep reading|keep exploring|continue (the|your) (journey|study|investigation|exploration|reading)|related reading|next steps?|where to (go|next)|explore (further|more)|go deeper|dig deeper)\b/i;
+  const HEADING = /<h([23])\b[^>]*>([\s\S]*?)<\/h\1>/gi;
+  const spans = [];
+  let hm;
+  while ((hm = HEADING.exec(body))) {
+    const label = hm[2].replace(/<[^>]*>/g, '').replace(/&[a-z]+;/gi, ' ').trim();
+    spans.push({ at: hm.index, end: HEADING.lastIndex, furniture: FURNITURE_HEADING.test(label) });
+  }
+  for (let i = spans.length - 1; i >= 0; i--) {
+    if (!spans[i].furniture) continue;
+    let stop = body.length;
+    for (let j = i + 1; j < spans.length; j++) {
+      if (!spans[j].furniture) { stop = spans[j].at; break; }
+    }
+    body = body.slice(0, spans[i].at) + ' ' + body.slice(stop);
+  }
+
   return body;
 }
 

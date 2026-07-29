@@ -1,9 +1,9 @@
 {
   "meta": {
     "currentVoice": {
-      "section": "§XXII",
-      "date": "2026-07-19",
-      "sinceSession": 183
+      "section": "§XXIII",
+      "date": "2026-07-28",
+      "sinceSession": 191
     },
     "updated": "2026-07-28",
     "note": "Historical seed from HTML markers is approximate (review-freshness, not pass/fail). source:\"stamp\" entries are exact.",
@@ -225,10 +225,11 @@
       "source": "marker"
     },
     "apologetic-babies.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "apologetic-born-not-of-human-will.html": {
       "lastSession": null,
@@ -267,10 +268,11 @@
       "source": "marker"
     },
     "apologetic-evangelism.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "apologetic-for-the-sheep.html": {
       "lastSession": 58,
@@ -405,10 +407,11 @@
       "source": "marker"
     },
     "apologetic-only-evil-all-the-time.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "apologetic-owen-trilemma.html": {
       "lastSession": 72,
@@ -1105,10 +1108,11 @@
       "source": "marker"
     },
     "demolition-romans2-4.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "demolition-steel-man-arminianism.html": {
       "lastSession": 58,
@@ -1636,10 +1640,11 @@
       "source": "marker"
     },
     "hymn-amazing-grace.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "invisible-wall-family.html": {
       "lastSession": 58,
@@ -1769,16 +1774,18 @@
       "source": "marker"
     },
     "objection-effort.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "objection-evangelism-pointless.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "objection-fairness.html": {
       "lastSession": 153,
@@ -1853,10 +1860,11 @@
       "source": "marker"
     },
     "objection-why-evangelize.html": {
-      "lastSession": 78,
-      "voiceRef": "§XXIV",
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "objection-why-not-save-everyone.html": {
       "lastSession": 58,
@@ -1950,10 +1958,11 @@
       "note": "summit deepened with Isa 53:5-6 and 53:11; numerology and fifth-Gospel cut"
     },
     "ot-israel-chosen.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "ot-jacob-esau.html": {
       "lastSession": null,
@@ -2258,10 +2267,11 @@
       "source": "marker"
     },
     "psychology-emotional-vs-rational.html": {
-      "lastSession": 70,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "psychology-fear-control.html": {
       "lastSession": 58,
@@ -2276,10 +2286,11 @@
       "source": "marker"
     },
     "psychology-hostility-reaction.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "psychology-identity-threat.html": {
       "lastSession": null,
@@ -2306,10 +2317,11 @@
       "source": "marker"
     },
     "psychology-offense-of-grace.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "psychology-pride-root-objection.html": {
       "lastSession": null,
@@ -2372,10 +2384,11 @@
       "source": "marker"
     },
     "psychology-why-we-resist.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "question-1john5-1.html": {
       "lastSession": 58,
@@ -2474,10 +2487,11 @@
       "source": "marker"
     },
     "question-dead-in-sin-meaning.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "question-dead-man-visual.html": {
       "lastSession": 58,
@@ -2576,10 +2590,11 @@
       "source": "marker"
     },
     "question-hardening.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "question-how-grace-feels.html": {
       "lastSession": 58,
@@ -2763,10 +2778,11 @@
       "source": "marker"
     },
     "question-unconditional.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "question-unfair.html": {
       "lastSession": 70,
@@ -3370,10 +3386,11 @@
       "source": "marker"
     },
     "systematic-covenant-works.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "systematic-divine-decrees.html": {
       "lastSession": null,
@@ -3556,10 +3573,11 @@
       "source": "marker"
     },
     "testimony-newton.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "testimony-spurgeon.html": {
       "lastSession": 58,
@@ -3604,10 +3622,11 @@
       "source": "marker"
     },
     "the-two-arms.html": {
-      "lastSession": 69,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "theologian-arminius.html": {
       "lastSession": 74,
@@ -3700,16 +3719,18 @@
       "source": "marker"
     },
     "two-arms.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "westminster-chapter-3-plain-english.html": {
-      "lastSession": 69,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 191,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "word-study-every-all.html": {
       "lastSession": null,
