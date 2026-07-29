@@ -305,20 +305,23 @@ nav[aria-label="Main navigation"].scrolled {
 }
 .mega-menu-footer-best { color: var(--accent-ember); }
 
-/* ===== DESKTOP MODE (≥1280px) ===== */
-/* Below 1280px the inline links + wordmark cannot coexist without overlap,
+/* ===== DESKTOP MODE (≥1181px) ===== */
+/* Below 1181px the inline links + wordmark cannot coexist without overlap,
    so the hamburger menu takes over. Do NOT lower this number without
    first proving the entire nav row fits with breathing room.
-   
-   RAISED 1181 → 1280 in S194 after MEASURING it, which nobody had done.
-   The old comment said 1181 was the floor and the band below tightened
-   spacing "to prevent wordmark / link collision" — but at a 1193px viewport
-   the wordmark's right edge sat at x=163 and the first nav link began at
-   x=136: a 27px overlap, on every page, in the site's most-seen element.
-   The fix had been written, believed, and never once looked at.
-   Verified after the change: overlap at 1193 is gone (hamburger mode),
-   and the desktop row renders clean with breathing room at 1273px. */
-@media (min-width: 1280px) {
+
+   S194: 1181 is CORRECT, but the narrow band below was NOT — it had been
+   written to "prevent wordmark / link collision" and never measured. At a
+   1196px viewport the wordmark's right edge sat at x=163 while the first nav
+   item began at x=136: a 27px overlap, on every page, in the most-seen
+   element on the site. The fix had been written, believed, and never looked
+   at — the same failure as the font <link> and the validator's early verdict.
+
+   The band values below are now MEASURED, in a real browser at innerWidth
+   1196: wordmark ends x=198, first item starts x=203 (+5px clear), last item
+   ends x=1125 with 71px of right-edge room, all 12 items on one row.
+   If you change any of them, re-measure. Do not reason about it. */
+@media (min-width: 1181px) {
     .nav-links { display: none !important; }
     .nav-right { display: flex; }
     .hamburger { display: none !important; }
@@ -327,21 +330,21 @@ nav[aria-label="Main navigation"].scrolled {
     .mega-menu-toggle { display: flex; }
 }
 
-/* ===== NARROW DESKTOP (1280–1400px) — tighten link spacing for breathing room ===== */
-@media (min-width: 1280px) and (max-width: 1400px) {
-    .nav-site-name { font-size: 1.1rem; }
-    .nav-top-link { padding: 0 0.45rem; font-size: 0.7rem; letter-spacing: 0.05em; }
-    .nav-top-link::after { width: calc(100% - 0.9rem); }
-    .nav-container { padding: 0 1rem; gap: 0.4rem; }
-    .mega-menu-toggle { padding: 0 0.5rem; margin-left: 0.25rem; }
-    .mega-menu-toggle-label { font-size: 0.64rem; }
+/* ===== NARROW DESKTOP (1181–1400px) — measured to fit, S194 ===== */
+@media (min-width: 1181px) and (max-width: 1400px) {
+    .nav-site-name { font-size: 1.05rem; }
+    .nav-top-link { padding: 0 0.3rem; font-size: 0.66rem; letter-spacing: 0.03em; }
+    .nav-top-link::after { width: calc(100% - 0.6rem); }
+    .nav-container { padding: 0 0.75rem; gap: 0.3rem; }
+    .mega-menu-toggle { padding: 0 0.4rem; margin-left: 0.15rem; }
+    .mega-menu-toggle-label { font-size: 0.6rem; }
 }
 
-/* ===== MOBILE MODE (≤1279px) — Premium full-screen nav =====
-   Hamburger kicks in early (1279px instead of 968px) because the
-   desktop nav has 10+ items and physically cannot fit below ~1280px
+/* ===== MOBILE MODE (≤1180px) — Premium full-screen nav =====
+   Hamburger kicks in early (1180px instead of 968px) because the
+   desktop nav has 10+ items and physically cannot fit below ~1180px
    without the wordmark and link cluster overlapping. */
-@media (max-width: 1279px) {
+@media (max-width: 1180px) {
     /* Top bar: hamburger left, site name centered, search right */
     .hamburger { display: block; }
     .nav-container { justify-content: center; position: relative; }
@@ -512,7 +515,7 @@ nav[aria-label="Main navigation"].scrolled {
 }
 
 /* Hide mobile-only elements on desktop */
-@media (min-width: 1280px) {
+@media (min-width: 1181px) {
     .mobile-search-toggle { display: none !important; }
     .mobile-menu-search { display: none !important; }
     .mobile-categories-section { display: none !important; }
