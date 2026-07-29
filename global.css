@@ -6,6 +6,26 @@
 /* ===== RESET & TOKENS ===== */
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 :root {
+    /* ===== Typography tokens =====
+       ADDED S194 (2026-07-29). These three were REFERENCED 127 times across
+       this stylesheet and DEFINED nowhere. An undefined custom property makes
+       its declaration invalid at computed-value time, and font-family is an
+       inherited property — so every `font-family: var(--font-heading)` did not
+       fall back to the h1-h4 rule as it appears to. It silently became
+       `inherit` and picked up the parent's body font.
+
+       28 live rules were affected, including `.article-body .section-divider
+       h2`: a section heading on article pages, meant to be Playfair Display,
+       rendering in Inter on every page that uses one. The stylesheet asked for
+       the right typeface and quietly got the wrong one, with no error anywhere.
+
+       Values match what the rest of global.css already hardcodes, so defining
+       them changes nothing that was working and repairs everything that wasn't.
+       validate-site.js CHECK 13 now fails on any undefined custom property. */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
     /* ===== Color tokens ===== */
     --bg-deep: #0a0a0f;
     --bg-card: #12121a;

@@ -173,6 +173,125 @@ unable to cross a comment boundary.
 
 ---
 
+---
+
+# ROUND TWO — the deep dive after P0–P5 shipped
+
+Aaron ran the `git gc` (2.9 GB → 1.3 GB, see the correction below) and asked what else
+the remaining compute should buy. The second sweep asked a different question than the
+first: not *"is anything broken?"* but **"where does the code ask for something the
+site never supplies?"** — the shape of the font bug, generalised. That vein produced
+the two largest findings of the whole session.
+
+### P8 — 362 pages rendered in the wrong typefaces. 347 of them live articles. **[FIXED]**
+
+`global.css` has always demanded two typefaces it does not supply:
+
+```css
+body           { font-family: 'Inter', sans-serif; }
+h1, h2, h3, h4 { font-family: 'Playfair Display', serif; }
+```
+
+— with **zero `@font-face` and zero `@import` anywhere in it.** The only source of
+either face is a `<link>` to Google Fonts pasted into each page's `<head>`, and that
+link was on **325 of 687 pages.**
+
+The other 362 rendered every heading in Times New Roman and every paragraph in Arial.
+**347 were live articles — 56% of the corpus.** The site had two entirely different
+typographic identities and which one a reader met depended on which door they came
+through. The standard is that no matter what page someone lands on they feel the
+undeniable force of truth in its words; a reader who lands on Romans 9 set in Times New
+Roman has already been told something about how seriously to take it, before reading a
+line.
+
+The fingerprint of how it happened is still on the pages: **340 of the 362 carry
+`<link rel="preconnect" href="https://fonts.googleapis.com">` and no font request at
+all.** An automated "performance hints" pass added connection warm-ups for a stylesheet
+that was never there — optimising the loading of nothing, on more than half the site,
+for months. Nothing caught it, because every other check reads the HTML and the HTML
+was perfectly valid. The defect lived in the *gap* between what the stylesheet asked
+for and what the page provided.
+
+**Fixed** on all 686 real pages by `fix-missing-webfonts.js`, which also adds the
+`fonts.gstatic.com` preconnect — the one that actually matters, since the font *files*
+come from gstatic, not googleapis. `display=swap` was already in the URL, so text
+paints immediately in fallback and swaps.
+
+### P9 — three typography variables used 127 times, defined nowhere. **[FIXED]**
+
+The same failure one layer down. `--font-heading`, `--font-body` and `--font-mono` were
+referenced **127 times** across `global.css` and defined in no `:root` block.
+
+This does not fail the way it looks like it fails. An undefined custom property makes
+its declaration *invalid at computed-value time*, and `font-family` is an **inherited**
+property — so `font-family: var(--font-heading)` did not fall through to the `h1-h4`
+rule. It silently became `inherit` and picked up the **parent's** font. **28 live rules
+were affected**, including `.article-body .section-divider h2` — a section heading on
+article pages, meant to be Playfair Display, rendering in Inter everywhere it appears.
+The stylesheet asked for the right typeface and quietly got the wrong one.
+
+**Fixed:** the three tokens are now defined in `:root` with the values the rest of the
+stylesheet already hardcodes, so nothing that worked changed and everything that was
+broken is repaired.
+
+### P10 — the skip-to-content link was on 115 of 687 pages. **[FIXED]**
+
+A reader using a keyboard or a screen reader had to tab through the site name, the
+hamburger, the search button and ten navigation links before reaching the first word of
+the article. On every page. Every time. That is WCAG 2.4.1, and the mission statement
+has no exception for the reader who cannot use a mouse.
+
+**660 working skip links now, up from 115**, each verified to point at an anchor that
+actually exists — a skip link aimed at a missing anchor is worse than none, because it
+looks like compliance and moves focus nowhere. 26 hub/widget pages with no article
+wrapper were deliberately left alone rather than inventing an anchor in markup the
+script does not understand.
+
+### CHECK 13 — and a real regression test
+
+`validate-site.js` gained **CHECK 13: Web Font Delivery**, in two halves: every page
+must supply the typefaces its CSS demands (counting a preconnect-without-a-stylesheet
+as its own error, since that is the silent form), and every fallback-free
+`var(--custom-property)` must be defined.
+
+It was then **proven** rather than assumed: deleting `--font-mono` from `:root` made
+the validator fail with `--font-mono — 100 declaration(s) silently dropped`, and
+restoring it returned all 13 checks to green. A check that has never been seen to fail
+is not a check.
+
+---
+
+## A CORRECTION AND TWO MORE MISTAKES, RECORDED HONESTLY
+
+**The `git gc` projection was wrong.** I read `in-pack: 13.52 MiB` as "the real
+repository" and predicted 2.9 GB → ~100 MB. The 58,279 loose objects were *reachable
+history*, not garbage; `gc` compressed them into a 575 MiB pack. Actual result:
+**2.9 GB → 1.3 GB.** A genuine 55% reduction and worth doing, but not what I said. The
+number to read for true content size was never `in-pack` on a repo with uncollected
+loose objects.
+
+**I nearly broke the entire corpus with an attribute order.** `fix-skip-links.js` first
+wrote `<article id="main-content" class="article-body">`. **21 scripts** — including
+`build-tags.js`, `build-homepage-counts.js`, `dedupe-prose-links.js`, CHECK 11, and the
+runtime `share-bar.js` — match the *literal string* `<article class="article-body"`.
+The canonical article count fell from 618 to **89** and the validator still reported all
+checks passing, because CHECK 11 does `if (open === -1) continue`. Caught before the
+pipeline ran; fixed by writing the `id` *after* the class so the literal substring
+survives byte-for-byte.
+
+**Lesson, and it is the same lesson as the comment-boundary error in round one:** this
+codebase is held together by literal string matches across 21 files. Before changing
+any markup those scripts key on, grep for who consumes it. A change that reads as
+cosmetically identical is not necessarily identical to a substring match.
+
+**One accidental discovery from that near-miss:** `contact.html`, `donate.html` and
+`sitemap.html` were already written `id`-before-`class`, making them invisible to all
+21 scripts. They are utility pages that belong outside the article index, so they were
+restored to that ordering deliberately — but it is worth knowing the corpus contains
+pages that are invisible to its own tooling by accident of attribute order.
+
+---
+
 ## VERIFIED STATE AT CLOSE
 
 ```
@@ -187,3 +306,53 @@ lost `global.css`, `<nav>`, `nav.js`, the grace-warning footer, or a closing tag
 
 **Net for the reader: every page on the site now paints without waiting on 184 KB of
 menu data, and the front door dropped ~650 KB off its critical path.**
+
+### Final counts after round two
+
+| | before | after |
+|---|---|---|
+| pages supplying their own typefaces | 325 | **686** |
+| live articles rendering in Times New Roman | 347 | **0** |
+| CSS declarations silently dropped by undefined vars | 127 | **0** |
+| working skip-to-content links | 115 | **660** |
+| homepage render-blocking payload | ~1,000 KB | **348 KB** (all CSS) |
+| checks in the integrity gate | 11 (6 reported) | **13 (all reported)** |
+| repo size | 2.9 GB | 1.3 GB |
+| canonical article count | 611 | 611 (unchanged, verified) |
+
+---
+
+## WHAT REMAINS — for the next session, in order
+
+1. **`global.css` critical-CSS split.** With all JS deferred, 348 KB of blocking CSS
+   *is* the critical path. Deliberately not attempted here: a conservative dead-rule
+   analysis found only 36.5 KB (12%) confidently removable, scattered across ~150 tiny
+   component families with no single meaningful win — a poor trade against the risk of
+   breaking 687 pages with no visual regression test. The right instrument is a
+   critical-CSS split (inline above-the-fold, load the rest async) done with proper
+   compute and visual verification, not a pruning pass.
+
+2. **One genuinely dead component family is safe to remove now:** `global.css` still
+   carries the styling for a **previous generation of the mega-menu**
+   (`.mega-menu-inner`, `-header`, `-title`, `-grid`, `-card`, `-icon`, `-footer`,
+   `-sub-link`, `-subcat-header`). The current `nav.js` renders the menu with an
+   entirely different class set (`-panel`, `-cats`, `-cat-item`, `-detail`,
+   `-hub-link`, `-page-link`). Verified: none of the old names appear in any HTML or JS.
+
+3. **132 `<title>` tags exceed 65 characters** and are truncated in search results.
+   These are crafted prose, so they need editing by hand, not by script.
+
+4. **Root hygiene:** 828 files at the repo root, including 11 `__*.js` scratch probes
+   from May and ~15 stale planning `.md` docs that CLAUDE.md says belong in `archive/`.
+   All are correctly blocked from public serving, so this is tidiness, not exposure.
+
+## CLEAN, AND CONFIRMED CLEAN — do not re-audit these
+
+Checked this session and found sound: broken internal links (0), orphans (0), emoji (0),
+`TL;DR` (0), appended `(NIV)` (0), banned in-page jump-nav (0), duplicate `<title>` (0),
+duplicate meta descriptions (0), sitemap accuracy (685 URLs, 0 dead), `<script src>`
+targets (all exist), image and stylesheet references (all exist), `_redirects` targets
+(all resolve), `getElementById` targets (all created by their own script — 5 apparent
+misses were idempotence guards, not bugs), viewport meta (all pages), `lang` attribute
+(all pages), and `<h1>` count (exactly one on every page — 0 pages with none, 0 with
+several).

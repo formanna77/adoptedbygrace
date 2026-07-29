@@ -711,11 +711,108 @@ console.log('\n━━━ CHECK 12: Critical-Path Payload ━━━');
 }
 
 // ═══════════════════════════════════════
+// CHECK 13: Every page must supply the typefaces its CSS demands
+// ═══════════════════════════════════════
+//
+// WHY THIS EXISTS (S194). /global.css has always demanded two typefaces it
+// does not supply — `body { font-family: 'Inter' }` and
+// `h1,h2,h3,h4 { font-family: 'Playfair Display' }` — with no @font-face and
+// no @import anywhere in it. The only source is a <link> to Google Fonts in
+// each page's <head>, and that link was on 325 of 687 pages.
+//
+// The other 362 rendered every heading in Times New Roman and every paragraph
+// in Arial. 347 of them were live articles: 56% of the corpus. The site had
+// two typographic identities, and which one a reader met depended on which
+// door they came through. Nothing detected it for months, because every other
+// check reads the HTML and the HTML was perfectly valid — the defect lived in
+// the gap between what the stylesheet asked for and what the page provided.
+//
+// The failure mode to catch is specifically the SILENT one: a page that warms
+// the connection to Google Fonts and then never requests a font. 340 pages
+// looked optimised and loaded nothing. So a preconnect without a matching
+// stylesheet is reported as its own error, not treated as coverage.
+console.log('\n━━━ CHECK 13: Web Font Delivery ━━━');
+{
+  const css = safeReadFileSync(path.join(ROOT, 'global.css')) || '';
+  const selfHosted = /@font-face/.test(css);
+  const demanded = [...new Set(
+    [...css.matchAll(/font-family:\s*'([^']+)'/g)].map(m => m[1])
+  )].filter(n => !/^(sans-serif|serif|monospace|system-ui)$/i.test(n));
+
+  const missing = [], warmedButUnused = [];
+
+  for (const f of fs.readdirSync(ROOT).filter(x => x.endsWith('.html'))) {
+    if (f === '_nav-template.html') continue;          // a fragment, not a page
+    const html = safeReadFileSync(path.join(ROOT, f));
+    if (!html) continue;
+    const hasFontCss = /fonts\.googleapis\.com\/css/.test(html) || /@font-face/.test(html);
+    if (hasFontCss || selfHosted) continue;
+    if (/preconnect|dns-prefetch/.test(html) && /fonts\.(googleapis|gstatic)/.test(html)) {
+      warmedButUnused.push(f);
+    } else {
+      missing.push(f);
+    }
+  }
+
+  const broken = missing.concat(warmedButUnused);
+  if (broken.length) {
+    console.log(`  ❌ ${broken.length} page(s) render in fallback fonts — global.css demands ${demanded.join(', ')} but the page supplies nothing:`);
+    if (warmedButUnused.length) {
+      console.log(`     ${warmedButUnused.length} of them preconnect to Google Fonts and never request one (silent failure):`);
+      warmedButUnused.slice(0, 8).forEach(f => console.log(`       ${f}`));
+    }
+    missing.slice(0, 8).forEach(f => console.log(`     ${f}`));
+    if (broken.length > 16) console.log(`     …and ${broken.length - 16} more`);
+    console.log('     FIX: run `node fix-missing-webfonts.js`');
+    errors++;
+  } else {
+    console.log(`  ✅ Every page supplies its typefaces (${demanded.join(', ')})`);
+  }
+
+  // ---- Undefined CSS custom properties -------------------------------------
+  // The same silent-failure class as the missing font link, one layer down.
+  // `font-family: var(--font-heading)` where --font-heading is never defined
+  // does NOT fall back to the h1-h4 rule; the declaration is invalid at
+  // computed-value time, and because font-family inherits, it resolves to the
+  // PARENT's font. The page looks almost right, which is why it survived.
+  // 127 declarations across global.css referenced three variables that were
+  // defined nowhere. No browser warns, no linter ran, no check looked.
+  // A var() WITH a fallback — var(--x, #000) — is deliberate and fine.
+  {
+    let allCss = css;
+    try {
+      for (const f of fs.readdirSync(path.join(ROOT, 'css'))) {
+        if (f.endsWith('.css')) allCss += safeReadFileSync(path.join(ROOT, 'css', f)) || '';
+      }
+    } catch { /* no css/ dir */ }
+
+    const defined = new Set([...allCss.matchAll(/(--[A-Za-z0-9_-]+)\s*:/g)].map(m => m[1]));
+    // Only flag var() calls with NO fallback: /var\(--x\)/ not /var\(--x, …\)/
+    const usedNoFallback = new Set(
+      [...allCss.matchAll(/var\((--[A-Za-z0-9_-]+)\s*\)/g)].map(m => m[1])
+    );
+    const undef = [...usedNoFallback].filter(v => !defined.has(v));
+
+    if (undef.length) {
+      console.log(`  ❌ ${undef.length} CSS custom propert(y/ies) used without a fallback and never defined:`);
+      undef.forEach(v => {
+        const n = (allCss.match(new RegExp(`var\\(${v}\\s*\\)`, 'g')) || []).length;
+        console.log(`     ${v} — ${n} declaration(s) silently dropped`);
+      });
+      console.log('     FIX: define it in :root, or give every call site a fallback: var(--x, #000)');
+      errors++;
+    } else {
+      console.log(`  ✅ All ${usedNoFallback.size} fallback-free CSS variables are defined`);
+    }
+  }
+}
+
+// ═══════════════════════════════════════
 // VERDICT — prints LAST, after every check. Do not move it up.
 // ═══════════════════════════════════════
 console.log('\n══════════════════════════════════');
 if (errors === 0 && warnings === 0) {
-    console.log('ALL 12 CHECKS PASSED — site integrity verified');
+    console.log('ALL 13 CHECKS PASSED — site integrity verified');
 } else {
     if (errors > 0) console.log(`${errors} ERROR(S) — must fix before finishing`);
     if (warnings > 0) console.log(`${warnings} WARNING(S) — should fix if possible`);

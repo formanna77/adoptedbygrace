@@ -195,6 +195,8 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /audit-prose.md                                     /404.html  410!
 /audit-titles.js                                    /404.html  410!
 /auto-linker.js                                     /404.html  410!
+/fix-skip-links.js                                   /404.html  410!
+/fix-missing-webfonts.js                             /404.html  410!
 /fix-script-payload.js                              /404.html  410!
 /strip-stale-nav-comment.js                         /404.html  410!
 /build-all-content.js                               /404.html  410!
