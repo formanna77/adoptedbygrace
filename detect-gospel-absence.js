@@ -159,20 +159,123 @@ function extractBody(html) {
   // the end), never blindly to the end — same lesson as above.
   const FURNITURE_HEADING =
     /^(keep reading|keep exploring|continue (the|your) (journey|study|investigation|exploration|reading)|related reading|next steps?|where to (go|next)|explore (further|more)|go deeper|dig deeper)\b/i;
-  const HEADING = /<h([23])\b[^>]*>([\s\S]*?)<\/h\1>/gi;
+  const HEADING = /<h([23])\b([^>]*)>([\s\S]*?)<\/h\1>/gi;
+  // S192 — a heading INSIDE a card is not a section boundary, it is the card's
+  // own title, and treating it as one is why this pass was failing silently.
+  // The excision runs from the furniture heading to the next NON-furniture
+  // heading; the decks under "Keep Reading" mark each card with
+  // `<h3 class="card-title">`, so the very first card ENDED the excision. On
+  // `apologetic-unreached` and `psychology-sunk-cost-faith` that left the whole
+  // deck standing and scored it as the catch. Decks whose cards happen to use
+  // `<h4>` were excised correctly, which is the only reason this looked like it
+  // worked at all.
+  const CARD_HEADING = /class="[^"]*(card-title|hub-card|related-article|journey|keep-reading)/i;
   const spans = [];
   let hm;
   while ((hm = HEADING.exec(body))) {
-    const label = hm[2].replace(/<[^>]*>/g, '').replace(/&[a-z]+;/gi, ' ').trim();
+    if (CARD_HEADING.test(hm[2])) continue;
+    const label = hm[3].replace(/<[^>]*>/g, '').replace(/&[a-z]+;/gi, ' ').trim();
     spans.push({ at: hm.index, end: HEADING.lastIndex, furniture: FURNITURE_HEADING.test(label) });
   }
+  // S192 — and the excision must be BOUNDED, or this pass deletes the sermon.
+  // `psychology-autonomy-illusion` closes with `<h2>Where to Go Next</h2>`, then
+  // a paragraph of links, and THEN its actual catch. With no heading after the
+  // furniture heading to stop at, this loop ran to end-of-body and cut the catch
+  // out — so the detector reported the page as landing on "they are stacked, in
+  // that order," a line that is not the page's ending at all. A furniture
+  // heading is not a promise that everything below it is furniture. Where no
+  // heading bounds the span, excise only the unbroken run of link-dominated
+  // elements and stop at the first one that is real prose.
+  const share = (s) => {
+    const t = (x) => x.replace(/<[^>]*>/g, ' ').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+    const tot = t(s).split(/\s+/).filter(Boolean).length;
+    if (!tot) return 1;
+    let inA = 0;
+    const A = /<a\s[^>]*>([\s\S]*?)<\/a>/gi;
+    let am;
+    while ((am = A.exec(s))) inA += t(am[1]).split(/\s+/).filter(Boolean).length;
+    return inA / tot;
+  };
   for (let i = spans.length - 1; i >= 0; i--) {
     if (!spans[i].furniture) continue;
-    let stop = body.length;
+    let stop = null;
     for (let j = i + 1; j < spans.length; j++) {
       if (!spans[j].furniture) { stop = spans[j].at; break; }
     }
+    if (stop === null) {
+      // no bounding heading — walk the top-level elements and stop at prose
+      const EL = /<(p|div|section|nav|aside|ul|ol|blockquote)\b[^>]*>/gi;
+      EL.lastIndex = spans[i].end;
+      stop = body.length;
+      let em, cursor = spans[i].end;
+      while ((em = EL.exec(body))) {
+        const nextEl = EL.lastIndex;
+        const chunk = body.slice(em.index, body.indexOf('>', nextEl - 1) === -1 ? body.length : nextEl);
+        void chunk;
+        // measure this element's whole subtree cheaply: to the next top-level open tag
+        const probe = new RegExp(`<(p|div|section|nav|aside|ul|ol|blockquote)\\b`, 'gi');
+        probe.lastIndex = nextEl;
+        const pm = probe.exec(body);
+        const segEnd = pm ? pm.index : body.length;
+        if (share(body.slice(em.index, segEnd)) < 0.45) { stop = em.index; break; }
+        cursor = segEnd;
+      }
+      if (stop === body.length) stop = Math.max(cursor, spans[i].end);
+    }
     body = body.slice(0, spans[i].at) + ' ' + body.slice(stop);
+  }
+
+  // S192 CORRECTION — THE THIRD PASS, AND IT IS THE ONE THAT DOES NOT ROT.
+  //
+  // The two passes above are both ALLOWLISTS: a list of container classes and a
+  // list of heading labels. An allowlist cannot see a name nobody put on it, and
+  // the corpus keeps inventing names. `letters-senior-demon-arminianism` closes
+  // with `<h2>Continue the Inversion</h2>` over a `class="related-grid"` card
+  // deck — a label in neither list and a class in neither list — so 380 words of
+  // pure card text were still being scored as that page's catch. Twenty-five
+  // more pages close under `<h2>Keep Going</h2>`. This is S191's lesson one turn
+  // further down: it is not enough to fix the span, the span has to be found by
+  // something that cannot be outvoted by a writer picking a fresh heading.
+  //
+  // So: measure the block instead of recognizing its name. Walk every container
+  // that opens in the body and ask what the text from there to the end is made
+  // of. A card deck is text that lives almost entirely INSIDE its own anchors;
+  // prose is not. Cut at the EARLIEST container whose suffix is three-plus links
+  // and at least 45% anchor text — earliest, because that is the top of the deck
+  // rather than somewhere in its middle.
+  //
+  // And one guard, which is the whole reason this is written as a suffix search
+  // and not a heading search. `the-fork` closes with its catch — "You were found
+  // before you were born," the Jeremiah 31:3 line — and THEN a six-card deck.
+  // Anchored at the heading, or at the container one step too far back, the cut
+  // takes the catch out with the cards and the page is scored as landing on
+  // nothing. So a suffix containing any paragraph of 25-plus words that is not
+  // inside an anchor is not furniture, however many cards follow it. That is the
+  // difference between excising the sitemap and deleting the sermon.
+  const txt = (s) => s.replace(/<[^>]*>/g, ' ').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+  const wc = (s) => (txt(s) ? txt(s).split(/\s+/).length : 0);
+  const CONTAINER = /<(div|section|nav|aside|ul)\b/gi;
+  const cuts = [];
+  let cm;
+  while ((cm = CONTAINER.exec(body))) cuts.push(cm.index);
+  for (const cut of cuts) {
+    const seg = body.slice(cut);
+    if ((seg.match(/<a\s[^>]*href=/gi) || []).length < 3) continue;
+    const total = wc(seg);
+    if (!total) continue;
+    let inA = 0;
+    const A = /<a\s[^>]*>([\s\S]*?)<\/a>/gi;
+    let am;
+    while ((am = A.exec(seg))) inA += wc(am[1]);
+    if (inA / total < 0.45) continue;
+    // the prose guard — never cut a paragraph the reader is meant to read
+    const outside = seg.replace(/<a\s[^>]*>[\s\S]*?<\/a>/gi, ' ');
+    const P = /<p\b[^>]*>([\s\S]*?)<\/p>/gi;
+    let pm, prose = false;
+    while ((pm = P.exec(outside))) if (wc(pm[1]) >= 25) { prose = true; break; }
+    if (prose) continue;
+    body = body.slice(0, cut);
+    break;
   }
 
   return body;
@@ -221,6 +324,7 @@ function scanFile(dir, file) {
     uniq,
     firstAt,
     tailHits,
+    tail,
   };
 }
 
@@ -229,6 +333,12 @@ function main() {
   const args = process.argv.slice(2);
   const single = args.find((a) => a.endsWith('.html'));
   const zeroOnly = args.includes('--zero');
+  // --queue: the whole NO LANDING queue, word count DESCENDING, nothing truncated.
+  // The kickoffs have asked every session since S190 to "work by word count
+  // descending"; the default report sorts by mentions-per-1k and cuts at 40, so
+  // that instruction could not actually be followed without this.
+  const queue = args.includes('--queue');
+  const closes = args.some((a) => a === '--closes' || a.startsWith('--closes='));
 
   const files = single
     ? [single]
@@ -259,6 +369,11 @@ function main() {
     console.log(`  first mention at ..... ${r.firstAt === null ? '(never)' : (r.firstAt * 100).toFixed(0) + '% through'}`);
     console.log(`  mentions in catch .... ${r.tailHits}  (final 20% — VOICE.md I.4)`);
     console.log('');
+    // S191's law: a detector that measures the wrong SPAN cannot see anything
+    // at all. So print the span. Never trust the verdict without reading it.
+    console.log('  --- THE MEASURED CATCH (final 20% of prose, furniture excised) ---\n');
+    console.log('  ' + r.tail.replace(/(.{92}\s)/g, '$1\n  ').trim() + '\n');
+    console.log('  ------------------------------------------------------------------\n');
     if (r.n === 0) console.log('  VERDICT: ABSENT. This page never reaches the Savior.\n');
     else if (r.tailHits === 0) console.log('  VERDICT: NO LANDING. Christ appears, but not in the catch.\n');
     else if (r.n <= 2) console.log('  VERDICT: THIN. Inspect whether the mention is load-bearing or a token.\n');
@@ -271,6 +386,36 @@ function main() {
   const zero = rows.filter((r) => r.n === 0);
   const noLanding = rows.filter((r) => r.n > 0 && r.tailHits === 0);
   const thin = rows.filter((r) => r.n > 0 && r.n <= 2 && r.tailHits > 0);
+
+  if (queue) {
+    const q = [...noLanding].sort((a, b) => b.words - a.words);
+    console.log(`\n  NO LANDING QUEUE — ${q.length} pages, word count descending\n`);
+    for (const r of q) {
+      const at = r.firstAt === null ? '--' : (r.firstAt * 100).toFixed(0) + '%';
+      console.log(
+        `  ${String(r.words).padStart(5)}w  ${String(r.n).padStart(2)} hits  first@${at.padStart(4)}  ${r.file}`
+      );
+    }
+    console.log('');
+    return;
+  }
+
+  // --closes: the LAST WORDS of every page on the queue, so the whole thing can
+  // actually be hand-read. The queue is triage, never verdict — most of these
+  // pages land on a Person by pronoun and are not defective at all — and the
+  // only way to tell a pronoun-landing from a proposition-landing is to read the
+  // sentence. This prints the sentence.
+  if (closes) {
+    const n = Number((args.find((a) => a.startsWith('--closes=')) || '').split('=')[1]) || 45;
+    const q = [...noLanding].sort((a, b) => b.words - a.words);
+    for (const r of q) {
+      const w = r.tail.split(/\s+/).filter(Boolean);
+      console.log(`\n${r.file}  (${r.words}w, ${r.n} hits)`);
+      console.log('  … ' + w.slice(-n).join(' '));
+    }
+    console.log('');
+    return;
+  }
 
   console.log('\n============================================================');
   console.log('  GOSPEL-ABSENCE SCAN — does the page arrive at the Savior?');

@@ -5,7 +5,7 @@
       "date": "2026-07-28",
       "sinceSession": 191
     },
-    "updated": "2026-07-28",
+    "updated": "2026-07-29",
     "note": "Historical seed from HTML markers is approximate (review-freshness, not pass/fail). source:\"stamp\" entries are exact.",
     "history": [
       {
@@ -81,10 +81,11 @@
       "source": "marker"
     },
     "analogy-song-you-didnt-compose.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 hand-found feeling-slip (VOICE XXIII)"
     },
     "analogy-the-prodigal-already-home.html": {
       "lastSession": 76,
@@ -341,10 +342,11 @@
       "source": "marker"
     },
     "apologetic-i-shall-lose-none.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "S192 targeted fix (image density / divine pronouns)"
     },
     "apologetic-i-will-move-you.html": {
       "lastSession": null,
@@ -414,10 +416,11 @@
       "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "apologetic-owen-trilemma.html": {
-      "lastSession": 72,
-      "voiceRef": "§XVI",
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 self-repeating close + integrity"
     },
     "apologetic-perseverance.html": {
       "lastSession": 58,
@@ -618,10 +621,11 @@
       "source": "marker"
     },
     "argument-logical-collapse-arminianism.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 hand-found feeling-slip (VOICE XXIII)"
     },
     "author.html": {
       "lastSession": null,
@@ -1388,10 +1392,11 @@
       "note": "sermon slip and crisis projection fixed; multiplied close pending"
     },
     "ephesians-1-3-14.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "S192 targeted fix (image density / divine pronouns)"
     },
     "ethics-abortion.html": {
       "lastSession": null,
@@ -1574,10 +1579,11 @@
       "source": "marker"
     },
     "history-heresy-foreknowledge.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 hand-found feeling-slip (VOICE XXIII)"
     },
     "history-heresy-free-will.html": {
       "lastSession": 58,
@@ -1744,10 +1750,11 @@
       "source": "marker"
     },
     "just-realized.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 gospel-landing + feeling-slip; catch derived from page's own image"
     },
     "letters-senior-demon-arminianism.html": {
       "lastSession": 58,
@@ -2080,10 +2087,11 @@
       "source": "marker"
     },
     "philosophy-gravity-of-grace.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 gospel-landing + feeling-slip; catch derived from page's own image"
     },
     "philosophy-i-found-jesus-t-shirt.html": {
       "lastSession": 58,
@@ -2159,10 +2167,11 @@
       "note": "literal markdown asterisks converted to em"
     },
     "philosophy-resistance-is-proof.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "S192 targeted fix (image density / divine pronouns)"
     },
     "philosophy-self-deception.html": {
       "lastSession": null,
@@ -2231,16 +2240,18 @@
       "source": "marker"
     },
     "psychology-autonomy-illusion.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 gospel-landing + feeling-slip; catch derived from page's own image"
     },
     "psychology-backfire-effect.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 gospel-landing + feeling-slip; catch derived from page's own image"
     },
     "psychology-cognitive-biases.html": {
       "lastSession": null,
@@ -2311,10 +2322,11 @@
       "source": "marker"
     },
     "psychology-language-you-already-speak.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 gospel-landing + feeling-slip; catch derived from page's own image"
     },
     "psychology-offense-of-grace.html": {
       "lastSession": 191,
@@ -2560,10 +2572,11 @@
       "source": "marker"
     },
     "question-free-offer-of-the-gospel.html": {
-      "lastSession": 106,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 hand-found feeling-slip (VOICE XXIII)"
     },
     "question-free-will-bible-verses.html": {
       "lastSession": 58,
@@ -2700,10 +2713,11 @@
       "source": "marker"
     },
     "question-pharaoh-hardened.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 gospel-landing + feeling-slip; catch derived from page's own image"
     },
     "question-predestined-to-hell.html": {
       "lastSession": 94,
@@ -2754,10 +2768,11 @@
       "source": "marker"
     },
     "question-secure.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 self-repeating close + integrity"
     },
     "question-seven-questions.html": {
       "lastSession": 58,
@@ -2815,16 +2830,18 @@
       "source": "marker"
     },
     "question-what-is-the-gospel.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "unknown",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 hand-found feeling-slip (VOICE XXIII)"
     },
     "question-what-must-i-do-to-be-saved.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "unknown",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 gospel-landing + feeling-slip; catch derived from page's own image"
     },
     "question-where-did-your-faith-come-from.html": {
       "lastSession": 67,
@@ -2941,10 +2958,11 @@
       "source": "marker"
     },
     "response-roger-olson.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 self-repeating close + integrity"
     },
     "response-sbc-traditional-statement.html": {
       "lastSession": 58,
@@ -3326,10 +3344,11 @@
       "source": "marker"
     },
     "story-thought-the-machine-that-asked-why.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 gospel-landing + feeling-slip; catch derived from page's own image"
     },
     "systematic-adoption.html": {
       "lastSession": null,
@@ -3386,11 +3405,11 @@
       "source": "marker"
     },
     "systematic-covenant-works.html": {
-      "lastSession": 191,
+      "lastSession": 192,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "S191 gospel-landing + feeling-slip sweep"
+      "note": "S192 self-repeating close + integrity"
     },
     "systematic-divine-decrees.html": {
       "lastSession": null,
@@ -3453,10 +3472,11 @@
       "source": "marker"
     },
     "systematic-ordo-salutis.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 self-repeating close + integrity"
     },
     "systematic-perseverance.html": {
       "lastSession": null,
@@ -3683,10 +3703,11 @@
       "source": "marker"
     },
     "theologian-luther.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 192,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S192 hand-found feeling-slip (VOICE XXIII)"
     },
     "theologian-machen.html": {
       "lastSession": null,

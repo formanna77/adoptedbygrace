@@ -472,4 +472,74 @@ for (const [t, files] of dupes) {
 }
 if (heroIssues === 0) ok('Hero subtitles correctly classed; no duplicate <title>');
 
+// ─────────────────────────────────────────────────────────────────────────────
+// CHECK 10: Inline style= ATTRIBUTES inside prose bodies — a one-way ratchet.
+//
+// CHECK 8 polices inline <style> TAGS. It has never looked at style= attributes,
+// so those went entirely unpoliced, and 236 prose pages have accumulated 733 of
+// them — whole card grids styled by hand inside <article class="article-body">
+// (`psychology-why-we-resist`, `psychology-emotional-vs-rational`, and the worst
+// offender, `secular-genetics-sovereignty`, at 58).
+//
+// That backlog is too large to sweep in one session and too easy to grow in one
+// edit. So this check is deliberately NOT a zero-tolerance rule: it is a budget.
+// Every page's current count is recorded in archive/inline-style-budget.json,
+// and the check fails if any page goes ABOVE its recorded number, or if a page
+// with no entry introduces one. Counts may only fall. When they fall, re-baseline
+// with `node validate-site.js --rebaseline-styles` and the ceiling drops with
+// them — the debt can shrink and can never quietly grow back.
+console.log('\n━━━ CHECK 10: Inline style= Attributes (ratchet) ━━━');
+const BUDGET_PATH = path.join(ROOT, 'archive', 'inline-style-budget.json');
+const countInlineStyles = (c) => {
+  const s = c.indexOf('<article class="article-body">');
+  if (s === -1) return null;
+  let e = c.lastIndexOf('</article>');
+  if (e < s) e = c.length;
+  const body = c
+    .slice(s, e)
+    .replace(/<!-- RELATED-ARTICLES-START -->[\s\S]*?<!-- RELATED-ARTICLES-END -->/g, '');
+  return (body.match(/\sstyle="/g) || []).length;
+};
+const current = {};
+for (const f of fs.readdirSync(ROOT)) {
+  if (!f.endsWith('.html') || IGNORE_FILES.has(f)) continue;
+  const c = safeReadFileSync(path.join(ROOT, f));
+  if (!c) continue;
+  const n = countInlineStyles(c);
+  if (n !== null && n > 0) current[f] = n;
+}
+if (process.argv.includes('--rebaseline-styles')) {
+  fs.writeFileSync(BUDGET_PATH, JSON.stringify(current, null, 2) + '\n');
+  ok(`re-baselined: ${Object.keys(current).length} pages, ${Object.values(current).reduce((a, b) => a + b, 0)} attributes`);
+} else {
+  let budget = {};
+  try {
+    budget = JSON.parse(fs.readFileSync(BUDGET_PATH, 'utf8'));
+  } catch {
+    budget = null;
+  }
+  if (!budget) {
+    fs.writeFileSync(BUDGET_PATH, JSON.stringify(current, null, 2) + '\n');
+    ok(`budget file created: ${Object.keys(current).length} pages, ${Object.values(current).reduce((a, b) => a + b, 0)} attributes`);
+  } else {
+    let over = 0;
+    for (const [f, n] of Object.entries(current)) {
+      const cap = budget[f] || 0;
+      if (n > cap) {
+        error(`${f} — ${n} inline style= attributes in the prose body, budget is ${cap}. Move the rules to /global.css.`);
+        over++;
+      }
+    }
+    const total = Object.values(current).reduce((a, b) => a + b, 0);
+    const capTotal = Object.values(budget).reduce((a, b) => a + b, 0);
+    if (over === 0) {
+      ok(
+        `no page over budget (${total} attributes across ${Object.keys(current).length} pages` +
+          (total < capTotal ? `; down ${capTotal - total} — run --rebaseline-styles to lower the ceiling` : '') +
+          ')'
+      );
+    }
+  }
+}
+
 process.exit(errors > 0 ? 1 : 0);
