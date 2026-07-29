@@ -283,53 +283,27 @@ nav[aria-label="Main navigation"].scrolled {
     from { opacity: 0; transform: translateY(-8px); }
     to { opacity: 1; transform: translateY(0); }
 }
-.mega-menu-inner { max-width: 1200px; margin: 0 auto; padding: 2rem 2rem 1.5rem; }
 .mega-menu-header { text-align: center; margin-bottom: 1.8rem; }
-.mega-menu-title {
-    font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700;
-    color: var(--accent-gold); margin: 0 0 0.3rem; letter-spacing: 0.02em;
-}
 .mega-menu-subtitle { font-size: 0.85rem; color: var(--text-secondary); margin: 0; }
-
-/* Grid of category cards */
-.mega-menu-grid {
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.8rem;
-}
 .mega-menu-card {
     display: flex; align-items: flex-start; gap: 0.8rem; padding: 1rem;
     background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.08);
     border-radius: 10px; text-decoration: none; transition: all 0.25s ease;
 }
-.mega-menu-card:hover {
-    border-color: rgba(212, 162, 84, 0.3); background: var(--bg-card-hover);
-    transform: translateY(-2px); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-}
 .mega-menu-icon { font-size: 1.6rem; flex-shrink: 0; line-height: 1; margin-top: 0.1rem; }
-.mega-menu-card-text { display: flex; flex-direction: column; gap: 0.2rem; min-width: 0; }
 .mega-menu-card-title {
     font-weight: 700; font-size: 0.9rem; color: var(--text-primary);
     letter-spacing: 0.01em;
-}
-.mega-menu-card-desc {
-    font-size: 0.78rem; color: var(--text-secondary); line-height: 1.4;
 }
 .mega-menu-card-count {
     font-size: 0.68rem; color: var(--accent-gold); font-weight: 600;
     text-transform: uppercase; letter-spacing: 0.08em; margin-top: 0.15rem;
 }
-
-/* Footer row */
-.mega-menu-footer {
-    display: flex; justify-content: center; gap: 2rem; margin-top: 1.5rem;
-    padding-top: 1rem; border-top: 1px solid rgba(212, 162, 84, 0.1);
-}
 .mega-menu-footer-link {
     font-size: 0.8rem; color: var(--text-secondary); text-decoration: none;
     font-weight: 600; transition: color 0.25s ease;
 }
-.mega-menu-footer-link:hover { color: var(--accent-gold); }
 .mega-menu-footer-best { color: var(--accent-ember); }
-.mega-menu-footer-best:hover { color: var(--accent-gold); }
 
 /* ===== DESKTOP MODE (≥1181px) ===== */
 /* Below 1181px the inline links + wordmark cannot coexist without overlap,
@@ -631,28 +605,14 @@ a.mega-menu-hub-link:hover .mega-menu-hub-arrow {
     transition: all 0.2s ease;
 }
 
-.mega-menu-sub-link:last-child {
-    border-bottom: none;
-}
-
 .mega-menu-sub-link:hover {
     padding-left: 0.5rem;
-}
-
-.mega-menu-sub-name {
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: var(--text-primary);
 }
 
 .mega-menu-sub-desc {
     font-size: 0.78rem;
     color: var(--text-secondary);
     margin-top: 0.15rem;
-}
-
-.mega-menu-sub-link:hover .mega-menu-sub-name {
-    color: var(--accent-gold);
 }
 
 .mega-menu-view-all {
@@ -689,11 +649,6 @@ a.mega-menu-hub-link:hover .mega-menu-hub-arrow {
     margin-bottom: 1rem;
     padding-bottom: 0.8rem;
     border-bottom: 1px solid rgba(212, 162, 84, 0.1);
-}
-
-.mega-menu-subcat-icon {
-    font-size: 0.95rem;
-    flex-shrink: 0;
 }
 
 .mega-menu-subcat-name {

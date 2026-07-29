@@ -127,10 +127,60 @@ node wire-orphans.js
 
 Then run `node validate-site.js` and fix anything it flags.
 
-**`validate-site.js` now runs eleven checks (CHECK 11 added S193).** Two hardenings landed that session and must not be softened:
+**`validate-site.js` now runs FOURTEEN checks (CHECK 12, 13 + 14 added S194).** Four hardenings are load-bearing and must not be softened:
+
+- **The VERDICT prints LAST. Never move it up.** Until S194 the banner `ALL CHECKS PASSED — site integrity verified` printed at line ~299, *before CHECKS 7–11 ran a single line.* Every check added after CHECK 6 had been appended *below* the verdict, so the gate grew from six checks to eleven while its headline kept reporting on six. The exit code was always correct; nobody reads exit codes. Sessions read the banner — and closed on a green light that had never looked at whether internal files were publicly served or whether prose links had re-duplicated. **If you add CHECK 14, add it ABOVE the verdict block.**
+- **CHECK 12 — critical-path payload.** Fails on any duplicate `<script src>` and on `/nav.js`, `/scripture-niv.js` or `/content-manifest.js` loading without `defer`. Eleven checks guarded what the page *says*; nothing guarded whether it *arrives*. `nav.js` (184 KB, 81% of it a static menu blob) was render-blocking on all 687 pages. **It strips HTML comments before counting** — a commented-out `<script>` is byte-identical to a live one under grep, and 86 pages carried exactly that. Fix: `node fix-script-payload.js`.
+- **CHECK 13 — web font delivery + undefined CSS variables.** See PRESENTATION INTEGRITY below. Fix: `node fix-missing-webfonts.js`.
 
 - **CHECK 7 is deny-by-default.** It used to gate only four extensions (`.md .js .txt .json`) and let everything else through — which is how 27 internal files totalling 28 MB were being served, including six Netlify deploy zips, eight `.backup` copies of live pages, and `RE-FORMED.pdf`, the real-name testimony the anonymization had removed from the HTML but never from disk. Now **every** root file is internal unless it is on `PUBLIC_EXACT` (or is `.html`/`.css`/a runtime `.js`). Adding a new public deliverable means adding it to that list on purpose.
 - **CHECK 11 enforces one prose link per concept.** CLAUDE.md has always said "first mention gets the link," and nothing enforced it: CHECK 1 only ever asked whether a link *resolves*. 5,047 duplicate anchors had accumulated across 542 pages (worst: `/compare-calvinism-molinism` linked 62 times on one page). The cause was `auto-linker.js` seeding its `linkedUrls` set empty on every run, so each session's pipeline linked the next still-unlinked occurrence. **The linker now seeds from the hrefs already in the file and is idempotent** — repeat runs add zero. It also aborts if any `url:` in its keyword map points at a page that does not exist. If CHECK 11 ever fails, run `node dedupe-prose-links.js`.
+
+---
+
+## PRESENTATION INTEGRITY — the page must RENDER, not merely validate
+
+**Added S194 (2026-07-29), because this category did not exist and its absence cost the site more than any prose defect ever has.**
+
+Before this section, CLAUDE.md and VOICE.md between them contained **zero occurrences of the word "font"** — 21,000 words of law governing what a page says, argues, links and never says, and not one line requiring it to *look* like itself. That gap is not academic. It is why the following survived for months with every check passing:
+
+**`global.css` demands two typefaces it does not supply.** `body { font-family: 'Inter' }` and `h1,h2,h3,h4 { font-family: 'Playfair Display' }`, with no `@font-face` and no `@import` anywhere in the stylesheet. The only source is a Google Fonts `<link>` in each page's `<head>` — and that link was present on **325 of 687 pages.** The other 362 rendered every heading in Times New Roman and every paragraph in Arial. **347 of them were live articles: 56% of the corpus.** The site had two typographic identities and which one a reader met depended on which door they came through.
+
+The fingerprint is instructive: **340 of those 362 pages carried `<link rel="preconnect" href="https://fonts.googleapis.com">` and never requested a font.** An automated performance pass had added connection warm-ups for a stylesheet that was not there — optimising the loading of nothing, on more than half the site. Every existing check read the HTML, and the HTML was *perfectly valid.* The defect lived in the gap between what the stylesheet asked for and what the page provided, and nothing was looking at that gap.
+
+**The same failure, one layer down:** `--font-heading`, `--font-body` and `--font-mono` were referenced **127 times** in `global.css` and defined in no `:root` block. This does not fail the way it appears to — an undefined custom property makes its declaration *invalid at computed-value time*, and `font-family` is an **inherited** property, so `font-family: var(--font-heading)` did **not** fall through to the `h1-h4` rule. It silently became `inherit` and took the *parent's* font. 28 live rules were affected.
+
+### The laws
+
+1. **Every page must supply every typeface its CSS demands.** Enforced by CHECK 13. A `preconnect` to a font host with no matching stylesheet is counted as a failure, not as coverage — that is the silent form and it is the form that actually occurred.
+2. **Never `var(--x)` without either a `:root` definition or an inline fallback.** `var(--x, #000)` is deliberate and fine. A bare `var()` on an undefined property fails *silently and misleadingly*, resolving to `inherit` rather than to the rule you expect to win. Enforced by CHECK 13.
+3. **A check you have never seen fail is not a check.** CHECK 13 was verified by deleting `--font-mono` from `:root`, confirming the validator reported `100 declaration(s) silently dropped`, and restoring it. Do this for every check you add.
+4. **Page weight is a doorway, not a nicety.** All JavaScript is off the critical path as of S194 (`defer` everywhere; homepage blocking payload ~1,000 KB → 348 KB). Enforced by CHECK 12. We can out-argue every peer site on the page and still lose the reader who never got to the page.
+
+### Repair scripts (all idempotent — safe to re-run, inert on a clean corpus)
+
+```bash
+node fix-script-payload.js        # defer heavy JS; de-duplicate <script> tags   (CHECK 12)
+node fix-missing-webfonts.js      # restore the font <link> + gstatic preconnect  (CHECK 13)
+node fix-skip-links.js            # skip-to-content + #main-content anchor (WCAG 2.4.1)
+node strip-stale-nav-comment.js   # remove the pasted CANONICAL NAV TEMPLATE comment
+```
+
+---
+
+## THE LITERAL-STRING TRAP — read before changing any markup
+
+**This codebase is held together by literal substring matches across 21 files.** `build-tags.js`, `build-all-content.js`, `build-homepage-counts.js`, `dedupe-prose-links.js`, `share-bar.js` (a *runtime* script), every `detect-*.js` and `audit-*.js`, and `validate-site.js` CHECK 11 all match the exact string:
+
+```
+<article class="article-body"
+```
+
+In S194 a change wrote `<article id="main-content" class="article-body">` — semantically identical HTML, indistinguishable in a browser. **The canonical article count fell from 618 to 89, and `validate-site.js` still reported every check passing,** because CHECK 11 does `if (open === -1) continue` and simply skipped the 529 pages it could no longer parse. Caught before the pipeline ran; fixed by writing the `id` *after* the class.
+
+**So: before altering any markup those scripts key on — the `<article>` open tag, `class="article-body"`, `footer-grace-warning`, `page-hero`, `eyebrow` — grep for who consumes it.** A change that is cosmetically identical is not necessarily identical to a substring match. Related trap, same session: `/<!--[^]*?MARKER[^]*?-->/` looks like it matches one comment and does not — it anchors on the *earliest* `<!--` in the file and expands across everything between. Use `(?:(?!-->)[^])*?` so the match cannot cross a comment boundary.
+
+**Known quirk:** `contact.html`, `donate.html` and `sitemap.html` are written `id`-before-`class` and are therefore invisible to all 21 scripts. They are utility pages that belong outside the article index, so this is correct — but do not "normalise" them, or the canonical count silently changes.
 
 ---
 

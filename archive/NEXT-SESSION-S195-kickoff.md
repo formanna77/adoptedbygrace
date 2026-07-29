@@ -71,9 +71,27 @@ The Diamond Pass stands: **build nothing new; perfect what exists.** Run `node d
 
 ---
 
+## INSERTED BY THE S194-INFRA RUN (2026-07-29) — read this before Priority 0
+
+A separate, infrastructure-only session ran after this kickoff was written. **It edited no prose and no argument.** Full record: `archive/S194-forensic-audit-and-fix-order.md`. Four things above change what you should do:
+
+1. **The validator now runs FOURTEEN checks, and its verdict prints LAST.** It used to print `ALL CHECKS PASSED` after CHECK 6, before CHECKS 7–11 had run — so every session for months closed on a green banner that had seen 6 of 11 checks. New: **CHECK 12** (critical-path payload), **CHECK 13** (web fonts + undefined CSS vars), **CHECK 14** (the article-tag literal contract). If you add CHECK 15, add it *above* the verdict block.
+
+2. **Watch item 1 below is now ENFORCED, and it was worse than "harmless today."** In the shipped corpus **11 pages** carried `id`-before-`class` on the article tag — invisible to all 21 scripts since the day they were written, and therefore never counted, never audited, never linted. They have been normalised. **CHECK 14 fails the build if it ever recurs.** If you need an anchor on an article, put it on a sibling: `<span id="main-content" tabindex="-1"></span>`. Never on that tag. (`contact`/`donate`/`sitemap` remain `id`-first *on purpose* — utility pages deliberately outside the article index.)
+
+3. **CHECK 10 was re-baselined 224/639 → 235/724, and this was NOT the ratchet loosening.** Those 11 newly-visible pages brought 85 pre-existing inline style attributes into view for the first time. The debt was always there; it is now counted. Do not raise it further.
+
+4. **Presentation is now law.** CLAUDE.md has a new **PRESENTATION INTEGRITY** section and a **LITERAL-STRING TRAP** section. Read both. The short version: `global.css` demanded Playfair Display and Inter and supplied neither, and **362 pages — 347 of them live articles — had been rendering in Times New Roman and Arial.** Separately, `--font-heading`/`--font-body`/`--font-mono` were used 127 times and defined nowhere, which fails *silently* by resolving to `inherit` rather than to the rule you expect. Both fixed; both now enforced.
+
+**The big remaining infrastructure job is the `global.css` critical-CSS split** — 348 KB of blocking CSS is now the entire critical path, since all JS is deferred. It was deliberately NOT attempted with a low compute budget: its failure mode is all 687 pages rendering broken with no visual regression test in the repo. Take it only with a full budget, and finish it. Do not bulk-prune `global.css`: a conservative analysis found only 36 KB confidently dead across ~150 scattered families — poor payoff, catastrophic downside. The one genuinely dead family (obsolete v2 mega-menu) was already removed.
+
+**Repair scripts, all idempotent:** `fix-script-payload.js`, `fix-missing-webfonts.js`, `fix-skip-links.js`, `strip-stale-nav-comment.js`.
+
+---
+
 ## WATCH ITEMS
 
-1. **21 scripts still use the brittle exact-match** `includes('<article class="article-body">')`. Harmless today (only 3 pages carry an attribute on that tag); it will lie the moment a fourth does. A sweep to regex is a genuine debt.
+1. ~~**21 scripts still use the brittle exact-match** `includes('<article class="article-body">')`. Harmless today (only 3 pages carry an attribute on that tag); it will lie the moment a fourth does.~~ **SUPERSEDED — see inserted item 2 above.** It was not 3 pages, it was 11, and they had been dark for their whole lives. CHECK 14 now holds the contract. **The underlying debt is still real: those 21 scripts should be swept to a tolerant regex.** Until then, CHECK 14 is the guardrail, not the cure.
 2. **171 pages carry a lock but no session tag** in `archive/coverage.js` — assign one on next touch.
 3. **CHECK 10 was re-baselined in S194** (733 → 639 attributes, 224 pages). The ratchet ceiling is now lower; do not raise it.
 4. `detect-feeling-slip.js` remains ~triage. **The hand-read obligation is permanent** — every session since S186 has found slips the detector cannot see, and the closing catch is still the densest slip real-estate on the site.

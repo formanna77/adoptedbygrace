@@ -534,6 +534,16 @@ if (heroIssues === 0) ok('Hero subtitles correctly classed; no duplicate <title>
 // with no entry introduces one. Counts may only fall. When they fall, re-baseline
 // with `node validate-site.js --rebaseline-styles` and the ceiling drops with
 // them — the debt can shrink and can never quietly grow back.
+//
+// S194 RE-BASELINE, 224/639 → 235/724. This is the one case where the ceiling
+// legitimately ROSE, and the reason must be recorded or a future session will
+// read it as the ratchet being loosened. It was not. `countInlineStyles` finds
+// the prose body with the STRICT literal `<article class="article-body">`, and
+// 11 pages had shipped with `id`-before-`class` on that tag — invisible to this
+// check, and to the other 20 scripts that use the same literal, since the day
+// they were written. S194 normalised the attribute order, and 85 pre-existing
+// inline style attributes on 11 pages became visible for the first time.
+// The debt was always there. It is now counted. CHECK 14 keeps it countable.
 console.log('\n━━━ CHECK 10: Inline style= Attributes (ratchet) ━━━');
 const BUDGET_PATH = path.join(ROOT, 'archive', 'inline-style-budget.json');
 const countInlineStyles = (c) => {
@@ -808,11 +818,63 @@ console.log('\n━━━ CHECK 13: Web Font Delivery ━━━');
 }
 
 // ═══════════════════════════════════════
+// CHECK 14: The article-tag literal contract
+// ═══════════════════════════════════════
+//
+// WHY THIS EXISTS (S194). 21 scripts — build-tags, build-homepage-counts,
+// dedupe-prose-links, every detect-*/audit-*, CHECK 11 here, and the RUNTIME
+// share-bar.js — locate article content with the literal string
+//
+//     <article class="article-body">
+//
+// including the trailing '>'. Adding any attribute to that tag makes the page
+// invisible to all of them at once. This is not hypothetical: a skip-link pass
+// wrote `<article class="article-body" id="main-content">` — semantically
+// identical HTML, indistinguishable in a browser — and 560 of 618 pages
+// vanished from the corpus. build-tags reported a plausible count because it
+// happens to carry a second, tolerant matcher. Nothing else did.
+//
+// The truly dangerous part: the validator still printed ALL CHECKS PASSED,
+// because CHECK 11 does `if (open === -1) continue` and simply skipped every
+// page it could no longer parse. A silent contract, silently broken, silently
+// reported clean.
+//
+// The real repayment is to make all 21 scripts tolerant. Until someone does
+// that, this check holds the contract: the count of pages matching the STRICT
+// literal must equal the count matching the tolerant prefix.
+console.log('\n━━━ CHECK 14: Article-Tag Literal Contract ━━━');
+{
+  const STRICT = '<article class="article-body">';
+  const LOOSE = '<article class="article-body"';
+  const invisible = [];
+
+  for (const f of fs.readdirSync(ROOT).filter(x => x.endsWith('.html'))) {
+    const html = safeReadFileSync(path.join(ROOT, f));
+    if (!html) continue;
+    if (html.includes(LOOSE) && !html.includes(STRICT)) invisible.push(f);
+  }
+
+  if (invisible.length) {
+    console.log(`  ❌ ${invisible.length} page(s) carry an attribute on the article tag and are INVISIBLE to 21 scripts:`);
+    invisible.slice(0, 10).forEach(f => console.log(`     ${f}`));
+    if (invisible.length > 10) console.log(`     …and ${invisible.length - 10} more`);
+    console.log(`     The tag must read exactly: ${STRICT}`);
+    console.log('     Need an anchor? Put it on a sibling, not on this tag:');
+    console.log('       <span id="main-content" tabindex="-1"></span>');
+    console.log('     (contact/donate/sitemap are id-first ON PURPOSE — utility pages');
+    console.log('      deliberately outside the article index. Do not "normalise" them.)');
+    errors++;
+  } else {
+    console.log('  ✅ Article tag literal intact on every page — all 21 consumers see the full corpus');
+  }
+}
+
+// ═══════════════════════════════════════
 // VERDICT — prints LAST, after every check. Do not move it up.
 // ═══════════════════════════════════════
 console.log('\n══════════════════════════════════');
 if (errors === 0 && warnings === 0) {
-    console.log('ALL 13 CHECKS PASSED — site integrity verified');
+    console.log('ALL 14 CHECKS PASSED — site integrity verified');
 } else {
     if (errors > 0) console.log(`${errors} ERROR(S) — must fix before finishing`);
     if (warnings > 0) console.log(`${warnings} WARNING(S) — should fix if possible`);
