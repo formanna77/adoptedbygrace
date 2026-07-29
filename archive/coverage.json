@@ -16,6 +16,15 @@
         "behind": 408,
         "unknown": 194,
         "remaining": 602
+      },
+      {
+        "session": 194,
+        "date": "2026-07-29",
+        "total": 587,
+        "atCurrent": 47,
+        "behind": 369,
+        "unknown": 171,
+        "remaining": 540
       }
     ]
   },
@@ -361,10 +370,11 @@
       "source": "marker"
     },
     "apologetic-light-shine-out-of-darkness.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 194,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "Ps 110:3 non-NIV hedge replaced with NIV + nedavot"
     },
     "apologetic-loved-darkness-rather-than-light.html": {
       "lastSession": null,
@@ -1373,10 +1383,11 @@
       "source": "marker"
     },
     "devotional-you-were-wanted-before-you-were.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 194,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "Eph 1:4 'in him' + 1:7 lavished-beside-blood catch; slip cleared; card deck off the ending"
     },
     "devotional-your-name-in-the-book.html": {
       "lastSession": 58,
@@ -1399,10 +1410,11 @@
       "note": "S192 targeted fix (image density / divine pronouns)"
     },
     "ethics-abortion.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 194,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "she-is-the-objection heading fixed; Acts 22:20 guarding-the-coats correction"
     },
     "ethics-end-of-life.html": {
       "lastSession": null,
@@ -1610,10 +1622,11 @@
       "source": "marker"
     },
     "history-open-theism.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 194,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "spine non sequitur replaced by the petition argument; Molinism dilemma both horns; John 18:4 catch"
     },
     "history-puritans.html": {
       "lastSession": null,
@@ -1928,10 +1941,11 @@
       "source": "marker"
     },
     "open-wound-the-prayer-god-didnt-answer.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 194,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "closed the cruel Rom 8:26 inference; triple close collapsed; link off the money line"
     },
     "ot-abel-cain.html": {
       "lastSession": 58,
@@ -2892,10 +2906,11 @@
       "source": "marker"
     },
     "reformed-apologetics-moral-argument.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 194,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "reader turned from spectator to defendant; Mackie corrected; Street's dilemma; Euthyphro relocation answered; Name landed"
     },
     "reformed-apologetics-resurrection.html": {
       "lastSession": null,
@@ -3140,10 +3155,11 @@
       "source": "marker"
     },
     "shattered-lens-taught-wrong.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 194,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "four feeling-slips cleared; orphaned night cut; heading resynced; 5-beat close collapsed to Christ"
     },
     "shattered-lens-when-prayer-stopped-working.html": {
       "lastSession": 70,
@@ -3764,6 +3780,13 @@
       "voiceRef": null,
       "status": "seeded",
       "source": "marker"
+    },
+    "theologian-owen.html": {
+      "lastSession": 194,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "Rom 8:30 aorist not perfect; ten small graves not eleven; bolted-on pivot cut; container closed"
     }
   }
 }

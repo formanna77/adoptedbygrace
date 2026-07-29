@@ -33,7 +33,9 @@ Cold-read **5–10 pages live** against the landing-force and sapiential bar —
 
 ## PRIORITY 1 — THE 54 UNDER-LINKED PAGES
 
-The dedupe made a **pre-existing** shortfall visible: 54 article pages now sit below the CLAUDE.md floor of 8–12 internal prose links. (Deduplication cannot lower a unique-target count — these pages were always thin; the repeats were hiding it.)
+The dedupe made a **pre-existing** shortfall visible: 54 article pages sit below the CLAUDE.md floor of 8–12 internal prose links. (Deduplication cannot lower a unique-target count — these pages were always thin; the repeats were hiding it.)
+
+**Two of the 54 are utility pages and are exempt** — `terms` (0 links) and `privacy` (1). Do not pad them. **The real queue is 52.**
 
 Worst offenders, at **3 unique links**: `apologetic-light-shine-out-of-darkness`, `reformed-apologetics-moral-argument`. Then at 4: `apologetic-the-lord-knows-those-who-are-his`, `devotional-the-quiet-after-the-storm`, `devotional-you-were-wanted-before-you-were`, `ethics-abortion`, `presuppositional-borrowed-capital`, `reformed-apologetics-resurrection`, `reformed-apologetics-transcendental`, `testimony-spurgeon`.
 
