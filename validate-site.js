@@ -294,16 +294,28 @@ if (fs.existsSync(cssPath)) {
 }
 
 // ═══════════════════════════════════════
-// SUMMARY
+// (interim tally — CHECKS 1-6 only; the VERDICT is at the bottom of this file)
 // ═══════════════════════════════════════
-console.log('\n══════════════════════════════════');
-if (errors === 0 && warnings === 0) {
-    console.log('🎉 ALL CHECKS PASSED — site integrity verified');
-} else {
-    if (errors > 0) console.log(`❌ ${errors} ERROR(S) — must fix before finishing`);
-    if (warnings > 0) console.log(`⚠️  ${warnings} WARNING(S) — should fix if possible`);
-}
-console.log('══════════════════════════════════\n');
+//
+// WHY THIS IS NOT THE SUMMARY (S194, 2026-07-29).
+//
+// This spot used to print "ALL CHECKS PASSED — site integrity verified" inside
+// a banner box — and it printed it HERE, at line ~299, before CHECKS 7 through
+// 11 had run a single line. Every check added after CHECK 6 was appended BELOW
+// the verdict instead of before it, so the gate grew from six checks to eleven
+// while its headline kept reporting on six.
+//
+// The exit code was always correct (process.exit at the bottom sees every
+// error), but no human reads an exit code. Sessions read the banner. So the
+// last thing a session saw before closing was a green "site integrity
+// verified" that had never looked at whether internal files were publicly
+// served, whether an inline <style> had escaped the allowlist, or whether
+// prose links had re-duplicated — 45% of the gate, reported as clean by a
+// banner that could not have known.
+//
+// The rule from here: the VERDICT prints last, after the final check, always.
+// Anything printed mid-file is a progress tally and must say so.
+console.log(`\n── checks 1-6 complete (${errors} error(s), ${warnings} warning(s) so far) ──`);
 
 
 // ============================================================
@@ -629,5 +641,85 @@ console.log('\n━━━ CHECK 11: One Prose Link Per Concept ━━━');
     console.log('  ✅ Every concept linked once per page; first mention preserved');
   }
 }
+
+// ═══════════════════════════════════════
+// CHECK 12: Critical-path payload — a one-way ratchet
+// ═══════════════════════════════════════
+//
+// WHY THIS EXISTS (S194). Eleven checks guarded what the page SAYS. Nothing
+// guarded whether the page ARRIVES. Two defects had gone site-wide unseen:
+//
+//   * /nav.js — 184 KB, 81% of it the static MEGA_MENU_DATA blob — was
+//     render-BLOCKING on all 687 pages. Every reader waited on a navigation
+//     menu they had not asked to open before the first sentence painted.
+//   * 41 pages, index.html among them, loaded /nav.js and /ux-enhancements.js
+//     TWICE — 199 KB re-fetched and nav init run twice per pageview.
+//
+// The mission is reach. A page that out-argues Desiring God and loads in six
+// seconds on cellular loses to a page that says less and loads in one, because
+// the reader is gone before the argument starts. Page weight is not a
+// nicety here; it is the doorway. So it is now enforced, not remembered.
+console.log('\n━━━ CHECK 12: Critical-Path Payload ━━━');
+{
+  // Big enough to matter on the critical path; these must never block paint.
+  const MUST_DEFER = ['/nav.js', '/scripture-niv.js', '/content-manifest.js'];
+  const dupes = [];
+  const blocking = [];
+
+  for (const f of fs.readdirSync(ROOT).filter(x => x.endsWith('.html'))) {
+    const raw = safeReadFileSync(path.join(ROOT, f));
+    if (!raw) continue;
+
+    // Strip HTML comments FIRST. A commented-out <script src="/nav.js"> is
+    // dead markup the browser never fetches, but it is byte-for-byte identical
+    // to a live tag under grep — and 86 pages carried exactly that inside a
+    // pasted nav-template block. Counting them produced a confident, entirely
+    // false "41 pages double-load nav.js". A check that cannot tell live
+    // markup from a comment is not a check; it is a rumour.
+    const html = raw.replace(/<!--[^]*?-->/g, '');
+
+    const counts = {};
+    for (const m of html.matchAll(/<script\b([^>]*)src="([^"]+)"([^>]*)>/g)) {
+      const [, pre, src, post] = m;
+      counts[src] = (counts[src] || 0) + 1;
+      if (MUST_DEFER.includes(src) && !/\bdefer\b|\basync\b/.test(pre + post)) {
+        blocking.push(`${f} — ${src}`);
+      }
+    }
+    const d = Object.entries(counts).filter(([, n]) => n > 1);
+    if (d.length) dupes.push(`${f} — ${d.map(([s, n]) => `${s} x${n}`).join(', ')}`);
+  }
+
+  if (dupes.length) {
+    console.log(`  ❌ ${dupes.length} page(s) load the same script more than once:`);
+    dupes.slice(0, 15).forEach(x => console.log(`     ${x}`));
+    if (dupes.length > 15) console.log(`     …and ${dupes.length - 15} more`);
+    console.log('     FIX: run `node fix-script-payload.js` (keeps the canonical copy before </body>).');
+    errors++;
+  }
+  if (blocking.length) {
+    console.log(`  ❌ ${blocking.length} render-blocking heavy script tag(s):`);
+    blocking.slice(0, 15).forEach(x => console.log(`     ${x}`));
+    if (blocking.length > 15) console.log(`     …and ${blocking.length - 15} more`);
+    console.log('     FIX: add defer. nav.js has no document.write and already waits');
+    console.log('     for DOMContentLoaded, so defer is behaviour-identical.');
+    errors++;
+  }
+  if (!dupes.length && !blocking.length) {
+    console.log('  ✅ No duplicate scripts; no heavy script blocking first paint');
+  }
+}
+
+// ═══════════════════════════════════════
+// VERDICT — prints LAST, after every check. Do not move it up.
+// ═══════════════════════════════════════
+console.log('\n══════════════════════════════════');
+if (errors === 0 && warnings === 0) {
+    console.log('ALL 12 CHECKS PASSED — site integrity verified');
+} else {
+    if (errors > 0) console.log(`${errors} ERROR(S) — must fix before finishing`);
+    if (warnings > 0) console.log(`${warnings} WARNING(S) — should fix if possible`);
+}
+console.log('══════════════════════════════════\n');
 
 process.exit(errors > 0 ? 1 : 0);
