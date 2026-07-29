@@ -338,16 +338,50 @@ for (const f of fs.readdirSync('.').filter(x => x.endsWith('.html'))) {
   for (const m of html.matchAll(/src="\/?([A-Za-z0-9_.-]+\.js)"/g)) runtimeJs.add(m[1]);
 }
 
-const PUBLIC_TXT = new Set(['robots.txt', 'e1fe0ab8feb1cc06e7918835bec59ae9.txt']);
-const PUBLIC_JSON = new Set(['tags.json']);
+// ------------------------------------------------------------
+// DENY BY DEFAULT (rewritten S193, 2026-07-28).
+//
+// The old logic gated four extensions — .md .js .txt .json — and let
+// EVERYTHING else through. That blind spot was not theoretical: 27 internal
+// files totalling 28 MB were being served, including six Netlify deploy
+// archives, eight .backup/.forge-backup copies of live pages, four internal
+// audit .csv files, and RE-FORMED.pdf — the author's real-name testimony,
+// which the 2026-06-30 anonymization had removed from the HTML but never
+// from disk. Extension-by-extension gating rots the moment anyone writes a
+// file type nobody thought of.
+//
+// So the rule is inverted: at the repo root, EVERY file is internal unless
+// it is on the public allowlist below. Adding a new deliverable means adding
+// it here on purpose — which is the point.
+// ------------------------------------------------------------
+const PUBLIC_EXACT = new Set([
+  // Netlify + crawler control
+  '_headers', '_redirects', 'netlify.toml', 'robots.txt', 'sitemap.xml',
+  'manifest.webmanifest', 'e1fe0ab8feb1cc06e7918835bec59ae9.txt',
+  // runtime data consumed by the front end
+  'tags.json', 'testimonies.json',
+  // brand assets
+  'favicon.ico', 'favicon.png', 'favicon.svg', 'logo.png',
+  'og-image.png', 'og-image.svg',
+  'apple-touch-icon.png', 'apple-touch-icon-precomposed.png',
+  // reader-facing PDFs (linked from the site; add new ones deliberately)
+  "Jesus' Path to Eternal Life.pdf",
+  'The Institutes Book 3 essay.pdf',
+  'The_Architecture.pdf',
+  'The_Question_of_the_Hour.pdf',
+  'solideogloria.pdf',
+  'you cannot escape the text.pdf',
+]);
+
+// .html and .css at root are the site itself. Everything else must earn it.
+const isPublic = f =>
+  f.endsWith('.html') || f.endsWith('.css') ||
+  PUBLIC_EXACT.has(f) ||
+  (f.endsWith('.js') && runtimeJs.has(f));
 
 const mustBlock = fs.readdirSync('.').filter(f => {
   if (!fs.statSync(f).isFile()) return false;
-  if (f.endsWith('.md')) return true;
-  if (f.endsWith('.js')) return !runtimeJs.has(f);
-  if (f.endsWith('.txt')) return !PUBLIC_TXT.has(f);
-  if (f.endsWith('.json')) return !PUBLIC_JSON.has(f);
-  return false;
+  return !isPublic(f);
 });
 
 const unblocked = mustBlock.filter(f => !forced.has(f));
@@ -539,6 +573,60 @@ if (process.argv.includes('--rebaseline-styles')) {
           ')'
       );
     }
+  }
+}
+
+// ═══════════════════════════════════════
+// CHECK 11: One link per concept, per page
+// ═══════════════════════════════════════
+// CLAUDE.md: "First mention of a concept gets the link."
+//
+// This was broken on 41% of the corpus before S193 and nothing caught it,
+// because CHECK 1 only ever asked whether a link RESOLVES. Every one of the
+// 5,047 duplicate anchors pointed at a real page. response-william-lane-craig
+// linked /compare-calvinism-molinism 62 times; the reader saw blue stripes and
+// the link stopped meaning anything.
+//
+// Card/navigation blocks are exempt: those are lists of links by design, and a
+// repeat there is the point.
+console.log('\n━━━ CHECK 11: One Prose Link Per Concept ━━━');
+{
+  const CARD_BLOCK = /<(?:div|nav|section|aside|footer)[^>]*class="[^"]*(?:related-articles|related-explore|cross-refs|continue-journey|keep-reading|article-continue|next-steps|further-reading|explore-more|read-next)[^"]*"[\s\S]*?<\/(?:div|nav|section|aside|footer)>/gi;
+  const offenders = [];
+
+  for (const f of fs.readdirSync('.').filter(x => x.endsWith('.html'))) {
+    const html = fs.readFileSync(f, 'utf8');
+    const open = html.indexOf('<article class="article-body"');
+    if (open === -1) continue;
+    const bodyEnd = html.lastIndexOf('</article>');
+    if (bodyEnd === -1) continue;
+
+    const body = html
+      .slice(html.indexOf('>', open) + 1, bodyEnd)
+      .replace(CARD_BLOCK, ' ');
+
+    const counts = {};
+    for (const m of body.matchAll(/<a\s+href="(\/[^"#]*)"/gi)) {
+      const key = m[1].replace(/\/$/, '');
+      counts[key] = (counts[key] || 0) + 1;
+    }
+    const dupes = Object.entries(counts).filter(([, n]) => n > 1);
+    if (dupes.length) {
+      dupes.sort((a, b) => b[1] - a[1]);
+      offenders.push({ f, dupes });
+    }
+  }
+
+  if (offenders.length) {
+    console.log(`  ❌ ${offenders.length} page(s) link the same target more than once in prose:`);
+    offenders.slice(0, 15).forEach(o =>
+      console.log(`     ${o.f} — ${o.dupes.map(([u, n]) => `${u} x${n}`).join(', ')}`)
+    );
+    if (offenders.length > 15) console.log(`     …and ${offenders.length - 15} more`);
+    console.log('     FIX: run `node dedupe-prose-links.js` (keeps the first mention, unwraps the rest).');
+    errors++;
+  } else {
+    console.log('  ✅ Every concept linked once per page; first mention preserved');
   }
 }
 

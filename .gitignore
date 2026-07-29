@@ -6,3 +6,6 @@ node_modules/
 # Session scratch backups (mount-locked; never deploy)
 .s137-bak/
 *-bak/
+
+# macOS junk
+.DS_Store

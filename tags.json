@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-29T02:02:52.565Z",
-  "pageCount": 608,
+  "generated": "2026-07-29T03:14:37.766Z",
+  "pageCount": 611,
   "topicCount": 30,
   "pages": [
     {
@@ -679,6 +679,60 @@
         "Church History",
         "Parables & Stories",
         "Election & Predestination"
+      ]
+    },
+    {
+      "url": "/theologian-anselm",
+      "file": "theologian-anselm.html",
+      "title": "Anselm of Canterbury",
+      "desc": "Anselm proved God exists through reason alone—proving God must be sovereign. His atonement theology showed salvation cannot be a human achievement because only ",
+      "category": "Theologians",
+      "tags": [
+        "Sovereignty of God",
+        "Salvation & Justification",
+        "Definite Atonement",
+        "Identity & Adoption",
+        "Human Responsibility",
+        "Election & Predestination",
+        "Church History",
+        "Prayer & Devotion"
+      ],
+      "anchors": [
+        {
+          "id": "a-life-in-exile",
+          "text": "A Life in Exile",
+          "url": "/theologian-anselm#a-life-in-exile"
+        },
+        {
+          "id": "the-proof-that-broke-all-proofs",
+          "text": "The Proof That Broke All Proofs",
+          "url": "/theologian-anselm#the-proof-that-broke-all-proofs"
+        },
+        {
+          "id": "why-god-became-man",
+          "text": "Why God Became Man",
+          "url": "/theologian-anselm#why-god-became-man"
+        },
+        {
+          "id": "the-will-in-bondage",
+          "text": "The Will in Bondage",
+          "url": "/theologian-anselm#the-will-in-bondage"
+        },
+        {
+          "id": "the-bridge-to-reformation",
+          "text": "The Bridge to Reformation",
+          "url": "/theologian-anselm#the-bridge-to-reformation"
+        },
+        {
+          "id": "the-monk-with-the-impossible-thought",
+          "text": "The Monk With the Impossible Thought",
+          "url": "/theologian-anselm#the-monk-with-the-impossible-thought"
+        },
+        {
+          "id": "go-deeper",
+          "text": "Go Deeper",
+          "url": "/theologian-anselm#go-deeper"
+        }
       ]
     },
     {
@@ -3522,6 +3576,90 @@
       ]
     },
     {
+      "url": "/theologian-owen",
+      "file": "theologian-owen.html",
+      "title": "John Owen: The Cross That Loses None",
+      "desc": "John Owen buried all eleven of his children. He also wrote the book — The Death of Death in the Death of Christ — that has stood for four centuries unrefuted: C",
+      "category": "Theologians",
+      "tags": [
+        "Suffering & Grief",
+        "Famous Theologians",
+        "Election & Predestination",
+        "Arminianism & Objections",
+        "Identity & Adoption",
+        "Church History"
+      ]
+    },
+    {
+      "url": "/theologian-wycliffe",
+      "file": "theologian-wycliffe.html",
+      "title": "John Wycliffe — The Morning Star of the Reformation",
+      "desc": "Rome burned John Wycliffe&#39;s bones 44 years after his death—not to destroy the man, but to suppress the idea he&#39;d released: that ordinary people could re",
+      "category": "Theologians",
+      "tags": [
+        "Election & Predestination",
+        "Church History",
+        "Identity & Adoption",
+        "Scripture & Bible",
+        "Suffering & Grief",
+        "Psychology & Resistance",
+        "Total Depravity",
+        "Sovereignty of God"
+      ],
+      "anchors": [
+        {
+          "id": "the-bone-burning-that-couldnt-kill-the-truth",
+          "text": "The Bone-Burning That Couldn't Kill the Truth",
+          "url": "/theologian-wycliffe#the-bone-burning-that-couldnt-kill-the-truth"
+        },
+        {
+          "id": "the-oxford-rebel",
+          "text": "The Oxford Rebel",
+          "url": "/theologian-wycliffe#the-oxford-rebel"
+        },
+        {
+          "id": "scripture-alone-the-translation-that-terrified-rome",
+          "text": "Scripture Alone: The Translation That Terrified Rome",
+          "url": "/theologian-wycliffe#scripture-alone-the-translation-that-terrified-rome"
+        },
+        {
+          "id": "the-invisible-church-gods-sovereignty-over-human-institutions",
+          "text": "The Invisible Church: God's Sovereignty Over Human Institutions",
+          "url": "/theologian-wycliffe#the-invisible-church-gods-sovereignty-over-human-institutions"
+        },
+        {
+          "id": "the-lollards-grace-cannot-be-suppressed",
+          "text": "The Lollards: Grace Cannot Be Suppressed",
+          "url": "/theologian-wycliffe#the-lollards-grace-cannot-be-suppressed"
+        },
+        {
+          "id": "the-morning-star-how-one-man-lit-the-fuse-for-reformation",
+          "text": "The Morning Star: How One Man Lit the Fuse for Reformation",
+          "url": "/theologian-wycliffe#the-morning-star-how-one-man-lit-the-fuse-for-reformation"
+        },
+        {
+          "id": "the-courage-of-conviction",
+          "text": "The Courage of Conviction",
+          "url": "/theologian-wycliffe#the-courage-of-conviction"
+        },
+        {
+          "id": "what-an-institution-confesses-when-it-fears-its-laity",
+          "text": "What an Institution Confesses When It Fears Its Laity",
+          "url": "/theologian-wycliffe#what-an-institution-confesses-when-it-fears-its-laity"
+        },
+        {
+          "id": "why-truth-cannot-be-burned",
+          "text": "Why Truth Cannot Be Burned",
+          "url": "/theologian-wycliffe#why-truth-cannot-be-burned"
+        },
+        {
+          "id": "and-the-bible-in-your-hand",
+          "text": "And the Bible in Your Hand",
+          "url": "/theologian-wycliffe#and-the-bible-in-your-hand"
+        }
+      ]
+    },
+    {
       "url": "/ot-jonah",
       "file": "ot-jonah.html",
       "title": "Jonah: The Prophet Who Tried to Outrun God",
@@ -4129,13 +4267,13 @@
       "category": "History",
       "tags": [
         "Free Will",
-        "Arminianism & Objections",
-        "Church History",
-        "Analogies & Illustrations",
+        "Fairness & Justice",
         "Election & Predestination",
         "Assurance & Comfort",
-        "Fairness & Justice",
-        "Suffering & Grief"
+        "Arminianism & Objections",
+        "Sovereignty of God",
+        "Old Testament",
+        "Analogies & Illustrations"
       ]
     },
     {
@@ -6767,13 +6905,13 @@
       "url": "/open-wound-the-prayer-god-didnt-answer",
       "file": "open-wound-the-prayer-god-didnt-answer.html",
       "title": "The Prayer God Didn't Answer — And What That Means",
-      "desc": "You prayed. You begged. You believed with everything you had. And God said no. This page sits with you in the wreckage of that no.",
+      "desc": "You prayed. You begged. And God said no. Underneath the question why is a harder one: am I still wanted? There are two prayers in this story, and only one of th",
       "category": "Healing & Hope",
       "tags": [
         "Prayer & Devotion",
-        "Sovereignty of God",
-        "Human Responsibility",
         "Suffering & Grief",
+        "Parables & Stories",
+        "Election & Predestination",
         "Fairness & Justice",
         "Identity & Adoption"
       ]
@@ -9718,6 +9856,7 @@
       "/demolition-acts2-21",
       "/systematic-adoption",
       "/hymn-amazing-grace",
+      "/theologian-anselm",
       "/question-are-arminians-saved",
       "/psychology-cost-of-rejecting-grace",
       "/argument-arminianism-secretly-assumes-calvinism",
@@ -9826,6 +9965,8 @@
       "/john-6-37-44",
       "/theologian-calvin",
       "/history-calvin-geneva",
+      "/theologian-owen",
+      "/theologian-wycliffe",
       "/joy-in-suffering",
       "/question-psalm139",
       "/apologetic-light-shine-out-of-darkness",
@@ -9928,6 +10069,7 @@
       "/dialogue-arminian-pastor-questions-himself",
       "/broken-mirror-performance-treadmill",
       "/story-the-person-who-chose-god",
+      "/open-wound-the-prayer-god-didnt-answer",
       "/question-john17",
       "/objection-why-not-save-everyone",
       "/analogy-the-prodigal-already-home",
@@ -10318,6 +10460,7 @@
       "/demolition-john3-16",
       "/demolition-john5-40",
       "/theologian-bunyan",
+      "/theologian-wycliffe",
       "/letters-senior-demon-arminianism",
       "/history-luther",
       "/theologian-lloydjones",
@@ -10502,6 +10645,7 @@
       "/scripture-tsunami",
       "/response-andy-stanley",
       "/response-norman-geisler",
+      "/theologian-anselm",
       "/compare-every-decision-point",
       "/apologetic-bought-with-his-own-blood",
       "/compare-calvinism-arminianism",
@@ -10547,6 +10691,7 @@
       "/response-william-lane-craig",
       "/ot-abel-cain",
       "/hymn-amazing-grace",
+      "/theologian-anselm",
       "/secular-art-literature-reformed-truth",
       "/theologian-warfield",
       "/systematic-divine-decrees",
@@ -10604,6 +10749,7 @@
       "/demolition-john3-16",
       "/theologian-calvin",
       "/history-calvin-geneva",
+      "/theologian-wycliffe",
       "/ot-jonah",
       "/joy-in-suffering",
       "/demolition-jude21",
@@ -10616,6 +10762,7 @@
       "/question-revelation13",
       "/question-proverbs-sovereignty",
       "/apologetic-nothing-can-separate",
+      "/history-open-theism",
       "/systematic-perseverance",
       "/demolition-prevenient-grace",
       "/systematic-providence",
@@ -10657,7 +10804,6 @@
       "/philosophy-mirror-you-refuse",
       "/analogy-orchestra",
       "/analytical-modal-collapse-answered",
-      "/open-wound-the-prayer-god-didnt-answer",
       "/history-puritans",
       "/history-korean-revival",
       "/devotional-the-quiet-after-the-storm",
@@ -10745,6 +10891,7 @@
       "/demolition-acts2-21",
       "/systematic-adoption",
       "/hymn-amazing-grace",
+      "/theologian-anselm",
       "/question-are-arminians-saved",
       "/psychology-cost-of-rejecting-grace",
       "/demolition-arianism",
@@ -10901,7 +11048,6 @@
       "/story-the-person-who-chose-god",
       "/philosophy-phantom-limb-free-will",
       "/apologetic-the-pioneer-and-perfecter",
-      "/open-wound-the-prayer-god-didnt-answer",
       "/question-john17",
       "/analogy-the-prodigal-already-home",
       "/history-korean-revival",
@@ -11034,6 +11180,8 @@
       "/testimony-bunyan",
       "/theologian-bunyan",
       "/history-calvin-geneva",
+      "/theologian-owen",
+      "/theologian-wycliffe",
       "/joy-in-suffering",
       "/systematic-justification",
       "/demolition-mark16-16",
@@ -11041,7 +11189,6 @@
       "/secular-psychology-bondage-of-will",
       "/creed-heidelberg-catechism",
       "/apologetic-nothing-can-separate",
-      "/history-open-theism",
       "/analytical-immutability",
       "/systematic-providence",
       "/compare-reformed-vs-eastern-orthodox",
@@ -11423,6 +11570,7 @@
       "/acts-13-48",
       "/demolition-acts2-21",
       "/systematic-adoption",
+      "/theologian-anselm",
       "/question-are-arminians-saved",
       "/psychology-cost-of-rejecting-grace",
       "/demolition-arianism",
@@ -11802,6 +11950,7 @@
       "/demolition-john3-16",
       "/demolition-john5-40",
       "/testimony-bunyan",
+      "/theologian-wycliffe",
       "/question-psalm139",
       "/apologetic-light-shine-out-of-darkness",
       "/letters-senior-demon-arminianism",
@@ -11970,6 +12119,7 @@
       "/demolition-jer18",
       "/demolition-john5-40",
       "/theologian-calvin",
+      "/theologian-owen",
       "/demolition-jude21",
       "/letters-senior-demon-arminianism",
       "/start-here-phase5",
@@ -12044,6 +12194,7 @@
       "/response-roger-olson",
       "/response-sbc-traditional-statement",
       "/hymn-amazing-grace",
+      "/theologian-anselm",
       "/testimony-augustine",
       "/history-augustine-pelagius",
       "/theologian-augustine",
@@ -12073,6 +12224,8 @@
       "/theologian-arminius",
       "/theologian-bunyan",
       "/history-calvin-geneva",
+      "/theologian-owen",
+      "/theologian-wycliffe",
       "/ot-jonah",
       "/theologian-edwards",
       "/ethics-just-war",
@@ -12083,7 +12236,6 @@
       "/ot-moses-pharaoh",
       "/creed-heidelberg-catechism",
       "/analytical-divine-simplicity",
-      "/history-open-theism",
       "/secular-philosophy-free-will",
       "/story-real-conversions",
       "/compare-calvinism-catholic-soteriology",
@@ -12168,6 +12320,7 @@
       "/theologian-bunyan",
       "/theologian-calvin",
       "/history-calvin-geneva",
+      "/theologian-owen",
       "/theologian-edwards",
       "/letters-senior-demon-arminianism",
       "/testimony-luther",
@@ -12218,6 +12371,7 @@
       "/apologetic-god-works-the-willing",
       "/pastoral-prayer",
       "/philosophy-problem-of-merit",
+      "/theologian-wycliffe",
       "/secular-psychology-bondage-of-will",
       "/question-proverbs-sovereignty",
       "/psychology-pride-root-objection",
@@ -12361,6 +12515,7 @@
       "/ot-abel-cain",
       "/apologetic-able-to-save-completely",
       "/ot-abraham",
+      "/theologian-anselm",
       "/question-are-arminians-saved",
       "/argument-arminianism-secretly-assumes-calvinism",
       "/secular-art-literature-reformed-truth",
@@ -12564,6 +12719,7 @@
       "/systematic-trinity",
       "/systematic-covenant-theology",
       "/apologetic-only-evil-all-the-time",
+      "/history-open-theism",
       "/analytical-immutability",
       "/ethics-power-authority",
       "/compare-predestination-foreknowledge",
@@ -12682,6 +12838,7 @@
       "/story-the-orphanage",
       "/dialogue-arminian-pastor-questions-himself",
       "/story-the-person-who-chose-god",
+      "/open-wound-the-prayer-god-didnt-answer",
       "/analogy-the-prodigal-already-home",
       "/broken-mirror-the-relapse",
       "/systematic-resurrection",
@@ -13477,6 +13634,7 @@
       "/acts-13-48",
       "/demolition-acts2-21",
       "/systematic-adoption",
+      "/theologian-anselm",
       "/psychology-cost-of-rejecting-grace",
       "/testimony-augustine",
       "/theologian-augustine",
@@ -13582,6 +13740,8 @@
       "/testimony-bunyan",
       "/theologian-bunyan",
       "/testimony-newton",
+      "/theologian-owen",
+      "/theologian-wycliffe",
       "/ot-jonah",
       "/ethics-just-war",
       "/systematic-justification",
@@ -13831,35 +13991,35 @@
     ]
   },
   "topicCounts": {
-    "Election & Predestination": 349,
-    "Salvation & Justification": 320,
-    "Identity & Adoption": 376,
+    "Election & Predestination": 353,
+    "Salvation & Justification": 321,
+    "Identity & Adoption": 379,
     "Assurance & Comfort": 252,
     "Free Will": 230,
     "Human Responsibility": 261,
-    "Parables & Stories": 94,
+    "Parables & Stories": 95,
     "Analogies & Illustrations": 126,
     "Ephesians 1": 40,
     "Irresistible Grace": 68,
-    "Psychology & Resistance": 82,
-    "Sovereignty of God": 181,
-    "Arminianism & Objections": 127,
-    "Total Depravity": 115,
-    "Suffering & Grief": 151,
-    "Prayer & Devotion": 144,
-    "Scripture & Bible": 192,
+    "Psychology & Resistance": 83,
+    "Sovereignty of God": 183,
+    "Arminianism & Objections": 128,
+    "Total Depravity": 116,
+    "Suffering & Grief": 152,
+    "Prayer & Devotion": 145,
+    "Scripture & Bible": 193,
     "John 6": 35,
     "Evangelism & Mission": 65,
     "God's Love": 44,
-    "Church History": 98,
-    "Old Testament": 118,
+    "Church History": 100,
+    "Old Testament": 119,
     "Fairness & Justice": 208,
     "Healing & Mental Health": 80,
     "Science & Secular Evidence": 91,
     "Perseverance of the Saints": 28,
-    "Definite Atonement": 44,
+    "Definite Atonement": 45,
     "Romans 9": 29,
-    "Famous Theologians": 66,
+    "Famous Theologians": 67,
     "Covenant Theology": 63
   }
 }

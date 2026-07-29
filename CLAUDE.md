@@ -123,9 +123,14 @@ node auto-linker.js
 node wire-orphans.js
 ```
 
-`build-tags.js` + `build-all-content.js` were absent from this list before 2026-06-28 — which is exactly why `tags.json` went 3 months stale and `/all-content` + the homepage rendered wrong/zero counts. They MUST run first: `build-homepage-counts.js` and `/all-content` both derive from `tags.json` (one canonical number, currently 607 = pages with `<article class="article-body">`). When you add or delete pages, also run `node build-sitemap.js`.
+`build-tags.js` + `build-all-content.js` were absent from this list before 2026-06-28 — which is exactly why `tags.json` went 3 months stale and `/all-content` + the homepage rendered wrong/zero counts. They MUST run first: `build-homepage-counts.js` and `/all-content` both derive from `tags.json` (one canonical number, currently 611 = pages with `<article class="article-body">`). When you add or delete pages, also run `node build-sitemap.js`.
 
 Then run `node validate-site.js` and fix anything it flags.
+
+**`validate-site.js` now runs eleven checks (CHECK 11 added S193).** Two hardenings landed that session and must not be softened:
+
+- **CHECK 7 is deny-by-default.** It used to gate only four extensions (`.md .js .txt .json`) and let everything else through — which is how 27 internal files totalling 28 MB were being served, including six Netlify deploy zips, eight `.backup` copies of live pages, and `RE-FORMED.pdf`, the real-name testimony the anonymization had removed from the HTML but never from disk. Now **every** root file is internal unless it is on `PUBLIC_EXACT` (or is `.html`/`.css`/a runtime `.js`). Adding a new public deliverable means adding it to that list on purpose.
+- **CHECK 11 enforces one prose link per concept.** CLAUDE.md has always said "first mention gets the link," and nothing enforced it: CHECK 1 only ever asked whether a link *resolves*. 5,047 duplicate anchors had accumulated across 542 pages (worst: `/compare-calvinism-molinism` linked 62 times on one page). The cause was `auto-linker.js` seeding its `linkedUrls` set empty on every run, so each session's pipeline linked the next still-unlinked occurrence. **The linker now seeds from the hrefs already in the file and is idempotent** — repeat runs add zero. It also aborts if any `url:` in its keyword map points at a page that does not exist. If CHECK 11 ever fails, run `node dedupe-prose-links.js`.
 
 ---
 

@@ -102,7 +102,7 @@ const LINK_MAP = [
   { url: '/demolition-1tim2-4', keywords: ['1 Timothy 2:4', '1 Tim 2:4', 'wants all people to be saved', 'God desires all men to be saved'], priority: 8 },
   { url: '/demolition-joshua24-15', keywords: ['Joshua 24:15', 'choose for yourselves this day', 'choose this day whom you will serve'], priority: 7 },
   { url: '/demolition-rev3-20', keywords: ['Revelation 3:20', 'Rev 3:20', 'I stand at the door and knock', 'behold I stand at the door'], priority: 7 },
-  { url: '/demolition-matt23-37', keywords: ['Matthew 23:37', 'Matt 23:37', 'how often I have longed to gather', 'O Jerusalem'], priority: 7 },
+  { url: '/demolition-matthew-23-37', keywords: ['Matthew 23:37', 'Matt 23:37', 'how often I have longed to gather', 'O Jerusalem'], priority: 7 },
   { url: '/demolition-acts7-51', keywords: ['Acts 7:51', 'you always resist the Holy Spirit', 'resisting the Holy Spirit'], priority: 7 },
   { url: '/demolition-hebrews6-4-6', keywords: ['Hebrews 6:4-6', 'Heb 6:4-6', 'fallen away', 'losing salvation', 'impossible to restore'], priority: 7 },
   { url: '/demolition-steel-man-arminianism', keywords: ['steel man Arminianism', 'strongest case for Arminianism', 'best Arminian arguments'], priority: 6 },
@@ -551,6 +551,23 @@ const SKIP_FILES = new Set([
 // LINKER ENGINE (optimized — fast regex approach)
 // ═══════════════════════════════════════
 
+
+// ── KEYWORD MAP INTEGRITY (S193) ──────────────────────────────────────────
+// A stale target in the map above writes a broken link into real prose. That
+// is exactly how /demolition-matt23-37 (real file: demolition-matthew-23-37)
+// got injected into response-jerry-walls. Fail loudly instead.
+{
+  const fsx = require('fs');
+  const dead = [...new Set(LINK_MAP.map(e => e.url))]
+    .filter(u => !fsx.existsSync(require('path').join(ROOT, u.slice(1) + '.html')));
+  if (dead.length) {
+    console.error('\n  AUTO-LINKER ABORTED — keyword map points at pages that do not exist:');
+    dead.forEach(d => console.error('   ' + d + '  (expected ' + d.slice(1) + '.html)'));
+    console.error('  Fix the url: field in the map above before running.\n');
+    process.exit(1);
+  }
+}
+
 // Sort keywords longest-first so longer phrases match before shorter subsets
 const sortedEntries = [];
 for (const entry of LINK_MAP) {
@@ -885,7 +902,21 @@ function addLinksToFile(filename, html) {
   if (!parts) return { modified: false, content: html, linksAdded: 0 };
 
   const segments = splitIntoSegments(parts.body);
-  const linkedUrls = new Set();
+
+  // ── S193 FIX ──────────────────────────────────────────────────────────
+  // This set used to start EMPTY on every run. It only ever tracked what the
+  // CURRENT run had linked — it never looked at links already in the file. So
+  // each session's pipeline run found the next still-unlinked occurrence of a
+  // keyword and linked that one too. Over ~190 sessions the duplicates piled
+  // up: 5,047 of them across 542 pages, with /compare-calvinism-molinism
+  // linked 62 times in a single article. CHECK 1 never noticed, because every
+  // one of those anchors resolved.
+  //
+  // Seeding from the hrefs already present makes the linker idempotent, which
+  // is what "first mention only" required all along.
+  const linkedUrls = new Set(
+    [...parts.body.matchAll(/<a\s+href="(\/[^"#]*)"/gi)].map(m => m[1].replace(/\/$/, ''))
+  );
   let linksAdded = 0;
 
   // For each keyword entry (longest first), scan text segments for first match

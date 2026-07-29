@@ -285,7 +285,10 @@ for (const file of htmlFiles) {
   // Only index real articles — pages that wrap content in <article class="article-body">.
   // This excludes hub pages, landing pages, and special feature pages (which lack the marker),
   // giving ONE canonical, browseable article set shared by /all-content, /topics, and the homepage total.
-  if (!html.includes('<article class="article-body">')) continue;
+  // Regex, not includes(): three pages carry extra attributes on the tag
+  // (e.g. <article class="article-body" id="main-content">) and an exact
+  // string match silently dropped them from the canonical index. — S193
+  if (!/<article class="article-body"[\s>]/.test(html)) continue;
 
   const category = getCategory(file);
   const tags = scoreTopics(title, desc, bodyText);
