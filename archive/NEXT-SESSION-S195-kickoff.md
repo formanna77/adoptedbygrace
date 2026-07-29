@@ -83,6 +83,16 @@ A separate, infrastructure-only session ran after this kickoff was written. **It
 
 4. **Presentation is now law.** CLAUDE.md has a new **PRESENTATION INTEGRITY** section and a **LITERAL-STRING TRAP** section. Read both. The short version: `global.css` demanded Playfair Display and Inter and supplied neither, and **362 pages — 347 of them live articles — had been rendering in Times New Roman and Arial.** Separately, `--font-heading`/`--font-body`/`--font-mono` were used 127 times and defined nowhere, which fails *silently* by resolving to `inherit` rather than to the rule you expect. Both fixed; both now enforced.
 
+5. **PRIORITY 0.5 — THE VALIDATOR CANNOT SEE THE PAGE. OPEN IT.** This is the hardest-won law of S194-infra and it is not yet in CLAUDE.md — **put it there in your first hour** (PRESENTATION INTEGRITY, as law 5).
+
+   Fourteen checks passed green while the wordmark sat **27px on top of the first nav link**, on every page, in the most-seen element on the site. Eleven checks had passed green for months while **347 live articles rendered in Times New Roman**. Neither is findable by grep, by validator, or by reasoning — only by loading the page in a real browser and looking at it. One screenshot found what the entire gate could not.
+
+   So: **every session loads real pages in a real browser before closing.** One of each archetype — article, hub, printable, interactive widget, homepage — at a narrow desktop width (~1200px) and a wide one. Check the nav, the typography, and the first screen. `document.fonts.check('700 2rem "Playfair Display"')` and a `getBoundingClientRect()` overlap test on the nav row take ten seconds and are worth more than any static check.
+
+   Corollary, learned three times in one session at real cost: **grep locates, it does not establish.** A commented-out `<script>` is byte-identical to a live one. A string in a comment header reads exactly like a runtime dependency. Before acting on a match, read its usage.
+
+   *(Fixed in S194-infra: the nav band at 1181–1400px was retuned to values MEASURED in-browser at innerWidth 1196 — wordmark clear by 5px, 71px right-edge room, all 12 items on one row. The 1181px breakpoint is correct and was deliberately kept: raising it to 1280 removed the desktop nav entirely from common laptop viewports. If you touch those values, re-measure. Do not reason about it.)*
+
 **The big remaining infrastructure job is the `global.css` critical-CSS split** — 348 KB of blocking CSS is now the entire critical path, since all JS is deferred. It was deliberately NOT attempted with a low compute budget: its failure mode is all 687 pages rendering broken with no visual regression test in the repo. Take it only with a full budget, and finish it. Do not bulk-prune `global.css`: a conservative analysis found only 36 KB confidently dead across ~150 scattered families — poor payoff, catastrophic downside. The one genuinely dead family (obsolete v2 mega-menu) was already removed.
 
 **Repair scripts, all idempotent:** `fix-script-payload.js`, `fix-missing-webfonts.js`, `fix-skip-links.js`, `strip-stale-nav-comment.js`.
