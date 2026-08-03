@@ -9,3 +9,6 @@ node_modules/
 
 # macOS junk
 .DS_Store
+
+# FUSE mount artifacts (orphaned when a file is deleted while open)
+.fuse_hidden*

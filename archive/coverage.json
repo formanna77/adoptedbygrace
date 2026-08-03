@@ -5,7 +5,7 @@
       "date": "2026-07-28",
       "sinceSession": 191
     },
-    "updated": "2026-07-29",
+    "updated": "2026-08-03",
     "note": "Historical seed from HTML markers is approximate (review-freshness, not pass/fail). source:\"stamp\" entries are exact.",
     "history": [
       {
@@ -25,6 +25,15 @@
         "behind": 369,
         "unknown": 171,
         "remaining": 540
+      },
+      {
+        "session": 195,
+        "date": "2026-08-03",
+        "total": 618,
+        "atCurrent": 50,
+        "behind": 390,
+        "unknown": 178,
+        "remaining": 568
       }
     ]
   },
@@ -1383,11 +1392,11 @@
       "source": "marker"
     },
     "devotional-you-were-wanted-before-you-were.html": {
-      "lastSession": 194,
+      "lastSession": 195,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "Eph 1:4 'in him' + 1:7 lavished-beside-blood catch; slip cleared; card deck off the ending"
+      "note": "FALSE GREEK WELD REMOVED (lavished = eperisseusen vs dedoken, English-only pun) and rebuilt on eperisseusen -> Rom 5:15 -> twelve baskets; Gethsemane contradiction fixed; multiplied close 4 -> 1; links 3 -> 11"
     },
     "devotional-your-name-in-the-book.html": {
       "lastSession": 58,
@@ -2906,11 +2915,11 @@
       "source": "marker"
     },
     "reformed-apologetics-moral-argument.html": {
-      "lastSession": 194,
+      "lastSession": 195,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "reader turned from spectator to defendant; Mackie corrected; Street's dilemma; Euthyphro relocation answered; Name landed"
+      "note": "Door One/Mackie contradiction resolved; editorial note-to-self cut from public prose; 'only position on the board' earned not asserted; Street at full power + Wielenberg/Enoch conceded; Euthyphro answered on second-personal obligation + disclosed-not-stipulated; compressed"
     },
     "reformed-apologetics-resurrection.html": {
       "lastSession": null,
@@ -3155,11 +3164,11 @@
       "source": "marker"
     },
     "shattered-lens-taught-wrong.html": {
-      "lastSession": 194,
+      "lastSession": 195,
       "voiceRef": "§XXIII",
-      "status": "lifted",
+      "status": "partial",
       "source": "stamp",
-      "note": "four feeling-slips cleared; orphaned night cut; heading resynced; 5-beat close collapsed to Christ"
+      "note": "NIV guardrail breach fixed (Heb 4:12 two-edged -> double-edged); seams + steelman + multiplied close still owed"
     },
     "shattered-lens-when-prayer-stopped-working.html": {
       "lastSession": 70,
@@ -3782,11 +3791,23 @@
       "source": "marker"
     },
     "theologian-owen.html": {
-      "lastSession": 194,
+      "lastSession": 195,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "Rom 8:30 aorist not perfect; ten small graves not eleven; bolted-on pivot cut; container closed"
+      "note": "trilemma door 1 steelmanned + Owen's unbelief question restored; false 'no answer in 4 centuries' cut from body+3 meta carriers; VC timeline 1657/1660; deathbed quote restored verbatim; seam repaired; catch now covers the reader who fears he is out (John 6:37b); Soli Deo Gloria tag cut"
+    },
+    "theologian-anselm.html": {
+      "lastSession": null,
+      "voiceRef": null,
+      "status": "unknown",
+      "source": "marker"
+    },
+    "theologian-wycliffe.html": {
+      "lastSession": null,
+      "voiceRef": null,
+      "status": "unknown",
+      "source": "marker"
     }
   }
 }

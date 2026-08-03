@@ -156,6 +156,9 @@ The fingerprint is instructive: **340 of those 362 pages carried `<link rel="pre
 2. **Never `var(--x)` without either a `:root` definition or an inline fallback.** `var(--x, #000)` is deliberate and fine. A bare `var()` on an undefined property fails *silently and misleadingly*, resolving to `inherit` rather than to the rule you expect to win. Enforced by CHECK 13.
 3. **A check you have never seen fail is not a check.** CHECK 13 was verified by deleting `--font-mono` from `:root`, confirming the validator reported `100 declaration(s) silently dropped`, and restoring it. Do this for every check you add.
 4. **Page weight is a doorway, not a nicety.** All JavaScript is off the critical path as of S194 (`defer` everywhere; homepage blocking payload ~1,000 KB → 348 KB). Enforced by CHECK 12. We can out-argue every peer site on the page and still lose the reader who never got to the page.
+5. **THE VALIDATOR CANNOT SEE THE PAGE. OPEN IT.** Fourteen checks passed green while the wordmark sat **27px on top of the first nav link**, on every page, in the most-seen element on the site. Eleven checks had passed green for months while **347 live articles rendered in Times New Roman**. Neither is findable by grep, by validator, or by reasoning — only by loading the page in a real browser and looking at it. One screenshot found what the entire gate could not. **So every session loads real pages in a real browser before closing** — one of each archetype (article, hub, printable, interactive widget, homepage) at a narrow desktop width (~1200px) and a wide one, checking the nav, the typography, and the first screen. `document.fonts.check('700 2rem "Playfair Display"')` and a `getBoundingClientRect()` overlap test on the nav row take ten seconds and are worth more than any static check. *(The nav band at 1181–1400px was retuned in S194-infra to values MEASURED in-browser at innerWidth 1196. The 1181px breakpoint is correct and was deliberately kept: raising it to 1280 removed the desktop nav entirely from common laptop viewports. If you touch those values, re-measure. Do not reason about it.)*
+6. **Grep locates; it does not establish.** Learned three times in one session at real cost. A commented-out `<script>` is byte-identical to a live one under grep. A string in a comment header reads exactly like a runtime dependency. Before acting on a match, read its usage.
+7. **The page source is reader-facing too.** Internal process vocabulary in HTML comments — `<!-- CONSECRATED S43-S58 BORN-APEX -->`, `<!-- POLISH-LOCKED -->`, `<!-- HAMMER-LOCKED -->` — shipped on **618 pages** until S195. A reader who opens view-source and finds session numbers and lock labels is no longer weighing Romans 9 (VOICE §XXII.3). CHECK 7 governs internal *files*; it never looked inside a served one. Enforced by **CHECK 15**; fix with `node strip-internal-markers.js`. The same law covers stale `dateModified` in JSON-LD — a machine-readable falsehood is still a falsehood.
 
 ### Repair scripts (all idempotent — safe to re-run, inert on a clean corpus)
 
@@ -164,6 +167,7 @@ node fix-script-payload.js        # defer heavy JS; de-duplicate <script> tags  
 node fix-missing-webfonts.js      # restore the font <link> + gstatic preconnect  (CHECK 13)
 node fix-skip-links.js            # skip-to-content + #main-content anchor (WCAG 2.4.1)
 node strip-stale-nav-comment.js   # remove the pasted CANONICAL NAV TEMPLATE comment
+node strip-internal-markers.js    # remove CONSECRATED/LOCKED session comments    (CHECK 15)
 ```
 
 ---

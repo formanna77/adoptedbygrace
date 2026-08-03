@@ -391,7 +391,20 @@ const isPublic = f =>
   PUBLIC_EXACT.has(f) ||
   (f.endsWith('.js') && runtimeJs.has(f));
 
+// FUSE mount artifacts are NOT repo files and cannot deploy.
+// An agent sandbox mounts this repo over FUSE; every time a file is rewritten
+// while a handle is still open, the kernel orphans the old inode as
+// `.fuse_hidden<hex>`. They appear in readdir, cannot be unlinked from inside
+// the sandbox, and are regenerated under a NEW name on every subsequent edit —
+// so enumerating them in _redirects is a treadmill that never converges.
+// They are covered by `.fuse_hidden*` in .gitignore, and a file git never
+// commits is a file Netlify never serves. Skipping them here is therefore
+// sound, and it keeps CHECK 7 deny-by-default for everything that IS real.
+// (Delete them from the host when convenient; they are pure litter.)
+const FUSE_ARTIFACT = /^\.fuse_hidden[0-9a-f]+$/i;
+
 const mustBlock = fs.readdirSync('.').filter(f => {
+  if (FUSE_ARTIFACT.test(f)) return false;
   if (!fs.statSync(f).isFile()) return false;
   return !isPublic(f);
 });
@@ -870,11 +883,49 @@ console.log('\n━━━ CHECK 14: Article-Tag Literal Contract ━━━');
 }
 
 // ═══════════════════════════════════════
+// CHECK 15: No internal process vocabulary in served page source
+// ═══════════════════════════════════════
+// CHECK 7 asks whether an internal FILE is publicly served. It never looked
+// INSIDE a served one. Until S195, 618 pages shipped 847 comments carrying the
+// site's own audit vocabulary into public view-source:
+//
+//     <!-- CONSECRATED S43-S58 BORN-APEX -->   <!-- POLISH-LOCKED -->
+//
+// VOICE.md XXII.3: a reader thinking about the source is not weighing the
+// argument. Session numbers and lock labels are that intrusion — and they are
+// also usually stale, since a "LOCKED" page has typically been rewritten since.
+//
+// Deny-by-NAME, deliberately: the structural comments the build scripts key on
+// (RELATED-ARTICLES-START/END) are load-bearing, and ordinary developer
+// comments reveal no process. Fix: node strip-internal-markers.js
+console.log('\n━━━ CHECK 15: Internal Markers in Served Source ━━━');
+{
+  const INTERNAL = /<!--(?:(?!-->)[^])*?\b(CONSECRATED|POLISH-LOCKED|HAMMER-LOCKED|BORN-APEX|SAPIENTIAL|BUCKET [A-Z]\b|WIKIPEDIA-CARD|NEEDS-LIFT)(?:(?!-->)[^])*?-->/i;
+  const leaking = [];
+
+  for (const f of fs.readdirSync(ROOT).filter(x => x.endsWith('.html'))) {
+    const html = safeReadFileSync(path.join(ROOT, f));
+    if (!html) continue;
+    if (INTERNAL.test(html)) leaking.push(f);
+  }
+
+  if (leaking.length) {
+    console.log(`  ❌ ${leaking.length} page(s) ship internal audit vocabulary in view-source:`);
+    leaking.slice(0, 10).forEach(f => console.log(`     ${f}`));
+    if (leaking.length > 10) console.log(`     …and ${leaking.length - 10} more`);
+    console.log('     Fix: node strip-internal-markers.js');
+    errors++;
+  } else {
+    console.log('  ✅ No session numbers or lock labels in any served page source');
+  }
+}
+
+// ═══════════════════════════════════════
 // VERDICT — prints LAST, after every check. Do not move it up.
 // ═══════════════════════════════════════
 console.log('\n══════════════════════════════════');
 if (errors === 0 && warnings === 0) {
-    console.log('ALL 14 CHECKS PASSED — site integrity verified');
+    console.log('ALL 15 CHECKS PASSED — site integrity verified');
 } else {
     if (errors > 0) console.log(`${errors} ERROR(S) — must fix before finishing`);
     if (warnings > 0) console.log(`${warnings} WARNING(S) — should fix if possible`);
