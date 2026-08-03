@@ -626,7 +626,45 @@ if (process.argv.includes('--rebaseline-styles')) {
 // repeat there is the point.
 console.log('\n━━━ CHECK 11: One Prose Link Per Concept ━━━');
 {
-  const CARD_BLOCK = /<(?:div|nav|section|aside|footer)[^>]*class="[^"]*(?:related-articles|related-explore|cross-refs|continue-journey|keep-reading|article-continue|next-steps|further-reading|explore-more|read-next)[^"]*"[\s\S]*?<\/(?:div|nav|section|aside|footer)>/gi;
+  // S196 — THE MASK WAS A REGEX AND IT WAS LYING, in this file and in
+  // dedupe-prose-links.js, with the identical defect in both.
+  //
+  // The old form ended in `[\s\S]*?<\/(?:div|nav|...)>` — NON-GREEDY, so the
+  // mask stopped at the FIRST closing tag inside the deck, which is
+  // `<div class="card-number">01</div>`. Measured: it covered 185 bytes of a
+  // 1,582-byte keep-reading section. Cards 02 and 03 were never masked at all.
+  //
+  // Consequence here: this check counted deck cards as PROSE links and reported
+  // 25 pages as duplicate-link offenders that were not offenders. Consequence in
+  // dedupe-prose-links.js: it STRIPPED those cards' <a> wrappers, leaving 41
+  // unclickable card-shaped stubs across 21 pages. One bug, two opposite
+  // symptoms, and the validator's version made the real damage look like noise.
+  //
+  // Nested HTML is not a regular language. Use a tag-balance walker.
+  const DECK_CLASS = /(related-articles|related-explore|cross-refs|continue-journey|keep-reading|article-continue|next-steps|further-reading|explore-more|read-next)/i;
+  const maskDecks = (body) => {
+    const DECK_OPEN = /<(div|nav|section|aside|footer)([^>]*)>/gi;
+    const spans = [];
+    let m;
+    while ((m = DECK_OPEN.exec(body))) {
+      const [full, tag, attrs] = m;
+      if (!DECK_CLASS.test(attrs)) continue;
+      if (spans.length && m.index < spans[spans.length - 1][1]) continue;
+      const scan = new RegExp('<(/?)' + tag + '\\b[^>]*>', 'gi');
+      scan.lastIndex = m.index + full.length;
+      let depth = 1, end = -1, t;
+      while ((t = scan.exec(body))) {
+        depth += t[1] ? -1 : 1;
+        if (depth === 0) { end = t.index + t[0].length; break; }
+      }
+      if (end === -1) continue;
+      spans.push([m.index, end]);
+    }
+    for (let i = spans.length - 1; i >= 0; i--) {
+      body = body.slice(0, spans[i][0]) + ' ' + body.slice(spans[i][1]);
+    }
+    return body;
+  };
   const offenders = [];
 
   for (const f of fs.readdirSync('.').filter(x => x.endsWith('.html'))) {
@@ -636,9 +674,7 @@ console.log('\n━━━ CHECK 11: One Prose Link Per Concept ━━━');
     const bodyEnd = html.lastIndexOf('</article>');
     if (bodyEnd === -1) continue;
 
-    const body = html
-      .slice(html.indexOf('>', open) + 1, bodyEnd)
-      .replace(CARD_BLOCK, ' ');
+    const body = maskDecks(html.slice(html.indexOf('>', open) + 1, bodyEnd));
 
     const counts = {};
     for (const m of body.matchAll(/<a\s+href="(\/[^"#]*)"/gi)) {

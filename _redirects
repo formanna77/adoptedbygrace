@@ -273,3 +273,5 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 # Custom 404
 /*  /404.html  404
 /strip-internal-markers.js   /404.html   410!
+/fix-orphaned-cards.js   /404.html   410!
+/fix-stray-progress-bar.js   /404.html   410!

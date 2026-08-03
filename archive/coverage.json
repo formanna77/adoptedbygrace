@@ -34,6 +34,15 @@
         "behind": 390,
         "unknown": 178,
         "remaining": 568
+      },
+      {
+        "session": 196,
+        "date": "2026-08-03",
+        "total": 618,
+        "atCurrent": 59,
+        "behind": 382,
+        "unknown": 177,
+        "remaining": 559
       }
     ]
   },
@@ -379,11 +388,11 @@
       "source": "marker"
     },
     "apologetic-light-shine-out-of-darkness.html": {
-      "lastSession": 194,
+      "lastSession": 196,
       "voiceRef": "§XXIII",
       "status": "partial",
       "source": "stamp",
-      "note": "Ps 110:3 non-NIV hedge replaced with NIV + nedavot"
+      "note": "link floor 3-6 -> 10+"
     },
     "apologetic-loved-darkness-rather-than-light.html": {
       "lastSession": null,
@@ -454,10 +463,11 @@
       "source": "marker"
     },
     "apologetic-purchased-from-every-tribe.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 196,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "link floor 3-6 -> 10+"
     },
     "apologetic-revival-and-sovereign-grace.html": {
       "lastSession": 58,
@@ -883,10 +893,11 @@
       "source": "marker"
     },
     "demolition-2peter3-15.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 196,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "link floor 3-6 -> 10+"
     },
     "demolition-2peter3-9.html": {
       "lastSession": null,
@@ -1010,10 +1021,11 @@
       "source": "marker"
     },
     "demolition-james4-7-8.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 196,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "link floor 3-6 -> 10+"
     },
     "demolition-jer18.html": {
       "lastSession": 58,
@@ -1210,10 +1222,11 @@
       "source": "marker"
     },
     "devotional-held-without-asking.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 196,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "link floor 3-6 -> 10+"
     },
     "devotional-i-cant-feel-god.html": {
       "lastSession": 95,
@@ -1284,10 +1297,11 @@
       "note": "Acts 9:1 and 9:4 corrected to NIV 2011"
     },
     "devotional-the-first-prayer-after-surrender.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 196,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "link floor 3-6 -> 10+"
     },
     "devotional-the-freedom-of-not-choosing.html": {
       "lastSession": 58,
@@ -1320,10 +1334,11 @@
       "source": "marker"
     },
     "devotional-the-morning-you-wake-up-new.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 196,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "link floor 3-6 -> 10+"
     },
     "devotional-the-prayer-you-didnt-pray.html": {
       "lastSession": null,
@@ -1350,10 +1365,11 @@
       "source": "marker"
     },
     "devotional-the-weight-lifted.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 196,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "link floor 3-6 -> 10+"
     },
     "devotional-valley-shadow.html": {
       "lastSession": 58,
@@ -1380,10 +1396,11 @@
       "source": "marker"
     },
     "devotional-you-are-not-the-hero.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 196,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "link floor 3-6 -> 10+"
     },
     "devotional-you-cannot-undo-being-chosen.html": {
       "lastSession": 58,
@@ -1392,11 +1409,11 @@
       "source": "marker"
     },
     "devotional-you-were-wanted-before-you-were.html": {
-      "lastSession": 195,
+      "lastSession": 196,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "FALSE GREEK WELD REMOVED (lavished = eperisseusen vs dedoken, English-only pun) and rebuilt on eperisseusen -> Rom 5:15 -> twelve baskets; Gethsemane contradiction fixed; multiplied close 4 -> 1; links 3 -> 11"
+      "note": "S196 cold-read repair"
     },
     "devotional-your-name-in-the-book.html": {
       "lastSession": 58,
@@ -1687,10 +1704,11 @@
       "source": "marker"
     },
     "invisible-wall-lonely-theological.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 196,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "link floor 3-6 -> 10+"
     },
     "invisible-wall-marriage.html": {
       "lastSession": 58,
@@ -2915,11 +2933,11 @@
       "source": "marker"
     },
     "reformed-apologetics-moral-argument.html": {
-      "lastSession": 195,
+      "lastSession": 196,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "Door One/Mackie contradiction resolved; editorial note-to-self cut from public prose; 'only position on the board' earned not asserted; Street at full power + Wielenberg/Enoch conceded; Euthyphro answered on second-personal obligation + disclosed-not-stipulated; compressed"
+      "note": "S196 cold-read repair"
     },
     "reformed-apologetics-resurrection.html": {
       "lastSession": null,
@@ -3164,11 +3182,11 @@
       "source": "marker"
     },
     "shattered-lens-taught-wrong.html": {
-      "lastSession": 195,
+      "lastSession": 196,
       "voiceRef": "§XXIII",
-      "status": "partial",
+      "status": "lifted",
       "source": "stamp",
-      "note": "NIV guardrail breach fixed (Heb 4:12 two-edged -> double-edged); seams + steelman + multiplied close still owed"
+      "note": "S196 cold-read repair"
     },
     "shattered-lens-when-prayer-stopped-working.html": {
       "lastSession": 70,
@@ -3791,11 +3809,11 @@
       "source": "marker"
     },
     "theologian-owen.html": {
-      "lastSession": 195,
+      "lastSession": 196,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "trilemma door 1 steelmanned + Owen's unbelief question restored; false 'no answer in 4 centuries' cut from body+3 meta carriers; VC timeline 1657/1660; deathbed quote restored verbatim; seam repaired; catch now covers the reader who fears he is out (John 6:37b); Soli Deo Gloria tag cut"
+      "note": "S196 cold-read repair"
     },
     "theologian-anselm.html": {
       "lastSession": null,
@@ -3808,6 +3826,13 @@
       "voiceRef": null,
       "status": "unknown",
       "source": "marker"
+    },
+    "shattered-lens-hub.html": {
+      "lastSession": 196,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "carrier re-synced to the repaired spine"
     }
   }
 }
