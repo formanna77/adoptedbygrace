@@ -211,6 +211,38 @@ Two of these deserve naming. **Exodus 33:19 is a Romans 9 keystone** and the sit
 
 That last category is the interesting theological work and should not be automated. A compressed verse inside quotation marks is not a typo; it is the page quietly improving on Scripture, which is the exact posture this site exists to argue against.
 
+---
+
+# FOURTH PASS — WHAT THREE SWEEPS STILL MISSED
+
+## 10. TWENTY-SIX DOORWAYS FAILED WCAG 2.4.1 — AND THE REPAIR SCRIPT HELD A LOADED GUN
+
+Accessibility had never been swept. Most of it is in good shape: **zero images without `alt`, exactly one `<h1>` on all 686 pages, `lang` set everywhere, no empty links, and all 670 in-page anchors resolve.** That is better than most of the field.
+
+But **26 pages had no skip-to-content link**, and the list is the worst possible one: `questions`, `start-here`, `best-reads`, `topics`, every hub, and **every audience landing page — `for-doubters`, `for-hurting`, `for-skeptics`, `for-new-believers`, `for-arminians`.** Those are doorways. A reader arriving on `for-hurting` with a screen reader had to hear the entire site navigation before the first word written for them.
+
+`fix-skip-links.js` had been bailing on all 26 because they lack an `<article class="article-body">` wrapper — reasonable-sounding ("do not invent an anchor in markup this script does not understand") and wrong, because the markup was not actually unknown: 22 of the 26 use `.hub-container` and the rest have a `<main>`. Extended to anchor the real content region, reusing an existing `id` rather than adding a second. **686 of 686 pages now carry a skip link, and all 684 links resolve to a real element.** Verified in a browser on three archetypes. Re-running is inert.
+
+### The loaded gun
+
+While in there: **`fix-skip-links.js` still wrote `<article id="main-content" class="article-body">` — `id` before `class`.** That is precisely the literal-string trap CLAUDE.md documents, the one that dropped the canonical article count from 618 to 89 in S194 while the validator reported every check passing.
+
+It reported "0 pages" and looked harmless only because every page with an article wrapper already had a skip link. **The first new article page created without one would have silently removed itself from the index of all 21 consumer scripts.** Fixed to write the `id` after the class, and proven: the skip link was stripped from a live article page, the script re-run, and the resulting tag confirmed as `<article class="article-body">` with the literal contract intact at 618.
+
+## 11. THE STALE JSON-LD DATES — DELIBERATELY NOT BULK-FIXED
+
+373 pages still say `dateModified: 2026-04` after a summer of rewrites, nothing has a `datePublished` past 2026-06-30, and **228 article pages carry no `dateModified` at all.** Law 7 is explicit that this counts as a machine-readable falsehood.
+
+**It was not auto-corrected, and the reason is the law itself.** There is no honest record of when each page changed: GIT POLICY forbids git history, `archive/coverage.json` stores session numbers with no dates, and mtime is worthless because the pipeline rewrites every file on every run. Stamping all 373 with today's date would replace one falsehood with a louder one — announcing to every crawler that the entire corpus changed on a single day, which is untrue and a spam signal besides. **The current error at least understates freshness; the fabricated one would overstate it, which is the direction that actually deceives.**
+
+So the field is made true going forward instead. **`stamp-modified.js`** stamps only the pages a session actually edited (`--check` reports the corpus-wide distribution). The 12 pages touched in this audit are stamped. From here, `dateModified` is a record rather than a guess — and S198 can decide separately what to do about the historical 373, with the knowledge that no honest signal exists to reconstruct them.
+
+## 12. SMALLER THINGS
+
+- **`_headers` carried a cache rule for `/search-index.json` — a file that has never existed on this site.** The real asset is `/search-index.js`, silently falling through to the generic `/*.js` rule. Now that it is fetched on demand, its own rule matters: it is 9.4 MB and a reader who searches twice should pay once.
+- **All 113 linked Reformed Sources PDFs resolve** against their real on-disk filenames, `%20` encoding intact; one PDF on disk is not linked from anywhere. Zero broken root-level PDF links.
+- **CHECK 7 caught the new `stamp-modified.js` immediately** and printed the exact forced `410!` line, which was added in the same session. The guardrail behaved exactly as CLAUDE.md says it should.
+
 ## 8. VERIFIED CLEAN
 
 `validate-site.js` **ALL 17 CHECKS PASSED** · desktop render check passed at 1196px and 1600px across all six archetypes with Playfair confirmed loaded · **mobile render clean at 390px and 768px across all six archetypes** · `canonical-conformance` 686/686 · `fix-orphaned-cards --dry-run` and `fix-stray-progress-bar --dry-run` both inert · `generate-manifest.js --check` reports current · sitemap correct (the three absences are `_nav-template`, `index` as root `/`, and a `noindex` thank-you page) · every root `.md` carries its forced `410!` · no hardcoded sandbox paths in `archive/*.js` · `tags.json`, `/all-content` and the homepage all agree at 611.

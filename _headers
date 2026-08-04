@@ -22,8 +22,13 @@
 /robots.txt
   Cache-Control: public, max-age=86400
 
-# Search index is rebuilt whenever content changes — revalidate daily
-/search-index.json
+# Search index. The rule here named /search-index.json until S198 — a file that
+# has never existed on this site; the real asset is /search-index.js, which was
+# silently falling through to the generic /*.js rule below. Now that it is
+# fetched on demand rather than shipped with the page (see ensureIndex() in
+# search.html), a longer cache matters: it is 9.4 MB, and a reader who searches
+# twice should pay for it once.
+/search-index.js
   Cache-Control: public, max-age=86400, must-revalidate
 
 # CSS/JS: 1-day cache with revalidation (not fingerprinted)

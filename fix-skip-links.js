@@ -33,25 +33,76 @@ for (const f of fs.readdirSync('.').filter(x => x.endsWith('.html'))) {
   if (f === '_nav-template.html') continue;
   const before = fs.readFileSync(f, 'utf8');
   let html = before;
+  let anchorId = 'main-content';
 
   // --- target anchor ---
   const hasTarget = /id="main-content"/.test(html);
   if (!hasTarget) {
     if (/<article class="article-body"/.test(html)) {
-      html = html.replace('<article class="article-body"', '<article id="main-content" class="article-body"');
+      // THE id GOES AFTER THE class. NOT BEFORE. This is not style.
+      //
+      // 21 scripts — build-tags, build-all-content, build-homepage-counts,
+      // dedupe-prose-links, share-bar (a RUNTIME script), every detect-*/audit-*,
+      // and validate-site CHECK 11 — match the exact literal substring
+      // `<article class="article-body"`. Writing `<article id="main-content"
+      // class="article-body">` is semantically identical HTML, indistinguishable
+      // in a browser, and invisible to all 21 of them: in S194 that one edit
+      // dropped the canonical article count from 618 to 89 while the validator
+      // still reported every check passing, because CHECK 11 does
+      // `if (open === -1) continue` and silently skipped 529 pages.
+      //
+      // This script carried that exact bug until S198. It reported "0 pages"
+      // and looked harmless only because every page with an article wrapper
+      // already had a skip link — a loaded gun waiting for the first new
+      // article page that did not. CHECK 14 is the guardrail; do not rely on it.
+      html = html.replace('<article class="article-body"', '<article class="article-body" id="main-content"');
       idAdded++;
     } else {
-      // No article wrapper (hub, widget, utility). Leave it alone rather than
-      // inventing an anchor in markup this script does not understand.
-      if (!/skip-to-content/.test(html)) skipped.push(f);
-      continue;
+      // NON-ARTICLE PAGES GET AN ANCHOR TOO (S198).
+      //
+      // The original bailed here, on the reasonable-sounding grounds that it
+      // should not invent an anchor in markup it does not understand. The
+      // effect was that 26 pages — including `questions`, `start-here`,
+      // `best-reads`, `topics`, and every audience landing page (`for-doubters`,
+      // `for-hurting`, `for-skeptics`, `for-new-believers`, `for-arminians`) —
+      // permanently failed WCAG 2.4.1. Those are doorways. A reader arriving on
+      // `for-hurting` with a screen reader had to hear the entire navigation
+      // before the first word written for them.
+      //
+      // The markup is not actually unknown: 22 of the 26 use `.hub-container`
+      // and the rest have a <main>. Anchor the real content region, in
+      // preference order, and REUSE an existing id rather than adding a second.
+      const target =
+        html.match(/<main\b[^>]*\bid="([^"]+)"/) ||
+        html.match(/<(?:main|section|div)\b[^>]*\bclass="[^"]*\bhub-container\b[^"]*"[^>]*\bid="([^"]+)"/);
+      if (target) {
+        anchorId = target[1];                    // already anchorable
+      } else {
+        const m =
+          html.match(/<main\b[^>]*>/) ||
+          html.match(/<(?:main|section|div)\b[^>]*\bclass="[^"]*\bhub-container\b[^"]*"[^>]*>/) ||
+          // Widgets that carry article-body on a non-<article> element, or with
+          // extra classes after it, so the exact-literal branch above misses
+          // them: <article class="article-body sixty-stage">, <section
+          // class="cascade-container article-body">. Anchoring these is safe —
+          // the id lands at the END of the attribute list, so the literal
+          // `<article class="article-body"` substring is never disturbed.
+          html.match(/<(?:article|section|div)\b[^>]*\bclass="[^"]*\barticle-body\b[^"]*"[^>]*>/);
+        if (!m) { if (!/skip-to-content/.test(html)) skipped.push(f); continue; }
+        html = html.replace(m[0], m[0].replace(/>$/, ' id="main-content">'));
+        idAdded++;
+      }
     }
   }
 
   // --- the link itself, first focusable element in <body> ---
   if (!/skip-to-content/.test(html)) {
     const m = html.match(/<body[^>]*>/);
-    if (m) { html = html.replace(m[0], m[0] + '\n    ' + LINK); added++; }
+    if (m) {
+      const link = LINK.replace('#main-content', '#' + anchorId);
+      html = html.replace(m[0], m[0] + '\n    ' + link);
+      added++;
+    }
   }
 
   if (html !== before) fs.writeFileSync(f, html);
