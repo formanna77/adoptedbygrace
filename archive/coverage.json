@@ -5,7 +5,7 @@
       "date": "2026-07-28",
       "sinceSession": 191
     },
-    "updated": "2026-08-03",
+    "updated": "2026-08-04",
     "note": "Historical seed from HTML markers is approximate (review-freshness, not pass/fail). source:\"stamp\" entries are exact.",
     "history": [
       {
@@ -43,6 +43,15 @@
         "behind": 382,
         "unknown": 177,
         "remaining": 559
+      },
+      {
+        "session": 197,
+        "date": "2026-08-04",
+        "total": 618,
+        "atCurrent": 93,
+        "behind": 358,
+        "unknown": 167,
+        "remaining": 525
       }
     ]
   },
@@ -60,10 +69,11 @@
       "source": "marker"
     },
     "analogy-adoption.html": {
-      "lastSession": 77,
+      "lastSession": 197,
       "voiceRef": "§XXIII",
-      "status": "seeded",
-      "source": "marker"
+      "status": "lifted",
+      "source": "stamp",
+      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
     },
     "analogy-chess-grandmaster.html": {
       "lastSession": 80,
@@ -72,16 +82,18 @@
       "source": "marker"
     },
     "analogy-doctor-corpse.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
     },
     "analogy-drowning-man.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
     },
     "analogy-lazarus-grave.html": {
       "lastSession": null,
@@ -229,10 +241,11 @@
       "source": "marker"
     },
     "anxious-mind-what-if-not-chosen.html": {
-      "lastSession": 95,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
     },
     "apologetic-a-slave-to-sin.html": {
       "lastSession": null,
@@ -266,10 +279,11 @@
       "source": "marker"
     },
     "apologetic-bought-with-his-own-blood.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "apologetic-chosen-as-firstfruits.html": {
       "lastSession": null,
@@ -321,10 +335,11 @@
       "source": "marker"
     },
     "apologetic-he-bore-the-sin-of-many.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "V.2: silently altered Isaiah 53:5 quotation restored verbatim"
     },
     "apologetic-he-did-not-spare-his-own-son.html": {
       "lastSession": null,
@@ -333,10 +348,11 @@
       "source": "marker"
     },
     "apologetic-he-is-faithful.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "apologetic-he-who-began-a-good-work.html": {
       "lastSession": 58,
@@ -407,10 +423,11 @@
       "source": "marker"
     },
     "apologetic-many-people-in-this-city.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "apologetic-no-one-can-come-unless.html": {
       "lastSession": 58,
@@ -814,10 +831,11 @@
       "note": "three feeling-slips re-grounded on Gods prior work"
     },
     "creed-canons-dort.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
     },
     "creed-heidelberg-catechism.html": {
       "lastSession": 58,
@@ -826,10 +844,11 @@
       "source": "marker"
     },
     "demolition-1cor10-13.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "demolition-1cor15-22.html": {
       "lastSession": 58,
@@ -1204,10 +1223,11 @@
       "source": "marker"
     },
     "devotional-found-before-you-were-born.html": {
-      "lastSession": 70,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "devotional-glory-of-divine-choice.html": {
       "lastSession": 69,
@@ -1241,10 +1261,11 @@
       "source": "marker"
     },
     "devotional-i-was-lazarus.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "devotional-in-christ.html": {
       "lastSession": 67,
@@ -1328,10 +1349,11 @@
       "source": "marker"
     },
     "devotional-the-kindest-shock.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "devotional-the-morning-you-wake-up-new.html": {
       "lastSession": 196,
@@ -1359,10 +1381,11 @@
       "source": "marker"
     },
     "devotional-the-shepherd-came-looking.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "devotional-the-weight-lifted.html": {
       "lastSession": 196,
@@ -1416,10 +1439,11 @@
       "note": "S196 cold-read repair"
     },
     "devotional-your-name-in-the-book.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "dialogue-arminian-pastor-questions-himself.html": {
       "lastSession": 189,
@@ -1436,11 +1460,11 @@
       "note": "S192 targeted fix (image density / divine pronouns)"
     },
     "ethics-abortion.html": {
-      "lastSession": 194,
+      "lastSession": 197,
       "voiceRef": "§XXIII",
       "status": "partial",
       "source": "stamp",
-      "note": "she-is-the-objection heading fixed; Acts 22:20 guarding-the-coats correction"
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "ethics-end-of-life.html": {
       "lastSession": null,
@@ -1467,10 +1491,11 @@
       "source": "marker"
     },
     "ethics-power-authority.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "ethics-race.html": {
       "lastSession": null,
@@ -1920,10 +1945,11 @@
       "source": "marker"
     },
     "objection-why-pray.html": {
-      "lastSession": 78,
-      "voiceRef": "§XXIV",
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "open-wound-betrayed-by-church.html": {
       "lastSession": 58,
@@ -1968,11 +1994,11 @@
       "source": "marker"
     },
     "open-wound-the-prayer-god-didnt-answer.html": {
-      "lastSession": 194,
+      "lastSession": 197,
       "voiceRef": "§XXIII",
       "status": "partial",
       "source": "stamp",
-      "note": "closed the cruel Rom 8:26 inference; triple close collapsed; link off the money line"
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "ot-abel-cain.html": {
       "lastSession": 58,
@@ -2269,10 +2295,11 @@
       "source": "marker"
     },
     "psychology-anosognosia-of-sin.html": {
-      "lastSession": 153,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
     },
     "psychology-attribution-error.html": {
       "lastSession": 58,
@@ -2407,10 +2434,11 @@
       "source": "marker"
     },
     "psychology-suppressing-truth.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "psychology-system-justification.html": {
       "lastSession": 58,
@@ -2431,10 +2459,11 @@
       "source": "marker"
     },
     "psychology-why-this-objection-proves-our-point.html": {
-      "lastSession": 153,
-      "voiceRef": "§XIX",
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "psychology-why-we-resist.html": {
       "lastSession": 191,
@@ -2528,10 +2557,11 @@
       "source": "marker"
     },
     "question-chosen.html": {
-      "lastSession": 67,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
     },
     "question-dead-bury-dead.html": {
       "lastSession": 58,
@@ -2553,10 +2583,11 @@
       "source": "marker"
     },
     "question-depravity.html": {
-      "lastSession": 67,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
     },
     "question-does-god-choose-who-goes-to-heaven.html": {
       "lastSession": 58,
@@ -2626,10 +2657,11 @@
       "source": "marker"
     },
     "question-freewill.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
     },
     "question-godwants.html": {
       "lastSession": 58,
@@ -2638,10 +2670,11 @@
       "source": "marker"
     },
     "question-goldchain.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence: cross added at the page's own load-bearing link"
     },
     "question-hardening.html": {
       "lastSession": 191,
@@ -2681,11 +2714,11 @@
       "source": "marker"
     },
     "question-is-salvation-my-choice-or-gods.html": {
-      "lastSession": 189,
-      "voiceRef": "§XXII",
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "touto objection met; opener anatomy and FAQ motive and stray-space fixed"
+      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
     },
     "question-isaiah53.html": {
       "lastSession": null,
@@ -2865,10 +2898,11 @@
       "source": "marker"
     },
     "question-what-is-sovereign-grace.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
     },
     "question-what-is-the-gospel.html": {
       "lastSession": 192,
@@ -2909,10 +2943,11 @@
       "source": "marker"
     },
     "question-why-does-god-choose-some-not-others.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
     },
     "question-why-pray-if-god-is-sovereign.html": {
       "lastSession": 58,
@@ -2933,11 +2968,11 @@
       "source": "marker"
     },
     "reformed-apologetics-moral-argument.html": {
-      "lastSession": 196,
+      "lastSession": 197,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "S196 cold-read repair"
+      "note": "P0 cold read: cross-page cloned sentences broken; page-native replacements"
     },
     "reformed-apologetics-resurrection.html": {
       "lastSession": null,
@@ -3080,10 +3115,11 @@
       "source": "marker"
     },
     "secular-billion-decisions.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
     },
     "secular-economics-depravity.html": {
       "lastSession": 58,
@@ -3092,10 +3128,11 @@
       "source": "marker"
     },
     "secular-genetics-sovereignty.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence: cross added at the page's own load-bearing link"
     },
     "secular-hard-problem-consciousness.html": {
       "lastSession": 58,
@@ -3140,10 +3177,11 @@
       "source": "marker"
     },
     "share-your-story.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "unknown",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "shattered-lens-bible-doesnt-make-sense.html": {
       "lastSession": 58,
@@ -3182,11 +3220,11 @@
       "source": "marker"
     },
     "shattered-lens-taught-wrong.html": {
-      "lastSession": 196,
+      "lastSession": 197,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "S196 cold-read repair"
+      "note": "P0 cold read: cross-page cloned sentences broken; page-native replacements"
     },
     "shattered-lens-when-prayer-stopped-working.html": {
       "lastSession": 70,
@@ -3321,10 +3359,11 @@
       "source": "marker"
     },
     "story-the-dead-city.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "story-the-fish-who-chose-the-ocean.html": {
       "lastSession": 58,
@@ -3497,16 +3536,18 @@
       "source": "marker"
     },
     "systematic-hamartiology.html": {
-      "lastSession": 67,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
     },
     "systematic-imputation.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "systematic-justification.html": {
       "lastSession": null,
@@ -3528,10 +3569,11 @@
       "source": "marker"
     },
     "systematic-pneumatology.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 197,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
     },
     "systematic-prolegomena.html": {
       "lastSession": 58,
@@ -3809,11 +3851,11 @@
       "source": "marker"
     },
     "theologian-owen.html": {
-      "lastSession": 196,
+      "lastSession": 197,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "S196 cold-read repair"
+      "note": "P0 cold read: cross-page cloned sentences broken; page-native replacements"
     },
     "theologian-anselm.html": {
       "lastSession": null,

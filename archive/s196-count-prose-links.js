@@ -8,7 +8,11 @@
 const fs = require('fs');
 const path = require('path');
 
-const ROOT = '/sessions/lucid-amazing-clarke/mnt/adoptedbygracewebsite';
+// S197: was hardcoded to S196's sandbox mount path, which does not exist in any
+// later session — the script threw EACCES on first use and the queue it writes
+// went stale without anyone noticing. Resolve from the file's own location, the
+// way s196-render-check.js already did.
+const ROOT = path.resolve(__dirname, '..');
 const OPEN = '<article class="article-body"';
 
 const MASK = ['hub-card','card-','related','breadcrumb','nav','footer','share','cta-','pill','tag-','eyebrow'];

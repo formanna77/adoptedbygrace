@@ -2,69 +2,67 @@
   COVERAGE — adoptedbygrace.net prose corpus — review freshness vs. the newest bar
 ========================================================================
   Current standard: §XXIII (2026-07-28); era begins ~S191
-  Ledger updated:   2026-08-03   |   prose pages: 618
+  Ledger updated:   2026-08-04   |   prose pages: 618
 
-  At current standard (§XXIII)    59    9.5%  ███·························
-  Behind (older bar, dated)          382   61.8%  █████████████████···········
-  Unknown (locked, no session tag)   177   28.6%  ████████····················
+  At current standard (§XXIII)    93   15.0%  ████························
+  Behind (older bar, dated)          358   57.9%  ████████████████············
+  Unknown (locked, no session tag)   167   27.0%  ████████····················
 
-  REMAINING for the §XXIII pass: 559 pages (behind + unknown).
-  At 10 pages/session: ~56 sessions to full §XXIII coverage.  (tune rate with --rate=N)
+  REMAINING for the §XXIII pass: 525 pages (behind + unknown).
+  At 10 pages/session: ~53 sessions to full §XXIII coverage.  (tune rate with --rate=N)
 
   ── END-OF-SESSION STANDING ──
-  Since S195 (2026-08-03): at §XXIII 50 -> 59 (+9);  remaining 568 -> 559 (-9).
-  Remaining trend: S189:602  S194:540  S195:568  S196:559
+  Since S197 (2026-08-04): at §XXIII 93 -> 93 (+0);  remaining 525 -> 525 (+0).
+  Remaining trend: S189:602  S194:540  S195:568  S196:559  S197:525
 
   Last-lifted era (approximate for older sessions):
-    §XXII (2026-07-19)           72  ███·························
-    §XVIII-XXI (2026-06-21)      11  ····························
+    §XXII (2026-07-19)          105  █████·······················
+    §XVIII-XXI (2026-06-21)       9  ····························
     §XVII/XVI (2026-05)          10  ····························
-    pre-§XVI (<=S99)            348  ████████████████············
-    unknown / untagged          177  ████████····················
+    pre-§XVI (<=S99)            327  ███████████████·············
+    unknown / untagged          167  ████████····················
 
-  Exactly-tracked lifts (source: stamp) — 72:
-    S196  partial  apologetic-light-shine-out-of-darkness.html  — link floor 3-6 -> 10+
-    S196  partial  apologetic-purchased-from-every-tribe.html  — link floor 3-6 -> 10+
-    S196  partial  demolition-2peter3-15.html  — link floor 3-6 -> 10+
-    S196  partial  demolition-james4-7-8.html  — link floor 3-6 -> 10+
-    S196  partial  devotional-held-without-asking.html  — link floor 3-6 -> 10+
-    S196  partial  devotional-the-first-prayer-after-surrender.html  — link floor 3-6 -> 10+
-    S196  partial  devotional-the-morning-you-wake-up-new.html  — link floor 3-6 -> 10+
-    S196  partial  devotional-the-weight-lifted.html  — link floor 3-6 -> 10+
-    S196  partial  devotional-you-are-not-the-hero.html  — link floor 3-6 -> 10+
-    S196  lifted   devotional-you-were-wanted-before-you-were.html  — S196 cold-read repair
-    S196  partial  invisible-wall-lonely-theological.html  — link floor 3-6 -> 10+
-    S196  lifted   reformed-apologetics-moral-argument.html  — S196 cold-read repair
-    S196  lifted   shattered-lens-taught-wrong.html  — S196 cold-read repair
-    S196  lifted   theologian-owen.html  — S196 cold-read repair
-    S194  partial  ethics-abortion.html  — she-is-the-objection heading fixed; Acts 22:20 guarding-the-coats correction
-    S194  lifted   history-open-theism.html  — spine non sequitur replaced by the petition argument; Molinism dilemma both horns; John 18:4 catch
-    S194  partial  open-wound-the-prayer-god-didnt-answer.html  — closed the cruel Rom 8:26 inference; triple close collapsed; link off the money line
-    S192  lifted   analogy-song-you-didnt-compose.html  — S192 hand-found feeling-slip (VOICE XXIII)
-    S192  partial  apologetic-i-shall-lose-none.html  — S192 targeted fix (image density / divine pronouns)
-    S192  lifted   apologetic-owen-trilemma.html  — S192 self-repeating close + integrity
-    S192  lifted   argument-logical-collapse-arminianism.html  — S192 hand-found feeling-slip (VOICE XXIII)
-    S192  partial  ephesians-1-3-14.html  — S192 targeted fix (image density / divine pronouns)
-    S192  lifted   history-heresy-foreknowledge.html  — S192 hand-found feeling-slip (VOICE XXIII)
-    S192  lifted   just-realized.html  — S192 gospel-landing + feeling-slip; catch derived from page's own image
-    S192  lifted   philosophy-gravity-of-grace.html  — S192 gospel-landing + feeling-slip; catch derived from page's own image
-    S192  partial  philosophy-resistance-is-proof.html  — S192 targeted fix (image density / divine pronouns)
-    S192  lifted   psychology-autonomy-illusion.html  — S192 gospel-landing + feeling-slip; catch derived from page's own image
-    S192  lifted   psychology-backfire-effect.html  — S192 gospel-landing + feeling-slip; catch derived from page's own image
-    S192  lifted   psychology-language-you-already-speak.html  — S192 gospel-landing + feeling-slip; catch derived from page's own image
-    S192  lifted   question-free-offer-of-the-gospel.html  — S192 hand-found feeling-slip (VOICE XXIII)
+  Exactly-tracked lifts (source: stamp) — 105:
+    S197  lifted   analogy-adoption.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
+    S197  lifted   analogy-doctor-corpse.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
+    S197  lifted   analogy-drowning-man.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
+    S197  lifted   anxious-mind-what-if-not-chosen.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
+    S197  partial  apologetic-bought-with-his-own-blood.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
+    S197  partial  apologetic-he-bore-the-sin-of-many.html  — V.2: silently altered Isaiah 53:5 quotation restored verbatim
+    S197  partial  apologetic-he-is-faithful.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
+    S197  partial  apologetic-many-people-in-this-city.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
+    S197  lifted   creed-canons-dort.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
+    S197  partial  demolition-1cor10-13.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
+    S197  partial  devotional-found-before-you-were-born.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
+    S197  partial  devotional-i-was-lazarus.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
+    S197  partial  devotional-the-kindest-shock.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
+    S197  partial  devotional-the-shepherd-came-looking.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
+    S197  partial  devotional-your-name-in-the-book.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
+    S197  partial  ethics-abortion.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
+    S197  partial  ethics-power-authority.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
+    S197  partial  objection-why-pray.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
+    S197  partial  open-wound-the-prayer-god-didnt-answer.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
+    S197  lifted   psychology-anosognosia-of-sin.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
+    S197  partial  psychology-suppressing-truth.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
+    S197  partial  psychology-why-this-objection-proves-our-point.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
+    S197  lifted   question-chosen.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
+    S197  lifted   question-depravity.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
+    S197  lifted   question-freewill.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
+    S197  lifted   question-goldchain.html  — gospel-absence: cross added at the page's own load-bearing link
+    S197  lifted   question-is-salvation-my-choice-or-gods.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
+    S197  lifted   question-what-is-sovereign-grace.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
+    S197  lifted   question-why-does-god-choose-some-not-others.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
+    S197  lifted   reformed-apologetics-moral-argument.html  — P0 cold read: cross-page cloned sentences broken; page-native replacements
 
   Longest-un-lifted (oldest tagged session — first candidates for a §XXII re-read):
     S 58  2-thessalonians-2-13.html
     S 58  acts-13-48.html
-    S 58  analogy-doctor-corpse.html
     S 58  analogy-river.html
     S 58  anxious-mind-brain-decides.html
     S 58  anxious-mind-intrusive-thoughts.html
     S 58  apologetic-definite-atonement.html
     S 58  apologetic-for-the-sheep.html
     S 58  apologetic-god-works-the-willing.html
-    S 58  apologetic-he-bore-the-sin-of-many.html
     S 58  apologetic-he-who-began-a-good-work.html
     S 58  apologetic-kept-by-the-power-of-god.html
     S 58  apologetic-no-one-can-come-unless.html
@@ -75,6 +73,8 @@
     S 58  apologetic-revival-and-sovereign-grace.html
     S 58  apologetic-save-his-people.html
     S 58  apologetic-sinful-from-birth.html
+    S 58  apologetic-the-conscience-that-only-accuses.html
+    S 58  apologetic-the-deceitful-heart.html
 
-  (177 pages carry a lock but no session tag; they need a session assigned on next touch.)
+  (167 pages carry a lock but no session tag; they need a session assigned on next touch.)
 ========================================================================
