@@ -130,7 +130,7 @@ Two live defects, invisible for months:
 
 **New standing tool: `archive/s198-mobile-check.js`.** Measures 390px and 768px, walks element rects rather than trusting `scrollWidth`, excludes deliberate horizontal scrollers, and prints progress so a slow run is distinguishable from a hung one. Two implementation notes worth keeping: it calls `getBoundingClientRect` *before* `getComputedStyle` — the first draft did the reverse and never finished on `all-content.html`'s ~20k nodes — and a long-running check that prints nothing looks exactly like a broken one, which cost two restarts before anyone could tell.
 
-## 6. SCRIPTURE AUDIT — THE REPORT IS TOO NOISY TO USE
+## 6. SCRIPTURE AUDIT — DONE IN A THIRD PASS (see section 9)
 
 `verify-scripture.js` reports **269 divergent references across 3,892 quotations**, and it is currently unusable as a signal. Its extractor grabs any quoted string near a reference, so the report is dominated by headings, prose fragments, and card text scraped out of `all-content.html`. Real findings are in there — e.g. 1 Corinthians 15:22 appears both as *"As in Adam all die, so in Christ all will be made alive"* and as the compressed *"In Adam all die; in Christ all will be made alive"*, the second presented as a quotation — but they are buried.
 
@@ -151,9 +151,69 @@ This has a real consequence beyond honesty: "Recently Added" is now correctly de
 
 ---
 
+---
+
+# THIRD PASS — SCRIPTURE FIDELITY
+
+## 9. THE CHECKER WAS TRIANGULATING AROUND GROUND TRUTH SITTING IN THE REPO
+
+`verify-scripture.js` compared the site's quotations **against each other** and flagged any verse worded two different ways. Its own header explained why: it caught errors *"without needing a licensed Bible text to diff against."*
+
+That premise had been obsolete for as long as `scripture-niv.js` had existed — **992 NIV passages, a runtime asset already served to every reader.** The ground truth was in the repo the whole time.
+
+What guessing instead of checking cost:
+
+- It could only ever say *"these two differ,"* never *"this one is wrong."* Every one of its 269 findings still required a human to open a Bible, so nobody worked them.
+- **It was structurally blind to the worst failure: a verse misquoted the SAME way on every page.** Perfect consistency, uniformly wrong. A cross-page comparator cannot see that by construction — and that is exactly what it was hiding.
+
+### Rewritten to diff against the NIV
+
+Every quotation is now checked against the actual text for the reference it claims. VERIFIED means it appears verbatim (ellipsis segments matched in order). Everything else is scored and classified.
+
+**Three of the classifications were earned by my own false positives, and each one is worth keeping:**
+
+1. **Ellipsis must survive normalization.** The normalizer stripped punctuation before the verifier could split on the ellipsis, so every honest partial quotation arrived as one run-on string and got reported as a misquote at 100% word overlap. Worse, the first fix used a *whitespace* sentinel — which the final whitespace-collapse ate, so the repair sat in the source changing nothing. It has to be an alphabetic token.
+2. **The NIV source has artifacts.** 59 entries carry verse numbers mid-sentence (*"...to nullify the things that are, 29 so that no one may boast"*) and 24 begin with a section heading glued to the first word (*"Praise to God for a Living Hope3 Praise be to..."*). Neither is Scripture; both broke contiguity. Stripped for comparison only — the served asset is untouched.
+3. **A title-case string near a reference is a heading, not a quotation.** *"God Commands All to Repent"* sits beside Acts 17:30 on **nine pages** and scores 100% overlap, because every word in it does appear in the verse. It is the NIV's own section heading reused as a card title. Nine identical "misquotations" of a verse nobody misquoted is precisely the noise that teaches a reader to stop reading the report.
+
+Bracketed editorial insertions (*"the secret things [that] belong to the LORD"*) are also honored as correct practice rather than flagged.
+
+**Result: 2,638 VERIFIED · 203 MISQUOTE · 84 HEADING · 350 UNMATCHED · 13 REVIEW.** A usable signal where there was none.
+
+### What it found, immediately
+
+Seven fixed by hand, chosen for where the error changes the meaning:
+
+| reference | the page said | the NIV says |
+|---|---|---|
+| **Exodus 33:19** | "I will have mercy on whom I have mercy" | "...on whom I **will** have mercy" |
+| **1 Timothy 6:10** | "**the** root of all kinds of evil" | "**a** root of all kinds of evil" |
+| **1 John 2:19** | "their going **out** showed" | "their going showed" |
+| **1 Corinthians 2:14** | "**they** cannot understand them" | "**and** cannot understand them" |
+| **Ephesians 1:18** | "the eyes of your heart enlightened" | "...**may be** enlightened" |
+| **Ephesians 2:1** | "dead in transgressions and sins" | "dead in **your** transgressions and sins" |
+| **Amos 3:2** | "You only have I **known**" | "You only have I **chosen**" |
+
+Two of these deserve naming. **Exodus 33:19 is a Romans 9 keystone** and the site was dropping a word from it. **1 Timothy 6:10** was misquoted in an `<h3>` on `word-study-every-all` — a page whose entire subject is people over-reading "all" — while the blockquote three lines below it had the verse right. The heading contradicted the article's own thesis.
+
+**Amos 3:2 was the most interesting.** The page argued that Hebrew *yada* means covenantal love rather than cognitive awareness, and quoted "You only have I known" — a KJV/ESV rendering — to prove it. But the NIV renders that verb **"chosen,"** which makes the page's point *better than the page did*, and the site standard is NIV. Rewritten per the translation-transparency rule (§XV): quote the reader's own Bible, then surface the Hebrew. The argument got stronger by becoming accurate.
+
+### Ratcheted so it cannot regress
+
+**CHECK 17** in `validate-site.js`, ceiling **203**, ratchet-only — the CHECK 10 pattern. Proven to fail before being trusted: a single word was altered in `objection-love.html`, the check reported `204 misquoted Scripture passages — ceiling is 203`, and it was restored.
+
+**Queue: `archive/S198-scripture-queue.txt`** — 192 distinct misquotations across 203 occurrences, sorted by edit distance:
+
+- **45 one word off** — unambiguous, mechanical
+- **52 two or three words**
+- **45 short rewrites**
+- **50 compressions or truncations** — these need a decision per item: restore the NIV, mark the omission with an ellipsis, or move the paraphrase out of quotation marks and into the page's own prose
+
+That last category is the interesting theological work and should not be automated. A compressed verse inside quotation marks is not a typo; it is the page quietly improving on Scripture, which is the exact posture this site exists to argue against.
+
 ## 8. VERIFIED CLEAN
 
-`validate-site.js` **ALL 16 CHECKS PASSED** · desktop render check passed at 1196px and 1600px across all six archetypes with Playfair confirmed loaded · **mobile render clean at 390px and 768px across all six archetypes** · `canonical-conformance` 686/686 · `fix-orphaned-cards --dry-run` and `fix-stray-progress-bar --dry-run` both inert · `generate-manifest.js --check` reports current · sitemap correct (the three absences are `_nav-template`, `index` as root `/`, and a `noindex` thank-you page) · every root `.md` carries its forced `410!` · no hardcoded sandbox paths in `archive/*.js` · `tags.json`, `/all-content` and the homepage all agree at 611.
+`validate-site.js` **ALL 17 CHECKS PASSED** · desktop render check passed at 1196px and 1600px across all six archetypes with Playfair confirmed loaded · **mobile render clean at 390px and 768px across all six archetypes** · `canonical-conformance` 686/686 · `fix-orphaned-cards --dry-run` and `fix-stray-progress-bar --dry-run` both inert · `generate-manifest.js --check` reports current · sitemap correct (the three absences are `_nav-template`, `index` as root `/`, and a `noindex` thank-you page) · every root `.md` carries its forced `410!` · no hardcoded sandbox paths in `archive/*.js` · `tags.json`, `/all-content` and the homepage all agree at 611.
 
 Full eight-script pipeline run: tags, all-content, search-index, **manifest**, mega-menu, homepage-counts, auto-linker (0 added — idempotent), wire-orphans (0 orphans).
 

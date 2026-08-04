@@ -1109,11 +1109,60 @@ console.log('\n━━━ CHECK 15: Internal Markers in Served Source ━━━')
 }
 
 // ═══════════════════════════════════════
+// CHECK 17: Scripture Fidelity — a one-way ratchet (S198)
+// ═══════════════════════════════════════
+// The site's central promise to the reader is that they can open their own NIV
+// and find the words there. "When Romans 9 or John 6 says what it says in THEIR
+// Bible, the translation-bias escape hatch is welded shut" — that only holds if
+// what is inside our quotation marks is actually what is inside theirs.
+//
+// verify-scripture.js was rewritten in S198 to diff every quotation against
+// scripture-niv.js rather than against other quotations, and immediately found
+// what a cross-page comparator cannot see by construction: verses misquoted the
+// SAME way everywhere, which look perfectly consistent. Among them, Exodus
+// 33:19 shortened to "I will have mercy on whom I have mercy" — a Romans 9
+// keystone, with the second "will" dropped — and 1 Timothy 6:10 rendered "THE
+// root of all kinds of evil" where the NIV says "A root," in a heading on a
+// word-study page about that exact kind of overreach.
+//
+// This is a RATCHET, like CHECK 10. It does not demand zero today; it forbids
+// the number going up. Lower it as the queue is worked. Never raise it.
+console.log('\n━━━ CHECK 17: Scripture Fidelity (ratchet) ━━━');
+{
+  const CEILING = 203;   // S198 baseline. Ratchet down only.
+  const { execFileSync } = require('child_process');
+  let count = null;
+  try {
+    const out = execFileSync('node', [path.join(ROOT, 'verify-scripture.js')],
+      { encoding: 'utf8', maxBuffer: 32 * 1024 * 1024 });
+    const m = out.match(/MISQUOTE\s+(\d+)/);
+    if (m) count = +m[1];
+  } catch (e) {
+    console.log('  ⚠  could not run verify-scripture.js — ' + e.message.split('\n')[0]);
+    warnings++;
+  }
+
+  if (count === null) {
+    // already warned
+  } else if (count > CEILING) {
+    console.log(`  ❌ ${count} misquoted Scripture passages — ceiling is ${CEILING}`);
+    console.log('     A quotation must say what the reader\'s own NIV says.');
+    console.log('     Inspect: node verify-scripture.js  ->  scripture-audit-report.txt');
+    errors++;
+  } else if (count < CEILING) {
+    console.log(`  ✅ ${count} misquotations — below the ${CEILING} ceiling`);
+    console.log(`     RATCHET: lower CEILING to ${count} in validate-site.js.`);
+  } else {
+    console.log(`  ✅ ${count} misquotations — at the ceiling, none added`);
+  }
+}
+
+// ═══════════════════════════════════════
 // VERDICT — prints LAST, after every check. Do not move it up.
 // ═══════════════════════════════════════
 console.log('\n══════════════════════════════════');
 if (errors === 0 && warnings === 0) {
-    console.log('ALL 16 CHECKS PASSED — site integrity verified');
+    console.log('ALL 17 CHECKS PASSED — site integrity verified');
 } else {
     if (errors > 0) console.log(`${errors} ERROR(S) — must fix before finishing`);
     if (warnings > 0) console.log(`${warnings} WARNING(S) — should fix if possible`);
