@@ -337,11 +337,19 @@
   font-style: normal;
   }
 
+  /* min(250px, 100%) is load-bearing, not decoration. This grid is a flex item
+     inside .chain-forge, and a flex item's default min-width:auto refuses to
+     shrink below its min-content — which a bare minmax(250px,1fr) computes as
+     3 x 250px + gaps = 782px. On a 390px phone that pushed 432px of the closing
+     call-to-action off the right edge, where body{overflow-x:hidden} silently
+     ate it: no scrollbar, no clue it was there. */
   .chain-cta {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
   gap: 1rem;
   max-width: 900px;
+  width: 100%;
+  min-width: 0;
   margin: 3rem auto 0;
   }
   .chain-cta a {

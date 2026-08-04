@@ -4048,12 +4048,18 @@ nav a, footer a, .hub-card a, .hub-grid a,
 @media (max-width: 640px) {
     .pairing-row { flex-direction: column; }
 }
+/* NOTE: this carried `white-space: nowrap` until S198, from a design where the
+   block held a short verse reference. Every one of its 15 live uses holds real
+   prose (73-748 characters), so the nowrap forced whole quotations onto a
+   single unbreakable line — 3,182px wide on psychology-why-we-resist. Nothing
+   caught it because `body { overflow-x: hidden }` swallows the overflow: no
+   scrollbar, no warning, the text simply gone off the right edge. */
 .pairing-scripture {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.78rem;
     color: rgba(139, 92, 246, 0.7);
-    white-space: nowrap;
     min-width: 120px;
+    overflow-wrap: break-word;
 }
 
 /* Story containers */

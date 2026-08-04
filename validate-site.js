@@ -344,10 +344,25 @@ const forced = new Set(
 const archiveSplat = /^\/archive\/\*\s+\S+\s+\d+!/m.test(redirectsTxt);
 
 // Runtime assets are whatever the pages actually load.
+//
+// BOTH WAYS OF LOADING COUNT, and the second one is not optional (S198). This
+// used to match only a literal `src="..."` attribute. The moment search.html
+// stopped shipping its 9.4 MB index as a blocking <script> and began fetching
+// it on demand — `s.src = '/search-index.js'` inside ensureIndex() — the file
+// vanished from this set, CHECK 7 reclassified it as an unserved internal file,
+// and the validator confidently printed the exact `410!` line that would have
+// taken the site's entire search offline. A check that recommends a fix must be
+// right about what the fix does; this one was one regex away from wrecking a
+// feature it was written to protect.
 const runtimeJs = new Set();
 for (const f of fs.readdirSync('.').filter(x => x.endsWith('.html'))) {
   const html = fs.readFileSync(f, 'utf8');
+  // <script src="/foo.js">
   for (const m of html.matchAll(/src="\/?([A-Za-z0-9_.-]+\.js)"/g)) runtimeJs.add(m[1]);
+  // el.src = '/foo.js'  /  import('/foo.js')  /  fetch('/foo.js')
+  for (const m of html.matchAll(/(?:\.src\s*=|import\(|fetch\()\s*['"]\/?([A-Za-z0-9_.-]+\.js)['"]/g)) {
+    runtimeJs.add(m[1]);
+  }
 }
 
 // ------------------------------------------------------------
@@ -718,10 +733,40 @@ console.log('\n━━━ CHECK 11: One Prose Link Per Concept ━━━');
 // seconds on cellular loses to a page that says less and loads in one, because
 // the reader is gone before the argument starts. Page weight is not a
 // nicety here; it is the doorway. So it is now enforced, not remembered.
+//
+// S198 — WHY THIS IS NO LONGER A LIST OF THREE FILENAMES.
+// The original named /nav.js, /scripture-niv.js and /content-manifest.js: the
+// three scripts that happened to be a problem in S194. It was an allowlist
+// pretending to be a budget, and it was blind by construction to anything
+// added afterwards. What it missed: **/search-index.js, 9.4 MB**, loading
+// render-blocking on search.html — 51x nav.js, the single largest asset on the
+// site, making that page transfer 10.4 MB against the homepage's 0.21 MB. A
+// reader on a phone waited for the full text of all 683 pages to arrive before
+// the search box would paint. CHECK 12 passed green over it every session
+// since S194, because 9.4 MB was not on a list of three.
+//
+// It is now a SIZE BUDGET, deny-by-default, the same hardening CHECK 7 got:
+// any script over the threshold must defer, whatever it is called, forever.
+// The rule survives the next heavy asset without anyone remembering to add it.
 console.log('\n━━━ CHECK 12: Critical-Path Payload ━━━');
 {
-  // Big enough to matter on the critical path; these must never block paint.
-  const MUST_DEFER = ['/nav.js', '/scripture-niv.js', '/content-manifest.js'];
+  // A script this large has no business blocking first paint, whatever it is.
+  // 100 KB is deliberately below nav.js (184 KB) so the known offender stays
+  // caught, and far below the 9.4 MB one that was not.
+  const BLOCKING_BUDGET = 100 * 1024;
+
+  // Resolve a src to a real file so the budget is measured, not guessed.
+  const sizeOf = src => {
+    if (/^(https?:)?\/\//.test(src)) return null;          // third-party: not ours to weigh
+    const f = path.join(ROOT, src.split('?')[0].replace(/^\//, ''));
+    try { return fs.statSync(f).size; } catch { return null; }
+  };
+  const sizeCache = new Map();
+  const cachedSize = src => {
+    if (!sizeCache.has(src)) sizeCache.set(src, sizeOf(src));
+    return sizeCache.get(src);
+  };
+
   const dupes = [];
   const blocking = [];
 
@@ -741,8 +786,10 @@ console.log('\n━━━ CHECK 12: Critical-Path Payload ━━━');
     for (const m of html.matchAll(/<script\b([^>]*)src="([^"]+)"([^>]*)>/g)) {
       const [, pre, src, post] = m;
       counts[src] = (counts[src] || 0) + 1;
-      if (MUST_DEFER.includes(src) && !/\bdefer\b|\basync\b/.test(pre + post)) {
-        blocking.push(`${f} — ${src}`);
+      const bytes = cachedSize(src);
+      if (bytes !== null && bytes > BLOCKING_BUDGET &&
+          !/\bdefer\b|\basync\b/.test(pre + post)) {
+        blocking.push(`${f} — ${src}  (${(bytes / 1024).toFixed(0)} KB)`);
       }
     }
     const d = Object.entries(counts).filter(([, n]) => n > 1);
@@ -757,15 +804,22 @@ console.log('\n━━━ CHECK 12: Critical-Path Payload ━━━');
     errors++;
   }
   if (blocking.length) {
-    console.log(`  ❌ ${blocking.length} render-blocking heavy script tag(s):`);
+    console.log(`  ❌ ${blocking.length} render-blocking script tag(s) over the ${BLOCKING_BUDGET / 1024} KB budget:`);
     blocking.slice(0, 15).forEach(x => console.log(`     ${x}`));
     if (blocking.length > 15) console.log(`     …and ${blocking.length - 15} more`);
     console.log('     FIX: add defer. nav.js has no document.write and already waits');
     console.log('     for DOMContentLoaded, so defer is behaviour-identical.');
+    console.log('     If it is too big to ship at all, load it on demand — see the');
+    console.log('     ensureIndex() lazy loader in search.html for the pattern.');
     errors++;
   }
   if (!dupes.length && !blocking.length) {
-    console.log('  ✅ No duplicate scripts; no heavy script blocking first paint');
+    const weighed = [...sizeCache.entries()].filter(([, b]) => b !== null && b > BLOCKING_BUDGET);
+    console.log(`  ✅ No duplicate scripts; every script over ${BLOCKING_BUDGET / 1024} KB defers or loads on demand`);
+    if (weighed.length) {
+      console.log(`     (weighed: ${weighed.sort((a, b) => b[1] - a[1])
+        .map(([s, b]) => `${s} ${(b / 1024).toFixed(0)}KB`).join(', ')})`);
+    }
   }
 }
 
