@@ -111,12 +111,13 @@ A prose article that someone decorated is **not** a fourth category. Move its ru
 
 ---
 
-## AFTER CREATING OR MODIFYING HTML, RUN THESE SEVEN SCRIPTS (in order):
+## AFTER CREATING OR MODIFYING HTML, RUN THESE EIGHT SCRIPTS (in order):
 
 ```bash
 node build-tags.js          # regenerate the canonical article index (tags.json)
 node build-all-content.js   # re-bake the static, crawlable /all-content cards + counts
 node build-search-index.js
+node generate-manifest.js   # the homepage's Spotlight / Random / Recently-Added pool
 node build-mega-menu.js
 node build-homepage-counts.js
 node auto-linker.js
@@ -125,11 +126,20 @@ node wire-orphans.js
 
 `build-tags.js` + `build-all-content.js` were absent from this list before 2026-06-28 — which is exactly why `tags.json` went 3 months stale and `/all-content` + the homepage rendered wrong/zero counts. They MUST run first: `build-homepage-counts.js` and `/all-content` both derive from `tags.json` (one canonical number, currently 611 = pages with `<article class="article-body">`). When you add or delete pages, also run `node build-sitemap.js`.
 
+**`generate-manifest.js` is the eighth, added S198, and it went missing for the same reason with a worse cause.** It must run AFTER `build-search-index.js` (it reads that index). It builds `content-manifest.js`, which powers **three** reader-facing doors on the homepage — the Spotlight cards, the "Discover Random" button, and the "Recently Added" list. A page absent from it cannot be found through any of the three.
+
+The old version derived each page's date by shelling out to `git log --diff-filter=A`. **GIT POLICY reads "ZERO EXCEPTIONS," so no session would run it** — it fell off the pipeline and the manifest froze on 2026-05-27 with its newest entry dated 2026-04-04. By August the homepage was advertising April articles as the site's newest, and **127 prose pages — 20% of the corpus, including every `analytical-*` page — were unreachable through Spotlight, Random, or Recent.** A validator cannot see this: the hrefs are built at runtime from a JS array, so CHECK 1 has nothing to scan. It took loading the homepage in a browser and reading what the three widgets actually rendered.
+
+It is now git-free. Dates live **write-once** in `archive/manifest-dates.json` — stamped the first time a page is seen, never recomputed — and new pages are dated from their own JSON-LD `datePublished`, so the homepage and the structured data can never contradict each other. **mtime is deliberately not used**; the pipeline rewrites files constantly and mtime would reshuffle "Recently Added" on every run. The ledger lives in `archive/` because the repo root is served. **It is load-bearing: deleting it re-dates the whole corpus to today and destroys the ordering permanently.** `node generate-manifest.js --check` reports staleness and writes nothing.
+
+**The general law: a build script that no session is willing to run is a stale artifact with extra steps.** If a tool conflicts with a standing policy, the conflict is the bug — fix the tool, do not let the artifact rot silently.
+
 Then run `node validate-site.js` and fix anything it flags.
 
-**`validate-site.js` now runs FOURTEEN checks (CHECK 12, 13 + 14 added S194).** Four hardenings are load-bearing and must not be softened:
+**`validate-site.js` now runs SIXTEEN checks (CHECK 12, 13 + 14 added S194; 15 in S195; 16 in S198).** Four hardenings are load-bearing and must not be softened:
 
-- **The VERDICT prints LAST. Never move it up.** Until S194 the banner `ALL CHECKS PASSED — site integrity verified` printed at line ~299, *before CHECKS 7–11 ran a single line.* Every check added after CHECK 6 had been appended *below* the verdict, so the gate grew from six checks to eleven while its headline kept reporting on six. The exit code was always correct; nobody reads exit codes. Sessions read the banner — and closed on a green light that had never looked at whether internal files were publicly served or whether prose links had re-duplicated. **If you add CHECK 14, add it ABOVE the verdict block.**
+- **The VERDICT prints LAST. Never move it up.** Until S194 the banner `ALL CHECKS PASSED — site integrity verified` printed at line ~299, *before CHECKS 7–11 ran a single line.* Every check added after CHECK 6 had been appended *below* the verdict, so the gate grew from six checks to eleven while its headline kept reporting on six. The exit code was always correct; nobody reads exit codes. Sessions read the banner — and closed on a green light that had never looked at whether internal files were publicly served or whether prose links had re-duplicated. **If you add CHECK 17, add it ABOVE the verdict block, and update the banner's number in the same edit.**
+- **CHECK 16 — the emoji ban, finally enforced (S198).** Until S198 the word "emoji" appeared in this validator **zero times**: the most absolute rule on the site ("ANYWHERE, EVER. Absolute, zero exceptions") was the only major law with nothing behind it. Two survivors prove why a human sweep is not enough. The first was `✕` (U+2715) in a `content:` property in `global.css` — not a face or a flag, just a dingbat inside the banned U+2600–U+27BF range, painting into every row of the cannot-list on `question-dead-man-visual`. The second is the instructive one: **`&#128270;`** — a magnifying glass on `search.html`'s no-results state, written as a **decimal HTML entity**. It is pure ASCII in the source, so every codepoint sweep the site has ever run, including S74's, walked straight past it. CHECK 16 therefore decodes **four** forms — literal glyph, CSS escape (`\2728`), HTML entity (hex and decimal), and JS escape (`😀`). *The first draft of the check caught `✨` and waved through `content: "\2728"` on the very next line; that miss is why the encoded forms are in there.* Arrows (U+2190–U+21FF) are deliberately **not** banned — `→` is typography, and "Read →" is load-bearing on the homepage. Scope is what the reader can see: `.html`, `.css`, and runtime-loaded `.js`, gated by the same `isPublic` test CHECK 7 uses, so the two cannot drift.
 - **CHECK 12 — critical-path payload.** Fails on any duplicate `<script src>` and on `/nav.js`, `/scripture-niv.js` or `/content-manifest.js` loading without `defer`. Eleven checks guarded what the page *says*; nothing guarded whether it *arrives*. `nav.js` (184 KB, 81% of it a static menu blob) was render-blocking on all 687 pages. **It strips HTML comments before counting** — a commented-out `<script>` is byte-identical to a live one under grep, and 86 pages carried exactly that. Fix: `node fix-script-payload.js`.
 - **CHECK 13 — web font delivery + undefined CSS variables.** See PRESENTATION INTEGRITY below. Fix: `node fix-missing-webfonts.js`.
 

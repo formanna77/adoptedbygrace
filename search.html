@@ -495,7 +495,7 @@
 
   if (scored.length === 0) {
   meta.textContent = 'No results found';
-  resultsEl.innerHTML = '<div class="empty-state"><div class="empty-icon">&#128270;</div><div class="empty-title">No pages match your search</div><div class="empty-text">Try different keywords, or browse the site using the navigation above. Every truth you need is somewhere on these pages.</div></div>';
+  resultsEl.innerHTML = '<div class="empty-state"><div class="empty-icon" aria-hidden="true"></div><div class="empty-title">No pages match your search</div><div class="empty-text">Try different keywords, or browse the site using the navigation above. Every truth you need is somewhere on these pages.</div></div>';
   return;
   }
 

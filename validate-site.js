@@ -957,11 +957,109 @@ console.log('\n━━━ CHECK 15: Internal Markers in Served Source ━━━')
 }
 
 // ═══════════════════════════════════════
+// CHECK 16: No Emoji or Pictographic Characters in Anything Served
+// ═══════════════════════════════════════
+// CLAUDE.md's most absolute rule — "NO EMOJIS, ANYWHERE, EVER. Absolute, zero
+// exceptions" — was, until S198, the only major law on this site with nothing
+// enforcing it. The word "emoji" did not appear in this validator once. It
+// survived on a technicality nobody was looking for: not a face or a flag, but
+// '✕' (U+2715) sitting in a `content:` property in global.css, painting a
+// dingbat into every item of the cannot-list on question-dead-man-visual —
+// inside the U+2600–U+27BF range CLAUDE.md names explicitly. Fifteen checks
+// passed over it for months, exactly as they passed over Times New Roman.
+//
+// Scope is what the READER can see: .html and .css, plus the .js actually
+// loaded by a page at runtime. Build scripts print ✅ to a terminal and are
+// 410'd by CHECK 7 — never served, so never in scope. `isPublic` above is the
+// same test CHECK 7 uses; the two cannot drift apart.
+//
+// Ranges are CLAUDE.md's, verbatim, plus the pictographic blocks that sit just
+// outside them. Arrows (U+2190–U+21FF) are deliberately NOT banned — '→' is
+// typography, and the "Read →" affordance is load-bearing on the homepage.
+{
+  console.log('\n━━━ CHECK 16: Emoji + Pictographic Characters (served files) ━━━');
+
+  const inBanned = cp =>
+    (cp >= 0x1F000 && cp <= 0x1FAFF) ||   // pictographs, emoticons, symbols, supplement
+    (cp >= 0x2600 && cp <= 0x27BF) ||     // misc symbols + dingbats (incl. ✝ ⚖ ✕ ✅ ✨)
+    (cp >= 0x2B00 && cp <= 0x2BFF) ||     // misc symbols and arrows (pictographic)
+    (cp >= 0x1F1E6 && cp <= 0x1F1FF) ||   // regional indicators (flags)
+    (cp >= 0x1F3FB && cp <= 0x1F3FF) ||   // skin-tone modifiers
+    cp === 0xFE0F || cp === 0x20E3;       // variation selector-16, keycap
+
+  // The literal glyph is the easy half. A CSS escape (\2728), an HTML numeric
+  // reference (&#x2728; / &#10024;) and a JS escape (✨ / \u{1F600}) all
+  // render the SAME character while the source stays pure ASCII — invisible to
+  // any scan that only walks codepoints. The first draft of this check missed
+  // exactly that: it caught '✨' and waved through `content: "\2728"` on the
+  // adjacent line. Grep locates; it does not establish.
+  const ENCODED = [
+    // CSS: \2728 or \01F600, optionally followed by one whitespace terminator
+    { re: /\\([0-9a-fA-F]{2,6})[ \t]?/g, radix: 16, what: 'CSS escape' },
+    // HTML hex + decimal numeric character references
+    { re: /&#x([0-9a-fA-F]{2,6});/gi, radix: 16, what: 'HTML hex entity' },
+    { re: /&#([0-9]{3,7});/g, radix: 10, what: 'HTML entity' },
+    // JS: ✨ and \u{1F600}
+    { re: /\\u\{?([0-9a-fA-F]{4,6})\}?/g, radix: 16, what: 'JS escape' },
+  ];
+
+  const offenders = [];
+  for (const f of fs.readdirSync(ROOT)) {
+    if (!/\.(html|css|js|json)$/.test(f)) continue;
+    if (!isPublic(f)) continue;                       // same gate as CHECK 7
+    const text = safeReadFileSync(path.join(ROOT, f));
+    if (!text) continue;
+    const lines = text.split('\n');
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      const snippet = line.trim().slice(0, 60);
+
+      for (const ch of line) {                        // literal glyphs
+        const cp = ch.codePointAt(0);
+        if (inBanned(cp)) {
+          offenders.push({
+            file: f, line: i + 1, cp: 'U+' + cp.toString(16).toUpperCase(),
+            ch, how: 'literal', snippet,
+          });
+        }
+      }
+
+      for (const { re, radix, what } of ENCODED) {    // encoded forms
+        re.lastIndex = 0;
+        let m;
+        while ((m = re.exec(line)) !== null) {
+          const cp = parseInt(m[1], radix);
+          if (!Number.isNaN(cp) && inBanned(cp)) {
+            offenders.push({
+              file: f, line: i + 1, cp: 'U+' + cp.toString(16).toUpperCase(),
+              ch: String.fromCodePoint(cp), how: what, snippet,
+            });
+          }
+        }
+      }
+    }
+  }
+
+  if (offenders.length) {
+    const files = new Set(offenders.map(o => o.file));
+    console.log(`  ❌ ${offenders.length} banned character(s) across ${files.size} served file(s):`);
+    offenders.slice(0, 12).forEach(o =>
+      console.log(`     ${o.file}:${o.line}  ${o.cp} ${o.ch}  [${o.how}]   ${o.snippet}`));
+    if (offenders.length > 12) console.log(`     …and ${offenders.length - 12} more`);
+    console.log('     CLAUDE.md: no emojis anywhere the reader can see them.');
+    console.log('     Use CSS — weight, color, border, a dot, a number, an SVG — never a glyph.');
+    errors++;
+  } else {
+    console.log('  ✅ No emoji or pictographic characters in any served file');
+  }
+}
+
+// ═══════════════════════════════════════
 // VERDICT — prints LAST, after every check. Do not move it up.
 // ═══════════════════════════════════════
 console.log('\n══════════════════════════════════');
 if (errors === 0 && warnings === 0) {
-    console.log('ALL 15 CHECKS PASSED — site integrity verified');
+    console.log('ALL 16 CHECKS PASSED — site integrity verified');
 } else {
     if (errors > 0) console.log(`${errors} ERROR(S) — must fix before finishing`);
     if (warnings > 0) console.log(`${warnings} WARNING(S) — should fix if possible`);
