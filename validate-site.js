@@ -1157,12 +1157,55 @@ console.log('\n━━━ CHECK 17: Scripture Fidelity (ratchet) ━━━');
   }
 }
 
+// ─────────────────────────────────────────────────────────────────────────────
+// CHECK 18: JSON-LD validity (S198-PRE, fifth pass)
+//
+// Every page ships structured data. NOTHING had ever parsed it. A single
+// unescaped double quote inside a JSON string value silently voids the WHOLE
+// block: Google discards it, no error surfaces anywhere, and the HTML around it
+// stays perfectly valid — so CHECK 3 (structural HTML) and CHECK 1 (links) both
+// walk straight past it. Same blindness class as the stale manifest and the
+// 9.4 MB payload: the file was fine, what the reader (here, the crawler)
+// received was not.
+//
+// Found on ot-joseph.html, in an FAQPage answer:
+//     ...did what God's "power and will had decided beforehand should happen."
+// Quoting Acts 4:28 inside a JSON string, with the quotation marks left raw.
+// The page's entire FAQ rich-result block had been invalid for as long as it
+// existed. Prose fixed to single quotes rather than backslash-escaping, so the
+// next person to edit that sentence cannot reintroduce it as easily.
+//
+// This is zero-tolerance, not a ratchet: malformed JSON is never a judgement
+// call. Inside a JSON string, use 'single quotes' for nested quotation.
+console.log('\n━━━ CHECK 18: JSON-LD Validity ━━━');
+{
+  let ldBlocks = 0, ldBad = 0;
+  for (const file of htmlFiles) {
+    const html = fs.readFileSync(path.join(ROOT, file), 'utf8');
+    const re = /<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi;
+    let m;
+    while ((m = re.exec(html))) {
+      ldBlocks++;
+      try {
+        JSON.parse(m[1]);
+      } catch (e) {
+        ldBad++;
+        const pos = +((e.message.match(/position (\d+)/) || [])[1] || 0);
+        console.log(`  ❌ ${file} — invalid JSON-LD: ${e.message.split(' in JSON')[0]}`);
+        if (pos) console.log(`     near: …${m[1].slice(Math.max(0, pos - 70), pos + 40).replace(/\s+/g, ' ')}…`);
+        errors++;
+      }
+    }
+  }
+  if (ldBad === 0) console.log(`  ✅ ${ldBlocks} JSON-LD blocks across ${htmlFiles.length} pages — all parse`);
+}
+
 // ═══════════════════════════════════════
 // VERDICT — prints LAST, after every check. Do not move it up.
 // ═══════════════════════════════════════
 console.log('\n══════════════════════════════════');
 if (errors === 0 && warnings === 0) {
-    console.log('ALL 17 CHECKS PASSED — site integrity verified');
+    console.log('ALL 18 CHECKS PASSED — site integrity verified');
 } else {
     if (errors > 0) console.log(`${errors} ERROR(S) — must fix before finishing`);
     if (warnings > 0) console.log(`${warnings} WARNING(S) — should fix if possible`);

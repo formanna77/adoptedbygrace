@@ -1,6 +1,6 @@
 # S198 KICKOFF — adoptedbygrace.net
 
-*Rewritten 2026-08-04 after the four-pass pre-session audit. The original version of this file was written before that audit and is now wrong in three ways that would cost you real work: it said FIFTEEN checks, it told you to add the clone ceiling as CHECK 16, and it listed seven build scripts. Read this version.*
+*Rewritten 2026-08-04 after the five-pass pre-session audit. The original version of this file was written before that audit and is now wrong in three ways that would cost you real work: it said FIFTEEN checks, it told you to add the clone ceiling as CHECK 16, and it listed seven build scripts. **The gate is at EIGHTEEN and the clone ceiling is CHECK 19.** Read this version.*
 
 You are the lead. Read `VOICE.md` **in full** (it is the standard, never sampled), then `CLAUDE.md`, then the top **two** entries of `MISSION-CONTROL.md`'s Session Log — **`Session 198-PRE` and `Session 197`, those two only**, not the log and never `MISSION-CONTROL-ARCHIVE.md`.
 
@@ -14,7 +14,7 @@ You are the lead. Read `VOICE.md` **in full** (it is the standard, never sampled
 
 | | |
 |---|---|
-| `validate-site.js` | **17 checks, all passing.** The next one you add is **CHECK 18.** |
+| `validate-site.js` | **18 checks, all passing.** The next one you add is **CHECK 19.** |
 | Build pipeline | **EIGHT scripts.** `generate-manifest.js` is the eighth, after `build-search-index.js`. |
 | Render checks | **TWO.** Desktop (`archive/s196-render-check.js`) *and* mobile (`archive/s198-mobile-check.js`) at 390px and 768px. Both are law. |
 | Corpus | 687 HTML / **611 prose** · manifest 606 · search-index 683 |
@@ -75,12 +75,12 @@ S193 shipped 4 unread → 2 failed. S194 → 5 of 5. S195 → 3 of 3. **S196 →
 
 ---
 
-## PRIORITY 2 — THE CLONE CEILING. IT IS **CHECK 18**, NOT 16.
+## PRIORITY 2 — THE CLONE CEILING. IT IS **CHECK 19**, NOT 16.
 
 `node detect-shared-phrases.js` is rebuilt and works (12-word seeds extended to maximal passages, threshold 2, Scripture suppressed, ranked by duplicated volume). **S197 read only the top of its report.**
 
 - **271 cloned passages / 4,944 duplicated words remain.** The head is the golden chain's own verb list, which is legitimate. **Read down past it** — `--top 60`, and `--tail` for the closing 25% of pages, which is where a closing machine would live.
-- Add a duplicated-volume ceiling as **CHECK 18**, ratcheted exactly like CHECK 10 and CHECK 17. **Above the verdict block, and update the banner number in the same edit** — the verdict prints last for a reason. **Prove it fails before you trust it passing**: inject a cloned paragraph, watch it fail, restore.
+- Add a duplicated-volume ceiling as **CHECK 19**, ratcheted exactly like CHECK 10 and CHECK 17. **Above the verdict block, and update the banner number in the same edit** — the verdict prints last for a reason. **Prove it fails before you trust it passing**: inject a cloned paragraph, watch it fail, restore.
 - Two lessons worth carrying: **a threshold is a selector** (`--min 3` was structurally blind to the two-page clone that was the actual defect), and **an unreadable report is not a check** (1,110 rows of Ephesians 1:4 is silence with extra steps). When a detector has never once flagged anything, suspect its output shape before you trust its all-clear.
 
 ---
@@ -114,16 +114,20 @@ S193 shipped 4 unread → 2 failed. S194 → 5 of 5. S195 → 3 of 3. **S196 →
 5. **Tools carry hardcoded sandbox paths.** `archive/s196-count-prose-links.js` had S196's mount path baked in and threw EACCES in every later session. **Grep `archive/*.js` for `/sessions/` before trusting any of them.** That script also does not write the file older kickoffs claim it writes — redirect stdout yourself.
 6. **Bounded subagents work.** Two 9-page link agents both survived and produced 81 verified links, zero broken, zero duplicates. The constraint that does it: *every href must appear verbatim in `archive/s196-page-inventory.txt`*. Verify their output yourself regardless.
 7. **The under-linked queue is empty** — every prose page carries 8+ internal links. Confirm with `node archive/s196-count-prose-links.js > archive/s198-underlinked-queue.txt`; do not assume.
-8. **Any new root-level script or doc needs its own forced `410!` line in `_redirects` in the same session.** CHECK 7 prints the exact line. Anything in `archive/` is covered by the splat. **But read what a file actually does before pasting a validator's suggested redirect** — CHECK 7 offered a `410!` for `search-index.js` that would have taken site search offline.
+8. **Three small things the fifth pass found and left for you, deliberately.**
+   - **`<div class="tldr">` sits on 631 pages** — a CSS class named for the exact construct CLAUDE.md bans by name ("Never write 'TL;DR' — use 'In Brief'"). The rendered text already says *In Brief*; only the class is stale. It is not reader-visible prose, but **the precedent cuts toward renaming it**: S195 stripped `<!-- CONSECRATED -->` from 618 pages on the ground that *the page source is reader-facing too*. Left undone because it is a 631-file diff plus `global.css`, and **`.tldr` must be grepped across all 21 literal-string consumers first** — this is exactly the markup class the LITERAL-STRING TRAP section warns about. Your call.
+   - **Three root PDFs are publicly served and linked from nowhere** — `Jesus' Path to Eternal Life.pdf`, `The Institutes Book 3 essay.pdf`, `The_Question_of_the_Hour.pdf`. On `PUBLIC_EXACT` on purpose, absent from the sitemap, reachable only by someone guessing the URL. **Checked for the RE-FORMED.pdf failure mode and they are clean** — no real name in text or metadata (`/Author` reads `Un-named` or `(anonymous)`). So this is dead weight, not exposure: either wire them into `/reformed-sources` or the essays hub, or 410 them.
+   - **132 page titles exceed 65 characters** and will be truncated in search results. Not a law, and not worth a bulk rewrite — but the 90-second searcher is the first importable gap in the benchmarking report, and a title cut off mid-clause is a doorway that shuts early. Worth doing for the top-traffic doorways only.
+9. **Any new root-level script or doc needs its own forced `410!` line in `_redirects` in the same session.** CHECK 7 prints the exact line. Anything in `archive/` is covered by the splat. **But read what a file actually does before pasting a validator's suggested redirect** — CHECK 7 offered a `410!` for `search-index.js` that would have taken site search offline.
 
 ---
 
 ## CLOSING PROTOCOL — NON-NEGOTIABLE
 
-1. Run all **eight** build scripts in order (tags → all-content → search-index → **manifest** → mega-menu → homepage-counts → auto-linker → wire-orphans), then `node validate-site.js` — **SEVENTEEN checks** (eighteen if you add the clone ceiling). Fix everything it flags. Also run `canonical-conformance.js` and `verify-scripture.js`. **New checks go ABOVE the verdict block, must update the banner's number in the same edit, and must be proven to fail before they are trusted passing.**
+1. Run all **eight** build scripts in order (tags → all-content → search-index → **manifest** → mega-menu → homepage-counts → auto-linker → wire-orphans), then `node validate-site.js` — **EIGHTEEN checks** (nineteen if you add the clone ceiling). Fix everything it flags. Also run `canonical-conformance.js` and `verify-scripture.js`. **New checks go ABOVE the verdict block, must update the banner's number in the same edit, and must be proven to fail before they are trusted passing.**
 2. **Run BOTH render checks** (Priority 0.0) — desktop *and* mobile. The validator cannot see the page, and until the pre-audit nothing had ever seen a phone.
 3. Run `node fix-orphaned-cards.js --dry-run` and `node fix-stray-progress-bar.js --dry-run` — both inert on a clean corpus, so any output at all is a regression.
-4. `node stamp-modified.js <every page you edited>`.
+4. `node stamp-modified.js <every page you edited>`. **Note: it stamps in the sandbox's UTC time, which after ~17:00 Pacific is already tomorrow** — `ot-joseph.html` was stamped `2026-08-05` on the 4th. A one-day skew forward, in a field whose entire point (Law 11) is not overstating freshness. Check the date it writes, or teach the script the local day.
 5. Stamp every page you lift: `node archive/coverage.js stamp <page.html> 198 lifted|partial "<note>"`, then `node archive/coverage.js report --session=198` and copy the **END-OF-SESSION STANDING** block into both the Session Log and the closing chat message.
 6. Write the S198 entry at the **top** of `MISSION-CONTROL.md`'s Session Log, **above `Session 198-PRE`**; roll the oldest entry into `MISSION-CONTROL-ARCHIVE.md` (keep ~6 live — S193 was rolled off when 198-PRE was added).
 7. Write `archive/NEXT-SESSION-S199-kickoff.md`. **If the state changes after you write it, rewrite it — a kickoff that describes a state that no longer exists is worse than none.**
