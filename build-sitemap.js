@@ -147,12 +147,43 @@ function hashFile(file) {
   return crypto.createHash('sha1').update(fs.readFileSync(file)).digest('hex');
 }
 
-// Reuse the stored lastmod when the file's content is byte-for-byte unchanged;
-// otherwise stamp today. Records the current hash in nextManifest.
+// ------------------------------------------------------------
+// ONE SOURCE OF TRUTH FOR "WHEN DID THIS CHANGE" (rewritten S199, 2026-08-09).
+//
+// Measured against the live sitemap on 2026-08-09: of 685 URLs, the number
+// whose <lastmod> agreed with that same page's JSON-LD dateModified was
+// ZERO. 457 contradicted outright (about.html: sitemap 2026-07-29, page
+// 2026-04-20) and 228 pages carried no JSON-LD date at all. Every page on
+// the site was handing crawlers two different answers to the same question.
+//
+// The cause was the `: TODAY` fallback below. The hash-reuse idea is sound,
+// but the eight-script pipeline rewrites every HTML file on every run, so
+// the hash always differs, so every page got stamped with the day
+// build-sitemap.js last happened to run — which is why 637 URLs shared the
+// single date 2026-07-29. That is a bulk stamp wearing a freshness signal's
+// clothes, and Google discounts a sitemap it can prove unreliable.
+//
+// So the order of preference is now: the page's own JSON-LD dateModified,
+// then its datePublished (an honest lower bound), then a recorded hash match
+// (an observed fact), and then NOTHING. <lastmod> is optional in the sitemap
+// protocol; omitting it says "unknown," which is true. Stamping TODAY says
+// "changed today," which is not, and CLAUDE.md's PRESENTATION INTEGRITY law
+// 11 is explicit that the invented date is the direction that deceives.
+// ------------------------------------------------------------
+const JSONLD_MODIFIED = /"dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2})/;
+const JSONLD_PUBLISHED = /"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})/;
+
 function lastmodFor(file, prevManifest, nextManifest) {
   const hash = hashFile(file);
   const prev = prevManifest[file];
-  const lastmod = prev && prev.hash === hash && prev.lastmod ? prev.lastmod : TODAY;
+  const html = fs.readFileSync(file, 'utf8');
+
+  const lastmod =
+    (html.match(JSONLD_MODIFIED) || [])[1] ||
+    (html.match(JSONLD_PUBLISHED) || [])[1] ||
+    (prev && prev.hash === hash ? prev.lastmod : null) ||
+    null;
+
   nextManifest[file] = { hash, lastmod };
   return lastmod;
 }
@@ -171,9 +202,10 @@ function buildEntry(file, prevManifest, nextManifest) {
   const lastmod = lastmodFor(file, prevManifest, nextManifest);
   const priority = priorityFor(file);
   const changefreq = changefreqFor(file);
+  // <lastmod> is optional in the protocol. Omit it rather than invent it.
+  const lastmodTag = lastmod ? `\n    <lastmod>${lastmod}</lastmod>` : '';
   return `  <url>
-    <loc>${loc}</loc>
-    <lastmod>${lastmod}</lastmod>
+    <loc>${loc}</loc>${lastmodTag}
     <changefreq>${changefreq}</changefreq>
     <priority>${priority}</priority>
   </url>`;

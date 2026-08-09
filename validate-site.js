@@ -338,10 +338,46 @@ console.log(`\n── checks 1-6 complete (${errors} error(s), ${warnings} warni
 console.log('\n━━━ CHECK 7: Internal Files Not Publicly Served ━━━');
 
 const redirectsTxt = fs.existsSync('_redirects') ? fs.readFileSync('_redirects', 'utf8') : '';
+
+// ------------------------------------------------------------
+// POSITION IS PART OF THE RULE (added S199, 2026-08-09).
+//
+// This check used to build `forced` with a single whole-file regex, which
+// asks "does the text appear?" and never "will Netlify ever reach it?"
+// Those are different questions, and the gap between them was live on the
+// internet. Netlify takes the FIRST matching rule and stops; `/*` matches
+// every path. Four repair scripts had been pasted BELOW the catch-all —
+// almost certainly by copying the FIX line this very check prints — and all
+// four were verified serving 200 application/javascript at the public
+// domain on 2026-08-09 while CHECK 7 reported "All internal files blocked."
+//
+// A rule below the catch-all is not a weak rule. It is not a rule at all.
+// So the allowlist is now built ONLY from lines above it, and everything
+// below is reported as dead. The failure class is the one CLAUDE.md keeps
+// recording: the artifact was fine, what the recipient received was not.
+// ------------------------------------------------------------
+const redirLines = redirectsTxt.split('\n');
+const catchAllIdx = redirLines.findIndex(l => /^\s*\/\*\s+\S+\s+\d+!?\s*$/.test(l));
+const aboveCatchAll = catchAllIdx === -1 ? redirectsTxt
+                                         : redirLines.slice(0, catchAllIdx).join('\n');
+
+const deadRules = catchAllIdx === -1 ? [] :
+  redirLines.slice(catchAllIdx + 1)
+    .map((l, i) => ({ line: catchAllIdx + i + 2, text: l.trim() }))
+    .filter(r => r.text && !r.text.startsWith('#'));
+
+if (deadRules.length) {
+  console.log(`  ❌ ${deadRules.length} rule(s) sit BELOW the /* catch-all and can never fire:`);
+  deadRules.slice(0, 15).forEach(r => console.log(`     line ${r.line}: ${r.text}`));
+  console.log('     FIX: move them ABOVE the "/*  /404.html  404" line.');
+  console.log('     Netlify stops at the first matching rule; /* matches everything.');
+  errors++;
+}
+
 const forced = new Set(
-  [...redirectsTxt.matchAll(/^\/(\S+)\s+\S+\s+\d+!\s*$/gm)].map(m => m[1])
+  [...aboveCatchAll.matchAll(/^\/(\S+)\s+\S+\s+\d+!\s*$/gm)].map(m => m[1])
 );
-const archiveSplat = /^\/archive\/\*\s+\S+\s+\d+!/m.test(redirectsTxt);
+const archiveSplat = /^\/archive\/\*\s+\S+\s+\d+!/m.test(aboveCatchAll);
 
 // Runtime assets are whatever the pages actually load.
 //
@@ -437,6 +473,8 @@ if (unblocked.length) {
   console.log('     FIX: move it into archive/, or add to _redirects:');
   console.log(`     /${unblocked[0]}   /404.html   410!`);
   console.log('     The trailing ! is required — un-forced rules are ignored.');
+  console.log('     PASTE IT ABOVE THE "/*" CATCH-ALL. Appended to the end of the');
+  console.log('     file it is inert, which is how four scripts went live in S199.');
   errors++;
 } else {
   console.log(`  ✅ All internal files blocked (${mustBlock.length} rules, ${runtimeJs.size} runtime assets public)`);
