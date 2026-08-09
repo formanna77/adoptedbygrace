@@ -1,440 +1,68 @@
 SCRIPTURE FIDELITY AUDIT — quotations diffed against scripture-niv.js
-Generated 2026-08-05T00:39:21.152Z
+Generated 2026-08-09T17:50:36.136Z
 
 Ground truth: 992 NIV passages
 Pages scanned: 658 (of 687; generated/index pages excluded)
-Quotations with a nearby reference: 3578
+Quotations with a nearby reference: 4575
 
-  VERIFIED  2638  — appear in the NIV verbatim
-  MISQUOTE  203  — high word overlap, wording does not match
+  VERIFIED  3593  — appear in the NIV verbatim
+  MISQUOTE  62  — high word overlap, wording does not match
   HEADING   84  — title-case heading near a reference, not a quotation
-  UNMATCHED 350  — low overlap; almost all extractor noise
-  REVIEW    13  — no NIV text on file; cross-page divergence only
+  UNMATCHED 377  — low overlap; almost all extractor noise
+  REVIEW    19  — no NIV text on file; cross-page divergence only
   banned "(NIV)" suffix: 0
 
 ========================================================================
 MISQUOTATIONS — presented as a quotation, not what the NIV says
 ========================================================================
 
-### 1 Corinthians 15:22   [systematic-federal-headship.html]   overlap 100%
-  PAGE: "In Adam all die; in Christ all will be made alive."
-  NIV : "For as in Adam all die, so in Christ all will be made alive."
+### Acts 13:22   [ot-david.html]   overlap 100%
+  PAGE: "a man after [God's] own heart"
+  NIV : "After removing Saul, he made David their king. God testified concerning him: ‘I have found David son of Jesse, a man after my own heart; he will do everything I want him to do.’"
 
-### 1 Peter 1:5   [demolition-1peter1-5.html]   overlap 100%
-  PAGE: "the coming of the salvation ready to be revealed in the last time."
-  NIV : "who through faith are shielded by God's power until the coming of the salvation that is ready to be revealed in the last time."
-
-### 2 Corinthians 4:4   [story-the-person-who-chose-god.html]   overlap 100%
-  PAGE: "The god of this age has blinded the minds of unbelievers, so they cannot see the light."
-  NIV : "The god of this age has blinded the minds of unbelievers, so that they cannot see the light of the gospel that displays the glory of Christ, who is the image of God."
-
-### 2 Peter 2:20   [printable-perseverance.html]   overlap 100%
-  PAGE: "If they have escaped the corruption of the world... and are again entangled in it, they are worse off at the end than they were at the beginning"
-  NIV : "If they have escaped the corruption of the world by knowing our Lord and Savior Jesus Christ and are again entangled in it and are overcome, they are worse off at the end than they were at the beginning. It would have been better for them not to have known the way of righteousness, than to have known it and then to turn their backs on the sacred command that was passed on to them. Of them the proverbs are true: A dog returns to its vomit, and, A sow that is washed returns to her wallowing in the mud."
-
-### 2 Timothy 4:3   [printable-the-mirror.html]   overlap 100%
-  PAGE: "They will not put up with sound doctrine… their itching ears want to hear."
-  NIV : "For the time will come when people will not put up with sound doctrine. Instead, to suit their own desires, they will gather around them a great number of teachers to say what their itching ears want to hear."
-
-### Acts 10:12   [demolition-1tim2-4.html]   overlap 100%
-  PAGE: "all kinds of animals"
-  NIV : "It contained all kinds of four-footed animals, as well as reptiles and birds."
+### Acts 13:48   [history-whitefield-wesley.html]   overlap 100%
+  PAGE: "all who believed were appointed."
+  NIV : "When the Gentiles heard this, they were glad and honored the word of the Lord; and all who were appointed for eternal life believed."
 
 ### Acts 17:30   [demolition-acts17-30.html]   overlap 100%
   PAGE: "God commands ALL people everywhere to repent."
   NIV : "In the past God overlooked such ignorance, but now he commands all people everywhere to repent."
 
-### Acts 2:23   [question-godwants.html]   overlap 100%
-  PAGE: "handed over by God's deliberate plan and foreknowledge"
-  NIV : "This man was handed over to you by God's deliberate plan and foreknowledge; and you, with the help of wicked men, put him to death by nailing him to the cross."
-
-### Acts 8:30-31   [question-isaiah53.html]   overlap 100%
-  PAGE: "How can I, unless someone explains it to me?"
-  NIV : "Then Philip ran up to the chariot and heard the man reading Isaiah the prophet. "Do you understand what you are reading?" Philip asked. "How can I," he said, "unless someone explains it to me?" So he invited Philip to come up and sit with him."
-
 ### Deuteronomy 30:6   [demolition-james4-7-8.html]   overlap 100%
   PAGE: "love the Lord your God with all your heart"
   NIV : "The Lord your God will circumcise your hearts and the hearts of your descendants, so that you may love him with all your heart and with all your soul, and live."
-
-### Ephesians 1:4   [canons-of-dort-plain-english.html]   overlap 100%
-  PAGE: "in him to be holy and blameless in his sight"
-  NIV : "For he chose us in him before the creation of the world to be holy and blameless in his sight."
-
-### Ephesians 1:4   [objection-evangelism-pointless.html]   overlap 100%
-  PAGE: "He chose us before the creation of the world"
-  NIV : "For he chose us in him before the creation of the world to be holy and blameless in his sight."
-
-### Ephesians 1:4-5   [demolition-orthodox-predestination.html]   overlap 100%
-  PAGE: "He chose us in him before the creation of the world... In love he predestined us for adoption to sonship, in accordance with his pleasure and will."
-  NIV : "For he chose us in him before the creation of the world to be holy and blameless in his sight. In love he predestined us for adoption to sonship through Jesus Christ, in accordance with his pleasure and will."
 
 ### Ephesians 2:1   [question-am-i-chosen.html]   overlap 100%
   PAGE: "dead in [their] transgressions and sins"
   NIV : "As for you, you were dead in your transgressions and sins,"
 
-### Ephesians 2:3   [systematic-adoption.html]   overlap 100%
-  PAGE: "We were by nature deserving of wrath, like the rest"
-  NIV : "All of us also lived among them at one time, gratifying the cravings of our flesh and following its desires and thoughts. Like the rest, we were by nature deserving of wrath."
-
-### Ephesians 2:5   [devotional-rescued-without-a-say.html]   overlap 100%
-  PAGE: "Even when we were dead in transgressions, [God] made us alive with Christ"
-  NIV : "made us alive with Christ even when we were dead in transgressions—it is by grace you have been saved."
-
 ### Exodus 9:16   [romans-9-deep-dive.html]   overlap 100%
   PAGE: "I raised you up,"
   NIV : "But I have raised you up for this very purpose, that I might show you my power and that my name might be proclaimed in all the earth."
 
-### Ezekiel 37:12   [story-the-person-who-chose-god.html]   overlap 100%
-  PAGE: "I will open your graves and bring you up from them."
-  NIV : "Therefore prophesy and say to them: 'This is what the Sovereign Lord says: My people, I am going to open your graves and bring you up from them; I will bring you back to the land of Israel.'"
-
-### Hebrews 11:8   [ot-abraham.html]   overlap 100%
-  PAGE: "By faith Abraham obeyed when he was called."
-  NIV : "By faith Abraham, when called to go to a place he would later receive as his inheritance, obeyed and went, even though he did not know where he was going."
-
-### Isaiah 10:22   [ot-israel-chosen.html]   overlap 100%
-  PAGE: "Though your people Israel be like the sand by the sea, only a remnant will return"
-  NIV : "Though your people be like the sand by the sea, Israel,&nbsp;&nbsp;&nbsp;&nbsp;only a remnant will return.Destruction has been decreed,&nbsp;&nbsp;&nbsp;&nbsp;overwhelming and righteous."
-
-### Isaiah 14:24   [ot-isaiah-servant.html]   overlap 100%
-  PAGE: "The Lord Almighty has sworn, 'Surely, as I have planned, so it will be, and as I have purposed, so it will happen.'"
-  NIV : "The Lord Almighty has sworn,“Surely, as I have planned, so it will be,&nbsp;&nbsp;&nbsp;&nbsp;and as I have purposed, so it will happen."
-
-### Isaiah 35:5-6   [ot-isaiah-servant.html]   overlap 100%
-  PAGE: "Then will the eyes of the blind be opened and the ears of the deaf unstopped. Then will the lame leap like a deer, and the mute tongue shout for joy"
-  NIV : "Then will the eyes of the blind be opened&nbsp;&nbsp;&nbsp;&nbsp;and the ears of the deaf unstopped. Then will the lame leap like a deer,&nbsp;&nbsp;&nbsp;&nbsp;and the mute tongue shout for joy.Water will gush forth in the wilderness&nbsp;&nbsp;&nbsp;&nbsp;and streams in the desert."
-
-### Isaiah 64:8   [ot-isaiah-servant.html]   overlap 100%
-  PAGE: "You, LORD, are our Father. We are the clay."
-  NIV : "Yet you, Lord, are our Father.&nbsp;&nbsp;&nbsp;&nbsp;We are the clay, you are the potter;&nbsp;&nbsp;&nbsp;&nbsp;we are all the work of your hand."
-
-### Jeremiah 20:9   [ot-jeremiah.html]   overlap 100%
-  PAGE: "If I say, 'I will not mention his word or speak anymore in his name,' his word is in my heart like a fire, a fire shut up in my bones. I am weary of holding it in; indeed, I cannot"
-  NIV : "But if I say, “I will not mention his word&nbsp;&nbsp;&nbsp;&nbsp;or speak anymore in his name,”his word is in my heart like a fire,&nbsp;&nbsp;&nbsp;&nbsp;a fire shut up in my bones.I am weary of holding it in;&nbsp;&nbsp;&nbsp;&nbsp;indeed, I cannot."
-
-### Job 42:5-6   [pastoral-suffering.html]   overlap 100%
-  PAGE: "My ears had heard of you but now my eyes have seen you. Therefore I despise myself and repent in dust and ashes"
-  NIV : "My ears had heard of you&nbsp;&nbsp;&nbsp;&nbsp;but now my eyes have seen you. Therefore I despise myself&nbsp;&nbsp;&nbsp;&nbsp;and repent in dust and ashes.”"
-
-### John 1:13   [compare-monergism-synergism.html]   overlap 100%
-  PAGE: "not of natural descent, nor of human decision or a husband's will, but [of] God"
-  NIV : "children born not of natural descent, nor of human decision or a husband's will, but born of God."
-
-### John 12:32   [devotional-the-kindest-shock.html]   overlap 100%
-  PAGE: "I will draw all people to myself"
-  NIV : "And I, when I am lifted up from the earth, will draw all people to myself."
-
-### John 12:32   [psychology-system-justification.html]   overlap 100%
-  PAGE: "I will draw all people to myself"
-  NIV : "And I, when I am lifted up from the earth, will draw all people to myself."
-
-### John 12:32   [question-1peter1.html]   overlap 100%
-  PAGE: "I will draw all people to myself"
-  NIV : "And I, when I am lifted up from the earth, will draw all people to myself."
-
-### John 12:32   [question-cannot.html]   overlap 100%
-  PAGE: "I will draw all people to myself"
-  NIV : "And I, when I am lifted up from the earth, will draw all people to myself."
-
-### John 12:32   [question-godwants.html]   overlap 100%
-  PAGE: "I will draw all people to myself"
-  NIV : "And I, when I am lifted up from the earth, will draw all people to myself."
-
-### John 12:32   [question-sovereignty-logic.html]   overlap 100%
-  PAGE: "I will draw all people to myself"
-  NIV : "And I, when I am lifted up from the earth, will draw all people to myself."
-
-### John 12:32   [word-study-every-all.html]   overlap 100%
-  PAGE: "I will draw all people to myself"
-  NIV : "And I, when I am lifted up from the earth, will draw all people to myself."
-
-### John 12:40   [question-parables.html]   overlap 100%
-  PAGE: "He has blinded... He has hardened."
-  NIV : ""He has blinded their eyes and hardened their hearts, so they can neither see with their eyes, nor understand with their hearts, nor turn—and I would heal them.""
-
-### John 6:44   [question-whosoever.html]   overlap 100%
-  PAGE: "No one CAN come to me unless the Father draws them"
-  NIV : "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
-
-### John 6:44   [response-andy-stanley.html]   overlap 100%
-  PAGE: "no one can come to me unless the Father draws them"
-  NIV : "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
-
-### John 8:32   [freedom.html]   overlap 100%
-  PAGE: "And you will know the truth, and the truth will set you free."
-  NIV : ""Then you will know the truth, and the truth will set you free.""
+### John 12:19   [word-study-every-all.html]   overlap 100%
+  PAGE: "the world has gone after him."
+  NIV : "So the Pharisees said to one another, "See, this is getting us nowhere. Look how the whole world has gone after him!""
 
 ### Malachi 1:2-3   [romans-9-deep-dive.html]   overlap 100%
-  PAGE: "Jacob I loved, Esau I hated"
+  PAGE: "Jacob I loved, but Esau I hated"
   NIV : "I have loved you, says the Lord. But you ask, 'How have you loved us?' Was not Esau Jacob's brother? declares the Lord. Yet I have loved Jacob, but Esau I have hated, and I have turned his hill country into a wasteland and left his inheritance to the desert jackals."
 
-### Mark 1:15   [systematic-repentance.html]   overlap 100%
-  PAGE: "The time has come. The kingdom of God has come near. Repent and believe the good news!"
-  NIV : ""The time has come," he said. "The kingdom of God has come near. Repent and believe the good news!""
-
-### Matthew 15:9   [psychology-sunk-cost-faith.html]   overlap 100%
-  PAGE: "They worship me in vain; their teachings are merely human rules."
-  NIV : "They worship me in vain;&nbsp;&nbsp;&nbsp;&nbsp;their teachings are merely human rules.’[a]”"
-
-### Matthew 8:21   [question-dead-bury-dead.html]   overlap 100%
-  PAGE: "Lord, let me first go and bury my father"
-  NIV : "Another disciple said to him, “Lord, first let me go and bury my father.”"
-
-### Philippians 1:29   [anxious-mind-what-if-not-chosen.html]   overlap 100%
-  PAGE: "granted to you to believe"
-  NIV : "For it has been granted to you on behalf of Christ not only to believe in him, but also to suffer for him,"
-
-### Philippians 2:12-13   [objection-builder.html]   overlap 100%
-  PAGE: "Therefore, my dear friends, continue to work out your salvation with fear and trembling, for it is God who works in you to will and to act in order to fulfill his good purpose."
-  NIV : "Therefore, my dear friends, as you have always obeyed—not only in my presence, but now much more in my absence—continue to work out your salvation with fear and trembling, for it is God who works in you to will and to act in order to fulfill his good purpose."
-
-### Proverbs 18:13   [question-arminian-steelman.html]   overlap 100%
-  PAGE: "To answer before listening — that is folly and shame"
-  NIV : "To answer before listening—&nbsp;&nbsp;&nbsp;&nbsp;that is folly and shame."
-
-### Proverbs 22:6   [psychology-cognitive-biases.html]   overlap 100%
-  PAGE: "Start children off on the way they should go, and even when they are old they will not turn from it."
-  NIV : "Start children off on the way they should go,&nbsp;&nbsp;&nbsp;&nbsp;and even when they are old they will not turn from it."
-
-### Proverbs 28:1   [psychology-why-this-objection-proves-our-point.html]   overlap 100%
-  PAGE: "The wicked flee though no one pursues, but the righteous are as bold as a lion."
-  NIV : "The wicked flee though no one pursues,&nbsp;&nbsp;&nbsp;&nbsp;but the righteous are as bold as a lion."
-
-### Psalm 147:4   [ot-jonah.html]   overlap 100%
-  PAGE: "determines the number of the stars and calls them each by name"
-  NIV : "He determines the number of the stars&nbsp;&nbsp;&nbsp;&nbsp;and calls them each by name."
-
-### Psalm 30:5   [open-wound-sovereignty-in-grief.html]   overlap 100%
-  PAGE: "Weeping may stay for the night, but rejoicing comes in the morning"
-  NIV : "For his anger lasts only a moment,&nbsp;&nbsp;&nbsp;&nbsp;but his favor lasts a lifetime;weeping may stay for the night,&nbsp;&nbsp;&nbsp;&nbsp;but rejoicing comes in the morning."
-
-### Psalm 51:1   [ot-david.html]   overlap 100%
-  PAGE: "Have mercy on me, O God, according to your unfailing love; according to your great compassion blot out my transgressions"
-  NIV : "Psalm 51[a]For the director of music. A psalm of David. When the prophet Nathan came to him after David had committed adultery with Bathsheba. Have mercy on me, O God,&nbsp;&nbsp;&nbsp;&nbsp;according to your unfailing love;according to your great compassion&nbsp;&nbsp;&nbsp;&nbsp;blot out my transgressions."
-
-### Psalm 51:10   [psychology-emotional-vs-rational.html]   overlap 100%
-  PAGE: "Create in me a pure heart, O God, and renew a steadfast spirit within me"
-  NIV : "Create in me a pure heart, O God,&nbsp;&nbsp;&nbsp;&nbsp;and renew a steadfast spirit within me."
-
-### Psalm 56:8   [open-wound-sovereignty-in-grief.html]   overlap 100%
-  PAGE: "Record my misery; list my tears on your scroll— are they not in your record?"
-  NIV : "Record my misery;&nbsp;&nbsp;&nbsp;&nbsp;list my tears on your scroll[a]—&nbsp;&nbsp;&nbsp;&nbsp;are they not in your record?"
-
-### Revelation 13:8   [open-wound-hospital-room.html]   overlap 100%
-  PAGE: "the Lamb slain from the creation of the world."
-  NIV : "All inhabitants of the earth will worship the beast—all whose names have not been written in the Lamb's book of life, the Lamb who was slain from the creation of the world."
-
-### Revelation 7:9   [word-study-every-all.html]   overlap 100%
-  PAGE: "a great multitude from every nation"
-  NIV : "After this I looked, and there before me was a great multitude that no one could count, from every nation, tribe, people and language, standing before the throne and before the Lamb. They were wearing white robes and were holding palm branches in their hands."
-
-### Romans 10:14-15   [canons-of-dort-plain-english.html]   overlap 100%
-  PAGE: "How can they believe unless they have heard? And how can they hear without someone preaching? And how can anyone preach unless they are sent?"
-  NIV : "How, then, can they call on the one they have not believed in? And how can they believe in the one of whom they have not heard? And how can they hear without someone preaching to them? And how can anyone preach unless they are sent? As it is written: "How beautiful are the feet of those who bring good news!""
-
-### Romans 11:33-36   [canons-of-dort-plain-english.html]   overlap 100%
-  PAGE: "Oh, the depth of the riches of the wisdom and knowledge of God! How unsearchable his judgments, and his paths beyond tracing out! For 'Who has known the mind of the Lord? Or who has been his counselor?' 'Who has ever given to God, that God should repay him?' For from him and through him and for him are all things. To him be the glory forever! Amen."
-  NIV : "Oh, the depth of the riches of the wisdom and knowledge of God! How unsearchable his judgments, and his paths beyond tracing out! 'Who has known the mind of the Lord? Or who has been his counselor?' 'Who has ever given to God, that God should repay them?' For from him and through him and for him are all things. To him be the glory forever! Amen."
-
-### Romans 3:10-18   [response-andy-stanley.html]   overlap 100%
-  PAGE: "no one righteous, no one who understands, no one who seeks God"
-  NIV : "There is no one righteous, not even one; there is no one who understands; there is no one who seeks God. All have turned away, they have together become worthless; there is no one who does good, not even one. Their throats are open graves; their tongues practice deceit. The poison of vipers is on their lips. Their mouths are full of cursing and bitterness. Their feet are swift to shed blood; ruin and misery mark their ways, and the way of peace they do not know. There is no fear of God before their eyes."
-
-### Romans 5:18   [word-study-every-all.html]   overlap 100%
-  PAGE: "justification for all people"
-  NIV : "Consequently, just as one trespass resulted in condemnation for all people, so also one righteous act resulted in justification and life for all people."
-
-### Romans 8:28-29   [broken-mirror-not-self-made.html]   overlap 100%
-  PAGE: "For we know that in all things God works for the good of those who love him, who have been called according to his purpose. For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters."
-  NIV : "And we know that in all things God works for the good of those who love him, who[a] have been called according to his purpose. For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters."
-
-### Romans 8:29-30   [devotional-chosen-before-you-were-broken.html]   overlap 100%
-  PAGE: "Those he foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters. And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified"
-  NIV : "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters. And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."
-
-### Romans 8:30   [question-external-call.html]   overlap 100%
-  PAGE: "And those he predestined he also called; and those he called he also justified; and those he justified he also glorified."
-  NIV : "And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."
-
-### Romans 8:30-31   [question-goldchain.html]   overlap 100%
-  PAGE: "And those he justified, he also glorified. What, then, shall we say in response to these things? If God is for us, who can be against us?"
-  NIV : "And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified. What, then, shall we say in response to these things? If God is for us, who can be against us?"
-
-### Romans 8:38-39   [compare-every-decision-point.html]   overlap 100%
-  PAGE: "Neither death nor life... nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord"
-  NIV : "For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord."
-
-### Romans 8:7-8   [question-dead-bury-dead.html]   overlap 100%
-  PAGE: "The mind governed by the flesh is hostile to God; it does not submit to God's law, nor can it do so. Those who are in the flesh cannot please God ."
-  NIV : "The mind governed by the flesh is hostile to God; it does not submit to God's law, nor can it do so. Those who are in the realm of the flesh cannot please God."
-
-### Romans 9:11-13   [compare-every-decision-point.html]   overlap 100%
-  PAGE: "Before the twins were born or had done anything good or bad — in order that God's purpose in election might stand — she was told, 'The older will serve the younger.' Just as it is written: 'Jacob I loved, but Esau I hated'"
-  NIV : "Yet, before the twins were born or had done anything good or bad—in order that God's purpose in election might stand: not by works but by him who calls—she was told, 'The older will serve the younger.' Just as it is written: 'Jacob I loved, but Esau I hated.'"
-
-### Romans 9:11-13   [demolition-orthodox-predestination.html]   overlap 100%
-  PAGE: "Before the twins were born or had done anything good or bad — in order that God's purpose in election might stand — she was told, 'The older will serve the younger.' Just as it is written: ' Jacob I loved, but Esau I hated. '"
-  NIV : "Yet, before the twins were born or had done anything good or bad—in order that God's purpose in election might stand: not by works but by him who calls—she was told, 'The older will serve the younger.' Just as it is written: 'Jacob I loved, but Esau I hated.'"
-
-### Romans 9:16   [compare-calvinism-arminianism.html]   overlap 100%
-  PAGE: "It does not depend on human desire or effort, but on God's mercy"
-  NIV : "It does not, therefore, depend on human desire or effort, but on God's mercy."
-
-### Romans 9:18   [apologetic-priest-shoulders.html]   overlap 100%
-  PAGE: "He has mercy on whom he wants to have mercy, and he hardens whom he wants to harden"
-  NIV : "Therefore God has mercy on whom he wants to have mercy, and he hardens whom he wants to harden."
-
-### Romans 9:24   [apologetic-ekloge-the-greek-of-election.html]   overlap 100%
-  PAGE: "even us, whom He has called, not from the Jews only but also from the Gentiles."
-  NIV : "What then shall we say? Is God unjust? Not at all! For he says to Moses,“I will have mercy on whom I have mercy,&nbsp;&nbsp;&nbsp;&nbsp;and I will have compassion on whom I have compassion.”[a] It does not, therefore, depend on human desire or effort, but on God’s mercy. For Scripture says to Pharaoh: “I raised you up for this very purpose, that I might display my power in you and that my name might be proclaimed in all the earth.”[b] Therefore God has mercy on whom he wants to have mercy, and he hardens whom he wants to harden. One of you will say to me: “Then why does God still blame us? For who is able to resist his will?” But who are you, a human being, to talk back to God? “Shall what is formed say to the one who formed it, ‘Why did you make me like this?’”[c] Does not the potter have the right to make out of the same lump of clay some pottery for special purposes and some for common use? What if God, although choosing to show his wrath and make his power known, bore with great patience the objects of his wrath—prepared for destruction? What if he did this to make the riches of his glory known to the objects of his mercy, whom he prepared in advance for glory— even us, whom he also called, not only from the Jews but also from the Gentiles?"
-
-### Romans 9:22-23   [objection-god-could-save-all.html]   overlap 98%
-  PAGE: "What if God, although choosing to show his wrath and make his power known, bore with great patience the objects of his wrath—prepared for destruction? What if he did this to make the riches of his glory known on the objects of his mercy, whom he prepared in advance for glory?"
-  NIV : "What if God, although choosing to show his wrath and make his power known, bore with great patience the objects of his wrath—prepared for destruction? What if he did this to make the riches of his glory known to the objects of his mercy, whom he prepared in advance for glory—"
-
-### Revelation 17:8   [devotional-your-name-in-the-book.html]   overlap 98%
-  PAGE: "The beast, which you saw, once was, now is not, and yet will come up out of the Abyss and go to its destruction. The inhabitants of the earth whose names have not been written in the book of life from the creation of the world will be astonished..."
-  NIV : "The beast, which you saw, once was, now is not, and yet will come up out of the Abyss and go to its destruction. The inhabitants of the earth whose names have not been written in the book of life from the creation of the world will be astonished when they see the beast, because it once was, now is not, and yet will come."
-
-### Psalm 22:1-2   [open-wound-sovereignty-in-grief.html]   overlap 98%
-  PAGE: "My God, my God, why have you forsaken me? Why are you so far from saving me, so far from my cries of anguish? My God, I cry out by day, but you do not answer; and by night, but I find no rest."
-  NIV : "Psalm 22[a]For the director of music. To the tune of “The Doe of the Morning.” A psalm of David. My God, my God, why have you forsaken me?&nbsp;&nbsp;&nbsp;&nbsp;Why are you so far from saving me,&nbsp;&nbsp;&nbsp;&nbsp;so far from my cries of anguish?2 My God, I cry out by day, but you do not answer,&nbsp;&nbsp;&nbsp;&nbsp;by night, but I find no rest.[b]"
-
-### John 16:1-4   [invisible-wall-friend-who-left.html]   overlap 97%
-  PAGE: "All this I have told you, so that you will not go astray. They will put you out of the synagogue; in fact, the time is coming when anyone who kills you will think they are offering a service to God. They will do such things because they have not known the Father or me. I have told you this, so that when their time comes you will remember that I warned you about them."
-  NIV : "“All this I have told you so that you will not fall away. They will put you out of the synagogue; in fact, the time is coming when anyone who kills you will think they are offering a service to God. They will do such things because they have not known the Father or me. I have told you this, so that when their time comes you will remember that I warned you about them. I did not tell you this from the beginning because I was with you,"
-
-### Galatians 1:15-16   [secular-genetics-sovereignty.html]   overlap 97%
-  PAGE: "But when God, who set me apart from my mother's womb and called me by his grace, was pleased to reveal his Son in me so that I might preach him among the Gentiles..."
-  NIV : "But when God, who set me apart from my mother's womb and called me by his grace, was pleased to reveal his Son in me so that I might preach him among the Gentiles, my immediate response was not to consult any human being."
-
-### 2 Peter 2:1   [apologetic-the-once-for-all-ephapax.html]   overlap 97%
-  PAGE: "...just as there will be false teachers among you. They will secretly introduce destructive heresies, even denying the sovereign Lord who bought them — bringing swift destruction on themselves."
-  NIV : "But there were also false prophets among the people, just as there will be false teachers among you. They will secretly introduce destructive heresies, even denying the sovereign Lord who bought them—bringing swift destruction on themselves."
-
-### 2 Timothy 1:12   [apologetic-i-know-whom-i-have-believed.html]   overlap 96%
-  PAGE: "...because I know whom I have believed, and am convinced that he is able to guard what I have entrusted to him until that day"
-  NIV : "That is why I am suffering as I am. Yet this is no cause for shame, because I know whom I have believed, and am convinced that he is able to guard what I have entrusted to him until that day."
-
-### 1 Peter 1:5   [apologetic-kept-by-the-power-of-god.html]   overlap 96%
-  PAGE: "...who through faith are shielded by God's power until the coming of the salvation that is ready to be revealed in the last time."
-  NIV : "who through faith are shielded by God's power until the coming of the salvation that is ready to be revealed in the last time."
-
-### Deuteronomy 7:6   [apologetic-many-people-in-this-city.html]   overlap 96%
-  PAGE: "You are a people (laos) holy to the LORD your God. The LORD your God has chosen you… to be his people, his treasured possession"
-  NIV : "For you are a people holy to the Lord your God. The Lord your God has chosen you out of all the peoples on the face of the earth to be his people, his treasured possession. The Lord did not set his affection on you and choose you because you were more numerous than other peoples, for you were the fewest of all peoples. But it was because the Lord loved you and kept the oath he swore to your ancestors that he brought you out with a mighty hand and redeemed you from the land of slavery, from the power of Pharaoh king of Egypt."
-
-### Romans 5:8-10   [story-the-person-who-chose-god.html]   overlap 96%
-  PAGE: "While we were still sinners, Christ died for us... When we were God's enemies, we were reconciled to him through the death of his Son."
-  NIV : "But God demonstrates his own love for us in this: While we were still sinners, Christ died for us. Since we have now been justified by his blood, how much more shall we be saved from God's wrath through him! For if, while we were God's enemies, we were reconciled to him through the death of his Son, how much more, having been reconciled, shall we be saved through his life!"
-
-### Philippians 1:29   [resistance-redefining-grace.html]   overlap 96%
-  PAGE: "For it has been granted to you on behalf of Christ not only to believe in him, but also to suffer for him..."
-  NIV : "For it has been granted to you on behalf of Christ not only to believe in him, but also to suffer for him,"
-
-### Ephesians 5:26-27   [apologetic-gave-himself-for-the-bride.html]   overlap 95%
-  PAGE: "to make her holy... and to present her to himself as a radiant church, without stain or wrinkle... but holy and blameless"
-  NIV : "and to present her to himself as a radiant church, without stain or wrinkle or any other blemish, but holy and blameless."
-
-### Philippians 1:29   [printable-faith-is-a-gift.html]   overlap 95%
-  PAGE: "To them it has been granted on behalf of Christ not only to believe in him, but also to suffer for him."
-  NIV : "For it has been granted to you on behalf of Christ not only to believe in him, but also to suffer for him,"
-
-### Romans 9:23   [broken-mirror-vessels-for-mercy.html]   overlap 95%
-  PAGE: "...to make the riches of his glory known to the objects of his mercy, whom he prepared in advance for glory."
-  NIV : "What if he did this to make the riches of his glory known to the objects of his mercy, whom he prepared in advance for glory"
-
-### 1 Timothy 2:1-4   [demolition-titus2-11.html]   overlap 95%
-  PAGE: "I urge... that requests, prayers, intercession and thanksgiving be made for all people — for kings and all those in authority."
-  NIV : "I urge, then, first of all, that petitions, prayers, intercession and thanksgiving be made for all people— for kings and all those in authority, that we may live peaceful and quiet lives in all godliness and holiness. This is good, and pleases God our Savior, who wants all people to be saved and to come to a knowledge of the truth."
-
-### Matthew 18:12   [devotional-the-shepherd-came-looking.html]   overlap 95%
-  PAGE: "Does he not leave the ninety-nine on the hills and go to look for the one that wandered off?"
-  NIV : ""What do you think? If a man owns a hundred sheep, and one of them wanders away, will he not leave the ninety-nine on the hills and go to look for the one that wandered off?""
-
-### 2 Timothy 2:25   [scripture-tsunami-faith-as-gift.html]   overlap 94%
-  PAGE: "...in the hope that God will grant them repentance leading them to a knowledge of the truth."
-  NIV : "Opponents must be gently instructed, in the hope that God will grant them repentance leading them to a knowledge of the truth,"
-
-### Ephesians 2:1-2   [question-dead-man-visual.html]   overlap 94%
-  PAGE: "As for you, you were dead in your transgressions and sins, in which you used to live…"
-  NIV : "As for you, you were dead in your transgressions and sins, in which you used to live when you followed the ways of this world and of the ruler of the kingdom of the air, the spirit who is now at work in those who are disobedient."
-
-### Romans 7:15   [psychology-autonomy-illusion.html]   overlap 94%
-  PAGE: "I do not understand what I do. For what I want ( ho thelō ) to do I do not do, but what I hate I do… For I have the desire ( to thelein ) to do what is good, but I cannot carry it out. For I do not do the good I want ( thelō ) to do, but the evil I do not want to do — this I keep on doing."
-  NIV : "I do not understand what I do. For what I want to do I do not do, but what I hate I do. And if I do what I do not want to do, I agree that the law is good. As it is, it is no longer I myself who do it, but it is sin living in me. For I know that good itself does not dwell in me, that is, in my sinful nature. For I have the desire to do what is good, but I cannot carry it out. For I do not do the good I want to do, but the evil I do not want to do—this I keep on doing. Now if I do what I do not want to do, it is no longer I who do it, but it is sin living in me that does it."
-
-### Numbers 23:19   [demolition-jer18.html]   overlap 94%
-  PAGE: "God is not human, that he should lie, not a human being, that he should change his mind ( nāḥam ). Does he speak and then not act? Does he promise and not fulfill?"
-  NIV : "God is not human, that he should lie, not a human being, that he should change his mind. Does he speak and then not act? Does he promise and not fulfill?"
-
-### Matthew 12:31-32   [anxious-mind-scrupulosity.html]   overlap 93%
-  PAGE: "Therefore I tell you, every sin and blasphemy will be forgiven people, but the blasphemy against the Holy Spirit will not be forgiven. And whoever speaks a word against the Son of Man will be forgiven, but whoever speaks against the Holy Spirit will not be forgiven, either in this age or in the age to come."
-  NIV : "And so I tell you, every kind of sin and slander can be forgiven, but blasphemy against the Spirit will not be forgiven. Anyone who speaks a word against the Son of Man will be forgiven, but anyone who speaks against the Holy Spirit will not be forgiven, either in this age or in the age to come."
-
-### Ephesians 1:4   [apologetic-gave-himself-for-the-bride.html]   overlap 93%
-  PAGE: "chosen in him before the creation of the world to be holy and blameless"
-  NIV : "For he chose us in him before the creation of the world to be holy and blameless in his sight."
-
-### Proverbs 15:1   [psychology-backfire-effect.html]   overlap 92%
-  PAGE: "A soft answer turns away wrath, but a harsh word stirs up anger."
-  NIV : "A gentle answer turns away wrath,&nbsp;&nbsp;&nbsp;&nbsp;but a harsh word stirs up anger."
-
-### Romans 5:10   [question-bible-says-sick.html]   overlap 92%
-  PAGE: "When we were God's enemies, we were reconciled to him through his Son"
-  NIV : "For if, while we were God's enemies, we were reconciled to him through the death of his Son, how much more, having been reconciled, shall we be saved through his life!"
-
-### Acts 4:27-28   [ot-joseph.html]   overlap 92%
-  PAGE: "to do what your power and will had decided beforehand should happen"
-  NIV : "Indeed Herod and Pontius Pilate met together with the Gentiles and the people of Israel in this city to conspire against your holy servant Jesus, whom you anointed. They did what your power and will had decided beforehand should happen."
-
-### Acts 4:27-28   [systematic-divine-decrees.html]   overlap 92%
-  PAGE: "to do what your power and will had decided beforehand should happen"
-  NIV : "Indeed Herod and Pontius Pilate met together with the Gentiles and the people of Israel in this city to conspire against your holy servant Jesus, whom you anointed. They did what your power and will had decided beforehand should happen."
-
-### Amos 3:2   [question-chosen.html]   overlap 92%
-  PAGE: "You only have I known of all the families of the earth"
-  NIV : "You only have I chosen of all the families of the earth; therefore I will punish you for all your sins."
-
-### Ephesians 1:4   [psychology-backfire-effect.html]   overlap 92%
-  PAGE: "He chose us in him before the creation of the world..."
-  NIV : "For he chose us in him before the creation of the world to be holy and blameless in his sight."
-
-### Ephesians 2:1   [the-fork.html]   overlap 92%
-  PAGE: "As for you, you were dead in your transgressions and sins..."
-  NIV : "As for you, you were dead in your transgressions and sins,"
-
-### Hebrews 12:2   [scripture-tsunami-faith-as-gift.html]   overlap 92%
-  PAGE: "...fixing our eyes on Jesus, the pioneer and perfecter of faith."
-  NIV : "fixing our eyes on Jesus, the pioneer and perfecter of faith. For the joy set before him he endured the cross, scorning its shame, and sat down at the right hand of the throne of God."
-
-### Matthew 20:15   [canons-of-dort-plain-english.html]   overlap 92%
-  PAGE: "Have I no right to do what I want with my own?"
-  NIV : "Don't I have the right to do what I want with my own money? Or are you envious because I am generous?"
-
-### Revelation 13:8   [scripture-tsunami-faith-as-gift.html]   overlap 92%
-  PAGE: "...the Lamb who was slain from the creation of the world ."
-  NIV : "All inhabitants of the earth will worship the beast—all whose names have not been written in the Lamb's book of life, the Lamb who was slain from the creation of the world."
-
-### Deuteronomy 29:4   [scripture-tsunami-faith-as-gift.html]   overlap 91%
-  PAGE: "But to this day the LORD has not given you a heart to understand or eyes to see or ears to hear."
-  NIV : "But to this day the Lord has not given you a mind that understands or eyes that see or ears that hear."
-
-### 1 Peter 1:20   [argument-arminianism-secretly-assumes-calvinism.html]   overlap 90%
-  PAGE: "He was chosen (foreknown) before the creation of the world."
-  NIV : "He was chosen before the creation of the world, but was revealed in these last times for your sake."
-
-### Ephesians 2:9   [fork-in-the-road.html]   overlap 90%
-  PAGE: "is not by works, so that no one can boast."
-  NIV : "not by works, so that no one can boast."
-
-### Titus 2:11   [word-study-every-all.html]   overlap 90%
-  PAGE: "grace of God has appeared, offering salvation to all people"
-  NIV : "For the grace of God has appeared that offers salvation to all people."
-
-### John 12:40   [question-parables.html]   overlap 89%
-  PAGE: "He has blinded their eyes and hardened their heart, lest they see... and understand... and I would heal them"
-  NIV : ""He has blinded their eyes and hardened their hearts, so they can neither see with their eyes, nor understand with their hearts, nor turn—and I would heal them.""
+### Psalm 51:5   [apologetic-unreached.html]   overlap 100%
+  PAGE: "sinful at birth, sinful from the time [their mothers] conceived [them]"
+  NIV : "Surely I was sinful at birth, sinful from the time my mother conceived me."
+
+### John 3:3   [philosophy-children-argument.html]   overlap 90%
+  PAGE: "Jesus replied, 'Very truly I tell you, no one can see the kingdom of God unless they are born again.' ... 'Very truly I tell you, no one can enter the kingdom of God unless they are born of water and the Spirit.'"
+  NIV : "Jesus replied, 'Very truly I tell you, no one can see the kingdom of God unless they are born again.'"
+
+### John 10:26   [scripture-tsunami-sovereignty.html]   overlap 89%
+  PAGE: "You are not my sheep because you don't believe."
+  NIV : "but you do not believe because you are not my sheep."
+
+### John 3:8   [objection-babies.html]   overlap 89%
+  PAGE: "so it is with babies born of the Spirit."
+  NIV : "The wind blows wherever it pleases. You hear its sound, but you cannot tell where it comes from or where it is going. So it is with everyone born of the Spirit."
 
 ### Luke 16:31   [systematic-bibliology.html]   overlap 88%
   PAGE: "He said to him, 'If they do not listen to Moses and the Prophets, they will not be convinced even if someone rises from the dead.'"
@@ -444,53 +72,21 @@ MISQUOTATIONS — presented as a quotation, not what the NIV says
   PAGE: "so that, 'they may be ever seeing but never perceiving... otherwise they might turn and be forgiven!'"
   NIV : ""They may be ever seeing but never perceiving, and ever hearing but never understanding; otherwise they might turn and be forgiven!""
 
-### Romans 8:15   [psychology-terror-management.html]   overlap 88%
-  PAGE: "The Spirit you received does not make you a slave, so that you live in fear again"
-  NIV : "The Spirit you received does not make you slaves, so that you live in fear again; rather, the Spirit you received brought about your adoption to sonship. And by him we cry, 'Abba, Father.'"
+### Psalm 139:7-8   [shattered-lens-when-prayer-stopped-working.html]   overlap 88%
+  PAGE: "where can I go to find your presence?"
+  NIV : "Where can I go from your Spirit? Where can I flee from your presence? If I go up to the heavens, you are there; if I make my bed in the depths, you are there. If I rise on the wings of the dawn, if I settle on the far side of the sea, even there your hand will guide me, your right hand will hold me fast."
 
-### John 6:37-39   [apologetic-i-shall-lose-none.html]   overlap 88%
-  PAGE: "All those the Father gives me will come to me, and whoever comes to me I will never drive away. For I have come down from heaven not to do my will but to do the will of him who sent me. And this is the will of him who sent me, that I shall lose none of all those he has given me, but raise them up at the last day."
-  NIV : "All those the Father gives me will come to me, and whoever comes to me I will never drive away. And this is the will of him who sent me, that I shall lose none of all those he has given me, but raise them up at the last day."
-
-### Romans 1:21-22   [presuppositional-no-neutral-ground.html]   overlap 88%
-  PAGE: "knew God... neither glorified him as God nor gave thanks to him, but their thinking became futile and their foolish hearts were darkened. Although they claimed to be wise, they became fools"
-  NIV : "For although they knew God, they neither glorified him as God nor gave thanks to him, but their thinking became futile and their foolish hearts were darkened."
-
-### Romans 9:11   [systematic-theology-proper.html]   overlap 88%
-  PAGE: "so that God's purpose in election might stand"
-  NIV : "Yet, before the twins were born or had done anything good or bad—in order that God's purpose in election might stand:"
-
-### 2 Corinthians 6:1   [demolition-2cor6-1.html]   overlap 86%
-  PAGE: "do not receive God's grace in vain"
-  NIV : "As God's co-workers we urge you not to receive God's grace in vain."
-
-### Acts 2:23   [compare-calvinism-open-theism.html]   overlap 86%
-  PAGE: "according to God's deliberate plan and foreknowledge"
-  NIV : "This man was handed over to you by God's deliberate plan and foreknowledge; and you, with the help of wicked men, put him to death by nailing him to the cross."
-
-### Ephesians 1:4   [systematic-trinity.html]   overlap 86%
-  PAGE: "chosen before the creation of the world"
-  NIV : "For he chose us in him before the creation of the world to be holy and blameless in his sight."
-
-### Ephesians 1:6   [objection-why-not-save-everyone.html]   overlap 86%
-  PAGE: "for the praise of his glorious grace"
-  NIV : "to the praise of his glorious grace, which he has freely given us in the One he loves."
+### Romans 9:11-12   [apologetic-ekloge-the-greek-of-election.html]   overlap 87%
+  PAGE: "Yet, before the twins were born or had done anything good or bad — in order that God's purpose in election [κατ' ἐκλογὴν πρόθεσις τοῦ θεοῦ — kat' eklogēn prothesis tou theou] might stand: not by works but by him who calls — she was told, 'The older will serve the younger.'"
+  NIV : "Yet, before the twins were born or had done anything good or bad—in order that God's purpose in election might stand: not by works but by him who calls—she was told, "The older will serve the younger.""
 
 ### Hebrews 2:13   [demolition-hebrews2-9.html]   overlap 86%
   PAGE: "And again he says, 'Here am I, and the children God has given me.'"
   NIV : "I will put my trust in him. And again, Here am I, and the children God has given me."
 
-### John 12:32   [demolition-john12-32.html]   overlap 86%
-  PAGE: "I, when I am lifted up… will draw all kinds of people to myself"
-  NIV : "And I, when I am lifted up from the earth, will draw all people to myself."
-
 ### Matthew 21:43   [demolition-isaiah5-1-7.html]   overlap 86%
   PAGE: "a people who will produce its fruit."
   NIV : "A landowner planted a vineyard with walls, a winepress, and watchtower, then leased it to farmers. At harvest time, he sent servants to collect his share. The tenants beat one servant, killed another, and stoned a third. When the owner sent additional servants, they received the same treatment. Finally, the owner sent his son, thinking they would respect him. Instead, the tenants said, "This is the heir. Let's kill him and take his inheritance." They threw him out of the vineyard and killed him. Jesus asked his listeners what the owner would do to these tenants. They replied he would destroy them and lease the vineyard to others who would give him his rightful share. Jesus then referenced Scripture: "The stone the builders rejected has become the cornerstone; the Lord has done this, and it is marvelous in our eyes." He declared that the kingdom of God would be taken from them and given to people producing its fruit. Whoever falls on this stone will be broken; whoever it falls upon will be crushed. When the chief priests and Pharisees heard these parables, they recognized Jesus was speaking about them. They sought to arrest him but feared the crowd, who believed him to be a prophet."
-
-### Jude 1:3   [history-timeline.html]   overlap 85%
-  PAGE: "Contend for the faith that was once for all delivered to the saints."
-  NIV : "Dear friends, although I was very eager to write to you about the salvation we share, I felt compelled to write and urge you to contend for the faith that was once for all entrusted to God’s holy people."
 
 ### 1 Timothy 2:4   [objection-why-not-save-everyone.html]   overlap 84%
   PAGE: "God our Savior, who wants all people to be saved and to come to a knowledge of the truth"
@@ -500,97 +96,37 @@ MISQUOTATIONS — presented as a quotation, not what the NIV says
   PAGE: "God our Savior, who wants all people to be saved and to come to a knowledge of the truth"
   NIV : "who wants all people to be saved and to come to a knowledge of the truth."
 
-### Acts 18:9-10   [start-here-phase4.html]   overlap 84%
-  PAGE: "One night the Lord spoke to Paul in a vision: 'Do not be afraid; keep on speaking, do not be silent. For I am with you, and no one is going to attack and harm you, because I have many people in this city.'"
-  NIV : "Do not be afraid; keep on speaking, do not be silent. For I am with you, and no one is going to attack and harm you, because I have many people in this city."
-
-### Romans 10:14   [apologetic-unreached.html]   overlap 84%
-  PAGE: "How, then, can they call on the one they have not believed in? And how can they believe in the one of whom they have not heard? And how can they hear without someone preaching to them?"
-  NIV : "How, then, can they call on the one they have not believed in? And how can they believe in the one of whom they have not heard?"
-
-### Romans 10:14   [objection-builder.html]   overlap 84%
-  PAGE: "How, then, can they call on the one they have not believed in? And how can they believe in the one of whom they have not heard? And how can they hear without someone preaching to them?"
-  NIV : "How, then, can they call on the one they have not believed in? And how can they believe in the one of whom they have not heard?"
-
-### Acts 13:22   [ot-david.html]   overlap 83%
-  PAGE: "a man after God's own heart"
-  NIV : "After removing Saul, he made David their king. God testified concerning him: ‘I have found David son of Jesse, a man after my own heart; he will do everything I want him to do.’"
-
-### John 1:3   [reformed-apologetics-transcendental.html]   overlap 83%
-  PAGE: "through whom all things were made"
-  NIV : ""Through him all things were made; without him nothing was made that has been made.""
-
-### John 13:18   [question-perseverance.html]   overlap 83%
-  PAGE: "I know whom I have chosen"
-  NIV : "I am not referring to all of you; I know those I have chosen. But this is to fulfill this passage of Scripture: 'He who shared my bread has turned against me.'"
-
 ### John 6:44   [demolition-cut-off-from-root.html]   overlap 83%
   PAGE: "no one will choose to come"
   NIV : "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
 
-### Ezekiel 33:11   [response-dave-hunt.html]   overlap 82%
-  PAGE: "Do I take any pleasure in the death of the wicked?"
-  NIV : "Say to them, 'As surely as I live, declares the Sovereign Lord, I take no pleasure in the death of the wicked, but rather that they turn from their ways and live. Turn! Turn from your evil ways! Why will you die, people of Israel?'"
+### Philippians 1:6   [question-secure.html]   overlap 83%
+  PAGE: "might carry it on to completion."
+  NIV : "being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus."
 
-### Ephesians 1:11   [analogy-chess-grandmaster.html]   overlap 80%
-  PAGE: "all things in conformity with the purpose of his will"
-  NIV : "In him we were also chosen, having been predestined according to the plan of him who works out everything in conformity with the purpose of his will,"
+### Acts 16:14   [question-every-conversion-acts.html]   overlap 80%
+  PAGE: "Lydia opened her own heart."
+  NIV : "One of those listening was a woman from the city of Thyatira named Lydia, a dealer in purple cloth. She was a worshiper of God. The Lord opened her heart to respond to Paul's message."
 
 ### Ephesians 1:11   [question-2tim1-9.html]   overlap 80%
   PAGE: "called according to his purpose"
   NIV : "In him we were also chosen, having been predestined according to the plan of him who works out everything in conformity with the purpose of his will,"
 
-### John 10:28   [apologetic-the-double-grip-of-john-10.html]   overlap 80%
-  PAGE: "no one can snatch them out of my Father's hand"
-  NIV : "I give them eternal life, and they shall never perish; no one will snatch them out of my hand."
-
-### Romans 10:3   [psychology-system-justification.html]   overlap 80%
-  PAGE: "Seeking to establish their own."
-  NIV : "Since they did not know the righteousness of God and sought to establish their own, they did not submit to God’s righteousness."
-
-### Romans 9:19   [question-hardening.html]   overlap 80%
-  PAGE: "who can resist his will?"
-  NIV : "One of you will say to me: 'Then why does God still blame us? For who is able to resist his will?'"
-
-### Romans 9:20   [response-jerry-walls.html]   overlap 80%
-  PAGE: "who are you, O man, to talk back to God?"
-  NIV : "But who are you, a human being, to talk back to God? 'Shall what is formed say to the one who formed it, Why did you make me like this?'"
-
-### Psalm 139:13-16   [ethics-abortion.html]   overlap 79%
-  PAGE: "For you created my inmost being; you knit me together in my mother's womb... My frame was not hidden from you when I was made in the secret place... your eyes saw my unformed body; all the days ordained for me were written in your book before one of them came to be"
-  NIV : "For you created my inmost being; you knit me together in my mother's womb. Your eyes saw my unformed body; all the days ordained for me were written in your book before one of them came to be."
-
-### Romans 1:21-22   [presuppositional-no-neutral-ground.html]   overlap 79%
-  PAGE: "their thinking became futile and their foolish hearts were darkened. Although they claimed to be wise, they became fools"
-  NIV : "For although they knew God, they neither glorified him as God nor gave thanks to him, but their thinking became futile and their foolish hearts were darkened."
-
-### Titus 3:5-6   [apologetic-the-washing-of-rebirth.html]   overlap 79%
-  PAGE: "He saved us, not because of righteous things we had done, but because of his mercy. He saved us through the washing of rebirth and renewal by the Holy Spirit, whom he poured out on us generously through Jesus Christ our Savior."
-  NIV : "he saved us, not because of righteous things we had done, but because of his mercy. He saved us through the washing of rebirth and renewal by the Holy Spirit,"
-
-### Ephesians 2:8   [the-60-second-case.html]   overlap 78%
-  PAGE: "For it is by grace you have been saved, through faith — and this is not from yourselves , it is the gift of God — not by works, so that no one can boast."
-  NIV : "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—"
-
-### Romans 9:19   [psychology-offense-of-grace.html]   overlap 78%
-  PAGE: "You will say to me then, 'Why does He still find fault? For who can resist His will?'"
-  NIV : "One of you will say to me: 'Then why does God still blame us? For who is able to resist his will?'"
+### John 17:6   [systematic-covenant-redemption.html]   overlap 78%
+  PAGE: "I have revealed you to those whom you gave me out of the world. They were yours; you gave them to me and they have obeyed your word... I pray for them. I am not praying for the world, but for those you have given me, for they are yours."
+  NIV : "I have revealed you to those whom you gave me out of the world. They were yours; you gave them to me and they have obeyed your word."
 
 ### 1 Corinthians 15:14   [reformed-apologetics-resurrection.html]   overlap 76%
   PAGE: "if Christ has not been raised, our preaching is useless and so is your faith... you are still in your sins"
   NIV : "And if Christ has not been raised, our preaching is useless and so is your faith."
 
-### 1 John 5:1   [questions.html]   overlap 75%
-  PAGE: "Everyone who believes has been born of God."
-  NIV : "Everyone who believes that Jesus is the Christ is born of God, and everyone who loves the father loves his child as well."
-
 ### 1 John 5:4-5   [question-revelation13.html]   overlap 75%
   PAGE: "one who is victorious"
   NIV : "For everyone born of God overcomes the world. This is the victory that has overcome the world, even our faith. Who is it that overcomes the world? Only the one who believes that Jesus is the Son of God."
 
-### 2 Corinthians 5:14   [demolition-hebrews2-9.html]   overlap 75%
-  PAGE: "Christ died for all"
-  NIV : "For Christ's love compels us, because we are convinced that one died for all, and therefore all died."
+### Acts 10:12   [word-study-every-all.html]   overlap 75%
+  PAGE: "all the four-footed."
+  NIV : "It contained all kinds of four-footed animals, as well as reptiles and birds."
 
 ### Colossians 1:24   [joy-in-suffering.html]   overlap 75%
   PAGE: "I tolerate my suffering."
@@ -600,29 +136,21 @@ MISQUOTATIONS — presented as a quotation, not what the NIV says
   PAGE: "Be your own god."
   NIV : "For God knows that when you eat from it your eyes will be opened, and you will be like God, knowing good and evil."
 
-### James 2:6   [apologetic-no-one-can-come-unless.html]   overlap 75%
-  PAGE: "drag you into court."
-  NIV : "But you have dishonored the poor. Is it not the rich who are exploiting you? Are they not the ones who are dragging you into court?"
+### Isaiah 46:10   [compare-calvinism-open-theism.html]   overlap 75%
+  PAGE: "I can predict the end from the beginning."
+  NIV : "I make known the end from the beginning, from ancient times, what is still to come. I say, 'My purpose will stand, and I will do all that I please.'"
+
+### John 10:27-28   [anxious-mind-what-if-not-chosen.html]   overlap 75%
+  PAGE: "My sheep never doubt"
+  NIV : "My sheep listen to my voice; I know them, and they follow me. I give them eternal life, and they shall never perish; no one will snatch them out of my hand."
 
 ### John 8:36   [secular-ai-determinism.html]   overlap 75%
   PAGE: "you will feel free."
   NIV : "So if the Son sets you free, you will be free indeed."
 
-### Mark 10:43-45   [ethics-power-authority.html]   overlap 75%
-  PAGE: "whoever wants to become great among you must be your servant... For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many"
-  NIV : "For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many."
-
 ### Matthew 15:19   [secular-neuroscience-human-inability.html]   overlap 75%
   PAGE: "out of the conscious deliberation come evil thoughts."
   NIV : "For out of the heart come evil thoughts—murder, adultery, sexual immorality, theft, false testimony, slander."
-
-### Matthew 4:23-24   [word-study-every-all.html]   overlap 75%
-  PAGE: "all sorts of sickness"
-  NIV : "Jesus went throughout Galilee, teaching in their synagogues, proclaiming the good news of the kingdom, and healing every disease and sickness among the people. News about him spread all over Syria, and people brought to him all who were ill with various diseases, those suffering severe pain, the demon-possessed, those having seizures, and the paralyzed; and he healed them."
-
-### Romans 1:21   [secular-psychology-bondage-of-will.html]   overlap 75%
-  PAGE: "foolish hearts are darkened"
-  NIV : "For although they knew God, they neither glorified him as God nor gave thanks to him, but their thinking became futile and their foolish hearts were darkened."
 
 ### Romans 2:4   [argument-arminianism-secretly-assumes-calvinism.html]   overlap 75%
   PAGE: "kindness leads to repentance"
@@ -632,37 +160,9 @@ MISQUOTATIONS — presented as a quotation, not what the NIV says
   PAGE: "I will be free."
   NIV : "But thanks be to God that, though you used to be slaves to sin, you have come to obey from your heart the pattern of teaching that has now claimed your allegiance. You have been set free from sin and have become slaves to righteousness. I am using an example from everyday life because of your human limitations. Just as you used to offer yourselves as slaves to impurity and to ever-increasing wickedness, so now offer yourselves as slaves to righteousness leading to holiness. When you were slaves to sin, you were free from the control of righteousness."
 
-### John 10:27   [pastoral-when-truth-lands.html]   overlap 74%
-  PAGE: "My sheep listen to my voice; I know them, and they follow me. I give them eternal life, and they shall never perish"
-  NIV : "My sheep listen to my voice; I know them, and they follow me."
-
-### Romans 10:14   [question-arminian-steelman.html]   overlap 74%
-  PAGE: "How can they believe in the one of whom they have not heard? And how can they hear without someone preaching to them?"
-  NIV : "How, then, can they call on the one they have not believed in? And how can they believe in the one of whom they have not heard?"
-
-### Romans 10:14   [systematic-ecclesiology.html]   overlap 74%
-  PAGE: "How can they believe in the one of whom they have not heard? And how can they hear without someone preaching to them?"
-  NIV : "How, then, can they call on the one they have not believed in? And how can they believe in the one of whom they have not heard?"
-
-### Romans 8:14-15   [printable-adoption.html]   overlap 74%
-  PAGE: "For those who are led by the Spirit of God are the children of God. The Spirit you received does not make you slaves, so that you live in fear again; rather, the Spirit you received brought about your adoption to sonship."
-  NIV : "The Spirit you received does not make you slaves, so that you live in fear again; rather, the Spirit you received brought about your adoption to sonship. And by him we cry, 'Abba, Father.'"
-
-### Romans 11:33-34   [analytical-archetypal-ectypal.html]   overlap 73%
-  PAGE: "Oh, the depth of the riches of the wisdom and knowledge of God! How unsearchable his judgments, and his paths beyond tracing out! Who has known the mind of the Lord? Or who has been his counselor?"
-  NIV : "Oh, the depth of the riches of the wisdom and knowledge of God! How unsearchable his judgments, and his paths beyond tracing out!"
-
-### Genesis 15:6   [systematic-imputation.html]   overlap 73%
-  PAGE: "Abraham believed God, and it was credited to him as righteousness."
-  NIV : "Abram believed the Lord, and he credited it to him as righteousness."
-
-### Psalm 51:5   [apologetic-unreached.html]   overlap 73%
-  PAGE: "sinful at birth, sinful from the time their mothers conceived them"
-  NIV : "Surely I was sinful at birth, sinful from the time my mother conceived me."
-
-### Romans 9:20   [canons-of-dort-plain-english.html]   overlap 73%
-  PAGE: "But who are you, O man, to answer back to God?"
-  NIV : "But who are you, a human being, to talk back to God? 'Shall what is formed say to the one who formed it, Why did you make me like this?'"
+### Romans 9:11   [broken-mirror-performance-treadmill.html]   overlap 73%
+  PAGE: "Yet, before the twins were born or had done anything good or bad — in order that God's purpose in election might stand: not by works but by him who calls."
+  NIV : "Yet, before the twins were born or had done anything good or bad—in order that God's purpose in election might stand:"
 
 ### Romans 9:11   [apologetic-babies.html]   overlap 72%
   PAGE: "Before the twins were born or had done anything good or bad — in order that God's purpose in election might stand: not by works but by him who calls"
@@ -672,65 +172,17 @@ MISQUOTATIONS — presented as a quotation, not what the NIV says
   PAGE: "before the twins were born or had done anything good or bad — in order that God's purpose in election might stand: not by works but by him who calls."
   NIV : "Yet, before the twins were born or had done anything good or bad—in order that God's purpose in election might stand:"
 
-### Ephesians 5:26-27   [apologetic-gave-himself-for-the-bride.html]   overlap 72%
-  PAGE: "to make her holy, cleansing her by the washing with water through the word, and to present her to himself as a radiant church, without stain or wrinkle or any other blemish, but holy and blameless"
-  NIV : "and to present her to himself as a radiant church, without stain or wrinkle or any other blemish, but holy and blameless."
-
-### Ephesians 1:4   [psychology-cognitive-biases.html]   overlap 72%
-  PAGE: "For he chose us in him before the creation of the world to be holy and blameless in his sight. In love he predestined us for adoption to sonship through Jesus Christ, in accordance with his pleasure and will—"
-  NIV : "For he chose us in him before the creation of the world to be holy and blameless in his sight."
-
-### Ephesians 1:4   [psychology-identity-threat.html]   overlap 72%
-  PAGE: "For he chose us in him before the creation of the world to be holy and blameless in his sight. In love he predestined us for adoption to sonship through Jesus Christ, in accordance with his pleasure and will—"
-  NIV : "For he chose us in him before the creation of the world to be holy and blameless in his sight."
-
-### 2 Corinthians 12:9-10   [devotional-weakness-of-gods-strength.html]   overlap 72%
-  PAGE: "Therefore I will boast all the more gladly about my weaknesses, so that Christ's power may rest on me. That is why, for Christ's sake, I delight in weaknesses, in insults, in hardships, in persecutions, in difficulties. For when I am weak, then I am strong"
-  NIV : "But he said to me, "My grace is sufficient for you, for my power is made perfect in weakness." Therefore I will boast all the more gladly about my weaknesses, so that Christ's power may rest on me."
-
-### 1 Kings 18:37   [scripture-tsunami-faith-as-gift.html]   overlap 71%
-  PAGE: "that you have turned their hearts back."
-  NIV : "Answer me, Lord, answer me, so these people will know that you, Lord, are God, and that you are turning their hearts back again."
-
-### John 10:27   [demolition-2peter1-10.html]   overlap 71%
-  PAGE: "listen to my voice; I know them, and they follow me. I give them eternal life, and they shall never perish"
-  NIV : "My sheep listen to my voice; I know them, and they follow me."
+### Romans 9:11   [question-arminian-steelman.html]   overlap 72%
+  PAGE: "before the twins were born or had done anything good or bad — in order that God's purpose in election might stand: not by works but by him who calls"
+  NIV : "Yet, before the twins were born or had done anything good or bad—in order that God's purpose in election might stand:"
 
 ### Matthew 5:6   [anxious-mind-what-if-not-chosen.html]   overlap 71%
   PAGE: "Blessed are those who are already satisfied."
   NIV : "Blessed are those who hunger and thirst for righteousness, for they will be filled."
 
-### 2 Timothy 2:24-25   [psychology-cognitive-biases.html]   overlap 71%
-  PAGE: "And the Lord's servant must not be quarrelsome but must be kind to everyone, able to teach, not resentful. Opponents must be gently instructed, in the hope that God will grant them repentance leading them to a knowledge of the truth."
-  NIV : "Opponents must be gently instructed, in the hope that God will grant them repentance leading them to a knowledge of the truth,"
-
-### John 10:28   [demolition-1peter1-5.html]   overlap 71%
-  PAGE: "I give them eternal life, and they shall never perish; no one will snatch them out of my hand . My Father, who has given them to me, is greater than all; no one can snatch them out of my Father's hand ."
-  NIV : "I give them eternal life, and they shall never perish; no one will snatch them out of my hand."
-
-### Hebrews 6:17-18   [analytical-immutability.html]   overlap 70%
-  PAGE: "Because God wanted to make the unchanging nature of his purpose very clear to the heirs of what was promised, he confirmed it with an oath. God did this so that, by two unchangeable things in which it is impossible for God to lie, we who have fled to take hold of the hope set before us may be greatly encouraged"
-  NIV : "God did this so that, by two unchangeable things in which it is impossible for God to lie, we who have fled to take hold of the hope set before us may be greatly encouraged."
-
-### Ezekiel 36:25-27   [apologetic-i-will-move-you.html]   overlap 70%
-  PAGE: "I will sprinkle clean water on you, and you will be clean; I will cleanse you from all your impurities and from all your idols. I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh. And I will put my Spirit in you and move you to follow my decrees and be careful to keep my laws"
-  NIV : "I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh."
-
-### Ezekiel 36:25-27   [apologetic-the-cardiac-transplant.html]   overlap 70%
-  PAGE: "I will sprinkle clean water on you, and you will be clean; I will cleanse you from all your impurities and from all your idols. I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh. And I will put my Spirit in you and move you to follow my decrees and be careful to keep my laws."
-  NIV : "I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh."
-
-### Ephesians 1:4   [story-children-the-king-who-chose.html]   overlap 70%
-  PAGE: "For he chose us in him before the creation of the world to be holy and blameless in his sight. In love he predestined us for adoption to sonship through Jesus Christ, in accordance with his pleasure and will, to the praise of his glorious grace."
-  NIV : "For he chose us in him before the creation of the world to be holy and blameless in his sight."
-
-### Ezekiel 33:11   [response-dave-hunt.html]   overlap 69%
-  PAGE: "Rather, am I not pleased when they turn from their ways and live?"
-  NIV : "Say to them, 'As surely as I live, declares the Sovereign Lord, I take no pleasure in the death of the wicked, but rather that they turn from their ways and live. Turn! Turn from your evil ways! Why will you die, people of Israel?'"
-
-### Romans 9:11   [question-arminian-steelman.html]   overlap 69%
-  PAGE: "before the twins had done anything good or bad — in order that God's purpose in election might stand: not by works but by Him who calls"
-  NIV : "Yet, before the twins were born or had done anything good or bad—in order that God's purpose in election might stand:"
+### John 6:44   [analogy-drowning-man.html]   overlap 70%
+  PAGE: "No one can come to me unless they really try."
+  NIV : "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
 
 ### 1 Peter 2:9   [apologetic-bought-with-his-own-blood.html]   overlap 67%
   PAGE: "until the redemption of those who are God's possession,"
@@ -740,10 +192,6 @@ MISQUOTATIONS — presented as a quotation, not what the NIV says
   PAGE: "to the praise of his glory."
   NIV : "For he chose us in him before the creation of the world to be holy and blameless in his sight."
 
-### Ephesians 5:25-26   [apologetic-definite-atonement.html]   overlap 67%
-  PAGE: "Husbands, love your wives, just as Christ loved the church and gave himself up for her to make her holy, cleansing her by the washing with water through the word."
-  NIV : "Husbands, love your wives, just as Christ loved the church and gave himself up for her"
-
 ### James 4:2   [pastoral-prayer.html]   overlap 67%
   PAGE: "You do not have because God hasn't decreed it."
   NIV : "You desire but do not have, so you kill. You covet but you cannot get what you want, so you quarrel and fight. You do not have because you do not ask God."
@@ -751,14 +199,6 @@ MISQUOTATIONS — presented as a quotation, not what the NIV says
 ### John 6:37   [demolition-orthodox-predestination.html]   overlap 67%
   PAGE: "All those the Father gives me will come to me... No one can come to me unless the Father who sent me draws them."
   NIV : "All those the Father gives me will come to me, and whoever comes to me I will never drive away."
-
-### Romans 8:28   [compare-calvinism-open-theism.html]   overlap 67%
-  PAGE: "All things work together for good"
-  NIV : "And we know that in all things God works for the good of those who love him, who have been called according to his purpose."
-
-### Romans 9:22-23   [objection-responsibility.html]   overlap 67%
-  PAGE: "vessels of mercy, which He prepared beforehand for glory"
-  NIV : "What if God, although choosing to show his wrath and make his power known, bore with great patience the objects of his wrath—prepared for destruction? What if he did this to make the riches of his glory known to the objects of his mercy, whom he prepared in advance for glory—"
 
 ### James 1:14-15   [anxious-mind-intrusive-thoughts.html]   overlap 65%
   PAGE: "each person is tempted when they are dragged away by their own evil desire and enticed. Then, after desire has conceived, it gives birth to sin"
@@ -768,41 +208,29 @@ MISQUOTATIONS — presented as a quotation, not what the NIV says
   PAGE: "Come to me, all you who are weary and burdened, and I will give you rest... For my yoke is easy and my burden is light"
   NIV : "Come to me, all you who are weary and burdened, and I will give you rest."
 
-### Luke 22:22   [systematic-compatibilism.html]   overlap 65%
-  PAGE: "the Son of Man goes as it has been determined, but woe to that man by whom he is betrayed"
-  NIV : "The Son of Man will go as it has been decreed. But woe to that man who betrays him!"
-
-### Romans 8:28   [romans-8-28-39.html]   overlap 65%
-  PAGE: "And we know that in all things God works for the good of those who love him, who have been called according to his purpose. For those God foreknew he also predestined to be conformed to the image of his Son... And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."
-  NIV : "And we know that in all things God works for the good of those who love him, who have been called according to his purpose."
-
-### Ephesians 1:13   [devotional-love-letter-before-time.html]   overlap 65%
-  PAGE: "marked in him with a seal, the promised Holy Spirit, who is a deposit guaranteeing our inheritance"
-  NIV : "And you also were included in Christ when you heard the message of truth, the gospel of your salvation. When you believed, you were marked in him with a seal, the promised Holy Spirit."
-
 ### Ephesians 2:4-5   [argument-logical-collapse-arminianism.html]   overlap 64%
   PAGE: "As for you, you were dead in your transgressions and sins."
   NIV : "But because of his great love for us, God, who is rich in mercy, made us alive with Christ even when we were dead in transgressions—it is by grace you have been saved."
 
-### Romans 9:19   [response-jerry-walls.html]   overlap 64%
-  PAGE: "Why does He still find fault? For who resists His will?"
-  NIV : "One of you will say to me: 'Then why does God still blame us? For who is able to resist his will?'"
+### John 8:34   [start-here-phase4.html]   overlap 63%
+  PAGE: "Jesus replied, 'Very truly I tell you, everyone who sins is a slave to sin. … So if the Son sets you free, you will be free indeed.'"
+  NIV : "Jesus replied, “Very truly I tell you, everyone who sins is a slave to sin."
 
 ### Acts 13:48   [response-jerry-walls.html]   overlap 63%
   PAGE: "all who disposed themselves to eternal life believed."
   NIV : "When the Gentiles heard this, they were glad and honored the word of the Lord; and all who were appointed for eternal life believed."
 
-### Psalm 14:1-3   [romans-3-10-18.html]   overlap 63%
-  PAGE: "There is no one righteous, not even one"
-  NIV : "For the director of music. Of David. The fool says in his heart, "There is no God." They are corrupt, their deeds are vile; there is no one who does good."
-
-### Romans 2:4   [demolition-romans2-4.html]   overlap 63%
-  PAGE: "the kindness of God leads you toward repentance"
-  NIV : "Or do you show contempt for the riches of his kindness, forbearance and patience, not realizing that God's kindness is intended to lead you to repentance?"
-
 ### Romans 8:29   [question-foreknowledge.html]   overlap 63%
   PAGE: "Those whose faith God foresaw, He also predestined."
   NIV : "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters."
+
+### Romans 11:33   [start-here-phase1.html]   overlap 62%
+  PAGE: "Oh, the depth of the riches of the wisdom and knowledge of God! How unsearchable his judgments, and his paths beyond tracing out! ... For from him and through him and for him are all things. To him be the glory forever! Amen."
+  NIV : "Oh, the depth of the riches of the wisdom and knowledge of God! How unsearchable his judgments, and his paths beyond tracing out!"
+
+### Romans 5:12   [systematic-imputation.html]   overlap 60%
+  PAGE: "Therefore, just as sin entered the world through one man, and death through sin, and in this way death came to all people, because all sinned... For if, by the trespass of the one man, death reigned through that one man, how much more will those who receive God's abundant provision of grace and of the gift of righteousness reign in life through the one man, Jesus Christ."
+  NIV : "Therefore, just as sin entered the world through one man, and death through sin, and in this way death came to all people, because all sinned—"
 
 ### 1 John 5:1   [question-1john5-1.html]   overlap 60%
   PAGE: "has been born of God"
@@ -810,11 +238,15 @@ MISQUOTATIONS — presented as a quotation, not what the NIV says
 
 ### 2 Corinthians 12:7-10   [devotionals.html]   overlap 60%
   PAGE: "is more gracious than the"
-  NIV : "But he said to me, "My grace is sufficient for you, for my power is made perfect in weakness." Therefore I will boast all the more gladly about my weaknesses, so that Christ's power may rest on me."
+  NIV : "or because of these surpassingly great revelations. Therefore, in order to keep me from becoming conceited, I was given a thorn in my flesh, a messenger of Satan, to torment me. Three times I pleaded with the Lord to take it away from me. But he said to me, “My grace is sufficient for you, for my power is made perfect in weakness.” Therefore I will boast all the more gladly about my weaknesses, so that Christ’s power may rest on me. That is why, for Christ’s sake, I delight in weaknesses, in insults, in hardships, in persecutions, in difficulties. For when I am weak, then I am strong."
 
-### John 3:18   [question-predestined-to-hell.html]   overlap 60%
-  PAGE: "because he has not believed"
-  NIV : "Whoever believes in him is not condemned, but whoever does not believe stands condemned already because they have not believed in the name of God's one and only Son."
+### Genesis 50:20   [objection-author-of-sin.html]   overlap 60%
+  PAGE: "God allowed what you did."
+  NIV : "You intended to harm me, but God intended it for good to accomplish what is now being done, the saving of many lives."
+
+### John 1:10   [word-study-every-world.html]   overlap 60%
+  PAGE: "= humanity-in-the-world. Third"
+  NIV : "He was in the world, and though the world was made through him, the world did not recognize him."
 
 ### John 3:19-20   [apologetic-loved-darkness-rather-than-light.html]   overlap 60%
   PAGE: "God so loved the world,"
@@ -827,6 +259,10 @@ MISQUOTATIONS — presented as a quotation, not what the NIV says
 ### John 6:44   [response-leighton-flowers.html]   overlap 60%
   PAGE: "All those the Father gives me will come to me, and whoever comes to me I will never drive away."
   NIV : "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
+
+### Philippians 1:29   [analogy-light-switch.html]   overlap 60%
+  PAGE: "Do you need to believe?"
+  NIV : "For it has been granted to you on behalf of Christ not only to believe in him, but also to suffer for him,"
 
 
 ========================================================================
@@ -843,17 +279,33 @@ REVIEW — no NIV text on file, wording differs across pages
   - "gave himself as a ransom for all people"
       [word-study-every-all.html]
 
+### 2 Corinthians 7:10
+  - "Godly sorrow brings repentance that leads to salvation and leaves no regret, but worldly sorrow brings death."
+      [broken-mirror-the-relapse.html]
+  - "Worldly sorrow brings death"
+      [devotional-the-secretly-ashamed.html]
+  - "Godly sorrow brings repentance… worldly sorrow brings death."
+      [printable-the-mirror.html]
+
 ### Acts 2:17
   - "Throughout Scripture, pas regularly denotes"
       [demolition-titus2-11.html]
   - "I will pour out my Spirit on all flesh."
       [demolition-titus2-11.html]
 
-### Ezekiel 37:4-5
-  - "Prophesy to these bones and say to them, 'Dry bones, hear the word of the LORD!... I will make breath enter you, and you will come to life'"
-      [analytical-information-and-imago.html]
-  - "Prophesy to these bones and say to them, 'Dry bones, hear the word of the Lord! This is what the Sovereign Lord says to these bones: I will make breath enter you, and you will come to life.'"
-      [question-ezekiel37.html]
+### Ezekiel 36:25-27
+  - "I will sprinkle clean water on you, and you will be clean; I will cleanse you from all your impurities and from all your idols. I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh. And I will put my Spirit in you and move you to follow my decrees and be careful to keep my laws"
+      [apologetic-i-will-move-you.html, apologetic-the-cardiac-transplant.html]
+  - "I will sprinkle clean water on you... I will give you a new heart... and move you to follow my decrees."
+      [apologetic-the-washing-of-rebirth.html]
+
+### Galatians 2:21
+  - "Christ Died for Nothing"
+      [demolition-works-righteousness.html]
+  - "I do not set aside the grace of God, for if righteousness could be gained through the law, Christ died for nothing."
+      [demolition-works-righteousness.html, story-the-person-who-chose-god.html]
+  - "through your own choosing,"
+      [story-the-person-who-chose-god.html]
 
 ### Galatians 4:9
   - "But now that you know God — or rather are known by God — how is it that you are turning back?"
@@ -867,11 +319,37 @@ REVIEW — no NIV text on file, wording differs across pages
   - "Tell us what is to come hereafter, that we may know that you are gods."
       [compare-calvinism-open-theism.html]
 
+### James 4:6
+  - "But he gives us more grace. That is why Scripture says: ' God opposes the proud but shows favor to the humble. '"
+      [demolition-james4-7-8.html]
+  - "God opposes the proud but shows favor to the humble"
+      [joy-freedom-of-smallness.html]
+  - "God opposes the proud but gives grace to the humble."
+      [psychology-pride-root-objection.html]
+
+### Job 42:2
+  - "I know that you can do all things; no purpose of yours can be thwarted."
+      [devotional-weakness-of-gods-strength.html, joy-no-other-theology.html, ot-job.html]
+  - "I now understand why I suffered."
+      [ot-job.html]
+
+### Joel 2:25
+  - "I will repay you for the years the locusts have eaten."
+      [devotional-the-god-who-wastes-nothing.html]
+  - "I will give you new years to replace the old ones."
+      [devotional-the-god-who-wastes-nothing.html]
+
 ### Luke 14:26
   - "— where it plainly means she was loved less than Rachel; it is the sense in which Jesus says a disciple must"
       [romans-9-1-24.html]
   - "would tell the reader something the Hebrew does not say. Scripture then translates the idiom for us outright, in one of the few places we can watch two Gospel writers render the same saying. Luke has Jesus say that a disciple must"
       [romans-9-deep-dive.html]
+
+### Mark 10:43-45
+  - "whoever wants to become great among you must be your servant... For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many"
+      [ethics-power-authority.html]
+  - "to lord it down over"
+      [ethics-power-authority.html]
 
 ### Matthew 12:30
   - "Whoever is not with me is against me"
@@ -879,15 +357,15 @@ REVIEW — no NIV text on file, wording differs across pages
   - "I'm just staying neutral until the evidence comes in,"
       [presuppositional-no-neutral-ground.html]
 
-### Psalm 19:1
-  - "declared the glory of God"
-      [reformed-apologetics-fine-tuning.html]
-  - "The heavens declare the glory of God; the skies proclaim the work of his hands"
-      [reformed-apologetics-fine-tuning.html]
+### Psalm 23:4
+  - "Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff, they comfort me."
+      [devotional-valley-shadow.html]
+  - "Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me."
+      [open-wound-terminal-diagnosis.html]
 
 ### Revelation 7:10
   - "Salvation belongs to our God, who sits on the throne, and to the Lamb"
-      [argument-cost-of-being-wrong.html]
+      [argument-cost-of-being-wrong.html, response-norman-geisler.html]
   - "we collaborated in this salvation."
       [argument-cost-of-being-wrong.html]
 

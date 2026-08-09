@@ -5,7 +5,7 @@
       "date": "2026-07-28",
       "sinceSession": 191
     },
-    "updated": "2026-08-04",
+    "updated": "2026-08-09",
     "note": "Historical seed from HTML markers is approximate (review-freshness, not pass/fail). source:\"stamp\" entries are exact.",
     "history": [
       {
@@ -47,6 +47,15 @@
       {
         "session": 197,
         "date": "2026-08-04",
+        "total": 618,
+        "atCurrent": 93,
+        "behind": 358,
+        "unknown": 167,
+        "remaining": 525
+      },
+      {
+        "session": 198,
+        "date": "2026-08-09",
         "total": 618,
         "atCurrent": 93,
         "behind": 358,
@@ -241,11 +250,11 @@
       "source": "marker"
     },
     "anxious-mind-what-if-not-chosen.html": {
-      "lastSession": 197,
+      "lastSession": 198,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
+      "note": "corpse-metaphor doorway de-cloned; anxious-reader entry"
     },
     "apologetic-a-slave-to-sin.html": {
       "lastSession": null,
@@ -2295,11 +2304,11 @@
       "source": "marker"
     },
     "psychology-anosognosia-of-sin.html": {
-      "lastSession": 197,
+      "lastSession": 198,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
+      "note": "corpse-metaphor doorway de-cloned; new entry grown from the neurological exam"
     },
     "psychology-attribution-error.html": {
       "lastSession": 58,
@@ -2557,11 +2566,11 @@
       "source": "marker"
     },
     "question-chosen.html": {
-      "lastSession": 197,
+      "lastSession": 198,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
+      "note": "Amos 3:2 rebuilt per VOICE XV — NIV 'chosen' surfaced against the Hebrew yada; the reader's own Bible made the page's point"
     },
     "question-dead-bury-dead.html": {
       "lastSession": 58,
@@ -2898,11 +2907,11 @@
       "source": "marker"
     },
     "question-what-is-sovereign-grace.html": {
-      "lastSession": 197,
+      "lastSession": 198,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
+      "note": "corpse-metaphor doorway de-cloned; definitional entry"
     },
     "question-what-is-the-gospel.html": {
       "lastSession": 192,

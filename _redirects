@@ -198,6 +198,7 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /fix-skip-links.js                                   /404.html  410!
 /fix-heading-hierarchy.js                            /404.html  410!
 /stamp-modified.js                                    /404.html  410!
+/fix-scripture-artifacts.js                           /404.html  410!
 /fix-missing-webfonts.js                             /404.html  410!
 /fix-script-payload.js                              /404.html  410!
 /strip-stale-nav-comment.js                         /404.html  410!

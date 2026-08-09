@@ -1837,7 +1837,7 @@ const CONTENT_MANIFEST = [
     "url": "/demolition-john12-32",
     "title": "Demolition: John 12:32 — \"I Will Draw ALL People\"",
     "category": "Demolition Zone",
-    "excerpt": "&quot;I will draw all people to myself&quot; sounds like universal grace until you meet the Greek — helkō, the word for hauling, dragging, the same ve...",
+    "excerpt": "&quot;I…will draw all people to myself&quot; sounds like universal grace until you meet the Greek — helkō, the word for hauling, dragging, the same ve...",
     "added": "2026-03-28 10:47:15 -0600"
   },
   {

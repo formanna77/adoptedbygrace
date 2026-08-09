@@ -87,7 +87,18 @@ const BOOKS = [
   'Philemon', 'Hebrews', 'James', 'Jude', 'Revelation',
 ];
 const bookAlt = BOOKS.map(b => b.replace(/ /g, '\\s')).join('|');
-const REF_NEAR = new RegExp('(' + bookAlt + ')\\s(\\d+):(\\d+)(?:[-\\u2013\\u2014](\\d+))?');
+// CASE-INSENSITIVE, AND THE DASH MAY BE SURROUNDED BY WHITESPACE (S198).
+// Two bugs lived in this one line.
+//   1. Case. systematic-imputation cites "ROMANS 4:3 (quoting Genesis 15:6)".
+//      A case-sensitive match walked past the small-caps ROMANS, matched the
+//      parenthetical Genesis instead, and diffed a Romans quotation against a
+//      verse in Genesis. Every small-caps citation on the site had this.
+//   2. The dash. A range is often written across markup — `Ephesians 1:4</a>–5`
+//      or with an `&ndash;` entity outside the anchor — and stripTags() leaves
+//      a space where the tag was. Without `\s*` the range collapsed to its
+//      first verse, so every correctly quoted later verse read as inserted
+//      text. Six confirmed false positives came from this alone.
+const REF_NEAR = new RegExp('(' + bookAlt + ')\\s(\\d+):(\\d+)(?:\\s*[-\\u2013\\u2014]\\s*(\\d+))?', 'i');
 
 function stripTags(html) {
   return html
@@ -115,7 +126,19 @@ const clean = s => s.replace(/\s+/g, ' ').trim();
 // `\s+ -> ' '` collapse at the end of norm() ate it, so the fix looked
 // present in the source while changing nothing at all. Only an alphabetic
 // sentinel survives both the punctuation strip and the whitespace collapse.
+//
+// AND THE SENTINEL MUST BE SPLIT ON AS A REGEX, NOT AS THE PADDED STRING (S198).
+// The padding is inserted by the replace above, but norm() ends in .trim() — so
+// a quotation that OPENS or CLOSES with an ellipsis, which is the single most
+// common form of legitimate partial quotation on this site, loses the padding
+// at exactly that edge. `split(' qqellipsisqq ')` then matches nothing, the
+// sentinel stays welded to the verse, indexOf() can never find it in the NIV,
+// and the quotation is reported as a MISQUOTE at 96-99% overlap. 1 Peter 1:5 on
+// apologetic-kept-by-the-power-of-god was quoted PERFECTLY and sat in the
+// queue for it. This is the third time this one constant has been got wrong;
+// SPLIT_RE is why there will not be a fourth.
 const ELLIPSIS = ' qqellipsisqq ';
+const SPLIT_RE = /\s*qqellipsisqq\s*/;
 function norm(s) {
   return clean(s).toLowerCase()
     // Bracketed editorial insertions are correct scholarly practice, not a
@@ -139,6 +162,20 @@ function norm(s) {
 function cleanNiv(t) {
   return clean(
     t
+      // THE NIV SOURCE IS HTML, AND NOBODY WAS DECODING IT (S198).
+      // 440 `&nbsp;` entities across 46 passages carry the poetic indentation of
+      // Isaiah, the Psalms and the prophets. The PAGE side goes through
+      // stripTags(), which decodes them; the NIV side never did. So every
+      // entity survived the punctuation strip as the literal word "nbsp" and
+      // broke contiguity at exactly the line breaks — which is to say, in the
+      // middle of every quotation of Hebrew poetry. Isaiah 14:24 was quoted
+      // PERFECTLY, word for word, and reported as a misquotation because four
+      // invisible entities sat between two of its lines.
+      .replace(/&nbsp;/g, ' ')
+      .replace(/&mdash;/g, '—').replace(/&ndash;/g, '–')
+      .replace(/&rsquo;|&#39;|&apos;/g, "'").replace(/&lsquo;/g, "'")
+      .replace(/&ldquo;|&rdquo;/g, '"').replace(/&quot;/g, '"')
+      .replace(/&hellip;/g, '…').replace(/&amp;/g, '&')
       // A section heading glued to the first verse number and the first word:
       //   "Praise to God for a Living Hope3 Praise be to the God and Father..."
       .replace(/^[A-Z][A-Za-z'\u2019,\- ]{4,70}?\d{1,3}\s+(?=[A-Z\u201c"])/, '')
@@ -155,9 +192,42 @@ function cleanNiv(t) {
 }
 
 function refKey(m) {
-  let b = m[1].replace(/\s+/g, ' ');
+  // The match is case-insensitive now, so restore the canonical capitalisation
+  // before it is used as a dictionary key.
+  let b = m[1].replace(/\s+/g, ' ').toLowerCase();
+  b = BOOKS.find(x => x.toLowerCase() === b) || m[1].replace(/\s+/g, ' ');
   if (b === 'Psalms') b = 'Psalm';
   return { book: b, chap: m[2], verse: m[3], end: m[4] || null };
+}
+
+// The dictionary was built by more than one scrape and its range keys use BOTH
+// a hyphen and an en dash — 262 of one, 64 of the other. nivFor() only ever
+// built hyphen keys, so those 64 passages were unreachable by range lookup and
+// silently fell back to a single verse. `2 Timothy 2:24–25` is the one that
+// surfaced it. Any key built here is tried in all three dash forms.
+const DASHES = ['-', '–', '—'];
+function tryKeys(book, chap, a, b) {
+  for (const d of DASHES) {
+    const k = `${book} ${chap}:${a}${d}${b}`;
+    if (NIV[k]) return NIV[k];
+  }
+  return null;
+}
+// The smallest stored range that fully contains [a,b]. Preferring the SMALLEST
+// keeps the comparison as tight as possible; a containing range is still ground
+// truth, just with extra verses around the quotation, which verifiedAgainst()
+// handles because it only asks that each segment appear IN the NIV text.
+function containingRange(book, chap, a, b) {
+  let best = null, bestSpan = Infinity;
+  for (const k of Object.keys(NIV)) {
+    const m = k.match(/^(.+?)\s(\d+):(\d+)[-–—](\d+)$/);
+    if (!m || m[1] !== book || m[2] !== chap) continue;
+    if (+m[3] <= a && +m[4] >= b) {
+      const span = +m[4] - +m[3];
+      if (span < bestSpan) { bestSpan = span; best = NIV[k]; }
+    }
+  }
+  return best;
 }
 
 // Resolve a reference to NIV text. Tries the exact key, then the range key,
@@ -166,30 +236,37 @@ function refKey(m) {
 function nivFor(r) {
   const base = `${r.book} ${r.chap}:${r.verse}`;
   if (r.end) {
-    const rangeKey = `${base}-${r.end}`;
-    if (NIV[rangeKey]) return NIV[rangeKey];
+    const exact = tryKeys(r.book, r.chap, r.verse, r.end);
+    if (exact) return exact;
+    // A CONTAINING RANGE BEATS A STITCH OF WHAT WE HAPPEN TO HOLD.
+    // The old order stitched individual verses first, and the dictionary is
+    // incomplete — it has no John 6:38, no Ephesians 1:12. So a request for
+    // John 6:37-39 returned v37 + v39 CONCATENATED, with the missing verse
+    // simply absent, and a page that had quoted all three verbatim was told
+    // it had inserted a sentence. Reaching for the containing range first
+    // means an incomplete dictionary produces silence, not a false accusation.
+    const cont = containingRange(r.book, r.chap, +r.verse, +r.end);
+    if (cont) return cont;
     const parts = [];
+    let complete = true;
     for (let v = +r.verse; v <= +r.end; v++) {
       const t = NIV[`${r.book} ${r.chap}:${v}`];
-      if (t) parts.push(t);
+      if (t) parts.push(t); else complete = false;
     }
-    if (parts.length) return parts.join(' ');
+    // Only trust a stitch that is actually whole.
+    if (parts.length && complete) return parts.join(' ');
+    if (parts.length && !complete) return null;
   }
   if (NIV[base]) return NIV[base];
   // A single-verse citation may sit inside a stored range.
-  for (const k of Object.keys(NIV)) {
-    const m = k.match(/^(.+?)\s(\d+):(\d+)-(\d+)$/);
-    if (m && m[1] === r.book && m[2] === r.chap &&
-        +r.verse >= +m[3] && +r.verse <= +m[4]) return NIV[k];
-  }
-  return null;
+  return containingRange(r.book, r.chap, +r.verse, +r.verse);
 }
 
 // A quote is VERIFIED if every ellipsis-separated segment appears in the NIV
 // text, in order. That is how a legitimate partial quotation reads:
 //   "does not accept the things that come from the Spirit... cannot understand"
 function verifiedAgainst(quoteNorm, nivNorm) {
-  const segs = quoteNorm.split(ELLIPSIS).map(s => s.trim()).filter(s => s.split(' ').filter(Boolean).length >= 2);
+  const segs = quoteNorm.split(SPLIT_RE).map(s => s.trim()).filter(s => s.split(' ').filter(Boolean).length >= 2);
   if (!segs.length) return false;
   let cursor = 0;
   for (const seg of segs) {
@@ -268,7 +345,7 @@ for (const file of files) {
       continue;
     }
     const nn = norm(cleanNiv(nivText));
-    const rec = { key, disp: clean(raw), file, niv: cleanNiv(nivText), ov: overlap(n.split(ELLIPSIS).join(" "), nn) };
+    const rec = { key, disp: clean(raw), file, niv: cleanNiv(nivText), ov: overlap(n.split(new RegExp(SPLIT_RE, 'g')).join(' ').replace(/\s+/g, ' ').trim(), nn) };
 
     if (verifiedAgainst(n, nn)) verified.push(rec);
     else if (looksLikeHeading(raw)) headings.push(rec);

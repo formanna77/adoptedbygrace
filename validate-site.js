@@ -1129,7 +1129,12 @@ console.log('\n━━━ CHECK 15: Internal Markers in Served Source ━━━')
 // the number going up. Lower it as the queue is worked. Never raise it.
 console.log('\n━━━ CHECK 17: Scripture Fidelity (ratchet) ━━━');
 {
-  const CEILING = 203;   // S198 baseline. Ratchet down only.
+  // S198-PRE baseline was 203. S198 worked the queue and fixed five bugs in the
+  // checker itself (ellipsis split, NIV entity decoding, en-dash range keys,
+  // case-insensitive book match, containing-range lookup), which together
+  // WIDENED the net from 3,578 quotations to 4,575 — a quarter of the site's
+  // citations had never been examined at all — and still brought this to 62.
+  const CEILING = 62;    // S198. Ratchet down only.
   const { execFileSync } = require('child_process');
   let count = null;
   try {
@@ -1200,12 +1205,89 @@ console.log('\n━━━ CHECK 18: JSON-LD Validity ━━━');
   if (ldBad === 0) console.log(`  ✅ ${ldBlocks} JSON-LD blocks across ${htmlFiles.length} pages — all parse`);
 }
 
+// ─────────────────────────────────────────────────────────────────────────────
+// CHECK 19: Cloned passages — a one-way ratchet (S198)
+//
+// VOICE.md §XVIII.3 names the template as the one unredeemable failure, and
+// §XXI names its victim by name: the reader who stays, who reads ten pages
+// tonight because the first woke something asleep his whole life. To him the
+// unit is the repertoire, not the page. Every page can pass while the corpus
+// palls — and nothing in this validator could see that.
+//
+// detect-shared-phrases.js has existed since S181 for exactly this and ran
+// green for sixteen sessions, because its default threshold could not see a
+// two-page clone and its output buried the signal under 1,110 rows of
+// Ephesians 1:4. Rebuilt in S197, it printed the real thing on the first run:
+// one depravity paragraph pasted verbatim onto ELEVEN pages.
+//
+// A RATCHET, like CHECKS 10 and 17. Scripture is suppressed by the detector,
+// so what remains is the site repeating ITSELF. Note that the head of the
+// report is legitimate — "foreknown, predestined, called, justified,
+// glorified" is Paul's own verb list and belongs on every page that earns it.
+// The ceiling is therefore on TOTAL VOLUME, which is the number that moves
+// when a real clone is written and stays flat when doctrine is restated.
+//
+// Lower it as clones are dissolved. Never raise it. If a legitimate new page
+// pushes the total up, that is the check working: give the page its own words.
+//
+// WHY THE BASELINE IS 5,962 AND NOT THE 4,929 THE S198 KICKOFF QUOTES.
+// It is not a regression and nothing got worse. The detector was blind, in two
+// independent ways, and both were found by trying to make this check fail —
+// which it would not do, on a 75-word paragraph pasted verbatim onto a second
+// page, twice in a row:
+//   1. Its quoted-span strip paired straight quotes sequentially across the
+//      whole flattened page. One unbalanced `"` re-paired every quote after it
+//      and deleted up to 600 characters of authorial prose per pair. Measured:
+//      99,516 tokens — 7.5% of ALL prose on the site — never reached the
+//      n-grammer, and 15 pages carried an odd quote count, which guarantees it.
+//   2. Its container strip spliced nested ranges using offsets from the
+//      unmutated string, so every removal over-cut past its own end by however
+//      much its children had already removed. Every page has a
+//      related-articles section full of kill-marked spans, so the prose
+//      immediately after it was being eaten on every page in the corpus.
+// Fixed, the detector sees the corpus it always claimed to. 4,929 was a
+// measurement of a smaller corpus, not a better one. THIS is the number to
+// ratchet from, and it may never be raised again for any reason short of the
+// same thing: proving the instrument itself was wrong.
+console.log('\n━━━ CHECK 19: Cloned Passages (ratchet) ━━━');
+{
+  const CEILING = 5866;   // S198 close (311 passages). Ratchet down only.
+  const { execFileSync } = require('child_process');
+  let words = null, passages = null;
+  try {
+    const out = execFileSync('node', [path.join(ROOT, 'detect-shared-phrases.js')],
+      { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
+    const w = out.match(/total duplicated words:\s*(\d+)/);
+    const p = out.match(/cloned passages:\s*(\d+)/);
+    if (w) words = +w[1];
+    if (p) passages = +p[1];
+  } catch (e) {
+    console.log('  ⚠  could not run detect-shared-phrases.js — ' + e.message.split('\n')[0]);
+    warnings++;
+  }
+
+  if (words === null) {
+    // already warned
+  } else if (words > CEILING) {
+    console.log(`  ❌ ${words} duplicated words across ${passages} passages — ceiling is ${CEILING}`);
+    console.log('     A passage on two pages is the template showing through the prose.');
+    console.log('     Inspect: node detect-shared-phrases.js --top 60   (and --tail)');
+    console.log('     Give each page a mirror grown from its OWN image (VOICE.md §XIII.2).');
+    errors++;
+  } else if (words < CEILING) {
+    console.log(`  ✅ ${words} duplicated words across ${passages} passages — below the ${CEILING} ceiling`);
+    console.log(`     RATCHET: lower CEILING to ${words} in validate-site.js.`);
+  } else {
+    console.log(`  ✅ ${words} duplicated words across ${passages} passages — at the ceiling, none added`);
+  }
+}
+
 // ═══════════════════════════════════════
 // VERDICT — prints LAST, after every check. Do not move it up.
 // ═══════════════════════════════════════
 console.log('\n══════════════════════════════════');
 if (errors === 0 && warnings === 0) {
-    console.log('ALL 18 CHECKS PASSED — site integrity verified');
+    console.log('ALL 19 CHECKS PASSED — site integrity verified');
 } else {
     if (errors > 0) console.log(`${errors} ERROR(S) — must fix before finishing`);
     if (warnings > 0) console.log(`${warnings} WARNING(S) — should fix if possible`);

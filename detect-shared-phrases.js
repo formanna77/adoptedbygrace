@@ -147,14 +147,38 @@ function stripClassedDivs(html) {
       }
     }
   }
-  // Apply outermost-first, back to front.
-  marks.sort((a, b) => b[0] - a[0]);
-  let out = html;
-  let lastStart = Infinity;
+  // COLLAPSE TO OUTERMOST RANGES FIRST, THEN APPLY BACK TO FRONT (fixed S198).
+  //
+  // The old code sorted descending by start and skipped any mark whose start
+  // was >= the previously applied one, with the comment "nested inside an
+  // already-removed block." Sorted descending, the NESTED mark is the one that
+  // comes first — so the guard never fired, and both the child and its parent
+  // were spliced out using offsets taken from the ORIGINAL string. Cutting the
+  // child first shifts everything after it, so the parent's stored end offset
+  // then points too far along, and the splice eats however many characters the
+  // child had already removed — from the prose FOLLOWING the parent.
+  //
+  // Every page carries a <section class="related-articles"> holding several
+  // <span class="related-article-desc"> children, all of them kill-marked. So
+  // the block that should have been removed cleanly instead removed itself
+  // plus a swathe of whatever came next. This is the second reason the check
+  // could not be made to fail: a paragraph cloned in immediately after that
+  // section was deleted before it was ever tokenized.
+  //
+  // Sort ascending, keep only ranges not contained in a previous one, then
+  // splice from the end so earlier offsets stay valid.
+  marks.sort((a, b) => a[0] - b[0] || b[1] - a[1]);
+  const outer = [];
+  let reach = -1;
   for (const [s, e] of marks) {
-    if (s >= lastStart) continue; // nested inside an already-removed block
+    if (s < reach) continue;          // genuinely nested — the parent covers it
+    outer.push([s, e]);
+    reach = e;
+  }
+  let out = html;
+  for (let i = outer.length - 1; i >= 0; i--) {
+    const [s, e] = outer[i];
     out = out.slice(0, s) + ' ' + out.slice(e);
-    lastStart = s;
   }
   return out;
 }
@@ -168,7 +192,35 @@ function extractProse(html) {
   body = stripElement(body, 'blockquote');
   body = stripElement(body, 'cite');
   body = stripClassedDivs(body);
-  body = body.replace(/<[^>]+>/g, ' ');
+
+  // THE QUOTE STRIP RUNS PER TEXT NODE, AND THAT IS THE WHOLE POINT (S198).
+  //
+  // It used to run over the entire flattened page, pairing straight quotes
+  // sequentially from the top. A quotation lives inside ONE element; quote
+  // characters do not. So a single unbalanced `"` anywhere — an inch mark, a
+  // nested quotation, one unclosed span — re-paired every following quote with
+  // the wrong partner and deleted up to 600 characters of authorial prose per
+  // pair, all the way down the page.
+  //
+  // Measured before this fix: the straight-quote strip was removing 99,516
+  // tokens, 7.5% of ALL prose on the site, from the detector's view, and 15
+  // pages carried an odd number of straight quotes, which guarantees the
+  // mispairing. That is why the check could not be made to fail: a 75-word
+  // paragraph cloned verbatim onto question-freewill.html was swallowed whole
+  // by a mispaired quote and the totals did not move by a single word.
+  //
+  // A DETECTOR THAT CANNOT BE MADE TO FAIL IS NOT A DETECTOR. Splitting at tag
+  // boundaries first confines any mispairing to the paragraph that caused it.
+  // Cost: a verse broken across an inline <em> no longer strips — but the
+  // isScripture() check against scripture-niv.js, added in S197, catches those
+  // at the candidate stage, which is where the guard belongs anyway.
+  body = body.split(/(<[^>]+>)/).map(seg => {
+    if (seg.startsWith('<')) return ' ';
+    return seg
+      .replace(/[“”][^“”]{0,600}[“”]/g, ' ')
+      .replace(/"[^"]{0,600}"/g, ' ');
+  }).join(' ');
+
   body = body
     .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
     .replace(/&quot;/g, '"').replace(/&#39;|&rsquo;|&lsquo;/g, "'")
@@ -183,8 +235,7 @@ function extractProse(html) {
   // doing exactly what it is supposed to do. So: drop every quoted span.
   // Cost: the site's own repeated *quoted* phrases are lost too. Accepted —
   // a mold worth breaking is nearly always in unquoted authorial voice.
-  body = body.replace(/[""][^""]{0,600}[""]/g, ' ');
-  body = body.replace(/"[^"]{0,600}"/g, ' ');
+  // (Performed above, per text node — see the S198 note.)
   return body;
 }
 
