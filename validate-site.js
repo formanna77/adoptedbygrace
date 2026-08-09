@@ -1251,7 +1251,7 @@ console.log('\n━━━ CHECK 18: JSON-LD Validity ━━━');
 // same thing: proving the instrument itself was wrong.
 console.log('\n━━━ CHECK 19: Cloned Passages (ratchet) ━━━');
 {
-  const CEILING = 5866;   // S198 close (311 passages). Ratchet down only.
+  const CEILING = 5675;   // S199 close (306 passages). Ratchet down only.
   const { execFileSync } = require('child_process');
   let words = null, passages = null;
   try {
@@ -1283,11 +1283,76 @@ console.log('\n━━━ CHECK 19: Cloned Passages (ratchet) ━━━');
 }
 
 // ═══════════════════════════════════════
+// CHECK 20: JSON-LD answer PROSE — zero tolerance (S199)
+// ═══════════════════════════════════════
+// CHECK 18 proves the structured data PARSES. It never asked whether the English
+// inside it was English. 168 pages ship FAQPage data — 440 answers, rendered
+// verbatim by Google in the rich result — and not one had ever been read.
+//
+//   * 22 answers on 11 pages were cut at a hard ~798-character cap with an
+//     ellipsis pasted on mid-word. `question-chosen` was telling searchers
+//     "Which means faith is a gif…". Perfectly valid JSON. Perfectly valid HTML.
+//   * 92 whitespace artifacts on 23 pages — `spiritually dead .`,
+//     `( Ephesians 2:1 )` — the fingerprint of an inline <em>/<a> stripped
+//     without rejoining the text. The same artifact class S198 found inside
+//     scripture-niv.js, one layer further out.
+//
+// Same blindness as the stale manifest, the 9.4 MB payload and the voided
+// FAQ block before it: the file was fine; what the RECIPIENT received was not.
+// Not a ratchet — a sentence that stops mid-word is never a judgement call.
+// Fix: node fix-jsonld-answers.js   (--dry-run first)
+console.log('\n━━━ CHECK 20: JSON-LD Answer Prose ━━━');
+{
+  let answers = 0, truncated = [], artifacts = [];
+  for (const file of htmlFiles) {
+    const html = fs.readFileSync(path.join(ROOT, file), 'utf8');
+    for (const m of html.matchAll(/<script[^>]*application\/ld\+json[^>]*>([\s\S]*?)<\/script>/g)) {
+      let parsed;
+      try { parsed = JSON.parse(m[1]); } catch { continue; }   // CHECK 18 owns this
+      (function walk(node) {
+        if (Array.isArray(node)) return node.forEach(walk);
+        if (node && typeof node === 'object') {
+          const t = node.acceptedAnswer && node.acceptedAnswer.text;
+          if (typeof t === 'string') {
+            answers++;
+            // U+2026 at the end is the truncation cap. A literal "..." is
+            // deliberate authorial trailing-off and is NOT flagged.
+            if (/…\s*$/.test(t)) truncated.push([file, t.slice(-64)]);
+            if (/\s[.,;:!?]|\(\s|\s\)/.test(t)) {
+              const bad = (t.match(/\S{0,10}(?:\s[.,;:!?]|\(\s|\s\))\S{0,10}/) || [''])[0];
+              artifacts.push([file, bad.trim()]);
+            }
+          }
+          Object.values(node).forEach(walk);
+        }
+      })(parsed);
+    }
+  }
+
+  if (!truncated.length && !artifacts.length) {
+    console.log(`  ✅ ${answers} FAQ answers across the corpus — none truncated, no scrape artifacts`);
+  } else {
+    if (truncated.length) {
+      console.log(`  ❌ ${truncated.length} answer(s) cut off mid-sentence — Google renders these verbatim:`);
+      truncated.slice(0, 12).forEach(([f, s]) => console.log(`     ${f}  …${s}`));
+      if (truncated.length > 12) console.log(`     … and ${truncated.length - 12} more`);
+    }
+    if (artifacts.length) {
+      console.log(`  ❌ ${artifacts.length} answer(s) carry tag-strip whitespace artifacts:`);
+      artifacts.slice(0, 12).forEach(([f, s]) => console.log(`     ${f}  "${s}"`));
+      if (artifacts.length > 12) console.log(`     … and ${artifacts.length - 12} more`);
+    }
+    console.log('     Fix: node fix-jsonld-answers.js --dry-run   (then without)');
+    errors++;
+  }
+}
+
+// ═══════════════════════════════════════
 // VERDICT — prints LAST, after every check. Do not move it up.
 // ═══════════════════════════════════════
 console.log('\n══════════════════════════════════');
 if (errors === 0 && warnings === 0) {
-    console.log('ALL 19 CHECKS PASSED — site integrity verified');
+    console.log('ALL 20 CHECKS PASSED — site integrity verified');
 } else {
     if (errors > 0) console.log(`${errors} ERROR(S) — must fix before finishing`);
     if (warnings > 0) console.log(`${warnings} WARNING(S) — should fix if possible`);

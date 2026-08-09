@@ -61,6 +61,15 @@
         "behind": 358,
         "unknown": 167,
         "remaining": 525
+      },
+      {
+        "session": 199,
+        "date": "2026-08-09",
+        "total": 618,
+        "atCurrent": 98,
+        "behind": 356,
+        "unknown": 164,
+        "remaining": 520
       }
     ]
   },
@@ -78,11 +87,11 @@
       "source": "marker"
     },
     "analogy-adoption.html": {
-      "lastSession": 197,
+      "lastSession": 199,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
+      "note": "S199 cold-read + repair"
     },
     "analogy-chess-grandmaster.html": {
       "lastSession": 80,
@@ -250,11 +259,11 @@
       "source": "marker"
     },
     "anxious-mind-what-if-not-chosen.html": {
-      "lastSession": 198,
+      "lastSession": 199,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "corpse-metaphor doorway de-cloned; anxious-reader entry"
+      "note": "S199 cold-read + repair"
     },
     "apologetic-a-slave-to-sin.html": {
       "lastSession": null,
@@ -2182,10 +2191,11 @@
       "source": "marker"
     },
     "philosophy-infinite-regress-of-choice.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 199,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S199 cold-read + repair"
     },
     "philosophy-inheritance-paradox.html": {
       "lastSession": 58,
@@ -2304,11 +2314,11 @@
       "source": "marker"
     },
     "psychology-anosognosia-of-sin.html": {
-      "lastSession": 198,
+      "lastSession": 199,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "corpse-metaphor doorway de-cloned; new entry grown from the neurological exam"
+      "note": "S199 cold-read + repair"
     },
     "psychology-attribution-error.html": {
       "lastSession": 58,
@@ -2331,10 +2341,11 @@
       "note": "S192 gospel-landing + feeling-slip; catch derived from page's own image"
     },
     "psychology-cognitive-biases.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 199,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S199 cold-read + repair"
     },
     "psychology-comfort-self-salvation.html": {
       "lastSession": 58,
@@ -2566,11 +2577,11 @@
       "source": "marker"
     },
     "question-chosen.html": {
-      "lastSession": 198,
+      "lastSession": 199,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "Amos 3:2 rebuilt per VOICE XV — NIV 'chosen' surfaced against the Hebrew yada; the reader's own Bible made the page's point"
+      "note": "S199 cold-read + repair"
     },
     "question-dead-bury-dead.html": {
       "lastSession": 58,
@@ -2666,11 +2677,11 @@
       "source": "marker"
     },
     "question-freewill.html": {
-      "lastSession": 197,
+      "lastSession": 199,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
+      "note": "S199 cold-read + repair"
     },
     "question-godwants.html": {
       "lastSession": 58,
@@ -2833,10 +2844,11 @@
       "source": "marker"
     },
     "question-revelation13.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 199,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S199 cold-read + repair"
     },
     "question-romans9.html": {
       "lastSession": 67,
@@ -3124,11 +3136,11 @@
       "source": "marker"
     },
     "secular-billion-decisions.html": {
-      "lastSession": 197,
+      "lastSession": 199,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
+      "note": "S199 cold-read + repair"
     },
     "secular-economics-depravity.html": {
       "lastSession": 58,
@@ -3478,10 +3490,11 @@
       "source": "marker"
     },
     "systematic-compatibilism.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 199,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S199 cold-read + repair"
     },
     "systematic-covenant-redemption.html": {
       "lastSession": 58,
@@ -3848,10 +3861,11 @@
       "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "word-study-every-all.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 199,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "S199 cold-read + repair"
     },
     "word-study-every-world.html": {
       "lastSession": 58,

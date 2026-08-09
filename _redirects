@@ -278,3 +278,4 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /strip-internal-markers.js   /404.html   410!
 /fix-orphaned-cards.js   /404.html   410!
 /fix-stray-progress-bar.js   /404.html   410!
+/fix-jsonld-answers.js   /404.html   410!

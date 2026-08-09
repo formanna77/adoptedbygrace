@@ -4,30 +4,37 @@
   Current standard: §XXIII (2026-07-28); era begins ~S191
   Ledger updated:   2026-08-09   |   prose pages: 618
 
-  At current standard (§XXIII)    93   15.0%  ████························
-  Behind (older bar, dated)          358   57.9%  ████████████████············
-  Unknown (locked, no session tag)   167   27.0%  ████████····················
+  At current standard (§XXIII)    98   15.9%  ████························
+  Behind (older bar, dated)          356   57.6%  ████████████████············
+  Unknown (locked, no session tag)   164   26.5%  ███████·····················
 
-  REMAINING for the §XXIII pass: 525 pages (behind + unknown).
-  At 10 pages/session: ~53 sessions to full §XXIII coverage.  (tune rate with --rate=N)
+  REMAINING for the §XXIII pass: 520 pages (behind + unknown).
+  At 10 pages/session: ~52 sessions to full §XXIII coverage.  (tune rate with --rate=N)
 
   ── END-OF-SESSION STANDING ──
-  Since S197 (2026-08-04): at §XXIII 93 -> 93 (+0);  remaining 525 -> 525 (+0).
-  Remaining trend: S189:602  S194:540  S195:568  S196:559  S197:525  S198:525
+  Since S198 (2026-08-09): at §XXIII 93 -> 98 (+5);  remaining 525 -> 520 (-5).
+  Remaining trend: S189:602  S194:540  S195:568  S196:559  S197:525  S198:525  S199:520
 
   Last-lifted era (approximate for older sessions):
-    §XXII (2026-07-19)          105  █████·······················
+    §XXII (2026-07-19)          110  █████·······················
     §XVIII-XXI (2026-06-21)       9  ····························
     §XVII/XVI (2026-05)          10  ····························
-    pre-§XVI (<=S99)            327  ███████████████·············
-    unknown / untagged          167  ████████····················
+    pre-§XVI (<=S99)            325  ███████████████·············
+    unknown / untagged          164  ███████·····················
 
-  Exactly-tracked lifts (source: stamp) — 105:
-    S198  lifted   anxious-mind-what-if-not-chosen.html  — corpse-metaphor doorway de-cloned; anxious-reader entry
-    S198  lifted   psychology-anosognosia-of-sin.html  — corpse-metaphor doorway de-cloned; new entry grown from the neurological exam
-    S198  lifted   question-chosen.html  — Amos 3:2 rebuilt per VOICE XV — NIV 'chosen' surfaced against the Hebrew yada; the reader's own Bible made the page's point
+  Exactly-tracked lifts (source: stamp) — 110:
+    S199  lifted   analogy-adoption.html  — S199 cold-read + repair
+    S199  lifted   anxious-mind-what-if-not-chosen.html  — S199 cold-read + repair
+    S199  lifted   philosophy-infinite-regress-of-choice.html  — S199 cold-read + repair
+    S199  lifted   psychology-anosognosia-of-sin.html  — S199 cold-read + repair
+    S199  lifted   psychology-cognitive-biases.html  — S199 cold-read + repair
+    S199  lifted   question-chosen.html  — S199 cold-read + repair
+    S199  lifted   question-freewill.html  — S199 cold-read + repair
+    S199  lifted   question-revelation13.html  — S199 cold-read + repair
+    S199  lifted   secular-billion-decisions.html  — S199 cold-read + repair
+    S199  lifted   systematic-compatibilism.html  — S199 cold-read + repair
+    S199  lifted   word-study-every-all.html  — S199 cold-read + repair
     S198  lifted   question-what-is-sovereign-grace.html  — corpse-metaphor doorway de-cloned; definitional entry
-    S197  lifted   analogy-adoption.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
     S197  lifted   analogy-doctor-corpse.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
     S197  lifted   analogy-drowning-man.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
     S197  partial  apologetic-bought-with-his-own-blood.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
@@ -46,13 +53,6 @@
     S197  partial  objection-why-pray.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
     S197  partial  open-wound-the-prayer-god-didnt-answer.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
     S197  partial  psychology-suppressing-truth.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
-    S197  partial  psychology-why-this-objection-proves-our-point.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
-    S197  lifted   question-depravity.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
-    S197  lifted   question-freewill.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
-    S197  lifted   question-goldchain.html  — gospel-absence: cross added at the page's own load-bearing link
-    S197  lifted   question-is-salvation-my-choice-or-gods.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
-    S197  lifted   question-why-does-god-choose-some-not-others.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
-    S197  lifted   reformed-apologetics-moral-argument.html  — P0 cold read: cross-page cloned sentences broken; page-native replacements
 
   Longest-un-lifted (oldest tagged session — first candidates for a §XXII re-read):
     S 58  2-thessalonians-2-13.html
@@ -76,5 +76,5 @@
     S 58  apologetic-the-conscience-that-only-accuses.html
     S 58  apologetic-the-deceitful-heart.html
 
-  (167 pages carry a lock but no session tag; they need a session assigned on next touch.)
+  (164 pages carry a lock but no session tag; they need a session assigned on next touch.)
 ========================================================================

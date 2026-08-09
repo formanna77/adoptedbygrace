@@ -1,11 +1,11 @@
 SCRIPTURE FIDELITY AUDIT — quotations diffed against scripture-niv.js
-Generated 2026-08-09T17:50:36.136Z
+Generated 2026-08-09T18:23:53.175Z
 
 Ground truth: 992 NIV passages
 Pages scanned: 658 (of 687; generated/index pages excluded)
-Quotations with a nearby reference: 4575
+Quotations with a nearby reference: 4576
 
-  VERIFIED  3593  — appear in the NIV verbatim
+  VERIFIED  3594  — appear in the NIV verbatim
   MISQUOTE  62  — high word overlap, wording does not match
   HEADING   84  — title-case heading near a reference, not a quotation
   UNMATCHED 377  — low overlap; almost all extractor noise
@@ -15,6 +15,10 @@ Quotations with a nearby reference: 4575
 ========================================================================
 MISQUOTATIONS — presented as a quotation, not what the NIV says
 ========================================================================
+
+### 1 Timothy 6:10   [word-study-every-all.html]   overlap 100%
+  PAGE: "money is the root of all evil"
+  NIV : "For the love of money is a root of all kinds of evil. Some people, eager for money, have wandered from the faith and pierced themselves with many griefs."
 
 ### Acts 13:22   [ot-david.html]   overlap 100%
   PAGE: "a man after [God's] own heart"
@@ -119,10 +123,6 @@ MISQUOTATIONS — presented as a quotation, not what the NIV says
 ### 1 Corinthians 15:14   [reformed-apologetics-resurrection.html]   overlap 76%
   PAGE: "if Christ has not been raised, our preaching is useless and so is your faith... you are still in your sins"
   NIV : "And if Christ has not been raised, our preaching is useless and so is your faith."
-
-### 1 John 5:4-5   [question-revelation13.html]   overlap 75%
-  PAGE: "one who is victorious"
-  NIV : "For everyone born of God overcomes the world. This is the victory that has overcome the world, even our faith. Who is it that overcomes the world? Only the one who believes that Jesus is the Son of God."
 
 ### Acts 10:12   [word-study-every-all.html]   overlap 75%
   PAGE: "all the four-footed."
