@@ -432,6 +432,18 @@ function main() {
   }
   if (zeroOnly) return;
 
+  // S203: machine output for archive/session-brief.js. The human report
+  // truncates its roster at 40 rows, so anything parsing stdout silently
+  // sees 40 of 127 and looks like it worked. Routers read this, not that.
+  if (args.includes('--json')) {
+    console.log(JSON.stringify({
+      absent: zero.map(r => r.file),
+      noLanding: noLanding.map(r => r.file),
+      thin: thin.map(r => r.file),
+    }));
+    return;
+  }
+
   if (noLanding.length) {
     console.log('  --- NO LANDING: Christ appears, but never in the catch ---');
     for (const r of noLanding.slice(0, 40)) {

@@ -253,6 +253,13 @@ if (targets.length === 1 && rows.length === 1) {
   console.log(`  score 6-8  (multiplied — needs a collapse): ${rows.filter(r => r.score >= 6 && r.score < 9).length}`);
   console.log(`  score <6   (prescribed shape or close to it): ${rows.filter(r => r.score < 6).length}\n`);
   console.log(`  of which RE-OPEN AFTER THE AMEN (marked !): ${rows.filter(r => r.afterAmen).length}\n`);
+  // S203: machine output for archive/session-brief.js (see note in
+  // detect-gospel-absence.js). The roster has an optional '!' column, which
+  // is exactly the kind of thing a stdout regex gets wrong by two pages.
+  if (process.argv.slice(2).includes('--json')) {
+    console.log(JSON.stringify({ flagged: flagged.map(r => r.f) }));
+    return;
+  }
   console.log('WORST FIRST');
   console.log('score  beats  run  !  kinds                              page');
   for (const r of flagged.slice(0, TOP === Infinity ? flagged.length : TOP)) {

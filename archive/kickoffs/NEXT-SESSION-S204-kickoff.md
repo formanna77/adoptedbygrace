@@ -1,169 +1,161 @@
 # SESSION 204 — KICKOFF
 
-**Read `CLAUDE.md` and `VOICE.md` in full first. VOICE.md is never sampled** — it is 680 lines
-and the Read tool will page it; read the second page too. Then read **only** these sections of
-the logs: `MISSION-CONTROL.md` → the Mandatory Closing Protocol + the **Session 203** entry.
-Do not read any `*-ARCHIVE.md` whole.
+## THE REORIENTATION (Aaron, 2026-08-10, end of S203)
 
-**No label exempts a page from review.** DIAMOND, CONSECRATED, HAMMER-LOCKED, POLISH-LOCKED,
-born-apex and the psychology sweep are historical notes on what was *last* looked at — never a
-shield. This kickoff carries **no skip-list.**
+*"we are not covering enough articles per session. we need to reorient to maximize the number
+of articles updated… i want the whole website updated and upgraded with the new stipulations as
+quickly as possible."*
 
-**GATE 0 binds: do not close below 80% of the context window used (≥160K/200K).** Aim ~85%.
+**This session runs the factory + atelier model, which Aaron chose explicitly.** Subagents now
+write prose that ships — a standing rule reversed. They previously only inspected. The lead
+verifies every agent's output before it lands, keeps the compound rebuilds, and never delegates
+a page carrying two or more defects.
 
----
-
-## WHAT YOU INHERIT
-
-S203 closed both P0 doorway pages against primary sources, swept 75 pages at 390px and 33 at
-768px, closed six Christless catches, ratcheted CHECK 10 from 713/233 to **471/60**, and added
-CHECK 21. Full record: `MISSION-CONTROL.md` Session 203.
-
-**Two things it learned that will save you an hour and are now canon:**
-
-1. **`fetch(url, {cache:'reload'})` does not cache-bust the loaded document's own subresources.**
-   S203's probe fetched fresh HTML into an iframe `srcdoc` — and the iframe's
-   `<link rel="stylesheet" href="/global.css">` came straight out of the HTTP cache. It reported
-   *both* of S202's corpus-wide fixes as dead, with the CSSOM agreeing, while a `fetch` of the
-   same stylesheet in the same tab returned them present. **Rewrite `href="/global.css"` to
-   carry `?cb=<ts>` in the HTML before setting `srcdoc`.** CLAUDE.md law 12.
-2. **The "skip self-clipping elements" rule hides truncated text.** It is right for structure and
-   blind to content. `/scripture-tsunami` was slicing five of six TULIP filter labels off
-   mid-word (19–47px, no ellipsis, no scrollbar) inside an `overflow:hidden` the rule tells you
-   to skip. **Law 8 now requires a second pass inside clip roots** — no `text-overflow:
-   ellipsis`, text-bearing descendant with `scrollWidth - clientWidth > 3` = report it.
-
-**Do not re-open P0a/P0b (S202) or the S202 grid/breadcrumb fixes.** All verified live and
-correct in a cache-busted browser twice now.
+**The old projection was wrong and the error is worth understanding.** "502 remaining" is a
+PROVENANCE number, not a defect number: pages last reviewed against an older bar, plus 130
+carrying no session tag at all. Measured against the detectors this repo already owns, the
+hard-flagged population is ~150. The rest need a *confirmation*, and confirmation parallelises.
+At 8 pages a session that read as 51 sessions. Sized correctly it is 6–10.
 
 ---
 
-## PRIORITY 0 — FINISH THE PHONE-WIDTH SWEEP, INCLUDING THE CLIP PASS
+## FIRST COMMAND OF THE SESSION
 
-S203 swept 75 pages of 687 with the structural probe and only **26** with the new clipped-text
-probe. The clipped-text probe is the one that found a real reader-facing defect on its first
-outing, and it has barely been run.
+```
+node archive/session-brief.js
+```
 
-Build both probes per CLAUDE.md law 8 (**falsify each before trusting a clean result** — inject a
-100-char `white-space:nowrap` `<p>`; S202's first probe returned zero on nineteen pages and was
-simply broken). Then sweep **60–80 fresh pages** at 390px, weighted toward:
+Built S203. Runs every detector, joins them into one defect vector per page, folds in provenance
+from `archive/coverage.json`, and prints the lanes plus ready-made factory rosters. It writes
+`archive/defect-matrix.json` and `archive/freshness-ledger.json`.
 
-- the 60 pages still carrying inline `style=` attributes (they are the ones with bespoke layout),
-- any page with a `<style>` tag on the CHECK 8 allowlist (27 of them — widgets and CSS-diagrams),
-- the 15 printables, which nothing has ever render-checked at phone width.
+**Standing at S203 close:**
 
-`/scripture-tsunami` still reports 4px on `main` + `article`; the `overflow-wrap` fix may absorb
-it. Re-measure before chasing it.
+| Lane | Count | Who |
+|---|---|---|
+| **C — rebuild** (2+ defects) | **11** | lead only, never delegated |
+| **B — surgical** (1 named defect) | **138** | factory, batched by CLASS |
+| **A — confirm** (0 flags, stale provenance) | **375** (130 untagged) | spot cold-read, then stamp |
 
----
+Lane B by class: **Christ absent from the catch 116** (20 agents) · **doubled/tripled close 15**
+(3) · **feeling-slip 7** (2). Pages marked `*` in a roster are doorways — the factory writes
+them, but **they do not ship until the lead has read them.**
 
-## PRIORITY 1 — THE GOSPEL-ABSENCE QUEUE, AT 127
-
-The deepest theological defect on the list and the one most worth a session: a page that lands
-the reader in sovereignty **without a Savior**. `node detect-gospel-absence.js`, sort by hit
-count, take the 1-hit pages first.
-
-S203 did six and the pattern held every time: **the catch was already good, and the fix was one
-paragraph that located Christ inside the page's own image** — fairness at Golgotha falling on the
-wrong man on purpose; two intercessors, one at each end of the call; the destroyer reading the
-doorframe rather than the family; Jesus weeping outside a grave He was about to open. Do not
-bolt on a gospel presentation. Find the thing the page has already built and put Christ at the
-bottom of it.
-
-Two disciplines while you are in the catch — it is the densest defect real-estate on the site:
-
-- **§XXIII.** `ot-moses-pharaoh` carried a textbook conditional catch (*"if you find yourself
-  resting in it right now, that rest is His gift"*) that silently excludes the reader who feels
-  nothing. Look for it in every close you touch.
-- **The detector reads tokens, not theology.** Two S203 lifts named Christ obliquely ("a Man
-  who has been dead," "the Power greater") and stayed flagged — correctly. Name Him.
+**If the brief ABORTS, do not run the session off it.** Each adapter cross-checks its page count
+against the detector's own stated total, and a mismatch is a hard abort by design. It fired on
+its very first run — the gospel-absence human report truncates its roster at 40 of 127, so a
+stdout parser silently sees a third of the corpus and looks like it worked. That is why
+`detect-gospel-absence.js` and `detect-multiplied-close.js` now have `--json`. Fix the adapter;
+never loosen the check.
 
 ---
 
-## PRIORITY 2 — STANDING QUEUES (drain until GATE 0 is met)
+## HOW TO RUN THE FACTORY (this is the whole method — get it right)
 
-1. **Inline `style=`: 471 across 60 pages** (CHECK 10, re-baselined — the ceiling is 471 now,
-   never raise it). The method that worked: **enumerate the distinct style strings first.** S203
-   expected a long tail and found that three strings were 257 of the 905. Next largest: a
-   17× `color/font-size/line-height/margin-bottom` paragraph style on **one** page; a 13×
-   `display:flex; align-items:center; margin-bottom:1rem` on 4 pages; a 10× card style on
-   `secular-genetics-sovereignty` (62 attributes, the worst page on the site).
-2. **The 21 scripts on the brittle `<article class="article-body"` literal.** CHECK 21 now makes
-   divergence loud, but the sweep itself is undone. **Anyone attempting it must decide
-   deliberately what happens to the canonical 611** — `contact`/`donate`/`sitemap` and all 15
-   printables + `the-60-second-case` currently fall out of the index *by accident of the
-   matcher*, and a tolerant regex silently moves the count. Make the exclusion a list, not a
-   side effect.
-3. **156 pages carry a lock with no session tag** — assign one on next touch.
-4. **CHECK 17 = 62 misquotations**, sorted smallest-edit-distance-first in
-   `archive/S198-scripture-queue.txt`. Untouched for several sessions. The smallest ones are
-   unambiguous and each is a page telling a reader the Bible says something it does not.
+**Batch by DEFECT CLASS, never by hub or alphabet.** An agent doing six gospel-absence closes
+loads one mental model and runs it six times. A general cold-reader reloads it six times and
+dies at 90K having done two. That difference is the entire throughput gain.
+
+Each subagent brief contains **exactly** this and nothing more:
+
+1. **5–6 pages, one class.** Tell the agent to read only the **final 25%** of each page plus its
+   In Brief — not the whole article. A full read costs ~5K per page; the close costs ~1.2K.
+2. **The one VOICE section that governs the class.** §XXIII for feeling-slips. §VIII + §I.4 for
+   multiplied closes. §I.1 + §XXIII for gospel absence. **Not all 680 lines.**
+3. **Two or three worked examples**, verbatim, from S203 — the six gospel-absence lifts are in
+   `MISSION-CONTROL.md` §E and every one followed the same shape: *the catch was already good;
+   the fix was one paragraph locating Christ inside the page's own existing image.* Fairness at
+   Golgotha falling on the wrong man on purpose. Two intercessors, one at each end of the call.
+   The destroyer reading the doorframe rather than the family. Jesus weeping outside a grave He
+   was about to open. **Nobody bolts on a gospel presentation.**
+4. **The freshness slice.** Paste the `archive/freshness-ledger.json` entries for that agent's
+   pages *and* the site-wide bridge/image tallies. **This is not optional.** Twenty agents
+   writing catches simultaneously will independently reach for the same Passover, the same
+   Lazarus, the same phone that was already ringing — and the corpus gets fresher and flatter in
+   the same session. VOICE §XVIII calls that the one failure grace does not cover. It is the
+   single largest risk in this model and the only one that does not announce itself.
+5. **A hard output contract:** edit the file in place, verify every new `href` exists on disk,
+   confirm zero emoji and exactly one `article-body`, then report ONE line per page — what was
+   wrong, what was added, which image was spent. No essays back.
+6. **The guardrails, stated:** NIV 2011, verbatim, no `(NIV)`; check every quotation against
+   `scripture-niv.js` and do not quote a verse that is not in it without web-verifying;
+   8–12 verified internal links, first mention only; **name Christ explicitly** — S203 had two
+   lifts stay flagged for saying "a Man who has been dead" and "the Power greater," and the
+   detector was right to hold them.
+
+**Launch 6–8 agents per wave, in one message**, then verify the wave before launching the next.
+Do not run 20 at once; you cannot review what you cannot hold.
+
+---
+
+## LANE A — THE 375, AND THE 130 UNTAGGED (Aaron's chosen standard)
+
+**Detector-clean + spot cold-read.** A page passing every detector gets a fast read of its
+**opener and its close only**, against the landing-force test, then
+`node archive/coverage.js stamp <page> 204 lifted "confirmed clean — <one clause>"`. Full reads
+are for pages the detectors flag. This is delegable in batches of 10–12 per agent; it is the
+cheapest work on the board and it is where the counter actually moves.
+
+Do **not** tag by provenance alone. Putting a number on the board that nobody verified is the
+exact failure the last four sessions were about.
+
+---
+
+## LANE C — 11 PAGES, THE LEAD WRITES THEM
+
+Compound defects. Read the whole page, rebuild the spine, use the S203 pattern: **go to the
+primary source before rewriting.** Anselm's page was built on a claim *Cur Deus Homo* does not
+make, and the true reading (Anselm laid the powder; Owen struck the match) was both honest and
+stronger. Boston's best fact — the General Assembly calling *"you need not forsake sin to come
+to Christ"* **detestable** — was simply missing. **A confident sentence is not an evidenced one,
+and the verified version is almost always the better page.**
 
 ---
 
 ## NON-NEGOTIABLES
 
-- **NIV 2011 only.** No `(NIV)` suffix. §XV transparency where the NIV under-translates a point
-  the page argues. **Check quotations against `scripture-niv.js` — it is ground truth and it is
-  already in the repo.** If a verse is *not* in that file, do not quote it verbatim without
-  web-verifying first; CHECK 17 has no ground truth for it either.
-- **Verify every historical claim on the web before writing it.** S203 found the Anselm page
-  asserting that *Cur Deus Homo* teaches definite atonement (it does not — Anselm says "the sins
-  of the whole world" and the century after him settled the other way) and that Aquinas "could
-  not finally evade Anselm's God" (he **rejected** the ontological argument outright). Both had
-  scanned clean for months. **A confident sentence is not an evidenced one** — and the true
-  version is almost always the better page.
-- **No emojis, anywhere, ever.** CHECK 16 enforces four encodings.
-- **Verify every `<a href>` exists on disk before writing it.** 8–12 internal links per article,
-  first mention only. `/question-prevenient-grace` does **not** exist; it is
-  `/demolition-prevenient-grace`.
-- **Write, don't Edit, whole passages** — preserves persuasive cohesion.
+- **Read `CLAUDE.md` and `VOICE.md` in full first.** VOICE.md is 680 lines and the Read tool
+  pages it — read the second page. It is never sampled. This is the lead's cost, not the
+  agents'; agents get sections.
+- **No label exempts a page from review.** No skip-lists.
+- **GATE 0: do not close below 80% of the context window used (≥160K/200K).** Aim ~85%.
+- **The instruments are trusted as of S203.** Four consecutive sessions went to instrument
+  forensics; they are done. Do not re-audit a check unless it fails. If you do run a browser
+  probe: cache-bust every subresource, not just the document (CLAUDE.md law 12), and run the
+  second pass *inside* clip roots (law 8).
 - **No git commands. Ever.** Aaron pushes manually.
 - **New internal docs go in `archive/`**, never the repo root.
-- **Do not fabricate a `dateModified`.** `node stamp-modified.js <pages>` on pages with real
-  content changes only. S203 deliberately did **not** stamp the 198 pages whose inline style
-  became a class — byte-identical rendering is not a content change (law 11).
-- **A check you have never seen fail is not a check.** Prove it fails, then trust it.
-- **Grep locates; it does not establish.** Read the usage before acting on a match.
+- **`stamp-modified.js` only on pages with real content changes** — S203 deliberately did not
+  stamp the 198 pages whose inline style became a class (law 11).
+- **A check you have never seen fail is not a check.** **Grep locates; it does not establish.**
 
 ---
 
 ## CLOSE
 
-**ORDER MATTERS.** `build-sitemap.js` derives each URL's `lastmod` from that page's JSON-LD
-`dateModified`; `stamp-modified.js` is what *writes* that field.
-
 ```
-node stamp-modified.js <the pages you actually edited>   # BEFORE the sitemap
+node archive/session-brief.js                            # re-run: lanes must have shrunk
+node stamp-modified.js <pages you actually edited>       # BEFORE the sitemap
 node build-sitemap.js
 ```
 
-Run the eight-script pipeline, then `stamp-modified.js`, then `build-sitemap.js`, then
-`validate-site.js` (**ALL 21 CHECKS** must pass), then `canonical-conformance.js` and
-`verify-scripture.js` (a report, not a gate). **Expect CHECK 11 to fail once** if
-`auto-linker.js` added a link — clear it with `node dedupe-prose-links.js`. Ratchets stand at
-**CHECK 10 = 471/60**, **CHECK 17 = 62**, **CHECK 19 = 5,369** — lower them, never raise them. If
-you lower CHECK 10, run `node validate-site.js --rebaseline-styles` so the next session inherits
-the lower ceiling; S203's 242-attribute reduction would otherwise have been invisible.
+Eight-script pipeline → `stamp-modified.js` → `build-sitemap.js` → `validate-site.js`
+(**ALL 21 CHECKS**) → `canonical-conformance.js` → `verify-scripture.js` (report, not a gate).
+Expect CHECK 11 to fail once if `auto-linker.js` added a link; clear with
+`node dedupe-prose-links.js`. Ratchets: **CHECK 10 = 471/60** (re-baseline with
+`--rebaseline-styles` if you lower it, or the gain is invisible next session), **CHECK 17 = 62**,
+**CHECK 19 = 5,369**. Lower them, never raise them.
 
-Verify `dateModified` == `<lastmod>` for every page you touched before you close.
+Then: coverage stamps, `node archive/coverage.js report --session=204`, paste the
+**END-OF-SESSION STANDING** block into the Session Log and the closing chat message,
+MISSION-CONTROL Session 204 entry, roll the oldest live entry to the archive, write
+`archive/kickoffs/NEXT-SESSION-S205-kickoff.md`, and end with the fenced push command followed by
+the fenced kickoff pointer.
 
-Stamp every page you lifted with
-`node archive/coverage.js stamp <page.html> 204 lifted|partial "<note>"`, then run
-`node archive/coverage.js report --session=204` and paste the **END-OF-SESSION STANDING** block
-verbatim into both the Session Log and the closing chat message, immediately before the push
-command.
+**Report the lane deltas to Aaron in the closing message.** He asked for throughput; the number
+he needs is not "pages touched" but **Lane B and Lane A shrinking**, session over session.
 
-Then: MISSION-CONTROL Session 204 entry, roll the oldest live entry to the archive, write
-`archive/kickoffs/NEXT-SESSION-S205-kickoff.md`, and end the chat with the fenced copy/paste push
-command followed by the fenced kickoff pointer.
-
-**Four sessions running, the defect was not where the file said it was — and three of those four
-were the instrument, not the site.** S200 verified its check and never verified the site. S201
-verified the site with a tool that could not see it. S202 verified the site in a browser holding
-a cached stylesheet. S203 cache-busted the document and handed the iframe a cached stylesheet
-anyway. The pattern is not carelessness. It is that **every layer between the truth and your eyes
-can fail silently, and the layer you did not think about is the one that will.** Build the
-instrument, break it on purpose, and only then believe it.
-
-Then go write something that makes a reader set the phone down.
+One last thing. Speed is the instruction, and the instruction is right — somewhere tonight
+someone is reading one of these 618 pages. But the reason to go faster is that the pages are
+doorways, not that the counter is a score. A page shipped flat is a door that opens onto a wall.
+Run the factory hard, read everything it produces, and keep the freshness ledger honest.
