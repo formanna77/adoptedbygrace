@@ -7892,3 +7892,41 @@ footer .footer-brand h4 {
     margin-top: 0;
     margin-bottom: 1.25rem;
 }
+
+/* ---------------------------------------------------------------------------
+   THE SENTENCE OF THE PAGE (added S201)
+   VOICE.md §VII.3: every page carries one tattooable line, the page's whole
+   theology compressed. It is marked up as .sop-pullquote (556 pages) or
+   .sentence-of-the-page (23) — and NOTHING IN THIS STYLESHEET DEFINED EITHER.
+   Three pages carried a hand-pasted inline style that painted it gold; the
+   other 576 fell through to the bare `blockquote` rule above, which is the
+   SCRIPTURE treatment: purple accent, Playfair italic, the big decorative
+   quote glyph. So the site's own authorial sentence was being presented to
+   readers as though it were a Bible verse, on 576 pages, for as long as the
+   class has existed. Author's voice is gold; Scripture is purple. Same class
+   of defect as the S194 missing webfonts — a class demanded by the corpus and
+   supplied by nothing — and equally invisible to every check that reads HTML,
+   because the HTML was always valid.
+   --------------------------------------------------------------------------- */
+blockquote.sop-pullquote,
+blockquote.sentence-of-the-page {
+    background: rgba(212, 162, 84, 0.06);
+    border-left: 4px solid var(--accent-gold);
+    border-radius: 0 8px 8px 0;
+    padding: 1.4rem 1.75rem;
+    margin: 2rem auto;
+    max-width: 46rem;
+}
+blockquote.sop-pullquote::after,
+blockquote.sentence-of-the-page::after {
+    content: none;
+}
+blockquote.sop-pullquote p,
+blockquote.sentence-of-the-page p,
+blockquote.sop-pullquote,
+blockquote.sentence-of-the-page {
+    color: var(--accent-gold-bright);
+    font-style: italic;
+    font-size: 1.15rem;
+    line-height: 1.75;
+}

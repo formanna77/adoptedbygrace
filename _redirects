@@ -221,6 +221,10 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /build-tags.js                                      /404.html  410!
 /build-testimonies.js                               /404.html  410!
 /canonical-conformance.js                           /404.html  410!
+/fix-jsonld-answers.js                              /404.html  410!
+/fix-orphaned-cards.js                              /404.html  410!
+/fix-stray-progress-bar.js                          /404.html  410!
+/strip-internal-markers.js                          /404.html  410!
 /check_final.js                                     /404.html  410!
 /check_marks_temp.js                                /404.html  410!
 /check_one.js                                       /404.html  410!
@@ -306,16 +310,18 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /psalms-election               /question-psalm139        301!
 /index-new                     /                   301!
 
-# Repair scripts (S199). These four were pasted BELOW the /* catch-all and were
-# therefore dead on arrival — Netlify takes the FIRST matching rule, and /*
-# matches everything. All four were verified live over HTTP on 2026-08-09,
-# returning 200 application/javascript. CHECK 7 read them with a whole-file
-# regex, saw the text, and printed green for weeks. Position is load-bearing:
-# NOTHING MAY BE ADDED BELOW THE CATCH-ALL. Enforced by CHECK 7's dead-rule pass.
-/strip-internal-markers.js                          /404.html  410!
-/fix-orphaned-cards.js                              /404.html  410!
-/fix-stray-progress-bar.js                          /404.html  410!
-/fix-jsonld-answers.js                              /404.html  410!
+# The four repair scripts that used to sit here have MOVED UP into the main
+# alphabetical script block (near /canonical-conformance.js). Do not re-add them
+# here. S200 moved them from below the catch-all to just above it and declared
+# the fix shipped; S201 fetched all four on the live domain and every one still
+# returned 200 application/javascript, while /build-tags.js — an identically
+# formatted 410! rule 94 lines earlier — returned the 404 page. Position above
+# the catch-all was necessary and was NOT sufficient. Whatever the residual
+# cause (stale block in the deployed bundle, or a parser boundary at the tail of
+# the file), the durable fix is to keep every internal-file rule inside the one
+# proven block rather than stranded at the end. THE GENERAL LAW: no validator can
+# confirm a redirect fires. Only an HTTP request can. S200 verified its CHECK and
+# never verified the site.
 
 # Custom 404 — MUST BE THE LAST RULE IN THIS FILE. /* matches every path, and
 # Netlify stops at the first match, so any rule written after this line is inert.

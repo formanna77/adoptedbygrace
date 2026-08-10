@@ -268,7 +268,52 @@ function buildNivBlob() {
   return ' ' + verses.join(' qzqsentinelqzq ') + ' ';
 }
 const NIV_BLOB = buildNivBlob();
-const isScripture = (p) => NIV_BLOB.length > 2 && NIV_BLOB.includes(' ' + p + ' ');
+
+// THE MAXIMAL EXTENSION WAS DEFEATING THE SCRIPTURE GUARD (fixed S201).
+//
+// Seeds are extended maximally in both directions (see note 2 above), so a
+// quoted verse almost always drags its own CITATION into the candidate:
+//   "...to will and to act in order to fulfill his good purpose philippians 2 12 13"
+// That string is not a substring of the NIV — the NIV does not contain its own
+// reference — so isScripture() returned false and the verse was reported as a
+// cloned passage. Every affected row was a page correctly quoting Scripture.
+//
+// The cost was not cosmetic. CHECK 19 is a RATCHET, and it was counting
+// Scripture, hymn lyrics and the Westminster Confession as authorial cloning.
+// Worse, it moved the wrong way against CHECK 17: correcting a misquoted verse
+// makes it match every page that had it right, so FIXING Scripture RAISED the
+// clone ceiling. Two ratchets in direct opposition, and the one enforcing that
+// a page says what the reader's own NIV says is the one that must win.
+//
+// Book-name tokens are derived from the keys of scripture-niv.js rather than
+// hardcoded, so the list cannot drift from the file it is testing against.
+const BOOK_WORDS = (() => {
+  const s = new Set();
+  try {
+    const src = fs.readFileSync(path.join(ROOT, 'scripture-niv.js'), 'utf8');
+    const re = /"((?:[1-3]\s+)?[A-Z][A-Za-z ]{2,20}?)\s+\d+:\d/g;
+    let m;
+    while ((m = re.exec(src)) !== null) {
+      for (const w of tokenize(m[1])) s.add(w);
+    }
+  } catch { /* empty set — guard simply behaves as before */ }
+  return s;
+})();
+
+// Strip a run of citation tokens (book words and bare numbers) off either end.
+function stripRefs(p) {
+  let w = p.split(' ');
+  const cite = (t) => /^\d+$/.test(t) || BOOK_WORDS.has(t);
+  while (w.length && cite(w[w.length - 1])) w.pop();
+  while (w.length && cite(w[0])) w.shift();
+  return w.join(' ');
+}
+
+const inNiv = (p) => p.length > 0 && NIV_BLOB.includes(' ' + p + ' ');
+const isScripture = (p) => {
+  if (NIV_BLOB.length <= 2) return false;
+  return inNiv(p) || inNiv(stripRefs(p));
+};
 
 // ---------------------------------------------------------------------------
 // Scan — seed index, one entry per (gram, page)

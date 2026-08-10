@@ -79,6 +79,15 @@
         "behind": 356,
         "unknown": 164,
         "remaining": 520
+      },
+      {
+        "session": 201,
+        "date": "2026-08-10",
+        "total": 618,
+        "atCurrent": 108,
+        "behind": 351,
+        "unknown": 159,
+        "remaining": 510
       }
     ]
   },
@@ -952,10 +961,11 @@
       "source": "marker"
     },
     "demolition-acts17-30.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 201,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "fabricated double-perhaps in Acts 17:27 fixed; door opened for the unconverted reader"
     },
     "demolition-acts2-21.html": {
       "lastSession": 58,
@@ -1603,10 +1613,11 @@
       "source": "marker"
     },
     "history-apostolic.html": {
-      "lastSession": 80,
-      "voiceRef": "§XVII",
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 201,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "Polycarp restored to 'my King and my Saviour'; Diospolis 415 acquittal replaces the on-sight-expulsion claim; feeling-slip close re-grounded; Arminian-only opener widened"
     },
     "history-augustine-pelagius.html": {
       "lastSession": null,
@@ -1923,10 +1934,11 @@
       "source": "marker"
     },
     "objection-manipulation.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 201,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "real steelman erected (sourcehood, not puppets) + answered; fabricated APA/DSM-5 authority cut; Phil 2:12 NIV restored; archegos/pioneer transparency; close collapsed 7 beats to 2"
     },
     "objection-responsibility.html": {
       "lastSession": null,
@@ -3341,10 +3353,11 @@
       "source": "marker"
     },
     "story-historical-luther-storm.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 201,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "Turmerlebnis dating de-asserted; Circular Return trimmed 3 paras to 1; 'You can feel it' slip removed"
     },
     "story-humor-committee-to-save-yourself.html": {
       "lastSession": 58,
@@ -3771,28 +3784,32 @@
       "source": "marker"
     },
     "theologian-augustine.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 201,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "John 6->21 miscount fixed; triple 'The point' scaffolding compressed"
     },
     "theologian-boston.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 201,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "Romans not a prison epistle; 'split the Church of Scotland' corrected to the 1720 rebuke; Ettrick named; two of four closes cut"
     },
     "theologian-bradwardine.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 201,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "plague-as-virus cut; 38/40-day self-contradiction harmonised to thirty-eight across 13 sites"
     },
     "theologian-bunyan.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 201,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "August 1688 not 'cold autumn rain'; illiteracy claim cut; torment-as-proof-of-grace slip repaired; site-meta closer removed"
     },
     "theologian-calvin.html": {
       "lastSession": null,
@@ -3819,11 +3836,11 @@
       "source": "marker"
     },
     "theologian-luther.html": {
-      "lastSession": 192,
+      "lastSession": 201,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "S192 hand-found feeling-slip (VOICE XXIII)"
+      "note": "closing clause no longer conditions open arms on being 'tired enough'"
     },
     "theologian-machen.html": {
       "lastSession": null,
@@ -3838,10 +3855,11 @@
       "source": "marker"
     },
     "theologian-spurgeon.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 201,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "illiteracy legend removed x3 (his own account: a shoemaker with little to say); 'theology of your own conversion' verdict cut"
     },
     "theologian-warfield.html": {
       "lastSession": 58,
@@ -3883,17 +3901,18 @@
       "source": "marker"
     },
     "theologian-owen.html": {
-      "lastSession": 197,
+      "lastSession": 201,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "P0 cold read: cross-page cloned sentences broken; page-native replacements"
+      "note": "Hebrews/Mary chronology corrected; two redundant closing beats cut"
     },
     "theologian-anselm.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "unknown",
-      "source": "marker"
+      "lastSession": 201,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "'faith seeking reason' mistranslation cut with its duplicate paragraph; unfalsifiable both-ways election test named and refused"
     },
     "theologian-wycliffe.html": {
       "lastSession": null,

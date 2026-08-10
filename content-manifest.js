@@ -3930,7 +3930,7 @@ const CONTENT_MANIFEST = [
     "url": "/theologian-bradwardine",
     "title": "Thomas Bradwardine — The Mathematician Who Proved God's Sovereignty",
     "category": "History",
-    "excerpt": "A 14th-century mathematician brought equations to bear on the doctrines of grace — and forty days after becoming Archbishop, the plague proved every l...",
+    "excerpt": "A 14th-century mathematician brought equations to bear on the doctrines of grace — and thirty-eight days after becoming Archbishop, the plague proved...",
     "added": "2026-03-01"
   },
   {
