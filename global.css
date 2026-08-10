@@ -752,7 +752,7 @@ a.mega-menu-hub-link:hover .mega-menu-hub-arrow {
 /* ===== PROGRESSIVE REVEAL: SUBCATEGORY CARD GRID (Level 2) ===== */
 .mega-menu-subcat-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
     gap: 1rem;
     margin-top: 1.2rem;
 }
@@ -1218,7 +1218,7 @@ blockquote cite, .scripture-ref { font-family: 'JetBrains Mono', monospace; font
 /* ===== RELATED / CROSS-LINKS (bottom of articles) ===== */
 .related-explore, .cross-links, .next-article { margin-top: 4rem; padding-top: 3rem; border-top: 2px solid rgba(212, 162, 84, 0.1); }
 .related-explore h3, .cross-links h3, .next-article h3 { font-family: 'Playfair Display', serif; font-size: 1.6rem; color: var(--accent-gold); margin-bottom: 1.5rem; }
-.related-explore-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+.related-explore-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 1.5rem; }
 .related-explore-grid a { display: block; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 1.5rem; color: var(--text-primary); text-decoration: none; transition: all 0.3s ease; border-bottom: none; }
 .related-explore-grid a:hover { border-color: rgba(212, 162, 84, 0.3); transform: translateY(-3px); box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2), 0 0 15px var(--glow-gold); }
 .related-explore-grid a span { display: block; font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.5rem; }
@@ -1228,7 +1228,7 @@ blockquote cite, .scripture-ref { font-family: 'JetBrains Mono', monospace; font
 .card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember)); transform: scaleX(0); transition: transform 0.4s ease; transform-origin: left; }
 .card:hover { transform: translateY(-4px); border-color: rgba(212, 162, 84, 0.25); box-shadow: 0 16px 50px rgba(0, 0, 0, 0.3), 0 0 30px var(--glow-gold); }
 .card:hover::before { transform: scaleX(1); }
-.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); gap: 1.5rem; max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
 
 /* ===== HUB PAGE SYSTEM — UNIFIED DESIGN FOR ALL CATEGORY/HUB PAGES =====
    Canonical style: history-timeline warm gold/ember aesthetic.
@@ -1315,7 +1315,7 @@ blockquote cite, .scripture-ref { font-family: 'JetBrains Mono', monospace; font
 /* Hub Card Grid */
 .hub-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
     gap: 1.25rem; margin-bottom: 4rem;
 }
 
@@ -1585,7 +1585,7 @@ blockquote cite, .scripture-ref { font-family: 'JetBrains Mono', monospace; font
 }
 .continue-journey-global-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
     gap: 1.2rem;
 }
 .journey-mini-card {
@@ -1995,7 +1995,7 @@ table { max-width: 100%; }
 }
 .greek-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
     gap: 1.5rem;
     margin: 2rem 0;
 }
@@ -2042,7 +2042,7 @@ table { max-width: 100%; }
 }
 .arguments-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
     gap: 1.5rem;
     margin: 2rem 0;
 }
@@ -2089,7 +2089,7 @@ table { max-width: 100%; }
 }
 .keep-reading-grid, .further-reading-grid, .reading-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
     gap: 1.5rem;
 }
 .keep-reading-card, .reading-card {
@@ -2709,7 +2709,7 @@ table { max-width: 100%; overflow-x: auto; display: block; }
     color: #9a958c; font-size: 1rem; margin-bottom: 2rem; line-height: 1.6;
 }
 .engage-cta-grid {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
     gap: 1rem;
 }
 .engage-cta-card {
@@ -2972,7 +2972,7 @@ body {
 }
 .related-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
     gap: 1.5rem;
 }
 .related-card {
@@ -3028,9 +3028,23 @@ body {
     font-size: 0.95rem;
     margin-bottom: 2rem;
 }
+/* ---------------------------------------------------------------------------
+   RELATED-ARTICLES GRID — the `min()` is load-bearing (fixed S202)
+   This rule is the SECOND definition of .related-articles-grid; the first is at
+   ~line 2776, and its mobile override — `@media (max-width: 768px) { ...
+   grid-template-columns: 1fr }` at ~line 2786 — is DEAD. Equal specificity,
+   245 lines earlier, so this unconditional rule wins at every width and the
+   media query never applies. Measured in a real browser at a true 390px
+   viewport: the track resolved to a hard `280px` inside a 231px container, so
+   the right 49px of every related-article card was clipped by
+   `body { overflow-x: hidden }` on all 631 pages that carry this block.
+   `minmax(min(280px, 100%), 1fr)` is breakpoint-independent and self-healing —
+   the same repair CLAUDE.md already documents for `.chain-cta`. Do not
+   "simplify" it back to `minmax(min(280px, 100%), 1fr)`.
+   --------------------------------------------------------------------------- */
 .related-articles-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
     gap: 1.25rem;
     margin-bottom: 2rem;
 }
@@ -3338,7 +3352,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 }
 .matters-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
     gap: 1.5rem;
 }
 .matters-item {
@@ -3764,7 +3778,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 }
 .explore-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
     gap: 1.2rem;
 }
 .explore-link {
@@ -3786,7 +3800,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 /* Cross-link grids (comparison pages) */
 .cross-link-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
     gap: 1.2rem;
     margin: 1.5rem 0;
 }
@@ -3850,7 +3864,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 }
 .footer-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
     gap: 2rem;
 }
 .footer-links {
@@ -3908,7 +3922,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 /* Witness grid + attribution */
 .witness-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
     gap: 1.5rem;
     margin: 1.5rem 0;
 }
@@ -4277,7 +4291,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 /* Cards grid (generic alternative to hub-grid) */
 .cards-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
     gap: 1.5rem;
     margin: 1.5rem 0;
 }
@@ -4417,7 +4431,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 /* Cross-reference card grid */
 .cross-ref-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
     gap: 1.2rem;
     margin: 1.5rem 0;
 }
@@ -4800,13 +4814,13 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .cross-refs, .cross-ref-list, .articles-grid, .three-worlds,
 .cta-links, .stat-row {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
     gap: 1.5rem;
     margin: 2rem 0;
 }
 
 .quote-grid {
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
 }
 
 /* ── CARDS & BOXES ── */
@@ -5562,7 +5576,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 /* ── THREE WORLDS PATTERN (healing pages) ── */
 .three-world, .three-worlds {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
     gap: 1.5rem;
     margin: 2rem 0;
 }
@@ -5711,7 +5725,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 /* ── CONNECTIONS PAGE ── */
 .connections {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
     gap: 1.5rem;
 }
 
@@ -5965,7 +5979,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
    ══════════════════════════════════════════════════════════════ */
 
 /* ── QUIZ / ASSESSMENT PAGES (quiz.html, start-here-assessment.html, belief-assessment.html) ── */
-.mode-selector { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+.mode-selector { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 1.5rem; margin: 2rem 0; }
 .mode-card {
     background: var(--bg-card); border: 1px solid rgba(212,162,84,0.15); border-radius: 14px;
     padding: 2rem; cursor: pointer; transition: all 0.3s ease; text-align: center;
@@ -6029,7 +6043,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .results-actions { display: flex; gap: 1rem; justify-content: center; margin-top: 1.5rem; flex-wrap: wrap; }
 .study-recs { margin-top: 2rem; text-align: left; }
 .study-recs-title { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.2rem; margin-bottom: 1rem; }
-.study-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+.study-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; }
 .study-card-label { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; }
 .study-card-title { color: var(--accent-gold); font-weight: 600; margin: 0.3rem 0; }
 .study-card-desc { color: var(--text-secondary); font-size: 0.9rem; }
@@ -6111,7 +6125,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 /* Compact accordion grid — override safety-net .connection-card padding */
 .connections-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr));
     gap: 1rem;
     margin: 1.5rem 0;
 }
@@ -6275,7 +6289,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .category-color { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
 .category-name { color: var(--text-secondary); font-size: 0.85rem; }
 .category-count { color: var(--text-muted); font-size: 0.8rem; font-family: var(--font-mono); }
-.node-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; padding: 0 1rem; max-width: 1200px; margin: 0 auto; }
+.node-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr)); gap: 1rem; padding: 0 1rem; max-width: 1200px; margin: 0 auto; }
 .map-node {
     background: var(--bg-card); border-radius: 12px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08);
     transition: all 0.3s ease; text-decoration: none;
@@ -6286,7 +6300,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .node-desc { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.4; }
 
 /* ── SECULAR / ALGORITHM / GENETICS / NEUROSCIENCE PAGES ── */
-.prediction-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.prediction-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .prediction-item { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); }
 .pred-icon { font-size: 1.5rem; margin-bottom: 0.5rem; }
 .pred-platform { color: var(--accent-gold); font-weight: 600; }
@@ -6345,7 +6359,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .scripture-verdict-text { color: var(--accent-scripture); font-style: italic; }
 .cumulative-pattern { background: var(--bg-card); border-radius: 14px; padding: 2rem; margin: 2rem 0; border: 1px solid rgba(212,162,84,0.15); }
 .keeping-reading-section { margin-top: 2rem; }
-.keeping-reading-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+.keeping-reading-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; }
 .keeping-reading-link { color: var(--accent-gold); text-decoration: none; background: var(--bg-card); padding: 1rem; border-radius: 10px; border: 1px solid rgba(212,162,84,0.1); transition: border-color 0.2s; }
 .keeping-reading-link:hover { border-color: var(--accent-gold); }
 .def-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
@@ -6400,13 +6414,13 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .integration-text { color: var(--text-secondary); }
 .definition { background: rgba(212,162,84,0.06); border-left: 3px solid var(--accent-gold); padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin: 1rem 0; }
 .definition-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
-.card-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.card-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .explore-buttons { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem; }
 .key-terms { margin: 1.5rem 0; }
 .truthful-box { background: rgba(212,162,84,0.06); border-radius: 12px; padding: 1.5rem; margin: 1rem 0; }
 .revelation-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
 .revelation-box { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); }
-.pillar-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.pillar-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .pillar-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); }
 .pillar-number { color: var(--accent-gold); font-family: var(--font-mono); font-weight: 700; font-size: 1.5rem; }
 .pillar-title { color: var(--accent-gold); font-weight: 600; margin: 0.5rem 0; }
@@ -6456,8 +6470,8 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .hebrew-transliteration { color: var(--accent-violet); font-style: italic; font-family: var(--font-mono); }
 .theological-note { background: rgba(212,162,84,0.06); border-radius: 10px; padding: 1.25rem; margin: 1rem 0; }
 .witness-block { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
-.link-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
-.hebrew-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.link-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.hebrew-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .hebrew-box { background: var(--bg-card); border-radius: 12px; padding: 1.25rem; border: 1px solid rgba(139,92,246,0.15); }
 .hebrew-translation { color: var(--accent-violet); font-weight: 600; }
 .hebrew-explanation { color: var(--text-secondary); font-size: 0.9rem; }
@@ -6513,7 +6527,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .implication-verse-text { color: var(--accent-scripture); font-style: italic; }
 .journey-complete { text-align: center; padding: 3rem 1rem; }
 .next-steps { margin-top: 2rem; }
-.steps-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+.steps-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; }
 .step-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); text-align: center; }
 .step-card-title { color: var(--accent-gold); font-weight: 600; margin-bottom: 0.3rem; }
 .step-card-desc { color: var(--text-secondary); font-size: 0.9rem; }
@@ -6553,7 +6567,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .witness-dates { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
 .witness-note { color: var(--text-secondary); font-style: italic; font-size: 0.9rem; }
 .grand-finale { text-align: center; padding: 3rem 1rem; background: rgba(212,162,84,0.05); border-radius: 14px; margin: 2rem 0; }
-.history-nav { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 2rem; }
+.history-nav { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin-top: 2rem; }
 .history-nav-card { background: var(--bg-card); border-radius: 12px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.1); text-decoration: none; transition: border-color 0.2s; }
 .history-nav-card:hover { border-color: var(--accent-gold); }
 .nav-era { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; }
@@ -6561,11 +6575,11 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .confession-meta { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
 .confession-place { color: var(--text-muted); font-style: italic; font-size: 0.9rem; }
 .confession-excerpt { color: var(--accent-scripture); font-style: italic; margin-top: 0.5rem; }
-.nav-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.nav-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin-top: 1.5rem; }
 .nav-card { background: var(--bg-card); border-radius: 10px; padding: 1rem; border: 1px solid rgba(212,162,84,0.08); text-decoration: none; transition: border-color 0.2s; }
 .nav-card:hover { border-color: var(--accent-gold); }
 .emphasis-violet { color: var(--accent-violet); font-weight: 600; }
-.crosslinks { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.crosslinks { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .crosslink { background: var(--bg-card); border-radius: 10px; padding: 1rem; border: 1px solid rgba(212,162,84,0.08); text-decoration: none; }
 .crosslink:hover { border-color: var(--accent-gold); }
 .navigation-links { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem; }
@@ -6578,7 +6592,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .truth-cell { background: rgba(212,162,84,0.06); padding: 0.75rem; }
 .section-quote { font-style: italic; color: var(--accent-scripture); font-size: 1.1rem; line-height: 1.6; margin: 1.5rem 0; }
 .section-quote-attr { color: var(--text-muted); font-size: 0.85rem; text-align: right; }
-.quotes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.quotes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .quote-card-attr { color: var(--text-muted); font-size: 0.85rem; text-align: right; margin-top: 0.5rem; }
 
 /* ── THEOLOGIAN PAGES ── */
@@ -6602,7 +6616,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .scripture-source { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.8rem; }
 .quote-context { color: var(--text-muted); font-size: 0.85rem; font-style: italic; }
 .continue-journey-title { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.2rem; }
-.quote-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.quote-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .card-box { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); }
 .reference-box { background: rgba(212,162,84,0.06); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
 .reference-box-title { color: var(--accent-gold); font-weight: 600; margin-bottom: 0.5rem; }
@@ -6631,7 +6645,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .chain-ref { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.8rem; }
 .chain-text { color: var(--accent-scripture); font-style: italic; }
 .thinker-quote { border-left: 3px solid var(--accent-gold); padding-left: 1.25rem; margin: 1.5rem 0; color: var(--accent-scripture); font-style: italic; }
-.impossibility-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.impossibility-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .impossibility-card { background: var(--bg-card); border-radius: 12px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); }
 .phrase { color: var(--accent-gold); font-weight: 600; }
 .why { color: var(--text-secondary); font-size: 0.9rem; }
@@ -6640,7 +6654,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .step-text { color: var(--text-secondary); }
 .logic-conclusion { background: rgba(212,162,84,0.08); border-radius: 10px; padding: 1.25rem; color: var(--accent-gold); font-weight: 600; }
 .hero-divider { border: none; border-top: 1px solid rgba(212,162,84,0.2); margin: 1.5rem 0; }
-.verses-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.verses-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .verse-category { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 0.3rem; }
 .verse-reference { color: var(--text-primary); font-weight: 600; }
 .meditation { background: rgba(212,162,84,0.06); border-radius: 14px; padding: 2rem; margin: 2rem 0; text-align: center; }
@@ -6652,7 +6666,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .counter-case { background: rgba(232,100,44,0.06); border: 1px solid rgba(232,100,44,0.15); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
 .death-language { margin: 1.5rem 0; }
 .death-card { background: var(--bg-card); border-radius: 10px; padding: 1rem; border: 1px solid rgba(212,162,84,0.08); margin-bottom: 0.75rem; }
-.journey-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.journey-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin-top: 1.5rem; }
 .journey-link { background: var(--bg-card); border-radius: 10px; padding: 1rem; border: 1px solid rgba(212,162,84,0.08); text-decoration: none; color: var(--accent-gold); }
 .journey-link:hover { border-color: var(--accent-gold); }
 .scroll-link { color: var(--accent-gold); text-decoration: underline; cursor: pointer; }
@@ -6671,7 +6685,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .link-button:hover { background: #c4923e; }
 .intro-box { background: rgba(212,162,84,0.06); border-radius: 12px; padding: 1.5rem; margin: 1rem 0; }
 .verse-ref-small { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.8rem; }
-.reading-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.reading-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin-top: 1.5rem; }
 .distinction-box { background: var(--bg-card); border-radius: 14px; padding: 1.5rem; margin: 1.5rem 0; }
 .distinction-card { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
 .mercy { background: rgba(212,162,84,0.06); border-radius: 12px; padding: 1.25rem; }
@@ -6750,12 +6764,12 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .parable-unveiled { background: rgba(212,162,84,0.06); border: 1px solid rgba(212,162,84,0.15); border-radius: 14px; padding: 2rem; margin: 2rem 0; }
 .mapping-section { margin: 1.5rem 0; }
 .mapping-item { padding: 0.75rem 0; border-bottom: 1px solid rgba(212,162,84,0.06); line-height: 1.8; }
-.truth-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.truth-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .pull-quote-section { text-align: center; padding: 2rem 1rem; font-style: italic; color: var(--accent-scripture); font-size: 1.1rem; }
 .keep-reading-container { margin-top: 2rem; }
 .card-type { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; }
 .allegory-section { margin: 1.5rem 0; }
-.allegory-map { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1rem 0; }
+.allegory-map { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin: 1rem 0; }
 .allegory-card { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); }
 .symbol { color: var(--accent-gold); font-weight: 700; }
 .narrator-note { background: rgba(212,162,84,0.06); border-left: 3px solid var(--accent-gold); padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin: 1.5rem 0; font-style: italic; color: var(--text-secondary); }
@@ -6812,7 +6826,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .keep-reading-card-desc { color: var(--text-secondary); font-size: 0.9rem; }
 .philosophy-hero-subtitle { color: var(--text-secondary); max-width: 700px; margin: 0 auto; }
 .philosophy-section { margin: 2rem 0; }
-.keep-reading-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.keep-reading-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin-top: 1.5rem; }
 .keep-reading-link { background: var(--bg-card); border-radius: 10px; padding: 1rem; border: 1px solid rgba(212,162,84,0.08); text-decoration: none; transition: border-color 0.2s; }
 .keep-reading-link:hover { border-color: var(--accent-gold); }
 .keep-reading-link-title { color: var(--accent-gold); font-weight: 600; }
@@ -6858,7 +6872,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .lit-quote { border-left: 3px solid var(--accent-gold); padding-left: 1.25rem; margin: 1.5rem 0; font-style: italic; color: var(--accent-scripture); }
 .author-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
 .author-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; }
-.empire-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.empire-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .empire-box { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); text-align: center; }
 .empire-name { color: var(--accent-gold); font-weight: 600; }
 .empire-dates { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
@@ -6867,7 +6881,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .history-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
 .econ-card { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); margin-bottom: 1rem; }
 .econ-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; }
-.concept-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.concept-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .vs-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
 .vs-table td, .vs-table th { padding: 0.75rem; border-bottom: 1px solid rgba(212,162,84,0.08); color: var(--text-secondary); }
 .vs-table th { color: var(--accent-gold); text-align: left; }
@@ -6900,20 +6914,20 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .article-opening { color: var(--text-secondary); font-size: 1.05rem; line-height: 1.8; }
 .article-sections { margin: 2rem 0; }
 .cross-link-section { margin-top: 2rem; }
-.cross-link-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+.cross-link-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; }
 .banner-icon { font-size: 1.5rem; }
-.keep-reading-items { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.keep-reading-items { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin-top: 1rem; }
 .keep-reading-item { background: var(--bg-card); border-radius: 10px; padding: 1rem; border: 1px solid rgba(212,162,84,0.08); text-decoration: none; }
 .keep-reading-item:hover { border-color: var(--accent-gold); }
 .footer-text { color: var(--text-muted); font-size: 0.85rem; text-align: center; margin-top: 1rem; }
 .hub-scripture-ref { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.85rem; }
 .hub-grief-block { background: rgba(212,162,84,0.06); border-radius: 14px; padding: 2rem; margin: 1.5rem 0; }
-.graces-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.graces-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .prayer-reflection { background: rgba(139,92,246,0.06); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; font-style: italic; }
 .accent-quote { border-left: 3px solid var(--accent-gold); padding-left: 1.25rem; color: var(--accent-scripture); font-style: italic; margin: 1.5rem 0; }
-.keep-reading-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.keep-reading-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin-top: 1.5rem; }
 .keep-reading-preview { color: var(--text-secondary); font-size: 0.9rem; }
-.cards-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.cards-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .related-content { margin-top: 2rem; }
 
 /* ── NEVER GIVES UP BANNERS ── */
@@ -6922,7 +6936,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .never-gives-up-banner-cta { display: inline-block; padding: 0.5rem 1.2rem; background: var(--accent-gold); color: var(--bg-deep); border-radius: 8px; text-decoration: none; font-weight: 600; margin-top: 0.75rem; }
 
 /* ── RESISTANCE / MISC SINGLE-FILE ── */
-.four-paths { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.four-paths { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .path-item { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); }
 .path-title { color: var(--accent-gold); font-weight: 600; margin-bottom: 0.3rem; }
 .path-description { color: var(--text-secondary); font-size: 0.9rem; }
@@ -6937,7 +6951,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .callout-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; }
 .concept-card-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 0.3rem; }
 .concept-card-text { color: var(--text-secondary); line-height: 1.7; }
-.reading-card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.reading-card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 1rem; margin-top: 1.5rem; }
 .reading-card-tag { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; }
 .reading-card-title { color: var(--accent-gold); font-weight: 600; margin: 0.3rem 0; }
 .reading-card-excerpt { color: var(--text-secondary); font-size: 0.9rem; }
@@ -6950,7 +6964,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
     margin: 3rem auto;
     padding: 0 1.5rem;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
     gap: 1.5rem;
 }
 .topics-container.has-expansion { grid-template-columns: 1fr; }
@@ -7110,7 +7124,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
     .topic-card.expanded .topic-title { font-size: 1.4rem; }
 }
 
-.quick-start-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.quick-start-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .quick-option { background: var(--bg-card); color: var(--accent-gold); font-weight: 600; border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.2); text-decoration: none; transition: all 0.2s; text-align: center; display: block; }
 .quick-option:hover { border-color: var(--accent-gold); color: var(--accent-ember); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(212,162,84,0.18); }
 .current { color: var(--accent-gold); font-weight: 700; }
@@ -7342,7 +7356,7 @@ body.heartbeat-host > section { position: relative; z-index: 1; }
 /* Escape-route doors — each objection gets a door, each door closes */
 .dead-man-doors {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
     gap: var(--space-3);
     margin: var(--space-5) 0;
 }
@@ -7486,6 +7500,18 @@ nav.ux-breadcrumbs ol.ux-breadcrumbs-list {
        the correct size from its <nav class="ux-breadcrumbs"> parent. */
     font-size: inherit;
 }
+/* Phone-width squeeze, fixed S202. The list is `flex-wrap: nowrap` and every
+   <li> carried `min-width: 0`, so when the current-page title is long the
+   ANCESTOR crumbs shrink below their own content width instead of the title
+   truncating. Measured at a true 390px viewport on /psychology-why-we-resist:
+   the "Home" <li> had a 21px box holding 37px of ink, so the word rendered
+   straight through the "›" separator — 8px of overlapping glyphs, on every
+   article page. `min-width: 0` on a flex item is the opposite of protective:
+   it REMOVES the automatic min-content floor that would have kept it legible.
+   So: nothing shrinks except the last crumb, which already has
+   overflow:hidden + text-overflow:ellipsis and is the one that should. */
+.ux-breadcrumbs .ux-breadcrumbs-list li { flex-shrink: 0; }
+.ux-breadcrumbs .ux-breadcrumbs-list li:last-child { flex-shrink: 1; min-width: 0; }
 .ux-breadcrumbs .ux-breadcrumbs-list li {
     display: inline-flex;
     align-items: center;
@@ -7749,7 +7775,7 @@ div[aria-label*="table of contents" i] {
 }
 
 /* Testimony Wall — gallery tiles (ported from inline styles, S88) */
-.wall-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.25rem;margin:2rem 0;}
+.wall-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px, 100%),1fr));gap:1.25rem;margin:2rem 0;}
 .wall-tile{background:rgba(20,14,8,0.55);border:1px solid rgba(212,162,84,0.22);border-radius:8px;padding:1.4rem 1.5rem;}
 .wall-tile-history{background:rgba(30,20,10,0.55);border-color:rgba(212,162,84,0.3);}
 .wall-quote{font-family:'Playfair Display',serif;font-style:italic;font-size:1.12rem;line-height:1.6;color:#f5ecdc;margin:0 0 0.8rem;}

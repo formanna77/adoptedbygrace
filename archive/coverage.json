@@ -88,6 +88,15 @@
         "behind": 351,
         "unknown": 159,
         "remaining": 510
+      },
+      {
+        "session": 202,
+        "date": "2026-08-10",
+        "total": 618,
+        "atCurrent": 108,
+        "behind": 351,
+        "unknown": 159,
+        "remaining": 510
       }
     ]
   },
@@ -3784,11 +3793,11 @@
       "source": "marker"
     },
     "theologian-augustine.html": {
-      "lastSession": 201,
+      "lastSession": 202,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "John 6->21 miscount fixed; triple 'The point' scaffolding compressed"
+      "note": "Rebuilt the drawing section on trahit sua quemque voluptas (he worked from Latin, not Greek); Orange 529 corrected to semi-Pelagianism + canons lost till C16; Bowlby 4 paras -> 3"
     },
     "theologian-boston.html": {
       "lastSession": 201,
@@ -3798,11 +3807,11 @@
       "note": "Romans not a prison epistle; 'split the Church of Scotland' corrected to the 1720 rebuke; Ettrick named; two of four closes cut"
     },
     "theologian-bradwardine.html": {
-      "lastSession": 201,
+      "lastSession": 202,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "plague-as-virus cut; 38/40-day self-contradiction harmonised to thirty-eight across 13 sites"
+      "note": "Cut the beat stated 6x before the biography; H2 'Forty Days'->'Thirty-Eight Days'; chalk anachronism (x3) retired; NEW: the actual mathematics — Bradwardine's rule, the ratio-of-one threshold"
     },
     "theologian-bunyan.html": {
       "lastSession": 201,
@@ -3901,11 +3910,11 @@
       "source": "marker"
     },
     "theologian-owen.html": {
-      "lastSession": 201,
+      "lastSession": 202,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "Hebrews/Mary chronology corrected; two redundant closing beats cut"
+      "note": "Cut 467w: 2nd Greek excursus (pan ho/ex autou), the obligatory-subjunctive clause, Acts 13:48 halved; 3 images for one point reduced to 1"
     },
     "theologian-anselm.html": {
       "lastSession": 201,

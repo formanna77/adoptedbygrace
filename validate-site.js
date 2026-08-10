@@ -1289,7 +1289,7 @@ console.log('\n━━━ CHECK 18: JSON-LD Validity ━━━');
 // same thing: proving the instrument itself was wrong.
 console.log('\n━━━ CHECK 19: Cloned Passages (ratchet) ━━━');
 {
-  const CEILING = 5381;   // S201 close (295 passages). Ratchet down only.
+  const CEILING = 5369;   // S202 close (294 passages). Ratchet down only.
   // S201: dropped 5675 -> 5381 WITHOUT touching a page. detect-shared-phrases.js
   // extends seeds maximally, which dragged each quoted verse's own CITATION into
   // the candidate ("...his good purpose philippians 2 12 13"); the NIV does not
