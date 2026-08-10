@@ -89,16 +89,22 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /systematic-sanctification     /systematic-ordo-salutis.html  301
 
 # Resources section redirects (deprecated)
-/resources                   /start-here.html               301
-/resources-books             /start-here.html               301
-/resources-sermons           /start-here.html               301
-/resources-commentaries      /start-here.html               301
+# The library-shaped ones now point at /reformed-sources — the reader-facing
+# library of 113 works that did not exist when these rules were written, and
+# which is what a reader looking for commentaries or sermons actually wants.
+# Retargeted S199 so the .html and extensionless forms cannot disagree; a
+# concept resolving to two different destinations is a signal crawlers punish.
+/resources-books             /reformed-sources              301
+/resources-sermons           /reformed-sources              301
+/resources-commentaries      /reformed-sources              301
+/resources-catechisms        /reformed-sources              301
+/resources-glossary          /reformed-sources              301
+/resources-podcasts          /reformed-sources              301
 /resources-confessions       /history-timeline              301!
 /creeds-confessions          /history-timeline              301!
-/resources-catechisms        /start-here.html               301
-/resources-glossary          /start-here.html               301
+# Genuinely not library material — these stay on the guided path.
+/resources                   /start-here.html               301
 /resources-prayer            /start-here.html               301
-/resources-podcasts          /start-here.html               301
 /resources-reading-plans     /start-here.html               301
 /resources-study-guides      /start-here.html               301
 /resource-finder             /start-here.html               301
@@ -272,6 +278,33 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /.DS_Store                                          /404.html  410!
 /.gitignore                                         /404.html  410!
 /.__wtest                                           /404.html  410!
+
+# ---------------------------------------------------------------------------
+# Dead URLs Google still holds (S199, 2026-08-09). Search Console's "Not found
+# (404)" report named 13 URLs it has crawled and is still trying. None appear
+# in Netlify's top-15 404 list — they are too low-volume to surface there —
+# and none are reachable from the site, so CHECK 1 cannot see them either.
+# They are the fossils of ELIMINATED FEATURES: the six resources-* external-
+# link pages (superseded by /reformed-sources, the reader-facing library that
+# replaced them), the newsletter, the community page, a scratch index.
+#
+# A 404 throws away whatever authority Google still assigns these; a 301 to
+# the genuine successor passes it to a live page. Each target below is the
+# real heir, not a lazy bounce to the homepage.
+# ---------------------------------------------------------------------------
+/resources-catechisms.html     /reformed-sources   301!
+/resources-commentaries.html   /reformed-sources   301!
+/resources-confessions.html    /history-timeline   301!
+/resources-sermons.html        /reformed-sources   301!
+/resources-podcasts.html       /reformed-sources   301!
+/resources-glossary.html       /reformed-sources   301!
+/analogies-illustrations.html  /stories            301!
+/start-here-groups.html        /start-here         301!
+/daily-newsletter              /devotionals        301!
+/community.html                /about              301!
+/debate-free-will              /objection-free-will      301!
+/psalms-election               /question-psalm139        301!
+/index-new                     /                   301!
 
 # Repair scripts (S199). These four were pasted BELOW the /* catch-all and were
 # therefore dead on arrival — Netlify takes the FIRST matching rule, and /*
