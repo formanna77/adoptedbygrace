@@ -56,16 +56,14 @@
    "lastSession": 197
   },
   "analogy-drowning-man": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 197
+   "lastSession": 204
   },
   "analogy-lazarus-grave": {
    "lane": "A",
@@ -142,16 +140,14 @@
    "lastSession": null
   },
   "analytical-aseity-and-decree": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 94
+   "lastSession": 204
   },
   "analytical-divine-simplicity": {
    "lane": "A",
@@ -224,16 +220,14 @@
    "lastSession": 94
   },
   "analytical-modal-collapse-answered": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 94
+   "lastSession": 204
   },
   "analytical-necessity-of-the-atonement": {
    "lane": "A",
@@ -276,16 +270,14 @@
    "lastSession": 58
   },
   "anxious-mind-never-meant-to-carry": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 95
+   "lastSession": 204
   },
   "anxious-mind-scrupulosity": {
    "lane": "A",
@@ -298,28 +290,24 @@
    "lastSession": 95
   },
   "anxious-mind-sovereignty-of-sleep": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 95
+   "lastSession": 204
   },
   "anxious-mind-the-loop-that-wont-break": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 95
+   "lastSession": 204
   },
   "anxious-mind-what-if-not-chosen": {
    "lane": "DONE",
@@ -434,16 +422,14 @@
    "lastSession": null
   },
   "apologetic-evangelism": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 191
+   "lastSession": 204
   },
   "apologetic-for-the-sheep": {
    "lane": "A",
@@ -548,16 +534,14 @@
    "lastSession": null
   },
   "apologetic-i-never-knew-you": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 204
   },
   "apologetic-i-shall-lose-none": {
    "lane": "DONE",
@@ -570,16 +554,14 @@
    "lastSession": 192
   },
   "apologetic-i-will-move-you": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 204
   },
   "apologetic-kept-by-the-power-of-god": {
    "lane": "A",
@@ -844,16 +826,14 @@
    "lastSession": 58
   },
   "apologetic-the-lord-knows-those-who-are-his": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 204
   },
   "apologetic-the-mind-that-cannot-submit": {
    "lane": "A",
@@ -1051,16 +1031,14 @@
    "lastSession": null
   },
   "broken-mirror-grace-too-good": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "broken-mirror-imposter-syndrome": {
    "lane": "A",
@@ -1103,16 +1081,14 @@
    "lastSession": null
   },
   "broken-mirror-the-relapse": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 204
   },
   "broken-mirror-vessels-for-mercy": {
    "lane": "A",
@@ -1188,16 +1164,14 @@
    "lastSession": 105
   },
   "compare-every-decision-point": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 73
+   "lastSession": 204
   },
   "compare-grace-reformed-vs-arminian": {
    "lane": "A",
@@ -1220,16 +1194,14 @@
    "lastSession": 119
   },
   "compare-lutheranism": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 105
+   "lastSession": 204
   },
   "compare-monergism-synergism": {
    "lane": "B",
@@ -1334,16 +1306,14 @@
    "lastSession": 58
   },
   "demolition-1cor10-13": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
+   "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 197
+   "lastSession": 204
   },
   "demolition-1cor15-22": {
    "lane": "A",
@@ -1406,28 +1376,24 @@
    "lastSession": 153
   },
   "demolition-2cor6-1": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "demolition-2pet2-20": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "leadReview": false,
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 204
   },
   "demolition-2peter1-10": {
    "lane": "A",
@@ -1450,16 +1416,14 @@
    "lastSession": 58
   },
   "demolition-2peter3-15": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
+   "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 196
+   "lastSession": 204
   },
   "demolition-2peter3-9": {
    "lane": "A",
@@ -1532,28 +1496,24 @@
    "lastSession": 69
   },
   "demolition-col1-23": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "leadReview": false,
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 204
   },
   "demolition-cut-off-from-root": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "demolition-deut30-19": {
    "lane": "A",
@@ -1576,16 +1536,14 @@
    "lastSession": 58
   },
   "demolition-ezekiel33-11": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "demolition-faith-is-not-a-gift": {
    "lane": "A",
@@ -1638,16 +1596,14 @@
    "lastSession": 58
   },
   "demolition-hebrews6-4-6": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 70
+   "lastSession": 204
   },
   "demolition-hosea11-7-8": {
    "lane": "A",
@@ -1720,16 +1676,14 @@
    "lastSession": null
   },
   "demolition-john3-16": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "demolition-john5-40": {
    "lane": "A",
@@ -1762,16 +1716,14 @@
    "lastSession": 58
   },
   "demolition-mark16-16": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "demolition-matt11-28": {
    "lane": "B",
@@ -1836,16 +1788,14 @@
    "lastSession": null
   },
   "demolition-rev22-17": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "demolition-rev3-20": {
    "lane": "A",
@@ -1868,16 +1818,14 @@
    "lastSession": 58
   },
   "demolition-romans11-32": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "demolition-romans2-4": {
    "lane": "DONE",
@@ -1910,16 +1858,14 @@
    "lastSession": 153
   },
   "demolition-works-righteousness": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "leadReview": false,
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 204
   },
   "devotional-adoption-papers": {
    "lane": "A",
@@ -1932,16 +1878,14 @@
    "lastSession": null
   },
   "devotional-chosen-before-you-were-broken": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 95
+   "lastSession": 204
   },
   "devotional-cold-church": {
    "lane": "A",
@@ -1964,16 +1908,14 @@
    "lastSession": 58
   },
   "devotional-drawn-not-dragged": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 153
+   "lastSession": 204
   },
   "devotional-forever-loved": {
    "lane": "A",
@@ -1986,16 +1928,14 @@
    "lastSession": null
   },
   "devotional-found-before-you-were-born": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 197
+   "lastSession": 204
   },
   "devotional-glory-of-divine-choice": {
    "lane": "B",
@@ -2020,28 +1960,24 @@
    "lastSession": 58
   },
   "devotional-held-without-asking": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 196
+   "lastSession": 204
   },
   "devotional-i-cant-feel-god": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 95
+   "lastSession": 204
   },
   "devotional-i-dont-think-im-saved": {
    "lane": "B",
@@ -2166,28 +2102,24 @@
    "lastSession": 58
   },
   "devotional-the-god-who-wastes-nothing": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "devotional-the-ground-disappeared": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "devotional-the-hands-that-hold-you": {
    "lane": "A",
@@ -2230,28 +2162,24 @@
    "lastSession": 203
   },
   "devotional-the-quiet-after-the-storm": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "devotional-the-secretly-ashamed": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "devotional-the-shepherd-came-looking": {
    "lane": "DONE",
@@ -2304,16 +2232,14 @@
    "lastSession": 58
   },
   "devotional-when-pride-dies": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "devotional-you-are-not-the-hero": {
    "lane": "DONE",
@@ -2506,16 +2432,14 @@
    "lastSession": null
   },
   "for-pastors": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "leadReview": false,
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 204
   },
   "fork-in-the-road": {
    "lane": "A",
@@ -2528,16 +2452,14 @@
    "lastSession": 69
   },
   "found-you": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 204
   },
   "freedom": {
    "lane": "A",
@@ -2590,16 +2512,14 @@
    "lastSession": null
   },
   "history-calvin-geneva": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "history-confessions-story": {
    "lane": "A",
@@ -2652,28 +2572,24 @@
    "lastSession": null
   },
   "history-every-revival-sovereign-grace": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "history-golden-thread": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "history-great-awakening": {
    "lane": "A",
@@ -2818,16 +2734,14 @@
    "lastSession": 58
   },
   "invisible-wall-friend-who-left": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 204
   },
   "invisible-wall-lonely-theological": {
    "lane": "DONE",
@@ -2840,28 +2754,24 @@
    "lastSession": 196
   },
   "invisible-wall-marriage": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "invisible-wall-only-one-who-sees": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "invisible-wall-prayer-feels-empty": {
    "lane": "C",
@@ -2907,16 +2817,14 @@
    "lastSession": 189
   },
   "joy-freedom-of-smallness": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 204
   },
   "joy-god-big-enough": {
    "lane": "A",
@@ -2989,16 +2897,14 @@
    "lastSession": 192
   },
   "letters-senior-demon-arminianism": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "objection-author-of-sin": {
    "lane": "A",
@@ -3054,16 +2960,14 @@
    "lastSession": 191
   },
   "objection-fairness": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 153
+   "lastSession": 204
   },
   "objection-faith-choice": {
    "lane": "A",
@@ -3106,16 +3010,14 @@
    "lastSession": null
   },
   "objection-love": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "objection-manipulation": {
    "lane": "DONE",
@@ -3218,16 +3120,14 @@
    "lastSession": 58
   },
   "open-wound-empty-nursery": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "open-wound-hospital-room": {
    "lane": "A",
@@ -3270,16 +3170,14 @@
    "lastSession": 58
   },
   "open-wound-terminal-diagnosis": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "open-wound-the-prayer-god-didnt-answer": {
    "lane": "DONE",
@@ -3312,16 +3210,14 @@
    "lastSession": 58
   },
   "ot-david": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "ot-election": {
    "lane": "DONE",
@@ -3384,16 +3280,14 @@
    "lastSession": 58
   },
   "ot-jonah": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "ot-joseph": {
    "lane": "A",
@@ -3476,16 +3370,14 @@
    "lastSession": null
   },
   "pastoral-when-truth-lands": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "philosophy-adam-test": {
    "lane": "A",
@@ -3508,16 +3400,14 @@
    "lastSession": 152
   },
   "philosophy-children-argument": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "philosophy-copernican-revolution": {
    "lane": "A",
@@ -3540,16 +3430,14 @@
    "lastSession": 58
   },
   "philosophy-godel-incompleteness": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "philosophy-gravity-of-grace": {
    "lane": "DONE",
@@ -3582,16 +3470,14 @@
    "lastSession": 58
   },
   "philosophy-infinite-regress-of-choice": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 199
+   "lastSession": 204
   },
   "philosophy-inheritance-paradox": {
    "lane": "A",
@@ -3664,28 +3550,24 @@
    "lastSession": 73
   },
   "philosophy-prisoners-dilemma": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 204
   },
   "philosophy-problem-of-merit": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 189
+   "lastSession": 204
   },
   "philosophy-resistance-is-proof": {
    "lane": "C",
@@ -3701,16 +3583,14 @@
    "lastSession": 192
   },
   "philosophy-self-deception": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 204
   },
   "philosophy-sleep-surrender": {
    "lane": "A",

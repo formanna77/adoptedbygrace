@@ -20,11 +20,7 @@ Length 2091w · already spends bridges[addiction] catch-images[]
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<h2>The universal reading makes the verse meaningless</h2>
-
-   <p>Push the universal reading to its logical conclusion. If Ezekiel 33:11 means that God equally wills the salvation of every single human and that His will is ultimately limited by human choice, then God has, for the entire span of human history, been unable to achieve His own heart's desire. Most humans who have ever lived die outside of Christ. If that outcome is the opposite of what God really wants, and He cannot overcome it, then God's desires are <em>systematically frustrated</em> by human choice across billions of instances. That is not a high view of God. That is a devastated, defeated, impotent deity.</p>
-
-   <p>The two-wills reading preserves both realities. God genuinely grieves the death of the wicked (Ezekiel 33:11 is real and sincere). God also sovereignly and effectually saves His elect (Ezekiel 36:26-27 is real and unstoppable). The two wills live in God without contradiction because God is infinite and His will is layered. The attempt to flatten Him into a single layer is precisely the anthropomorphism the objection cannot escape — a God small enough to think one-dimensional thoughts about salvation, the way a human would.</p>
+<p>The two-wills reading preserves both realities. God genuinely grieves the death of the wicked (Ezekiel 33:11 is real and sincere). God also sovereignly and effectually saves His elect (Ezekiel 36:26-27 is real and unstoppable). The two wills live in God without contradiction because God is infinite and His will is layered. The attempt to flatten Him into a single layer is precisely the anthropomorphism the objection cannot escape — a God small enough to think one-dimensional thoughts about salvation, the way a human would.</p>
 
    <p>The God of Scripture is bigger. He grieves <em>and</em> He decrees. He pleads <em>and</em> He elects. He sends out the call <em>and</em> He gives the new heart. Both at once. Without contradiction. Without losing a thing. (Read <a href="/demolition-arminian-facts">why Arminianism secretly assumes Calvinism</a> for the underlying logic.)</p>
 
@@ -34,7 +30,9 @@ is furniture — hub cards, `</article>`, the footer — and you must not write 
 
    <p>What you were really finding comfort in was <strong>your own autonomy</strong>. The idea that your salvation was ultimately in your hands felt safe because you were still holding the steering wheel. What you discovered when you met a God who sovereignly saves whom He pleases was that the wheel was never yours. That is terrifying — and then it is freeing, in that order. (Read <a href="/psychology-why-we-resist">why we resist sovereignty</a> for the psychology.)</p>
 
-   <p>Ezekiel 33:11 is God's sincere grief over rebellion. It is also God's sincere call to return. The fact that some return and some do not is not because the call fails. The fact that some return is because — through that same call, spoken into the soul by the Spirit — God gave a new heart to the one who now finds himself, impossibly, turning. If you are turning, that is not your decision activating. That is Ezekiel 36 happening to you through Ezekiel 33. (Read <a href="/devotional-chosen-before-you-were-broken">"Chosen Before You Were Broken"</a> to understand what is happening.)</p>
+   <p>Ezekiel 33:11 is God's sincere grief over rebellion. It is also God's sincere call to return. The fact that some return and some do not is not because the call fails. Where anyone returns at all, it is because — through that same call, spoken into the soul by the Spirit — God gave a new heart to a man who did not have one. That is Ezekiel 36 doing its work through Ezekiel 33. Which means a turning, wherever it happens, is never a decision activating. It is a surgery already performed, showing up in a body that never scheduled it. (Read <a href="/devotional-chosen-before-you-were-broken">"Chosen Before You Were Broken"</a> to understand what is happening.)</p>
+
+   <p>Notice what God swears by. Not the temple, not the covenant — His own life. <em>As surely as I live.</em> It is the strongest thing He has, and He spends it here, on His grief over the death of the wicked. Hebrews reports a second oath of the same weight, and that one installed a priest: <em>"Therefore he is able to save completely those who come to God through him, because he always lives to intercede for them."</em> The life God swore by in Ezekiel is the life Jesus is using at this moment. The pleading of chapter 33 was never a voice thrown into empty air; it belongs to a Man who went into the ground under the sentence you earned, came out of it, and has been asking His Father for His people ever since, without one hour's interruption. God grieves over the death of the wicked. He also keeps a living Son at His right hand, naming the ones He decided to save.</p>
 
    <p>And hold what you are left holding: a God who swears His grief over the very deaths His decree permits, and explains the difference to no one. The mystery is not a flaw in the doctrine. It is the size of the One it describes.</p>
 ```
@@ -59,9 +57,7 @@ Length 1613w · already spends bridges[] catch-images[]
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p>But that's not what you're afraid of. You're afraid of <em>His absence.</em> You're afraid that He might have left. You're afraid that the presence you tasted might be gone. Your terror is not directed inward — at your willpower — but upward, at the One whose face you desperately need to see. That distinction is worth following. <a href="/question-where-did-your-faith-come-from">A self-generated faith fears its own inadequacy</a>; a <em>given</em> faith fears the Giver's departure. So turn the fear around and follow where it points. You are not, in the end, afraid of losing your grip. You are afraid of losing <em>Him</em>. And a fear aimed at Him has somewhere to go — not back into your own chest to be weighed and measured, where it will only ever come up short, but up, to the One whose grip is the only one that was ever holding you. Do not read your ache as the proof. Read His promise.</p>
-
-   <h2>What This Means for You</h2>
+<h2>What This Means for You</h2>
 
    <p>So hear what the author of Hebrews actually does next. Having written the most frightening warning in the letter, he turns in the very next breath to the people he loves and draws a line between them and the apostates he just described: <em>"we are convinced of better things in your case—the things that have to do with salvation."</em> He was not describing your fate. He was distinguishing you from it. And the line that distinguishes you was not drawn by the strength of your grip, but by the God who <a href="/devotional-chosen-before-you-were-broken">chose you before the foundation of the world</a> and will not lose what is His.</p>
 
@@ -69,6 +65,8 @@ is furniture — hub cards, `</article>`, the footer — and you must not write 
    <p>"I give them eternal life, and they shall never perish; no one will snatch them out of my hand."</p>
    <cite>JOHN 10:28</cite>
    </blockquote>
+
+   <p>And look where the letter is going. Thirteen verses after the warning that has been keeping you awake, the same author reaches for an anchor and points through the curtain at Jesus, who went in ahead of us and stayed — a priest who does not die, and therefore never hands the work to a successor. That is where the whole letter has been heading, and the road runs straight through the paragraph that frightened you. He is not absent. He is occupied — with you, by name, at the throne, and He has not been interrupted once in two thousand years. Whatever you have felt or failed to feel this year has not slowed Him by a second. The fear told you He may have withdrawn; the letter tells you He is at this moment doing the very thing you were afraid He had stopped doing. You are not clinging to a rescue that happened once and receded. You are being prayed for, right now, by the only Man whose prayers have never been refused.</p>
 
    <p>Come back, then, to the weight you were carrying — the verse that sat in your skull like a stone you swallowed. If the ground still feels unsteady, <a href="/devotional-i-dont-think-im-saved">this page was written for the frightened version of you</a>. But hear what the fear could never tell you: it brought you to the door; <a href="/devotional-never-gives-up">the grace that never lets go</a> is what carries you through it. Set the stone down. He has you.</p>
 ```
@@ -92,9 +90,7 @@ Length 2138w · already spends bridges[] catch-images[]
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p>If your faith is something you generated — your decision, your choice, your autonomous response — then you are the decisive factor in your salvation. You are the hero of your own rescue story. And that is, whether you see it or not, a form of boasting. Paul slammed the door on that: <em>"It is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God — not by works, so that no one can boast"</em> (Ephesians 2:8-9).</p>
-
-   <h2>The Verse That Catches You When You Fall</h2>
+<h2>The Verse That Catches You When You Fall</h2>
 
    <p>If you have read this far and something inside you feels like <a href="/devotional-the-ground-disappeared">the ground is disappearing</a> — that is not a sign that something has gone wrong. It is a sign that <a href="/question-how-grace-feels">something has gone right</a>.</p>
 
@@ -112,6 +108,8 @@ is furniture — hub cards, `</article>`, the footer — and you must not write 
    <p>"All those the Father gives me will come to me, and whoever comes to me I will never drive away. For I have come down from heaven not to do my will but to do the will of him who sent me. And this is the will of him who sent me, that I shall lose none of all those he has given me, but raise them up at the last day."</p>
    <cite>JOHN 6:37-39</cite>
    </blockquote>
+
+   <p>And watch the tenses. <em>Gave</em> is finished — one Friday, one Son, nothing still owing. But the night before that Friday the same Son prayed, <em>"I pray for them. I am not praying for the world, but for those you have given me, for they are yours,"</em> and that verb never went past tense. Jesus has been praying it for two thousand years without a break. The Father gave the Son to the world; the Father gave a people to the Son; and the Son is at the Father's right hand this minute saying their names out loud. That is what makes the promise you just read unbreakable. He does not lose them because He never stops asking for them — not while you slept, not through the years you spent using this verse as a shield against Him.</p>
 
    <p>So let the verse mean everything it has always meant. Let "God so loved the world" be the cry of a Father who emptied heaven of His only Son; let "<em>gave</em>" stay in the past tense — finished, paid in full. Then notice what happens to the words you have known your whole life. They do not shrink. They grow <em>terrifyingly</em> bigger — because the love that gave is the love that draws, and the love that draws is the love that will not lose you. Read the verse again. It has been telling you so all along.</p>
 
@@ -150,12 +148,14 @@ Length 2337w · already spends bridges[] catch-images[]
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p>The conditional sentence does not contradict the gift. The condition is met by the gift. The believing that saves is a believing whose origin is the gift of God — and the verse that names it as a gift (Ephesians 2:8) is the verse that closes the door on every form of boast (Ephesians 2:9). Mark 16:16, read in its proper place, does not deliver the autonomous will. It delivers a person — every person — who is saved through a faith that is finally not their own achievement but their Father&apos;s gift.</p>
-
-   <p>Before the verse lands you, it is worth stopping on the quieter question underneath the whole argument. Why did you want Mark 16:16 to mean what you hoped it meant? Why does the soul reach, so instinctively, for a reading that would make the believing <em>its own</em>? The hunger is not really for exegetical accuracy. It is for a square inch of ground that God did not give — one corner of the rescue we can sign our name to. We do not fight for <a href="/question-freewill">free will</a> because the grammar compels it; the grammar, as we have seen, runs the other way. We fight for it because something in us would still rather be the smallest of co-saviors than the largest of the saved. That is what the verse was quietly exposing the whole time. It was never the door to your autonomy. It was a mirror held up to your need for it.</p>
+<p>Before the verse lands you, it is worth stopping on the quieter question underneath the whole argument. Why did you want Mark 16:16 to mean what you hoped it meant? Why does the soul reach, so instinctively, for a reading that would make the believing <em>its own</em>? The hunger is not really for exegetical accuracy. It is for a square inch of ground that God did not give — one corner of the rescue we can sign our name to. We do not fight for <a href="/question-freewill">free will</a> because the grammar compels it; the grammar, as we have seen, runs the other way. We fight for it because something in us would still rather be the smallest of co-saviors than the largest of the saved. That is what the verse was quietly exposing the whole time. It was never the door to your autonomy. It was a mirror held up to your need for it.</p>
 
    <h2>Where the Verse Lands the Reader</h2>
-   <p>And here is the mercy hidden in that exposure: the square inch you were reaching for, you never needed. You did not believe by your own achievement. You believed because, before the foundation of the world, your name was already written — and at the appointed hour the Spirit who had been drawing you all along opened your heart, and faith rose up in you because the gift had already been planted. Mark 16:16 is true. Whoever believes is saved. And your believing did not begin the rescue. It announced one already finished.</p>
+   <p>And here is the mercy hidden in that exposure: the square inch you were reaching for, you never needed. You did not believe by your own achievement. You believed because, before the foundation of the world, your name was already written — and at the appointed hour the Spirit who had been drawing you all along opened your heart, and faith rose up in you because the gift had already been planted.</p>
+
+   <p>But do not hear <em>finished</em> as <em>over</em>. A rescue can be complete and its author still working. <em>It is finished</em> was spoken about the paying; nothing like it has ever been spoken about the praying. The Man who settled the account did not recede into history to be commemorated. He rose, and took up an office He has not set down since, and Hebrews rests the entire security of your rescue on it: the reason He saves all the way to the end is that He is alive and has never once stopped asking His Father for the people He bought. So while you were reading this page and weighing whether the argument holds, Jesus was in the throne room doing the thing that actually holds you. He was doing it through every year you were certain the believing was your own achievement, and there has not been an hour since the resurrection when it stopped.</p>
+
+   <p>Mark 16:16 is true. Whoever believes is saved. And your believing did not begin the rescue. It announced one already finished.</p>
 
    <section class="keep-reading">
    <h2 class="hub-section-title">Keep Reading</h2>
@@ -216,9 +216,7 @@ Length 1750w · already spends bridges[] catch-images[]
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p>This is not a trick. It is not God saying one thing and meaning another. It is the proper ordering of the <a href="/systematic-ordo-salutis">ordo salutis</a>. The call goes out to all; the Spirit creates thirst in some; the thirst that was created then hears the call and comes. The same call produces radically different responses not because of different human wills but because of different divine workings.</p>
-
-   <h2>The beauty of the verse on the Reformed reading</h2>
+<h2>The beauty of the verse on the Reformed reading</h2>
 
    <p>Once you see this, Revelation 22:17 becomes more beautiful, not less. It is the last word of the last book. The Spirit and the bride stand together and call. Every elect soul from every age and every corner of the earth hears the call and feels the thirst they cannot explain. They come. They drink. The water is free — free because the One offering it has already paid for it, and free because the thirst itself was His gift. Nothing is left undone. Nothing remains for you to contribute. The invitation is finished. The well is open. The thirst that brought you here was not random. It was His work. And the drinking is not your achievement; it is your homecoming.</p>
 
@@ -226,7 +224,9 @@ is furniture — hub cards, `</article>`, the footer — and you must not write 
 
    <p>And notice what the invitation quietly assumes. It does not say <em>whoever can work up a thirst.</em> It says <em>let the one who is thirsty come</em> — the thirst is presupposed, standing in the sentence already, arriving before the invitation does. Nobody manufactures that. Nobody is the origin of his own longing. The verse you thought was asking you to make a decision is telling you that a decision was made about you long before you knew you needed it.</p>
 
-   <p>The Spirit and the bride are calling. The water is free. Nothing stands between you and the cup but the illusion that you have to <em>manufacture</em> the desire to drink. You do not. The desire is already there. Put it in His terms: <em>let the one who is thirsty come.</em> You are not the exception. You are the evidence that He has been working in you all along.</p>
+   <p>The Spirit and the bride are calling. The water is free. Nothing stands between you and the cup but the idea that you have to <em>manufacture</em> the desire to drink. Look at the wording again: <em>let the one who is thirsty come.</em> It does not say let the one who has worked up sufficient thirst come, and it does not ask you to certify the thirst before you are handed the cup. Nobody has ever been turned away from that water for arriving numb. The cup is not held out on the strength of what you feel about it. It is held out by the Man who hung on a cross and said <em>I am thirsty</em>, and was given vinegar, so that this river could run free for everyone who comes.</p>
+
+   <p>And notice who is standing at the water. The verse says <em>come</em>; Hebrews tells you what becomes of everyone who does: he is saved all the way to the end, because he comes to God through a priest who is alive and never stops praying for the people He bought. This cup is not handed out by an absent owner. Jesus paid for the water with His own blood, walked out of the grave, and has been speaking for thirsty people at His Father's side every hour since. That is why nothing stops you at the edge of it.</p>
 
    <p>Come and drink. Not because you had the autonomy to decide — but because <a href="/devotional-never-gives-up">He has never stopped drawing you</a>.</p>
 

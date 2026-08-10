@@ -20,9 +20,7 @@ Length 1550w · already spends bridges[] catch-images[]
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p>The altar call was not invented in Scripture. It has no biblical precedent. It was invented in the 1820s by a man who rejected sovereign grace. And it has produced, on a global scale, exactly what it produced in Finney's tent meetings: temporary emotional responses, not lasting conversion. The modern evangelical church inherited Finney's methods without examining Finney's fruit — and now wonders why the pews are emptying and the <a href="/psychology-backfire-effect">converts keep falling away</a>.</p>
-
-   <h2>The Question That Cannot Be Avoided</h2>
+<h2>The Question That Cannot Be Avoided</h2>
 
    <p>If God wanted to teach the church which theology actually saves people — which theology has His power and His blessing — how else would He do it except by lighting it on fire? The theology of election has a 2,000-year track record of producing genuine revival. The theology of human choice has a 200-year track record of producing statistics.</p>
 
@@ -31,6 +29,8 @@ is furniture — hub cards, `</article>`, the footer — and you must not write 
    <p>The fruit has spoken. The tree is identified.</p>
 
    <p>And somewhere tonight — in a dorm room in Nairobi, in a flat in Seoul, in a suburb outside São Paulo where the fluorescent kitchen light is the only thing on — someone is reading their Bible and the words are hitting different. They cannot explain it. They did not ask for it. Nobody gave an altar call. Nobody counted them on a board. The Spirit is doing what the Spirit has always done: raising the dead without consulting them first, the same way He raised New England through Edwards, London through Spurgeon, Wales through Roberts, and Pyongyang through a room full of Presbyterians on their faces.</p>
+
+   <p>And notice whom God kept choosing to hold the match. Edwards was voted out of the Northampton pulpit by the same congregation his preaching had shaken. Whitefield went to the fields because the parish churches had bolted their doors against him. Spurgeon was a standing joke in the London papers before he was a name in them. Roberts was a collier. The fire has almost never fallen where the religious establishment would have laid it, and that is not an accident of church politics. It is the shape of the story the fire is about. Jesus came to His own and His own did not receive Him. Isaiah had described Him seven centuries early: "despised and rejected by mankind, a man of suffering, and familiar with pain." His own brothers did not believe Him. His own disciples ran. He was executed as a public nuisance by the religious authorities of His day, and on the third morning the Father raised Christ from the dead without taking a vote. Every revival in this article is that morning happening again in a smaller room.</p>
 
    <p>The fire is the same fire. The God who <a href="/devotional-never-gives-up">never gives up</a> on His people is still lighting it. And He has never once needed your permission to begin.</p>
 ```
@@ -72,6 +72,8 @@ is furniture — hub cards, `</article>`, the footer — and you must not write 
 
    <p>You are part of this. Not because you found the thread — you didn't. The thread found you. It ran through a book someone left on a shelf, or a conversation you didn't plan, or a verse that hit you in the chest in a sleepless quiet, or a page on a website you found because you were searching for something you could not name. The thread came to you because the God who spun it knew your address before you were born. And now you are holding it. And every saint who ever held it before you — Augustine weeping in the garden, Luther trembling in the tower, Spurgeon thundering from the Tabernacle — is holding it with you. One thread. One truth. One God who chose His people and has never, not once in twenty centuries, let the thread break.</p>
 
+   <p>There is one place on the thread where it thinned to a single hand. Not Gottschalk's cell and not Luther's tower — a Friday outside Jerusalem. The eleven men who had watched Jesus raise the dead ran into the dark: "Then everyone deserted him and fled." His own brothers, raised in the same house, had never believed Him. And from the cross He cried out, "My God, my God, why have you forsaken me?" Every name on this page hangs from that hour. The thread did not snap there. It went down into a grave and came back up on Sunday with every knot still tied — which is why it has held for twenty centuries and will hold in yours. You are not gripping something fragile. You are holding the far end of what Christ carried alone.</p>
+
    <p>Hold on. Or rather — let go, and discover that the thread was always holding you.</p>
 ```
 
@@ -94,16 +96,8 @@ Length 2659w · already spends bridges[] catch-images[]
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p>You are not lost in the crowd. You are found in the wilderness.</p>
-   
-   <p>And the Shepherd who found you will never let you go.</p>
-   
-   <div class="never-gives-up-banner">
-   <div class="banner-title">He Will Never Let You Go</div>
-   <div class="banner-text">
-  When the people you thought would always be there leave, God is still there. When you feel like the only one who sees the truth, the Shepherd who led you to truth is not surprised by your isolation. He is in it. He is using it to deepen your dependence on Him alone. The God who pursues His own through exile, loss, and the kind of loneliness that breaks you open will not lose you here either.
 </div>
-   <a href="/about" class="banner-link">Read RE-FORMED: The Testimony</a>
+   <a href="/about" class="banner-link">About This Site</a>
 </div>
    
    <h2>Back to the Chair</h2>
@@ -115,6 +109,8 @@ is furniture — hub cards, `</article>`, the footer — and you must not write 
    <p>But notice something you could not have noticed at the beginning of this page. The chair is empty because your friend left. But the room is not empty. The One who chose you before the foundation of the world — who knew exactly what this truth would cost you, who knew the specific friendships it would thin, the specific texts that would stop arriving — He is in the room. He has always been in the room. And He did not bring you to this truth to punish you with loneliness. He brought you here because He wanted you closer. And some doors have to close before you notice who has been standing in the room the whole time.</p>
 
    <p>Your friend may come back. Grace is patient and the Spirit is not finished. Or they may not — and the ache of that will stay. But the God who holds you did not flinch when the chair emptied. He had already set a place for you at a different table. And at that table, no one leaves.</p>
+
+   <p>And He is not consoling you from outside it. On the last night of His life Jesus sat at a table with twelve friends, and within hours every chair was empty. "Then everyone deserted him and fled." The man who had sworn loudest that he never would was standing at somebody else's fire, warming his hands, saying he had never met Him. Long before that, the people who had known Him longest — His own brothers, thirty years under the same roof — had looked at Him and concluded He was mistaken. "He came to that which was his own, but his own did not receive him." He knows what it is to hold something true in a room where the people you love cannot see it. He held it to the end, alone, and it killed Him. Then He came out of the grave, and the first thing He did with that morning was go and find the men who had run.</p>
 
    <p><strong>The friend left. He stayed.</strong></p>
    
@@ -157,16 +153,7 @@ Length 1923w · already spends bridges[anosognosia] catch-images[]
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p><strong>Release the weight of their salvation. It was never yours to carry.</strong></p>
-</div>
-   
-   <div class="grace-card">
-   <h3>The Grace of Gratitude</h3>
-   <p>Whatever faith your spouse has—even if you think it's incomplete, even if you think it's missing the crucial truth of election—is real. It's genuine. It's a gift from God. Thank God for it. Out loud, sometimes. Thank God that they love Jesus. Thank God that they pray. Thank God that they try. Don't let theological precision steal your gratitude for theological presence.</p>
-</div>
-   
-   <div class="grace-card">
-   <h3>The Grace of Modeling</h3>
+<h3>The Grace of Modeling</h3>
    <p>The most powerful sermon you will ever preach to your spouse is how you live. How you rest in grace when life fractures. How you trust <a href="/devotional-the-hands-that-hold-you">the hands that hold you</a> when you have no control. How you extend mercy without needing them to deserve it. How you love them not because they earned it but because you chose to—the way grace loves them. Don't argue the truth. Live it. Let them see what it looks like when someone has surrendered entirely.</p>
 </div>
    
@@ -184,6 +171,8 @@ is furniture — hub cards, `</article>`, the footer — and you must not write 
    
    <p><strong>You are not failing your marriage by seeing differently. You are honoring it by remaining silent.</strong> Not silent about your faith, not silent about God's goodness—but silent about the thing that separates you theologically. You are choosing love over being right. That's not failure. That's the highest form of faithfulness.</p>
    
+   <p>There is one house in Scripture where this exact silence was kept, and Jesus kept it. He grew up under the same roof as brothers who watched Him for something like thirty years and did not believe a word of it. "For even his own brothers did not believe in him." He did not badger them and He did not hold it against them. He ate at their table, worked the trade, and carried something true through a house that could not see it — and then carried it out to a cross. Afterward, on the far side of the resurrection, He went and found His brother James. Not with a better argument. In person. James spent the rest of his life calling Him Lord. Whatever comes in your house will not come because you finally won the conversation. It will come the way it came to James, on a morning Christ picks. Until then you are doing what He did: staying, and loving them in the silence.</p>
+
    <p><em>Lord, I love this person more than I love being right. Give me the grace to show that in the silence. And if there comes a night when they see what I see — when they understand that faith itself is Your gift — let me weep with them quietly, knowing I had nothing to do with it except staying.</em></p>
 ```
 
@@ -203,8 +192,6 @@ Length 1652w · already spends bridges[] catch-images[]
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p><strong>Gratitude guards the heart.</strong> You see something millions of Christians do not yet see. The pain of the wall is real, but <a href="/devotional-glory-of-divine-choice">the sight itself is breathtaking</a>. You know your salvation was never in your hands. You know the God who chose you will never let you go. That knowledge is the most valuable thing you possess. Do not let the loneliness of holding it make you forget the beauty of it.</p>
-
 <p><strong>Humility is the only safe ground.</strong> "What do you have that you did not receive?" Repeat it until it reaches your pride. Your theological sight was given, not earned. The moment you forget this, the wall becomes a pedestal — and a pedestal is a far lonelier place than a wall.</p>
 
 <h2>A Prayer From Behind the Wall</h2>
@@ -216,6 +203,8 @@ is furniture — hub cards, `</article>`, the footer — and you must not write 
 <p><em>And help me love them the way You loved me — while I was still blind, still resistant, still certain I had earned something that was always a gift.</em></p>
 
 <p><em>Because that's how I know the love is real. Amen.</em></p>
+
+<p>There is one more thing worth saying about this loneliness. The truth that has quieted your small group is the truth that emptied Jesus' own room. He stood in the synagogue at Capernaum and said out loud that no one comes to Him unless <a href="/question-john6">the Father draws</a> them, and the crowd that had eaten from His hands the day before thinned out and walked home. He turned to the twelve still standing there and asked whether they wanted to go too. So He is not a distant sympathizer in this. He was the one thing in that room nobody could see, He kept saying it anyway, and He said it without a word of contempt for the people walking out — because He was already on His way to a cross He would carry for a roomful of them. The loneliest man who ever held this truth is the man the truth is about. He held it to the end, and He is holding you now.</p>
 
 <p>Now go back to that room. The Sunday morning. The small group. The coffee getting cold. They are still nodding. You are still aching. But something has shifted — not in the room, but in you. You are no longer the lonely expert. You are the patient witness. The person who was blind longer than they have been, and who was given sight on a schedule they did not control by a God they cannot rush. The wall is still there. But behind it, on their side, the same Shepherd who opened your eyes is already at work — in prayers you will never hear, in sleepless-dark doubts you will never witness, in a sentence from a sermon that will land on a Tuesday afternoon when they least expect it. He has never once failed to finish what He started. What makes you think He started something in them that He plans to abandon?</p>
 ```

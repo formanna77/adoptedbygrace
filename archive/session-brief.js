@@ -272,13 +272,32 @@ console.log(`  LANE B  surgical ..... ${byLane.B.length}   (factory: batch by CL
 console.log(`  LANE A  confirm ...... ${byLane.A.length}   (spot cold-read opener + close, then stamp)`);
 console.log(`     of which untagged locks: ${byLane.A.filter(s => matrix[s].untagged).length}`);
 
-console.log('\n  ── LANE B FACTORY ROSTERS (one class per subagent, 5-6 pages each) ──');
+// BATCH must equal the batch size in make-factory-brief.js line ~92.
+//
+// S204: it did not. This printed rosters of SIX while make-factory-brief.js wrote
+// payload files of FIVE, so `batch 3` here and `gospel-absence-batch-3.md` on disk
+// named different pages, and the drift compounded with every batch. Nothing caught
+// it: both numbers are internally consistent, the rosters stay disjoint, and every
+// page still gets covered exactly once. The damage is silent and lands on the LEAD —
+// territory assignments, register warnings ("all five of yours are devotionals") and
+// the per-page cautions are written from this roster and handed to an agent holding
+// a different five. Two S204 agents opened their brief, found none of the pages they
+// had been briefed on, and reported the mismatch themselves. A third was told its
+// batch closed escape routes in Hebrews 6; it was holding philosophy pages.
+//
+// The general form: two independent computations of the same partition will diverge,
+// and a partition that is merely *consistent* is not the same as *correct*.
+const BATCH = 5;
+
+console.log(`\n  ── LANE B FACTORY ROSTERS (one class per subagent, ${BATCH} pages each) ──`);
+console.log('  These rosters are generated with the SAME batch size make-factory-brief.js uses,');
+console.log('  so `batch N` below is exactly archive/factory-briefs/<class>-batch-N.md on disk.');
 for (const a of ADAPTERS) {
   const roster = byLane.B.filter(s => matrix[s].defects.includes(a.id));
   if (!roster.length) continue;
-  console.log(`\n  ${a.label} — ${roster.length} page(s) → ${Math.ceil(roster.length / 6)} agent(s)`);
-  for (let i = 0; i < roster.length; i += 6) {
-    console.log('     batch ' + (i / 6 + 1) + ': ' + roster.slice(i, i + 6).map(x => matrix[x].leadReview ? x + '*' : x).join(' '));
+  console.log(`\n  ${a.label} — ${roster.length} page(s) → ${Math.ceil(roster.length / BATCH)} agent(s)`);
+  for (let i = 0; i < roster.length; i += BATCH) {
+    console.log('     batch ' + (i / BATCH + 1) + ': ' + roster.slice(i, i + BATCH).map(x => matrix[x].leadReview ? x + '*' : x).join(' '));
   }
 }
 
