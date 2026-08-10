@@ -5,7 +5,7 @@
       "date": "2026-07-28",
       "sinceSession": 191
     },
-    "updated": "2026-08-09",
+    "updated": "2026-08-10",
     "note": "Historical seed from HTML markers is approximate (review-freshness, not pass/fail). source:\"stamp\" entries are exact.",
     "history": [
       {
@@ -65,6 +65,15 @@
       {
         "session": 199,
         "date": "2026-08-09",
+        "total": 618,
+        "atCurrent": 98,
+        "behind": 356,
+        "unknown": 164,
+        "remaining": 520
+      },
+      {
+        "session": 200,
+        "date": "2026-08-10",
         "total": 618,
         "atCurrent": 98,
         "behind": 356,
