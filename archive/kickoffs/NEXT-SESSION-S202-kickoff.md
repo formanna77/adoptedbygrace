@@ -147,7 +147,24 @@ waiting:
 
 ## CLOSE
 
-Run the eight-script pipeline, then `build-sitemap.js`, then `validate-site.js`
+**ORDER MATTERS, AND S201 GOT IT WRONG BEFORE CATCHING IT.** `build-sitemap.js`
+derives each URL's `lastmod` from that page's JSON-LD `dateModified`; `stamp-modified.js`
+is what *writes* that field. CLAUDE.md lists them in two different blocks and states
+no ordering, so the natural sequence — pipeline, validate, then stamp — is backwards,
+and it silently shipped all 11 lifted pages with an **April** `lastmod` against their
+own `2026-08-10` JSON-LD. That is the exact "sitemap contradicts its own page" defect
+S200 eliminated, reintroduced on the only pages that changed. **So:**
+
+```
+node stamp-modified.js <the pages you actually edited>   # BEFORE the sitemap
+node build-sitemap.js
+```
+
+**General law: any script that writes JSON-LD runs before any script that reads it.**
+Verify it, do not assume it — compare `dateModified` against `<lastmod>` for every
+page you touched before you close.
+
+Run the eight-script pipeline, then `stamp-modified.js`, then `build-sitemap.js`, then `validate-site.js`
 (**ALL 20 CHECKS** must pass), then `canonical-conformance.js` and
 `verify-scripture.js` (a report, not a gate). Ratchets stand at **CHECK 17 = 62**,
 **CHECK 19 = 5,381**, **CHECK 10 = 713/233** — lower them, never raise them. Stamp

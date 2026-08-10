@@ -134,6 +134,22 @@ It is now git-free. Dates live **write-once** in `archive/manifest-dates.json` �
 
 **The general law: a build script that no session is willing to run is a stale artifact with extra steps.** If a tool conflicts with a standing policy, the conflict is the bug — fix the tool, do not let the artifact rot silently.
 
+**`stamp-modified.js` RUNS BEFORE `build-sitemap.js`, ALWAYS (added S201).** It is
+listed below under "repair scripts" with no stated position, and that omission has a
+cost: `build-sitemap.js` derives every `<lastmod>` from that page's JSON-LD
+`dateModified`, and `stamp-modified.js` is what writes that field. Run the sitemap
+first and each page you just edited ships a `lastmod` months older than its own
+structured data — the "sitemap contradicts its own page" defect S200 eliminated,
+reintroduced on the only pages that changed. S201 did exactly this and caught it after
+the validator had already printed green, because no check compares the two. So:
+
+```bash
+node stamp-modified.js <the pages you actually edited>
+node build-sitemap.js
+```
+
+**The general law: any script that writes JSON-LD runs before any script that reads it.**
+
 Then run `node validate-site.js` and fix anything it flags.
 
 **`validate-site.js` now runs EIGHTEEN checks (CHECK 12, 13 + 14 added S194; 15 in S195; 16, 17 + 18 in S198-PRE).** Four hardenings are load-bearing and must not be softened:
