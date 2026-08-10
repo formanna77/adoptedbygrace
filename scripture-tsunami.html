@@ -677,6 +677,15 @@
   .tulip-pill .pill-top { flex-direction: column; align-items: flex-start; gap: 0.15rem; }
   .tulip-pill .pill-count { margin-left: 0; }
 
+  /* S203. The bar stays five columns at every width, which is the point of the
+  T-U-L-I-P row -- but at a true 390px viewport each pill gets a ~44px content
+  box, and .tulip-pill carries overflow:hidden. So "Unconditional" was simply
+  sliced off mid-word with no ellipsis and no scrollbar: five of the six filter
+  labels were cut by 19-47px and the reader had no way to know. Breaking inside
+  the long words is the only fix that keeps all five doctrines visible in one
+  row. Measured at 390px: pill-name overflow 19/47/19/40/40 -> 0 on all five. */
+  .tulip-pill .pill-name { overflow-wrap: anywhere; }
+
   /* On narrow screens the filter-bar becomes a single column and is tall enough
   that sticky would eat the viewport. Go static. */
   .filter-bar-wrapper {
@@ -740,6 +749,7 @@
   "url": "https://adoptedbygrace.net"
   },
   "datePublished": "2026-04-01",
+    "dateModified": "2026-08-10",
   "mainEntityOfPage": {
   "@type": "WebPage",
   "@id": "https://adoptedbygrace.net/scripture-tsunami"
@@ -1017,7 +1027,7 @@
 
    <p>You are not arguing with a system. You are not being talked into a denomination. You are being introduced — slowly, verse by verse, doctrine by doctrine, mountain side by mountain side — to <em>the God who has loved you all along.</em></p>
 
-   <p style="margin-top:2rem;"><strong>The flood was His. So are you.</strong></p>
+   <p class="landing-line"><strong>The flood was His. So are you.</strong></p>
 
     <!-- FOOTER -->
     

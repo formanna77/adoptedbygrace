@@ -97,6 +97,15 @@
         "behind": 351,
         "unknown": 159,
         "remaining": 510
+      },
+      {
+        "session": 203,
+        "date": "2026-08-10",
+        "total": 618,
+        "atCurrent": 116,
+        "behind": 346,
+        "unknown": 156,
+        "remaining": 502
       }
     ]
   },
@@ -1172,10 +1181,11 @@
       "source": "marker"
     },
     "demolition-philippians2-12-13.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 203,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "Christless catch closed — Phil 2:6-8 is the back half of 2:13"
     },
     "demolition-prevenient-grace.html": {
       "lastSession": null,
@@ -1409,10 +1419,11 @@
       "note": "link floor 3-6 -> 10+"
     },
     "devotional-the-prayer-you-didnt-pray.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 203,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "Christless catch closed — Rom 8 names two intercessors; the line was bought"
     },
     "devotional-the-quiet-after-the-storm.html": {
       "lastSession": 58,
@@ -2018,10 +2029,11 @@
       "source": "marker"
     },
     "open-wound-miscarriage.html": {
-      "lastSession": 69,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 203,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "Christless catch closed — Jesus wept at the grave, then went into the ground Himself"
     },
     "open-wound-senseless-death.html": {
       "lastSession": null,
@@ -2067,10 +2079,11 @@
       "source": "marker"
     },
     "ot-election.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 203,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "pattern-point flex row overflowed 26px at 390px; scripture-block gold overrides removed"
     },
     "ot-isaiah-servant.html": {
       "lastSession": 189,
@@ -2118,10 +2131,11 @@
       "note": "responsibility objection answered in body; most-loving-thing slip fixed; Box B trimmed; SEO ref cut"
     },
     "ot-moses-pharaoh.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 203,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "Christless catch closed — Passover blood on the doorframe; feeling-slip conditional removed"
     },
     "ot-noah.html": {
       "lastSession": 58,
@@ -2338,10 +2352,11 @@
       "source": "marker"
     },
     "psychology-addiction-proof.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 203,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "Christless catch closed — the Power greater has a name and came into the room"
     },
     "psychology-anosognosia-of-sin.html": {
       "lastSession": 199,
@@ -2925,10 +2940,11 @@
       "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "question-unfair.html": {
-      "lastSession": 70,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 203,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "Christless catch closed — fairness located at the cross, fell on the wrong man on purpose"
     },
     "question-visual-theology.html": {
       "lastSession": 69,
@@ -3142,10 +3158,11 @@
       "source": "marker"
     },
     "scripture-tsunami.html": {
-      "lastSession": 67,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 203,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "TULIP pill labels were sliced mid-word at 390px (5 of 6, 19-47px); overflow-wrap fix"
     },
     "secular-ai-determinism.html": {
       "lastSession": 67,
@@ -3800,11 +3817,11 @@
       "note": "Rebuilt the drawing section on trahit sua quemque voluptas (he worked from Latin, not Greek); Orange 529 corrected to semi-Pelagianism + canons lost till C16; Bowlby 4 paras -> 3"
     },
     "theologian-boston.html": {
-      "lastSession": 201,
+      "lastSession": 203,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "Romans not a prison epistle; 'split the Church of Scotland' corrected to the 1720 rebuke; Ettrick named; two of four closes cut"
+      "note": "Sextupled close collapsed to one catch; Auchterarder Creed added (Assembly called 'you need not forsake sin to come to Christ' detestable); Marrow found above a window-head, soldier's book, Edward Fisher; 8 -> 14 verified links"
     },
     "theologian-bradwardine.html": {
       "lastSession": 202,
@@ -3917,11 +3934,11 @@
       "note": "Cut 467w: 2nd Greek excursus (pan ho/ex autou), the obligatory-subjunctive clause, Acts 13:48 halved; 3 images for one point reduced to 1"
     },
     "theologian-anselm.html": {
-      "lastSession": 201,
+      "lastSession": 203,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "'faith seeking reason' mistranslation cut with its duplicate paragraph; unfalsifiable both-ways election test named and refused"
+      "note": "Rebuilt on Proslogion 11 — the sola ratione project stopping at the discriminating decree; CDH overreach corrected (Anselm did not teach definite atonement; Owen drew the line 550y later); Aquinas REJECTED the ontological argument (ST I q.2 a.1); possit -> potest"
     },
     "theologian-wycliffe.html": {
       "lastSession": null,

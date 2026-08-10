@@ -747,7 +747,7 @@
  count: 19,
  pages: [
  { name: 'Amazing Grace: The Hymn That Proves What You Already Believe', href: '/hymn-amazing-grace', desc: 'Every line of "Amazing Grace" is a confession of sovereign grace . "Wretch" confesses total depravity . "Lost" and "blin' },
- { name: 'Anselm of Canterbury', href: '/theologian-anselm', desc: 'Anselm proved God exists through reason alone—proving God must be sovereign. His atonement theology showed salvation can' },
+ { name: 'Anselm of Canterbury', href: '/theologian-anselm', desc: 'Anselm set out to prove everything about God by reason alone. The reasoning ran all the way down and stopped in exactly ' },
  { name: 'Augustine: The Rebel God Hunted Down', href: '/theologian-augustine', desc: 'Augustine of Hippo spent decades running from God — through lust, philosophy, and heresy. God caught him anyway. His the' },
  { name: 'B.B. Warfield: The Lion of Princeton', href: '/theologian-warfield', desc: 'Benjamin Breckinridge Warfield (1851-1921) — Reformed theologian who defended inerrancy and sovereign grace for 34 years' },
  { name: 'Charles Spurgeon', href: '/theologian-spurgeon', desc: 'Charles Haddon Spurgeon: the greatest preacher of the nineteenth century, who proved that Calvinism is not cold theology' },

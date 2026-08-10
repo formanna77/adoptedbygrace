@@ -4,25 +4,35 @@
   Current standard: §XXIII (2026-07-28); era begins ~S191
   Ledger updated:   2026-08-10   |   prose pages: 618
 
-  At current standard (§XXIII)   108   17.5%  █████·······················
-  Behind (older bar, dated)          351   56.8%  ████████████████············
-  Unknown (locked, no session tag)   159   25.7%  ███████·····················
+  At current standard (§XXIII)   116   18.8%  █████·······················
+  Behind (older bar, dated)          346   56.0%  ████████████████············
+  Unknown (locked, no session tag)   156   25.2%  ███████·····················
 
-  REMAINING for the §XXIII pass: 510 pages (behind + unknown).
+  REMAINING for the §XXIII pass: 502 pages (behind + unknown).
   At 10 pages/session: ~51 sessions to full §XXIII coverage.  (tune rate with --rate=N)
 
   ── END-OF-SESSION STANDING ──
-  Since S201 (2026-08-10): at §XXIII 108 -> 108 (+0);  remaining 510 -> 510 (+0).
-  Remaining trend: S195:568  S196:559  S197:525  S198:525  S199:520  S200:520  S201:510  S202:510
+  Since S202 (2026-08-10): at §XXIII 108 -> 116 (+8);  remaining 510 -> 502 (-8).
+  Remaining trend: S196:559  S197:525  S198:525  S199:520  S200:520  S201:510  S202:510  S203:502
 
   Last-lifted era (approximate for older sessions):
-    §XXII (2026-07-19)          120  █████·······················
+    §XXII (2026-07-19)          128  ██████······················
     §XVIII-XXI (2026-06-21)       9  ····························
     §XVII/XVI (2026-05)          10  ····························
-    pre-§XVI (<=S99)            320  ██████████████··············
-    unknown / untagged          159  ███████·····················
+    pre-§XVI (<=S99)            315  ██████████████··············
+    unknown / untagged          156  ███████·····················
 
-  Exactly-tracked lifts (source: stamp) — 120:
+  Exactly-tracked lifts (source: stamp) — 128:
+    S203  partial  demolition-philippians2-12-13.html  — Christless catch closed — Phil 2:6-8 is the back half of 2:13
+    S203  partial  devotional-the-prayer-you-didnt-pray.html  — Christless catch closed — Rom 8 names two intercessors; the line was bought
+    S203  partial  open-wound-miscarriage.html  — Christless catch closed — Jesus wept at the grave, then went into the ground Himself
+    S203  partial  ot-election.html  — pattern-point flex row overflowed 26px at 390px; scripture-block gold overrides removed
+    S203  partial  ot-moses-pharaoh.html  — Christless catch closed — Passover blood on the doorframe; feeling-slip conditional removed
+    S203  partial  psychology-addiction-proof.html  — Christless catch closed — the Power greater has a name and came into the room
+    S203  partial  question-unfair.html  — Christless catch closed — fairness located at the cross, fell on the wrong man on purpose
+    S203  partial  scripture-tsunami.html  — TULIP pill labels were sliced mid-word at 390px (5 of 6, 19-47px); overflow-wrap fix
+    S203  lifted   theologian-anselm.html  — Rebuilt on Proslogion 11 — the sola ratione project stopping at the discriminating decree; CDH overreach corrected (Anselm did not teach definite atonement; Owen drew the line 550y later); Aquinas REJECTED the ontological argument (ST I q.2 a.1); possit -> potest
+    S203  lifted   theologian-boston.html  — Sextupled close collapsed to one catch; Auchterarder Creed added (Assembly called 'you need not forsake sin to come to Christ' detestable); Marrow found above a window-head, soldier's book, Edward Fisher; 8 -> 14 verified links
     S202  lifted   theologian-augustine.html  — Rebuilt the drawing section on trahit sua quemque voluptas (he worked from Latin, not Greek); Orange 529 corrected to semi-Pelagianism + canons lost till C16; Bowlby 4 paras -> 3
     S202  lifted   theologian-bradwardine.html  — Cut the beat stated 6x before the biography; H2 'Forty Days'->'Thirty-Eight Days'; chalk anachronism (x3) retired; NEW: the actual mathematics — Bradwardine's rule, the ratio-of-one threshold
     S202  lifted   theologian-owen.html  — Cut 467w: 2nd Greek excursus (pan ho/ex autou), the obligatory-subjunctive clause, Acts 13:48 halved; 3 images for one point reduced to 1
@@ -30,8 +40,6 @@
     S201  lifted   history-apostolic.html  — Polycarp restored to 'my King and my Saviour'; Diospolis 415 acquittal replaces the on-sight-expulsion claim; feeling-slip close re-grounded; Arminian-only opener widened
     S201  lifted   objection-manipulation.html  — real steelman erected (sourcehood, not puppets) + answered; fabricated APA/DSM-5 authority cut; Phil 2:12 NIV restored; archegos/pioneer transparency; close collapsed 7 beats to 2
     S201  lifted   story-historical-luther-storm.html  — Turmerlebnis dating de-asserted; Circular Return trimmed 3 paras to 1; 'You can feel it' slip removed
-    S201  lifted   theologian-anselm.html  — 'faith seeking reason' mistranslation cut with its duplicate paragraph; unfalsifiable both-ways election test named and refused
-    S201  lifted   theologian-boston.html  — Romans not a prison epistle; 'split the Church of Scotland' corrected to the 1720 rebuke; Ettrick named; two of four closes cut
     S201  lifted   theologian-bunyan.html  — August 1688 not 'cold autumn rain'; illiteracy claim cut; torment-as-proof-of-grace slip repaired; site-meta closer removed
     S201  lifted   theologian-luther.html  — closing clause no longer conditions open arms on being 'tired enough'
     S201  lifted   theologian-spurgeon.html  — illiteracy legend removed x3 (his own account: a shoemaker with little to say); 'theology of your own conversion' verdict cut
@@ -45,14 +53,6 @@
     S199  lifted   question-revelation13.html  — S199 cold-read + repair
     S199  lifted   secular-billion-decisions.html  — S199 cold-read + repair
     S199  lifted   systematic-compatibilism.html  — S199 cold-read + repair
-    S199  lifted   word-study-every-all.html  — S199 cold-read + repair
-    S198  lifted   question-what-is-sovereign-grace.html  — corpse-metaphor doorway de-cloned; definitional entry
-    S197  lifted   analogy-doctor-corpse.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
-    S197  lifted   analogy-drowning-man.html  — de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image
-    S197  partial  apologetic-bought-with-his-own-blood.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
-    S197  partial  apologetic-he-bore-the-sin-of-many.html  — V.2: silently altered Isaiah 53:5 quotation restored verbatim
-    S197  partial  apologetic-he-is-faithful.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
-    S197  partial  apologetic-many-people-in-this-city.html  — under-linked queue drained: raised to 11-13 verified cross-category prose links
 
   Longest-un-lifted (oldest tagged session — first candidates for a §XXII re-read):
     S 58  2-thessalonians-2-13.html
@@ -76,5 +76,5 @@
     S 58  apologetic-the-conscience-that-only-accuses.html
     S 58  apologetic-the-deceitful-heart.html
 
-  (159 pages carry a lock but no session tag; they need a session assigned on next touch.)
+  (156 pages carry a lock but no session tag; they need a session assigned on next touch.)
 ========================================================================

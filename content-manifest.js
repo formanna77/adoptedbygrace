@@ -2789,7 +2789,7 @@ const CONTENT_MANIFEST = [
     "url": "/theologian-anselm",
     "title": "Anselm of Canterbury",
     "category": "History",
-    "excerpt": "Anselm proved God exists through reason alone—proving God must be sovereign.",
+    "excerpt": "Anselm set out to prove everything about God by reason alone.",
     "added": "2026-03-01"
   },
   {

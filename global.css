@@ -5122,6 +5122,15 @@ nav a, footer a, .hub-card a, .hub-grid a,
     font-weight: 600;
 }
 
+/* S203. 198 pages carried an identical <p style="margin-top:2rem;"> on their
+   closing paragraph -- the VOICE §VIII landing line -- which is 198 of the
+   inline-style attributes CHECK 10 counts and which CHECK 8 structurally
+   cannot see, because CHECK 8 governs <style> TAGS and this is an ATTRIBUTE.
+   Named rather than numbered: .closing-line was already taken and carries a
+   full italic/secondary treatment, so reusing it would have silently restyled
+   every hammer line on the site. Spacing only -- byte-identical rendering. */
+.landing-line { margin-top: 2rem; }
+
 .tagline, .closing-line {
     color: var(--text-secondary);
     font-style: italic;
@@ -6452,6 +6461,17 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .pattern-content { padding: 1.25rem; }
 .pattern-points { display: flex; flex-direction: column; gap: 0.75rem; }
 .pattern-point { display: flex; align-items: flex-start; gap: 0.75rem; color: var(--text-secondary); }
+/* S203 phone-width fix. .pattern-point is a flex ROW holding an <h3> and a <p>.
+   At a true 390px viewport the widest pair (h3 131px + p 121px + 12px gap = 264px)
+   does not fit the 239px track, and the row cannot shrink below its min-content,
+   so 26px of the paragraph rendered off the right edge -- invisible, because
+   body{overflow-x:hidden} suppresses the scrollbar. Wrapping is breakpoint-
+   independent and self-healing: a no-op whenever the pair fits, a stack when it
+   does not. min-width:0 on the children removes the automatic min-content floor
+   that would otherwise keep the <p> from shrinking after it wraps.
+   Measured before/after at 390px on /ot-election: scrollWidth 265 -> 239. */
+.pattern-point { flex-wrap: wrap; }
+.pattern-point > * { min-width: 0; }
 .cards-section { margin: 2rem 0; }
 .section-subtitle { color: var(--text-secondary); font-size: 1.05rem; margin-bottom: 1rem; }
 .card-key-text { color: var(--accent-scripture); font-style: italic; font-size: 0.95rem; margin-top: 0.5rem; }

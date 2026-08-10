@@ -1399,11 +1399,84 @@ console.log('\n━━━ CHECK 20: JSON-LD Answer Prose ━━━');
 }
 
 // ═══════════════════════════════════════
+// CHECK 21: The article-tag literal — make the oldest trap self-announcing (S203)
+// ═══════════════════════════════════════
+//
+// Twenty-one scripts key on the exact substring `<article class="article-body"`.
+// In S194 one edit wrote `<article id="main-content" class="article-body">` —
+// semantically identical HTML, indistinguishable in a browser — and the canonical
+// article count fell from 618 to 89 while this validator printed every check
+// passing, because CHECK 11 does `if (open === -1) continue` and silently skipped
+// the 529 pages it could no longer parse. That is the worst failure shape there
+// is: a catastrophic, corpus-wide, completely silent one.
+//
+// The standing item has always been "sweep the 21 scripts to a tolerant regex."
+// That fix is not free, and the reason is a second trap sitting underneath the
+// first: `contact.html`, `donate.html` and `sitemap.html` are written id-before-
+// class ON PURPOSE, so they fall out of the article index. Their exclusion is
+// currently an ACCIDENT of the brittle matcher. Make every consumer tolerant and
+// the canonical count silently moves 611 -> 614, which is the same class of
+// silent-count defect in the opposite direction.
+//
+// So this check does the thing that is safe to do first and that should have
+// existed all along: it does not change what the scripts match — it makes any
+// divergence LOUD. Any page whose <article> tag carries `article-body` in its
+// class but does not match the literal is named here, with its filename, before
+// the pipeline ever runs. The three utility pages are excluded by NAME, which
+// converts their exclusion from an accident into a decision on the record.
+//
+// Proven to fail before being trusted (CLAUDE.md law 3): id-before-class was
+// injected into a live article, this check named the file and the offending tag,
+// and it was restored.
+{
+  console.log('\n━━━ CHECK 21: Article-Tag Literal (silent-count guard) ━━━');
+  const LITERAL = '<article class="article-body"';
+  // Deliberately outside the article index. Two families, both now on the record:
+  //   1. The three utility pages CLAUDE.md already names (id written before class).
+  //   2. The 15 printables + the-60-second-case, which this check FOUND on its first
+  //      run and which nobody had recorded anywhere. They diverge for a different
+  //      reason, and it is a second brittleness in the literal that was undocumented:
+  //      the literal ends in a closing quote, so it requires `article-body` to be the
+  //      ONLY class on the tag. `<article class="article-body one-pager-frame">` is a
+  //      miss. All 16 are non-prose utilities that belong outside the 611 canonical
+  //      count and outside /all-content — but until now that was luck, not intent.
+  const INDEX_EXEMPT = new Set(['contact.html', 'donate.html', 'sitemap.html', 'the-60-second-case.html']);
+  const EXEMPT_PREFIX = 'printable-';
+  const openTag = /<article\b([^>]*)>/gi;
+  const divergent = [];
+  const doubled = [];
+  for (const f of fs.readdirSync(ROOT).filter(x => x.endsWith('.html'))) {
+    if (INDEX_EXEMPT.has(f) || f.startsWith(EXEMPT_PREFIX)) continue;
+    const src = safeReadFileSync(path.join(ROOT, f));
+    if (!src) continue;
+    const literalCount = src.split(LITERAL).length - 1;
+    let m, carries = 0;
+    openTag.lastIndex = 0;
+    while ((m = openTag.exec(src))) {
+      const attrs = m[1] || '';
+      const cls = (attrs.match(/class\s*=\s*"([^"]*)"/i) || [])[1] || '';
+      if (/\barticle-body\b/.test(cls)) carries++;
+    }
+    if (carries > literalCount) divergent.push([f, carries, literalCount]);
+    if (literalCount > 1) doubled.push([f, literalCount]);
+  }
+  if (!divergent.length && !doubled.length) {
+    console.log('  ✅ every article-body wrapper matches the literal the 21 scripts key on');
+  } else {
+    divergent.forEach(([f, c, l]) =>
+      console.log(`  ❌ ${f}: ${c} article-body wrapper(s), only ${l} match the literal — INVISIBLE to build-tags, /all-content, homepage counts, dedupe-prose-links, share-bar`));
+    doubled.forEach(([f, l]) => console.log(`  ❌ ${f}: ${l} article-body wrappers (expected exactly 1)`));
+    console.log('     Fix: write the tag as `<article class="article-body" ...>` — class FIRST, any other attribute after.');
+    errors += divergent.length + doubled.length;
+  }
+}
+
+// ═══════════════════════════════════════
 // VERDICT — prints LAST, after every check. Do not move it up.
 // ═══════════════════════════════════════
 console.log('\n══════════════════════════════════');
 if (errors === 0 && warnings === 0) {
-    console.log('ALL 20 CHECKS PASSED — site integrity verified');
+    console.log('ALL 21 CHECKS PASSED — site integrity verified');
 } else {
     if (errors > 0) console.log(`${errors} ERROR(S) — must fix before finishing`);
     if (warnings > 0) console.log(`${warnings} WARNING(S) — should fix if possible`);

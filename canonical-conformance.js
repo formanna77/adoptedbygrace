@@ -39,11 +39,19 @@ const wrongOrigin = [];  // Canonical points to a non-production host
 const hasExtension = []; // Canonical includes ".html"
 const mismatch = []; // Canonical path != filename (probable copy-paste bug)
 let ok = 0;
+// S203: count the files this run ACTUALLY skipped, rather than trusting the size
+// of the exempt LIST. `nav-template.html` is on the list and does not exist on
+// disk, so the old `files.length - EXEMPT.size` subtracted a page that was never
+// there — and the report printed `Pages OK: 686` against `Pages checked: 685`,
+// more passes than tests. Harmless here, but a tally that can exceed its own
+// denominator is a tally nobody should read, and this one had been printed at
+// the close of every session for months.
+let exempted = 0;
 
 const canonicalRE = /<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i;
 
 for (const file of files) {
-  if (EXEMPT.has(file)) continue;
+  if (EXEMPT.has(file)) { exempted++; continue; }
   const filepath = path.join(ROOT, file);
   const html = fs.readFileSync(filepath, 'utf8');
   const m = html.match(canonicalRE);
@@ -72,13 +80,13 @@ for (const file of files) {
   }
 }
 
-const total = files.length - EXEMPT.size;
+const total = files.length - exempted;
 const failures = missing.length + wrongOrigin.length + hasExtension.length + mismatch.length;
 
 console.log('CANONICAL CONFORMANCE REPORT');
 console.log('============================');
 console.log(`Total HTML files scanned: ${files.length}`);
-console.log(`Exempt (templates/etc.): ${EXEMPT.size}`);
+console.log(`Exempt (templates/etc.): ${exempted}`);
 console.log(`Pages checked: ${total}`);
 console.log(`Pages OK: ${ok}`);
 console.log(`Pages with issues: ${failures}`);
