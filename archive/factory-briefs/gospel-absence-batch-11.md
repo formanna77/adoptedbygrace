@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## open-wound-terminal-diagnosis
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/open-wound-terminal-diagnosis.html`
+
 Length 1832w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <blockquote>
    <p>"Therefore we do not lose heart. Though outwardly we are wasting away, yet inwardly we are being renewed day by day. For our light and momentary troubles are achieving for us an eternal glory that far outweighs them all."</p>
@@ -47,9 +52,14 @@ Length 1832w · already spends bridges[] catch-images[]
 
 ## ot-david
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/ot-david.html`
+
 Length 2033w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>And <a href="/devotional-in-christ">in Christ</a>, David's individual election expands into something breathtaking. Ephesians 1:4 says God "chose us in him before the creation of the world." The youngest son fetched from the sheepfold, the Messiah born in a manger, and you — sitting wherever you are right now reading this — all chosen by the same sovereign will, all held by the same unconditional covenant. If you have ever wondered whether God's choice of you was a mistake — whether He saw you clearly and chose you anyway — look at David. God saw the adultery. He saw the murder. He saw the cover-up. He chose David <em>before any of it happened</em>, and His covenant held through all of it. Whatever you have done, it was not news to God when He chose you.</p>
 
@@ -72,11 +82,23 @@ Length 2033w · already spends bridges[] catch-images[]
 
 ## ot-jonah
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/ot-jonah.html`
+
 Length 1810w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
-<p>"My purpose will stand, and I will do all that I please."</p>
+<p>If you have ever felt like Jonah — running from a truth you already know is true, resisting a grace that offends your sense of fairness, angry that God extends mercy to people you think don't deserve it — then hear the question God asked from across the millennia. The answer is silence. Because the clay does not instruct the Potter. And the fish does not choose its passenger. And the prophet does not get to limit the mercy of God.</p>
+
+    <p>Have you been running? Be honest. Not from Nineveh — from a truth you already know is true. From a sovereignty that offends the part of you that wants to sit on the throne. Name the Tarshish you bought a ticket to. It might be the busyness that keeps the quiet from setting in. The voices you turn up whenever Scripture makes you squirm. The friendship that lets you laugh about God instead of kneel before Him. The relationship you will not end. The grudge you will not release. The prayer you will not pray because you already know what you would have to confess. The storm in your life right now may not be punishment. It may be pursuit.</p>
+
+    <p>But here is what Jonah learned in the belly of the fish, and what every soul running from God eventually discovers: the One who pursues you is not chasing you in wrath. He is chasing you in love. The storm is mercy. The fish is mercy. The uncomfortable circumstances that won't let you rest — <a href="/devotional-never-gives-up">mercy</a>. God doesn't let His children run forever, because He loves them too much to leave them in Tarshish. And notice the grammar of the whole book. Every verb that moves the plot belongs to God: He <a href="/systematic-regeneration">provides</a> the fish, the plant, the worm, the scorching east wind. Jonah supplies only the running. So if you are hunting for the hand in your own account, do not go looking for a warmth in your chest — look for the appointments. The same hand that hurled the wind has been arranging rooms and roads and losses your whole life, and the hand is not an enemy. It is the hand that has been reaching for you since before you were born.</p>
+
+    <blockquote>
+   <p>"My purpose will stand, and I will do all that I please."</p>
    <cite>ISAIAH 46:10</cite>
     </blockquote>
 ```
@@ -95,9 +117,14 @@ Length 1810w · already spends bridges[] catch-images[]
 
 ## pastoral-when-truth-lands
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/pastoral-when-truth-lands.html`
+
 Length 2129w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>What You Need to Know in Every Phase</h2>
 
@@ -124,9 +151,14 @@ Length 2129w · already spends bridges[] catch-images[]
 
 ## philosophy-children-argument
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/philosophy-children-argument.html`
+
 Length 1797w · already spends bridges[drowning] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>This framework is cruelty dressed as freedom.</p>
 

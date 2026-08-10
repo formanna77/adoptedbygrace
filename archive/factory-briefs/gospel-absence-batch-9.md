@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## history-every-revival-sovereign-grace
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/history-every-revival-sovereign-grace.html`
+
 Length 1550w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>The altar call was not invented in Scripture. It has no biblical precedent. It was invented in the 1820s by a man who rejected sovereign grace. And it has produced, on a global scale, exactly what it produced in Finney's tent meetings: temporary emotional responses, not lasting conversion. The modern evangelical church inherited Finney's methods without examining Finney's fruit — and now wonders why the pews are emptying and the <a href="/psychology-backfire-effect">converts keep falling away</a>.</p>
 
@@ -37,9 +42,14 @@ Length 1550w · already spends bridges[] catch-images[]
 
 ## history-golden-thread
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/history-golden-thread.html`
+
 Length 2201w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>The Thread Continues (1900–Present)</h2>
 
@@ -75,9 +85,14 @@ Length 2201w · already spends bridges[] catch-images[]
 
 ## invisible-wall-friend-who-left
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/invisible-wall-friend-who-left.html`
+
 Length 2659w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>You are not lost in the crowd. You are found in the wilderness.</p>
    
@@ -121,28 +136,6 @@ Length 2659w · already spends bridges[] catch-images[]
    <span class="article-link-desc">What Jesus actually meant when He said His sheep know His voice and follow Him. A meditation on why the elect cannot be separated from the Shepherd—no matter how many other people leave.</span>
 </a>
 </div>
-
-    <div class="article-continue-journey">
-   <h3 class="article-continue-journey-title">Continue the Journey</h3>
-   <div class="hub-grid">
-   <a href="/invisible-wall-singing-alone" class="hub-card">
-   <div class="card-number">01</div>
-   <h4 class="card-title">Singing Alone</h4>
-   <p class="card-description">When the friend leaves, the worship feels hollow. But it isn't.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-   <a href="/devotional-forever-loved" class="hub-card">
-   <div class="card-number">02</div>
-   <h4 class="card-title">Forever Loved</h4>
-   <p class="card-description">People leave. He doesn't.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-</div>
-</div>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
@@ -155,9 +148,14 @@ Length 2659w · already spends bridges[] catch-images[]
 
 ## invisible-wall-marriage
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/invisible-wall-marriage.html`
+
 Length 1923w · already spends bridges[anosognosia] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p><strong>Release the weight of their salvation. It was never yours to carry.</strong></p>
 </div>
@@ -196,12 +194,15 @@ Length 1923w · already spends bridges[anosognosia] catch-images[]
 
 ## invisible-wall-only-one-who-sees
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/invisible-wall-only-one-who-sees.html`
+
 Length 1652w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
-```html
-ok. Remember the stages — <a href="/psychology-cost-of-rejecting-grace">the anger, the fear</a>, the slow surrender. That is where they are. Extend to them the same patience God extended to you before your eyes were opened.</p>
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
+```html
 <p><strong>Gratitude guards the heart.</strong> You see something millions of Christians do not yet see. The pain of the wall is real, but <a href="/devotional-glory-of-divine-choice">the sight itself is breathtaking</a>. You know your salvation was never in your hands. You know the God who chose you will never let you go. That knowledge is the most valuable thing you possess. Do not let the loneliness of holding it make you forget the beauty of it.</p>
 
 <p><strong>Humility is the only safe ground.</strong> "What do you have that you did not receive?" Repeat it until it reaches your pride. Your theological sight was given, not earned. The moment you forget this, the wall becomes a pedestal — and a pedestal is a far lonelier place than a wall.</p>

@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## theologian-sproul
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/theologian-sproul.html`
+
 Length 1673w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>This is what Sproul refused, his whole life long, to make convenient. He would not let his hearers off easily. The book that converted a generation to Reformed theology did not begin with sovereignty — it began with holiness, because he knew you cannot make peace with election by adjusting election. You can only make peace with election by being shown the One who elects. Once He is truly seen, every protest dies in the throat that was about to speak it, and the system — election, depravity, the impossibility of any other ground of hope — arrives intact and unprotested, the way the architecture of a cathedral arrives when the morning light comes through the windows. The young man who walked into seminary determined to refute Calvinism walked out, not having lost the argument, but having met the One the argument was about. He did not adopt a theology. He surrendered to a Person.</p>
 

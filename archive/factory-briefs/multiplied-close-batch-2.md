@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## question-arminian-steelman
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-arminian-steelman.html`
+
 Length 3106w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>What Scripture <em>does</em> give is a different grace. A grace that <em>actually raises dead people</em> rather than merely enabling them. A grace that speaks to <a href="/question-ezekiel37">dry bones</a> and they live, not a grace that speaks to dry bones and waits to see if they're willing. The grace of Ephesians 2 is not "God enabled us to make ourselves alive." It is: <em>"God made us alive."</em> Active verb. Divine subject. Human object.</p>
 
@@ -98,9 +103,14 @@ Length 3106w · already spends bridges[] catch-images[]
 
 ## question-depravity
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-depravity.html`
+
 Length 2225w · already spends bridges[libet, drowning] catch-images[lazarus]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>Faith Was Never Yours to Give</h2>
 
@@ -149,9 +159,14 @@ Length 2225w · already spends bridges[libet, drowning] catch-images[lazarus]
 
 ## question-external-call
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-external-call.html`
+
 Length 1772w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p><a href="/systematic-election">God's election</a> does not mean the gospel is not for everyone. It means that within the proclamation to all, God exercises the sovereign right to effectually draw His chosen people. You do not know who they are. I do not know. So we preach to all, knowing that God will draw His own through the Word. We issue the external call to all, trusting that God will use it as the means by which He executes His effectual call to the elect.</p>
 
@@ -185,11 +200,17 @@ Length 1772w · already spends bridges[] catch-images[]
 
 ## question-newheart
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-newheart.html`
+
 Length 3596w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
-<div class="answer-header">Then find the softened-but-undecided heart in the text. It is not here. Ezekiel gives removal and replacement, never a heart enabled and left to vote.</div>
+</div>
+   <div class="answer-header">Then find the softened-but-undecided heart in the text. It is not here. Ezekiel gives removal and replacement, never a heart enabled and left to vote.</div>
    <div class="answer-body">
   <a href="/demolition-prevenient-grace">Prevenient grace</a> cannot run without one particular moment: a will that has been graciously enabled and now stands at a fork, free to tip itself either way. Search Ezekiel 36 for that moment. It is absent. There is the heart of stone — which is <em>removed</em>, never consulted. There is the heart of flesh — which is <em>given</em>, never achieved. And there is the walking — which the Spirit <em>produces</em> ("I will move you to follow my decrees"), never merely permits. Stone, flesh, walking: nowhere does a softened-but-still-undecided heart cast the deciding vote. The position needs a middle stage the text never supplies. Ezekiel did not write of a stone helped to soften. He wrote of a stone lifted out of the chest and a new heart set beating in its place.
 </div>
@@ -264,9 +285,14 @@ Length 3596w · already spends bridges[] catch-images[]
 
 ## question-one-question
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-one-question.html`
+
 Length 1517w · already spends bridges[drowning] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p><a href="/psychology-language-you-already-speak">Your language already knows the answer</a>. "God found me." "He opened my eyes." "Grace hunted me down." Every verb you use to describe your conversion makes God the subject and you the object. Your testimony has been confessing <a href="/systematic-salvation">sovereign grace</a> all along.</p>
 

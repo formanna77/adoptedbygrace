@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## demolition-romans11-32
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-romans11-32.html`
+
 Length 2197w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>That is the doctrine Paul is summarizing. Not <em>God is going to save everyone.</em> Not <em>God is sincerely trying to save everyone but is constrained by their <a href="/question-freewill">free will</a>.</em> But: <em>God has so ordered the disobedience of both Jew and Gentile that mercy reaches the elect of both, in His time, by His sovereign appointment.</em></p>
 
@@ -63,9 +68,14 @@ Length 2197w · already spends bridges[] catch-images[]
 
 ## demolition-works-righteousness
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-works-righteousness.html`
+
 Length 2378w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>Notice Where Your Body Stores the Sliver</h2>
 
@@ -103,9 +113,14 @@ Length 2378w · already spends bridges[] catch-images[]
 
 ## devotional-chosen-before-you-were-broken
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/devotional-chosen-before-you-were-broken.html`
+
 Length 2039w · already spends bridges[drowning, addiction] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>You came here to mourn His silence. Notice: you are still listening.</p>
 
@@ -122,30 +137,6 @@ Length 2039w · already spends bridges[drowning, addiction] catch-images[]
    <p>If the shame settling on you has a particular shape — not the loud, visible failures, but the quiet ones you have never named out loud, the ones you would not read back to yourself in daylight — there is another room written for that exact darkness. <a href="/devotional-the-secretly-ashamed">For the Secretly Ashamed</a> is a companion to this one; it walks the same dark house by a different hallway. Read it when the breath you are holding has a name you will not say.</p>
 
    <p>Now put your hand back on your chest. Feel it rise. The same involuntary mechanism that held you up at the top of this page is holding you up now. You did not install the breath. You are not sustaining it. Something older than you is. And the same One who wrote the breath before you could draw it wrote the choosing before you could refuse it. You did not start yourself. You do not keep yourself. You will not lose yourself. Put your hand down. The breath comes anyway.</p>
-    
-    <div class="article-continue-journey">
-   <h3 class="article-continue-journey-title">Continue the Journey</h3>
-   <div class="hub-grid">
-   <a href="/question-chosen" class="hub-card">
-   <div class="card-number">01</div>
-   <h4 class="card-title">Chosen: The Foundation of Everything</h4>
-   <p class="card-description">Before you were broken, God chose you. Read the Scripture that proves it.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-   <a href="/broken-mirror-grace-too-good" class="hub-card">
-   <div class="card-number">02</div>
-   <h4 class="card-title">When Grace Feels Too Good to Be True</h4>
-   <p class="card-description">If the voice saying "this can't be real" is louder than the voice saying "you are loved" — this page is for you.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-</div>
-</div>
-
-</article>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
@@ -155,9 +146,14 @@ Length 2039w · already spends bridges[drowning, addiction] catch-images[]
 
 ## devotional-drawn-not-dragged
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/devotional-drawn-not-dragged.html`
+
 Length 1717w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <blockquote>
    <p>"We love because he first loved us."</p>
@@ -209,11 +205,18 @@ Length 1717w · already spends bridges[] catch-images[]
 
 ## devotional-found-before-you-were-born
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/devotional-found-before-you-were-born.html`
+
 Length 1091w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
-<h2>The Gentle Demolition</h2>
+</div>
+
+   <h2>The Gentle Demolition</h2>
 
    <p>There is still a whisper in the back of the room, soft, almost polite. It says: <em>"But surely I had to do something. Surely something in me reached for Him."</em></p>
 

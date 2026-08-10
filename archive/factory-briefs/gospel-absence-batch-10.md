@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## joy-freedom-of-smallness
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/joy-freedom-of-smallness.html`
+
 Length 2319w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p><strong>Worship without self-consciousness.</strong> When the ledger goes quiet, you can finally <a href="/joy-worship-without-ceiling">sing the song because you love the song</a>. You can lay your head down during the chorus because you are not maintaining an image. You are just a small creature inside an immense love, and the sound coming out of your chest is not a performance — it is a response.</p>
 
@@ -43,11 +48,54 @@ Length 2319w · already spends bridges[] catch-images[]
 
 ## letters-senior-demon-arminianism
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/letters-senior-demon-arminianism.html`
+
 Length 4817w · already spends bridges[addiction] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
-<span class="card-number">THE CROWN JEWEL</span>
+<p><strong>Third, if he persists, we have one final weapon, and it is the cruelest.</strong> Tell him that if the Enemy chose him, then the Enemy did <em>not</em> choose the uncle, the cousin, the neighbor, the dead child of the next-door family, the billions in foreign lands. Make him grieve so hard for the unchosen that he cannot bear to be the chosen. Make the doctrine of election morally unbearable to him on the grounds of what it implies about those outside it. Convert his newfound comfort into guilt. Convert his security into shame. Convert his gratitude into rage on behalf of strangers. This is our Last Line — the Objection from Pity — and it has ruined many a potential monergist.</p>
+
+<p>If he survives even <em>that</em>, Scuttleworm, we will have lost him. You will return in disgrace. I will have a very sharp conversation with your instructor, who permitted you to graduate from the Academy with, it seems, a deficient understanding of our core propaganda. And the patient — <em>the patient</em> — will spend the remainder of his mortal life writing, to anyone who will listen, that he was <a href="/devotional-found-before-you-were-born">known before he was known</a>, loved before he was lovable, and chosen before the foundation of the world. He will call himself the chief of debtors and mean it. He will pity the ministers of our own persuasion and pray for them. He will become — it sickens me to write this — a witness.</p>
+
+<p>Fight hard, nephew. Very hard.</p>
+
+<p style="text-align: right;">Your uncle, in extremity,<br><strong>Grindbone</strong></p>
+
+<hr class="section-divider" style="margin: 2.5rem 0; border: none; border-top: 1px solid var(--accent-gold); opacity: 0.4;">
+
+<h2>The Editor's Postscript</h2>
+
+<div class="tender-landing" style="border: 1px solid var(--accent-gold); padding: 2rem; border-radius: 8px; background: rgba(212, 162, 84, 0.03); margin-top: 2rem;">
+
+<p>The letters end there. Whether Scuttleworm succeeded or failed is not, in the end, for the letters to tell. The point of the correspondence is not plot. The point is inversion.</p>
+
+<p>Read them once more, if you can bear it, with the inversion running. Every sentence Grindbone writes in praise of a lie is the shape of the truth behind the lie. Every fear he confesses is the shape of the mercy he dreads. He dreads <em>effectual calling</em>, because effectual calling works. He dreads <em>foreknew</em> rightly translated, because rightly translated it means <em>set his love upon</em>. He dreads Lazarus, because Lazarus's tomb is the shape of your conversion. He dreads the word <em>gift</em> in Ephesians 2:8, because the word <em>gift</em> unmakes the whole cathedral of self-salvation we have been conned into calling humility.</p>
+
+<p>The demons are perfect theologians. They know exactly what saves and exactly what ruins their hold, which is why the fourth letter is worth more than the other three together. It is a list, in a demon's own hand, of the three things that must be said to a man who has begun to see — and not one of them is an argument from Scripture. A grievance about fairness, a slur about robots, and a weaponized pity, fired in that order because each is more desperate than the last. Whatever hell reaches for when it is losing is worth knowing. It reached for <a href="/systematic-salvation">everything except the text</a>.</p>
+
+<p>So answer them in that order. <em>Fairness</em> assumes the passed-over have been denied something owed to them; but a man whose debt is cancelled has not thereby wronged the man standing next to him, and nowhere in Scripture is anyone condemned for a sin he did not commit. <em>The robot</em> assumes that a will moved by God is a will destroyed; but you have never once resented the causes that made you love what you love — no man calls his ear for music a violation, though he selected none of the things that formed it. A will handed its own desires is not a will overruled. It is a will made. And <em>pity</em> — the cruelest of the three, and the only one carrying real weight — assumes your grief for the lost runs deeper than the Enemy's. It does not. He wept at a tomb he had come to open.</p>
+
+<p>If Grindbone's terrors are true — and they are the only thing in the letters that is — then somewhere right now, as you are reading this, the Enemy he fears has already set his heart on someone. Perhaps someone who will never read this page. Perhaps someone who will. Perhaps you.</p>
+
+<p>If that suspicion has begun in you — the suspicion Grindbone warned his nephew to quash at all costs — <em>do not quash it</em>. Sit with it. Let the demon be right once, for your own sake. Go back to Ephesians 2:8. Read the word <em>gift</em> slowly. Read it as though you had never heard it. Ask whose idea it was that you ever believed.</p>
+
+<p>The moment of falling — the collapse Grindbone spends four letters trying to prevent — is not falling at all. It is the first time in your life you have stood on anything that can actually hold you.</p>
+
+<p style="text-align: center; margin-top: 2rem; font-style: italic; color: var(--accent-gold);">"I have loved you with an everlasting love; I have drawn you with unfailing kindness." — Jeremiah 31:3</p>
+
+</div>
+
+<hr class="section-divider" style="margin: 2.5rem 0; border: none; border-top: 1px solid var(--accent-gold); opacity: 0.4;">
+
+<h2>Continue the Inversion</h2>
+
+<div class="related-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 1.5rem; margin-top: 2rem;">
+    
+   <span class="card-number">THE CROWN JEWEL</span>
    <h3 class="card-title">Where Did Your Faith Come From?</h3>
    <p class="card-description">The single question Grindbone fears most. Walk Ephesians 2:8–9 to its inescapable conclusion.</p>
    <span class="card-scripture">Ephesians 2:8–9 · Philippians 1:29</span>
@@ -102,9 +150,14 @@ Length 4817w · already spends bridges[addiction] catch-images[]
 
 ## objection-fairness
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/objection-fairness.html`
+
 Length 2390w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>And here is what the complaint never reckons with: <em>fair</em> was <a href="/anxious-mind-never-meant-to-carry">never meant to carry</a> that weight. It is a small word — useful for splitting a pie among children, for refereeing a game, for tallying the bill at the end of dinner. It is the language of equal exchange between equals. It assumes a transaction. It assumes the parties stand on level ground with comparable claims. <em>Fair</em> is what you ask for when you can prove you have already earned it. Take that word and try to use it on the relation between a creature and the Creator who breathed him into being, and the word breaks in your hand. It was never the right size for that sentence.</p>
 
@@ -136,9 +189,14 @@ Length 2390w · already spends bridges[] catch-images[]
 
 ## objection-love
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/objection-love.html`
+
 Length 1825w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p><strong>"Election makes God arbitrary."</strong> Arbitrary means without reason. But God's election flows from His character — "I will have mercy on whom I will have mercy" (Exodus 33:19). The reason is not in the creature. The reason is in God Himself. That is not arbitrary. That is sovereignty. And the fact that He chose <em>anyone</em> — when every last one of us deserved wrath — is not <a href="/question-unfair">injustice</a>. It is mercy that should silence every complaint and bring every knee to the ground.</p>
 
@@ -180,9 +238,14 @@ Length 1825w · already spends bridges[] catch-images[]
 
 ## open-wound-empty-nursery
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/open-wound-empty-nursery.html`
+
 Length 1501w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>Lament Is Worship</h2>
 

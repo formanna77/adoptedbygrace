@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## question-free-will-bible-verses
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-free-will-bible-verses.html`
+
 Length 2646w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>Also note: the verse ends with a command — "Repent and live!" But where does repentance come from? "God exalted him to his own right hand as Prince and Savior that he might bring Israel to repentance and forgive their sins" (Acts 5:31). "Opponents must be gently instructed, in the hope that God will grant them repentance leading them to a knowledge of the truth," (2 Timothy 2:25). Repentance, like faith, is a gift — not a human achievement.</p>
 
@@ -86,9 +91,14 @@ Length 2646w · already spends bridges[] catch-images[]
 
 ## question-freewill
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-freewill.html`
+
 Length 2922w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>What Scripture <em>does</em> teach is this: the unregenerate person does not need more information. They do not need a more compelling argument. They need to be made alive. Regeneration, not persuasion, is the operative category. Dead people do not cooperate in their own resurrection. They receive it.</p>
 
@@ -128,12 +138,15 @@ Length 2922w · already spends bridges[] catch-images[]
 
 ## question-is-predestination-in-the-bible
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-is-predestination-in-the-bible.html`
+
 Length 1642w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
-```html
-<a href="/psychology-cost-of-rejecting-grace">When you discover that God chose you before you could possibly choose yourself, you lose the ability to claim credit for your faith.</a> You can't say, "I picked God." You have to say, "God picked me." And that means the entire basis of your spirituality shifts from works (what you do) to grace (what God did).</p>
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
+```html
 <p>This is terrifying to the flesh. So people create workarounds. They say predestination means "God predestined that He would know what you would choose" — which is just <a href="/question-freewill">free will</a> in theological clothes. Or they say "It applies to the church as a whole, not to individuals" — which contradicts the explicit teaching of Ephesians 1:4-5, where Paul writes to specific churches about their being chosen.</p>
 
 <p>But if you are willing to follow what the text actually says, not what you wish it said, the answer is unavoidable: God chose you. Not because you earned it. Not because you deserved it. But because He loved you before the foundation of the world.</p>
@@ -167,9 +180,14 @@ Length 1642w · already spends bridges[] catch-images[]
 
 ## question-predestined-to-hell
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-predestined-to-hell.html`
+
 Length 1557w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>The Fear That Answers Itself</h2>
 
@@ -203,9 +221,14 @@ Length 1557w · already spends bridges[] catch-images[]
 
 ## question-proverbs-sovereignty
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-proverbs-sovereignty.html`
+
 Length 1833w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>If God controls the outcome of every lot and the heart of every king, what does that mean for <a href="/systematic-soteriology">your salvation</a>? The same principle applies with even greater force. If God can turn <a href="/question-hardening">Pharaoh's heart</a> to stubbornness and Cyrus's heart to mercy, He can turn a <a href="/systematic-hamartiology">sinner's heart</a> to faith. If not even the most powerful person on earth can resist God's direction of their desires, then neither can you — and that is the best news you have ever heard. The same God who directs the lot and governs the king is the God who promises: "I will give you a new heart and put a new spirit in you" (<a href="/question-newheart">Ezekiel 36:26</a>). The sovereignty of Proverbs is the sovereignty that saves.
 

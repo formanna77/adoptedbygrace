@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## anxious-mind-the-loop-that-wont-break
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/anxious-mind-the-loop-that-wont-break.html`
+
 Length 1676w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>You are not the subject of your salvation story. He is.</p>
 
@@ -51,9 +56,14 @@ Length 1676w · already spends bridges[] catch-images[]
 
 ## apologetic-evangelism
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/apologetic-evangelism.html`
+
 Length 1917w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>The Objections That Remain</h2>
 
@@ -87,9 +97,14 @@ Length 1917w · already spends bridges[] catch-images[]
 
 ## apologetic-i-never-knew-you
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/apologetic-i-never-knew-you.html`
+
 Length 1843w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>That dash is where every false assurance dies and every true assurance is born. The men at the door built their case on the left side of Paul's correction — what they knew, said, and did in the name. The saints stand on the right side of it, where the verb runs the other way and always did.</p>
 
@@ -119,9 +134,14 @@ Length 1843w · already spends bridges[] catch-images[]
 
 ## apologetic-i-will-move-you
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/apologetic-i-will-move-you.html`
+
 Length 2148w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>Ezekiel 36 removes the voter. It does not heal the stone heart up to a point and let it decide; it <em>removes</em> the heart of stone and gives a heart of flesh. There is no neutral chooser left standing between the old self and the new, holding the swing vote, because the old chooser was the stone, and the stone is gone. What stands there now is a new heart, already given, already inclined toward God, already being moved to follow by the indwelling Spirit. The decisive factor is not your vote; it is His surgery. And this is not less personal than the alternative — it is more, because it means the love you now have for God is not a fragile thing you barely mustered but a gift planted so deep it became your own pulse. You did choose Him. And the choosing was the first beat of a heart He had just installed.</p>
 
@@ -143,9 +163,14 @@ Length 2148w · already spends bridges[] catch-images[]
 
 ## apologetic-the-lord-knows-those-who-are-his
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/apologetic-the-lord-knows-those-who-are-his.html`
+
 Length 1887w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>Sealed, and Therefore Safe</h2>
 

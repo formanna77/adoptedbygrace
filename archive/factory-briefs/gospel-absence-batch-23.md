@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## systematic-compatibilism
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/systematic-compatibilism.html`
+
 Length 2159w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>When you share the gospel, your words are a secondary cause through which God accomplishes His eternal decree. God could create faith by direct fiat. Instead, He ordains that your faithful witness becomes the means by which the <a href="/systematic-pneumatology">Spirit</a> creates faith in the elect. Your effort is not opposed to God's sovereignty. It is the instrument of it. This is why <a href="/pastoral-evangelism">evangelism</a> is urgent even when election is certain — because God ordains the <em>means</em> as well as the <em>end</em>.</p>
 
@@ -43,9 +48,14 @@ Length 2159w · already spends bridges[] catch-images[]
 
 ## systematic-prolegomena
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/systematic-prolegomena.html`
+
 Length 2185w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>And this is precisely why this truth must be established first, before a single word about depravity or the gift of faith or the <a href="/devotional-never-gives-up">perseverance of the saints</a>. If Scripture is God-breathed, inerrant, sufficient, and clear — then what it teaches about salvation is not a menu of theological options to browse. It is reality, spoken by the One who made reality, and it will not bend to accommodate our comfort.</p>
 
@@ -75,9 +85,14 @@ Length 2185w · already spends bridges[] catch-images[]
 
 ## systematic-theology-proper
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/systematic-theology-proper.html`
+
 Length 1855w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>The God You Didn't Expect — And Desperately Need</h2>
 
@@ -117,9 +132,14 @@ Length 1855w · already spends bridges[] catch-images[]
 
 ## theologian-anselm
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/theologian-anselm.html`
+
 Length 3505w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>Note also what he does <em>not</em> do at the wall, which is the mark of a first-rate mind. He does not soften the fact to make it manageable. He does not relocate the difference into the two men, where it would be comfortable and where every century since has tried to put it. He states it at full strength — <em>hos magis quam illos</em>, these rather than those, out of men alike wicked — and then admits he cannot get behind it, and stops.</p>
 
@@ -157,9 +177,14 @@ Length 3505w · already spends bridges[] catch-images[]
 
 ## theologian-gottschalk
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/theologian-gottschalk.html`
+
 Length 2075w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>But there is comfort in Gottschalk's story for anyone who has paid a price for unpopular truth. He died in that cell never knowing his sacrifice mattered. He had to trust, in the darkness, that God was right and that this truth would endure. And it did. Because the God who <a href="/devotional-never-gives-up">never gives up</a> on His people never gives up on His truth either. The medieval church is dust now. Hincmar is a footnote. But the truth Gottschalk bled for — that salvation is God's choice, God's work, and God's gift from first to last — that truth is still preaching.</p>
 

@@ -11,11 +11,15 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## question-why-pray-if-god-is-sovereign
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-why-pray-if-god-is-sovereign.html`
+
 Length 1791w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
-of God." (Romans 8:26-27)</p>
 </blockquote>
 
 <p>Your confusion, your weakness, your inability to find the right words — the Spirit takes all of that and translates it into perfect prayer according to God's will. Your stumbling, imperfect request becomes the vehicle for the Spirit's perfect intercession. You are not responsible for praying correctly. You're just responsible for praying truthfully. The Spirit handles the rest.</p>
@@ -54,9 +58,14 @@ of God." (Romans 8:26-27)</p>
 
 ## scripture-tsunami-faith-as-gift
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/scripture-tsunami-faith-as-gift.html`
+
 Length 2127w · already spends bridges[] catch-images[lazarus]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>Watch that reflex. Name it. That reflex is not your intellect protecting Scripture from a heresy. That reflex is your interior architect protecting a building — a very old, very tired, very small building with your name on the door — from a tide that is about to flatten it. You did not build that building on purpose. You inherited it. You were born inside it. Its central load-bearing wall is this: <em>I am the author of what happens to me.</em> And every verse on this page is a sledgehammer aimed at that wall. Which is why you cannot read forty of them and remain neutral. Nobody can. You will either walk out of this page still defending the wall — and you will call it discernment, you will call it careful exegesis, you will call it "balance" — or you will let the wall go and discover, for the first time, that what you thought was a house was actually a cage, and the tide that just broke it open was the kindness of a God who refused to leave you in it.</p>
 
@@ -114,9 +123,14 @@ Length 2127w · already spends bridges[] catch-images[lazarus]
 
 ## secular-art-literature-reformed-truth
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/secular-art-literature-reformed-truth.html`
+
 Length 2434w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>The convergence is the argument. They were all looking at the same reality.</p>
 
@@ -151,9 +165,14 @@ Length 2434w · already spends bridges[] catch-images[]
 
 ## secular-genetics-sovereignty
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/secular-genetics-sovereignty.html`
+
 Length 2897w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <div class="self-ref">
    <h4>The Uncomfortable Question</h4>
@@ -224,9 +243,14 @@ Length 2897w · already spends bridges[] catch-images[]
 
 ## secular-hard-problem-consciousness
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/secular-hard-problem-consciousness.html`
+
 Length 1453w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>The person who rejects God because "there's no scientific evidence" is using consciousness to make that judgment — the one thing science cannot explain. They are wielding the Hard Problem as a weapon against God when the Hard Problem is itself the strongest argument that materialism is insufficient. They are standing on the ground of mystery while declaring that the mysterious is impossible. That is not reasoning. That is the contradiction at the heart of all self-trust: claiming certainty from uncertainty, claiming independence from a source you cannot fathom.</p>
 

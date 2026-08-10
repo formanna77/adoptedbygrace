@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## devotional-i-dont-think-im-saved
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/devotional-i-dont-think-im-saved.html`
+
 Length 2380w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>That tension in your body is not a moral failure and it is not a spiritual one. It is your body bracing to hold a salvation it was never asked to hold. You can release it — not because the fear is unjustified inside the theology you have been operating under, but because the theology you have been operating under is not the gospel.</p>
 
@@ -48,9 +53,14 @@ Length 2380w · already spends bridges[] catch-images[]
 
 ## response-william-lane-craig
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/response-william-lane-craig.html`
+
 Length 4120w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p><strong>Fourth — taking philosophy seriously as a servant of theology.</strong> Craig rejects fideism and insists that Christian theology must be philosophically defensible. We agree. The Reformed tradition has produced some of the greatest philosopher-theologians in history — Edwards, Turretin, Van Til, Plantinga — and Craig stands in that lineage even when we disagree about conclusions.</p>
 

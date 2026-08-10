@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## devotional-held-without-asking
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/devotional-held-without-asking.html`
+
 Length 1635w · already spends bridges[drowning] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>You can have that sleep. You can have that peace. The only thing standing between you and it is your insistence on being the kind of creature who is held only with permission. Give that up. It was a role you were never fit for. Accept that you are the kind of creature who is held before asking, carried before knowing, rescued before consenting. Accept that this is not a violation of your dignity but the foundation of it. Accept that the love that held you without asking is the only love in the universe <em>worth</em> being held by, because it is the only love that could actually save you.</p>
 
@@ -63,9 +68,14 @@ Length 1635w · already spends bridges[drowning] catch-images[]
 
 ## devotional-i-cant-feel-god
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/devotional-i-cant-feel-god.html`
+
 Length 1534w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <cite>PHILIPPIANS 1:6</cite>
    </blockquote>
@@ -101,9 +111,14 @@ Length 1534w · already spends bridges[] catch-images[]
 
 ## devotional-the-god-who-wastes-nothing
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/devotional-the-god-who-wastes-nothing.html`
+
 Length 2075w · already spends bridges[addiction] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>The assumption underneath: <em>you</em> were the one steering, and you fumbled it.</p>
 
@@ -139,9 +154,14 @@ Length 2075w · already spends bridges[addiction] catch-images[]
 
 ## devotional-the-ground-disappeared
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/devotional-the-ground-disappeared.html`
+
 Length 1933w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>Three. <em>Let yourself cry if you need to.</em> Grief is the correct emotional response to the death of the hero-you. It is the body's way of saying <em>I understand something has changed forever</em>. Cry the way you cry at the end of a film where the main character you thought was the hero turns out to have been saved all along by someone else you didn't notice. Weep at the relief of not being the main character. It is the best news you will ever receive.</p>
 
@@ -195,9 +215,14 @@ Length 1933w · already spends bridges[] catch-images[]
 
 ## devotional-the-quiet-after-the-storm
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/devotional-the-quiet-after-the-storm.html`
+
 Length 1803w · already spends bridges[drowning] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>The Storm May Come Back</h2>
 

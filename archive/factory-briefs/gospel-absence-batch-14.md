@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## psychology-fear-control
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-fear-control.html`
+
 Length 1453w · already spends bridges[lottery] catch-images[the rope]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>What Surrender Actually Feels Like</h2>
 
@@ -44,9 +49,14 @@ Length 1453w · already spends bridges[lottery] catch-images[the rope]
 
 ## psychology-hostility-reaction
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-hostility-reaction.html`
+
 Length 2064w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>Your deepest idol is not comfort, not happiness, not even spiritual achievement. Your deepest idol is <em>yourself</em>. Your sovereignty. Your agency. Your ability to be the author of your own story. Grace tears that idol from the throne and leaves you naked. And the flesh's first response to nakedness is to rage.</p>
 
@@ -82,9 +92,14 @@ Length 2064w · already spends bridges[] catch-images[]
 
 ## psychology-language-acquisition
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-language-acquisition.html`
+
 Length 1725w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p><strong><a href="/devotional-rescued-without-a-say">The faith was arriving before you decided to believe.</a></strong></p>
 
@@ -116,11 +131,21 @@ Length 1725w · already spends bridges[] catch-images[]
 
 ## psychology-sunk-cost-faith
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-sunk-cost-faith.html`
+
 Length 1292w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
-<h3 class="card-title">Why Grace Feels Like an Attack</h3>
+<p><em>The sunk cost is not stronger than grace. Nothing is.</em></p>
+
+    <h2>Keep Reading</h2>
+    <div class="hub-grid">
+   
+   <h3 class="card-title">Why Grace Feels Like an Attack</h3>
    <p class="card-description">The identity threat that makes sovereign grace feel dangerous.</p>
    <div class="card-footer">
    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
@@ -158,9 +183,14 @@ Length 1292w · already spends bridges[] catch-images[]
 
 ## psychology-suppressing-truth
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-suppressing-truth.html`
+
 Length 1594w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>The ablest objector will not flinch at any of this. "I am not suppressing evidence," he says. "There is no compelling evidence, and calling my honest unbelief 'suppression' is a slur you can never disprove." Take the charge seriously, because half of it is right: you cannot read his heart, and the accusation is worthless if it only means "anyone who disagrees is secretly lying." But notice what motivated reasoning actually predicts. Kunda's own work shows the mechanism runs beneath awareness — the biased reasoner sincerely feels impartial while the conclusion that serves him arrives dressed as pure logic. So "it does not feel like suppression" is not evidence against suppression; it is exactly what suppression feels like from the inside. Which does not turn your reaction into a verdict against you. A flash of heat is not proof; read that way, the charge really would be the unfalsifiable slur he accuses it of being, and the argument does not rest there. It rests on the texts and the logic, which stand whether you feel anything or not. But the heat is worth your own honest attention. If the question of <a href="/systematic-election">who casts the deciding vote in your salvation</a> leaves you cooler than a dozen doctrines you hold loosely, nothing here applies to you. If it runs hotter — if "God chose you" tightens something in your chest that "God is eternal" never does — that is not a confession anyone can extract from you. It is a question only you can answer in the quiet: what, exactly, is being defended?</p>
 

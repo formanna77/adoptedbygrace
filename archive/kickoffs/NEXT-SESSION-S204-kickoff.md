@@ -126,6 +126,35 @@ the source rather than downstream.
 Do not run 20 at once; you cannot review what you cannot hold. **The first wave is a calibration
 wave** — read every line of its output closely before trusting the next.
 
+### BETWEEN EVERY WAVE — do these two things or the model degrades
+
+1. **Re-run `node archive/session-brief.js` then `make-factory-brief.js`.** The briefs are a
+   snapshot of page contents at generation time. Once a wave edits its pages, the remaining
+   briefs are unchanged but the *corpus* is not — and the freshness rows are now stale.
+2. **Update the spent-image list you hand the next wave.** `freshness-ledger.json` is a
+   snapshot, not a running tally; it does not know what the last wave just wrote. Collect the
+   `IMAGE SPENT:` field from every returned line, add it to the forbidden list, and pass it
+   forward. **Across 24 gospel-absence batches this is the difference between range and
+   wallpaper.** Wave 3 reaching for the same Gethsemane wave 1 already spent is invisible to
+   every check on this site and visible to the reader who goes ten doors deep.
+
+### Known state of the tooling (audited at S203 close, do not re-derive)
+
+- 29 briefs cover all 138 Lane B pages. **138/138 prose blocks audited: 0 contain furniture
+  (hub cards, `</article>`, footer), 0 under 600 chars, sizes 882 / 2,756 / 7,861.**
+- Three extraction bugs were found and fixed during that audit and are worth knowing because
+  they are the shape of bug this whole file is about: a boundary matcher that required a
+  closing quote walked past `article-continue-journey-links`; an anchor hard-coded to three
+  spaces of indentation handed `ot-jonah` a 111-character excerpt; and 13 tails ran into hub
+  cards or the footer. **Each was an assumption about markup that held on most pages and not
+  all.** If you extend the extractor, re-run the audit.
+- Lane rosters are disjoint — no two agents can target the same page.
+- Files in `archive/` cannot be deleted from the sandbox (`rm` returns "Operation not
+  permitted") but overwrite works fine. Regenerate in place; do not try to clear the directory
+  first, and **never chain the regeneration behind an `rm` with `&&`** — S203 did, the `rm`
+  failed, the whole regeneration silently never ran, and the audit that followed was measuring
+  stale files.
+
 ---
 
 ## LANE A — THE 375, AND THE 130 UNTAGGED (Aaron's chosen standard)

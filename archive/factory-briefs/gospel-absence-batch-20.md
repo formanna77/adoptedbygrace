@@ -11,11 +11,23 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## secular-philosophy-free-will
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/secular-philosophy-free-will.html`
+
 Length 2077w · already spends bridges[lottery] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
-<p>"From one man he made all the nations, that they should inhabit the whole earth; and he marked out their appointed times in history and the boundaries of their lands."</p>
+<h2>The Billions of Unchosen Variables</h2>
+
+    <p>Consider what God determined before you drew your first breath. Your century — which determines every idea, religion, and worldview available to you. Your country and culture — a child born in rural India is statistically overwhelmingly likely to be Hindu; a child born in the American South, some form of Christian. Your family, your neurology, your temperament, your intelligence, your traumas. Personality traits are 40-60% heritable. Your very disposition toward belief or skepticism has a genetic component. Multiply all of these variables together: century, geography, culture, language, family, genetics, neurology, temperament, intelligence, experiences — <strong>billions of variables, every one determined before you ever made a single "free" decision.</strong></p>
+
+    <p>If you put a <a href="/story-the-fish-who-chose-the-ocean">fish in a bowl</a>, the fish can swim left or right. But the <em>bowl</em> determines everything else — temperature, oxygen, boundaries. You are the fish. God made the bowl. He chose every parameter within which your "free choices" occur. And the Arminian wants you to believe that within this entirely God-determined environment, you make an autonomous, uncaused decision about the most important question in the universe? That the one thing God left to chance is whether you spend eternity in heaven or hell?</p>
+
+    <blockquote>
+   <p>"From one man he made all the nations, that they should inhabit the whole earth; and he marked out their appointed times in history and the boundaries of their lands."</p>
    <cite>ACTS 17:26</cite>
     </blockquote>
 
@@ -41,9 +53,14 @@ Length 2077w · already spends bridges[lottery] catch-images[]
 
 ## secular-psychology-bondage-of-will
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/secular-psychology-bondage-of-will.html`
+
 Length 1699w · already spends bridges[libet, addiction] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>The Verdict the Lab Cannot Escape</h2>
 
@@ -71,9 +88,14 @@ Length 1699w · already spends bridges[libet, addiction] catch-images[]
 
 ## secular-sociology-human-inability
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/secular-sociology-human-inability.html`
+
 Length 1936w · already spends bridges[anosognosia] catch-images[mirror]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>If You Feel the Weight</h2>
 
@@ -100,9 +122,14 @@ Length 1936w · already spends bridges[anosognosia] catch-images[mirror]
 
 ## shattered-lens-cant-tell-true
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/shattered-lens-cant-tell-true.html`
+
 Length 2638w · already spends bridges[anosognosia] catch-images[cargo]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>You Were Born Now on Purpose</h2>
 
@@ -150,11 +177,18 @@ Length 2638w · already spends bridges[anosognosia] catch-images[cargo]
 
 ## shattered-lens-cant-unsee-it
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/shattered-lens-cant-unsee-it.html`
+
 Length 1502w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
-<p>The guilt often comes from a single lie: "If I'm right about this and they're wrong, what does that say about them?" And the answer is simple: it says they haven't seen it yet. Not that they're stupid. Not that they're apostate. Not that they'll never understand. It says they're where you were three months ago. And they may stay there for years. Some of them may never come to this understanding. That's heartbreaking, but it's not your fault, and it's not your job to force it. The <a href="/invisible-wall-lonely-theological">loneliness of theological awakening</a> is real — but it is not the end of the story.</p>
+</p>
+
+   <p>The guilt often comes from a single lie: "If I'm right about this and they're wrong, what does that say about them?" And the answer is simple: it says they haven't seen it yet. Not that they're stupid. Not that they're apostate. Not that they'll never understand. It says they're where you were three months ago. And they may stay there for years. Some of them may never come to this understanding. That's heartbreaking, but it's not your fault, and it's not your job to force it. The <a href="/invisible-wall-lonely-theological">loneliness of theological awakening</a> is real — but it is not the end of the story.</p>
 
    <p>Your job is to let the Spirit do what He does—to open eyes according to His timing, not your urgency.</p>
 

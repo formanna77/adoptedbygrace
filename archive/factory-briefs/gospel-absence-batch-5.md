@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## demolition-ezekiel33-11
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-ezekiel33-11.html`
+
 Length 2091w · already spends bridges[addiction] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>The universal reading makes the verse meaningless</h2>
 
@@ -45,9 +50,14 @@ Length 2091w · already spends bridges[addiction] catch-images[]
 
 ## demolition-hebrews6-4-6
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-hebrews6-4-6.html`
+
 Length 1613w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>But that's not what you're afraid of. You're afraid of <em>His absence.</em> You're afraid that He might have left. You're afraid that the presence you tasted might be gone. Your terror is not directed inward — at your willpower — but upward, at the One whose face you desperately need to see. That distinction is worth following. <a href="/question-where-did-your-faith-come-from">A self-generated faith fears its own inadequacy</a>; a <em>given</em> faith fears the Giver's departure. So turn the fear around and follow where it points. You are not, in the end, afraid of losing your grip. You are afraid of losing <em>Him</em>. And a fear aimed at Him has somewhere to go — not back into your own chest to be weighed and measured, where it will only ever come up short, but up, to the One whose grip is the only one that was ever holding you. Do not read your ache as the proof. Read His promise.</p>
 
@@ -73,9 +83,14 @@ Length 1613w · already spends bridges[] catch-images[]
 
 ## demolition-john3-16
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-john3-16.html`
+
 Length 2138w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>If your faith is something you generated — your decision, your choice, your autonomous response — then you are the decisive factor in your salvation. You are the hero of your own rescue story. And that is, whether you see it or not, a form of boasting. Paul slammed the door on that: <em>"It is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God — not by works, so that no one can boast"</em> (Ephesians 2:8-9).</p>
 
@@ -126,9 +141,14 @@ Length 2138w · already spends bridges[] catch-images[]
 
 ## demolition-mark16-16
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-mark16-16.html`
+
 Length 2337w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>The conditional sentence does not contradict the gift. The condition is met by the gift. The believing that saves is a believing whose origin is the gift of God — and the verse that names it as a gift (Ephesians 2:8) is the verse that closes the door on every form of boast (Ephesians 2:9). Mark 16:16, read in its proper place, does not deliver the autonomous will. It delivers a person — every person — who is saved through a faith that is finally not their own achievement but their Father&apos;s gift.</p>
 
@@ -187,9 +207,14 @@ Length 2337w · already spends bridges[] catch-images[]
 
 ## demolition-rev22-17
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-rev22-17.html`
+
 Length 1750w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>This is not a trick. It is not God saying one thing and meaning another. It is the proper ordering of the <a href="/systematic-ordo-salutis">ordo salutis</a>. The call goes out to all; the Spirit creates thirst in some; the thirst that was created then hears the call and comes. The same call produces radically different responses not because of different human wills but because of different divine workings.</p>
 

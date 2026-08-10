@@ -11,11 +11,28 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## analogy-orchestra
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/analogy-orchestra.html`
+
 Length 2085w · already spends bridges[drowning] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
-<div class="cl-cat">ANALOGY</div>
+<p>But you are not losing the music.</p>
+
+<p>You are discovering who wrote it.</p>
+
+<p>The Composer is older than the hall and infinitely better than you imagined. His score is more beautiful than anything that could have come out of the part of you that wanted to write it. Every nuance of your personality, every gift He gave you, every genuine choice you make — all of it, woven into a symphony that began before there was a stage to play it on.</p>
+
+<p>The hall is dark now. The last note has been held and released. The musicians lower their instruments. Somewhere in the audience a stranger is wiping their eyes — not because the violinist proved a point, but because, for the length of one movement, she was carried inside a score so beautiful that her hands forgot to insist they had written it. That carrying is the gift. That forgetting is the freedom. The Composer is real. The score is finished. And the performance — every breath of it — is yours, and was, always, His.</p>
+
+<section class="cross-links">
+<h3>Explore Related Truths</h3>
+<div class="cross-links-grid">
+    <a href="/analogy-river" class="cross-link">
+   <div class="cl-cat">ANALOGY</div>
    <div class="cl-title">The River That Thinks It Chose Its Path</div>
 </a>
     
@@ -56,28 +73,6 @@ Length 2085w · already spends bridges[drowning] catch-images[]
    <a href="/devotional-never-gives-up" class="banner-link">Read the Full Devotional →</a>
 </div>
 </section>
-
-    <div class="article-continue-journey">
-   <h3 class="article-continue-journey-title">Continue the Journey</h3>
-   <div class="hub-grid">
-   <a href="/systematic-divine-decrees" class="hub-card">
-   <div class="card-number">01</div>
-   <h4 class="card-title">The Divine Decrees</h4>
-   <p class="card-description">The orchestra analogy shows what the decrees look like in motion.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-   <a href="/devotional-love-letter-before-time" class="hub-card">
-   <div class="card-number">02</div>
-   <h4 class="card-title">A Love Letter Before Time</h4>
-   <p class="card-description">Your part was written before the symphony began.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-</div>
-</div>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
@@ -90,9 +85,14 @@ Length 2085w · already spends bridges[drowning] catch-images[]
 
 ## analogy-river
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/analogy-river.html`
+
 Length 1974w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>And that is worth naming gently, because what sits underneath it is almost never pride in the ugly sense. It is fear, and a reasonable one: <em>if I did not choose this love, was it ever really love?</em> The question deserves an answer instead of a rebuke. Here is the answer. <a href="/question-where-did-your-faith-come-from">No one has ever been loved for reasons they supplied.</a> Every love worth the name arrived before you could earn it, and the ones you had to earn were the counterfeits.</p>
 </div>
@@ -136,11 +136,22 @@ Length 1974w · already spends bridges[] catch-images[]
 
 ## compare-monergism-synergism
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/compare-monergism-synergism.html`
+
 Length 2026w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
-<span class="scripture-ref">— Romans 9:16</span>
+</section>
+
+<!-- VERDICT -->
+<section class="section-block" id="verdict">
+    <div class="scripture-block">
+  "It does not, therefore, depend on human desire or effort, but on God's mercy."
+   <span class="scripture-ref">— Romans 9:16</span>
 </div>
 
     <div class="verdict">
@@ -188,8 +199,6 @@ Length 2026w · already spends bridges[] catch-images[]
 </div>
 </div>
 </section>
-
-</article>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
@@ -210,9 +219,14 @@ Length 2026w · already spends bridges[] catch-images[]
 
 ## devotional-glory-of-divine-choice
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/devotional-glory-of-divine-choice.html`
+
 Length 1202w · already spends bridges[] catch-images[the rope]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p><em>Father, let me believe this today: before I was, I was chosen. Before I could do anything, You determined to make me Yours. Help me rest in that choice. Let the glory of Your decision — made in eternity, paid for in blood — become the ground of my peace. In Jesus' name, amen.</em></p>
 
@@ -256,9 +270,14 @@ Length 1202w · already spends bridges[] catch-images[the rope]
 
 ## hymn-amazing-grace
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/hymn-amazing-grace.html`
+
 Length 3109w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>That is what "Amazing Grace" is about. Not a God who stands back and says "Here's grace — take it or leave it." But a God who appears in the storm and says <em>"You are mine,"</em> and that appearance is the grace. His choosing of you is the grace. His making you alive when you were dead is the grace. His keeping you when you would wander is the grace. Newton called it <em>amazing</em> because it shouldn't have happened. He had given God every reason not to save him. And yet grace appeared — not because he chose well in a moment of clarity, but because God saw fit to save a wretch.</p>
 

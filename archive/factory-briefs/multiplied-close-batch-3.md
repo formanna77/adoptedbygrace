@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## story-dark-the-woman-who-earned-her-seat
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-dark-the-woman-who-earned-her-seat.html`
+
 Length 1452w · already spends bridges[drowning] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>"I used to think the worst thing about my life was that I'd wasted so much of it. But the most terrifying, beautiful thing is that none of it surprised Him. He knew. He chose me anyway. Before I was born. Before I took my first drink. He signed the papers on me before there was a <em>me</em> to sign for."</p>
 
@@ -59,9 +64,14 @@ Length 1452w · already spends bridges[drowning] catch-images[]
 
 ## story-humor-the-man-who-sued-god
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-humor-the-man-who-sued-god.html`
+
 Length 2031w · already spends bridges[drowning] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>The man who sued God for saving him discovered, in the end, that the only thing more terrifying than a God who saves you without asking is a God who doesn't.</p>
 
@@ -133,9 +143,14 @@ Length 2031w · already spends bridges[drowning] catch-images[]
 
 ## story-tender-the-gardener-who-waited
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-tender-the-gardener-who-waited.html`
+
 Length 1995w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>Thomas was in the garden. Of course he was. The sunflower was still there — taller than him now, leaning toward the house.</p>
 
@@ -174,9 +189,14 @@ Length 1995w · already spends bridges[] catch-images[]
 
 ## story-the-garden-that-grew-itself
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-the-garden-that-grew-itself.html`
+
 Length 1658w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <div class="scripture">
    <span class="ref">John 12:24</span>
@@ -213,28 +233,6 @@ Length 1658w · already spends bridges[] catch-images[]
 </a>
 </div>
    </section>
-    
-    <div class="article-continue-journey">
-   <h3 class="article-continue-journey-title">Continue the Journey</h3>
-   <div class="hub-grid">
-   <a href="/systematic-regeneration" class="hub-card">
-   <div class="card-number">01</div>
-   <h4 class="card-title">Regeneration</h4>
-   <p class="card-description">No garden grows itself. No soul regenerates itself.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-   <a href="/devotional-the-prayer-you-didnt-pray" class="hub-card">
-   <div class="card-number">02</div>
-   <h4 class="card-title">The Prayer You Didn't Pray</h4>
-   <p class="card-description">The garden didn't plant itself. Neither did your faith.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-</div>
-</div>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
@@ -245,9 +243,14 @@ Length 1658w · already spends bridges[] catch-images[]
 
 ## systematic-christology
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/systematic-christology.html`
+
 Length 1964w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>Why This Changes Everything</h2>
 

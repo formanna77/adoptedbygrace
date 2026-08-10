@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## presuppositional-impossibility-of-the-contrary
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/presuppositional-impossibility-of-the-contrary.html`
+
 Length 2408w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>The Argument That Catches You</h2>
 
@@ -34,9 +39,14 @@ Length 2408w · already spends bridges[] catch-images[]
 
 ## psychology-anosognosia-of-sin
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-anosognosia-of-sin.html`
+
 Length 1728w · already spends bridges[anosognosia] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>This is why the Crown Jewel argument — <a href="/question-where-did-your-faith-come-from">the question "where did your faith come from?"</a> — closes every exit. It doesn't start by accusing you of depravity. It starts with Scripture you already believe. It asks a question you think is innocent. And by the time the logic closes, you are forced to acknowledge what you have been insisting was not true: that something other than your own will brought you to faith.</p>
 
@@ -58,9 +68,14 @@ Length 1728w · already spends bridges[anosognosia] catch-images[]
 
 ## psychology-cognitive-biases
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-cognitive-biases.html`
+
 Length 4346w · already spends bridges[libet] catch-images[mirror]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <div class="pull-quote-container">
    <p class="pull-quote-author">&mdash; <a href="/analogy-adoption">Adopted by Grace</a></p>
@@ -149,11 +164,6 @@ Length 4346w · already spends bridges[libet] catch-images[mirror]
 </div>
 
    <p>You will want to know, now, whether you feel unsettled enough for it to count. Resist that. This page has spent four thousand words establishing that the instrument you would measure with is the instrument under investigation — and a mind grading its own clarity has already failed the exam it is setting. The <a href="/broken-mirror-imposter-syndrome">broken mirror</a> does not have to clear before the rescue arrives. The God who <a href="/devotional-chosen-before-you-were-broken">chose you before you were broken</a> knew every blind spot your mind would ever deploy — and chose you anyway. Your distortions were never obstacles to His grace; they are the very things it <a href="/devotional-rescued-without-a-say">rescues you through</a>. He does not wait for you to think clearly before He saves you. He saves you, and then the clearing begins.</p>
-
-   </article>
-    </main>
-
-    <!-- Footer -->
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
@@ -181,9 +191,14 @@ Length 4346w · already spends bridges[libet] catch-images[mirror]
 
 ## psychology-conversion-memory-test
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-conversion-memory-test.html`
+
 Length 2632w · already spends bridges[split-brain] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>The hand that made the new creation did not leave a timestamp the way your hand leaves a signature on a lease. It left a different kind of mark. It left a <em>life</em> where there had been no life. It left a <em>desire for God</em> where there had been no desire — an appetite for a Father the old heart never once wanted. That is the kind of evidence the new birth leaves: not a memory, a transformation.</p>
 
@@ -218,9 +233,14 @@ Length 2632w · already spends bridges[split-brain] catch-images[]
 
 ## psychology-cost-of-rejecting-grace
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-cost-of-rejecting-grace.html`
+
 Length 1893w · already spends bridges[anosognosia] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>People run from this truth for years — across continents, through grief, through the breaking of their own bodies. They do not stop running because they choose to. They stop because their options run out and grace is still there. A decade of rebellion, and grace is still there. That is not an offer waiting for your RSVP. That is a God who will not be refused. Again and again the runner finally stops — not because the chase ended, but because grace would not stop chasing.</p>
 

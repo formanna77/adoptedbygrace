@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## broken-mirror-grace-too-good
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/broken-mirror-grace-too-good.html`
+
 Length 1779w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <cite>ROMANS 8:1</cite>
    </blockquote>
@@ -49,9 +54,14 @@ Length 1779w · already spends bridges[] catch-images[]
 
 ## broken-mirror-the-relapse
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/broken-mirror-the-relapse.html`
+
 Length 1825w · already spends bridges[] catch-images[the rope]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>What to Do Now</h2>
 
@@ -81,9 +91,14 @@ Length 1825w · already spends bridges[] catch-images[the rope]
 
 ## compare-every-decision-point
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/compare-every-decision-point.html`
+
 Length 1724w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>9. What Is the Basis of Election?</h2>
 
@@ -138,13 +153,16 @@ Length 1724w · already spends bridges[] catch-images[]
 
 ## compare-lutheranism
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/compare-lutheranism.html`
+
 Length 1997w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
-```html
-broken-mirror-vessels-for-mercy">vessels of mercy</a> and merely bears with the <a href="/question-romans9">vessels of wrath</a>, the kindness active and the wrath endured. Grace is the cause of the saved; the lost are the cause of themselves. That is how the Reformed can say, word for word, the Lutheran's own axiom — salvation entirely from God, damnation entirely from us — while refusing to tear the back half off the decree.</p>
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
-    <p>The second fear is that a grace you cannot lose becomes a grace you stop trembling before — that "once saved" rots quietly into license, that the man who cannot fall will stop watching his feet. That fear is not faithlessness either. It is the reflex of Romans 6, <em>shall we go on sinning so that grace may increase,</em> and the Lutheran is right to keep the reflex. But the Reformed do not answer it by making grace losable. They answer it by insisting that the grace which keeps you is the same grace that changes you — that the kept are not the careless but the holy, because the God who will not let you go will not leave you as you were. Security and sloth are not the same root; one is the soil the other never grows in.</p>
+```html
+<p>The second fear is that a grace you cannot lose becomes a grace you stop trembling before — that "once saved" rots quietly into license, that the man who cannot fall will stop watching his feet. That fear is not faithlessness either. It is the reflex of Romans 6, <em>shall we go on sinning so that grace may increase,</em> and the Lutheran is right to keep the reflex. But the Reformed do not answer it by making grace losable. They answer it by insisting that the grace which keeps you is the same grace that changes you — that the kept are not the careless but the holy, because the God who will not let you go will not leave you as you were. Security and sloth are not the same root; one is the soil the other never grows in.</p>
 
     <p>Answer the fear, and the flinch has nowhere left to stand. What kept the Lutheran one stride short was never bad logic. It was a good man guarding the goodness of God and the seriousness of sin — and both are guarded better, not worse, on the far bank.</p>
 
@@ -164,9 +182,14 @@ broken-mirror-vessels-for-mercy">vessels of mercy</a> and merely bears with the 
 
 ## demolition-1cor10-13
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-1cor10-13.html`
+
 Length 1851w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>And here is where the Crown Jewel argument comes home. If even your <em>endurance under temptation</em> is a gift from a faithful God, then how much more is <a href="/question-faithgift">your <em>initial faith</em> a gift</a>? The whole Christian life is presented, from Genesis to Revelation, as a work God begins and God finishes. The Arminian reading of 1 Corinthians 10:13 is not just a bad exegesis. It is a glimpse of an entire system that wants to give God credit for the final 5% and keep the first 95% for the creature. The text will not allow it.</p>
 

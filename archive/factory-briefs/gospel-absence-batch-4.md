@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## demolition-2cor6-1
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-2cor6-1.html`
+
 Length 2834w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p><strong>Two.</strong> 2 Corinthians 13:5 commands the same audience to examine whether Christ is really in them. Why would Paul need to give that command if every hearer of 2 Corinthians 6:1 was already saved? The only coherent answer is that his audience was mixed — and mixed audiences are exactly where the distinction between common grace and saving grace applies.</p>
 
@@ -62,9 +67,14 @@ Length 2834w · already spends bridges[] catch-images[]
 
 ## demolition-2pet2-20
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-2pet2-20.html`
+
 Length 1509w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>You Do Not Return to What You Have Learned to Hate</h2>
 
@@ -82,9 +92,14 @@ Length 1509w · already spends bridges[] catch-images[]
 
 ## demolition-2peter3-15
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-2peter3-15.html`
+
 Length 1758w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>The verse, properly read, becomes one of the warmest pastoral comforts in the New Testament. The God who has chosen you <a href="/systematic-common-grace">has not abandoned the world He is patient with</a>. He is gathering His elect, day by day, until every name in the book has been called. The delay is not failure. The delay is the sovereign in-gathering of the rest of the family. Your salvation, which felt to you like the random end of one person&apos;s wandering, was actually the work of a Father who has been patient with the world precisely so that <em>you</em>, on the day appointed for you, would be one of the ones gathered in.</p>
    <p>That is what the patience &ldquo;means.&rdquo; It does not mean a universal salvation that overrides God&apos;s sovereign electing love. It means that love expressed in patient, day-by-day in-gathering of the saved. Read in context, the verse stops being a problem and becomes a doorway — into the kingdom of grace, prepared from the foundation of the world for those whose names were written in it from before time.</p>
@@ -129,9 +144,14 @@ Length 1758w · already spends bridges[] catch-images[]
 
 ## demolition-col1-23
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-col1-23.html`
+
 Length 1531w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <cite>1 JOHN 2:19</cite>
    </blockquote>
@@ -155,9 +175,14 @@ Length 1531w · already spends bridges[] catch-images[]
 
 ## demolition-cut-off-from-root
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-cut-off-from-root.html`
+
 Length 2348w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>This is why salvation is entirely the work of God. It cannot begin with us, because we are dead. It must begin with Him — an act of regeneration, a sovereign reconnection that <a href="/devotional-never-gives-up">brings to life what cannot bring itself to life</a>. The <a href="/question-ezekiel37">valley of dry bones</a> did not reassemble themselves. The word of the Lord came to them, and they lived.</p>
 

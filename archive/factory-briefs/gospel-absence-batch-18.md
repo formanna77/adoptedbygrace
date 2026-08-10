@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## question-psalm139
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-psalm139.html`
+
 Length 1965w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>Third, the verbs of formation use the same vocabulary as Genesis 1-2. The word the NIV renders "ordained" in verse 16 is <em>yatsar</em> — the same verb God uses to form the man from the dust in Genesis 2:7. David deliberately places his own formation in continuity with <a href="/systematic-anthropology">God's creative sovereignty</a>. The same God who spoke the universe into existence formed David's days with the same sovereign, unilateral, unconsulted power.</p>
 
@@ -48,9 +53,14 @@ Length 1965w · already spends bridges[] catch-images[]
 
 ## question-seven-questions
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-seven-questions.html`
+
 Length 3334w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>But know what you have chosen if you choose that road. You have chosen to keep a crumb of the credit for your own salvation. One small seed of <a href="/psychology-cost-of-rejecting-grace">self-righteousness</a>, kept in a pocket, carried quietly into eternity. One reason, buried deep, to believe that you were in the end <em>a little better than the person next to you</em> who walked out of that room unchanged. Scripture has a word for that seed. It is the only seed that cannot grow into a tree of salvation, because salvation is by grace alone.</p>
 
@@ -117,11 +127,19 @@ Length 3334w · already spends bridges[] catch-images[]
 
 ## question-sovereignty-logic
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-sovereignty-logic.html`
+
 Length 2219w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
-<div class="objection-container">
+</div>
+</div>
+
+   <div class="objection-container">
    <div class="objection-header">&ldquo;This makes God responsible for evil.&rdquo;</div>
    <div class="answer-body">
    <p>This objection assumes that sovereignty and <a href="/objection-responsibility">moral responsibility</a> work the same way for the Creator as they do for creatures. They don&rsquo;t. An author who writes a villain into a novel is not guilty of the villain&rsquo;s crimes. A playwright who scripts a betrayal has not committed betrayal. The Creator-creature distinction means God can ordain events for purposes that are holy even when the events themselves, from the creature&rsquo;s perspective, involve evil.</p>
@@ -186,9 +204,14 @@ Length 2219w · already spends bridges[] catch-images[]
 
 ## question-what-does-chosen-mean
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-what-does-chosen-mean.html`
+
 Length 1389w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <blockquote>
    <p>"I give them eternal life, and they shall never perish; no one will snatch them out of my hand. My Father, who has given them to me, is greater than all; no one can snatch them out of my Father’s hand."</p>
@@ -213,9 +236,14 @@ Length 1389w · already spends bridges[] catch-images[]
 
 ## question-what-is-sovereign-grace
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-what-is-sovereign-grace.html`
+
 Length 1461w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>This is the perseverance of the saints — which is really the perseverance of <em>God</em>. Your salvation is not as secure as your grip on God. It is as secure as God's grip on you. And His grip does not slip.</p>
 

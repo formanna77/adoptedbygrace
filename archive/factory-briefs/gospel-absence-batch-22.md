@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## story-cross-examination
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-cross-examination.html`
+
 Length 1395w · already spends bridges[drowning] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>The Witness looks up. Their eyes are wet.</p>
 
@@ -52,24 +57,18 @@ Length 1395w · already spends bridges[drowning] catch-images[]
 
 ## story-historical-augustine-pears
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-historical-augustine-pears.html`
+
 Length 1751w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
-```html
-ology that would anchor the church for sixteen centuries. The will that had bent itself toward corruption would bend itself toward truth. Not because Augustine became good. Not because his will suddenly became powerful enough to overcome itself. But because the God who had written the law into creation <a href="/systematic-regeneration">rewrote Augustine's deepest nature</a>.</p>
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
-    <p class="pull-quote">He did not find Augustine. Augustine had been found before the foundation of the world.</p>
+```html
+<p class="pull-quote">He did not find Augustine. Augustine had been found before the foundation of the world.</p>
 
     <p>And this is why Augustine could write about his transgression without despair. This is why the story of the pears, which should have been a confession of damnation, became instead the most powerful testimony to grace in the history of the church. Because the God who saw that sixteen-year-old boy throwing rotten pears to pigs, doing what was pointless and wrong for no reason other than to prove his own autonomy — that God saw him and said: <em>Mine.</em> Not because Augustine chose it. Because <a href="/question-where-did-your-faith-come-from">grace chose him</a>. And that choice — made <a href="/question-chosen">before the foundation of the world</a> — held firm through every rotten pear, every decade of wandering, every inverted act of the will.</p>
-</article>
-
-    <h2>The Truth Behind the Story</h2>
-
-    <p>This is not a fable. Augustine really stole those pears, and near the end of his life he really wrote about them &mdash; <em>Confessions</em>, Book Two, around 397 AD &mdash; still unable, decades later, to account for it. He had better fruit at home. He did not even want these; he threw them to the pigs. He stole, he confessed, for no reason but the stealing &mdash; the sin for the sheer taste of the sin. That motiveless little crime became, in his hands, the most searching account of the human will ever written.</p>
-
-    <p>Because Augustine saw what most of us spend our lives denying: the sinner is not a good man trapped by circumstance. The will itself is the trap. He did not need a stronger will; he needed a new one. And that is exactly the argument the church would <a href="/history-augustine-pelagius">fight out and settle</a> when a monk named Pelagius insisted the will was strong enough to save itself. Augustine's answer &mdash; that grace does not merely assist the will but remakes it &mdash; became the church's confession for sixteen centuries. Not because Augustine was clever, but because he had felt, in a garden, a grace he never summoned and could not refuse.</p>
-
-    <p>The boy at the pear tree could never have reached across those years to rescue the bishop he became. It ran the other way. He was chosen before the tree was planted &mdash; and the choosing held, through every rotten pear, all the way home.</p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
@@ -79,9 +78,14 @@ ology that would anchor the church for sixteen centuries. The will that had bent
 
 ## story-the-self-made-man
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-the-self-made-man.html`
+
 Length 1647w · already spends bridges[] catch-images[mirror]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p style="margin-top: 3rem; text-align: center; font-style: italic; color: var(--text-secondary);">Gerald never did figure out who was holding the pen.</p>
 
@@ -108,31 +112,6 @@ Length 1647w · already spends bridges[] catch-images[mirror]
 </a>
 </div>
    </section>
-    
-    <div class="article-continue-journey">
-   <h3 class="article-continue-journey-title">Continue the Journey</h3>
-   <div class="hub-grid">
-   <a href="/psychology-attribution-error" class="hub-card">
-   <div class="card-number">01</div>
-   <h4 class="card-title">Attribution Error</h4>
-   <p class="card-description">The self-made man is an attribution error in the flesh.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-   
-   <a href="/broken-mirror-not-self-made" class="hub-card">
-   <div class="card-number">02</div>
-   <h4 class="card-title">You Are Not Self-Made</h4>
-   <p class="card-description">The mirror shows someone who was made, not someone who made himself.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-
-</div>
-</div>
-</article>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
@@ -142,9 +121,14 @@ Length 1647w · already spends bridges[] catch-images[mirror]
 
 ## story-thought-the-day-you-chose-again
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-thought-the-day-you-chose-again.html`
+
 Length 2280w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>"So I <em>did</em> choose you."</p>
 
@@ -183,9 +167,14 @@ Length 2280w · already spends bridges[] catch-images[]
 
 ## story-thought-the-god-who-let-you-watch
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-thought-the-god-who-let-you-watch.html`
+
 Length 1793w · already spends bridges[lottery, drowning] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>You chose God the way a drowning person "chooses" the hand that pulls them from the water. You chose God the way <a href="/analogy-lazarus-grave">Lazarus "chose" to walk out of the tomb</a>. You chose God because He chose you first, and His choosing gave you the eyes to see and the <a href="/philosophy-phantom-limb-free-will">hands to reach</a> and the heart to cry out <em>yes</em> — and that <em>yes</em> was real, genuinely yours, but it was also His gift, planted in you before the foundations of the world by a God who would not take no for an answer.</p>
 
@@ -222,7 +211,6 @@ Length 1793w · already spends bridges[lottery, drowning] catch-images[]
 </a>
 </div>
    </section>
-   </article>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth

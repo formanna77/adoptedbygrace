@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## analogy-drowning-man
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/analogy-drowning-man.html`
+
 Length 1501w · already spends bridges[drowning] catch-images[the rope]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>There is a particular kind of grief that comes with this understanding. If you have spent years telling yourself that you <em>decided</em> to follow Jesus, there is a real humbling when you realize that you did not. A stripping away. A confrontation with <a href="/broken-mirror-grace-too-good">your own powerlessness</a> that is not comfortable.</p>
 
@@ -44,9 +49,14 @@ Length 1501w · already spends bridges[drowning] catch-images[the rope]
 
 ## analytical-aseity-and-decree
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/analytical-aseity-and-decree.html`
+
 Length 1955w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>Loved From the Spring</h2>
 
@@ -77,9 +87,14 @@ Length 1955w · already spends bridges[] catch-images[]
 
 ## analytical-modal-collapse-answered
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/analytical-modal-collapse-answered.html`
+
 Length 2226w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>What the Collapse Objection Is Really Afraid Of</h2>
 
@@ -112,9 +127,14 @@ Length 2226w · already spends bridges[] catch-images[]
 
 ## anxious-mind-never-meant-to-carry
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/anxious-mind-never-meant-to-carry.html`
+
 Length 1624w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>"My career depends on my effort" and "my salvation depends on my decision" are the same sentence with different nouns. Both make you the load-bearing wall of your own life. Both produce the exhausting, never-ending vigilance of someone who knows they are not strong enough for the weight.</p>
 
@@ -142,9 +162,14 @@ Length 1624w · already spends bridges[] catch-images[]
 
 ## anxious-mind-sovereignty-of-sleep
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/anxious-mind-sovereignty-of-sleep.html`
+
 Length 1531w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>Sleep becomes possible when you believe this. You close your eyes not because everything is safe, but because Someone infinitely capable is already awake. The <a href="/question-goldchain">golden chain of Romans 8:29-30</a> doesn't pause while you rest. He who began a good work in you <a href="/question-perseverance">will carry it on to completion</a>. Believing this does not flip a switch in your nervous system — bodies learn slowly what souls confess. But it changes what the dark is: no longer a watch you are failing to keep, only a room where Someone else is keeping it. You are held whether or not you can feel it tonight.</p>
 

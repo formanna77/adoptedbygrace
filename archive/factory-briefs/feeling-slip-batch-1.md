@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## apologetic-able-to-save-completely
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/apologetic-able-to-save-completely.html`
+
 Length 2180w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>The Floor Under Your Feet</h2>
 
@@ -35,9 +40,14 @@ Length 2180w · already spends bridges[] catch-images[]
 
 ## apologetic-god-works-the-willing
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/apologetic-god-works-the-willing.html`
+
 Length 2751w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>Now feel the weight lift, because this doctrine is not a heavier yoke but a lighter one. If the command "work out your salvation with fear and trembling" stood alone — if your obedience had to be generated out of your own depleted reserves of willpower — it would be a crushing word, and every failure to want what you should would be a fresh proof that you are running dry. But the command does not stand alone. The next word turns the weight into wings: <em>for it is God who works in you.</em> The strength to obey the command comes from the God who issues it. Your obedience is not you straining to produce desire from an empty tank; it is you spending an energy he is continually supplying. The willingness you feel on your better days is not the dwindling residue of your own virtue. It is the fresh working of God in you, and there is more where it came from.</p>
 
@@ -66,9 +76,14 @@ Length 2751w · already spends bridges[] catch-images[]
 
 ## apologetic-no-one-can-come-unless
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/apologetic-no-one-can-come-unless.html`
+
 Length 3294w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>The Mirror — Why You Cannot Manufacture the Coming</h2>
 
@@ -106,9 +121,14 @@ Length 3294w · already spends bridges[] catch-images[]
 
 ## argument-if-arminianism-true-consequences
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/argument-if-arminianism-true-consequences.html`
+
 Length 4982w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>The House the Ten Rooms Make</h2>
 
@@ -170,9 +190,14 @@ Length 4982w · already spends bridges[] catch-images[]
 
 ## demolition-matt11-28
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-matt11-28.html`
+
 Length 2230w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>You have, again, two options. You can argue that verse 27 means something other than what it plainly says — that the Son&apos;s &ldquo;choosing&rdquo; is not really sovereign, that the qualifying clause is not really exclusive, that the verse really refers only to the unique apostolic privilege. But notice what this requires: it requires you to soften the clearer verse to preserve the inference you made from the warmer verse. You are reading <em>against</em> the plain force of one verse to preserve a possible reading of another.</p>
    <p>Or you can let the two verses interpret each other. The free offer of verse 28 is sincere; the sovereign choice of verse 27 is real; neither has to be softened to make room for the other. That is the reading the Reformed tradition has always given — the only one that lets Christ say both of the things He actually said.</p>

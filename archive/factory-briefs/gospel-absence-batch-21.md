@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## shattered-lens-pastor
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/shattered-lens-pastor.html`
+
 Length 1840w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>There is no path forward that feels comfortable. If you stay without speaking, you live with tension. If you speak, you risk relationship. If you leave, you lose community. The cost is real no matter which direction. But notice what all four paths share: they keep your conscience intact. They refuse to pretend agreement when you see something different. They honor truth while honoring relationship.</p>
 
@@ -75,9 +80,14 @@ Length 1840w · already spends bridges[] catch-images[]
 
 ## shattered-lens-silence-of-god
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/shattered-lens-silence-of-god.html`
+
 Length 1687w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>The person who clings to God in the dark — not because they feel loved but because they <em>know</em> they were chosen — that person has a faith that cannot be shaken.</p>
 
@@ -103,11 +113,27 @@ Length 1687w · already spends bridges[] catch-images[]
 
 ## shattered-lens-when-prayer-stopped-working
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/shattered-lens-when-prayer-stopped-working.html`
+
 Length 1774w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
-<a class="keep-reading-card" href="/shattered-lens-silence-of-god">
+<h2>A Prayer for the Silent Season</h2>
+
+<p><em>God, I don't know if You can hear this. The warmth is gone. The certainty is gone. And I am standing in the silence, talking to someone I can no longer feel.</em></p>
+
+<p><em>But I am still talking. Something in me won't stop — keeps kneeling, keeps whispering, keeps reaching into the dark for a hand I can't see. I didn't put that something there. If that stubborn, irrational refusal to stop praying is from You — if it is Your gift, planted in me before I was born — then hold me in the dark. Teach me that Your presence does not depend on my perception of it. Teach me that <a href="/psychology-cost-of-rejecting-grace">faith is not a feeling</a> but a foundation You laid, not me.</em></p>
+
+<p><em>And if this silence is Your sovereign work — if You are building something in the quiet that could never be built in the noise — then I will wait. Not because I am strong. But because You are. And because even now, even here, even in the silence — You chose me. Before I could feel You. Before I could pray. You chose me. And that choosing does not depend on the warmth coming back. Amen.</em></p>
+
+<div class="keep-reading">
+    <h2>Keep Reading</h2>
+    <div class="keep-reading-grid">
+   <a class="keep-reading-card" href="/shattered-lens-silence-of-god">
    <div class="card-eyebrow">The Shattered Lens</div>
    <h3>The Silence of God</h3>
    <p>When heaven goes quiet and you don't know why. What the silence means — and what it doesn't.</p>
@@ -138,9 +164,14 @@ Length 1774w · already spends bridges[] catch-images[]
 
 ## start-here-phase1
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/start-here-phase1.html`
+
 Length 1895w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>Why This Is the Only Foundation That Holds</h2>
 
@@ -196,11 +227,18 @@ Length 1895w · already spends bridges[] catch-images[]
 
 ## start-here-phase4
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/start-here-phase4.html`
+
 Length 1991w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
-<h3>Knowledge Check</h3>
+<!-- Knowledge Check Quiz -->
+    <div class="knowledge-check">
+   <h3>Knowledge Check</h3>
    <div class="quiz-subtitle">Test what you've learned</div>
 
    <div class="quiz-question" data-correct="2">
@@ -273,8 +311,6 @@ Length 1991w · already spends bridges[] catch-images[]
    
    <span class="phase-next-eyebrow">Next — Phase 5 of 5: The Life</span>
    <span class="phase-next-title">Living as an Elect Child of God — what changes tomorrow morning →</span>
-
-   </article>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth

@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## philosophy-godel-incompleteness
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/philosophy-godel-incompleteness.html`
+
 Length 2748w · already spends bridges[münchhausen] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <cite>1 CORINTHIANS 1:30</cite>
    </blockquote>
@@ -66,9 +71,14 @@ Length 2748w · already spends bridges[münchhausen] catch-images[]
 
 ## philosophy-infinite-regress-of-choice
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/philosophy-infinite-regress-of-choice.html`
+
 Length 3268w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>But the logic will not bend. The infinite regress cannot be escaped. The sentence "I chose God" cannot survive examination. It is true that you chose. You felt it. You made a decision. But the choosing itself — the capacity, the desire, the disposition that made the choosing possible — that came from God. And claiming credit for it is the last, most insidious form of self-righteousness.</p>
 
@@ -119,9 +129,14 @@ Length 3268w · already spends bridges[] catch-images[]
 
 ## philosophy-prisoners-dilemma
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/philosophy-prisoners-dilemma.html`
+
 Length 2042w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>Game theory says that never happens. Scripture says the same thing: <a href="/question-john6">"No one can come to me unless the Father who sent me draws them"</a> (John 6:44). The game cannot be solved from within. The players cannot save themselves. Only an external Covenant-Keeper — one who bears both sides of the agreement, who restructures the heart itself, who guarantees the outcome by His own power — can transform mutual betrayal into eternal cooperation.</p>
 
@@ -152,11 +167,18 @@ Length 2042w · already spends bridges[] catch-images[]
 
 ## philosophy-problem-of-merit
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/philosophy-problem-of-merit.html`
+
 Length 2995w · already spends bridges[lottery, drowning] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
-<p class="pastoral-whisper" style="margin: 2rem 0; padding: 1.5rem; background: rgba(212, 162, 84, 0.05); border-left: 3px solid var(--accent-gold); color: var(--text-primary); font-style: italic;">
+</p>
+
+   <p class="pastoral-whisper" style="margin: 2rem 0; padding: 1.5rem; background: rgba(212, 162, 84, 0.05); border-left: 3px solid var(--accent-gold); color: var(--text-primary); font-style: italic;">
   If you have spent years thanking yourself for accepting the gift, that is not a moral failure. It is the pattern every fallen heart slips into without knowing. The cure is not to stop thanking — it is to start thanking the right Giver. Lay the speech down. Hand the credit back. The God who gave you the ticket gave you the hand and the will and the very tongue that has been mis-thanking Him. He is not offended. <a href="/psychology-cost-of-rejecting-grace">He is, at last, audible to you</a>.
 </p>
    </section>
@@ -176,65 +198,6 @@ Length 2995w · already spends bridges[lottery, drowning] catch-images[]
   And on that foundation, grace is unshakeable.
 </p>
    </section>
-
-    <div class="article-continue-journey">
-   <h3 class="article-continue-journey-title">Continue the Journey</h3>
-   <div class="hub-grid">
-   <a href="/question-boasting" class="hub-card">
-   <div class="card-number">01</div>
-   <h4 class="card-title">Why Can't We Boast?</h4>
-   <p class="card-description">If merit is impossible, boasting is absurd.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-   <a href="/devotional-adoption-papers" class="hub-card">
-   <div class="card-number">02</div>
-   <h4 class="card-title">The Adoption Papers</h4>
-   <p class="card-description">Not merit. Gift. The papers were signed before you existed.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-</div>
-</div>
-
-   <!-- Related Journey -->
-   <section class="reveal" style="margin-top: 4rem; padding-top: 3rem; border-top: 2px solid rgba(212, 162, 84, 0.2);">
-   <h2>The Complete Picture</h2>
-   <p style="color: var(--text-secondary); margin-bottom: 2.5rem;">
-  You've seen the trap. Now see the foundation and the hope.
-</p>
-
-   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 2rem; margin: 3rem 0;">
-
-   <a href="/philosophy-self-deception" class="card" style="border-left: 4px solid var(--accent-gold);">
-   <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-   <span style="display: inline-block; background: var(--accent-gold); color: var(--bg-primary); padding: 0.4rem 0.8rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; margin-bottom: 0.5rem;">Read First</span>
-</div>
-   <h3>The Self-Deception Engine: How the Will Hides from Itself</h3>
-   <p>Understand why people can claim they chose God when the truth is that their will has hidden that choice from them. The architecture of how we deceive ourselves.</p>
-   <span class="card-arrow">→ Understand</span>
-</a>
-   
-   <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-   <span style="display: inline-block; background: var(--accent-violet); color: var(--text-primary); padding: 0.4rem 0.8rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; margin-bottom: 0.5rem;">Face It</span>
-</div>
-   <h3>Isn't Faith a Choice? The Question That Changes Everything</h3>
-   <p>The full theological answer to the question "Isn't faith a choice?" that brings philosophy and Scripture together.</p>
-   <span class="card-arrow">→ Explore</span>
-   
-   <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-   <span style="display: inline-block; background: var(--accent-ember); color: var(--text-primary); padding: 0.4rem 0.8rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; margin-bottom: 0.5rem;">Feel This</span>
-</div>
-   <h3>He Will Never Give Up On You</h3>
-   <p>When these philosophical truths strip away your self-reliance, read this. Because God doesn't just teach logic—He pursues with love.</p>
-   <span class="card-arrow">→ Receive</span>
-
-</div>
-   </section>
-
-    <!-- Footer -->
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
@@ -245,9 +208,14 @@ Length 2995w · already spends bridges[lottery, drowning] catch-images[]
 
 ## philosophy-self-deception
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/philosophy-self-deception.html`
+
 Length 2238w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>The Only Voice That Reaches Through</h2>
 

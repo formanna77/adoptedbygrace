@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## question-born-again-meaning
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-born-again-meaning.html`
+
 Length 1267w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>The Proof You Were Born — Not Built</h2>
 
@@ -42,9 +47,14 @@ Length 1267w · already spends bridges[] catch-images[]
 
 ## question-calvinist-on-knees
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-calvinist-on-knees.html`
+
 Length 1531w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>What if the dissonance is the Spirit showing you that your <em>experience</em> has been more accurate than your <em>theology</em>? What if your prayers have been telling the truth all along?</p>
 
@@ -85,9 +95,14 @@ Length 1531w · already spends bridges[] catch-images[]
 
 ## question-dead-in-sin-meaning
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-dead-in-sin-meaning.html`
+
 Length 2187w · already spends bridges[drowning] catch-images[lazarus]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p><strong>Second:</strong> If God chose you, then <a href="/question-faithgift">your faith itself is a gift</a>. You did not generate it from a dead heart. God gave you new life first, and faith was the first breath of that new life. This is why Paul says in the very next verses: "For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God" (Ephesians 2:8).</p>
 
@@ -130,11 +145,19 @@ Length 2187w · already spends bridges[drowning] catch-images[lazarus]
 
 ## question-dead-man-visual
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-dead-man-visual.html`
+
 Length 1615w · already spends bridges[drowning] catch-images[lazarus]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
-<div class="act-body">
+</div>
+</div>
+
+   <div class="act-body">
    <p>Try every door. They bolt from inside the text. This is not Calvin being clever; this is the plain reading of the verses in your own Bible. The problem isn't Reformed theology. The problem is that <em>corpses don't cooperate</em>.</p>
 </div>
    </section>
@@ -186,9 +209,14 @@ Length 1615w · already spends bridges[drowning] catch-images[lazarus]
 
 ## question-every-conversion-acts
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-every-conversion-acts.html`
+
 Length 1814w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>Go Back to the Board</h2>
 

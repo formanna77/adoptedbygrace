@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## psychology-system-justification
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-system-justification.html`
+
 Length 1745w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>The Self-Referential Trap</h2>
 
@@ -40,45 +45,26 @@ Length 1745w · already spends bridges[] catch-images[]
 
 ## psychology-the-question-beneath-the-question
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-the-question-beneath-the-question.html`
+
 Length 1603w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
-```html
-<div class="footer-container">
-   <div class="footer-section"><h3>Truth</h3><ul>
-   <li><a href="/questions">Questions</a></li>
-   <li><a href="/systematic-theology">Systematic Theology</a></li>
-   <li><a href="/demolition-hub">Demolition</a></li>
-   <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-   </ul></div>
-   <div class="footer-section"><h3>Explore</h3><ul>
-   <li><a href="/start-here">Start Here</a></li>
-   <li><a href="/theologians">Theologians</a></li>
-   <li><a href="/devotionals">Devotionals</a></li>
-   <li><a href="/best-reads">Best Reads</a></li>
-   </ul></div>
-   <div class="footer-section"><h3>Connect</h3><ul>
-   <li><a href="/about">About</a></li>
-   <li><a href="/contact">Contact</a></li>
-   <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
-   </ul></div>
-</div>
-   <div class="footer-grace-warning">
-  "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
-  Grace is not a license to sin. It is the power that frees us from sin's dominion.
-</div>
-   <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
-</footer>
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
-<script src="/nav.js" defer></script>
-<script src="/ux-enhancements.js" defer></script>
-<script defer src="/reading-time.js"></script>
-<script defer src="/scripture-niv.js"></script>
-<script defer src="/scripture-popups.js"></script>
-<script src="/quote-card.js" defer></script>
-<script src="/share-bar.js" defer></script>
-</body>
-</html>
+```html
+<h2>Ask It Now</h2>
+
+<p>So ask it. Not out loud, if you cannot. Not to anyone else. Ask it in the only room of yourself where you have not yet allowed the question to be spoken. Ask the small, embarrassing, four-year-old question that you have been refracting through philosophy for years, because you suspected the answer might be no, and you could not have survived a no.</p>
+
+<p>Am I wanted?</p>
+
+<p>Was I chosen?</p>
+
+<p>Is there a Person who has loved me from before I existed?</p>
+
+<p>The answer was given before the question was formed. It is older than the doubts you have rehearsed; the room you are sitting in is younger than it by an age that has no human measure. <a href="/devotional-the-hands-that-hold-you">Yes</a>. Before you asked. Before you knew you needed to. Yes. The Father has been at the door longer than you have been afraid of it. Ask now. Stand still. Let the answer find you where you have been.</p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
@@ -88,11 +74,21 @@ Length 1603w · already spends bridges[] catch-images[]
 
 ## psychology-why-this-objection-proves-our-point
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-why-this-objection-proves-our-point.html`
+
 Length 1401w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
-<h3 class="card-title">Where Did Your Faith Come From?</h3>
+<p>So if you recognize yourself here — if you have made this very objection, and something in you is rising even now to defend the story you have told about yourself for decades — receive it as the invitation it is, not the attack it feels like. The identity you are guarding was always too fragile for the weight you put on it, always one failure from collapse. The one being held out in its place was forged before you were born. <a href="/devotional-chosen-before-you-were-broken">You were chosen before you were broken.</a> That is not a thing to defend against. It is freedom to run toward.</p>
+
+    <h2>Keep Reading</h2>
+    <div class="hub-grid">
+   
+   <h3 class="card-title">Where Did Your Faith Come From?</h3>
    <p class="card-description">The Crown Jewel question that starts it all.</p>
    <div class="card-footer">
    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
@@ -128,9 +124,14 @@ Length 1401w · already spends bridges[] catch-images[]
 
 ## question-acts
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-acts.html`
+
 Length 1370w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <h2>The Verse Nobody Preaches Is the One That Explains Everything</h2>
 
@@ -154,9 +155,14 @@ Length 1370w · already spends bridges[] catch-images[]
 
 ## question-boasting
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-boasting.html`
+
 Length 1876w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>The cross is the ultimate symbol of this principle. The Messiah comes as a fool and a criminal. The path to life runs through death. Wisdom is revealed as foolishness. Power is revealed through weakness. And in this radical reversal, <a href="/psychology-cost-of-rejecting-grace">human boasting is buried.</a></p>
 

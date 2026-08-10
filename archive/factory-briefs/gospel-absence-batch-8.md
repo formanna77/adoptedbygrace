@@ -11,9 +11,14 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 ## devotional-the-secretly-ashamed
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/devotional-the-secretly-ashamed.html`
+
 Length 2363w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>Which means there is no failed potential to grieve. There is only a soul God knew exactly, chose exactly, loved exactly — and to refuse to forgive yourself is to insist on a higher standard than the standard God used when He picked you. So stop trying to forgive yourself. You were never the judge in this courtroom. The Judge has already ruled, and the ruling was made before you committed the sin you cannot get past. <em>Not guilty. Mine. Forever.</em></p>
 
@@ -48,9 +53,14 @@ Length 2363w · already spends bridges[] catch-images[]
 
 ## devotional-when-pride-dies
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/devotional-when-pride-dies.html`
+
 Length 1365w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>Turn around. Walk home. The sun is going down. You have been crying, and that is allowed. You are going to wake up tomorrow with a kind of quiet you have not known before. Pride took a long time to die. The grace that killed it will take forever to finish loving you. <a href="/devotional-never-gives-up">He is not going to stop</a>.</p>
 
@@ -94,9 +104,14 @@ Length 1365w · already spends bridges[] catch-images[]
 
 ## for-pastors
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/for-pastors.html`
+
 Length 2459w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>Preaching sovereign grace, faithfully and tenderly, will change your ministry from the inside out. It will make your evangelism bolder, because you will stop treating the convert's response as dependent on your persuasiveness and start trusting that God's Word accomplishes what He purposes. It will make your counseling more hopeful, because you will stop saying <em>"I hope you made the right decision"</em> and start saying <em>"<a href="/devotional-never-gives-up">He who began a good work in you will carry it on to completion.</a>"</em> It will make your preaching free, because you will stop manipulating decisions and start proclaiming truth. It will deepen your prayer life, because you will be praying to the One who actually saves rather than to the gatekeeper of human cooperation. And it will lower your burnout risk, because the weight of salvation will finally be where it always belonged — on God's shoulders, not yours.</p>
 
@@ -126,9 +141,14 @@ Length 2459w · already spends bridges[] catch-images[]
 
 ## found-you
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/found-you.html`
+
 Length 2211w · already spends bridges[] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>And the reason your body will not let the weight go is that love is louder than the voice that has been telling you the weight is deserved.</p>
 
@@ -156,13 +176,6 @@ Length 2211w · already spends bridges[] catch-images[]
    <p>You do not have to settle what you are or where you stand. That question was answered somewhere else, a long time before you thought to ask it. Rest.</p>
 
    <p>You cannot walk out of a room He is already on both sides of.</p>
-
-   <div class="article-continue-journey-links">
-   <p>
-   <a href="/devotionals">All devotionals →</a>
-   <a href="/start-here">Start Here →</a>
-</p>
-</div>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
@@ -172,9 +185,14 @@ Length 2211w · already spends bridges[] catch-images[]
 
 ## history-calvin-geneva
 
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/history-calvin-geneva.html`
+
 Length 1533w · already spends bridges[drowning] catch-images[]
 
-### Closing HTML (verbatim — pick your Edit anchor from here)
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
 ```html
 <p>Calvin knew the objection that would follow his teaching for five hundred years: "This makes God unfair." His answer was devastating in its simplicity. The question is not why God doesn't save everyone. The question is why God saves <em>anyone</em>. If you understand the depth of human rebellion — if you truly grasp that every human being has freely, willingly, joyfully turned from God — then the miracle is not that some are passed over. The miracle is that <a href="/devotional-love-before-the-world">any are loved at all</a>.</p>
 

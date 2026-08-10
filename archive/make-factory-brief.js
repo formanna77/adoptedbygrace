@@ -117,9 +117,49 @@ for (const bi of wanted) {
     const r = src.indexOf('<!-- RELATED-ARTICLES-START -->');
     const body = src.slice(a, r > 0 ? r : src.length);
     const cut = Math.floor(body.length * (1 - TAIL_FRACTION));
-    // start the excerpt at a tag boundary so the HTML the agent sees is well-formed
-    const startAt = body.indexOf('\n   <', cut);
-    const tail = body.slice(startAt > 0 ? startAt : cut);
+    // Start at a tag boundary so the HTML the agent sees is well-formed. Match
+    // ANY indentation: the original `\n   <` assumed three spaces, and on
+    // ot-jonah (which indents differently) the first match landed near the very
+    // END of the body, handing the agent a 111-character excerpt. An anchor
+    // that assumes one file's whitespace is not an anchor.
+    const boundaryRe = /\n\s*</g;
+    boundaryRe.lastIndex = cut;
+    const m0 = boundaryRe.exec(body);
+    const startAt = m0 ? m0.index : cut;
+    let tail = body.slice(startAt);
+
+    // TRUNCATE AT THE FIRST NON-PROSE BOUNDARY. Found by auditing the first
+    // generated set: 13 of 138 Lane B tails ran past the article's prose into
+    // a `.article-continue-journey` hub-card block (which sits INSIDE the body
+    // on 7 pages, before the related-articles marker), past `</article>`, or —
+    // on the one page carrying no marker at all — into the footer and the
+    // grace warning. An agent shown that HTML and told "insert before the final
+    // landing" can reasonably insert after the hub cards. ~9% of the batch
+    // would have shipped a gospel paragraph into furniture. The agent must see
+    // prose and only prose.
+    // Match the CLASS NAME, not a full attribute: found-you writes
+    // `article-continue-journey-links`, so a matcher ending in a closing quote
+    // walked straight past it. Match what varies least.
+    const BOUNDARIES = ['article-continue-journey', '</article>', '<footer', 'footer-grace-warning', '<!-- RELATED-ARTICLES-START -->'];
+    const cutAt = t => {
+      let end = t.length;
+      for (const b of BOUNDARIES) {
+        const i = t.indexOf(b);
+        if (i > 0 && i < end) end = i;
+      }
+      // rewind to the start of the tag that opened the furniture
+      const lt = t.lastIndexOf('<', end);
+      return t.slice(0, lt > 0 && end < t.length ? lt : end).trimEnd();
+    };
+    tail = cutAt(tail);
+
+    // If truncation left almost nothing, the boundary sat above the 75% cut —
+    // widen backwards and re-cut, so the agent always sees real closing prose.
+    if (tail.trim().length < 600) {
+      const wide = body.slice(Math.floor(body.length * 0.45));
+      const recut = cutAt(wide);
+      if (recut.trim().length > tail.trim().length) tail = recut;
+    }
 
     const refs = [...new Set([...body.matchAll(new RegExp(BOOKS + '\\s+\\d+:\\d+(?:-\\d+)?', 'g'))].map(m => m[0]))];
     const resolved = refs.map(ref => {
@@ -130,9 +170,14 @@ for (const bi of wanted) {
     const f = fresh[p] || {};
     L.push(`## ${p}`);
     L.push('');
+    L.push(`**Edit this file:** \`/Users/aaronforman/Documents/adoptedbygracewebsite/${p}.html\``);
+    L.push('');
     L.push(`Length ${f.words || '?'}w · already spends bridges[${(f.bridges || []).join(', ')}] catch-images[${(f.images || []).join(', ')}]`);
     L.push('');
-    L.push('### Closing HTML (verbatim — pick your Edit anchor from here)');
+    L.push('### Closing HTML — PROSE ONLY, truncated at the article boundary');
+    L.push('(If this excerpt ends mid-thought, that is the end of the prose. Everything after it');
+    L.push('is furniture — hub cards, `</article>`, the footer — and you must not write into it.)');
+    L.push('');
     L.push('```html');
     L.push(tail.trim());
     L.push('```');
