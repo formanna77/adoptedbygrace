@@ -50,41 +50,81 @@ never loosen the check.
 
 ---
 
-## HOW TO RUN THE FACTORY (this is the whole method — get it right)
+## HOW TO RUN THE FACTORY — READ THIS BEFORE LAUNCHING ANYTHING
 
-**Batch by DEFECT CLASS, never by hub or alphabet.** An agent doing six gospel-absence closes
-loads one mental model and runs it six times. A general cold-reader reloads it six times and
-dies at 90K having done two. That difference is the entire throughput gain.
+### The S203 factory test failed. Here is exactly why, because it is fixed now and you must not re-break it.
 
-Each subagent brief contains **exactly** this and nothing more:
+One live agent was handed five pages and a brief that said *"read ONLY the final 25% of each
+page"* and *"check every quotation against `scripture-niv.js` (it is ground truth)."*
 
-1. **5–6 pages, one class.** Tell the agent to read only the **final 25%** of each page plus its
-   In Brief — not the whole article. A full read costs ~5K per page; the close costs ~1.2K.
-2. **The one VOICE section that governs the class.** §XXIII for feeling-slips. §VIII + §I.4 for
+**It burned 75,278 tokens across 15 tool calls and produced ZERO edits.** It never got past
+reading. Nothing shipped and nothing broke — the repo was verified untouched — but a whole agent
+died on intake. The arithmetic, which is entirely the brief's fault:
+
+```
+5 pages, whole-file, because Read defaults to whole-file ....  38K tokens
+scripture-niv.js, 248 KB, because the brief said to check it .  63K tokens
+--------------------------------------------------------------------------
+floor before a single Edit could be attempted ................ 102K tokens
+```
+
+Half the window, spent before it wrote a word. **"Read only the final 25%" is not an instruction
+an agent can obey** — Read has no such mode unless you compute the offset for it. And casually
+pointing an agent at a quarter-megabyte ground-truth file costs more than everything else
+combined.
+
+> **The law to carry forward: an instruction the agent has no mechanism to obey is not a
+> constraint, it is a wish. Do not tell an agent to read less — hand it less.**
+
+This is the same failure recorded in `memory/feedback_profile_before_delegating.md` (S179 lost
+3 of 3 cold-readers at ~90K). It recurred because the brief was written as prose instead of as
+a payload.
+
+### The fix, built S203 and verified
+
+```
+node archive/session-brief.js                          # lanes + rosters
+node archive/make-factory-brief.js gospel-absence all  # writes the payloads
+```
+
+`make-factory-brief.js` pre-extracts, per page: the **final 25% as verbatim HTML** (so the agent
+picks its own Edit anchor without opening the file), **every Scripture reference that page cites,
+already resolved against `scripture-niv.js`** — with anything absent from ground truth explicitly
+marked *do not quote verbatim* — and the freshness-ledger row.
+
+**Measured: 102K → 5K per five-page batch. A 22x reduction.** Batch 1 of gospel-absence is 18 KB.
+Verses resolved 19, correctly flagged as absent 9 — which kills the CHECK 17 misquote class at
+the source rather than downstream.
+
+**Hand each agent ONE brief file and tell it to open nothing else.** 116 gospel-absence pages =
+24 batches, already written to `archive/factory-briefs/`.
+
+### What still goes in the agent prompt (the brief file carries the payload; the prompt carries the law)
+
+1. **The one VOICE section that governs the class.** §XXIII for feeling-slips. §VIII + §I.4 for
    multiplied closes. §I.1 + §XXIII for gospel absence. **Not all 680 lines.**
-3. **Two or three worked examples**, verbatim, from S203 — the six gospel-absence lifts are in
-   `MISSION-CONTROL.md` §E and every one followed the same shape: *the catch was already good;
-   the fix was one paragraph locating Christ inside the page's own existing image.* Fairness at
-   Golgotha falling on the wrong man on purpose. Two intercessors, one at each end of the call.
-   The destroyer reading the doorframe rather than the family. Jesus weeping outside a grave He
-   was about to open. **Nobody bolts on a gospel presentation.**
-4. **The freshness slice.** Paste the `archive/freshness-ledger.json` entries for that agent's
-   pages *and* the site-wide bridge/image tallies. **This is not optional.** Twenty agents
-   writing catches simultaneously will independently reach for the same Passover, the same
-   Lazarus, the same phone that was already ringing — and the corpus gets fresher and flatter in
-   the same session. VOICE §XVIII calls that the one failure grace does not cover. It is the
-   single largest risk in this model and the only one that does not announce itself.
-5. **A hard output contract:** edit the file in place, verify every new `href` exists on disk,
-   confirm zero emoji and exactly one `article-body`, then report ONE line per page — what was
-   wrong, what was added, which image was spent. No essays back.
-6. **The guardrails, stated:** NIV 2011, verbatim, no `(NIV)`; check every quotation against
-   `scripture-niv.js` and do not quote a verse that is not in it without web-verifying;
-   8–12 verified internal links, first mention only; **name Christ explicitly** — S203 had two
-   lifts stay flagged for saying "a Man who has been dead" and "the Power greater," and the
-   detector was right to hold them.
+2. **Two or three worked examples**, verbatim, from `MISSION-CONTROL.md` §E — every S203 lift
+   followed one shape: *the catch was already good; the fix was one paragraph locating Christ
+   inside the page's own existing image.* Fairness falling on the wrong man at Golgotha. Two
+   intercessors, one at each end of the call. The destroyer reading the doorframe rather than
+   the family. Jesus weeping outside a grave He was about to open. **Nobody bolts on a gospel
+   presentation.** Mark those four as SPENT so the next wave forges its own.
+3. **The site-wide freshness tallies** (the per-page rows are already in the brief file):
+   bridges — **drowning 57**, addiction 16, Libet 12, anosognosia 12, lottery 8, phantom limb 5;
+   catch-images — mirror 15, the rope 14, ringing phone 8, Lazarus 8, cargo 4, envelope 3.
+   **Drowning at 57 pages is wallpaper (§XXI.1); no agent may deepen that well.** Assign
+   *different* image territories to concurrent agents explicitly — that is the only thing
+   standing between parallel production and a corpus that gets fresher and flatter in the same
+   session, which VOICE §XVIII calls the one failure grace does not cover.
+4. **A hard output contract:** Edit in place; verify every new `href` resolves on disk; zero
+   emoji; exactly one `article-body`; then report **one line per page** — what the catch landed
+   on, what was added, which image was spent. No essays back.
+5. **Name Christ explicitly.** S203 had two lifts stay flagged for "a Man who has been dead" and
+   "the Power greater." The detector was right to hold them.
 
-**Launch 6–8 agents per wave, in one message**, then verify the wave before launching the next.
-Do not run 20 at once; you cannot review what you cannot hold.
+**Launch 4–6 agents per wave, in one message**, then review the wave before launching the next.
+Do not run 20 at once; you cannot review what you cannot hold. **The first wave is a calibration
+wave** — read every line of its output closely before trusting the next.
 
 ---
 
