@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-10",
+ "generated": "2026-08-11",
  "current": "§XXIII",
  "matrix": {
   "2-thessalonians-2-13": {
@@ -3633,16 +3633,14 @@
    "lastSession": null
   },
   "presuppositional-impossibility-of-the-contrary": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 205
   },
   "presuppositional-no-neutral-ground": {
    "lane": "A",
@@ -3675,16 +3673,14 @@
    "lastSession": 203
   },
   "psychology-anosognosia-of-sin": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 199
+   "lastSession": 205
   },
   "psychology-attribution-error": {
    "lane": "A",
@@ -3717,16 +3713,14 @@
    "lastSession": 192
   },
   "psychology-cognitive-biases": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 199
+   "lastSession": 205
   },
   "psychology-comfort-self-salvation": {
    "lane": "A",
@@ -3739,28 +3733,24 @@
    "lastSession": 58
   },
   "psychology-conversion-memory-test": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 205
   },
   "psychology-cost-of-rejecting-grace": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 205
   },
   "psychology-emotional-vs-rational": {
    "lane": "DONE",
@@ -3773,16 +3763,14 @@
    "lastSession": 191
   },
   "psychology-fear-control": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 205
   },
   "psychology-groupthink": {
    "lane": "A",
@@ -3795,16 +3783,14 @@
    "lastSession": 67
   },
   "psychology-hostility-reaction": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 191
+   "lastSession": 205
   },
   "psychology-identity-threat": {
    "lane": "A",
@@ -3827,16 +3813,14 @@
    "lastSession": null
   },
   "psychology-language-acquisition": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 205
   },
   "psychology-language-you-already-speak": {
    "lane": "DONE",
@@ -3899,40 +3883,34 @@
    "lastSession": 58
   },
   "psychology-sunk-cost-faith": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
-   "doorway": false,
-   "leadReview": false,
-   "atCurrent": false,
-   "untagged": false,
-   "lastSession": 58
-  },
-  "psychology-suppressing-truth": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 197
+   "lastSession": 205
   },
-  "psychology-system-justification": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+  "psychology-suppressing-truth": {
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 205
+  },
+  "psychology-system-justification": {
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
+   "doorway": false,
+   "leadReview": false,
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 205
   },
   "psychology-terror-management": {
    "lane": "A",
@@ -3945,28 +3923,24 @@
    "lastSession": 58
   },
   "psychology-the-question-beneath-the-question": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
-   "doorway": false,
-   "leadReview": false,
-   "atCurrent": false,
-   "untagged": false,
-   "lastSession": 76
-  },
-  "psychology-why-this-objection-proves-our-point": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 197
+   "lastSession": 205
+  },
+  "psychology-why-this-objection-proves-our-point": {
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
+   "doorway": false,
+   "leadReview": false,
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 205
   },
   "psychology-why-we-resist": {
    "lane": "DONE",
@@ -4009,16 +3983,14 @@
    "lastSession": null
   },
   "question-acts": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "leadReview": false,
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 205
   },
   "question-acts4": {
    "lane": "A",
@@ -4073,16 +4045,14 @@
    "lastSession": 58
   },
   "question-boasting": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "leadReview": false,
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 205
   },
   "question-book-of-life": {
    "lane": "A",
@@ -4095,28 +4065,24 @@
    "lastSession": null
   },
   "question-born-again-meaning": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "leadReview": false,
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 205
   },
   "question-calvinist-on-knees": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 205
   },
   "question-cannot": {
    "lane": "A",
@@ -4149,28 +4115,24 @@
    "lastSession": 58
   },
   "question-dead-in-sin-meaning": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
+   "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 191
+   "lastSession": 205
   },
   "question-dead-man-visual": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 205
   },
   "question-depravity": {
    "lane": "B",
@@ -4215,16 +4177,14 @@
    "lastSession": null
   },
   "question-every-conversion-acts": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 205
   },
   "question-external-call": {
    "lane": "B",
@@ -4289,28 +4249,24 @@
    "lastSession": 192
   },
   "question-free-will-bible-verses": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
-   "untagged": false,
-   "lastSession": 58
-  },
-  "question-freewill": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
-   "doorway": true,
-   "leadReview": true,
+   "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 199
+   "lastSession": 205
+  },
+  "question-freewill": {
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
+   "doorway": true,
+   "leadReview": false,
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 205
   },
   "question-godwants": {
    "lane": "A",
@@ -4386,16 +4342,14 @@
    "lastSession": null
   },
   "question-is-predestination-in-the-bible": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 205
   },
   "question-is-salvation-my-choice-or-gods": {
    "lane": "DONE",
@@ -4535,37 +4489,33 @@
    "lane": "B",
    "weight": 3,
    "defects": [
-    "gospel-absence"
+    "feeling-slip"
    ],
    "doorway": true,
    "leadReview": true,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 94
+   "lastSession": 205
   },
   "question-proverbs-sovereignty": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "leadReview": false,
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 205
   },
   "question-psalm139": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 71
+   "lastSession": 205
   },
   "question-regeneration-precedes-faith": {
    "lane": "A",
@@ -4628,28 +4578,24 @@
    "lastSession": 192
   },
   "question-seven-questions": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 205
   },
   "question-sovereignty-logic": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 205
   },
   "question-titus3": {
    "lane": "A",
@@ -4702,28 +4648,24 @@
    "lastSession": 58
   },
   "question-what-does-chosen-mean": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
-   "untagged": false,
-   "lastSession": 58
-  },
-  "question-what-is-sovereign-grace": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
-   "doorway": true,
-   "leadReview": true,
+   "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 198
+   "lastSession": 205
+  },
+  "question-what-is-sovereign-grace": {
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
+   "doorway": true,
+   "leadReview": false,
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 205
   },
   "question-what-is-the-gospel": {
    "lane": "DONE",
@@ -4796,16 +4738,14 @@
    "lastSession": 197
   },
   "question-why-pray-if-god-is-sovereign": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 205
   },
   "reformed-apologetics-consciousness": {
    "lane": "A",
@@ -5010,16 +4950,14 @@
    "lastSession": 189
   },
   "scripture-tsunami-faith-as-gift": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 205
   },
   "scripture-tsunami-sovereignty": {
    "lane": "A",
@@ -5062,16 +5000,14 @@
    "lastSession": 58
   },
   "secular-art-literature-reformed-truth": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 205
   },
   "secular-billion-decisions": {
    "lane": "DONE",
@@ -5094,28 +5030,24 @@
    "lastSession": 58
   },
   "secular-genetics-sovereignty": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 197
+   "lastSession": 205
   },
   "secular-hard-problem-consciousness": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 205
   },
   "secular-history-sovereignty": {
    "lane": "A",
@@ -5138,28 +5070,24 @@
    "lastSession": null
   },
   "secular-philosophy-free-will": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 95
+   "lastSession": 205
   },
   "secular-psychology-bondage-of-will": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 205
   },
   "secular-recovery-total-depravity": {
    "lane": "A",
@@ -5172,16 +5100,14 @@
    "lastSession": null
   },
   "secular-sociology-human-inability": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 205
   },
   "share-your-story": {
    "lane": "DONE",
@@ -5204,28 +5130,24 @@
    "lastSession": 58
   },
   "shattered-lens-cant-tell-true": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 205
   },
   "shattered-lens-cant-unsee-it": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 205
   },
   "shattered-lens-lost-community": {
    "lane": "A",
@@ -5704,11 +5626,9 @@
    "lastSession": 58
   },
   "systematic-compatibilism": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
@@ -5876,11 +5796,9 @@
    "lastSession": 197
   },
   "systematic-prolegomena": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "A",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": false,
@@ -6280,13 +6198,11 @@
    "lastSession": 202
   },
   "theologian-sproul": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "A",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
+   "leadReview": false,
    "atCurrent": false,
    "untagged": false,
    "lastSession": 75

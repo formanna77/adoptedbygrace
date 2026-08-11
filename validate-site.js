@@ -1289,7 +1289,18 @@ console.log('\n━━━ CHECK 18: JSON-LD Validity ━━━');
 // same thing: proving the instrument itself was wrong.
 console.log('\n━━━ CHECK 19: Cloned Passages (ratchet) ━━━');
 {
-  const CEILING = 5369;   // S202 close (294 passages). Ratchet down only.
+  const CEILING = 5367;   // S205 close (294 passages). Ratchet down only.
+  // S205: 40 new Christ-paragraphs pushed this to 5382/295 and the overage was
+  // NOT in the new prose. It was a 15-word rhetorical clone that had sat on
+  // question-dead-in-sin-meaning and question-freewill for months ("you are
+  // aware, you see holiness, and you choose something else, every single time")
+  // and only crossed the reporting threshold when the surrounding prose grew.
+  // Two lessons worth keeping: (1) a ratchet failure after a big write is not
+  // evidence the new writing caused it — locate before you rewrite; (2) the
+  // dead-in-sin copy also carried "Every. Single. Time.", the staccato triple
+  // banned twice over (§XIII.1 slogan-trap, §XXII.4 AI tell). The clone and the
+  // tell were the same sentence, which is not a coincidence: cloned prose is
+  // prose nobody re-saw.
   // S201: dropped 5675 -> 5381 WITHOUT touching a page. detect-shared-phrases.js
   // extends seeds maximally, which dragged each quoted verse's own CITATION into
   // the candidate ("...his good purpose philippians 2 12 13"); the NIV does not

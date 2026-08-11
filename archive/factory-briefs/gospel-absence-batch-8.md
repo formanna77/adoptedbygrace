@@ -1,4 +1,4 @@
-# FACTORY BRIEF — gospel-absence — batch 8 of 24
+# FACTORY BRIEF — gospel-absence — batch 8 of 12
 
 Everything you need is in this file. **Do not open the source pages** — the
 closing HTML is reproduced verbatim below, and the only Scripture you might
@@ -9,204 +9,207 @@ window before it wrote a single word.
 For each page: choose a unique span from the HTML shown, and `Edit` the real
 file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
-## devotional-the-secretly-ashamed
+## secular-philosophy-free-will
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/devotional-the-secretly-ashamed.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/secular-philosophy-free-will.html`
 
-Length 2363w · already spends bridges[] catch-images[]
+Length 2077w · already spends bridges[lottery] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p><em>And You chose me anyway. I do not understand this. I keep waiting for You to find me out, but You found me out before You found me.</em></p>
+<h2>The Billions of Unchosen Variables</h2>
 
-   <p><em>So here I am. Not clean. Not fixed. Not finished. But I am bringing it to You now — not because I have the strength to confess, but because I am too tired to hide. Hold what I cannot carry. Forgive what I cannot undo. Love the version of me that I have been terrified to show You.</em></p>
+    <p>Consider what God determined before you drew your first breath. Your century — which determines every idea, religion, and worldview available to you. Your country and culture — a child born in rural India is statistically overwhelmingly likely to be Hindu; a child born in the American South, some form of Christian. Your family, your neurology, your temperament, your intelligence, your traumas. Personality traits are 40-60% heritable. Your very disposition toward belief or skepticism has a genetic component. Multiply all of these variables together: century, geography, culture, language, family, genetics, neurology, temperament, intelligence, experiences — <strong>billions of variables, every one determined before you ever made a single "free" decision.</strong></p>
 
-   <p><em>And remind me — tonight and every night the shame returns — that Your choosing was not a response to my goodness but an act of Your grace. That <a href="/broken-mirror-vessels-for-mercy">I am a vessel made for mercy</a>, not for performance. That Your grip does not depend on my worthiness but on Your nature. Hold me in the dark. Amen.</em></p>
+    <p>If you put a <a href="/story-the-fish-who-chose-the-ocean">fish in a bowl</a>, the fish can swim left or right. But the <em>bowl</em> determines everything else — temperature, oxygen, boundaries. You are the fish. God made the bowl. He chose every parameter within which your "free choices" occur. And the Arminian wants you to believe that within this entirely God-determined environment, you make an autonomous, uncaused decision about the most important question in the universe? That the one thing God left to chance is whether you spend eternity in heaven or hell?</p>
+
+    <blockquote>
+   <p>"From one man he made all the nations, that they should inhabit the whole earth; and he marked out their appointed times in history and the boundaries of their lands."</p>
+   <cite>ACTS 17:26</cite>
+    </blockquote>
+
+    <h2>Where This Leaves You</h2>
+
+    <p>You have just walked through 2,500 years of the greatest minds in history reaching the same conclusion Scripture reached in a single verse. That is not coincidence. That is Romans 1:19 — what may be known about God is plain to them, because God has made it plain.</p>
+
+    <p>If 2,500 years of rigorous argument point to the same conclusion as Romans 9 — that libertarian free will is incoherent — then <a href="/question-where-did-your-faith-come-from">your faith was not a lucky roll of the metaphysical dice</a>. It was a gift, placed in your soul by a God who did not wait for your unmoved mover to move itself toward Him. He moved you. And that is not the end of your agency — it is the beginning of real freedom. The freedom of a <a href="/devotional-chosen-before-you-were-broken">beloved child chosen before the world began</a>, held by a love not contingent on the philosophy of will, and <a href="/devotional-never-gives-up">kept by a grace that never gives up</a>.</p>
+
+    <p>If the philosophers have led you to the place where human autonomy ends, do not despair. The 2,500-year march of the finest minds in the Western tradition has not delivered you to a cliff with nothing below it. It has delivered you to a rim over which, if you would stop white-knuckling the ledge, you would see the <a href="/devotional-rescued-without-a-say">everlasting arms</a> that have been holding you the entire time. The autonomy you thought you were losing was the autonomy that was killing you. The Hand beneath it was the thing keeping you alive.</p>
+
+    <blockquote>
+   <p>"It does not, therefore, depend on human desire or effort, but on God's mercy."</p>
+   <cite>ROMANS 9:16</cite>
+    </blockquote>
+```
+
+### Scripture this page already cites, resolved to NIV 2011 ground truth
+- **Romans 9:19** — "One of you will say to me: 'Then why does God still blame us? For who is able to resist his will?'"
+- **Romans 1:19** — "since what may be known about God is plain to them, because God has made it plain to them."
+
+---
+
+## secular-psychology-bondage-of-will
+
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/secular-psychology-bondage-of-will.html`
+
+Length 1699w · already spends bridges[libet, addiction] catch-images[]
+
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
+```html
+<h2>The Verdict the Lab Cannot Escape</h2>
+
+   <p>Across cognitive psychology, neuroscience, addiction medicine, social psychology, and moral psychology, the consensus is unanimous: the human will is not the free, rational, autonomous agent that Enlightenment philosophy and Arminian theology require it to be. The researchers who produced this evidence had no theological agenda. They have never read the <a href="/history-confessions-story">Westminster Confession</a>. They couldn't define "total depravity" if you paid them. And yet they have confirmed it in every detail.</p>
 
    <blockquote>
-   <p>"Where can I go from your Spirit? Where can I flee from your presence? If I go up to the heavens, you are there; if I make my bed in the depths, you are there."</p>
-   <cite>PSALM 139:7-8</cite>
+   <p>"The person without the Spirit does not accept the things that come from the Spirit of God but considers them foolishness, and cannot understand them because they are discerned only through the Spirit."</p>
+   <cite>1 CORINTHIANS 2:14</cite>
    </blockquote>
 
-   <p>You cannot flee from His presence. Not because He is a prison guard — because He is a Father. The door you thought was locked was only locked from your side.</p>
+   <p>The psychologists have mapped the "how." The neuroscientists have imaged the "where." The behavioral economists have quantified the "how badly." But the Reformers identified the "why" five hundred years ago: we are fallen creatures whose every faculty is corrupted by sin, and only sovereign, regenerating grace can free a will that is in bondage to itself.</p>
 
-   <p>A few breaths pass. The phone is still in your hand. The tab is still closed. The heat is still crawling up your neck. And for the first time in a long time you notice something you have been too ashamed to notice: there is someone sitting across from you in the dark. You did not let Him in. You never could have. He has been there the whole night, and the night before that, and every night of every year you thought you were sneaking around in your own soul. He is not angry. He is not surprised. He is not even disappointed, because disappointment requires the illusion that He expected something better, and He has never had an illusion about you in all of eternity. He chose you with the file already open. He chose you with this very night already known and already covered. And He is looking at you right now the way a Father looks at a child who has finally stopped running — not to catalog the dirt, but to take the child home.</p>
+   <p>If cognitive biases distort every judgment, if addiction shows the will cannot break its own chains, if the mind rationalizes after the fact — then <a href="/question-faithgift">saving faith cannot be a human choice.</a> The lab did not prove that. Scripture declared it, and the researchers merely kept stumbling into it, decade after decade, from every direction at once. You could not have reached for God.</p>
 
-   <p>And He can sit in that room without flinching because He has already sat in a worse one with the lights on. Everything you have built your life around not being seen, Jesus took out into open air. They stripped Him at a public crossroads on a holiday weekend and fixed a placard above His head so that nobody in the crowd would have to guess what He was charged with. Hebrews says He endured the cross and scorned its shame: not numb to it, not above it, but walking into the exposure on purpose, because shame ends only when someone consents to be looked at in your place. Guilt is about what you did, and it was paid. Shame is about being seen, and it was borne. Isaiah says the iniquity of us all was laid on Him, which means the thing you cannot whisper in a dark room has already been carried down a street at noon by a man who did not cover His face.</p>
+   <p>For the biblical case, see Total Depravity: What Does "Dead in Sin" Mean? For how this connects to the philosophy of free will, see <a href="/secular-philosophy-free-will">When Secular Philosophy Proves Total Depravity</a>. For the comfort that follows from all of this, see <a href="/devotional-never-gives-up">He Never Gives Up on His Own</a>.</p>
 
-   <p>Put the phone down — or the memory, or the rehearsal; whatever you have been holding in the dark, set it down. Breathe once. Feel the dark settle around you — not as an enemy, but as a room you are finally sharing with someone who has been sitting in it longer than you have. The shame is not gone. It may not be gone tomorrow. But it is no longer a secret. It was never a secret. The only person who did not know He was in the room was you.</p>
+   <p>The God who chose you before you were broken did not do it because your will was strong. He did it because His grace is stronger — strong enough to reach through every bias, every bondage, every layer of <a href="/philosophy-self-deception">self-deception</a> and pull you out alive. He reached past the Asch conformity. Past the Libet readiness potential. Past the dopamine circuitry that wanted everything else more. Past the rider on the elephant and the rationalization the rider was about to invent. He reached through all of it, found you in the dark, and called you by name. And you came — not because the chains were weak, but because the voice was His.</p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- James 5:16 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- **1 John 1:9** — "If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness."
-- 2 Corinthians 7:10 — NOT IN GROUND TRUTH (do not quote it verbatim)
+- **Romans 3:10-12** — "As it is written: 'There is no one righteous, not even one; there is no one who understands; there is no one who seeks God. All have turned away, they have together become worthless; there is no one who does good, not even one.'"
+- **Romans 1:21** — "For although they knew God, they neither glorified him as God nor gave thanks to him, but their thinking became futile and their foolish hearts were darkened."
 
 ---
 
-## devotional-when-pride-dies
+## secular-sociology-human-inability
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/devotional-when-pride-dies.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/secular-sociology-human-inability.html`
 
-Length 1365w · already spends bridges[] catch-images[]
+Length 1936w · already spends bridges[anosognosia] catch-images[mirror]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p>Turn around. Walk home. The sun is going down. You have been crying, and that is allowed. You are going to wake up tomorrow with a kind of quiet you have not known before. Pride took a long time to die. The grace that killed it will take forever to finish loving you. <a href="/devotional-never-gives-up">He is not going to stop</a>.</p>
+<h2>If You Feel the Weight</h2>
 
-   <section class="keep-reading">
-   <h2>Keep Reading</h2>
-   <div class="hub-grid">
-   <a href="/devotional-the-ground-disappeared" class="hub-card">
-   <div class="card-number">01</div>
-   <h3 class="card-title">The Ground Disappeared</h3>
-   <p class="card-description">For the reader whose floor just went. The arms were older than the floor.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-   <a href="/devotional-the-freedom-of-not-choosing" class="hub-card">
-   <div class="card-number">02</div>
-   <h3 class="card-title">The Freedom of Not Choosing</h3>
-   <p class="card-description">You feared losing free will. You lost a burden. What remained was rest.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-   <a href="/devotional-joy-of-election" class="hub-card">
-   <div class="card-number">03</div>
-   <h3 class="card-title">The Joy of Election</h3>
-   <p class="card-description">No other perspective offers greater joy. Aaron took 15 years to see it.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-</div>
-   </section>
-```
+   <p>If you are reading this and seeing yourself in Milgram's participants, in the seminarians who stepped over the suffering man, in the 93% who cannot assess themselves honestly — there is something the experiments cannot tell you. They can establish the disability; they cannot administer the cure, and they certainly cannot tell you whether it has been administered to you. Notice what that means. The one finding this whole literature converges on is that human beings are the least reliable assessors of their own condition — so an honest reader cannot turn around at the end and use his own self-assessment as the exception. Take the diagnosis. Then go somewhere other than yourself for the verdict.</p>
 
-### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Jeremiah 9:23-24** — "This is what the Lord says: 'Let not the wise boast of their wisdom or the strong boast of their strength or the rich boast of their riches, but let the one who boasts boast about this: that they have the understanding to know me, that I am the Lord, who exercises kindness, justice and righteousness on earth, for in these I delight,' declares the Lord."
-- **John 15:5** — "I am the vine; you are the branches. If you remain in me and I in you, you will bear much fruit; apart from me you can do nothing."
-- Mark 10:15 — NOT IN GROUND TRUTH (do not quote it verbatim)
-
----
-
-## for-pastors
-
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/for-pastors.html`
-
-Length 2459w · already spends bridges[] catch-images[]
-
-### Closing HTML — PROSE ONLY, truncated at the article boundary
-(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
-is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
-
-```html
-<p>The pastor who has not yet preached sovereign grace is a man carrying a load that was never assigned to him. The pastor who finally does is a man who has been allowed to set down a weight he was not built to lift. You will sleep differently. You will pray differently. You will hold your unsaved children differently, because you will know that the God who chose them before the foundation of the world is not asleep at the wheel of their salvation. The doctrines of grace do not crush pastors. They are the only thing strong enough to hold them up.</p>
+   <p>That something has a name.</p>
 
    <blockquote>
-   <p>"And we know that in all things God works for the good of those who love him, who have been called according to his purpose. For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters. And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."</p>
-   <cite>ROMANS 8:28-30</cite>
+   <p>"I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh."</p>
+   <cite>EZEKIEL 36:26</cite>
    </blockquote>
 
-   <p>That <a href="/systematic-ordo-salutis">golden chain</a> is not a threat to your ministry. It is the foundation of your hope. Foreknown. Predestined. Called. Justified. Glorified. The same group at every link. No one drops out. The God who started this with the deacon's wife who is about to email you, with the elder in the front row who is about to rage, with the young couple you are afraid to lose — that God will finish what He started. He has never lost a sheep yet. He will not start with yours.</p>
+   <p>That promise is not an invitation to cooperate. It is a declaration of what God will do — sovereignly, irresistibly, effectively — for those He has chosen. Sociology documented the disease. Scripture reveals the cure. And the cure is not better willpower, not more education, not a kinder environment. The cure is <a href="/question-newheart">a new heart</a>, given by a God who does not leave salvation to the broken machinery of human choice. If you are feeling the weight of your own inability right now — if the exhausting belief that the outcome depends on you is finally crumbling — then what you have just read was never meant to crush you. It was meant to free you. Because if you cannot save yourself, then you were never supposed to. And the God who <a href="/broken-mirror-vessels-for-mercy">created you as a vessel for mercy</a> has already done what the experiments prove you cannot.</p>
 
-   <h2>Carry It</h2>
+   <p>The Milgram participants did not know, as they pressed the last switch, that they were writing the footnote to Romans 3. The seminarians did not know they were finishing Paul's sentence by stepping over the man in the alley. But you know. You are holding the study in one hand and the mirror in the other, and the verdict has already come in. The question is not whether you are the defendant. The question is whether you will keep paying the lawyer who is losing the case, or whether you will finally set down the file and let the One who bought the verdict walk you out of the courtroom.</p>
 
-   <p>Your people can handle this. The question is not whether they can. The question is whether you can be the one who tells them. And here is the mercy beneath your fear: <em>you do not have to save anyone.</em> That was never your job. That was never anyone's job but the Lord's. Your job is to open the Book and read what it says, slowly, faithfully, with tears in your throat when the text demands tears and fire in your bones when the text demands fire. The Spirit does the rest. He always has. He was doing it before you were ordained, and He will be doing it long after your last sermon. You are not the hero of this story. You are the herald. And the message you have been given is not a burden — it is the best news any pastor has ever been trusted to carry.</p>
-
-   <p>There is one more weight, and you do not name it in staff meeting. A pastor has more reputation to protect than anyone in the building and less room than anyone to be seen. You preach forgiveness to people who do not know the one thing about you that you have never said out loud. The office turns hiding into a professional skill. Hebrews answers it with a street address: Jesus suffered outside the city gate, out where the bodies of the sin offerings were burned, stripped, with the charge posted over His head where the crowd could read it. Guilt is what a man did, and the cross paid it. Shame is a man being seen, and the cross bore that separately, in daylight, on purpose. Then the writer says the strangest thing to men like you: go out to Him, outside the camp, bearing the disgrace He bore. It costs you nothing but a reputation you were never able to keep clean anyway. The worst of you has already been put on public display, and it was displayed on Christ. A man who knows that has nothing left to guard. That, and not eloquence, is what makes a preacher free.</p>
-
-   <p>So tomorrow morning, when you stand in the pulpit, do not look at the three faces. Look up. The One who handed you the Book is in the room. The Spirit who breathed it is the Spirit doing the work in the pew. The sheep who are His will hear His voice. The ones who are not yet His may, by next Easter, be His too — and they will be His not because you preached softly, but because you preached <em>truly</em>.</p>
-
-   <p class="landing-line"><strong>Open the Book. Trust the Spirit. Carry it.</strong></p>
+   <p>He has already paid. The doors are already open. All that is left is to stop arguing with the grace that has been calling your name since before the experiments were ever run.</p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- John 6:37-65 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- **Acts 13:48** — "When the Gentiles heard this, they were glad and honored the word of the Lord; and all who were appointed for eternal life believed."
+- **Romans 1:18** — "The wrath of God is being revealed from heaven against all the godlessness and wickedness of people, who suppress the truth by their wickedness."
 
 ---
 
-## found-you
+## shattered-lens-cant-tell-true
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/found-you.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/shattered-lens-cant-tell-true.html`
 
-Length 2211w · already spends bridges[] catch-images[]
+Length 2638w · already spends bridges[anosognosia] catch-images[cargo]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<h2>If You Can Only Read One More Thing</h2>
+<h2>You Were Born Now on Purpose</h2>
 
-   <p>If your eyes are heavy and you only have it in you for one more page, make it this: <a href="/devotional-chosen-before-you-were-broken">You Were Chosen Before You Were Broken</a>. It is about five minutes. It will not argue with you. It will sit beside you. And when it is done, you can close the tab, turn off the phone, and lie down — and the truth underneath it will keep being true whether or not you remember it in the morning.</p>
+   <p>Read this slowly, because most readers have read it as wallpaper:</p>
 
-   <p>That is what makes it grace. It holds you even when you are not holding it.</p>
+   <div class="scripture-block">
+   <p>From one man he made all the nations, that they should inhabit the whole earth; and he marked out their appointed times in history and the boundaries of their lands.</p>
+   <span class="scripture-ref">— Acts 17:26</span>
+</div>
 
-   <h2>One Last Thing</h2>
+   <p>He <em>marked out their appointed times</em>. The verb is not metaphorical. God did not look down at history, see the AI revolution coming, and slot you into 2026 as a damage-control decision. God <em>chose</em> 2026 for you and you for 2026 before there was a 2025, before there was a Pentecost, before there was a Genesis. You were not born into chaos by accident. You were not assigned to the deepfake era as punishment. You were chosen for this hour the way a soldier is chosen for a regiment — and the General does not lose battles He has personally placed His own troops to fight.</p>
 
-   <p>There is a verse in the Bible that most people memorize as children and then forget to hear as adults. It is <a href="/question-psalm139">Psalm 139</a>:5. Here is how it reads:</p>
+   <p>The implication is staggering and tender at once. Your confusion is not a defect. Your bewilderment is not evidence that the faith does not work. Your bewilderment is the precise condition in which God has placed you, on purpose, so that you may discover, exactly here, that the only stable ground left in the universe is the only ground that was ever stable to begin with — His Word, His Son, His decree.</p>
 
-   <blockquote>
-   <p>"You hem me in behind and before, and you lay your hand upon me. Such knowledge is too wonderful for me, too lofty for me to attain."</p>
-   <cite>PSALM 139:5-6</cite>
-   </blockquote>
+   <div class="scripture-block">
+   <p>Sanctify them by the truth; your word is truth.</p>
+   <span class="scripture-ref">— John 17:17</span>
+</div>
 
-   <p>Hem me in. Behind. Before. The verse has to use two prepositions because the ordinary categories of <em>past</em> and <em>future</em> are not large enough to describe the kind of holding God does. He has always been behind you. He has always been in front of you. When you were born. When you were four. When the thing happened that you do not talk about. When you stopped praying. When you started again. When you stopped again. Behind and before.</p>
+   <p>You live in the most disinformation-saturated decade in human history. You also live in the most Scripture-accessible decade in human history. The same fiber-optic network that delivers the deepfake delivers the <a href="/systematic-bibliology">Word of God</a> in two hundred translations to every pocket on the planet. The technology that confuses you is the technology that equips you. The God who placed you here did not strand you. He stationed you.</p>
 
-   <p>There is a story told here about a woman named Mara, who spent the worst morning of her life opening what she expected to be a ledger of her failures and found instead <a href="/story-tender-the-letter-already-written">a letter written about her before she was born</a>. It may be the exact shape of what you needed.</p>
+   <h2>The Hand No Algorithm Can Pry Open</h2>
 
-   <p>There is a reason being found does not feel, at first, like good news. To be found is to be seen. So it matters a great deal where the seeing got settled, and it did not get settled in you. Jesus is the one who was hemmed in: held, tried in the open, condemned by name in front of a city that had been cheering Him a week earlier. Isaiah says the iniquity of us all was laid on Him. Laid, deliberately, out where it could be looked at. He did not cover His face and He was not spared the crowd. The exposure you have been bracing for your whole life has already happened. It happened outside of you, to someone else, and it is finished.</p>
+   <p>Back to the kitchen. The kettle is still on. The phone is still in your hand. The headlines have not stopped contradicting each other. But something in your chest has gone quiet — and that quiet is not denial; it is the first deep breath in a long while of a creature who has just remembered that the world is not running itself.</p>
 
-   <p>You do not have to settle what you are or where you stand. That question was answered somewhere else, a long time before you thought to ask it. Rest.</p>
+   <p>There is a Hand around you. It was around you before the Tuesday morning. It was around you before the deepfake. It was around you before there was a kitchen, before there was a kettle, before there was a country whose news cycle could break your heart. The truth was settled before the lie was invented. The price was paid before the bill arrived. The Father's hold on His own was decreed before the foundation of the world, and no algorithm has ever been written that could reach high enough to <a href="/devotional-the-hands-that-hold-you">pry that hand open</a>.</p>
 
-   <p>You cannot walk out of a room He is already on both sides of.</p>
+   <p><em>Father, I cannot tell what is true anymore. I cannot trust my eyes; I do not always trust my heart. But You cannot lie. You cannot deceive. You cannot fail. Hold me when I cannot tell. Hold me when I cannot see. Hold me, in this hour You appointed for me, until I am home.</em></p>
+
+   <p>You were never the one who had to verify the universe. You were the cargo, and the One steering the ship was the only One who has ever known where shore is. The chaos you have been trying to outrun has been, the whole time, inside His sovereignty. And the Hand that <a href="/devotional-rescued-without-a-say">rescued you without a say</a> is not going to drop you because the headlines got bad.</p>
+
+   <p class="landing-line"><strong>Truth has a face. Trust Him.</strong></p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- (none cited)
+- Romans 1:18-22 — NOT IN GROUND TRUTH (do not quote it verbatim)
+- **John 14:6** — "Jesus answered, "I am the way and the truth and the life. No one comes to the Father except through me.""
+- **Hebrews 6:18** — "God did this so that, by two unchangeable things in which it is impossible for God to lie, we who have fled to take hold of the hope set before us may be greatly encouraged."
+- **1 Corinthians 14:33** — "For God is not a God of disorder but of peace—as in all the congregations of the Lord's people."
+- **Proverbs 21:1** — "In the Lord's hand the king's heart is a stream of water that he channels toward all who please him."
+- **Acts 17:26** — "From one man he made all the nations, that they should inhabit the whole earth; and he marked out their appointed times in history and the boundaries of their lands."
+- John 17:17 — NOT IN GROUND TRUTH (do not quote it verbatim)
 
 ---
 
-## history-calvin-geneva
+## shattered-lens-cant-unsee-it
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/history-calvin-geneva.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/shattered-lens-cant-unsee-it.html`
 
-Length 1533w · already spends bridges[drowning] catch-images[]
+Length 1502w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<cite>ROMANS 8:29-30</cite>
-   </blockquote>
+</p>
 
-   <h2>The Unmarked Grave</h2>
+   <p>The guilt often comes from a single lie: "If I'm right about this and they're wrong, what does that say about them?" And the answer is simple: it says they haven't seen it yet. Not that they're stupid. Not that they're apostate. Not that they'll never understand. It says they're where you were three months ago. And they may stay there for years. Some of them may never come to this understanding. That's heartbreaking, but it's not your fault, and it's not your job to force it. The <a href="/invisible-wall-lonely-theological">loneliness of theological awakening</a> is real — but it is not the end of the story.</p>
 
-   <p>Calvin died on May 27, 1564, at the age of fifty-four, worn out by decades of illness, overwork, and relentless opposition. He had been exiled from Geneva, recalled, threatened, slandered, and exhausted. His body had failed him for years — migraines, kidney stones, tuberculosis, hemorrhoids so severe he sometimes preached lying down. He never stopped working.</p>
+   <p>Your job is to let the Spirit do what He does—to open eyes according to His timing, not your urgency.</p>
 
-   <p>At his own request, he was buried in an unmarked grave. No monument. No shrine. No pilgrimage site. The man whose name would become synonymous with a theological system wanted no attention drawn to himself. <em>Soli Deo Gloria</em> — to God alone be the glory — was not Calvin's motto in the way a corporation has a mission statement. It was the architecture of his entire life.</p>
+   <h2>What Comes Next</h2>
 
-   <p><em>He built cathedrals of thought and then refused to put his name on the cornerstone.</em></p>
+   <p>The disorientation you feel right now is temporary. The clarity is permanent. A peace that doesn't make sense. A resting in <a href="/systematic-divine-decrees">God's sovereignty</a> that replaces the exhaustion of trying to be the hero of your own salvation story. A love for God that deepens as you understand that He loved you not because you earned it but because He <a href="/systematic-election">chose you before anything else existed to choose</a>.</p>
 
-   <p>That unmarked grave says more about Calvin's theology than the <em>Institutes</em> do. A man who truly believes that salvation is entirely God's work — that even the <a href="/question-chosen">faith to believe is a gift</a> — has no reason to build monuments to himself.</p>
+   <p>Scripture calls this "the eyes of your heart may be enlightened" (Ephesians 1:18). The deepest place of knowing. And that knowing will sustain you through the seasons when no one else understands.</p>
 
-   <p>The request was not modesty of temperament. Calvin was capable of ferocity in print and knew exactly what he had built. It was doctrine carried to its consequence, and the consequence had a precedent. Hebrews locates the crucifixion with unusual precision: Jesus suffered outside the city gate, at the place where the bodies of the sin offerings were burned, and the letter treats that address as the point rather than an accident of geography. Roman execution was engineered for exposure, the stripping and the road and the placard naming the charge, and He accepted the arrangement instead of escaping it. Hebrews 12 says He endured the cross and scorned its shame. Hebrews 13 turns that address into an instruction, telling its readers to follow Him out past the wall and carry the same reproach He carried. A movement whose Lord was killed as a public spectacle outside the walls does not, when it is thinking clearly, raise monuments to its theologians. Calvin's grave is that argument in stone, or rather in the refusal of stone. If a man contributes nothing to his own salvation he has nothing to mark, and the honor he declines costs him nothing, because the shame he would otherwise spend his life managing was absorbed centuries earlier by someone who walked out past the gate on purpose.</p>
+   <p>The Spirit who opened your eyes has not abandoned you to navigate this alone. He will guide you into all truth (John 16:13). You can trust the clarity you're experiencing. You can grieve the loneliness without losing the vision.</p>
 
-   <p>The truths he articulated were never his. They belonged to Paul before Augustine, to Augustine before Calvin, and to God before anyone. Calvin was the architect; God was the foundation. And foundations do not need tombstones. <a href="/devotional-in-christ">They are underneath you right now</a>, whether you feel them or not.</p>
+   <p>You can't unsee what you've seen. And thank God for that.</p>
+   <p>Because what you're seeing is Him. And <a href="/devotional-never-gives-up">He never gives up</a> on what He starts.</p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Romans 8:29-30** — "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters. And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."
+- **John 6:44** — "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
+- **Ephesians 1:4** — "For he chose us in him before the creation of the world to be holy and blameless in his sight."
+- **Romans 8:29** — "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters."
+- **2 Corinthians 3:18** — "And we all, who with unveiled faces contemplate the Lord's glory, are being transformed into his image with ever-increasing glory, which comes from the Lord, who is the Spirit."
+- **Ephesians 1:18** — "I pray that the eyes of your heart may be enlightened in order that you may know the hope to which he has called you, the riches of his glorious inheritance in his holy people."
+- **John 16:13** — "But when he, the Spirit of truth, comes, he will guide you into all the truth. He will not speak on his own; he will speak only what he hears, and he will tell you what is yet to come."
 
 ---

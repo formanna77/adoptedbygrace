@@ -1,4 +1,4 @@
-# FACTORY BRIEF — gospel-absence — batch 5 of 24
+# FACTORY BRIEF — gospel-absence — batch 5 of 12
 
 Everything you need is in this file. **Do not open the source pages** — the
 closing HTML is reproduced verbatim below, and the only Scripture you might
@@ -9,237 +9,261 @@ window before it wrote a single word.
 For each page: choose a unique span from the HTML shown, and `Edit` the real
 file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
-## demolition-ezekiel33-11
+## question-free-will-bible-verses
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-ezekiel33-11.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-free-will-bible-verses.html`
 
-Length 2091w · already spends bridges[addiction] catch-images[]
-
-### Closing HTML — PROSE ONLY, truncated at the article boundary
-(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
-is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
-
-```html
-<p>The two-wills reading preserves both realities. God genuinely grieves the death of the wicked (Ezekiel 33:11 is real and sincere). God also sovereignly and effectually saves His elect (Ezekiel 36:26-27 is real and unstoppable). The two wills live in God without contradiction because God is infinite and His will is layered. The attempt to flatten Him into a single layer is precisely the anthropomorphism the objection cannot escape — a God small enough to think one-dimensional thoughts about salvation, the way a human would.</p>
-
-   <p>The God of Scripture is bigger. He grieves <em>and</em> He decrees. He pleads <em>and</em> He elects. He sends out the call <em>and</em> He gives the new heart. Both at once. Without contradiction. Without losing a thing. (Read <a href="/demolition-arminian-facts">why Arminianism secretly assumes Calvinism</a> for the underlying logic.)</p>
-
-   <h2>The invitation this verse actually extends to you</h2>
-
-   <p>If you have always found comfort in Ezekiel 33:11 because it gave you the sense that the ball was in your court, that God was waiting for you, that your turning was something you could generate — stop and consider why that comfort felt necessary.</p>
-
-   <p>What you were really finding comfort in was <strong>your own autonomy</strong>. The idea that your salvation was ultimately in your hands felt safe because you were still holding the steering wheel. What you discovered when you met a God who sovereignly saves whom He pleases was that the wheel was never yours. That is terrifying — and then it is freeing, in that order. (Read <a href="/psychology-why-we-resist">why we resist sovereignty</a> for the psychology.)</p>
-
-   <p>Ezekiel 33:11 is God's sincere grief over rebellion. It is also God's sincere call to return. The fact that some return and some do not is not because the call fails. Where anyone returns at all, it is because — through that same call, spoken into the soul by the Spirit — God gave a new heart to a man who did not have one. That is Ezekiel 36 doing its work through Ezekiel 33. Which means a turning, wherever it happens, is never a decision activating. It is a surgery already performed, showing up in a body that never scheduled it. (Read <a href="/devotional-chosen-before-you-were-broken">"Chosen Before You Were Broken"</a> to understand what is happening.)</p>
-
-   <p>Notice what God swears by. Not the temple, not the covenant — His own life. <em>As surely as I live.</em> It is the strongest thing He has, and He spends it here, on His grief over the death of the wicked. Hebrews reports a second oath of the same weight, and that one installed a priest: <em>"Therefore he is able to save completely those who come to God through him, because he always lives to intercede for them."</em> The life God swore by in Ezekiel is the life Jesus is using at this moment. The pleading of chapter 33 was never a voice thrown into empty air; it belongs to a Man who went into the ground under the sentence you earned, came out of it, and has been asking His Father for His people ever since, without one hour's interruption. God grieves over the death of the wicked. He also keeps a living Son at His right hand, naming the ones He decided to save.</p>
-
-   <p>And hold what you are left holding: a God who swears His grief over the very deaths His decree permits, and explains the difference to no one. The mystery is not a flaw in the doctrine. It is the size of the One it describes.</p>
-```
-
-### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Ezekiel 33:11** — "Say to them, 'As surely as I live, declares the Sovereign Lord, I take no pleasure in the death of the wicked, but rather that they turn from their ways and live. Turn! Turn from your evil ways! Why will you die, people of Israel?'"
-- **John 6:44** — "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
-- **Acts 2:23** — "This man was handed over to you by God's deliberate plan and foreknowledge; and you, with the help of wicked men, put him to death by nailing him to the cross."
-- **Genesis 50:20** — "You intended to harm me, but God intended it for good to accomplish what is now being done, the saving of many lives."
-- **Ezekiel 36:26-27** — "I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh. And I will put my Spirit in you and move you to follow my decrees and be careful to keep my laws."
-
----
-
-## demolition-hebrews6-4-6
-
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-hebrews6-4-6.html`
-
-Length 1613w · already spends bridges[] catch-images[]
+Length 2646w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<h2>What This Means for You</h2>
+<p>Also note: the verse ends with a command — "Repent and live!" But where does repentance come from? "God exalted him to his own right hand as Prince and Savior that he might bring Israel to repentance and forgive their sins" (Acts 5:31). "Opponents must be gently instructed, in the hope that God will grant them repentance leading them to a knowledge of the truth," (2 Timothy 2:25). Repentance, like faith, is a gift — not a human achievement.</p>
 
-   <p>So hear what the author of Hebrews actually does next. Having written the most frightening warning in the letter, he turns in the very next breath to the people he loves and draws a line between them and the apostates he just described: <em>"we are convinced of better things in your case—the things that have to do with salvation."</em> He was not describing your fate. He was distinguishing you from it. And the line that distinguishes you was not drawn by the strength of your grip, but by the God who <a href="/devotional-chosen-before-you-were-broken">chose you before the foundation of the world</a> and will not lose what is His.</p>
+   <h2>Romans 10:13 — "Everyone Who Calls on the Name of the Lord"</h2>
 
    <blockquote>
-   <p>"I give them eternal life, and they shall never perish; no one will snatch them out of my hand."</p>
-   <cite>JOHN 10:28</cite>
+   <p>"Everyone who calls on the name of the Lord will be saved."</p>
+   <cite>ROMANS 10:13</cite>
    </blockquote>
 
-   <p>And look where the letter is going. Thirteen verses after the warning that has been keeping you awake, the same author reaches for an anchor and points through the curtain at Jesus, who went in ahead of us and stayed — a priest who does not die, and therefore never hands the work to a successor. That is where the whole letter has been heading, and the road runs straight through the paragraph that frightened you. He is not absent. He is occupied — with you, by name, at the throne, and He has not been interrupted once in two thousand years. Whatever you have felt or failed to feel this year has not slowed Him by a second. The fear told you He may have withdrawn; the letter tells you He is at this moment doing the very thing you were afraid He had stopped doing. You are not clinging to a rescue that happened once and receded. You are being prayed for, right now, by the only Man whose prayers have never been refused.</p>
+   <p>This verse is a promise, not a proof of ability. Everyone who calls <em>will</em> be saved. That is true. But the question remains: who calls? Paul himself answers in the preceding verses: "How, then, can they call on the one they have not believed in? And how can they believe in the one of whom they have not heard?" (Romans 10:14). And the chain of dependence continues all the way back to God sending the preacher.</p>
 
-   <p>Come back, then, to the weight you were carrying — the verse that sat in your skull like a stone you swallowed. If the ground still feels unsteady, <a href="/devotional-i-dont-think-im-saved">this page was written for the frightened version of you</a>. But hear what the fear could never tell you: it brought you to the door; <a href="/devotional-never-gives-up">the grace that never lets go</a> is what carries you through it. Set the stone down. He has you.</p>
-```
+   <p>More importantly, read Romans 3:11 — the same letter, the same author: "There is no one who understands; there is no one who seeks God." <em>No one seeks.</em> No one calls on their own initiative. Everyone who calls will be saved — but only those whom God irresistibly draws will call.</p>
 
-### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Hebrews 6:4-6** — "It is impossible for those who have once been enlightened, who have tasted the heavenly gift, who have shared in the Holy Spirit, who have tasted the goodness of the word of God and the powers of the coming age and who have fallen away, to be brought back to repentance. To their loss they are crucifying the Son of God all over again and subjecting him to public disgrace."
-- **Hebrews 10:26** — "If we deliberately keep on sinning after we have received the knowledge of the truth, no sacrifice for sins is left,"
-- **Hebrews 2:9** — "But we do see Jesus, who was made lower than the angels for a little while, now crowned with glory and honor because he suffered death, so that by the grace of God he might taste death for everyone."
-- **1 John 2:19** — "They went out from us, but they did not really belong to us. For if they had belonged to us, they would have remained with us; but their going showed that none of them belonged to us."
+   <h2>The Pattern You Cannot Ignore</h2>
 
----
+   <p>Something remarkable emerges when you line up every "free will" verse and read each one in its full context. Not a single one teaches that spiritually dead sinners have the inherent ability to generate saving faith on their own. Every single one, read in context, actually reveals one or more of the following:</p>
 
-## demolition-john3-16
+   <p>The command reveals the standard — not the ability. The promise describes the result — not the cause. The address is to the covenant community — not to the unregenerate. The context explicitly teaches sovereignty — usually within a few verses.</p>
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-john3-16.html`
+   <p>This is not a coincidence. It is a pattern, and the pattern is Scripture's own testimony: salvation is the Lord's work from first to last. The "free will" arsenal, examined honestly, is a collection of verses that prove exactly what the free-will defender is trying to disprove.</p>
 
-Length 2138w · already spends bridges[] catch-images[]
+   <p>The Bible does not teach that you have the ability to choose God. It teaches that you have the <em>obligation</em> to choose God — and that you never will, not on your own, not in a thousand lifetimes, because you are dead in your transgressions and sins (Ephesians 2:1). The obligation condemns you. Only grace can save you.</p>
 
-### Closing HTML — PROSE ONLY, truncated at the article boundary
-(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
-is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+   <h2>What This Means for You</h2>
 
-```html
-<h2>The Verse That Catches You When You Fall</h2>
+   <p>If you've been building your confidence on these verses — if they were the foundation of your belief that you contributed something to your own salvation — then this page may feel like the ground is giving way. Good. What's falling was never the foundation.</p>
 
-   <p>If you have read this far and something inside you feels like <a href="/devotional-the-ground-disappeared">the ground is disappearing</a> — that is not a sign that something has gone wrong. It is a sign that <a href="/question-how-grace-feels">something has gone right</a>.</p>
+   <p>Because here is what replaces it: a God who does not wait for your permission, who does not depend on your decision, who <a href="/devotional-chosen-before-you-were-broken">chose you before you existed</a> and <a href="/devotional-never-gives-up">will never let you go</a>. A salvation that does not rest on the strength of your faith but on the faithfulness of your God. A grace that does not need your help — because it <a href="/devotional-rescued-without-a-say">already did everything</a>.</p>
 
-   <p>The ground that is disappearing is the ground you built yourself — the confidence that your faith was your contribution, that your decision was the decisive moment, that you hold the key to your own salvation. That ground was never stable. It only felt stable because you had never looked down.</p>
+   <p>Remember the flinch from the top of this page? The one that told you what you were protecting? Look at it again. If it was the need to be right about free will, ask yourself: what remains when those verses no longer say what you needed them to say? What remains is not nothing. What remains is a God whose love does not depend on your exegetical skill, whose grace does not need your permission, whose choice was settled before you learned to read the verses you were fighting over.</p>
 
-   <p>Look down now. What do you see holding you up?</p>
-
-   <p>But underneath that ground is another one. One you did not build and cannot destroy. It is the love described in this verse — not a love that waits for you to be worthy, not a love that depends on whether you made the right decision at the right <a href="/history-decision-theology">altar call</a>, but a love that <strong>gave</strong>. Past tense. Accomplished. <a href="/question-chosen">Before you were born</a>, before you could contribute or contaminate it.</p>
-
-   <p>So this is the turn. John 3:16 is not the Arminian trump card; it is the sovereign, sacrificial, effectual love it always proclaimed. The whole time you were hiding behind this verse to resist the <a href="/compare-calvinism-arminianism">doctrines of grace</a>, you were leaning on the one verse that announces them.</p>
-
-   <p>You were not hiding behind John 3:16. You were standing on it — and it was holding you the whole time.</p>
+   <p>You were not saved because you chose well. You were saved because you were chosen.</p>
 
    <blockquote>
-   <p>"All those the Father gives me will come to me, and whoever comes to me I will never drive away. For I have come down from heaven not to do my will but to do the will of him who sent me. And this is the will of him who sent me, that I shall lose none of all those he has given me, but raise them up at the last day."</p>
-   <cite>JOHN 6:37-39</cite>
+   <p>"You did not choose me, but I chose you and appointed you so that you might go and bear fruit — fruit that will last — and so that whatever you ask in my name the Father will give you."</p>
+   <cite>JOHN 15:16</cite>
    </blockquote>
 
-   <p>And watch the tenses. <em>Gave</em> is finished — one Friday, one Son, nothing still owing. But the night before that Friday the same Son prayed, <em>"I pray for them. I am not praying for the world, but for those you have given me, for they are yours,"</em> and that verb never went past tense. Jesus has been praying it for two thousand years without a break. The Father gave the Son to the world; the Father gave a people to the Son; and the Son is at the Father's right hand this minute saying their names out loud. That is what makes the promise you just read unbreakable. He does not lose them because He never stops asking for them — not while you slept, not through the years you spent using this verse as a shield against Him.</p>
-
-   <p>So let the verse mean everything it has always meant. Let "God so loved the world" be the cry of a Father who emptied heaven of His only Son; let "<em>gave</em>" stay in the past tense — finished, paid in full. Then notice what happens to the words you have known your whole life. They do not shrink. They grow <em>terrifyingly</em> bigger — because the love that gave is the love that draws, and the love that draws is the love that will not lose you. Read the verse again. It has been telling you so all along.</p>
-
-   <p class="landing-line"><strong>Not one is lost.</strong></p>
+   <p class="landing-line"><strong>He chose first.</strong></p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
+- **Joshua 24:15** — "But if serving the Lord seems undesirable to you, then choose for yourselves this day whom you will serve, whether the gods your ancestors served beyond the Euphrates, or the gods of the Amorites, in whose land you are living. But as for me and my household, we will serve the Lord."
+- **Revelation 3:20** — "Here I am! I stand at the door and knock. If anyone hears my voice and opens the door, I will come in and eat with that person, and they with me."
 - **John 3:16** — "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
-- **John 3:19** — "This is the verdict: Light has come into the world, but people loved darkness instead of light because their deeds were evil."
-- **John 6:44** — "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
+- **Deuteronomy 30:19** — "This day I call the heavens and the earth as witnesses against you that I have set before you life and death, blessings and curses. Now choose life, so that you and your children may live"
+- **Revelation 3:14** — ""To the angel of the church in Laodicea write: These are the words of the Amen, the faithful and true witness, the ruler of God's creation.""
+- **Revelation 1:18** — "I am the Living One; I was dead, and now look, I am alive for ever and ever! And I hold the keys of death and Hades."
 - **John 3:8** — "The wind blows wherever it pleases. You hear its sound, but you cannot tell where it comes from or where it is going. So it is with everyone born of the Spirit."
-- **John 3:19-20** — "This is the verdict: Light has come into the world, but people loved darkness instead of light because their deeds were evil. Everyone who does evil hates the light, and will not come into the light for fear that their deeds will be exposed."
-- John 3:27 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- John 3:36 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- John 3:17 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- **John 17:9** — "I pray for them. I am not praying for the world, but for those you have given me, for they are yours."
-- **Ezekiel 33:11** — "Say to them, 'As surely as I live, declares the Sovereign Lord, I take no pleasure in the death of the wicked, but rather that they turn from their ways and live. Turn! Turn from your evil ways! Why will you die, people of Israel?'"
-- **John 10:3** — "The gatekeeper opens the gate for him, and the sheep listen to his voice. He calls his own sheep by name and leads them out."
-- **John 6:65** — "He went on to say, 'This is why I told you that no one can come to me unless the Father has enabled them.'"
-- **John 6:37** — "All those the Father gives me will come to me, and whoever comes to me I will never drive away."
-- **John 12:32** — "And I, when I am lifted up from the earth, will draw all people to myself."
-- **Ezekiel 36:26** — "I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh."
-- **Ephesians 2:8-9** — "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast."
-- **Philippians 1:29** — "For it has been granted to you on behalf of Christ not only to believe in him, but also to suffer for him,"
-
----
-
-## demolition-mark16-16
-
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-mark16-16.html`
-
-Length 2337w · already spends bridges[] catch-images[]
-
-### Closing HTML — PROSE ONLY, truncated at the article boundary
-(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
-is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
-
-```html
-<p>Before the verse lands you, it is worth stopping on the quieter question underneath the whole argument. Why did you want Mark 16:16 to mean what you hoped it meant? Why does the soul reach, so instinctively, for a reading that would make the believing <em>its own</em>? The hunger is not really for exegetical accuracy. It is for a square inch of ground that God did not give — one corner of the rescue we can sign our name to. We do not fight for <a href="/question-freewill">free will</a> because the grammar compels it; the grammar, as we have seen, runs the other way. We fight for it because something in us would still rather be the smallest of co-saviors than the largest of the saved. That is what the verse was quietly exposing the whole time. It was never the door to your autonomy. It was a mirror held up to your need for it.</p>
-
-   <h2>Where the Verse Lands the Reader</h2>
-   <p>And here is the mercy hidden in that exposure: the square inch you were reaching for, you never needed. You did not believe by your own achievement. You believed because, before the foundation of the world, your name was already written — and at the appointed hour the Spirit who had been drawing you all along opened your heart, and faith rose up in you because the gift had already been planted.</p>
-
-   <p>But do not hear <em>finished</em> as <em>over</em>. A rescue can be complete and its author still working. <em>It is finished</em> was spoken about the paying; nothing like it has ever been spoken about the praying. The Man who settled the account did not recede into history to be commemorated. He rose, and took up an office He has not set down since, and Hebrews rests the entire security of your rescue on it: the reason He saves all the way to the end is that He is alive and has never once stopped asking His Father for the people He bought. So while you were reading this page and weighing whether the argument holds, Jesus was in the throne room doing the thing that actually holds you. He was doing it through every year you were certain the believing was your own achievement, and there has not been an hour since the resurrection when it stopped.</p>
-
-   <p>Mark 16:16 is true. Whoever believes is saved. And your believing did not begin the rescue. It announced one already finished.</p>
-
-   <section class="keep-reading">
-   <h2 class="hub-section-title">Keep Reading</h2>
-   <div class="hub-grid">
-   <a href="/question-faithgift" class="hub-card">
-   <div class="card-meta">CROWN JEWEL</div>
-   <h3 class="card-title">Faith Itself Is a Gift</h3>
-   <p class="card-description">The Greek grammar, the cross-references, and the devastating implication that grounds the entire site.</p>
-   <div class="card-footer"><span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-   
-   <a href="/question-faithgift" class="hub-card">
-   <div class="card-meta">CROWN JEWEL</div>
-   <h3 class="card-title">The Crown Jewel Argument</h3>
-   <p class="card-description">If faith is a work, it cannot save. The argument that closes every escape.</p>
-   <div class="card-footer"><span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-
-   <a href="/devotional-the-first-prayer-after-surrender" class="hub-card">
-   <div class="card-meta">DEVOTIONAL</div>
-   <h3 class="card-title">The First Prayer After Surrender</h3>
-   <p class="card-description">When you finally see that the believing rose up because the gift had been planted.</p>
-   <div class="card-footer"><span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-</div>
-   </section>
-```
-
-### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Mark 16:16** — "Whoever believes and is baptized will be saved, but whoever does not believe will be condemned."
-- **Mark 1:15** — ""The time has come," he said. "The kingdom of God has come near. Repent and believe the good news!""
-- **John 3:16** — "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
-- **Acts 16:31** — "Believe in the Lord Jesus, and you will be saved—you and your household."
-- **Romans 10:9** — "If you declare with your mouth, 'Jesus is Lord,' and believe in your heart that God raised him from the dead, you will be saved."
-- **Ephesians 2:8** — "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—"
-- **Philippians 1:29** — "For it has been granted to you on behalf of Christ not only to believe in him, but also to suffer for him,"
-- **2 Timothy 2:25** — "Opponents must be gently instructed, in the hope that God will grant them repentance leading them to a knowledge of the truth,"
-- **Acts 13:48** — "When the Gentiles heard this, they were glad and honored the word of the Lord; and all who were appointed for eternal life believed."
-- **Acts 16:14** — "One of those listening was a woman from the city of Thyatira named Lydia, a dealer in purple cloth. She was a worshiper of God. The Lord opened her heart to respond to Paul's message."
-- **John 6:65** — "He went on to say, 'This is why I told you that no one can come to me unless the Father has enabled them.'"
-- **1 Timothy 2:4** — "who wants all people to be saved and to come to a knowledge of the truth."
-- **John 12:32** — "And I, when I am lifted up from the earth, will draw all people to myself."
-- **Ephesians 2:9** — "not by works, so that no one can boast."
-
----
-
-## demolition-rev22-17
-
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-rev22-17.html`
-
-Length 1750w · already spends bridges[] catch-images[]
-
-### Closing HTML — PROSE ONLY, truncated at the article boundary
-(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
-is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
-
-```html
-<h2>The beauty of the verse on the Reformed reading</h2>
-
-   <p>Once you see this, Revelation 22:17 becomes more beautiful, not less. It is the last word of the last book. The Spirit and the bride stand together and call. Every elect soul from every age and every corner of the earth hears the call and feels the thirst they cannot explain. They come. They drink. The water is free — free because the One offering it has already paid for it, and free because the thirst itself was His gift. Nothing is left undone. Nothing remains for you to contribute. The invitation is finished. The well is open. The thirst that brought you here was not random. It was His work. And the drinking is not your achievement; it is your homecoming.</p>
-
-   <h2>The pastoral catch</h2>
-
-   <p>And notice what the invitation quietly assumes. It does not say <em>whoever can work up a thirst.</em> It says <em>let the one who is thirsty come</em> — the thirst is presupposed, standing in the sentence already, arriving before the invitation does. Nobody manufactures that. Nobody is the origin of his own longing. The verse you thought was asking you to make a decision is telling you that a decision was made about you long before you knew you needed it.</p>
-
-   <p>The Spirit and the bride are calling. The water is free. Nothing stands between you and the cup but the idea that you have to <em>manufacture</em> the desire to drink. Look at the wording again: <em>let the one who is thirsty come.</em> It does not say let the one who has worked up sufficient thirst come, and it does not ask you to certify the thirst before you are handed the cup. Nobody has ever been turned away from that water for arriving numb. The cup is not held out on the strength of what you feel about it. It is held out by the Man who hung on a cross and said <em>I am thirsty</em>, and was given vinegar, so that this river could run free for everyone who comes.</p>
-
-   <p>And notice who is standing at the water. The verse says <em>come</em>; Hebrews tells you what becomes of everyone who does: he is saved all the way to the end, because he comes to God through a priest who is alive and never stops praying for the people He bought. This cup is not handed out by an absent owner. Jesus paid for the water with His own blood, walked out of the grave, and has been speaking for thirsty people at His Father's side every hour since. That is why nothing stops you at the edge of it.</p>
-
-   <p>Come and drink. Not because you had the autonomy to decide — but because <a href="/devotional-never-gives-up">He has never stopped drawing you</a>.</p>
-
-   <p class="landing-line"><strong>He made the thirst.</strong></p>
-```
-
-### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Revelation 22:17** — "The Spirit and the bride say, "Come!" And let the one who hears say, "Come!" Let the one who is thirsty come; and let the one who wishes take the free gift of the water of life."
+- **John 3:3** — "Jesus replied, 'Very truly I tell you, no one can see the kingdom of God unless they are born again.'"
 - **John 6:44** — "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
-- **Isaiah 55:11** — "So is my word that goes out from my mouth: It will not return to me empty, but will accomplish what I desire and achieve the purpose for which I sent it."
-- John 7:37 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- **John 6:65** — "He went on to say, 'This is why I told you that no one can come to me unless the Father has enabled them.'"
-- **John 1:13** — "children born not of natural descent, nor of human decision or a husband's will, but born of God."
-- **Matthew 11:28** — "Come to me, all you who are weary and burdened, and I will give you rest."
+- **Deuteronomy 31:29** — "For I know that after my death you are sure to become utterly corrupt and to turn from the way I have commanded you. In days to come, disaster will fall on you because you will do evil in the sight of the Lord and arouse his anger by what your hands have made."
+- **2 Corinthians 3:6** — "He has made us competent as ministers of a new covenant—not of the letter but of the Spirit; for the letter kills, but the Spirit gives life."
+- **2 Peter 3:9** — "The Lord is not slow in keeping his promise, as some understand slowness. Instead he is patient with you, not wanting anyone to perish, but everyone to come to repentance."
+- **2 Peter 1:1** — "Simon Peter, a servant and apostle of Jesus Christ, To those who through the righteousness of our God and Savior Jesus Christ have received a faith as precious as ours:"
+- **1 Timothy 2:4** — "who wants all people to be saved and to come to a knowledge of the truth."
+- **1 Timothy 2:2** — "for kings and all those in authority, that we may live peaceful and quiet lives in all godliness and holiness."
+- **Acts 7:51** — "You stiff-necked people! Your hearts and ears are still uncircumcised. You are just like your ancestors: You always resist the Holy Spirit!"
+- **John 5:21** — "For just as the Father raises the dead and gives them life, even so the Son gives life to whom he is pleased to give it."
+- **Ezekiel 18:32** — "For I take no pleasure in the death of anyone, declares the Sovereign Lord . Repent and live!"
+- **Acts 5:31** — "God exalted him to his own right hand as Prince and Savior that he might bring Israel to repentance and forgive their sins."
+- **2 Timothy 2:25** — "Opponents must be gently instructed, in the hope that God will grant them repentance leading them to a knowledge of the truth,"
+- **Romans 10:13** — "For, “Everyone who calls on the name of the Lord will be saved.”"
+- **Romans 10:14** — "How, then, can they call on the one they have not believed in? And how can they believe in the one of whom they have not heard? And how can they hear without someone preaching to them?"
+- **Romans 3:11** — "there is no one who understands; there is no one who seeks God."
+- **Ephesians 2:1** — "As for you, you were dead in your transgressions and sins,"
+
+---
+
+## question-freewill
+
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-freewill.html`
+
+Length 2922w · already spends bridges[] catch-images[]
+
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
+```html
+<p>What Scripture <em>does</em> teach is this: the unregenerate person does not need more information. They do not need a more compelling argument. They need to be made alive. Regeneration, not persuasion, is the operative category. Dead people do not cooperate in their own resurrection. They receive it.</p>
+
+   <p>Which is where the magnificence of it sits. This is not a grace that extends a gift and waits to see whether you take it. It is a grace that commands the dead to live, and the command carries in itself the power to accomplish what it orders. When Ephesians 2:5 says God "made us alive with Christ," the verb has one subject and it is not you. Read it as an account of a decision you reached and the grammar comes apart in your hands. It is an account of a resurrection.</p>
+
+   <p>The truth about <a href="/freedom">free will</a>, properly understood, is not the freedom to choose salvation. It is the freedom that <em>comes from</em> salvation — the freedom of a new nature that loves God and freely obeys. That freedom is created by God. It is something He gives through the regeneration He accomplishes.</p>
+
+   <p>Sit with what freedom actually is, because we have been taught it wrong. We were told that freedom is the open road — the power to turn either way at every fork, to keep evil on the menu as proof the menu is ours. But no one calls a compass imprisoned because it always finds north. No one pities the river for running downhill. The freest love in the universe is the love that has finally lost the ability to want anything else. God Himself is the freest being there is, and He cannot sin — not because something restrains Him, but because nothing <a href="/devotional-in-christ">in Him</a> desires it anymore. That is the freedom He is making in you. Not the dreary liberty to keep choosing the cage, but the slow, sure unbinding of a will that one day will want only the good, and will never again be able to want less.</p>
+
+   <p>If your decision was the deciding factor in your salvation, then you earned it. And what you earn is a debt, not a gift. But if God <a href="/systematic-election">chose you</a>, made you alive, and created the very faith by which you believe — then your salvation is entirely grace. And you are free. Not free to save yourself — you never were. Free to rest in the arms of the God who saved you without asking permission.</p>
+
+   <p>And who will never let you go.</p>
+
+   <h2>Back to the Morgue</h2>
+
+   <p>Go back to the fluorescent light and the cold air and the stainless steel drawer. You are still holding the note. <em>Convince him to live.</em> You cannot. You know that now. The distance between you and the body is not a persuasion gap. It is a category gap. The living cannot negotiate with the dead. Arguments bounce off the drawer like pebbles off a vault.</p>
+
+   <p>But now imagine something changes. You did not change it. A voice enters the room — not through the door, not through the intercom, but from inside the drawer itself, as if the air in the drawer rearranged its molecules to form a word. The voice says the dead man's name. Just the name. No instructions. No conditions. No fine print. And the drawer slides open, and the man sits up, and the first thing he does is breathe — a long, shuddering, involuntary breath, the way a newborn gasps when the air hits its lungs for the first time. He did not choose it. He did not approve it in advance. His signature is nowhere on the form. He is simply alive, bewildered, blinking in the fluorescent light, and the voice that woke him is already receding.</p>
+
+   <p>That is what happened to you. Not in a morgue. In a life. In a pew, or a dorm room, or a car, or a search you'd half-forgotten you made, or a conversation you cannot remember starting. The drawer opened and you breathed and you called it "my decision" because that is what it felt like from the inside. But decisions are things the living make. You were not living. You were the body in the drawer. And what woke you was not your willingness. It was a voice that does not wait for willingness. It <em>creates</em> willingness. And you are breathing now because Someone spoke your name into the cold air before you were born — and the word has never stopped echoing.</p>
+
+   <p><strong>You never opened the drawer.</strong></p>
+```
+
+### Scripture this page already cites, resolved to NIV 2011 ground truth
+- **Ephesians 2:1** — "As for you, you were dead in your transgressions and sins,"
+- **Romans 8:7-8** — "The mind governed by the flesh is hostile to God; it does not submit to God's law, nor can it do so. Those who are in the realm of the flesh cannot please God."
+- **Ephesians 2:4-5** — "But because of his great love for us, God, who is rich in mercy, made us alive with Christ even when we were dead in transgressions—it is by grace you have been saved."
+- **Ezekiel 36:26-27** — "I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh. And I will put my Spirit in you and move you to follow my decrees and be careful to keep my laws."
+- **John 6:44** — "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
+- **Romans 9:16** — "It does not, therefore, depend on human desire or effort, but on God's mercy."
+- **John 12:32** — "And I, when I am lifted up from the earth, will draw all people to myself."
+- **2 Thessalonians 2:13-14** — "But we ought always to thank God for you, brothers and sisters loved by the Lord, because God chose you as firstfruits to be saved through the sanctifying work of the Spirit and through belief in the truth. He called you to this through our gospel, that you might share in the glory of our Lord Jesus Christ."
+- **Ephesians 2:5** — "made us alive with Christ even when we were dead in transgressions—it is by grace you have been saved."
+
+---
+
+## question-is-predestination-in-the-bible
+
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-is-predestination-in-the-bible.html`
+
+Length 1642w · already spends bridges[] catch-images[]
+
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
+```html
+<p>This is terrifying to the flesh. So people create workarounds. They say predestination means "God predestined that He would know what you would choose" — which is just <a href="/question-freewill">free will</a> in theological clothes. Or they say "It applies to the church as a whole, not to individuals" — which contradicts the explicit teaching of Ephesians 1:4-5, where Paul writes to specific churches about their being chosen.</p>
+
+<p>But if you are willing to follow what the text actually says, not what you wish it said, the answer is unavoidable: God chose you. Not because you earned it. Not because you deserved it. But because He loved you before the foundation of the world.</p>
+
+<h2>The Two Questions</h2>
+
+<p>There are really only two questions about predestination:</p>
+
+<p><strong>First: Is it in the Bible?</strong> Yes, and not by inference. The verb <em>proorizō</em> — to mark out beforehand — stands six times in the Greek New Testament: <a href="/question-acts4">Acts 4:28</a>, Romans 8:29, Romans 8:30, 1 Corinthians 2:7, Ephesians 1:5 and Ephesians 1:11. Every camp in the church has to do something with those six. The argument has never been about whether the word is there.</p>
+
+<p><strong>Second: What does it mean about me?</strong> This is the real question. This is where faith is tested. Because if God really did choose you before the foundation of the world — if your salvation was never contingent on your performance, your decision, your worthiness — then everything changes.</p>
+
+<p><a href="/devotional-chosen-before-you-were-broken">You were chosen before you were broken.</a> You were loved before you could ever love back. You were secured in the hand of God before you could possibly secure yourself.</p>
+
+<p>That is what predestination means, and it is not a disputed reading smuggled in from outside. It is in the Bible already on your shelf. Whether you can yet rest in it is a separate matter — and notice that it is not, finally, a question about your resolve. Nobody argues himself into believing he was chosen before he existed. If this is going to settle in you, the One it is about will settle it. Which is the doctrine proving itself on the way in.</p>
+
+<p class="landing-line"><strong>The word was there all along.</strong></p>
+```
+
+### Scripture this page already cites, resolved to NIV 2011 ground truth
+- **Ephesians 1:5** — "In love he predestined us for adoption to sonship through Jesus Christ, in accordance with his pleasure and will—"
+- **Romans 8:29** — "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters."
+- **Ephesians 1:11** — "In him we were also chosen, having been predestined according to the plan of him who works out everything in conformity with the purpose of his will,"
+- **John 6:44** — "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
+- **Ephesians 1:4-5** — "For he chose us in him before the creation of the world to be holy and blameless in his sight. In love he predestined us for adoption to sonship through Jesus Christ, in accordance with his pleasure and will."
+- Acts 4:28 — NOT IN GROUND TRUTH (do not quote it verbatim)
+- **Romans 8:30** — "And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."
+- 1 Corinthians 2:7 — NOT IN GROUND TRUTH (do not quote it verbatim)
+
+---
+
+## question-predestined-to-hell
+
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-predestined-to-hell.html`
+
+Length 1557w · already spends bridges[] catch-images[]
+
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
+```html
+<h2>The Fear That Answers Itself</h2>
+
+   <p>Now the personal question — <em>what if He didn't choose me?</em> — and the strange comfort hiding inside it. The person who fears they are not chosen is almost certainly chosen. The passed-over do not fear being passed over. They are not reading this. They are not wrestling with God. They would be irritated by this article, close the tab, and think about something else.</p>
+
+   <p>You are still here — and it would be a kindness with a hook in it to tell you that the fear settles the question. Dread is not a credential, and no one was ever brought to peace by grading his own dread. So stop weighing it. Look instead at what you are afraid of losing, because no one grieves the loss of a God he never wanted. If you want Him, He has already wanted you; wanting of that kind does not start in the wanter. If you are reaching for Him, it is because He <a href="/question-where-did-your-faith-come-from">reached for you first</a>. "You did not choose me, but I chose you" (<a href="/question-john15">John 15:16</a>). That is not a threat. That is what a man says to someone he has already decided to keep.</p>
+
+   <p>We were all vessels of wrath, running hard toward destruction, and the staggering miracle is that God looked at the wreckage and made vessels of mercy out of it. The question was never <a href="/objection-why-not-save-everyone">why God doesn't save everyone</a>. The question is why He saves anyone — and the answer is not a doctrine. It is a name. The ache you feel right now is the evidence that it may be yours.</p>
+
+   <blockquote>
+   <p>"For he says to Moses, 'I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.' It does not, therefore, depend on human desire or effort, but on God's mercy."</p>
+   <cite>ROMANS 9:15-16</cite>
+   </blockquote>
+
+   <p>He found you before you knew you were lost. He will not let you go.</p>
+
+   <p><strong>He never pushed. He only pulled.</strong></p>
+```
+
+### Scripture this page already cites, resolved to NIV 2011 ground truth
+- **Romans 8:29-30** — "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters. And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."
+- **Romans 1:24** — "Therefore God gave them over in the sinful desires of their hearts to sexual impurity for the degrading of their bodies with one another."
+- **John 3:18** — "Whoever believes in him is not condemned, but whoever does not believe stands condemned already because they have not believed in the name of God's one and only Son."
+- **Romans 6:23** — "For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord."
+- **Ezekiel 33:11** — "Say to them, 'As surely as I live, declares the Sovereign Lord, I take no pleasure in the death of the wicked, but rather that they turn from their ways and live. Turn! Turn from your evil ways! Why will you die, people of Israel?'"
+- **Micah 7:18** — ""Who is a God like you, who pardons sin and forgives the transgression of the remnant of his inheritance? You do not stay angry forever but delight to show mercy.""
+- **Matthew 23:37** — "Jerusalem, Jerusalem, you who kill the prophets and stone those sent to you, how often I have longed to gather your children together, as a hen gathers her chicks under her wings, and you were not willing."
+- **John 15:16** — "You did not choose me, but I chose you and appointed you so that you might go and bear fruit—fruit that will last—and so that whatever you ask in my name the Father will give you."
+
+---
+
+## question-proverbs-sovereignty
+
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-proverbs-sovereignty.html`
+
+Length 1833w · already spends bridges[] catch-images[]
+
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
+```html
+<p>If God controls the outcome of every lot and the heart of every king, what does that mean for <a href="/systematic-soteriology">your salvation</a>? The same principle applies with even greater force. If God can turn <a href="/question-hardening">Pharaoh's heart</a> to stubbornness and Cyrus's heart to mercy, He can turn a <a href="/systematic-hamartiology">sinner's heart</a> to faith. If not even the most powerful person on earth can resist God's direction of their desires, then neither can you — and that is the best news you have ever heard. The same God who directs the lot and governs the king is the God who promises: "I will give you a new heart and put a new spirit in you" (<a href="/question-newheart">Ezekiel 36:26</a>). The sovereignty of Proverbs is the sovereignty that saves.
+
+  Think about the moment you first believed. Was that a coincidence? A lucky break? The right sermon on the right day? Or was it — like every decision of the lot, like every turning of the king's heart — something God intended before you existed? If even a tumbling die lands where God decrees, your conversion was not an accident. It was a rescue.</p>
+
+   <p>When you feel like your life is spinning out of control — the diagnosis, the job loss, the betrayal — remember: there is no "out of control." <em>Every</em> decision is from the LORD. Even the grief that has no words — the <a href="/open-wound-miscarriage">empty nursery</a> — is not proof He looked away. It is the place His hand was holding you when you could not feel it. When you look at the news and despair over leaders and nations — remember: the king's heart is water in His hand.</p>
+
+   <p>And when you wonder whether your own <a href="/question-perseverance">salvation is secure</a> — consider: if God governs the outcome of a tumbling die, do you think He leaves your eternal destiny to chance? If He can turn a king's heart wherever He wishes, do you think your wandering heart can wander beyond His reach?</p>
+
+   <blockquote>
+   <p>"Our God is in heaven; he does whatever pleases him."</p>
+   <cite>PSALM 115:3</cite>
+   </blockquote>
+
+   <p>And here is the line that will either terrify you or break you open in tears, depending on whose child you are: He is pleased to <a href="/devotional-forever-loved">love you</a>. The same hand that rolls the die and turns the king turned you — quietly, in a moment you cannot remember — toward Himself. You thought you wandered into faith. You were channeled into it, like water through an irrigation ditch dug before the stars. The coincidences were not coincidences. The search that brought you here was not a search. It was a summons. And the Voice that has been whispering <em>come home</em> underneath every luck you ever called lucky is the same Voice that is speaking over your shoulder right now, in the quiet after this sentence ends.</p>
+
+   <p><strong>The dice were never random.</strong></p>
+```
+
+### Scripture this page already cites, resolved to NIV 2011 ground truth
+- **Proverbs 16:33** — "The lot is cast into the lap, but its every decision is from the Lord."
+- **Proverbs 21:1** — "In the Lord's hand the king's heart is a stream of water that he channels toward all who please him."
+- **Joshua 18:6** — "After you have written descriptions of the seven parts of the land, bring them here to me and I will cast lots for you in the presence of the Lord our God."
+- **Leviticus 16:8** — "He is to cast lots for the two goats—one lot for the Lord and the other for the scapegoat."
+- **Jonah 1:7** — "Then the sailors said to each other, "Come, let us cast lots to find out who is responsible for this calamity." They cast lots and the lot fell on Jonah."
+- **Exodus 9:12** — "But the Lord hardened Pharaoh's heart and he would not listen to Moses and Aaron, just as the Lord had said to Moses."
+- **Ezra 1:1** — "In the first year of Cyrus king of Persia, in order to fulfill the word of the Lord spoken by Jeremiah, the Lord moved the heart of Cyrus king of Persia to make a proclamation throughout his realm and also to put it in writing."
+- **Ezra 6:22** — "For seven days they celebrated with joy the Festival of Unleavened Bread, because the Lord had filled them with joy by changing the attitude of the king of Assyria so that he assisted them in the work on the house of God, the God of Israel."
+- **Daniel 2:21** — "He changes times and seasons; he deposes kings and raises up others. He gives wisdom to the wise and knowledge to the discerning."
+- **Ephesians 1:11** — "In him we were also chosen, having been predestined according to the plan of him who works out everything in conformity with the purpose of his will,"
+- **Acts 27:24** — "Do not be afraid, Paul. You must stand trial before Caesar; and God has graciously given you the lives of all who sail with you."
+- **Acts 27:31** — "Then Paul said to the centurion and the soldiers, "Unless these men stay with the ship, you cannot be saved.""
+- **Isaiah 46:10** — "I make known the end from the beginning, from ancient times, what is still to come. I say, 'My purpose will stand, and I will do all that I please.'"
+- **Lamentations 3:37** — "Who can speak and have it happen if the Lord has not decreed it?"
+- **Daniel 4:35** — "All the peoples of the earth are regarded as nothing. He does as he pleases with the powers of heaven and the peoples of the earth. No one can hold back his hand or say to him: "What have you done?""
+- **Ezekiel 36:26** — "I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh."
 
 ---

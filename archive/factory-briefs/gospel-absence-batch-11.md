@@ -1,4 +1,4 @@
-# FACTORY BRIEF — gospel-absence — batch 11 of 24
+# FACTORY BRIEF — gospel-absence — batch 11 of 12
 
 Everything you need is in this file. **Do not open the source pages** — the
 closing HTML is reproduced verbatim below, and the only Scripture you might
@@ -9,31 +9,165 @@ window before it wrote a single word.
 For each page: choose a unique span from the HTML shown, and `Edit` the real
 file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
-## open-wound-terminal-diagnosis
+## systematic-compatibilism
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/open-wound-terminal-diagnosis.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/systematic-compatibilism.html`
 
-Length 1832w · already spends bridges[] catch-images[]
+Length 2159w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<blockquote>
-   <p>"Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me."</p>
-   <cite>PSALM 23:4</cite>
+<p>When you share the gospel, your words are a secondary cause through which God accomplishes His eternal decree. God could create faith by direct fiat. Instead, He ordains that your faithful witness becomes the means by which the <a href="/systematic-pneumatology">Spirit</a> creates faith in the elect. Your effort is not opposed to God's sovereignty. It is the instrument of it. This is why <a href="/pastoral-evangelism">evangelism</a> is urgent even when election is certain — because God ordains the <em>means</em> as well as the <em>end</em>.</p>
+
+   <p>And here is where compatibilism meets the <a href="/question-faithgift">core truth of this entire site</a>: if it is God who works in you "to will and to act in order to fulfill his good purpose" (Philippians 2:13), then even your faith is simultaneously your genuine act and God's sovereign gift. You truly believed. God truly gave you the belief. Both are real. This is not a contradiction — it is compatibilism in its most glorious expression. And it means you cannot take credit for the one thing that separates the saved from the lost. Your faith was given, not generated. <a href="/question-boasting">Boasting is excluded</a> — not because your choice wasn't real, but because the desire behind the choice was God's gift to you before you ever drew breath.</p>
+
+   <p>The alternative — that your salvation ultimately hinges on an undetermined human decision, floating free from God's decree — is not more dignifying. It is more terrifying. It means God is watching from the gallery while the most important decision of your existence happens outside His control. It means your eternal security rests on the stability of the human will, which is the most unstable foundation in the universe.</p>
+
+   <p>But compatibilism means <a href="/devotional-never-gives-up">God is not watching from the gallery</a>. He is writing the story. You are not a puppet — you are a character with genuine desires and genuine responsibility. Your actions are real, your dignity is intact. You are a loved child who was placed exactly where the Father wanted you — and given the heart to want to be there. Your salvation is as certain as the decree that ordained it, accomplished through the faith that God Himself placed in your heart.</p>
+
+   <p>There is a reason this truth feels like relief the moment it lands. For years you have carried a low-grade terror you could not name: the fear that somewhere in the machinery of your salvation there is a gear you are supposed to turn, and if you fall asleep at the lever, the whole train derails. Compatibilism removes that fear without removing your dignity. The train is not yours to drive. You are not the engineer — you are the beloved passenger who was placed on board before the rails were laid. Your ticket has your name on it in the handwriting of Someone who chose to write it there, and whose choice to write it there is the reason you ever wanted to board in the first place. Get up. Walk the aisle. Talk to other passengers. Make real decisions. They are real. They are yours. And the train is still going to arrive, because the One driving it never miscalculates, never sleeps, and has never once lost a passenger He decided to bring home.</p>
+
+   <p class="landing-line"><strong>You are not the engineer. You are home.</strong></p>
+```
+
+### Scripture this page already cites, resolved to NIV 2011 ground truth
+- **Acts 2:23** — "This man was handed over to you by God's deliberate plan and foreknowledge; and you, with the help of wicked men, put him to death by nailing him to the cross."
+- **Acts 4:27-28** — "Indeed Herod and Pontius Pilate met together with the Gentiles and the people of Israel in this city to conspire against your holy servant Jesus, whom you anointed. They did what your power and will had decided beforehand should happen."
+- **Genesis 50:20** — "You intended to harm me, but God intended it for good to accomplish what is now being done, the saving of many lives."
+- **Philippians 2:12-13** — "Therefore, my dear friends, as you have always obeyed—not only in my presence, but now much more in my absence—continue to work out your salvation with fear and trembling, for it is God who works in you to will and to act in order to fulfill his good purpose."
+- **Exodus 8:15** — "But when Pharaoh saw that there was relief, he hardened his heart and would not listen to Moses and Aaron, just as the Lord had said."
+- **Isaiah 10:5-12** — "Woe to the Assyrian, the rod of my anger, in whose hand is the club of my wrath! I send him against a godless nation, I dispatch him against a people who anger me, to seize loot and snatch plunder, and to trample them down like mud in the streets. But this is not what he intends, this is not what he has in mind; his purpose is to destroy, to put an end to many nations. 'Are not my commanders all kings?' he says. 'Has not Kalno fared like Carchemish? Is not Hamath like Arpad, and Samaria like Damascus? As my hand seized the kingdoms of the idols, kingdoms whose images excelled those of Jerusalem and Samaria— shall I not deal with Jerusalem and her images as I dealt with Samaria and her idols?'" When the Lord has finished all his work against Mount Zion and Jerusalem, he will say, "I will punish the king of Assyria for the willful pride of his heart and the haughty look in his eyes.""
+- **Luke 22:22** — "The Son of Man will go as it has been decreed. But woe to that man who betrays him!"
+- **Ezekiel 36:26** — "I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh."
+- **Philippians 2:13** — "for it is God who works in you to will and to act in order to fulfill his good purpose."
+
+---
+
+## systematic-prolegomena
+
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/systematic-prolegomena.html`
+
+Length 2185w · already spends bridges[] catch-images[]
+
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
+```html
+<p>And this is precisely why this truth must be established first, before a single word about depravity or the gift of faith or the <a href="/devotional-never-gives-up">perseverance of the saints</a>. If Scripture is God-breathed, inerrant, sufficient, and clear — then what it teaches about salvation is not a menu of theological options to browse. It is reality, spoken by the One who made reality, and it will not bend to accommodate our comfort.</p>
+
+   <blockquote>
+   <p>"For the word of God is alive and active. Sharper than any double-edged sword, it penetrates even to dividing soul and spirit, joints and marrow; it judges the thoughts and attitudes of the heart."</p>
+   <cite>HEBREWS 4:12</cite>
    </blockquote>
 
-   <p><em>Through.</em> Not into. Through. The <a href="/devotional-valley-shadow">valley</a> has an other side. The shadow is not the substance. And the Shepherd who walks beside you in the dark is the same Shepherd who <a href="/question-john10">called you by name</a> before you knew His voice.</p>
+   <p>The objection that keeps forming — <em>but what about</em> — is worth noticing chiefly for its direction. It travels outward, toward the text, when the text has already turned and is traveling inward. The Word is not on trial. You are. The robe you have been quietly wearing was never yours.</p>
 
-   <p>And the Shepherd who walks it with you has been down it Himself, the whole length. Not near death. Into it. Jesus, in a body that stopped working on an ordinary Friday afternoon, wrapped and carried and shut in behind a stone. The letter to the Hebrews says this is the reason He took flesh at all: to break the power of the one who holds the power of death, and to <em>free those who all their lives were held in slavery by their fear of death.</em> Read again what it names as the chain. Not death. The fear of it — the thing that has been quietly arranging your days since long before the scan. He came for that. And when He came out on the third morning, Paul did not call Him an exception. He called Him <em>the firstfruits of those who have fallen asleep.</em> Firstfruits is a harvest word, and it is a promise about timing more than possibility: the first sheaf is not a sample of what might one day be attempted, it is the front edge of a crop already in the ground and already coming. If you feel none of this, if what you have tonight is fear and a flat tiredness and these are only words on a screen, nothing about the field changes. The sheaf was cut and carried in while the rest of the harvest lay in the dark, feeling nothing at all.</p>
+   <p>If you have ears to hear — ears given to you by the Spirit who breathed the text into existence — then what you encounter in Scripture will not merely inform you. It will find you. It will hold you. It will <a href="/joy-security-changes-everything">change everything</a>.</p>
 
-   <p>Close your eyes for a moment. Feel whatever is happening in your body — the ache, the fatigue, the weight of the thing the doctor said. Now listen. Wherever this finds you — beneath the beeping of a monitor, in the parked car, in your own kitchen — there is a voice. It is not loud. It is not desperate. It has the patience of someone who has been holding you since before you had a body to hold, and who will still be holding you after this body is finished. The diagnosis is real. The pain is real. The fear is real. But the God who ordained your first heartbeat ordained your last one too, and He has walked every step between them beside you. On the other side is not darkness. It is Him. The same Him. The one who never loses what He intends to keep.</p>
+   <p>Picture, for one quiet moment, the act of God that this entire doctrine is trying to honor. There is a man on a hillside in Asia Minor, late in the first century, and his hand is moving a reed pen across papyrus by the light of an oil lamp that gutters whenever the wind comes in through the open door. He is the human author. He is fully himself — his vocabulary, his memories, the rhythm his mother's voice gave him when he was four. And yet every word he is writing is the word God has chosen, in the order God has chosen, with the cadence God has chosen, breathed out as deliberately as a sentence forms behind your own teeth before you say it. The lamp gutters. He bends to the page. Twenty centuries from now, on a backlit screen in a dark room, someone scrolling in a sleepless quiet will read what he is writing right now and the breath will go out of them, because the same Spirit who is moving the pen will be moving in the reader, and the centuries between them will collapse into the single instant in which God speaks and is heard.</p>
 
-   <p>He has never lost a single one.</p>
+   <p>That reader is you. The lamp is still guttering, somewhere, on every page of this Book. The breath is still on the words. And the moment you stop trying to overrule what the text plainly says and simply let it sit on you with the weight it has always had, you will discover that what you took to be your reservations were never really reservations — they were the last reflex of a grip the Spirit was already, gently, prying open. The pen finished its work two thousand years ago. The breath has not. It is in the sigh that escapes you, sometimes, in the middle of an ordinary afternoon, when an old verse comes to mind unbidden and you know — you do not reason your way to it, you <em>know</em> — that the One who wrote it has been speaking to you the entire time you thought you were just reading.</p>
+```
 
-   <p>He will not start with you.</p>
+### Scripture this page already cites, resolved to NIV 2011 ground truth
+- **2 Timothy 3:16** — "All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness."
+- **2 Peter 1:21** — "For prophecy never had its origin in the human will, but prophets, though human, spoke from God as they were carried along by the Holy Spirit."
+- **Isaiah 55:11** — "So is my word that goes out from my mouth: It will not return to me empty, but will accomplish what I desire and achieve the purpose for which I sent it."
+- **2 Peter 3:16** — "He writes the same way in all his letters, speaking in them of these matters. His letters contain some things that are hard to understand, which ignorant and unstable people distort, as they do the other Scriptures, to their own destruction."
+- **Ephesians 1:4** — "For he chose us in him before the creation of the world to be holy and blameless in his sight."
+- **John 6:44** — "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
+
+---
+
+## systematic-theology-proper
+
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/systematic-theology-proper.html`
+
+Length 1855w · already spends bridges[] catch-images[]
+
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
+```html
+<h2>The God You Didn't Expect — And Desperately Need</h2>
+
+   <p>Stop reading for a moment. Think about the God you had in your head five minutes ago. Now think about the God you just met in these pages. They are not the same. One of them is real.</p>
+
+   <p>If this feels terrifying, you are paying attention. The God of Scripture is not safe. He is not manageable. He does not fit in the box your theology built for Him. <strong>And this God — the uncontainable, self-existent, sovereign One — chose to set His love on you.</strong></p>
+
+   <p>Not because you were impressive. Not because He foresaw your decision and liked it. But because, in the mystery of His own will, before you drew breath, before the stars were hung, He wrote your name and said: <em>This one is mine.</em></p>
+
+   <blockquote>
+   <p>"Oh, the depth of the riches of the wisdom and knowledge of God! How unsearchable his judgments, and his paths beyond tracing out! 'Who has known the mind of the Lord? Or who has been his counselor? Who has ever given to God, that God should repay them?' For from him and through him and for him are all things. To him be the glory forever! Amen."</p>
+   <cite>ROMANS 11:33-36</cite>
+   </blockquote>
+
+   <p>From Him. Through Him. For Him. All things. Including the faith you thought was yours. Including the moment you first believed. Including the grace that will not let you go. The God who needs nothing chose to give everything. And because He is immutable, that choice stands forever.</p>
+
+   <p>Your salvation does not rest on the shifting sands of your own resolve. It rests on the character of a God who cannot lie, cannot change, cannot fail, and cannot lose what He has chosen to hold. That is not a terrifying thought. That is the most comforting sentence in the universe. The God who is there — the great I AM — is the same God who is <em>here</em>, holding you in hands that have never once opened by accident.</p>
+
+   <p>To know this God truly is to stop trusting yourself and start resting <a href="/devotional-in-christ">in Him</a>. That is the beginning of everything — worship, obedience, joy, and a peace that does not depend on your ability to maintain it. He who began a good work in you will carry it on to completion (Philippians 1:6). Not because you are strong. Because <em>He</em> is.</p>
+
+   <p class="landing-line"><strong>From Him. Through Him. For Him.</strong></p>
+```
+
+### Scripture this page already cites, resolved to NIV 2011 ground truth
+- **Acts 17:25** — "And he is not served by human hands, as if he needed anything. Rather, he himself gives everyone life and breath and everything else."
+- **Psalm 115:3** — "Our God is in heaven; he does whatever pleases him."
+- **Ephesians 1:11** — "In him we were also chosen, having been predestined according to the plan of him who works out everything in conformity with the purpose of his will,"
+- **Isaiah 46:10** — "I make known the end from the beginning, from ancient times, what is still to come. I say, 'My purpose will stand, and I will do all that I please.'"
+- **Romans 8:29** — "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters."
+- **Malachi 3:6** — ""I the Lord do not change. So you, the descendants of Jacob, are not destroyed.""
+- **1 John 4:10** — "This is love: not that we loved God, but that he loved us and sent his Son as an atoning sacrifice for our sins."
+- **Romans 9:13** — "Just as it is written: “Jacob I loved, but Esau I hated.”"
+- **Romans 9:11** — "Yet, before the twins were born or had done anything good or bad—in order that God's purpose in election might stand:"
+- **Philippians 1:6** — "being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus."
+
+---
+
+## theologian-anselm
+
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/theologian-anselm.html`
+
+Length 3505w · already spends bridges[] catch-images[]
+
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
+```html
+<p>Note also what he does <em>not</em> do at the wall, which is the mark of a first-rate mind. He does not soften the fact to make it manageable. He does not relocate the difference into the two men, where it would be comfortable and where every century since has tried to put it. He states it at full strength — <em>hos magis quam illos</em>, these rather than those, out of men alike wicked — and then admits he cannot get behind it, and stops.</p>
+
+   <p>Which is precisely what Paul does. Nine chapters into Romans he presses the same question to the same wall — "Therefore God has mercy on whom he wants to have mercy, and he hardens whom he wants to harden" — and two chapters later he is not arguing anymore: "Oh, the depth of the riches of the wisdom and knowledge of God! How unsearchable his judgments, and his paths beyond tracing out!" <a href="/question-romans9">Romans 9</a> does not resolve into a system. It resolves into a doxology.</p>
+
+   <p>Two of the most relentless minds the church has ever produced, nine hundred years apart, running the argument as hard as it can be run, hit the same wall in the same place — and both do the same thing when they hit it. They stop arguing. They start worshipping. And what looks at first like the collapse of the project is the project succeeding: reason, honestly pushed, will always deliver you to something it cannot contain, and refusing to pretend otherwise is the last and highest work reason does.</p>
+
+   <p>The limit is not the failure. The limit is where you find out you were never the largest thing in the room.</p>
+
+   <h2 id="the-man-on-the-stone-floor">The Man on the Stone Floor</h2>
+
+   <p>Picture the cell at Bec in the years before any of the titles — a thin, careful man in a wool habit, stone floor cold under his knees, dawn still a couple of hours off. He has been carrying a sentence for weeks and cannot set it down. Every chapter of the book he is about to write will be addressed to God in the second person. He never once gets up off his knees to make his point. He makes it from down there.</p>
+
+   <p>And when the sentence finally comes, he does not congratulate himself on having caught it. He says thank you: <em>quod prius credidi te donante, iam sic intelligo te illuminante</em> — what I first believed because You gave it, I now understand because You lit it. Two gifts, one giver, and neither of them his.</p>
+
+   <p>There is a cheap version of this available and it should be refused before anyone offers it to you: that whatever you happen to feel while reading proves something about your standing with God — interest proving He is at work in you, resistance proving it too, so the case can never lose and you can never check it. That is not an argument, it is a coin with heads on both faces, and you are right to throw it back. Nothing here rests on the temperature of your response. Anselm's rested on nothing of his either. He was on the floor in the dark, wanting to stop thinking about it, and it came anyway.</p>
+
+   <p>So this is the honest end of the road, and it is the same road you are on. Reason will take you a long way — it took the best reasoner of a thousand years all the way to the door. What it could not tell him, and cannot tell anyone, is why the door opened for him and not for the man in the next cell, sitting through the same offices, hearing the same psalms, <a href="/devotional-never-gives-up">held or not held</a> by a decision made before either of them was born. There is no argument at the bottom of your salvation. Not because the bottom is irrational, but because the bottom is not a proposition at all. It is a Person, and He was already there.</p>
+
+   <p>Anselm knelt on cold stone before dawn for fifty years and the floor never once moved. He did not put it there. He did not hold it up. He could not have told you, with all that mind, why it was under him and not under somebody else.</p>
+
+   <p>It was under him anyway. That is what floors are for. Stop trying to reason your way beneath the thing you are standing on, and stand.</p>
+
+   <p>Something has been holding you the whole time.</p>
+
+   <h2 id="go-deeper">Go Deeper</h2>
+
+   <p>Anselm inherited his anthropology from <a href="/theologian-augustine">Augustine</a> and handed it forward to the schools where <a href="/history-luther">Luther</a> would be trained — one link in a chain that runs unbroken through <a href="/history-timeline">the whole arc of church history</a>. For the doctrine itself, laid out in order, start with <a href="/systematic-election">unconditional election</a> or the wider map of <a href="/systematic-theology">the doctrines of grace</a>. For why the mind fights this particular truth so much harder than the others, see <a href="/psychology-cost-of-rejecting-grace">what it costs us to admit it</a>. And the primary sources — Anselm's own, and five centuries of those who read him — are in <a href="/reformed-sources">the Reformed Source Library</a>.</p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
@@ -41,135 +175,32 @@ is furniture — hub cards, `</article>`, the footer — and you must not write 
 
 ---
 
-## ot-david
+## theologian-gottschalk
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/ot-david.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/theologian-gottschalk.html`
 
-Length 2033w · already spends bridges[] catch-images[]
-
-### Closing HTML — PROSE ONLY, truncated at the article boundary
-(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
-is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
-
-```html
-<p>David understood this. In his darkest moment, after the prophet Nathan exposed his sin and the consequences crashed down, David did not bargain. He did not cite his accomplishments. He did not remind God of Goliath. He fell on his face and said, "Have mercy on me, O God, according to your unfailing love; according to your great compassion blot out my transgressions" (Psalm 51:1). That is a man who knows his only hope is a God who chooses to love the undeserving. That is the prayer of everyone who has ever been <a href="/devotional-rescued-without-a-say">rescued by sovereign grace</a>.</p>
-
-   <p>The ground of your election is not in you. It never was. It is in the One who looked past seven impressive brothers, called for the forgotten shepherd boy, and said: <em>This is the one.</em></p>
-
-   <p>There is a second anointing in this story, and it happens a thousand years later in a different house. A woman broke a jar of perfume over the head of Jesus while He was reclining at a table, and the fragrance of it went through every room, and when the men present complained about the waste He told them she had done it to prepare His body for burial. Samuel's oil made a boy a king. That oil marked a King for a grave. Gabriel promised Him the throne of His father David, the same line and the same unconditional covenant, and He took it by dying underneath it. So the covenant that held through the adultery and the murder and the cover-up did not hold because covenants are sturdy things. It held because the King who inherited it carried into the ground everything that should have broken it, and came out three days later with the line unbroken. Your election is not fastened to the oil on your head. It is fastened to the Man the oil was poured out for.</p>
-
-   <p>Picture the moment Samuel walked out of Jesse's house. The seven sons in their best linen still standing in stunned silence, no doubt offended, certainly bewildered. The prophet does not explain himself. He just walks past them, out the door, out of the village, down the dusty path toward the sound of bleating. He finds the boy near a thornbush, sweat in the hair at his temple, a sling tucked into the cord at his waist, the smell of the flock soaked into the wool of his shirt. He does not first ask if David has prepared. He does not give him time to wash. He pours the oil over the boy's head while the boy is still holding the staff, while the lambs are still crying for the shepherd they think has only stepped away for water. <em>That</em> is what election looks like. The Anointer does not wait for you to be ready. He arrives in the field with the oil already in His hand. And the boy was named king before he had time to wipe the lanolin from his palms — because the kingship was never about what was in his hands. It was about what was in the heart of the One who came looking for him in the field. The same One is reading this page over your shoulder. He has not turned away. He has the oil in His hand. And He is not embarrassed by the smell of the sheep on you. That smell is part of the reason He chose you.</p>
-```
-
-### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Romans 8:29-30** — "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters. And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."
-- **Acts 13:22** — "After removing Saul, he made David their king. God testified concerning him: ‘I have found David son of Jesse, a man after my own heart; he will do everything I want him to do.’"
-- **Romans 4:6-8** — "David says the same thing when he speaks of the blessedness of the one to whom God credits righteousness apart from works: “Blessed are those whose transgressions are forgiven, whose sins are covered. Blessed is the one whose sin the Lord will never count against them.”"
-- **Luke 1:32-33** — "He will be great and will be called the Son of the Most High. The Lord God will give him the throne of his father David, and he will reign over Jacob’s descendants forever; his kingdom will never end.”"
-- **Ephesians 1:4** — "For he chose us in him before the creation of the world to be holy and blameless in his sight."
-- **Psalm 51:1** — "Psalm 51For the director of music. A psalm of David. When the prophet Nathan came to him after David had committed adultery with Bathsheba. Have mercy on me, O God, according to your unfailing love;according to your great compassion blot out my transgressions."
-
----
-
-## ot-jonah
-
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/ot-jonah.html`
-
-Length 1810w · already spends bridges[] catch-images[]
+Length 2075w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p>Have you been running? Be honest. Not from Nineveh — from a truth you already know is true. From a sovereignty that offends the part of you that wants to sit on the throne. Name the Tarshish you bought a ticket to. It might be the busyness that keeps the quiet from setting in. The voices you turn up whenever Scripture makes you squirm. The friendship that lets you laugh about God instead of kneel before Him. The relationship you will not end. The grudge you will not release. The prayer you will not pray because you already know what you would have to confess. The storm in your life right now may not be punishment. It may be pursuit.</p>
-
-    <p>But here is what Jonah learned in the belly of the fish, and what every soul running from God eventually discovers: the One who pursues you is not chasing you in wrath. He is chasing you in love. The storm is mercy. The fish is mercy. The uncomfortable circumstances that won't let you rest — <a href="/devotional-never-gives-up">mercy</a>. God doesn't let His children run forever, because He loves them too much to leave them in Tarshish. And notice the grammar of the whole book. Every verb that moves the plot belongs to God: He <a href="/systematic-regeneration">provides</a> the fish, the plant, the worm, the scorching east wind. Jonah supplies only the running. So if you are hunting for the hand in your own account, do not go looking for a warmth in your chest — look for the appointments. The same hand that hurled the wind has been arranging rooms and roads and losses your whole life, and the hand is not an enemy. It is the hand that has been reaching for you since before you were born.</p>
-
-    <p>And there is one more appointment in this book, which Jesus claimed for Himself. When the religious men of His day demanded a sign, He gave them exactly one: as Jonah was three days and three nights in the belly of the huge fish, so the Son of Man would be three days and three nights in the heart of the earth. Jonah went down into that dark because he ran. Christ went down into it because He would not. Jonah was swallowed as a fugitive and spat onto a beach; Jesus was buried as a criminal and walked out of a garden. So the hand arranging the rooms and the roads and the losses of your life is a hand with a hole in it, belonging to someone who has already been to the bottom of the dark you are most afraid of and has come back up. The storm was mercy. The fish was mercy. The grave was mercy too, and it did not keep Him.</p>
-
-    <blockquote>
-   <p>"My purpose will stand, and I will do all that I please."</p>
-   <cite>ISAIAH 46:10</cite>
-    </blockquote>
-```
-
-### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Psalm 147:4** — "He determines the number of the stars and calls them each by name."
-- **Jonah 1:4** — "Then the Lord sent a great wind on the sea, and such a violent storm arose that the ship threatened to break up."
-- **Proverbs 16:33** — "The lot is cast into the lap, but its every decision is from the Lord."
-- **Romans 9:18** — "Therefore God has mercy on whom he wants to have mercy, and he hardens whom he wants to harden."
-- **Jeremiah 1:5** — "Before I formed you in the womb I knew you, before you were born I set you apart; I appointed you as a prophet to the nations."
-- **Jonah 4:11** — "And should I not have concern for the great city of Nineveh, in which there are more than a hundred and twenty thousand people who cannot tell their right hand from their left—and also many animals?”"
-- **Acts 16:14** — "One of those listening was a woman from the city of Thyatira named Lydia, a dealer in purple cloth. She was a worshiper of God. The Lord opened her heart to respond to Paul's message."
-- **Ephesians 1:11** — "In him we were also chosen, having been predestined according to the plan of him who works out everything in conformity with the purpose of his will,"
-
----
-
-## pastoral-when-truth-lands
-
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/pastoral-when-truth-lands.html`
-
-Length 2129w · already spends bridges[] catch-images[]
-
-### Closing HTML — PROSE ONLY, truncated at the article boundary
-(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
-is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
-
-```html
-<p>Your anger is real, and it needs to be processed, not suppressed. Anger at the destruction of your self-image is the price you pay for actually seeing God. The loneliness will not last forever — there are thousands of believers who have walked this path, and finding them is worth the search. The terror will peak and then recede, not because you solve it, but because the Spirit will convince you of what you cannot convince yourself: that you are <a href="/question-sealed">sealed, kept, held by grace</a>.</p>
-
-   <p>And for those who love someone in this journey: what they are experiencing is not rebellion. It is not apostasy. They need your patience, not your arguments. Your presence, not your persuasion. Let them wrestle. Let them grieve. When they emerge — and they will — they will be stronger, deeper, and more rooted in the love of God than they ever were before.</p>
+<p>But there is comfort in Gottschalk's story for anyone who has paid a price for unpopular truth. He died in that cell never knowing his sacrifice mattered. He had to trust, in the darkness, that God was right and that this truth would endure. And it did. Because the God who <a href="/devotional-never-gives-up">never gives up</a> on His people never gives up on His truth either. The medieval church is dust now. Hincmar is a footnote. But the truth Gottschalk bled for — that salvation is God's choice, God's work, and God's gift from first to last — that truth is still preaching.</p>
 
    <blockquote>
-   <p>"Cast all your anxiety on him because he cares for you."</p>
-   <cite>1 PETER 5:7</cite>
+   <p>"You did not choose me, but I chose you and appointed you so that you might go and bear fruit — fruit that will last."</p>
+   <cite>JOHN 15:16</cite>
    </blockquote>
 
-   <p>Picture a winter evening. The kind of cold where your fingers go numb before you remember you're outside. You are walking home from somewhere — maybe a job, maybe a conversation that did not go the way you needed it to — and the streetlights are on early, smearing yellow circles into the wet pavement. You turn a corner you have turned ten thousand times. The porch light of the house you grew up in is on. It has been on for as long as you can remember, every night, in every weather, whether you came home or didn't. It does not know whether you have been good. It does not know whether you have been gone for an hour or a decade. It is simply on, because the One who lives inside the house has not stopped expecting you. You stand in the cold for a moment looking at it, and your eyes sting, and you cannot tell whether it is the wind or the realization that the light has been waiting that whole time without your permission, without your effort, without anything you ever did to deserve a porch light burning for you on a Tuesday in February when no one even knew you were coming.</p>
+   <p>The church that imprisoned him now teaches what he died for.</p>
 
-   <p>Except that the door was locked once, and something specific unlocked it. For centuries a curtain hung across the one room where God's presence rested, and its entire function was to say <em>not yet, not you, not without blood.</em> On the afternoon Jesus died, that curtain tore from the top down. Not cut. Not drawn back. Torn, and torn from the end no human hand could reach. Hebrews says plainly what made it possible: we go in by the blood of Christ, through a new and living way He opened for us. So the reason that house stands unlocked tonight is not that God is casual about who walks in. It is that the lock was broken from the inside, at enormous cost, by the Son of the One who lives there.</p>
+   <p>Picture, for one moment, the cell at Hautvillers in the nineteenth winter. The candle stub on the stone shelf has burned down to its last quarter-inch and is throwing more shadow than light. The man on the straw mattress is sixty years old now, his hair white, his back bent from decades of writing on his knees. There is a piece of parchment on the floor — smuggled in, perhaps, by a sympathetic novice — and on it, in ink mixed with ash, he is composing what will be one of his last sentences in defense of the doctrine that put him here. The cell is so cold his breath shows. Outside the slit window, somewhere in the dark, a bell is ringing for compline, and he can hear, faintly, the brothers chanting an antiphon he taught them as a young man. He has not heard a friendly voice in ten years. He has not been touched in mercy by another human being since before the present archbishop was ordained. And in the silence between the words of the chant drifting in through the stones, he is — with absolutely no audience, no expectation of vindication, no posthumous fame he can imagine — still arguing. Still saying it. Still, with a hand that shakes from cold and age, writing down the same sentence he was condemned for in 849. <em>God's mercy is the cause, not the reward.</em></p>
 
-   <p>That porch light is the doctrine you have just been wrestling with. It was on before you were born. It has not gone out through any of your wandering. It will not go out tonight. The Father whose house it is heard your footstep on the walk before the foundation of the world, and He has been keeping the light on the entire time. Walk up. The door is not locked. It has never been locked. It was only ever waiting for you to be tired enough to come inside.</p>
+   <p>And the question that paragraph is gently, devastatingly putting to you across eleven hundred years is not <em>could you have done it</em>. The honest answer is no. The question is: what kind of God is real, if a man you have never met held a sentence under torture for twenty years <em>so that you could read it now and know it was always true</em>? You did not earn that sentence's preservation. You did not earn its arrival to you. You did not earn the fact that the candle in that cell did not blow out before the work was finished. The same Hand that held Gottschalk in the dark is the Hand that <a href="/devotional-the-hands-that-hold-you">is holding you in your light</a>. He held a man in a cell so the truth would reach you. He has never let you go either. And whatever it is in you that has been quietly resisting the doctrine Gottschalk died for — name it, and then ask whether the resistance can survive the cell.</p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **John 10:27** — "My sheep listen to my voice; I know them, and they follow me."
-
----
-
-## philosophy-children-argument
-
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/philosophy-children-argument.html`
-
-Length 1797w · already spends bridges[drowning] catch-images[]
-
-### Closing HTML — PROSE ONLY, truncated at the article boundary
-(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
-is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
-
-```html
-<p>The "yes" you said came from a capacity to say yes that was given by God. The moment you claim credit for your faith — the moment your choice becomes the decisive factor — you've made faith a work. And what is a work cannot be grace.</p>
-
-   <h2>The Question That Closes Every Door</h2>
-
-   <p>You didn't choose your parents, and they are still your parents. You didn't choose your DNA, and it still makes you who you are. You didn't choose to be born, and you are still fully alive.</p>
-
-   <p><a href="/systematic-election">God chose all of these things</a>.</p>
-
-   <p>And you are not less yourself because of it. You are <em>more</em> yourself. More alive. More free — because the deepest decisions were made by Someone who loves you infinitely more than you love yourself. The predestined soul can rest. The soul depending on its own choice never can.</p>
-
-   <p>And do not hear a cold hand behind any of this. The God who chose takes no pleasure in the death of anyone; the call to come goes out to all, in earnest. But He knew a summons alone would never raise a child who could not answer it — so to those He chose He did not only call. He came, and carried, and gave the very breath that answers back.</p>
-
-   <p>There is exactly one person in the history of the world who chose to be born. Everyone else arrives the way you did: without consent, without preference, without a vote on the family or the century or the name already written on the wall. Jesus agreed to the womb. He is the only one who saw the whole of it in advance, the cold and the carpenter's shop and the friends who would run and the nails, and came anyway, and He came in the same helpless condition you did, carried before He could walk. He chose the birth no one else chooses in order to die the death no one else could survive. And the room prepared before the foundation of the world is prepared because He said He was going on ahead to prepare it, and then went, by way of a cross.</p>
-
-   <p>Picture the moment before you were born — born the first time. Curled in the dark, warm, with no opinion about the family you are entering, no preference about the language they will teach you or the name already written on the nursery wall. You are about to be loved by people you have never met, carried into a life you did not design. And not one cell in you objects. You simply arrive — held.</p>
-
-   <p>That is what God did to you a second time. Before you could reach, He held. Before you could speak, He named you. Before you could choose, He had already written your name in a <a href="/devotional-chosen-before-you-were-broken">room prepared before the foundation of the world</a>. You did not choose to be born. You did not choose to be born again. And that is the most <a href="/devotional-never-gives-up">beautiful truth you will ever hear</a> — because a love you did not choose is a love you cannot lose.</p>
-```
-
-### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Ephesians 1:5** — "In love he predestined us for adoption to sonship through Jesus Christ, in accordance with his pleasure and will—"
-- **2 Corinthians 4:4** — "The god of this age has blinded the minds of unbelievers, so that they cannot see the light of the gospel that displays the glory of Christ, who is the image of God."
+- **Ephesians 2:1** — "As for you, you were dead in your transgressions and sins,"
 
 ---

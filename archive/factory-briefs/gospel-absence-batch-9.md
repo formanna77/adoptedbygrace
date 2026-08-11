@@ -1,4 +1,4 @@
-# FACTORY BRIEF — gospel-absence — batch 9 of 24
+# FACTORY BRIEF — gospel-absence — batch 9 of 12
 
 Everything you need is in this file. **Do not open the source pages** — the
 closing HTML is reproduced verbatim below, and the only Scripture you might
@@ -9,207 +9,323 @@ window before it wrote a single word.
 For each page: choose a unique span from the HTML shown, and `Edit` the real
 file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
-## history-every-revival-sovereign-grace
+## shattered-lens-pastor
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/history-every-revival-sovereign-grace.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/shattered-lens-pastor.html`
 
-Length 1550w · already spends bridges[] catch-images[]
+Length 1840w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<h2>The Question That Cannot Be Avoided</h2>
+<p>There is no path forward that feels comfortable. If you stay without speaking, you live with tension. If you speak, you risk relationship. If you leave, you lose community. The cost is real no matter which direction. But notice what all four paths share: they keep your conscience intact. They refuse to pretend agreement when you see something different. They honor truth while honoring relationship.</p>
 
-   <p>If God wanted to teach the church which theology actually saves people — which theology has His power and His blessing — how else would He do it except by lighting it on fire? The theology of election has a 2,000-year track record of producing genuine revival. The theology of human choice has a 200-year track record of producing statistics.</p>
+   <h2>This Discomfort Is Not Accident — It's Invitation</h2>
 
-   <p>Every great revival points to the same conclusion: salvation is entirely of grace, <a href="/question-calvinist-on-knees">election is the only ground of assurance</a>, the human will is so enslaved to sin that only an irresistible God can awaken it, and <a href="/devotional-joy-of-election">this is the most liberating, joyful, peace-producing truth a soul could ever know</a>.</p>
+   <p>God opened your eyes to truth in this specific church, under this specific pastor, at this specific moment. That is not coincidence. That is providence. This discomfort is a furnace. It is forging something in you that comfort could never forge — the ability to hold to truth even when it costs you.</p>
 
-   <p>The fruit has spoken. The tree is identified.</p>
+   <p>Your faith is not being tested. Your <a href="/devotional-chosen-before-you-were-broken">faithfulness</a> is being tested. And there's a difference.</p>
 
-   <p>And somewhere tonight — in a dorm room in Nairobi, in a flat in Seoul, in a suburb outside São Paulo where the fluorescent kitchen light is the only thing on — someone is reading their Bible and the words are hitting different. They cannot explain it. They did not ask for it. Nobody gave an altar call. Nobody counted them on a board. The Spirit is doing what the Spirit has always done: raising the dead without consulting them first, the same way He raised New England through Edwards, London through Spurgeon, Wales through Roberts, and Pyongyang through a room full of Presbyterians on their faces.</p>
+   <p><em>Your faith is a gift you received. Your faithfulness is the choice you make with it — the choice to honor truth even when truth is lonely, expensive, and painful.</em></p>
 
-   <p>And notice whom God kept choosing to hold the match. Edwards was voted out of the Northampton pulpit by the same congregation his preaching had shaken. Whitefield went to the fields because the parish churches had bolted their doors against him. Spurgeon was a standing joke in the London papers before he was a name in them. Roberts was a collier. The fire has almost never fallen where the religious establishment would have laid it, and that is not an accident of church politics. It is the shape of the story the fire is about. Jesus came to His own and His own did not receive Him. Isaiah had described Him seven centuries early: "despised and rejected by mankind, a man of suffering, and familiar with pain." His own brothers did not believe Him. His own disciples ran. He was executed as a public nuisance by the religious authorities of His day, and on the third morning the Father raised Christ from the dead without taking a vote. Every revival in this article is that morning happening again in a smaller room.</p>
+   <p>Every church in history has had people in your position. Some stayed. Some left. All of them grew. And every single one of them discovered this: God did not abandon them. He did not punish them for seeing clearly. He met them in the <a href="/invisible-wall-lonely-theological">loneliness of disagreement</a> and sustained them through the grief of loss.</p>
 
-   <p>The fire is the same fire. The God who <a href="/devotional-never-gives-up">never gives up</a> on His people is still lighting it. And He has never once needed your permission to begin.</p>
+   <p><em>Whatever path you choose, He will meet you there.</em></p>
+
+   <p class="landing-line"><strong>You did not break the lens. He cleared it.</strong></p>
+
+   <section class="keep-reading">
+   <h2>Keep Reading</h2>
+   <div class="hub-grid">
+   <a href="/shattered-lens-lost-community" class="hub-card">
+   <div class="card-number">01</div>
+   <h3 class="card-title">The Cost: Community Lost</h3>
+   <p class="card-description">When you can't stay, the price is steep. You're not alone in paying it.</p>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+   
+   <a href="/question-where-did-your-faith-come-from" class="hub-card">
+   <div class="card-number">02</div>
+   <h3 class="card-title">Where Did Your Faith Come From?</h3>
+   <p class="card-description">The foundational question that exposes whether you're trusting grace or claiming credit.</p>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+   
+   <a href="/shattered-lens-cant-unsee-it" class="hub-card">
+   <div class="card-number">03</div>
+   <h3 class="card-title">You Can't Unsee It</h3>
+   <p class="card-description">Once sovereignty clicks, everything looks different. That's not a problem — that's awakening.</p>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+
+</div>
+   </section>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Matthew 7:20** — "Thus, by their fruit you will recognize them."
+- **Romans 10:9** — "If you declare with your mouth, 'Jesus is Lord,' and believe in your heart that God raised him from the dead, you will be saved."
+- **John 3:16** — "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+- **Romans 14:1** — "Accept the one whose faith is weak, without quarreling over disputable matters."
+- Hebrews 12:1 — NOT IN GROUND TRUTH (do not quote it verbatim)
 
 ---
 
-## history-golden-thread
+## shattered-lens-silence-of-god
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/history-golden-thread.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/shattered-lens-silence-of-god.html`
 
-Length 2201w · already spends bridges[] catch-images[]
+Length 1687w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<h2>The Thread Continues (1900–Present)</h2>
+<p>The person who clings to God in the dark — not because they feel loved but because they <em>know</em> they were chosen — that person has a faith that cannot be shaken.</p>
 
-   <p>The twentieth century brought theological liberalism and emotionalized revivalism. But God kept His witnesses: <a href="/theologian-machen">J. Gresham Machen</a> stood against liberalism at Princeton. <a href="/theologian-lloydjones">Martyn Lloyd-Jones</a> preached sovereign grace to post-war London. R.C. Sproul made Reformed theology accessible to millions. John Piper, James White, Voddie Baucham — the thread never frayed. The late twentieth and early twenty-first centuries have seen what many call a "<a href="/history-20th-century">Reformed resurgence</a>" — millions of Christians rediscovering the truths of grace. This is not a fad. It is the same golden thread surfacing again because truth cannot be permanently suppressed.</p>
+   <p>You are not losing God. You are losing a version of the relationship that was never sustainable.</p>
 
-   <h2>The Thread Never Breaks</h2>
+   <h2>A Prayer for the One Who Can't Pray</h2>
 
-   <p>Step back and look at the whole tapestry. A golden thread runs from Paul's letter to the Romans, through Augustine's battle with Pelagius, through Gottschalk's prison cell, through Wycliffe's burned bones, through Luther's defiance, through Calvin's Geneva, through the Synod of Dort, through the Westminster Assembly, through Edwards' pulpit, through Whitefield's open-air preaching, through Spurgeon's Tabernacle, all the way to the church where you sit today.</p>
-
-   <p>This is not coincidence. This is Providence. The same God who chose His people before the creation of the world has sovereignly preserved the proclamation of that truth through every century — not because the men who carried it were extraordinary, but because the truth itself is indestructible.</p>
+   <p>If you're at the point where you can't pray anymore — where the words feel hollow, where you've stopped trying because you're sure no one is listening — maybe you can pray this:</p>
 
    <blockquote>
-   <p>"The grass withers and the flowers fall, but the word of our God endures forever."</p>
-   <cite>ISAIAH 40:8</cite>
+   <p>God, I don't know if You're listening. But I'm going to choose to believe that somewhere in this silence, You are still here. I'm done demanding that You prove Yourself on my terms. I'm done sitting on the throne. I'm choosing — not because I feel it, but because I trust it's true — to believe that You chose me. Before I ever prayed a prayer. Before this silence shattered me. You chose me. Hold me in the darkness. I'm too tired to hold myself.</p>
    </blockquote>
 
-   <h2>Back to the Thread</h2>
+   <p>And if that prayer rose in you at all, here is the question that matters more than whether God is speaking: <a href="/question-where-did-your-faith-come-from">where did it come from?</a> You were ready to give up. You were done talking to the ceiling. And yet — something in you prayed anyway. Something in you refused to walk away. If <a href="/question-faithgift">faith is something you generate</a>, then that exhausted, threadbare prayer was your own willpower scraping the bottom of the barrel. But if faith is a gift — if the God who chose you before the foundation of the world is the One who placed that stubborn, inexplicable refusal-to-quit inside you — then the prayer is not evidence of your strength. It is evidence of His presence. He was never silent. He was speaking through the one voice you forgot to listen for: the fact that you are still here, still asking, still unable to let go of a God you cannot feel.</p>
 
-   <p>Go back to the gold thread between your thumb and forefinger. You have followed it now — backward through twenty centuries, through prison cells and pulpits and persecutions and revivals and bones dug up and burned and ideas that survived anyway because the God who spoke them is not subject to the committees that tried to silence them. The thread is still thin. It still looks like it should snap. But it has not snapped in two thousand years, and it will not snap in yours, because the Hand that spun it is the same Hand that holds the universe together, and He does not drop things.</p>
-
-   <p>You are part of this. Not because you found the thread — you didn't. The thread found you. It ran through a book someone left on a shelf, or a conversation you didn't plan, or a verse that hit you in the chest in a sleepless quiet, or a page on a website you found because you were searching for something you could not name. The thread came to you because the God who spun it knew your address before you were born. And now you are holding it. And every saint who ever held it before you — Augustine weeping in the garden, Luther trembling in the tower, Spurgeon thundering from the Tabernacle — is holding it with you. One thread. One truth. One God who chose His people and has never, not once in twenty centuries, let the thread break.</p>
-
-   <p>There is one place on the thread where it thinned to a single hand. Not Gottschalk's cell and not Luther's tower — a Friday outside Jerusalem. The eleven men who had watched Jesus raise the dead ran into the dark: "Then everyone deserted him and fled." His own brothers, raised in the same house, had never believed Him. And from the cross He cried out, "My God, my God, why have you forsaken me?" Every name on this page hangs from that hour. The thread did not snap there. It went down into a grave and came back up on Sunday with every knot still tied — which is why it has held for twenty centuries and will hold in yours. You are not gripping something fragile. You are holding the far end of what Christ carried alone.</p>
-
-   <p>Hold on. Or rather — let go, and discover that the thread was always holding you.</p>
+   <p>Somewhere a kitchen is still dark, and someone's forehead is still in their hands. But something has shifted in the silence — not the sound, but the weight. Because the God who hides Himself is not the God who has left. He is the God who is teaching you to trust what you cannot see. And the faith that survives this night — this long, terrible, beautiful night — will be the kind of faith that nothing can destroy.</p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Ephesians 1:4** — "For he chose us in him before the creation of the world to be holy and blameless in his sight."
-- **Romans 9:16** — "It does not, therefore, depend on human desire or effort, but on God's mercy."
-- **John 6:44** — "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
-- **Acts 13:48** — "When the Gentiles heard this, they were glad and honored the word of the Lord; and all who were appointed for eternal life believed."
+- (none cited)
 
 ---
 
-## invisible-wall-friend-who-left
+## shattered-lens-when-prayer-stopped-working
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/invisible-wall-friend-who-left.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/shattered-lens-when-prayer-stopped-working.html`
 
-Length 2659w · already spends bridges[] catch-images[]
+Length 1774w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
+<h2>A Prayer for the Silent Season</h2>
+
+<p><em>God, I don't know if You can hear this. The warmth is gone. The certainty is gone. And I am standing in the silence, talking to someone I can no longer feel.</em></p>
+
+<p><em>But I am still talking. Something in me won't stop — keeps kneeling, keeps whispering, keeps reaching into the dark for a hand I can't see. I didn't put that something there. If that stubborn, irrational refusal to stop praying is from You — if it is Your gift, planted in me before I was born — then hold me in the dark. Teach me that Your presence does not depend on my perception of it. Teach me that <a href="/psychology-cost-of-rejecting-grace">faith is not a feeling</a> but a foundation You laid, not me.</em></p>
+
+<p><em>And if this silence is Your sovereign work — if You are building something in the quiet that could never be built in the noise — then I will wait. Not because I am strong. But because You are. And because even now, even here, even in the silence — You chose me. Before I could feel You. Before I could pray. You chose me. And that choosing does not depend on the warmth coming back. Amen.</em></p>
+
+<div class="keep-reading">
+    <h2>Keep Reading</h2>
+    <div class="keep-reading-grid">
+   <a class="keep-reading-card" href="/shattered-lens-silence-of-god">
+   <div class="card-eyebrow">The Shattered Lens</div>
+   <h3>The Silence of God</h3>
+   <p>When heaven goes quiet and you don't know why. What the silence means — and what it doesn't.</p>
+</a>
+   <a class="keep-reading-card" href="/shattered-lens-cant-unsee-it">
+   <div class="card-eyebrow">The Shattered Lens</div>
+   <h3>When You Can't Unsee It</h3>
+   <p>The beautiful terror of seeing clearly. What happens when the old framework shatters — and what's left.</p>
+</a>
+   <a class="keep-reading-card" href="/pastoral-assurance">
+   <div class="card-eyebrow">Pastoral</div>
+   <h3>The Assurance That Cannot Be Shaken</h3>
+   <p>When feelings fail, what remains? The promises of a God who does not break His word.</p>
+</a>
+   <a class="keep-reading-card" href="/devotional-never-gives-up">
+   <div class="card-eyebrow">Devotional</div>
+   <h3>God Will Never Let You Go</h3>
+   <p>You can lose the felt presence of God for a long season — and discover what was holding you the whole time.</p>
+</a>
 </div>
-   <a href="/about" class="banner-link">About This Site</a>
-</div>
-   
-   <h2>Back to the Chair</h2>
-
-   <p>Look at it again. The empty chair at the table. The one that held a person you loved, who loved you, who could not stay once the truth arrived.</p>
-
-   <p>You are grieving. That is appropriate. Do not pretend it does not hurt. The narrow gate is narrow precisely because it costs you things you wanted to keep.</p>
-
-   <p>But notice something you could not have noticed at the beginning of this page. The chair is empty because your friend left. But the room is not empty. The One who chose you before the foundation of the world — who knew exactly what this truth would cost you, who knew the specific friendships it would thin, the specific texts that would stop arriving — He is in the room. He has always been in the room. And He did not bring you to this truth to punish you with loneliness. He brought you here because He wanted you closer. And some doors have to close before you notice who has been standing in the room the whole time.</p>
-
-   <p>Your friend may come back. Grace is patient and the Spirit is not finished. Or they may not — and the ache of that will stay. But the God who holds you did not flinch when the chair emptied. He had already set a place for you at a different table. And at that table, no one leaves.</p>
-
-   <p>And He is not consoling you from outside it. On the last night of His life Jesus sat at a table with twelve friends, and within hours every chair was empty. "Then everyone deserted him and fled." The man who had sworn loudest that he never would was standing at somebody else's fire, warming his hands, saying he had never met Him. Long before that, the people who had known Him longest — His own brothers, thirty years under the same roof — had looked at Him and concluded He was mistaken. "He came to that which was his own, but his own did not receive him." He knows what it is to hold something true in a room where the people you love cannot see it. He held it to the end, alone, and it killed Him. Then He came out of the grave, and the first thing He did with that morning was go and find the men who had run.</p>
-
-   <p><strong>The friend left. He stayed.</strong></p>
-   
-   <div class="keep-reading">
-   <h3 class="keep-reading-title">Keep Reading</h3>
-   
-   <a href="/psychology-hub" class="article-link">
-   <span class="article-link-title">Why We Resist God's Sovereignty</span>
-   <span class="article-link-desc">Understand the psychological barriers that make people cling to the illusion of control—and why your friend may have unconsciously pulled away when you stopped clinging.</span>
-</a>
-   
-   <a href="/invisible-wall-singing-alone" class="article-link">
-   <span class="article-link-title">Alone in Your Conviction</span>
-   <span class="article-link-desc">When you are the only one in your circle who believes something this radical about God, the isolation can feel like insanity. It is not. It is clarity.</span>
-</a>
-   
-   <a href="/devotional-never-gives-up" class="article-link">
-   <span class="article-link-title">The Shepherd Does Not Lose Sheep</span>
-   <span class="article-link-desc">What Jesus actually meant when He said His sheep know His voice and follow Him. A meditation on why the elect cannot be separated from the Shepherd—no matter how many other people leave.</span>
-</a>
 </div>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Psalm 27:10** — ""Though my father and mother forsake me, the Lord will receive me.""
-- **John 16:1-4** — "“All this I have told you so that you will not fall away. They will put you out of the synagogue; in fact, the time is coming when anyone who kills you will think they are offering a service to God. They will do such things because they have not known the Father or me. I have told you this, so that when their time comes you will remember that I warned you about them. I did not tell you this from the beginning because I was with you,"
-- **Matthew 10:34-39** — "“Do not suppose that I have come to bring peace to the earth. I did not come to bring peace, but a sword. For I have come to turn“‘a man against his father, a daughter against her mother, a daughter-in-law against her mother-in-law—36 a man’s enemies will be the members of his own household.’ “Anyone who loves their father or mother more than me is not worthy of me; anyone who loves their son or daughter more than me is not worthy of me. Whoever does not take up their cross and follow me is not worthy of me. Whoever finds their life will lose it, and whoever loses their life for my sake will find it."
-- **John 15:18-19** — "“If the world hates you, keep in mind that it hated me first. If you belonged to the world, it would love you as its own. As it is, you do not belong to the world, but I have chosen you out of the world. That is why the world hates you."
+- **Hebrews 4:12** — "For the word of God is alive and active. Sharper than any double-edged sword, it penetrates even to dividing soul and spirit, joints and marrow; it judges the thoughts and attitudes of the heart."
 
 ---
 
-## invisible-wall-marriage
+## start-here-phase1
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/invisible-wall-marriage.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/start-here-phase1.html`
 
-Length 1923w · already spends bridges[anosognosia] catch-images[]
+Length 1895w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<h3>The Grace of Modeling</h3>
-   <p>The most powerful sermon you will ever preach to your spouse is how you live. How you rest in grace when life fractures. How you trust <a href="/devotional-the-hands-that-hold-you">the hands that hold you</a> when you have no control. How you extend mercy without needing them to deserve it. How you love them not because they earned it but because you chose to—the way grace loves them. Don't argue the truth. Live it. Let them see what it looks like when someone has surrendered entirely.</p>
-</div>
-   
-   <div class="grace-card">
-   <h3>The Grace of Entrusting</h3>
-   <p>Your spouse's soul is God's assignment, not yours. You are their companion, not their Holy Spirit. You cannot convict them. You cannot convert them. You cannot force understanding. What you can do is pray, love, model grace, and then—hardest of all—let God be God in their life. Even if they never come to see what you see. Even if you stand on opposite sides of this invisible wall for the rest of your marriage. God's mercy is not dependent on their theology. And neither is your faithfulness.</p>
-</div>
-</div>
-   
-   <h2>On the Guilt That Lives in Your Chest</h2>
-   
-   <p>You feel guilty for seeing what they don't see. You feel guilty for grieving something they don't even know is missing. You feel guilty for the silence, for the self-censoring, for the times you bite your tongue and smile when what you actually want is to say: "Don't you see? Don't you understand what's at stake? Don't you understand that you're claiming credit for something you can't possibly own?"</p>
-   
-   <p>But then you feel guilty for wanting to say that, because it sounds proud, intellectual, superior. So you say nothing. And the guilt multiplies.</p>
-   
-   <p><strong>You are not failing your marriage by seeing differently. You are honoring it by remaining silent.</strong> Not silent about your faith, not silent about God's goodness—but silent about the thing that separates you theologically. You are choosing love over being right. That's not failure. That's the highest form of faithfulness.</p>
-   
-   <p>There is one house in Scripture where this exact silence was kept, and Jesus kept it. He grew up under the same roof as brothers who watched Him for something like thirty years and did not believe a word of it. "For even his own brothers did not believe in him." He did not badger them and He did not hold it against them. He ate at their table, worked the trade, and carried something true through a house that could not see it — and then carried it out to a cross. Afterward, on the far side of the resurrection, He went and found His brother James. Not with a better argument. In person. James spent the rest of his life calling Him Lord. Whatever comes in your house will not come because you finally won the conversation. It will come the way it came to James, on a morning Christ picks. Until then you are doing what He did: staying, and loving them in the silence.</p>
+<h2>Why This Is the Only Foundation That Holds</h2>
 
-   <p><em>Lord, I love this person more than I love being right. Give me the grace to show that in the silence. And if there comes a night when they see what I see — when they understand that faith itself is Your gift — let me weep with them quietly, knowing I had nothing to do with it except staying.</em></p>
+   <p><strong>If salvation depends on you</strong>, then your assurance depends on the stability of your own heart — a heart the Bible calls "deceitful above all things" (Jeremiah 17:9). You will spend your life haunted: <em>Did I believe hard enough? Was I sincere enough? Will I hold on until the end?</em></p>
+
+   <p>If your salvation rested on a decision you made, what will you do on the day you wake up wondering whether you made that decision sincerely enough?</p>
+
+   <p><strong>If salvation depends on God</strong>, then your assurance rests on the One who is the same yesterday and today and forever — the One whose promises have never failed:</p>
+
+   <blockquote>
+   <p>"I give them eternal life, and they shall never perish; no one will snatch them out of my hand. My Father, who has given them to me, is greater than all; no one can snatch them out of my Father's hand."</p>
+   <cite>JOHN 10:28-29</cite>
+   </blockquote>
+
+   <p><strong>This is not cold theology. This is the end of fear.</strong></p>
+
+   <p>The beginning of a peace so deep it can withstand anything — because it was never based on your performance. It was based on <em>His</em>.</p>
+
+   <h2>Where the Next Four Phases Go</h2>
+
+   <p>In the next four phases, we're going to do something dangerously simple: <strong>open the Bible and read it.</strong> Carefully. Honestly. Without forcing it to say what we want. We'll walk through the five truths about grace, work through the passages that carry the most weight, and face the hardest objections head-on.</p>
+
+   <p><strong>Nobody has ever come to God by first qualifying for Him. Every one of them was chosen before they chose anything — and the invitation stands open to anyone who will take it.</strong></p>
+
+   <p>That meeting — when a person stops seeing himself as the one who reached and starts seeing who did the reaching — changes what prayer is for.</p>
+
+   <blockquote>
+   <p>"Oh, the depth of the riches of the wisdom and knowledge of God! How unsearchable his judgments, and his paths beyond tracing out! ... For from him and through him and for him are all things. To him be the glory forever! Amen."</p>
+   <cite>ROMANS 11:33, 36</cite>
+   </blockquote>
+    
+    <div class="phase-nav">
+   <a href="/start-here" class="phase-nav-box prev">
+   <div class="phase-nav-label">&larr; Journey Overview</div>
+   <div class="phase-nav-title">The Five-Phase Staircase</div>
+</a>
+   <a href="/start-here-phase2" class="phase-nav-box next">
+   <div class="phase-nav-label">Up Next: Phase 2 &rarr;</div>
+   <div class="phase-nav-title">The Five Points of Grace</div>
+</a>
+</div>
+   
+   <span class="phase-next-eyebrow">Next — Phase 2 of 5: The Architecture</span>
+   <span class="phase-next-title">The Five Points of Grace — five truths, one unbreakable chain →</span>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Romans 9:16** — "It does not, therefore, depend on human desire or effort, but on God's mercy."
+- **Isaiah 6:5** — "Woe to me! I am ruined! For I am a man of unclean lips, and I live among a people of unclean lips, and my eyes have seen the King, the Lord Almighty."
+- **Luke 5:8** — "When Simon Peter saw this, he fell at Jesus' knees and said, "Go away from me, Lord; I am a sinful man!""
+- **Jeremiah 17:9** — "The heart is deceitful above all things and beyond cure. Who can understand it?"
 
 ---
 
-## invisible-wall-only-one-who-sees
+## start-here-phase4
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/invisible-wall-only-one-who-sees.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/start-here-phase4.html`
 
-Length 1652w · already spends bridges[] catch-images[]
+Length 1991w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p><strong>Humility is the only safe ground.</strong> "What do you have that you did not receive?" Repeat it until it reaches your pride. Your theological sight was given, not earned. The moment you forget this, the wall becomes a pedestal — and a pedestal is a far lonelier place than a wall.</p>
+<!-- Knowledge Check Quiz -->
+    <div class="knowledge-check">
+   <h3>Knowledge Check</h3>
+   <div class="quiz-subtitle">Test what you've learned</div>
 
-<h2>A Prayer From Behind the Wall</h2>
+   <div class="quiz-question" data-correct="2">
+   <div class="quiz-q-text"><span class="quiz-q-num">1.</span> According to Reformed theology, what kind of "freedom" does the unregenerate will have?</div>
+   <div class="quiz-options">
+   <div class="quiz-option">a) Complete freedom to choose God or reject Him</div>
+   <div class="quiz-option">b) No will at all — humans are robots</div>
+   <div class="quiz-option">c) Freedom to act on desires, but those desires are enslaved to sin</div>
+   <div class="quiz-option">d) Freedom that was lost at the fall and restored at baptism</div>
+</div>
+</div>
 
-<p><em>God, this is lonely. I didn't expect the truth to isolate me from the people I love most. They don't understand me, and I don't know how to explain what happened to me without sounding like I think I'm better than them.</em></p>
+   <div class="quiz-question" data-correct="1">
+   <div class="quiz-q-text"><span class="quiz-q-num">2.</span> Paul's answer to "Is God unjust?" in Romans 9 is:</div>
+   <div class="quiz-options">
+   <div class="quiz-option">a) "Yes, but His justice is different from ours"</div>
+   <div class="quiz-option">b) "But who are you, a human being, to talk back to God?" — affirming God's right as the Potter</div>
+   <div class="quiz-option">c) "No, because God foresaw who would believe"</div>
+   <div class="quiz-option">d) "It's about nations, not individuals"</div>
+</div>
+</div>
 
-<p><em>But You gave me eyes to see. The sight is Yours, not mine. Help me hold it with humility, not pride. Help me carry it with patience, not bitterness. Help me trust Your timing — for them, for me, for the slow work of illumination that happens on Your schedule, not mine.</em></p>
+   <div class="quiz-question" data-correct="2">
+   <div class="quiz-q-text"><span class="quiz-q-num">3.</span> When John 3:16 says "whoever believes," Reformed theology understands this to mean:</div>
+   <div class="quiz-options">
+   <div class="quiz-option">a) Anyone can believe at any time by their own power</div>
+   <div class="quiz-option">b) The verse is teaching universalism — everyone will be saved</div>
+   <div class="quiz-option">c) Everyone who believes will be saved — and God is the one who enables belief</div>
+   <div class="quiz-option">d) Only certain ethnic groups can believe</div>
+</div>
+</div>
 
-<p><em>And help me love them the way You loved me — while I was still blind, still resistant, still certain I had earned something that was always a gift.</em></p>
+   <div class="quiz-question" data-correct="3">
+   <div class="quiz-q-text"><span class="quiz-q-num">4.</span> Why do Reformed Christians believe election actually MOTIVATES evangelism?</div>
+   <div class="quiz-options">
+   <div class="quiz-option">a) Because we feel guilty if we don't evangelize</div>
+   <div class="quiz-option">b) Because only specific methods of evangelism work</div>
+   <div class="quiz-option">c) Because we know God might change His mind if we preach hard enough</div>
+   <div class="quiz-option">d) Because God has sheep who WILL respond — our job is to proclaim, not convert</div>
+</div>
+</div>
 
-<p><em>Because that's how I know the love is real. Amen.</em></p>
+   <div class="quiz-result">
+   <div class="score">4 / 4</div>
+   <div class="score-msg">Outstanding! You've truly absorbed this material.</div>
+</div>
+</div>
 
-<p>There is one more thing worth saying about this loneliness. The truth that has quieted your small group is the truth that emptied Jesus' own room. He stood in the synagogue at Capernaum and said out loud that no one comes to Him unless <a href="/question-john6">the Father draws</a> them, and the crowd that had eaten from His hands the day before thinned out and walked home. He turned to the twelve still standing there and asked whether they wanted to go too. So He is not a distant sympathizer in this. He was the one thing in that room nobody could see, He kept saying it anyway, and He said it without a word of contempt for the people walking out — because He was already on His way to a cross He would carry for a roomful of them. The loneliest man who ever held this truth is the man the truth is about. He held it to the end, and He is holding you now.</p>
+    <div class="phase-nav">
+   <a href="/start-here-phase3" class="phase-nav-box prev">
+   <div class="phase-nav-label">&larr; Previous: Phase 3</div>
+   <div class="phase-nav-title">What Does the Bible Actually Teach?</div>
+</a>
+   
+   <div class="phase-nav-label">Up Next: Phase 5 &rarr;</div>
+   <div class="phase-nav-title">Living as an Elect Child of God</div>
 
-<p>Now go back to that room. The Sunday morning. The small group. The coffee getting cold. They are still nodding. You are still aching. But something has shifted — not in the room, but in you. You are no longer the lonely expert. You are the patient witness. The person who was blind longer than they have been, and who was given sight on a schedule they did not control by a God they cannot rush. The wall is still there. But behind it, on their side, the same Shepherd who opened your eyes is already at work — in prayers you will never hear, in sleepless-dark doubts you will never witness, in a sentence from a sermon that will land on a Tuesday afternoon when they least expect it. He has never once failed to finish what He started. What makes you think He started something in them that He plans to abandon?</p>
+</div>
+
+    <!-- Cross-Reference Section -->
+    <section class="continue-journey-global"><div class="continue-journey-global-inner"><h3 class="continue-journey-global-title">Continue Your Journey</h3><div class="continue-journey-global-grid">
+   <a href="/start-here-phase5" class="journey-mini-card"><h4>Phase 5: Living It</h4><p>Continue to how this changes your life as an elect child of God.</p></a>
+   <a href="/start-here-phase3" class="journey-mini-card"><h4>Phase 3: Scripture</h4><p>Return to what the Bible teaches about God's sovereignty.</p></a>
+   <a href="/demolition-hub" class="journey-mini-card"><h4>Demolition Zone</h4><p>Deconstruct false teachings and objections to God's sovereignty.</p></a>
+   <a href="/question-freewill" class="journey-mini-card"><h4>Free Will Explained</h4><p>Discover what true free will actually means biblically.</p></a>
+   <a href="/question-unfair" class="journey-mini-card"><h4>The Fairness Question</h4><p>Explore what real justice and grace look like.</p></a>
+   <a href="/start-here" class="journey-mini-card"><h4>Start Here Hub</h4><p>Return to the Start Here overview.</p></a>
+</div></div>
+    </section>
+   
+   <span class="phase-next-eyebrow">Next — Phase 5 of 5: The Life</span>
+   <span class="phase-next-title">Living as an Elect Child of God — what changes tomorrow morning →</span>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Hebrews 10:25** — ""not giving up meeting together, as some are in the habit of doing, but encouraging one another—and all the more as you see the Day approaching.""
+- **John 8:34** — "Jesus replied, “Very truly I tell you, everyone who sins is a slave to sin."
+- **Ephesians 2:1** — "As for you, you were dead in your transgressions and sins,"
+- **1 Corinthians 2:14** — "The person without the Spirit does not accept the things that come from the Spirit of God but considers them foolishness, and cannot understand them because they are discerned only through the Spirit."
+- **Romans 8:7** — "The mind governed by the flesh is hostile to God; it does not submit to God's law, nor can it do so."
+- **John 3:16** — "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+- **John 6:65** — "He went on to say, 'This is why I told you that no one can come to me unless the Father has enabled them.'"
+- **John 3:8** — "The wind blows wherever it pleases. You hear its sound, but you cannot tell where it comes from or where it is going. So it is with everyone born of the Spirit."
+- **1 Timothy 2:4** — "who wants all people to be saved and to come to a knowledge of the truth."
+- **1 Timothy 2:1** — "Instructions on Worship I urge, then, first of all, that petitions, prayers, intercession and thanksgiving be made for all people—"
+- **Hosea 11:8** — "How can I give you up, Ephraim? How can I hand you over, Israel? How can I treat you like Admah? How can I make you like Zeboyim? My heart is changed within me; all my compassion is aroused."
+- **Isaiah 46:10** — "I make known the end from the beginning, from ancient times, what is still to come. I say, 'My purpose will stand, and I will do all that I please.'"
+- Acts 18:9 — NOT IN GROUND TRUTH (do not quote it verbatim)
+- **Romans 9:20** — "But who are you, a human being, to talk back to God? 'Shall what is formed say to the one who formed it, Why did you make me like this?'"
 
 ---

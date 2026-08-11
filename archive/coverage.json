@@ -5,7 +5,7 @@
       "date": "2026-07-28",
       "sinceSession": 191
     },
-    "updated": "2026-08-10",
+    "updated": "2026-08-11",
     "note": "Historical seed from HTML markers is approximate (review-freshness, not pass/fail). source:\"stamp\" entries are exact.",
     "history": [
       {
@@ -2395,10 +2395,11 @@
       "source": "marker"
     },
     "presuppositional-impossibility-of-the-contrary.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "presuppositional-no-neutral-ground.html": {
       "lastSession": null,
@@ -2420,11 +2421,11 @@
       "note": "Christless catch closed — the Power greater has a name and came into the room"
     },
     "psychology-anosognosia-of-sin.html": {
-      "lastSession": 199,
+      "lastSession": 205,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "S199 cold-read + repair"
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "psychology-attribution-error.html": {
       "lastSession": 58,
@@ -2447,11 +2448,11 @@
       "note": "S192 gospel-landing + feeling-slip; catch derived from page's own image"
     },
     "psychology-cognitive-biases.html": {
-      "lastSession": 199,
+      "lastSession": 205,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "S199 cold-read + repair"
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "psychology-comfort-self-salvation.html": {
       "lastSession": 58,
@@ -2460,16 +2461,18 @@
       "source": "marker"
     },
     "psychology-conversion-memory-test.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "psychology-cost-of-rejecting-grace.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "psychology-emotional-vs-rational.html": {
       "lastSession": 191,
@@ -2479,10 +2482,11 @@
       "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "psychology-fear-control.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "psychology-groupthink.html": {
       "lastSession": 67,
@@ -2491,11 +2495,11 @@
       "source": "marker"
     },
     "psychology-hostility-reaction.html": {
-      "lastSession": 191,
+      "lastSession": 205,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "S191 gospel-landing + feeling-slip sweep"
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "psychology-identity-threat.html": {
       "lastSession": null,
@@ -2510,10 +2514,11 @@
       "source": "marker"
     },
     "psychology-language-acquisition.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "psychology-language-you-already-speak.html": {
       "lastSession": 192,
@@ -2554,23 +2559,25 @@
       "source": "marker"
     },
     "psychology-sunk-cost-faith.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "psychology-suppressing-truth.html": {
-      "lastSession": 197,
+      "lastSession": 205,
       "voiceRef": "§XXIII",
-      "status": "partial",
+      "status": "lifted",
       "source": "stamp",
-      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "psychology-system-justification.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "psychology-terror-management.html": {
       "lastSession": 58,
@@ -2579,17 +2586,18 @@
       "source": "marker"
     },
     "psychology-the-question-beneath-the-question.html": {
-      "lastSession": 76,
-      "voiceRef": "§XVI",
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "psychology-why-this-objection-proves-our-point.html": {
-      "lastSession": 197,
+      "lastSession": 205,
       "voiceRef": "§XXIII",
-      "status": "partial",
+      "status": "lifted",
       "source": "stamp",
-      "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "psychology-why-we-resist.html": {
       "lastSession": 191,
@@ -2617,10 +2625,11 @@
       "source": "marker"
     },
     "question-acts.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "question-acts4.html": {
       "lastSession": 58,
@@ -2653,10 +2662,11 @@
       "source": "marker"
     },
     "question-boasting.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "question-book-of-life.html": {
       "lastSession": null,
@@ -2665,16 +2675,18 @@
       "source": "marker"
     },
     "question-born-again-meaning.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "question-calvinist-on-knees.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "question-cannot.html": {
       "lastSession": 58,
@@ -2696,17 +2708,18 @@
       "source": "marker"
     },
     "question-dead-in-sin-meaning.html": {
-      "lastSession": 191,
+      "lastSession": 205,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "S191 gospel-landing + feeling-slip sweep"
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "question-dead-man-visual.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "question-depravity.html": {
       "lastSession": 197,
@@ -2734,10 +2747,11 @@
       "source": "marker"
     },
     "question-every-conversion-acts.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "question-external-call.html": {
       "lastSession": 58,
@@ -2777,17 +2791,18 @@
       "note": "S192 hand-found feeling-slip (VOICE XXIII)"
     },
     "question-free-will-bible-verses.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
-    },
-    "question-freewill.html": {
-      "lastSession": 199,
+      "lastSession": 205,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "S199 cold-read + repair"
+      "note": "gospel-absence closed - Christ named in the catch"
+    },
+    "question-freewill.html": {
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "question-godwants.html": {
       "lastSession": 58,
@@ -2834,10 +2849,11 @@
       "source": "marker"
     },
     "question-is-predestination-in-the-bible.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "question-is-salvation-my-choice-or-gods.html": {
       "lastSession": 197,
@@ -2920,22 +2936,25 @@
       "note": "S192 gospel-landing + feeling-slip; catch derived from page's own image"
     },
     "question-predestined-to-hell.html": {
-      "lastSession": 94,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "question-proverbs-sovereignty.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "question-psalm139.html": {
-      "lastSession": 71,
-      "voiceRef": "§XV",
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "question-regeneration-precedes-faith.html": {
       "lastSession": null,
@@ -2976,16 +2995,18 @@
       "note": "S192 self-repeating close + integrity"
     },
     "question-seven-questions.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "question-sovereignty-logic.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "question-titus3.html": {
       "lastSession": 58,
@@ -3020,17 +3041,18 @@
       "source": "marker"
     },
     "question-what-does-chosen-mean.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
-    },
-    "question-what-is-sovereign-grace.html": {
-      "lastSession": 198,
+      "lastSession": 205,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "corpse-metaphor doorway de-cloned; definitional entry"
+      "note": "gospel-absence closed - Christ named in the catch"
+    },
+    "question-what-is-sovereign-grace.html": {
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "question-what-is-the-gospel.html": {
       "lastSession": 192,
@@ -3078,10 +3100,11 @@
       "note": "de-cloned: transplanted depravity module replaced with a distinct mirror from the XIII.2 bench, native to the page's own image"
     },
     "question-why-pray-if-god-is-sovereign.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "reformed-apologetics-consciousness.html": {
       "lastSession": null,
@@ -3207,10 +3230,11 @@
       "note": "answered the abandoned wanted-vs-used question; recap 5 closes to 1; skeuos moved to vv20-21"
     },
     "scripture-tsunami-faith-as-gift.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "scripture-tsunami-sovereignty.html": {
       "lastSession": 58,
@@ -3238,10 +3262,11 @@
       "source": "marker"
     },
     "secular-art-literature-reformed-truth.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "secular-billion-decisions.html": {
       "lastSession": 199,
@@ -3257,17 +3282,18 @@
       "source": "marker"
     },
     "secular-genetics-sovereignty.html": {
-      "lastSession": 197,
+      "lastSession": 205,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "gospel-absence: cross added at the page's own load-bearing link"
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "secular-hard-problem-consciousness.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "secular-history-sovereignty.html": {
       "lastSession": 58,
@@ -3282,16 +3308,18 @@
       "source": "marker"
     },
     "secular-philosophy-free-will.html": {
-      "lastSession": 95,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "secular-psychology-bondage-of-will.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "secular-recovery-total-depravity.html": {
       "lastSession": null,
@@ -3300,10 +3328,11 @@
       "source": "marker"
     },
     "secular-sociology-human-inability.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "share-your-story.html": {
       "lastSession": 197,
@@ -3319,16 +3348,18 @@
       "source": "marker"
     },
     "shattered-lens-cant-tell-true.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "shattered-lens-cant-unsee-it.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 205,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence closed - Christ named in the catch"
     },
     "shattered-lens-lost-community.html": {
       "lastSession": 58,

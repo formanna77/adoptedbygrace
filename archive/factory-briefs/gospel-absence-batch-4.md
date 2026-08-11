@@ -1,4 +1,4 @@
-# FACTORY BRIEF — gospel-absence — batch 4 of 24
+# FACTORY BRIEF — gospel-absence — batch 4 of 12
 
 Everything you need is in this file. **Do not open the source pages** — the
 closing HTML is reproduced verbatim below, and the only Scripture you might
@@ -9,143 +9,45 @@ window before it wrote a single word.
 For each page: choose a unique span from the HTML shown, and `Edit` the real
 file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
-## demolition-2cor6-1
+## question-born-again-meaning
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-2cor6-1.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-born-again-meaning.html`
 
-Length 2834w · already spends bridges[] catch-images[]
-
-### Closing HTML — PROSE ONLY, truncated at the article boundary
-(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
-is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
-
-```html
-<h2>The Warning Is Not Aimed at Your Grip</h2>
-
-   <p>Here is something strange about this passage. The Arminian reads it and thinks: <em>see, grace is conditional — I must hold on, or I will lose it.</em> And that reading produces either anxiety (<em>am I holding on hard enough?</em>) or pride (<em>yes, I am holding on, and that is why I am still saved</em>). Neither of those is the response Paul wanted.</p>
-
-   <p>The Reformed reading produces something very different. When you realize that saving grace cannot be received in vain — that if God has begun a work in you, He will finish it (<a href="/question-perseverance">Philippians 1:6</a>) — the warning in 2 Corinthians 6:1 stops being a threat against your security. It becomes an invitation to examine whether the grace you have been relying on is actually the grace that saves.</p>
-
-   <p>If the warning unsettles you, do not reach for your own trembling as the proof that you are safe. A feeling is a poor foundation, and a man can be frightened for a night and hardened by morning. Let the warning do its real work instead: let it drive you off your own grip and onto His. Examine whether the grace you have leaned on is the grace that saves — and then rest the whole weight of the question on the One who <a href="/demolition-1peter1-5">garrisons His own</a> and finishes what He starts. The trembling was never your security. His keeping is.</p>
-
-   <p>And if the warning does not terrify you, that is not automatically bad either. It may be that you have already rested so deeply into the unconditional love of God that you know — with the certainty of a child in its mother's arms — that nothing in this verse applies to a soul He has made His own. The warning is there to keep you attentive, not to threaten your inheritance. The inheritance is <a href="/devotional-never-gives-up">kept in heaven for you</a>, and you will arrive to claim it on the last day.</p>
-
-   <h2>Keep Going</h2>
-
-   <p>This verse is one of the Arminian's favorite pastoral proof-texts. There are others — <a href="/demolition-galatians5-4">Galatians 5:4 on falling from grace</a>, <a href="/demolition-hebrews6-4-6">Hebrews 6 on the apostasy warnings</a>, and the full systematic on perseverance. Each one collapses under the same distinction: common grace versus saving grace, external call versus effectual call, visible church versus invisible church.</p>
-
-   <p>Once the distinctions are honored, the New Testament's pastoral warnings stop sounding like Arminian proof-texts and start sounding like what they are: the Spirit's ordained means of preserving His elect. And do not mishear the God who issues them. The same God who warns is the One who says, in His own voice, <a href="/demolition-ezekiel33-11">"I take no pleasure in the death of the wicked"</a> — the offer inside the warning is sincere to every ear in the room. That some harden under the very grace that softens others is His grief, never His secret delight. The grace that finally saves is His alone to give, and it has never once been given in vain.</p>
-
-   <p>And if you want the size of the grace that cannot be received in vain, Paul supplies it, not as an adjective but as an event. He tells the Ephesians that the power now at work in everyone who believes is the same power God exerted when He raised Christ from the dead. That is the unit of measurement. Whatever it took to get Jesus out of the ground is what has been spent on you, and it was not a second act but the same one: "made us alive with Christ even when we were dead in transgressions—it is by grace you have been saved." You were not revived nearby; you were raised with Him, by one exertion, on one morning. Grace of that size does not run short partway through a man. It did not run short at a sealed tomb, and there was more to move there than there has ever been in you. So when Paul reaches the end of his own argument he does not send you back to your grip; he points at a Person: "Christ Jesus who died—more than that, who was raised to life—is at the right hand of God and is also interceding for us." The One who walked out of the grave is the One now praying for you, and He has not stopped since.</p>
-
-   <p>If this page shook something loose, the <a href="/demolition-hub">other demolition briefings</a> will shake the rest. And when the fortress falls, what you will find inside the rubble is not an enemy. It is a Father who has been there all along, watching you try to hold yourself together, waiting for you to collapse into arms that have never once loosened their grip.</p>
-
-<p class="landing-line">The grace you were warned not to receive in vain was never the fragile thing. You were. And it held you anyway.</p>
-```
-
-### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **2 Corinthians 13:5** — "Examine yourselves to see whether you are in the faith; test yourselves. Do you not realize that Christ Jesus is in you—unless, of course, you fail the test?"
-- **Romans 8:30** — "And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."
-- **Matthew 13:24-30** — "Jesus presented another parable describing the kingdom of heaven. A man planted good seed in his field, but while everyone slept, an enemy came and sowed weeds among the wheat, then departed. When the wheat sprouted and produced grain, the weeds became visible as well. The field's servants approached their master asking, "Sir, didn't you sow good seed in your field? Where then did the weeds come from?" The owner replied, "An enemy did this." The servants then asked if he wanted them to pull up the weeds. He refused, explaining that removing the weeds might uproot the wheat alongside them. Instead, he instructed them to "Let both grow together until the harvest. At that time I will tell the harvesters: First collect the weeds and tie them in bundles to be burned; then gather the wheat and bring it into my barn.""
-- **2 Corinthians 6:1** — "As God's co-workers we urge you not to receive God's grace in vain."
-- **Matthew 5:45** — "That you may be children of your Father in heaven. He causes his sun to rise on the evil and the good, and sends rain on the righteous and the unrighteous."
-- **Hebrews 6:4-5** — "It is impossible for those who have once been enlightened, who have tasted the heavenly gift, who have shared in the Holy Spirit, who have tasted the goodness of the word of God and the powers of the coming age"
-- John 16:8-9 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- **John 6:44** — "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
-- **Ephesians 2:5** — "made us alive with Christ even when we were dead in transgressions—it is by grace you have been saved."
-- 1 Corinthians 15:2 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- Galatians 2:2 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- Philippians 2:16 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- **1 John 2:19** — "They went out from us, but they did not really belong to us. For if they had belonged to us, they would have remained with us; but their going showed that none of them belonged to us."
-- **Romans 8:31-39** — "What, then, shall we say in response to these things? If God is for us, who can be against us? He who did not spare his own Son, but gave him up for us all—how will he not also, along with him, graciously give us all things? Who will bring any charge against those whom God has chosen? It is God who justifies. Who then is the one who condemns? No one. Christ Jesus who died—more than that, who was raised to life—is at the right hand of God and is also interceding for us. Who shall separate us from the love of Christ? Shall trouble or hardship or persecution or famine or nakedness or danger or sword? As it is written: "For your sake we face death all day long; we are considered as sheep to be slaughtered." No, in all these things we are more than conquerors through him who loved us. For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord."
-- **Philippians 1:6** — "being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus."
-- **Galatians 5:4** — "You who are trying to be justified by the law have been alienated from Christ; you have fallen away from grace."
-
----
-
-## demolition-2pet2-20
-
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-2pet2-20.html`
-
-Length 1509w · already spends bridges[] catch-images[]
+Length 1267w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<h2>You Do Not Return to What You Have Learned to Hate</h2>
+<h2>The Proof You Were Born — Not Built</h2>
 
-   <p>Now turn the verse over, because the thing that frightened you is hiding the comfort. The question this passage plants in a tender conscience is always the same: <em>what if that is me — what if I am the washed pig, and I will go back?</em> And the proverb you feared answers the question you are asking with it. Ask the pig why it returns to the mud. It returns because it has never once, in its whole life, grieved the mud. The sty is not its shame; it is its home. The animal feels no horror crawling back in, because there is nothing in it that was ever made to hate the filth.</p>
+   <p>A decision can be reversed. A birth cannot. A decision depends on your resolve. A birth depends on nothing you contributed. A decision weakens under pressure. A birth is simply what you <em>are</em>.</p>
 
-   <p>So feel what your own question reveals. The mud horrifies you. The thought of returning to what you were is not a temptation you savor but a grief that visits you, sometimes in the middle of an ordinary day, with a weight a pig has never once felt in the history of the world. <a href="/question-depravity">Where did that grief come from?</a> Not from the flesh — the flesh loves the mud and always did. It came from a heart that is no longer made of stone. The capacity to mourn your sin <em>is</em> the new nature; <a href="/question-faithgift">it is the gift</a> the dog and the sow never received. <a href="/history-augustine-pelagius">Augustine saw it sixteen centuries ago</a>: the will is free to choose among the things it loves, but it cannot love what it has no nature to love. God did not merely wash you. He reached past the hide and changed the wanter. He gave you a heart that hates the sty — and a heart like that, however far it wanders, was built to come home, because home is no longer the mud. Home is <a href="/devotional-in-christ">Him.</a></p>
+   <p>This is why the new birth is not fragile the way a decision is. A living thing does not die because you waver; a heartbeat does not stop because you doubt. <a href="/theologian-augustine">Augustine</a> put it this way in the fifth century: <em>"God does not choose us because we believe, but so that we may believe."</em> The birth precedes the breathing. Always.</p>
 
-   <p>And notice what the proverb cannot give you. A washing is done from the outside, and soap has no argument with a nature; Peter's sow left the water cleaner and unchanged. You did not need a better wash. You needed a death and a morning after it, which is exactly what Paul says you were handed: buried with Christ, raised with Christ, the life you live now standing on the far side of an empty grave. So the question underneath your fear is not whether the animal will hold its bath. It is whether Jesus Christ is still out of the ground. He is, and everyone joined to Him came up when He did.</p>
+   <p>If the <a href="/psychology-cost-of-rejecting-grace">idea that God did this without your permission</a> bothers you — if something in you insists that you had to <em>choose</em> to be born again — ask honestly why. Is it because the Bible is unclear? Or because your <a href="/psychology-pride-root-objection">pride cannot tolerate</a> the thought that the most important moment of your life was not your achievement?</p>
 
-   <p class="landing-line"><strong>Pigs do not grieve the mud.</strong></p>
+   <p>A newborn screaming in a delivery room is not taking credit for its arrival. It is simply alive — shocked, gasping, utterly dependent, and completely incapable of having arranged any of it. That is what the first moment of faith feels like when you finally see it honestly. Not "I found God." But <em>I was found</em>.</p>
+
+   <p>You were <a href="/question-chosen">chosen before the foundation of the world</a>, <a href="/devotional-love-letter-before-time">loved before you drew breath</a>, born from above by a <a href="/question-where-did-your-faith-come-from">Spirit who blows where He pleases</a>. That is what "born again" means. Not a decision you made. A miracle that was done to you.</p>
+
+   <p>And the cry you called your "choice"? That was your first breath.</p>
+
+   <p><strong>You were born. You are His.</strong></p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **1 Peter 1:5** — "who through faith are shielded by God's power until the coming of the salvation that is ready to be revealed in the last time."
+- **John 1:13** — "children born not of natural descent, nor of human decision or a husband's will, but born of God."
+- **John 3:3** — "Jesus replied, 'Very truly I tell you, no one can see the kingdom of God unless they are born again.'"
+- **John 3:5** — "Jesus answered, "Very truly I tell you, no one can enter the kingdom of God unless they are born of water and the Spirit.""
+- **John 5:1** — "Some time later, Jesus went up to Jerusalem for one of the Jewish festivals."
 
 ---
 
-## demolition-2peter3-15
+## question-calvinist-on-knees
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-2peter3-15.html`
-
-Length 1758w · already spends bridges[] catch-images[]
-
-### Closing HTML — PROSE ONLY, truncated at the article boundary
-(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
-is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
-
-```html
-<p>That is what the patience &ldquo;means.&rdquo; It does not mean a universal salvation that overrides God&apos;s sovereign electing love. It means that love expressed in patient, day-by-day in-gathering of the saved. Read in context, the verse stops being a problem and becomes a doorway — into the kingdom of grace, prepared from the foundation of the world for those whose names were written in it from before time.</p>
-
-   <p>And if the waiting still feels like indifference, look at where the waiting is not. God has been slow about the end of the world; He was not slow about the grave. On the third morning He did not add an hour to the tomb, and it has stayed empty every hour of the twenty centuries since. Which means the decisive thing in your salvation is not somewhere out ahead of you in the delay. It is behind you, finished and dated, in a garden outside a city wall, where Jesus Christ came up out of the ground on schedule and has been at the Father&rsquo;s right hand ever since. The patience you are living inside is not God deliberating. It is God collecting, with exactly the certainty He showed on the morning He came for His Son.</p>
-
-   <p class="landing-line">The patience you almost mistook for God&rsquo;s absence was the sound of Him coming&mdash;slowly, surely&mdash;for you.</p>
-
-   <section class="keep-reading">
-   <h2 class="hub-section-title">Keep Reading</h2>
-   <div class="hub-grid">
-   <a href="/demolition-2peter3-9" class="hub-card">
-   <div class="card-meta">DEMOLITION</div>
-   <h3 class="card-title">2 Peter 3:9 — &ldquo;Not Wanting Any to Perish&rdquo;</h3>
-   <p class="card-description">The companion verse, the same audience, the same dynamic — and the same Arminian misreading.</p>
-   <div class="card-footer"><span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-   
-   <a href="/devotional-you-were-wanted-before-you-were" class="hub-card">
-   <div class="card-meta">DEVOTIONAL</div>
-   <h3 class="card-title">You Were Wanted Before You Were</h3>
-   <p class="card-description">The patience that delayed the consummation was the patience that waited for you.</p>
-   <div class="card-footer"><span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-
-   <a href="/systematic-election" class="hub-card">
-   <div class="card-meta">SYSTEMATIC</div>
-   <h3 class="card-title">Unconditional Election</h3>
-   <p class="card-description">The biblical case that God&apos;s saving purposes are particular, not generically universal.</p>
-   <div class="card-footer"><span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-</div>
-   </section>
-```
-
-### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **2 Peter 3:15** — "Bear in mind that our Lord's patience means salvation, just as our dear brother Paul also wrote you with the wisdom that God gave him."
-- **2 Peter 3:9** — "The Lord is not slow in keeping his promise, as some understand slowness. Instead he is patient with you, not wanting anyone to perish, but everyone to come to repentance."
-
----
-
-## demolition-col1-23
-
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-col1-23.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-calvinist-on-knees.html`
 
 Length 1531w · already spends bridges[] catch-images[]
 
@@ -154,58 +56,196 @@ Length 1531w · already spends bridges[] catch-images[]
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<h2>You Were Founded Before You Were Told to Stand</h2>
+<p>What if the dissonance is the Spirit showing you that your <em>experience</em> has been more accurate than your <em>theology</em>? What if your prayers have been telling the truth all along?</p>
 
-   <p>So bring the fear back into the light and look at it. The dread under "if you continue" was never really a question about the future — <em>will I hold out?</em> It was a question about the foundation — <em>is there anything under me, or only my own grip?</em> And the verse you were afraid of has answered the question it raised. Underneath the command is a perfect-tense participle, and underneath the participle is the work of God, and underneath the work of God is a decree older than the world: chosen, <a href="/devotional-in-christ">reconciled, founded</a>, before you drew a breath.</p>
+   <p><a href="/psychology-anosognosia-of-sin">The hardest truths to see are the ones you are already living.</a> You have been confessing sovereign grace with every prayer, song, tear, funeral, testimony. The only thing left is letting your theology catch up with your heart.</p>
 
-   <p>And ask what that foundation has already held. A footing is proved only by weight, and this one has been under the heaviest weight there is. The builder went down into the ground Himself, under the whole load of judgment your continuing could never have survived, and He stayed there through a Friday and a Sabbath while the world went quiet. On the third morning the ground gave Him up. That was the load test, and it is over, and it is why Paul can put a condition in a sentence and still call the sentence good news. The rock under you is not an inert slab. It is a Person who was dead and is not dead now, and the strength it took to bring Jesus up out of the earth is the strength that was spent setting you on Him. The grave could not keep its grip on Him. It will not get a better grip on what He is holding.</p>
+   <p>You are already a Calvinist on your knees. You just haven't stood up and admitted it yet.</p>
 
-   <p>You will continue. Not because your grip is strong — <a href="/question-depravity">on your own you would have let go a thousand mornings ago</a> — but because you were founded by a builder who does not abandon his foundations to the weather. The perseverance Colossians asks of you is real, and you will give it, and even your giving of it will be his gift. So you can stop white-knuckling the ground. The thing holding you was never your hold on it. <a href="/devotional-never-gives-up">It was His.</a> Continue, then — not as a frightened tenant testing whether the floor will hold, but as a child asleep in an upstairs room of a house whose foundation was laid by his Father before he was born, and has never once shifted in the night.</p>
+   <p>So tonight — when you close your eyes and bow your head, when the room gets quiet and the theological veneer thins and the raw desperate truth pours out — listen. Listen to your own voice. Listen to the verbs. Listen to who is the subject and who is the object. And then ask yourself, with the honesty that only the prayer closet can produce: if your prayers have been telling the truth all along, what would it cost you to finally let your theology agree with them? Not a new belief. Just the courage to name the one you have been confessing on your knees your entire life.</p>
 
-   <p class="landing-line"><strong>The rock was set before the rain.</strong></p>
+   <p class="landing-line"><strong>Your prayers already knew.</strong></p>
+
+   <div class="reflection-box">
+   <p><strong>A question to sit with:</strong> The next time you pray for someone's salvation, listen to your own words. Are you asking God to <em>offer</em> them a chance? Or begging Him to <em>open their heart</em>? If it's the second, you already know who does the saving.</p>
+</div>
+
+   <div class="rabbit-hole">
+   <a href="/question-where-did-your-faith-come-from" class="rabbit-hole-card">
+   <span class="rabbit-hole-eyebrow">Go Deeper</span>
+   <h4>Where Did Your Faith Come From?</h4>
+   <p>The most important question you've never asked — and the answer changes everything.</p>
+</a>
+   
+   <span class="rabbit-hole-eyebrow">The Crown Jewel</span>
+   <h4>Is Faith a Gift?</h4>
+   <p>If faith itself is a gift of God, then claiming credit for it is the very <a href="/psychology-cost-of-rejecting-grace">works-righteousness</a> Scripture condemns.</p>
+   
+   <span class="rabbit-hole-eyebrow">Feel This</span>
+   <h4>Amazing Grace — What You're Really Singing</h4>
+   <p>A line-by-line journey through the hymn that confesses everything.</p>
+
+</div>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Philippians 1:6** — "being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus."
-- **Colossians 1:23** — "if you continue in your faith, established and firm, and do not move from the hope held out in the gospel. This is the gospel that you heard and that has been proclaimed to every creature under heaven, and of which I, Paul, have become a servant."
+- **Ephesians 2:8-9** — "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast."
 
 ---
 
-## demolition-cut-off-from-root
+## question-dead-in-sin-meaning
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/demolition-cut-off-from-root.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-dead-in-sin-meaning.html`
 
-Length 2348w · already spends bridges[] catch-images[]
+Length 2187w · already spends bridges[drowning] catch-images[lazarus]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p>And here is the thing that should stop you cold: a severed branch has no opinion about being severed. It does not wrestle. It does not want. It does not register the absence of the sap, because registering is the very thing the sap was for. So wherever a man is genuinely troubled about his own deadness, the trouble did not originate in the deadness — something outside the branch is at work in it. But do not now turn around and start grading your own trouble, weighing whether yours is the right size or the right temperature to count. That is the branch auditing the graft. Look at the Gardener instead, who has never once required a branch's cooperation to <a href="/devotional-chosen-before-you-were-broken">bind it back into the trunk</a>.</p>
+<p><strong>Second:</strong> If God chose you, then <a href="/question-faithgift">your faith itself is a gift</a>. You did not generate it from a dead heart. God gave you new life first, and faith was the first breath of that new life. This is why Paul says in the very next verses: "For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God" (Ephesians 2:8).</p>
 
-   <p>And you did not ask Him to.</p>
+   <p><strong>Third:</strong> If faith is a gift, then <a href="/question-boasting">no one can boast</a>. Paul makes this explicit: "not by works, so that no one can boast" (Ephesians 2:9). But here is the devastating implication — if your "decision to believe" was the decisive factor, you have something to boast about. You made the right choice. The person in hell didn't. That is boasting, no matter how you frame it.</p>
 
-   <h2>Back to the Rose</h2>
+   <p><strong>Fourth:</strong> If God raised you from the dead, <a href="/question-secure">He will keep you alive</a>. The God who did not wait for your cooperation to save you will not suddenly make your salvation dependent on your cooperation to maintain it. What God begins, He finishes. <a href="/question-goldchain">The golden chain of Romans 8:29-30</a> has no broken links.</p>
 
-   <p>Go back to the kitchen counter. The rose is still there. Sunday afternoon light is coming in at a low angle, making the petals look even more alive than they did on Friday. And then imagine the door opens and the Gardener walks in. Not to shake His head at the rose. Not to deliver a sermon about severance. He walks across the kitchen, lifts the rose out of the vase, carries it outside into the garden, kneels down in the dirt, and with His own hands grafts the stem into a living root. He does not hurry. Grafting is close work — the kind a man does on his knees, with both hands, holding the wound against the life until the life wins.</p>
+   <h2>The Question You Must Answer</h2>
 
-   <p>That is what has happened to you, if you belong to Him. You were the rose. You were beautiful on the counter and dying the whole time — showing color, holding scent, fooling everyone in the kitchen including yourself. And when you had nothing left to offer but the last broadcast of a fading signal, He came into the room. He did not lecture the rose about its roots. He did not leave a pamphlet on the counter. He lifted you out of the vase with His own scarred hands, carried you into the garden, knelt in the dirt, and pressed the cut end of your stem against a living root.</p>
+   <p>There is only one question left.</p>
 
-   <p>You can hear Him breathing. You can see the soil under His fingernails. You can feel the impossible moment when dead wood meets living wood and something begins to pulse that you did not start and cannot stop. The hand holding the graft tight while it heals is the same hand that was holding you on the counter — because you were never, for a single second, outside His attention. You just could not see Him. The severed cannot see the source. They can only be found by it.</p>
+   <p><a href="/question-where-did-your-faith-come-from">Where did your faith come from?</a></p>
 
-   <p>And there is one thing about grafting the picture has not told you yet. A graft takes two wounds, not one. The dead stem must be cut, and so must the living stock; you cannot join life to death without opening the life. The root has to be laid open before the branch can be laid in. That is Good Friday in a sentence — the living wood took the knife so the dead wood could be let in, and the hands that held your stem against the trunk had holes in them because of the joining. Then follow the Gardener out of that garden and into the one He was buried in. The first person who saw Jesus Christ alive on the third morning turned around and took Him for the gardener, and she was not wrong about the work, only about how far it went. He had been in the ground Himself. He came up out of it. So the root you were pressed into is not merely alive; it is alive on the far side of a grave, and the sap now moving in a stem that had no life of its own is coming up out of the ground He came up out of. Nothing that emptied a tomb is going to be stopped by your dry wood.</p>
+   <p>Did it rise up from inside a dead heart — a heart that Scripture says is hostile to God, unable to submit, incapable of pleasing Him? Did a corpse decide to live?</p>
 
-<p class="landing-line"><strong>The Gardener knelt in the dirt.</strong></p>
+   <p>Or did God, who is rich in mercy, reach into the grave and make you alive — and faith was the first thing your newly living heart did?</p>
+
+   <p>One answer is grace. The other, <a href="/psychology-cost-of-rejecting-grace">no matter how sincerely believed</a>, is a form of works-righteousness that claims credit for the one thing Scripture says you could never have produced on your own.</p>
+
+   <p>Paul already told you which answer is right. He wrote it in the most important passage on salvation ever penned. Dead. Made alive. By grace. Through faith. Not from yourselves. The gift of God.</p>
+
+   <p>Every word is load-bearing. And every word points the same direction: <a href="/devotional-rescued-without-a-say">you were rescued without a say</a>.</p>
+
+   <p>You may finish this page with an ache. You may finish it with nothing at all — flat, unmoved, wondering what everyone else seems to be hearing. Do not build anything on either reading. Lazarus had no opinion about the voice at the mouth of his tomb. He had been dead four days and had no opinions about anything. He came out regardless, because the power was in the call and not in the corpse's reception of it.</p>
+
+   <p>Which is the whole mercy of this doctrine, and the reason it is worth every ounce of offense it costs. If your rescue depended on your producing the right interior weather, you would be right back to auditing a heart this page has just spent two thousand words proving you cannot audit. It does not depend on that. It depends on <a href="/systematic-atonement">the One who went into the grave deliberately</a> and walked out of it on the third day holding the keys.</p>
+
+   <p><strong>You were dead. Now alive.</strong></p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Acts 17:28** — "For in him we live and move and have our being. As some of your own poets have said, We are his offspring."
-- **Romans 1:21** — "For although they knew God, they neither glorified him as God nor gave thanks to him, but their thinking became futile and their foolish hearts were darkened."
-- **Ephesians 2:1** — "As for you, you were dead in your transgressions and sins,"
+- **Ephesians 2:2** — "in which you used to live when you followed the ways of this world and of the ruler of the kingdom of the air, the spirit who is now at work in those who are disobedient."
+- **Ephesians 2:3** — "All of us also lived among them at one time, gratifying the cravings of our flesh and following its desires and thoughts. Like the rest, we were by nature deserving of wrath."
 - **Romans 8:7-8** — "The mind governed by the flesh is hostile to God; it does not submit to God's law, nor can it do so. Those who are in the realm of the flesh cannot please God."
+- **Ephesians 2:8** — "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—"
+- **Ephesians 2:9** — "not by works, so that no one can boast."
+- **Romans 8:29-30** — "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters. And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."
+
+---
+
+## question-dead-man-visual
+
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-dead-man-visual.html`
+
+Length 1615w · already spends bridges[drowning] catch-images[lazarus]
+
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
+```html
+</div>
+</div>
+
+   <div class="act-body">
+   <p>Try every door. They bolt from inside the text. This is not Calvin being clever; this is the plain reading of the verses in your own Bible. The problem isn't Reformed theology. The problem is that <em>corpses don't cooperate</em>.</p>
+</div>
+   </section>
+
+   <!-- =============================================== -->
+   <!-- ACT FIVE — THE VOICE -->
+   <!-- =============================================== -->
+   <section class="stage-act" aria-labelledby="act-five">
+   <div class="act-label">Act Five &mdash; The Voice</div>
+   <h2 class="act-title" id="act-five">And then another Man walks in.</h2>
+   <div class="act-body">
+   <p>He does not offer. He does not negotiate. He does not wait for a sign of life to build on. He walks up to the tomb of <a href="/story-the-dead-city">a four-days-dead man</a> — "by this time there is a bad odor" — and <strong>He speaks</strong>.</p>
+</div>
+
+   <div class="dead-man-command">
+   <div class="command-whisper">And He cried out in a loud voice</div>
+   <div class="command-voice">"Lazarus, come out."</div>
+   <div class="command-ref">John 11:43</div>
+</div>
+
+   <div class="act-body">
+   <p>Notice what happens. The dead man does not cooperate. The dead man is not consulted. The dead man is not given time to decide. <strong>The command is the raising.</strong> The voice that calls forth is the voice that makes alive. The corpse hears because the voice creates the hearing. The corpse comes because the voice creates the coming.</p>
+   <p>This is what regeneration means. This is what <a href="/question-irresistible">irresistible grace</a> means. Not that God overrides an unwilling heart, but that God <em>creates a willing one</em> out of the stone He finds in your chest (<a href="/question-newheart">Ezek 36:26</a>). The old heart did not wake up and decide to love Him. The old heart was pried out. A new one was put in. And the new heart, now that it is beating, will love Him forever — because that is what new hearts are for.</p>
+</div>
+   </section>
+
+</div>
+
+   <!-- LANDING — the tender catch -->
+   <section class="dead-man-landing heartbeat" aria-labelledby="landing-title">
+   <h2 id="landing-title">The Voice Does Not Ask the Grave for Its Opinion</h2>
+   <p>Now be careful what you do next, because there is a version of this that ruins it. You read about Lazarus and immediately begin taking inventory &mdash; is there longing in me, do I ache at the word <em>chosen</em>, is it enough to count? Stop. That is a corpse checking its own pulse to find out whether it has been raised, and this page has spent five acts explaining why that instrument does not work. Lazarus did not verify his condition. He heard his name, and his legs moved. The command at the mouth of that tomb was not addressed to a man who had first established he was alive enough to receive it. It was addressed to a dead man, by name, from outside. </p>
+   <p>You did not climb out of the tomb. You were called out. And the One who called you will <a href="/devotional-never-gives-up">never let you go</a>, because the voice that raised you is the life you now live.</p>
+   <p>You are not on the slab anymore. You are <a href="/devotional-found-before-you-were-born">home</a>.</p>
+   </section>
+```
+
+### Scripture this page already cites, resolved to NIV 2011 ground truth
+- **Ephesians 2:1-2** — "As for you, you were dead in your transgressions and sins, in which you used to live when you followed the ways of this world and of the ruler of the kingdom of the air, the spirit who is now at work in those who are disobedient."
+- **1 Corinthians 2:14** — "The person without the Spirit does not accept the things that come from the Spirit of God but considers them foolishness, and cannot understand them because they are discerned only through the Spirit."
 - **John 6:44** — "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
-- **John 15:16** — "You did not choose me, but I chose you and appointed you so that you might go and bear fruit—fruit that will last—and so that whatever you ask in my name the Father will give you."
-- **John 15:5** — "I am the vine; you are the branches. If you remain in me and I in you, you will bear much fruit; apart from me you can do nothing."
+- **Romans 3:11** — "there is no one who understands; there is no one who seeks God."
+- **Romans 8:7-8** — "The mind governed by the flesh is hostile to God; it does not submit to God's law, nor can it do so. Those who are in the realm of the flesh cannot please God."
+- **John 8:34** — "Jesus replied, “Very truly I tell you, everyone who sins is a slave to sin."
+- **Isaiah 64:6** — "All of us have become like one who is unclean, and all our righteous acts are like filthy rags; we all shrivel up like a leaf, and like the wind our sins sweep us away."
+- **John 11:43** — "When he had said this, Jesus called in a loud voice, "Lazarus, come out!""
+
+---
+
+## question-every-conversion-acts
+
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-every-conversion-acts.html`
+
+Length 1814w · already spends bridges[] catch-images[]
+
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
+```html
+<h2>Go Back to the Board</h2>
+
+   <p>Go back to the corkboard. The overhead bulb is still humming. The door is still closed. Walk past Pentecost. Past the eunuch on the road. Past Saul in the dust. Past Cornelius, Lydia, the jailer. Walk all the way to the far right end of the board, past the last pinned photograph from Acts — and keep walking. Because there is one more photograph you missed the first time.</p>
+
+   <p>It is yours.</p>
+
+   <p>You did not notice it earlier because it is pinned at eye level and you were looking for faces you recognized from Scripture. But when you lean in you see it clearly now — the angle, the light, the particular slant of your own face in a moment you half remember and half do not. The index card beneath it asks the same question as all the others. <em>Who moved first?</em> And when you turn the card over with your thumbnail — as every detective eventually does — the handwriting on the back is not yours. It is His. <em>I appointed her before the foundation of the world. I opened his heart on the day he thought he chose Me. I drew her with the kindness he called his own good judgment. I have many people in this city, and she was one of them before she knew her own name.</em> The signature at the bottom is the same signature on every photograph on the wall. Same ink. Same hand. Same decade. Same eternity.</p>
+
+   <p>That is the case. That is the verdict. And the comfort of being on the board with Paul and Lydia and the jailer is not that you are as impressive as they were. It is that you were as <em>helpless</em> as they were, and the God who did not fail them on His wall will not fail you on yours. He moved first. He is moving still. And the photograph He pinned up with your name on it has been there since before the board existed.</p>
+
+   <blockquote>
+   <p>"All who were appointed for eternal life believed."</p>
+   <cite>ACTS 13:48</cite>
+   </blockquote>
+
+   <p class="landing-line"><strong>He moved first. He moves still.</strong></p>
+```
+
+### Scripture this page already cites, resolved to NIV 2011 ground truth
+- **Acts 13:48** — "When the Gentiles heard this, they were glad and honored the word of the Lord; and all who were appointed for eternal life believed."
+- **Acts 2:47** — "Praising God and enjoying the favor of all the people. And the Lord added to their number daily those who were being saved."
+- **Acts 8:26-40** — "Now an angel of the Lord said to Philip, “Go south to the road—the desert road—that goes down from Jerusalem to Gaza.” So he started out, and on his way he met an Ethiopian eunuch, an important official in charge of all the treasury of the Kandake (which means “queen of the Ethiopians”). This man had gone to Jerusalem to worship, and on his way home was sitting in his chariot reading the Book of Isaiah the prophet. The Spirit told Philip, “Go to that chariot and stay near it.” Then Philip ran up to the chariot and heard the man reading Isaiah the prophet. “Do you understand what you are reading?” Philip asked. “How can I,” he said, “unless someone explains it to me?” So he invited Philip to come up and sit with him. This is the passage of Scripture the eunuch was reading: “He was led like a sheep to the slaughter, and as a lamb before its shearer is silent, so he did not open his mouth. In his humiliation he was deprived of justice. Who can speak of his descendants? For his life was taken from the earth.” The eunuch asked Philip, “Tell me, please, who is the prophet talking about, himself or someone else?” Then Philip began with that very passage of Scripture and told him the good news about Jesus. As they traveled along the road, they came to some water and the eunuch said, “Look, here is water. What can stand in the way of my being baptized?” [37] And he gave orders to stop the chariot. Then both Philip and the eunuch went down into the water and Philip baptized him. When they came up out of the water, the Spirit of the Lord suddenly took Philip away, and the eunuch did not see him again, but went on his way rejoicing. Philip, however, appeared at Azotus and traveled about, preaching the gospel in all the towns until he reached Caesarea."
+- **Acts 9:1-19** — "Meanwhile, Saul was still breathing out murderous threats against the Lord’s disciples. He went to the high priest and asked him for letters to the synagogues in Damascus, so that if he found any there who belonged to the Way, whether men or women, he might take them as prisoners to Jerusalem. As he neared Damascus on his journey, suddenly a light from heaven flashed around him. He fell to the ground and heard a voice say to him, “Saul, Saul, why do you persecute me?” “Who are you, Lord?” Saul asked. “I am Jesus, whom you are persecuting,” he replied. “Now get up and go into the city, and you will be told what you must do.” The men traveling with Saul stood there speechless; they heard the sound but did not see anyone. Saul got up from the ground, but when he opened his eyes he could see nothing. So they led him by the hand into Damascus. For three days he was blind, and did not eat or drink anything. In Damascus there was a disciple named Ananias. The Lord called to him in a vision, “Ananias!” “Yes, Lord,” he answered. The Lord told him, “Go to the house of Judas on Straight Street and ask for a man from Tarsus named Saul, for he is praying. In a vision he has seen a man named Ananias come and place his hands on him to restore his sight.” “Lord,” Ananias answered, “I have heard many reports about this man and all the harm he has done to your holy people in Jerusalem. And he has come here with authority from the chief priests to arrest all who call on your name.” But the Lord said to Ananias, “Go! This man is my chosen instrument to proclaim my name to the Gentiles and their kings and to the people of Israel. I will show him how much he must suffer for my name.” Then Ananias went to the house and entered it. Placing his hands on Saul, he said, “Brother Saul, the Lord—Jesus, who appeared to you on the road as you were coming here—has sent me so that you may see again and be filled with the Holy Spirit.” Immediately, something like scales fell from Saul’s eyes, and he could see again. He got up and was baptized, and after taking some food, he regained his strength. Saul spent several days with the disciples in Damascus."
+- **Acts 9:15** — "But the Lord said to Ananias, “Go! This man is my chosen instrument to proclaim my name to the Gentiles and their kings and to the people of Israel."
+- **Acts 11:15** — "“As I began to speak, the Holy Spirit came on them as he had come on us at the beginning."
+- **Acts 16:14** — "One of those listening was a woman from the city of Thyatira named Lydia, a dealer in purple cloth. She was a worshiper of God. The Lord opened her heart to respond to Paul's message."
+- **Acts 16:25-34** — "About midnight Paul and Silas were praying and singing hymns to God, and the other prisoners were listening to them. Suddenly there was such a violent earthquake that the foundations of the prison were shaken. At once all the prison doors flew open, and everyone’s chains came loose. The jailer woke up, and when he saw the prison doors open, he drew his sword and was about to kill himself because he thought the prisoners had escaped. But Paul shouted, “Don’t harm yourself! We are all here!” The jailer called for lights, rushed in and fell trembling before Paul and Silas. He then brought them out and asked, “Sirs, what must I do to be saved?” They replied, “Believe in the Lord Jesus, and you will be saved—you and your household.” Then they spoke the word of the Lord to him and to all the others in his house. At that hour of the night the jailer took them and washed their wounds; then immediately he and all his household were baptized. The jailer brought them into his house and set a meal before them; he was filled with joy because he had come to believe in God—he and his whole household."
+- **Acts 18:8-10** — "Crispus, the synagogue leader, and his entire household believed in the Lord; and many of the Corinthians who heard Paul believed and were baptized. One night the Lord spoke to Paul in a vision: “Do not be afraid; keep on speaking, do not be silent. For I am with you, and no one is going to attack and harm you, because I have many people in this city.”"
+- **Acts 18:10** — ""For I am with you, and no one is going to attack and harm you, because I have many people in this city.""
 
 ---

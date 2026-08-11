@@ -1,4 +1,4 @@
-# FACTORY BRIEF — gospel-absence — batch 2 of 24
+# FACTORY BRIEF — gospel-absence — batch 2 of 12
 
 Everything you need is in this file. **Do not open the source pages** — the
 closing HTML is reproduced verbatim below, and the only Scripture you might
@@ -9,178 +9,204 @@ window before it wrote a single word.
 For each page: choose a unique span from the HTML shown, and `Edit` the real
 file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
-## anxious-mind-the-loop-that-wont-break
+## psychology-fear-control
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/anxious-mind-the-loop-that-wont-break.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-fear-control.html`
 
-Length 1676w · already spends bridges[] catch-images[]
+Length 1453w · already spends bridges[lottery] catch-images[the rope]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p><strong>Say one sentence to God.</strong> Not a long prayer. One sentence: <em>"You are on the throne. I am getting off."</em></p>
+<h2>What Surrender Actually Feels Like</h2>
 
-   <p>And then let the uncertainty sit — the way you let rain sit on the windshield. It is there. It is real. But it is not your job to stop it. You have a Driver. He can see through it.</p>
+   <p>If losing control sounds like dying, that's because it is. Jesus said it: "Unless a kernel of wheat falls to the ground and dies, it remains only a single seed. But if it dies, it produces many seeds" (John 12:24). The surrender of control <em>is</em> a death — the death of the illusion that you were ever in charge.</p>
 
-   <h2>A Prayer for the Mind That Won't Stop</h2>
+   <p>Imagine you've been gripping a rope over a dark abyss your entire life. Your arms burn. Your fingers bleed. Someone says: "Let go." The terror is absolute. But then you let go — and discover that underneath the abyss was solid ground, six inches below your feet, the entire time. You were never in danger. You were only in <em>terror</em>. That is what sovereignty feels like from the other side: the control you were clutching was never yours, the ground was always beneath you, and the God whose sovereignty terrified you is the same God who <a href="/devotional-never-gives-up">has never once let go of you</a>.</p>
 
-   <p><em>God, my brain will not stop. The loop is spinning and I cannot find the off switch. I have tried praying harder, thinking harder, confessing harder. The harder I try, the tighter the loop becomes.</em></p>
+   <p>You were never falling. You were being held.</p>
 
-   <p><em>So I am going to try something different. I am going to admit that the thing I am trying to control is not mine to control. The certainty I am trying to manufacture is not mine to manufacture. It is Yours.</em></p>
+   <blockquote>
+   <p>"He who did not spare his own Son, but gave him up for us all—how will he not also, along with him, graciously give us all things?"</p>
+   <cite>ROMANS 8:32</cite>
+   </blockquote>
 
-   <p><em>You are sovereign over the thing my brain is spinning about. You knew about it before I did. You have already decided how it ends. And I do not need to know the ending to be safe, because You know it, and You are holding me.</em></p>
+   <p>"We are not merely imperfect creatures who must be improved," Lewis wrote; "we are rebels who must lay down our arms." The laying down is the freedom. Even <a href="/question-where-did-your-faith-come-from">the faith you thought was your one contribution</a> turns out to have been a gift — so letting go strips you of nothing you ever truly held. It only <a href="/broken-mirror-not-self-made">frees you from the weight of sustaining yourself</a>. And if your fingers are still locked on the rope, if you cannot pry them loose tonight — you are <em>still reading</em>. Something deeper than your fear is leaning toward the edge, and it is not you. It is the Spirit, and He does not give up on His own.</p>
 
-   <p><em>Quiet my mind. Not by answering the question — the loop will just find another question. Quiet it by being bigger than the question. Be the God who is too large for the loop to contain. Be the certainty my brain is searching for. Be the throne my brain keeps trying to sit on. And help me get off it.</em></p>
-
-   <p><em>I am Yours. My anxious mind is Yours. Even the loop is Yours. Hold it all. Amen.</em></p>
-
-   <p>And there is a reason you can stop checking, and it has nothing to do with how the checking feels. The loop is an audit. It keeps reopening the same file because it does not believe the file is closed. It was closed at a cross, and not by amnesty but by transfer. Everything the audit keeps hunting for was moved onto Jesus and charged to Him in full, and He did not appeal it. Then the half almost nobody remembers happened, running the other direction: His record was moved onto you. So the page God has open on you today does not read empty where your sins used to be. It reads like a life that never once needed to check &mdash; every obedience of Christ, entered under your name. That is why the four hundred and first prayer cannot improve your standing. Your standing was finished before you woke up, and it was never yours to begin with.</p>
-
-   <p>The thought may circle back one more time, or ten more times. But something has shifted, and not in the loop — underneath it. There is a throne at the center of the universe and you are no longer sitting on it. Someone else is: Someone who has never once lost sleep over anything, because He has never once lost control of anything. He is not anxious about you.</p>
+   <blockquote>
+   <p>"Come to me, all you who are weary and burdened, and I will give you rest."</p>
+   <cite>MATTHEW 11:28</cite>
+   </blockquote>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Matthew 6:34** — "Therefore do not worry about tomorrow, for tomorrow will worry about itself. Each day has enough trouble of its own."
+- **Romans 8:7** — "The mind governed by the flesh is hostile to God; it does not submit to God's law, nor can it do so."
+- **John 12:24** — "Very truly I tell you, unless a kernel of wheat falls to the ground and dies, it remains only a single seed. But if it dies, it produces many seeds."
 
 ---
 
-## apologetic-evangelism
+## psychology-hostility-reaction
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/apologetic-evangelism.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-hostility-reaction.html`
 
-Length 1917w · already spends bridges[] catch-images[]
+Length 2064w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p><strong>"Doesn't this remove urgency?"</strong> The opposite. If people can be lost forever, urgency is deepened. You are the voice through which God calls His people. That is the highest urgency imaginable.</p>
+<p>Your deepest idol is not comfort, not happiness, not even spiritual achievement. Your deepest idol is <em>yourself</em>. Your sovereignty. Your agency. Your ability to be the author of your own story. Grace tears that idol from the throne and leaves you naked. And the flesh's first response to nakedness is to rage.</p>
 
-   <p><strong>"Doesn't this make the Great Commission unnecessary — the elect will be saved anyway?"</strong> The elect will be saved, yes — <em>through the means God ordained</em>, and the means is the preaching. Strike the mailman and you have not streamlined the delivery; you have defied the Sender. God ordains the commander and the command. The Great Commission is backed by the One who declares: "All authority in heaven and on earth has been given to me." The sovereignty that undergirds predestination is the same sovereignty that guarantees your proclamation will accomplish what it intends.</p>
+   <h2>The Mercy Hidden in This Moment</h2>
 
-   <h2>Back to the Shield</h2>
+   <p>That moment when you feel the hostility rising — when your chest tightens, when you feel the need to defend — that is the moment you're touching the exact point where your old self dies and your true self is born.</p>
 
-   <p>Remember the moment you first reached for this objection — the speed of it, the certainty that the truth must be wrong because the implication felt threatening? That speed was your flesh defending its throne. The throne of being indispensable. The throne of mattering in a way that God alone matters.</p>
+   <p>You can defend your throne. You can turn away like the woman, clinging to the narrative that you chose God. Or you can do something harder and more liberating: you can collapse. You can let the throne go.</p>
 
-   <p>But here is what sovereignty actually gives the evangelist: not irrelevance but liberation. You are not the hero of someone else's salvation story. You never were. God is. And that should make you braver, not lazier — because the outcome does not depend on your eloquence, your timing, your ability to close the deal. It depends on the God who told Paul to keep preaching <em>because He had people in that city</em>.</p>
+   <p>And the moment you do, something stops happening. The exhaustion stops. The need to defend your goodness stops. The terror of being wrong stops. Because you've stopped being the one responsible for the whole operation.</p>
 
-   <p>There is a person God <a href="/question-chosen">chose</a> before the foundation of the world who has not yet heard. Perhaps they are on a continent you will never visit. Perhaps they are your neighbor. Perhaps they are the colleague you have walked past for nine years. They are not yet looking for Him — because <a href="/question-depravity">the dead do not search for life</a>. But the Word that will raise them is already written. The letter is sealed. All it needs is a mailman.</p>
+   <p>God already chose you. Before you had the power to choose anything. Before you had the ability to ruin it. Before you had the capacity to lose it. And now you get to spend the rest of your life discovering what that means — not that you're powerful, but that you're <em>loved</em>.</p>
 
-   <p>It is worth saying plainly what is inside the envelope, because a mailman who has never read the contents will sooner or later start preaching himself. The letter is not a summons, and it is not a list of terms. It is a notice of transfer, executed at the cross, and it runs in both directions: everything charged against that person's name was moved onto Jesus and settled there, and everything Jesus earned across a flawless life was moved onto their name and holds there still. Paul does not say faith comes by hearing about the decree. He says <em>the message is heard through the word about Christ</em>. The decree explains why the letter arrives. Christ is what the letter says.</p>
+   <p>And the same holds for the woman who stood and walked out. <a href="/devotional-never-gives-up">If she belongs to God, the grace that first opened her heart will not let her walk away for good</a> — the door she closed is not stronger than the hand that opened it.</p>
 
-   <p>You are not the author of their rescue. You are the voice through which the Author speaks. That is not a demotion. That is the <a href="/devotional-never-gives-up">greatest privilege</a> in the universe — to carry a letter addressed in eternal ink, to a person whose name was written before the stars.</p>
+   <h2>Back to Your Body</h2>
 
-   <p class="landing-line"><strong>Keep preaching. I have many here.</strong></p>
+   <p>Check your shoulders again. Your jaw. The place behind your sternum where the tightness lives. If the brace is still there, you have carried it since the title — and you already know what it is guarding. Not a theology. Not an interpretation. <em>A throne.</em> The one that says <em>I chose</em> and will not let the words be taken.</p>
+
+   <p>But if it is loosening — even slightly, even reluctantly, even against everything you planned to feel when you clicked on this page — do not now turn around and start grading the loosening. That is the throne again, in a softer chair: the self back on the bench, examining its own surrender for signs of authenticity, awarding itself marks.</p>
+
+   <p>And if nothing whatever is loosening, you have not been excluded from anything. The brace is not the qualification and its absence is not the disqualification. Saul of Tarsus was not softening on the road to Damascus. He was at full hostility, in motion, with warrants in his bag and a list of names — and <a href="/story-real-conversions">the light did not wait for a better mood</a>.</p>
+
+   <p>So whatever your shoulders are doing at this moment, the question this page has been asking was never <em>how do you feel about the throne.</em> It was <em>who is on it.</em> And that was settled on a hill outside Jerusalem, publicly, under a Roman placard, a very long time before you had any feelings about it at all.</p>
+
+   <p>He was already sitting there.</p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Acts 18:9-10** — "One night the Lord spoke to Paul in a vision: “Do not be afraid; keep on speaking, do not be silent. For I am with you, and no one is going to attack and harm you, because I have many people in this city.”"
-- **2 Timothy 2:10** — "Therefore I endure everything for the sake of the elect, that they too may obtain the salvation that is in Christ Jesus, with eternal glory."
-- **Romans 10:14-17** — "How, then, can they call on the one they have not believed in? And how can they believe in the one of whom they have not heard? And how can they hear without someone preaching to them? And how can anyone preach unless they are sent? As it is written: 'How beautiful are the feet of those who bring good news!' But not all the Israelites accepted the good news. For Isaiah says, 'Lord, who has believed our message?' Consequently, faith comes from hearing the message, and the message is heard through the word about Christ."
-- **Acts 13:48** — "When the Gentiles heard this, they were glad and honored the word of the Lord; and all who were appointed for eternal life believed."
-- **John 10:16** — "I have other sheep that are not of this sheep pen. I must bring them also. They too will listen to my voice, and there shall be one flock and one shepherd."
+- **Romans 1:18** — "The wrath of God is being revealed from heaven against all the godlessness and wickedness of people, who suppress the truth by their wickedness."
 
 ---
 
-## apologetic-i-never-knew-you
+## psychology-language-acquisition
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/apologetic-i-never-knew-you.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-language-acquisition.html`
 
-Length 1843w · already spends bridges[] catch-images[]
+Length 1725w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p>That dash is where every false assurance dies and every true assurance is born. The men at the door built their case on the left side of Paul's correction — what they knew, said, and did in the name. The saints stand on the right side of it, where the verb runs the other way and always did.</p>
+<p><strong><a href="/devotional-rescued-without-a-say">The faith was arriving before you decided to believe.</a></strong></p>
 
-   <h2>Known Before the Door</h2>
+   <p>You experienced yourself as choosing. But the choosing was the response, not the cause. It was the child's first word — the <em>evidence</em> of acquisition, not the origin of it.</p>
 
-   <p>Maybe this page has frightened you, and if so, look carefully at the fear. The men in the scene are not afraid; that is the most chilling thing about them — they argue with the verdict, casework in hand. <a href="/anxious-mind-fear-of-hell">The trembling reader</a> is running a different question entirely: not <em>look what I did in His name</em>, but <em>does He know mine?</em> And that question has a standing answer, published by the same Lord who will speak at the door: "whoever comes to me I will never drive away" (<a href="/question-john6">John 6:37</a>). You do not arrive at that door to be discovered. The ones who walk through it were <a href="/question-am-i-chosen">known before the world began</a> &mdash; and a knowing of that kind is not something you can overhear from inside yourself. It is not a feeling you generate, and not one you can detect. It is a fact about Him, settled before you existed; and the way to act on a fact like that is not to listen for it, but to come. <a href="/theologian-edwards">Jonathan Edwards</a> spent a whole treatise on this very door — <a href="/Reformed%20Sources/How%20To%20Know%20If%20You%20Are%20A%20Real%20-%20Jonathan%20Edwards.pdf">How to Know If You Are a Real Christian</a> — and his test is never the size of the works. It is whether the heart has been given a new taste for God Himself.</p>
+   <h2>The Comfort Underneath</h2>
 
-   <p>So put down the portfolio. It was always too light to open anything. On that day the saved present no works, recite no statistics, swipe no name — they are simply recognized, the way a child is recognized at the end of a long driveway, because the recognition was decided in love before the creation of the world and has never once flickered since.</p>
+   <p>If your faith was given like language — installed by immersion in grace rather than manufactured by your will — then it is not fragile. A native language doesn't disappear because you have a bad week. You don't lose English because you doubt a sentence. The grammar is woven so deeply into your neural architecture that it would take brain damage, not a crisis of will, to remove it.</p>
 
-   <p>They present nothing of their own &mdash; and yet nobody stands at that door with empty hands, because a record is produced there in your name, and it is not thin. At the cross the transfer ran both directions. Your portfolio, every page of it, including the pages you would never have submitted, was lifted out of your hands and laid on Jesus, and at Calvary He was treated exactly as its contents deserved. Then His was laid on you. So the record read out under your name at that door is not a blank sheet. It is a whole life of obedience you never lived, flawless and finished, filed by the only Man who ever had one to spare. The men in the scene are turned away for producing the wrong record. Nobody has ever been turned away for producing His.</p>
+   <p>Your faith, if given by God, has the same permanence. It was not a choice you made on a Sunday morning that could be unmade Tuesday night. It was <a href="/devotional-never-gives-up">a transformation enacted upon you by the living God</a>, as deep and irreversible as the language that structures your thoughts. He who began a good work in you will carry it to completion (<a href="/question-perseverance">Philippians 1:6</a>). The Immersion does not withdraw.</p>
 
-   <p>Heaven's door does not open for the people who know the name. It opens for the people the Name knows.</p>
+   <p>You did not choose your mother tongue. And you are not poorer for it. You are richer — because what was given runs deeper than anything you could have chosen.</p>
+
+   <p>The same is true of faith. The same is true of the God who chose you before you drew your first breath.</p>
+
+   <h2>Back to the First Word</h2>
+
+   <p>At the top of this page, English entered a child's brain uninvited — and you called it a gift. Now you have followed the argument all the way down, and it has arrived at the same conclusion about your faith: it entered you uninvited. It restructured your inner architecture. It gave you categories you did not possess and a grammar of grace you could not have invented.</p>
+
+   <p>The stiffness you felt at the beginning — the territorial reflex that accepted this for language but resisted it for faith — what happened to it? If it softened, do not rush to read the softening as proof; a feeling is not a verdict, and feelings shift for all kinds of reasons. But it may be worth noticing all the same, the way you notice the first warmth after a long cold. Whatever is working in you, if something is, is not certified by the warmth you feel — it is named in the text: the first word of faith was not yours. It was spoken <em>to</em> you, <em>in</em> you, by a God who does not wait for toddlers to request their mother tongue.</p>
+
+   <p>You were immersed before you knew you were wet. And you will never dry.</p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Matthew 7:23** — "Then I will tell them plainly, 'I never knew you. Away from me, you evildoers!'"
-- **Amos 3:2** — "You only have I chosen of all the families of the earth; therefore I will punish you for all your sins."
-- Matthew 7:21-23 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- **1 John 2:19** — "They went out from us, but they did not really belong to us. For if they had belonged to us, they would have remained with us; but their going showed that none of them belonged to us."
-- John 10:14 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- **2 Timothy 2:19** — ""Nevertheless, God's solid foundation stands firm, sealed with this inscription: 'The Lord knows those who are his,' and, 'Everyone who confesses the name of the Lord must turn away from wickedness.'""
-- Matthew 25:11-12 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- John 6:40 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- Galatians 4:9 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- 1 Corinthians 8:3 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- **John 6:37** — "All those the Father gives me will come to me, and whoever comes to me I will never drive away."
+- **Philippians 1:6** — "being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus."
 
 ---
 
-## apologetic-i-will-move-you
+## psychology-sunk-cost-faith
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/apologetic-i-will-move-you.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-sunk-cost-faith.html`
 
-Length 2148w · already spends bridges[] catch-images[]
+Length 1292w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<h2>He Will Keep Moving You</h2>
+<p><em>The sunk cost is not stronger than grace. Nothing is.</em></p>
 
-   <p>And now the demolition turns into the deepest comfort in the doctrine, for the reader who is afraid — not of the theology, but of themselves. <em>What if I stop following? What if the heart goes cold and I drift and one day I am simply gone from Him?</em> Read the clause one final time and let it do its tender work: <em>I will... move you to follow my decrees.</em> The following you are terrified you cannot sustain is not, and never was, self-powered. It is the eighth of eight divine promises, the ongoing act of a God who does not begin an operation and abandon it on the table. The same Spirit who was put in you is the Spirit who moves you, today and tomorrow and on the day you are most sure you will fall. Your perseverance is not your grip on Him; it is His causing you to walk, and <a href="/apologetic-the-everlasting-covenant">He has covenanted never to stop.</a></p>
+    <h2>Keep Reading</h2>
+    <div class="hub-grid">
+   
+   <h3 class="card-title">Why Grace Feels Like an Attack</h3>
+   <p class="card-description">The identity threat that makes sovereign grace feel dangerous.</p>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
 
-   <p>So you can stop checking the strength of your own legs. The question was never whether your will could carry you all the way home; it was whether the One who put His Spirit in you would keep moving you, and He has staked His own name on the answer. <a href="/devotional-never-gives-up">The God who began this work will carry it on to completion.</a> Picture it as honestly as the text demands: not a man marching toward God by his own resolve, but a man walking with a Hand at the small of his back — a Hand that gave him the heart that wants to walk, gave him the legs, set him moving, and has not lifted off once in all the miles since. Every step toward God you have ever taken was that Hand moving you. And it has not tired, and it will not.</p>
-
-   <p>There is a question underneath the surgery that the cross answers: where did the stone go? God does not throw sin away; He is too just to lose track of it. The record of every year you lived with rock in your chest &mdash; the coldness, the refusals, the whole granite stretch you cannot remember without wincing &mdash; was not deleted when the heart was replaced. It was moved. It was set on Jesus, and He was broken over it in your place. Then the transfer ran the other way, which is the half most Christians never take hold of: His record came to you. You did not start at zero with a new heart and an empty page to fill. You started holding a finished obedience you had no hand in, credited before the first beat. Which is why the limp in your walking cannot cost you anything. The Hand at your back is not gathering evidence. It is bringing home a man whose case closed at Calvary.</p>
-
-   <p class="landing-line"><strong>He did not enable the stone to choose. He removed it — and moves you still.</strong></p>
+   <a href="/psychology-backfire-effect" class="hub-card">
+   <h3 class="card-title">Why Evidence Makes Some People Believe Harder</h3>
+   <p class="card-description">The backfire effect: when proof strengthens the wrong belief.</p>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+   <a href="/psychology-sincerity-trap" class="hub-card">
+   <h3 class="card-title">The Sincerity Trap</h3>
+   <p class="card-description">Sunk cost and sincerity work together to keep you stuck.</p>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+   <a href="/devotional-not-my-will-but-joy" class="hub-card">
+   <h3 class="card-title">Not My Will, But Joy</h3>
+   <p class="card-description">The surrender that costs everything — and gives everything back.</p>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+</div>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Ezekiel 36:26-27** — "I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh. And I will put my Spirit in you and move you to follow my decrees and be careful to keep my laws."
-- Ezekiel 36:25-27 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- **Philippians 2:13** — "for it is God who works in you to will and to act in order to fulfill his good purpose."
+- **Ephesians 2:8-9** — "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast."
+- **Matthew 15:9** — "They worship me in vain; their teachings are merely human rules.’”"
 
 ---
 
-## apologetic-the-lord-knows-those-who-are-his
+## psychology-suppressing-truth
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/apologetic-the-lord-knows-those-who-are-his.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-suppressing-truth.html`
 
-Length 1887w · already spends bridges[] catch-images[]
+Length 1594w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<h2>Sealed, and Therefore Safe</h2>
+<p>The ablest objector will not flinch at any of this. "I am not suppressing evidence," he says. "There is no compelling evidence, and calling my honest unbelief 'suppression' is a slur you can never disprove." Take the charge seriously, because half of it is right: you cannot read his heart, and the accusation is worthless if it only means "anyone who disagrees is secretly lying." But notice what motivated reasoning actually predicts. Kunda's own work shows the mechanism runs beneath awareness — the biased reasoner sincerely feels impartial while the conclusion that serves him arrives dressed as pure logic. So "it does not feel like suppression" is not evidence against suppression; it is exactly what suppression feels like from the inside. Which does not turn your reaction into a verdict against you. A flash of heat is not proof; read that way, the charge really would be the unfalsifiable slur he accuses it of being, and the argument does not rest there. It rests on the texts and the logic, which stand whether you feel anything or not. But the heat is worth your own honest attention. If the question of <a href="/systematic-election">who casts the deciding vote in your salvation</a> leaves you cooler than a dozen doctrines you hold loosely, nothing here applies to you. If it runs hotter — if "God chose you" tightens something in your chest that "God is eternal" never does — that is not a confession anyone can extract from you. It is a question only you can answer in the quiet: what, exactly, is being defended?</p>
 
-   <p>So bring the original fear back, the one the falling-away of others stirred in you: <em>if they could go, could I?</em> And let the foundation answer. Your safety was never the firmness of your own standing — that is exactly the thing the defectors proved unreliable. Your safety is that the Lord <em>knows</em> those who are His, and His knowing is not a guess He could revise or an awareness He could lose. He knew you before you knew Him, claimed you when you were not looking, set His seal on you that marks you as owned, authentic, and secure. The people who fell away were never sealed by that knowing; their leaving revealed what was always so, that "they did not really belong to us" (1 John 2:19). But you, if you confess His name and find your life bending, however unevenly, away from the wickedness you once loved — you bear the second inscription because you stand on the first.</p>
+   <h2>If You Feel Something Cracking</h2>
 
-   <p>There is rest here for the trembling. You do not have to authenticate yourself, to prove by the steadiness of your grip that you are genuine, to <a href="/pastoral-assurance">lie awake auditing your perseverance</a>. The foundation has already been sealed, and the seal is God's own knowledge of you, and God does not misidentify His children or misplace what He has marked as His. The defection of the famous cannot reach you, because you are not held by your resemblance to them; you are held by the One who knows your name. <a href="/apologetic-nothing-can-separate">Nothing in all creation can pry you off a foundation God Himself has sealed.</a> On the morning when everything is finally sifted, the ground will not open under those the Lord knows.</p>
+   <p>If this article has left you feeling defensive — notice it. The impulse to argue, to nitpick, to find reasons why this doesn't apply to <em>you</em> — that impulse is worth noticing. It may be the system defending itself against a truth that threatens it.</p>
 
-   <p>And there is a reason that seal cannot be forged, which is the same reason your bending, uneven as it is, is not what holds you. A seal marks property, and property has a price. The Lord knows those who are His the way a man knows what he paid for, and what He paid was Jesus at a cross &mdash; the Son taking the very wickedness the second inscription tells you to turn from, and being charged with it as though it had been His own. That is one direction of the transfer. The other is the one almost everyone forgets: the perfect turning-away He accomplished was credited to your account. You do not stand on the foundation because your life has finally bent far enough. You stand there wearing a righteousness you did not produce. Which is why the sifting holds no threat. Sift a man whose righteousness is his own and he comes apart in the sieve. Sift a man wearing Christ's and you will only find Christ.</p>
+   <p>But here is the mercy hidden inside this devastating diagnosis: if suppression is the disease, the cure was never going to come from within. It had to come from outside — from a God who <a href="/question-faithgift">grants the very faith your fallen nature could never produce</a>. "In the hope that God will grant them repentance leading them to a knowledge of the truth" (2 Timothy 2:25). <a href="/systematic-repentance">Repentance is itself a gift</a>. You don't generate it. God grants it. And if the suppression is loosening its grip even slightly, that is not you turning reasonable at last — it is grace striking the wall from outside, the one blow strong enough to land. <a href="/devotional-chosen-before-you-were-broken">You were chosen before you were broken</a>.</p>
 
-   <p class="landing-line"><strong>The foundation stands firm — because the Lord knows His own.</strong></p>
+   <p>The wall did not crack from your side. It never would have. He struck it.</p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **2 Timothy 2:19** — ""Nevertheless, God's solid foundation stands firm, sealed with this inscription: 'The Lord knows those who are his,' and, 'Everyone who confesses the name of the Lord must turn away from wickedness.'""
-- Numbers 16:5 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- **Amos 3:2** — "You only have I chosen of all the families of the earth; therefore I will punish you for all your sins."
-- **Jeremiah 1:5** — "Before I formed you in the womb I knew you, before you were born I set you apart; I appointed you as a prophet to the nations."
-- 1 John 5:18 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- **1 John 2:19** — "They went out from us, but they did not really belong to us. For if they had belonged to us, they would have remained with us; but their going showed that none of them belonged to us."
+- **Romans 1:18** — "The wrath of God is being revealed from heaven against all the godlessness and wickedness of people, who suppress the truth by their wickedness."
+- **Romans 1:21-25** — "For although they knew God, they neither glorified him as God nor gave thanks to him, but their thinking became futile and their foolish hearts were darkened. Although they claimed to be wise, they became fools and exchanged the glory of the immortal God for images made to look like a mortal human being and birds and animals and reptiles. Therefore God gave them over in the sinful desires of their hearts to sexual impurity for the degrading of their bodies with one another. They exchanged the truth about God for a lie, and worshiped and served created things rather than the Creator—who is forever praised. Amen."
+- **Romans 1:18-21** — "The wrath of God is being revealed from heaven against all the godlessness and wickedness of people, who suppress the truth by their wickedness, since what may be known about God is plain to them, because God has made it plain to them. For since the creation of the world God’s invisible qualities—his eternal power and divine nature—have been clearly seen, being understood from what has been made, so that people are without excuse. For although they knew God, they neither glorified him as God nor gave thanks to him, but their thinking became futile and their foolish hearts were darkened."
+- **2 Timothy 2:25** — "Opponents must be gently instructed, in the hope that God will grant them repentance leading them to a knowledge of the truth,"
 
 ---

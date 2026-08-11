@@ -1,4 +1,4 @@
-# FACTORY BRIEF — gospel-absence — batch 10 of 24
+# FACTORY BRIEF — gospel-absence — batch 10 of 12
 
 Everything you need is in this file. **Do not open the source pages** — the
 closing HTML is reproduced verbatim below, and the only Scripture you might
@@ -9,254 +9,212 @@ window before it wrote a single word.
 For each page: choose a unique span from the HTML shown, and `Edit` the real
 file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
-## joy-freedom-of-smallness
+## story-cross-examination
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/joy-freedom-of-smallness.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-cross-examination.html`
 
-Length 2319w · already spends bridges[] catch-images[]
-
-### Closing HTML — PROSE ONLY, truncated at the article boundary
-(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
-is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
-
-```html
-<p><strong>Assurance without audit.</strong> And the ledger — the one that has been opening every morning for years — can close. You do not need it. You were never supposed to be running it. The <a href="/devotional-i-dont-think-im-saved">fear that you are not saved</a> is the Spirit's care inside you, not the auditor's warning; and the <a href="/devotional-the-prayer-you-didnt-pray">prayer you cried on your hardest night</a> was His prayer before it was yours. You are chosen. You are held. The bookkeeping is over.</p>
-
-   <h2>Under the Stars, Finally Light</h2>
-
-   <p>Some clear evening, step outside. The dusk cools the air. The first star is out. Then the second. Then a field of them, absurd in their numbers — each one a furnace older than every language ever spoken on earth. Look up long enough that the scale of the sky starts to press down on your idea of yourself, and something old and frightened in you tenses for the verdict it has been waiting for — the cosmic reminder that you are a speck, a mote, a blink.</p>
-
-   <p>Then wait. Because the verdict does not come. What comes instead is the strangest possible feeling. Relief. The same relief you felt on the day you first understood grace, only larger now, sized to the scale of the sky. The God who hung each of those stars chose <em>you</em>. Not because you were impressive. Not because your faith was strong. Because He is gracious and because He wanted to. The hands that set those furnaces in their tracks are the same hands that held you this morning and will hold you tomorrow and will hold you at the threshold when your last breath goes out. <a href="/systematic-salvation">Every atom of your salvation</a> is His. None of it is yours.</p>
-
-   <p>And your smallness — the smallness that has terrified you every morning for years — is suddenly the best news you have ever heard. Because the smallness is what made room for grace. The emptiness of your bowl is what the Beggar-Blesser of Matthew 5 was reaching for the whole time. The bookkeeping is closed. <a href="/devotional-forever-loved">The audit is over.</a></p>
-
-   <p>And consider what the sky cost Him. A hundred billion furnaces, each one older than every language ever spoken, and all of them arrived on a word, spoken into place at no strain and no expense to the God who made them. Then consider what you cost Him. Not a word. A Son. You came outside tonight expecting the sky to prove how little you matter, and it proves the reverse: the stars were the cheap thing, and you were not. Love that is merely announced is free to give. Love that is demonstrated has a price, an hour, and a name. "But God demonstrates his own love for us in this: While we were still sinners, Christ died for us." Not seekers. Sinners, who were not asking and would not have thought to ask. So the weight that was never yours was not waived. It was carried, at a particular place on a particular afternoon, by the Man who made the stars.</p>
-
-   <p>You are a beggar beneath a sky full of fire, and the King has already chosen you.</p>
-
-   <p>Go back inside. Sleep. The ledger does not open tomorrow. <a href="/for-hurting">Whatever else breaks</a>, whatever else falls apart, whatever else crowds the sternum in the morning — there is one thing that is now finally, permanently true about you:</p>
-
-   <p>The weight was never yours.</p>
-```
-
-### Scripture this page already cites, resolved to NIV 2011 ground truth
-- James 4:6 — NOT IN GROUND TRUTH (do not quote it verbatim)
-
----
-
-## letters-senior-demon-arminianism
-
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/letters-senior-demon-arminianism.html`
-
-Length 4817w · already spends bridges[addiction] catch-images[]
+Length 1395w · already spends bridges[drowning] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p>If he survives even <em>that</em>, Scuttleworm, we will have lost him. You will return in disgrace. I will have a very sharp conversation with your instructor, who permitted you to graduate from the Academy with, it seems, a deficient understanding of our core propaganda. And the patient — <em>the patient</em> — will spend the remainder of his mortal life writing, to anyone who will listen, that he was <a href="/devotional-found-before-you-were-born">known before he was known</a>, loved before he was lovable, and chosen before the foundation of the world. He will call himself the chief of debtors and mean it. He will pity the ministers of our own persuasion and pray for them. He will become — it sickens me to write this — a witness.</p>
+<p>The Witness looks up. Their eyes are wet.</p>
 
-<p>Fight hard, nephew. Very hard.</p>
+   <p><em>Prosecutor:</em> "And the freedom — the real freedom — is knowing that none of it rested on you. Not your worthiness. Not your willingness. Not your effort. All of it rested on Him. Which means <a href="/devotional-never-gives-up">you can never lose it</a>, because it was never yours to lose."</p>
 
-<p style="text-align: right;">Your uncle, in extremity,<br><strong>Grindbone</strong></p>
+   <h2>The Verdict</h2>
 
-<hr class="section-divider" style="margin: 2.5rem 0; border: none; border-top: 1px solid var(--accent-gold); opacity: 0.4;">
+   <p>The Judge — silent until now — stands. The Judge is Scripture, and Scripture has much to say.</p>
 
-<h2>The Editor's Postscript</h2>
+   <p><em>Judge:</em> "The evidence is overwhelming. 'It is God who works in you to will and to act in order to fulfill his good purpose.' Not you. God. And not just your actions — your will itself."</p>
 
-<div class="tender-landing" style="border: 1px solid var(--accent-gold); padding: 2rem; border-radius: 8px; background: rgba(212, 162, 84, 0.03); margin-top: 2rem;">
+   <p><em>Judge:</em> "But understand what this verdict means. You are <a href="/systematic-justification">declared righteous</a> because another took your guilt. You are declared alive because He rose, and in rising, raised you with Him. And you will not be abandoned. The God who <a href="/question-chosen">chose you before the foundation of the world</a> does not abandon His choices."</p>
 
-<p>The letters end there. Whether Scuttleworm succeeded or failed is not, in the end, for the letters to tell. The point of the correspondence is not plot. The point is inversion.</p>
+   <p>The Witness stands slowly. Something inside has broken open — not in shattering, but in the way a seed breaks open to become a tree.</p>
 
-<p>Read them once more, if you can bear it, with the inversion running. Every sentence Grindbone writes in praise of a lie is the shape of the truth behind the lie. Every fear he confesses is the shape of the mercy he dreads. He dreads <em>effectual calling</em>, because effectual calling works. He dreads <em>foreknew</em> rightly translated, because rightly translated it means <em>set his love upon</em>. He dreads Lazarus, because Lazarus's tomb is the shape of your conversion. He dreads the word <em>gift</em> in Ephesians 2:8, because the word <em>gift</em> unmakes the whole cathedral of self-salvation we have been conned into calling humility.</p>
+   <p>The terror of thinking your salvation depends on you is finally, mercifully, over.</p>
 
-<p>The demons are perfect theologians. They know exactly what saves and exactly what ruins their hold, which is why the fourth letter is worth more than the other three together. It is a list, in a demon's own hand, of the three things that must be said to a man who has begun to see — and not one of them is an argument from Scripture. A grievance about fairness, a slur about robots, and a weaponized pity, fired in that order because each is more desperate than the last. Whatever hell reaches for when it is losing is worth knowing. It reached for <a href="/systematic-salvation">everything except the text</a>.</p>
+   <p>Not because the burden was lifted. Because it was never yours to bear in the first place.</p>
 
-<p>So answer them in that order. <em>Fairness</em> assumes the passed-over have been denied something owed to them; but a man whose debt is cancelled has not thereby wronged the man standing next to him, and nowhere in Scripture is anyone condemned for a sin he did not commit. <em>The robot</em> assumes that a will moved by God is a will destroyed; but you have never once resented the causes that made you love what you love — no man calls his ear for music a violation, though he selected none of the things that formed it. A will handed its own desires is not a will overruled. It is a will made. And <em>pity</em> — the cruelest of the three, and the only one carrying real weight — assumes your grief for the lost runs deeper than the Enemy's. It does not. He wept at a tomb he had come to open.</p>
+   <p>If part of you was quietly rooting for the Witness — pulling for the free-will defense to survive, hoping for the loophole that would let you keep the credit — that impulse was not love of truth. It was love of authorship: the same hunger that makes every human prefer the drowning-man story to the <a href="/analogy-drowning-man">dead-man story</a>. You wanted to be the hero.</p>
 
-<p>Notice, too, what Grindbone never once mentions. Four letters, and not one syllable about Jesus of Nazareth bleeding on a Roman cross. He will litigate fairness, sneer at the will, weaponize pity — and every one of those is a question about how God <em>feels</em>, because a disposition can be disputed forever and hell has all the time in the world for a dispute. What he will not raise is the afternoon the question stopped being a matter of sentiment. Love that is announced can be argued with. Love that has been demonstrated cannot: the proof Paul offers is not a sentence about God's temperament but an event, dated and public, in which Christ died for people who were at that hour His enemies. That is why the demon steers his nephew's patient into the fog of what God may or may not wish for the world in general, and away from the one hill where God said, in blood and in daylight, exactly whom He wanted. A doctrine can be made to look unbearable. A cross cannot be made to look like indifference.</p>
+   <p>You are not the hero. You are the verdict. Written in red ink, signed before you were born, by a Judge who loved you enough to end the trial you were losing — and declare you righteous with <a href="/devotional-in-christ">a righteousness that was never yours to earn</a>.</p>
 
-<p>If Grindbone's terrors are true — and they are the only thing in the letters that is — then somewhere right now, as you are reading this, the Enemy he fears has already set his heart on someone. Perhaps someone who will never read this page. Perhaps someone who will. Perhaps you.</p>
-
-<p>If that suspicion has begun in you — the suspicion Grindbone warned his nephew to quash at all costs — <em>do not quash it</em>. Sit with it. Let the demon be right once, for your own sake. Go back to Ephesians 2:8. Read the word <em>gift</em> slowly. Read it as though you had never heard it. Ask whose idea it was that you ever believed.</p>
-
-<p>The moment of falling — the collapse Grindbone spends four letters trying to prevent — is not falling at all. It is the first time in your life you have stood on anything that can actually hold you.</p>
-
-<p style="text-align: center; margin-top: 2rem; font-style: italic; color: var(--accent-gold);">"I have loved you with an everlasting love; I have drawn you with unfailing kindness." — Jeremiah 31:3</p>
-
-</div>
-
-<hr class="section-divider" style="margin: 2.5rem 0; border: none; border-top: 1px solid var(--accent-gold); opacity: 0.4;">
-
-<h2>Continue the Inversion</h2>
-
-<div class="related-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 1.5rem; margin-top: 2rem;">
-    
-   <span class="card-number">THE CROWN JEWEL</span>
-   <h3 class="card-title">Where Did Your Faith Come From?</h3>
-   <p class="card-description">The single question Grindbone fears most. Walk Ephesians 2:8–9 to its inescapable conclusion.</p>
-   <span class="card-scripture">Ephesians 2:8–9 · Philippians 1:29</span>
-   <div class="card-footer">
-   <span class="card-read">Investigate <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-    
-   <span class="card-number">EXHIBIT D-06V</span>
-   <h3 class="card-title">The Dead Man — A Visual Argument</h3>
-   <p class="card-description">Grindbone's nightmare, staged in five acts. The fortress of "Sick" burned to the ground.</p>
-   <span class="card-scripture">Ephesians 2:1–5 · John 11:43</span>
-   <div class="card-footer">
-   <span class="card-read">See the tableau <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-
-    <a href="/dialogue-arminian-pastor-questions-himself" class="hub-card">
-   <span class="card-number">DIALOGUE</span>
-   <h3 class="card-title">The Pastor Who Couldn't Sleep</h3>
-   <p class="card-description">Another way in: an Arminian pastor at 2:07 AM is walked through Romans 9 by an unnamed Voice.</p>
-   <span class="card-scripture">Romans 9:11 · 9:16 · 1 John 4:19</span>
-   <div class="card-footer">
-   <span class="card-read">Read the dialogue <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-    
-   <span class="card-number">KEEPSAKE</span>
-   <h3 class="card-title">Found Before You Were Born</h3>
-   <p class="card-description">For the reader Grindbone fears most: the one beginning to suspect. A tender landing.</p>
-   <span class="card-scripture">Ephesians 1:4–5 · Jeremiah 31:3</span>
-   <div class="card-footer">
-   <span class="card-read">Rest here <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-
-</div>
+   <p>That is not theology. That is freedom.</p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Romans 8:29** — "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters."
-- **Romans 11:2** — "God did not reject his people, whom he foreknew. Don’t you know what Scripture says in the passage about Elijah—how he appealed to God against Israel:"
-- **1 Peter 1:2** — "who have been chosen according to the foreknowledge of God the Father, through the sanctifying work of the Spirit, to be obedient to Jesus Christ and sprinkled with his blood: Grace and peace be yours in abundance."
-- **Amos 3:2** — "You only have I chosen of all the families of the earth; therefore I will punish you for all your sins."
-- **Ephesians 2:8** — "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—"
-- **Philippians 1:29** — "For it has been granted to you on behalf of Christ not only to believe in him, but also to suffer for him,"
-- **Jeremiah 31:3** — "The Lord appeared to us in the past, saying: 'I have loved you with an everlasting love; I have drawn you with unfailing kindness.'"
 - **Ephesians 2:1** — "As for you, you were dead in your transgressions and sins,"
-- **John 11:43** — "When he had said this, Jesus called in a loud voice, "Lazarus, come out!""
-- **Romans 9:11** — "Yet, before the twins were born or had done anything good or bad—in order that God's purpose in election might stand:"
-- **1 John 4:19** — "We love because he first loved us."
-- **Ephesians 1:4** — "For he chose us in him before the creation of the world to be holy and blameless in his sight."
+- **Philippians 1:29** — "For it has been granted to you on behalf of Christ not only to believe in him, but also to suffer for him,"
+- **Ephesians 2:8-9** — "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast."
+- **John 6:44** — "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
+- **Romans 8:29-30** — "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters. And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."
+- **Acts 13:48** — "When the Gentiles heard this, they were glad and honored the word of the Lord; and all who were appointed for eternal life believed."
 
 ---
 
-## objection-fairness
+## story-historical-augustine-pears
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/objection-fairness.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-historical-augustine-pears.html`
 
-Length 2390w · already spends bridges[] catch-images[]
+Length 1751w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p>What has happened — and Muggeridge, who watched the twentieth century chase every idol it could invent, would have named it instantly — is that the word <em>fair</em> has metastasized. It has slipped its ledger and become a metaphysic. The modern self looks at the universe and demands that <a href="/psychology-system-justification">it justify itself to a tribunal</a> the self is chairing. <em>Fair</em> is the gavel. The verdict is foregone. Anything that does not flatter the autonomous self stands condemned before the case is opened.</p>
+<p class="pull-quote">He did not find Augustine. Augustine had been found before the foundation of the world.</p>
 
-   <p>This is why the doctrine of election lands like a thrown brick. It is not really the theology that offends. It is the discovery that the gavel does not belong to you. Someone older than the courtroom owns it. He is not on trial. He is on the throne. And He has been on the throne the whole time you were rehearsing the indictment.</p>
-
-   <p>The fairness objection is, in the end, the last shrine of the small self. Tear it down and there is nothing left to defend — only Someone left to receive you.</p>
-
-   <h2>The Word You Leave With</h2>
-
-   <p>If this question still sits heavy in your chest — if every paragraph above is correct and the weight has not lifted — consider what the discomfort may be telling you. A heart indifferent to justice never asks it. A soul that did not care about God would not wrestle with whether He is fair. The wrestling itself may be the first evidence that <a href="/psychology-why-we-resist">God is drawing you</a> — not after it ends, but inside it, the way a man does not ache for water unless something <a href="/devotional-in-christ">in him</a> has already turned toward the spring.</p>
-
-   <p>A perfectly just God could have left every one of us in the cell we built. He didn't. He paid the price Himself — took the punishment that was yours — and did it not because you deserved it, not because fairness required it, but because He <a href="/devotional-chosen-before-you-were-broken">chose you before you were broken</a> and loved you while you were still His enemy.</p>
-
-   <p>And notice which standard you were asking Him to meet. Fairness is the ethic of strangers, which is why every honest example of it involves a referee, a bill, a pie divided among children: exchanges between parties who have no claim on each other beyond the exchange. You have never once asked your mother to be fair to you. In any house where people actually love each other, the day the accounts start coming out even is the day something has died. Fairness is the highest thing you can ask of someone who does not love you and the lowest thing you could ask of someone who does. So the complaint, pressed all the way down, is a request that God deal with you the way strangers deal with strangers. He declined. And what He is toward you instead was never merely announced. It was spent: "But God demonstrates his own love for us in this: While we were still sinners, Christ died for us." Fairness would have cost Him nothing; every judge who ever lived hands it down and goes home to dinner. Mercy cost Him His Son. You came here demanding the cheaper of the two.</p>
-
-   <p>So stand in the quiet a moment, on the platform you have <a href="/just-realized">just realized</a> was a gift. The word you walked in carrying was <em>fair.</em> The word you walk out holding is <em>mercy.</em> Between them a small god has died and a great God has been revealed — and the death of the small god is no loss. It is the lifting of a weight you never knew you were under. Grace is not fair. It is infinitely better than fair. And the only honest thing the rescued can say, when the indictment dissolves and the verdict turns out to be love, is the one word the proud cannot pronounce and the forgiven cannot stop saying.</p>
-
-   <p class="landing-line"><strong>Thank You.</strong></p>
+    <p>And this is why Augustine could write about his transgression without despair. This is why the story of the pears, which should have been a confession of damnation, became instead the most powerful testimony to grace in the history of the church. Because the God who saw that sixteen-year-old boy throwing rotten pears to pigs, doing what was pointless and wrong for no reason other than to prove his own autonomy — that God saw him and said: <em>Mine.</em> Not because Augustine chose it. Because <a href="/question-where-did-your-faith-come-from">grace chose him</a>. And that choice — made <a href="/question-chosen">before the foundation of the world</a> — held firm through every rotten pear, every decade of wandering, every inverted act of the will.</p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Romans 6:23** — "For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord."
-- **1 Timothy 2:4** — "who wants all people to be saved and to come to a knowledge of the truth."
-- **Ezekiel 33:11** — "Say to them, 'As surely as I live, declares the Sovereign Lord, I take no pleasure in the death of the wicked, but rather that they turn from their ways and live. Turn! Turn from your evil ways! Why will you die, people of Israel?'"
-- **Romans 9:16** — "It does not, therefore, depend on human desire or effort, but on God's mercy."
-- **1 Corinthians 4:7** — "For who makes you different from anyone else? What do you have that you did not receive? And if you did receive it, why do you boast as though you did not?"
+- (none cited)
 
 ---
 
-## objection-love
+## story-the-self-made-man
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/objection-love.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-the-self-made-man.html`
 
-Length 1825w · already spends bridges[] catch-images[]
+Length 1647w · already spends bridges[] catch-images[mirror]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<h2>Where Truth Becomes Worship</h2>
+<p style="margin-top: 3rem; text-align: center; font-style: italic; color: var(--text-secondary);">Gerald never did figure out who was holding the pen.</p>
 
-   <p>Let this land on you. Not as a theological proposition, but as a love letter.</p>
+   <p>But you — you who laughed at Gerald from the first chapter, who saw through his delusions before the narrator pointed them out, who shook your head at a man taking credit for gifts he never earned — you have a chance Gerald never gave himself. You can set down the memoir you have been writing about your own spiritual life. The one where you are the protagonist. The one where the decisive chapter is called "The Day I Chose God." You can close that book, look at the handwriting, and recognize for the first time that it was never yours. The Author has been holding the pen all along. And unlike Gerald, you do not have to die still taking credit. You can simply whisper: <em>I did not write this.</em> And in that whisper, find the most astonishing relief a self-made man has ever known — the relief of <a href="/devotional-rescued-without-a-say">being made by Someone else</a>.</p>
 
-   <p>Before the universe existed, God knew you. Not in the way a distant architect knows a blueprint — intimately. He saw the full range of your sin, your rebellion, your worst moments, your deepest shame. And He said: <em>I will have this one. I will love this one into the kingdom. I will pursue this one when they run. I will break this one's rebellion and remake them in My image. <a href="/devotional-never-gives-up">I will never let them go.</a></em></p>
+</div>
+</div>
 
-   <p>You were not saved because you were worthy. You were not chosen because you chose first. You were chosen while you were His enemy. Loved before you loved. Pursued before you sought. Bought before you believed.</p>
+   <!-- Further Reading Section -->
+   <section class="further-reading">
+   <h2>Explore the Truth Behind This Story</h2>
+   <div class="reading-cards">
+   <a href="/question-freewill" class="reading-card">
+   <h3>Free Will: A Biblical Examination</h3>
+   <p>Does Scripture teach that humans have libertarian free will? What does the Bible actually say about choice, agency, and human responsibility?</p>
+</a>
+   <a href="/psychology-autonomy-illusion" class="reading-card">
+   <h3>The Autonomy Illusion</h3>
+   <p>Why do we feel like we're making free choices, even when the evidence suggests otherwise? The psychology of perceived agency.</p>
+</a>
+   <a href="/question-depravity" class="reading-card">
+   <h3>Total Depravity: Scripture's Dark Mirror</h3>
+   <p>Scripture teaches that every part of human nature—including our will—has been corrupted by sin. What does this mean for choice?</p>
+</a>
+</div>
+   </section>
+```
 
-   <p>Go back to the wedding. The candles. The aisle. The groom with trembling hands. Only this time, you are the bride. And the voice at the altar is the voice of the One who made oceans and galaxies and the small architecture of your spine. He clears His throat. He does not flinch. He says, steadily, lovingly, with the full weight of the universe behind every syllable: <em>"<a href="/question-john15">I chose you</a>. I have always chosen you. I will choose you tomorrow, and every day after that, forever, and the reason is not in you — the reason is in Me."</em> That is the love you were afraid to hope for. That is the love that was true before you were born. That is the love the whole Bible has been trying to tell you about from the first page.</p>
+### Scripture this page already cites, resolved to NIV 2011 ground truth
+- (none cited)
 
-   <p>And notice what makes this altar unlike every other one. At a human wedding the vow is the whole substance: a man stands up and says what he intends, and everyone in the room understands that the words are only ever as good as the years that follow them. Here the order runs backward. The vow comes last. Paul does not write that Christ loved the church and told her so; he writes that Christ "loved the church and gave himself up for her." The giving up came first, on a cross outside a city wall, while the bride was hostile, unaware, and mostly not yet born. That is the difference between a love that is declared and a love that is demonstrated, and it is the answer to the charge that this God does not love enough. A goodwill extended evenly toward everyone in the abstract costs nothing and rescues no one. This Groom named a bride and then went and died for her by name. So when the voice at the altar says <em>I chose you</em>, it is not a promise waiting on the years to prove it. It is a thing already done, at an address you could walk to. This is the only love whose vows were kept before they were spoken.</p>
+---
+
+## story-thought-the-day-you-chose-again
+
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-thought-the-day-you-chose-again.html`
+
+Length 2280w · already spends bridges[] catch-images[]
+
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
+```html
+<p>"So I <em>did</em> choose you."</p>
+
+   <p>"You did. Because <a href="/question-john15">I chose you</a> first. And I gave you the choosing."</p>
+
+   <p>And then you laugh. A laugh that comes from the basement of your soul, from the place where you'd been storing twenty-eight years of quiet terror — the terror that your salvation rested on a person who couldn't keep a New Year's resolution. The terror is gone. In its place: a lightness so complete it feels like flight.</p>
+
+   <p>You didn't save yourself. You couldn't have. And that beautiful, devastating, liberating impossibility — is <a href="/resistance-redefining-grace">the definition of grace</a>.</p>
+
+   <p>"One more thing," He says. "The paper was never really blank."</p>
+
+   <p>You look down. And there, in handwriting that is not yours — in handwriting that predates handwriting — is your name. <a href="/story-the-letter-before-the-world">Written before the paper existed.</a> Written before you existed. Written in the unhurried, unsurprised hand of someone who knew exactly what He was doing when He <a href="/systematic-divine-decrees">made the world and put you in it</a>.</p>
+
+   <p>Your name. His handwriting.</p>
 
    <blockquote>
-   <p>"See what great love the Father has lavished on us, that we should be called children of God! And that is what we are!"</p>
-   <cite>1 JOHN 3:1</cite>
+   <p>"For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God — not by works, so that no one can boast."</p>
+   <cite>EPHESIANS 2:8-9</cite>
    </blockquote>
 
-   <p class="landing-line"><strong>The reason is in Me.</strong></p>
+   <p>The faith to believe — the <em>want</em> to believe — is itself given by God. "No one can come to me unless the Father who sent me draws them" (John 6:44). The draw is the gift. <a href="/objection-faith-choice">The choice is the grace.</a> And that means your salvation rests not on the fragile hinge of your will, but on the <a href="/question-goldchain">unbreakable chain of His purpose</a>.</p>
+
+   <h2>Back to Tuesday Morning</h2>
+
+   <p>Go back to the kitchen. The light is still coming through the window at the autumn angle. The coffee is still the temperature you like. The dust motes are still turning in the air like tiny, unhurried planets. You are still alive. The clot has not broken loose yet. The mug has not hit the tile. This is still Tuesday morning, and you are reading this page instead of making grocery lists, and something in you recognized the thought experiment — not as fiction, but as the truest thing you have encountered all week.</p>
+
+   <p>That recognition is the gift. The fact that your heart just leaned toward a truth it did not manufacture — the fact that something in you said <em>yes</em> to a story about your own powerlessness instead of closing the tab — that is not your free will performing beautifully. That is a Hand reaching into you right now, the same Hand that reached into you at nineteen, the same Hand that wrote your name on a blank page before the kitchen existed, before the coffee existed, before Tuesday existed. And the Hand is not shaking. And the ink is not fading. And you are not going to un-choose Him, because He is not going to un-choose you, because the choosing was never yours to begin with.</p>
+
+   <p>Finish the coffee. It is still warm. The morning is still kind. And somewhere underneath the countertop, underneath the tile, underneath the foundation of the house, underneath the crust of the earth itself, there is a name — your name — in handwriting that is not yours. And it has been there since before the world was made. And it is not going anywhere. And neither are you.</p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Ephesians 2:3** — "All of us also lived among them at one time, gratifying the cravings of our flesh and following its desires and thoughts. Like the rest, we were by nature deserving of wrath."
-- **Ephesians 5:25** — "Husbands, love your wives, just as Christ loved the church and gave himself up for her"
-- **John 10:3** — "The gatekeeper opens the gate for him, and the sheep listen to his voice. He calls his own sheep by name and leads them out."
-- **Romans 9:13** — "Just as it is written: “Jacob I loved, but Esau I hated.”"
-- Romans 9:12 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- **Deuteronomy 7:7-8** — "The Lord did not set his affection on you and choose you because you were more numerous than other peoples, for you were the fewest of all peoples. But it was because the Lord loved you and kept the oath he swore to your ancestors that he brought you out with a mighty hand and redeemed you from the land of slavery, from the power of Pharaoh king of Egypt."
-- **1 John 4:19** — "We love because he first loved us."
-- **Romans 5:8** — "But God demonstrates his own love for us in this: While we were still sinners, Christ died for us."
-- **John 3:16** — "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
-- **John 13:1** — "It was just before the Passover Festival. Jesus knew that the hour had come for him to leave this world and go to the Father. Having loved his own who were in the world, he loved them to the end."
-- **2 Peter 3:9** — "The Lord is not slow in keeping his promise, as some understand slowness. Instead he is patient with you, not wanting anyone to perish, but everyone to come to repentance."
-- **1 Timothy 2:4** — "who wants all people to be saved and to come to a knowledge of the truth."
-- **Ezekiel 33:11** — "Say to them, 'As surely as I live, declares the Sovereign Lord, I take no pleasure in the death of the wicked, but rather that they turn from their ways and live. Turn! Turn from your evil ways! Why will you die, people of Israel?'"
-- **Exodus 33:19** — "And the Lord said, "I will cause all my goodness to pass in front of you, and I will proclaim my name, the Lord, in your presence. I will have mercy on whom I will have mercy, and I will have compassion on whom I will have compassion."
+- **John 6:44** — "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
 
 ---
 
-## open-wound-empty-nursery
+## story-thought-the-god-who-let-you-watch
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/open-wound-empty-nursery.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-thought-the-god-who-let-you-watch.html`
 
-Length 1501w · already spends bridges[] catch-images[]
+Length 1793w · already spends bridges[lottery, drowning] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p>Your tears are not a failure of theology. They are the theology working. The only people who grieve this deeply are people who <a href="/devotional-love-letter-before-time">loved this completely</a>.</p>
+<p>You chose God the way a drowning person "chooses" the hand that pulls them from the water. You chose God the way <a href="/analogy-lazarus-grave">Lazarus "chose" to walk out of the tomb</a>. You chose God because He chose you first, and His choosing gave you the eyes to see and the <a href="/philosophy-phantom-limb-free-will">hands to reach</a> and the heart to cry out <em>yes</em> — and that <em>yes</em> was real, genuinely yours, but it was also His gift, planted in you before the foundations of the world by a God who would not take no for an answer.</p>
 
-   <p>And there is something to say about the Man who had the most right to a child and never had one. Jesus left no son and no daughter, no descendant, no one to carry the name forward. He died young, and no one alive on earth descends from Him. Long before that, God speaks through Isaiah to the eunuch — the one person in Scripture whose childlessness is permanent, past all remedy — and He does not promise him a child. He promises him a place inside His own house and a name that will outlast sons and daughters. Jesus went to the cross childless, and the household He opened by dying is filled wall to wall with people who were adopted into it, because not one of them could produce their way in. That is the only door into the family of God there has ever been, and it was cut for people who cannot make a family. Whatever the silence in that room means, it is not a verdict about where you stand with Him. That was settled at a cross by a childless Man, and never once by a birth.</p>
+   <p>Because He had already paid for your yes.</p>
 
-   <h2>Back to the Room</h2>
+   <p style="text-align: center; margin-top: 3rem; font-style: italic; color: var(--text-secondary);">
+  You were looking for God<br>
+  the way a fish looks for water.<br><br>
+  You were already in it.<br>
+  You had always been in it.<br><br>
+  The looking never found the water.<br>
+  The water was holding you the whole time.
+</p>
 
-   <p>The room is still there. The paint has not changed. The light through the window falls on the same floor it fell on the day you imagined a crib there, a mobile turning slowly, a small chest rising and falling in the quiet. The silence is still louder than anything anyone has said to you since.</p>
-
-   <p>But the silence is not empty. The God who wrote the number of your baby's days in His book before the first one arrived is in that room. He has been in it since the silence began. He is not standing at the doorway offering advice. He is sitting on the floor beside you, and His hands — the hands that <a href="/question-psalm139">knit your child together in the dark</a> — are the same <a href="/devotional-the-hands-that-hold-you">hands that hold you</a> now. He will not rush you. He will not shame you. He will sit with you in the silence for as long as it lasts. And when the morning comes — not on your timeline, but on His — He will make all things new. Including the room. <a href="/devotional-never-gives-up">Including you.</a></p>
+   <section class="further-reading" style="max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem;">
+   <h2 style="font-family: 'Playfair Display', serif; color: var(--accent-gold); font-size: 1.4rem; text-align: center;">Keep Reading</h2>
+   <p style="text-align: center; color: var(--text-secondary); margin-bottom: 2rem; font-size: 0.95rem;">If you want to go deeper into what you just imagined.</p>
+   <div class="reading-cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 1.5rem;">
+   <a href="/systematic-election" class="reading-card" style="display: block; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.15); border-radius: 8px; text-decoration: none; transition: border-color 0.3s;">
+   <h3 style="color: var(--accent-gold); font-family: 'Playfair Display', serif; margin-bottom: 0.5rem;">The Truth of Election</h3>
+   <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">The full biblical case for unconditional election — every verse, every argument, laid bare.</p>
+</a>
+   <a href="/objection-fairness" class="reading-card" style="display: block; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.15); border-radius: 8px; text-decoration: none; transition: border-color 0.3s;">
+   <h3 style="color: var(--accent-gold); font-family: 'Playfair Display', serif; margin-bottom: 0.5rem;">Is Election Fair?</h3>
+   <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">The hardest objection — met head on. What Paul says in Romans 9 about God's right to choose.</p>
+</a>
+   <a href="/devotional-adoption-papers" class="reading-card" style="display: block; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.15); border-radius: 8px; text-decoration: none; transition: border-color 0.3s;">
+   <h3 style="color: var(--accent-gold); font-family: 'Playfair Display', serif; margin-bottom: 0.5rem;">The Adoption Papers</h3>
+   <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">A baby doesn't interview for a family. The adoption papers were signed before you drew your first breath.</p>
+</a>
+   <a href="/story-the-letter-before-the-world" class="reading-card" style="display: block; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.15); border-radius: 8px; text-decoration: none; transition: border-color 0.3s;">
+   <h3 style="color: var(--accent-gold); font-family: 'Playfair Display', serif; margin-bottom: 0.5rem;">The Letter Before the World</h3>
+   <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">She found a letter her father wrote before she was born. The most tender story about election on the site.</p>
+</a>
+</div>
+   </section>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **2 Samuel 12:23** — "But now that he is dead, why should I go on fasting? Can I bring him back again? I will go to him, but he will not return to me."
+- **Ephesians 1:4** — "For he chose us in him before the creation of the world to be holy and blameless in his sight."
+- **Ephesians 2:8-9** — "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast."
 
 ---
