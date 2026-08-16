@@ -93,21 +93,19 @@
    ],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 77
+   "lastSession": 207
   },
   "analogy-river": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "multiplied-close"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 207
   },
   "analogy-song-you-didnt-compose": {
    "lane": "DONE",
@@ -1041,14 +1039,14 @@
    "lastSession": 204
   },
   "broken-mirror-imposter-syndrome": {
-   "lane": "A",
+   "lane": "DONE",
    "weight": 0,
    "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 207
   },
   "broken-mirror-not-self-made": {
    "lane": "A",
@@ -1211,9 +1209,9 @@
    ],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 73
+   "lastSession": 207
   },
   "compare-predestination-foreknowledge": {
    "lane": "A",
@@ -1945,9 +1943,9 @@
    ],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 69
+   "lastSession": 207
   },
   "devotional-good-i-cannot-do": {
    "lane": "A",
@@ -2712,16 +2710,14 @@
    "lastSession": 58
   },
   "hymn-amazing-grace": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "multiplied-close"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 191
+   "lastSession": 207
   },
   "invisible-wall-family": {
    "lane": "A",
@@ -3567,17 +3563,14 @@
    "lastSession": 204
   },
   "philosophy-resistance-is-proof": {
-   "lane": "C",
-   "weight": 6,
-   "defects": [
-    "gospel-absence",
-    "feeling-slip"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 192
+   "lastSession": 207
   },
   "philosophy-self-deception": {
    "lane": "DONE",
@@ -4020,16 +4013,14 @@
    "lastSession": 58
   },
   "question-arminian-steelman": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "multiplied-close"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 207
   },
   "question-bible-says-sick": {
    "lane": "A",
@@ -4132,16 +4123,14 @@
    "lastSession": 205
   },
   "question-depravity": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "multiplied-close"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
+   "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 197
+   "lastSession": 207
   },
   "question-does-god-choose-who-goes-to-heaven": {
    "lane": "A",
@@ -4184,16 +4173,14 @@
    "lastSession": 205
   },
   "question-external-call": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "multiplied-close"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 207
   },
   "question-external-internal-call": {
    "lane": "A",
@@ -4426,28 +4413,24 @@
    "lastSession": 58
   },
   "question-newheart": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "multiplied-close"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "leadReview": false,
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 207
   },
   "question-one-question": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "multiplied-close"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
+   "leadReview": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 207
   },
   "question-parables": {
    "lane": "A",

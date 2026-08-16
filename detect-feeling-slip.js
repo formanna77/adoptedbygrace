@@ -266,6 +266,22 @@ function sentencesOf(raw) {
     .replace(/<!--\s*RELATED-ARTICLES-START\s*-->[\s\S]*?<!--\s*RELATED-ARTICLES-END\s*-->/gi, ' ')
     .replace(/<div class="article-continue-journey"[\s\S]*?<\/div>\s*<\/div>/gi, ' ')
     .replace(/<!--[\s\S]*?-->/g, ' ')
+    // S207 — BLOCK BOUNDARIES ARE SENTENCE BOUNDARIES.
+    // The generic strip below turns every tag into a space, so any block element
+    // that does not end in terminal punctuation gets WELDED to the text after it.
+    // Headings are the whole class: `<h2>The First Instinct Is to Put God on Trial,
+    // Not Yourself</h2>` fused to the paragraph beneath it and was reported as a SLIP
+    // on philosophy-resistance-is-proof for three sessions — a "sentence" that appears
+    // nowhere on the page. Same failure shape S206 fixed for the nav and the related-
+    // articles cards, one layer down: that fix removed the boilerplate, this one stops
+    // the remaining ELEMENTS from fusing. `<cite>ROMANS 8:33-34</cite>` welding onto
+    // the next paragraph is the same bug.
+    //
+    // ONLY block-level closers. Inline tags (a, em, strong, span) must NOT create a
+    // boundary or every sentence carrying a prose link — which on this site is most of
+    // them — would be shattered mid-clause and recall would collapse. <br> is also
+    // deliberately excluded: it appears inside quotations.
+    .replace(/<\/(?:h[1-6]|p|li|blockquote|cite|figcaption|dt|dd|td|th|caption|section|article|header|footer|div|main|aside|tr|ul|ol|table)\s*>/gi, ' . ')
     .replace(/<[^>]+>/g, ' ')
     .replace(/&[a-z]+;|&#\d+;/gi, ' ')
     .replace(/\s+/g, ' ');

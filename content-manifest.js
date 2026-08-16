@@ -1221,7 +1221,7 @@ const CONTENT_MANIFEST = [
     "url": "/broken-mirror-imposter-syndrome",
     "title": "The Christian Who Feels Like a Fraud",
     "category": "General",
-    "excerpt": "Imposter syndrome about faith torments the very people most genuinely converted — because a real fraud would not worry about being a fraud.",
+    "excerpt": "The Christian who fears his faith is counterfeit is running an audit on himself — and the usual comfort only changes which reading counts as a pass.",
     "added": "2026-04-04 08:48:11 -0600"
   },
   {
