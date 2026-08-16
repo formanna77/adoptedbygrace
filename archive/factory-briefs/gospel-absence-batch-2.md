@@ -1,4 +1,4 @@
-# FACTORY BRIEF — gospel-absence — batch 2 of 12
+# FACTORY BRIEF — gospel-absence — batch 2 of 3
 
 Everything you need is in this file. **Do not open the source pages** — the
 closing HTML is reproduced verbatim below, and the only Scripture you might
@@ -9,204 +9,212 @@ window before it wrote a single word.
 For each page: choose a unique span from the HTML shown, and `Edit` the real
 file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
-## psychology-fear-control
+## story-cross-examination
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-fear-control.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-cross-examination.html`
 
-Length 1453w · already spends bridges[lottery] catch-images[the rope]
-
-### Closing HTML — PROSE ONLY, truncated at the article boundary
-(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
-is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
-
-```html
-<h2>What Surrender Actually Feels Like</h2>
-
-   <p>If losing control sounds like dying, that's because it is. Jesus said it: "Unless a kernel of wheat falls to the ground and dies, it remains only a single seed. But if it dies, it produces many seeds" (John 12:24). The surrender of control <em>is</em> a death — the death of the illusion that you were ever in charge.</p>
-
-   <p>Imagine you've been gripping a rope over a dark abyss your entire life. Your arms burn. Your fingers bleed. Someone says: "Let go." The terror is absolute. But then you let go — and discover that underneath the abyss was solid ground, six inches below your feet, the entire time. You were never in danger. You were only in <em>terror</em>. That is what sovereignty feels like from the other side: the control you were clutching was never yours, the ground was always beneath you, and the God whose sovereignty terrified you is the same God who <a href="/devotional-never-gives-up">has never once let go of you</a>.</p>
-
-   <p>You were never falling. You were being held.</p>
-
-   <blockquote>
-   <p>"He who did not spare his own Son, but gave him up for us all—how will he not also, along with him, graciously give us all things?"</p>
-   <cite>ROMANS 8:32</cite>
-   </blockquote>
-
-   <p>"We are not merely imperfect creatures who must be improved," Lewis wrote; "we are rebels who must lay down our arms." The laying down is the freedom. Even <a href="/question-where-did-your-faith-come-from">the faith you thought was your one contribution</a> turns out to have been a gift — so letting go strips you of nothing you ever truly held. It only <a href="/broken-mirror-not-self-made">frees you from the weight of sustaining yourself</a>. And if your fingers are still locked on the rope, if you cannot pry them loose tonight — you are <em>still reading</em>. Something deeper than your fear is leaning toward the edge, and it is not you. It is the Spirit, and He does not give up on His own.</p>
-
-   <blockquote>
-   <p>"Come to me, all you who are weary and burdened, and I will give you rest."</p>
-   <cite>MATTHEW 11:28</cite>
-   </blockquote>
-```
-
-### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Romans 8:7** — "The mind governed by the flesh is hostile to God; it does not submit to God's law, nor can it do so."
-- **John 12:24** — "Very truly I tell you, unless a kernel of wheat falls to the ground and dies, it remains only a single seed. But if it dies, it produces many seeds."
-
----
-
-## psychology-hostility-reaction
-
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-hostility-reaction.html`
-
-Length 2064w · already spends bridges[] catch-images[]
+Length 1395w · already spends bridges[drowning] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p>Your deepest idol is not comfort, not happiness, not even spiritual achievement. Your deepest idol is <em>yourself</em>. Your sovereignty. Your agency. Your ability to be the author of your own story. Grace tears that idol from the throne and leaves you naked. And the flesh's first response to nakedness is to rage.</p>
+<p>The Witness looks up. Their eyes are wet.</p>
 
-   <h2>The Mercy Hidden in This Moment</h2>
+   <p><em>Prosecutor:</em> "And the freedom — the real freedom — is knowing that none of it rested on you. Not your worthiness. Not your willingness. Not your effort. All of it rested on Him. Which means <a href="/devotional-never-gives-up">you can never lose it</a>, because it was never yours to lose."</p>
 
-   <p>That moment when you feel the hostility rising — when your chest tightens, when you feel the need to defend — that is the moment you're touching the exact point where your old self dies and your true self is born.</p>
+   <h2>The Verdict</h2>
 
-   <p>You can defend your throne. You can turn away like the woman, clinging to the narrative that you chose God. Or you can do something harder and more liberating: you can collapse. You can let the throne go.</p>
+   <p>The Judge — silent until now — stands. The Judge is Scripture, and Scripture has much to say.</p>
 
-   <p>And the moment you do, something stops happening. The exhaustion stops. The need to defend your goodness stops. The terror of being wrong stops. Because you've stopped being the one responsible for the whole operation.</p>
+   <p><em>Judge:</em> "The evidence is overwhelming. 'It is God who works in you to will and to act in order to fulfill his good purpose.' Not you. God. And not just your actions — your will itself."</p>
 
-   <p>God already chose you. Before you had the power to choose anything. Before you had the ability to ruin it. Before you had the capacity to lose it. And now you get to spend the rest of your life discovering what that means — not that you're powerful, but that you're <em>loved</em>.</p>
+   <p><em>Judge:</em> "But understand what this verdict means. You are <a href="/systematic-justification">declared righteous</a> because another took your guilt. You are declared alive because He rose, and in rising, raised you with Him. And you will not be abandoned. The God who <a href="/question-chosen">chose you before the foundation of the world</a> does not abandon His choices."</p>
 
-   <p>And the same holds for the woman who stood and walked out. <a href="/devotional-never-gives-up">If she belongs to God, the grace that first opened her heart will not let her walk away for good</a> — the door she closed is not stronger than the hand that opened it.</p>
+   <p>The Witness stands slowly. Something inside has broken open — not in shattering, but in the way a seed breaks open to become a tree.</p>
 
-   <h2>Back to Your Body</h2>
+   <p>The terror of thinking your salvation depends on you is finally, mercifully, over.</p>
 
-   <p>Check your shoulders again. Your jaw. The place behind your sternum where the tightness lives. If the brace is still there, you have carried it since the title — and you already know what it is guarding. Not a theology. Not an interpretation. <em>A throne.</em> The one that says <em>I chose</em> and will not let the words be taken.</p>
+   <p>Not because the burden was lifted. Because it was never yours to bear in the first place.</p>
 
-   <p>But if it is loosening — even slightly, even reluctantly, even against everything you planned to feel when you clicked on this page — do not now turn around and start grading the loosening. That is the throne again, in a softer chair: the self back on the bench, examining its own surrender for signs of authenticity, awarding itself marks.</p>
+   <p>If part of you was quietly rooting for the Witness — pulling for the free-will defense to survive, hoping for the loophole that would let you keep the credit — that impulse was not love of truth. It was love of authorship: the same hunger that makes every human prefer the drowning-man story to the <a href="/analogy-drowning-man">dead-man story</a>. You wanted to be the hero.</p>
 
-   <p>And if nothing whatever is loosening, you have not been excluded from anything. The brace is not the qualification and its absence is not the disqualification. Saul of Tarsus was not softening on the road to Damascus. He was at full hostility, in motion, with warrants in his bag and a list of names — and <a href="/story-real-conversions">the light did not wait for a better mood</a>.</p>
+   <p>You are not the hero. You are the verdict. Written in red ink, signed before you were born, by a Judge who loved you enough to end the trial you were losing — and declare you righteous with <a href="/devotional-in-christ">a righteousness that was never yours to earn</a>.</p>
 
-   <p>So whatever your shoulders are doing at this moment, the question this page has been asking was never <em>how do you feel about the throne.</em> It was <em>who is on it.</em> And that was settled on a hill outside Jerusalem, publicly, under a Roman placard, a very long time before you had any feelings about it at all.</p>
-
-   <p>He was already sitting there.</p>
+   <p>That is not theology. That is freedom.</p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Romans 1:18** — "The wrath of God is being revealed from heaven against all the godlessness and wickedness of people, who suppress the truth by their wickedness."
-
----
-
-## psychology-language-acquisition
-
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-language-acquisition.html`
-
-Length 1725w · already spends bridges[] catch-images[]
-
-### Closing HTML — PROSE ONLY, truncated at the article boundary
-(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
-is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
-
-```html
-<p><strong><a href="/devotional-rescued-without-a-say">The faith was arriving before you decided to believe.</a></strong></p>
-
-   <p>You experienced yourself as choosing. But the choosing was the response, not the cause. It was the child's first word — the <em>evidence</em> of acquisition, not the origin of it.</p>
-
-   <h2>The Comfort Underneath</h2>
-
-   <p>If your faith was given like language — installed by immersion in grace rather than manufactured by your will — then it is not fragile. A native language doesn't disappear because you have a bad week. You don't lose English because you doubt a sentence. The grammar is woven so deeply into your neural architecture that it would take brain damage, not a crisis of will, to remove it.</p>
-
-   <p>Your faith, if given by God, has the same permanence. It was not a choice you made on a Sunday morning that could be unmade Tuesday night. It was <a href="/devotional-never-gives-up">a transformation enacted upon you by the living God</a>, as deep and irreversible as the language that structures your thoughts. He who began a good work in you will carry it to completion (<a href="/question-perseverance">Philippians 1:6</a>). The Immersion does not withdraw.</p>
-
-   <p>You did not choose your mother tongue. And you are not poorer for it. You are richer — because what was given runs deeper than anything you could have chosen.</p>
-
-   <p>The same is true of faith. The same is true of the God who chose you before you drew your first breath.</p>
-
-   <h2>Back to the First Word</h2>
-
-   <p>At the top of this page, English entered a child's brain uninvited — and you called it a gift. Now you have followed the argument all the way down, and it has arrived at the same conclusion about your faith: it entered you uninvited. It restructured your inner architecture. It gave you categories you did not possess and a grammar of grace you could not have invented.</p>
-
-   <p>The stiffness you felt at the beginning — the territorial reflex that accepted this for language but resisted it for faith — what happened to it? If it softened, do not rush to read the softening as proof; a feeling is not a verdict, and feelings shift for all kinds of reasons. But it may be worth noticing all the same, the way you notice the first warmth after a long cold. Whatever is working in you, if something is, is not certified by the warmth you feel — it is named in the text: the first word of faith was not yours. It was spoken <em>to</em> you, <em>in</em> you, by a God who does not wait for toddlers to request their mother tongue.</p>
-
-   <p>You were immersed before you knew you were wet. And you will never dry.</p>
-```
-
-### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Philippians 1:6** — "being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus."
-
----
-
-## psychology-sunk-cost-faith
-
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-sunk-cost-faith.html`
-
-Length 1292w · already spends bridges[] catch-images[]
-
-### Closing HTML — PROSE ONLY, truncated at the article boundary
-(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
-is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
-
-```html
-<p><em>The sunk cost is not stronger than grace. Nothing is.</em></p>
-
-    <h2>Keep Reading</h2>
-    <div class="hub-grid">
-   
-   <h3 class="card-title">Why Grace Feels Like an Attack</h3>
-   <p class="card-description">The identity threat that makes sovereign grace feel dangerous.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-
-   <a href="/psychology-backfire-effect" class="hub-card">
-   <h3 class="card-title">Why Evidence Makes Some People Believe Harder</h3>
-   <p class="card-description">The backfire effect: when proof strengthens the wrong belief.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-   <a href="/psychology-sincerity-trap" class="hub-card">
-   <h3 class="card-title">The Sincerity Trap</h3>
-   <p class="card-description">Sunk cost and sincerity work together to keep you stuck.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-   <a href="/devotional-not-my-will-but-joy" class="hub-card">
-   <h3 class="card-title">Not My Will, But Joy</h3>
-   <p class="card-description">The surrender that costs everything — and gives everything back.</p>
-   <div class="card-footer">
-   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-</div>
-</a>
-</div>
-```
-
-### Scripture this page already cites, resolved to NIV 2011 ground truth
+- **Ephesians 2:1** — "As for you, you were dead in your transgressions and sins,"
+- **Philippians 1:29** — "For it has been granted to you on behalf of Christ not only to believe in him, but also to suffer for him,"
 - **Ephesians 2:8-9** — "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast."
-- **Matthew 15:9** — "They worship me in vain; their teachings are merely human rules.’”"
+- **John 6:44** — "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
+- **Romans 8:29-30** — "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters. And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."
+- **Acts 13:48** — "When the Gentiles heard this, they were glad and honored the word of the Lord; and all who were appointed for eternal life believed."
 
 ---
 
-## psychology-suppressing-truth
+## story-historical-augustine-pears
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/psychology-suppressing-truth.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-historical-augustine-pears.html`
 
-Length 1594w · already spends bridges[] catch-images[]
+Length 1751w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p>The ablest objector will not flinch at any of this. "I am not suppressing evidence," he says. "There is no compelling evidence, and calling my honest unbelief 'suppression' is a slur you can never disprove." Take the charge seriously, because half of it is right: you cannot read his heart, and the accusation is worthless if it only means "anyone who disagrees is secretly lying." But notice what motivated reasoning actually predicts. Kunda's own work shows the mechanism runs beneath awareness — the biased reasoner sincerely feels impartial while the conclusion that serves him arrives dressed as pure logic. So "it does not feel like suppression" is not evidence against suppression; it is exactly what suppression feels like from the inside. Which does not turn your reaction into a verdict against you. A flash of heat is not proof; read that way, the charge really would be the unfalsifiable slur he accuses it of being, and the argument does not rest there. It rests on the texts and the logic, which stand whether you feel anything or not. But the heat is worth your own honest attention. If the question of <a href="/systematic-election">who casts the deciding vote in your salvation</a> leaves you cooler than a dozen doctrines you hold loosely, nothing here applies to you. If it runs hotter — if "God chose you" tightens something in your chest that "God is eternal" never does — that is not a confession anyone can extract from you. It is a question only you can answer in the quiet: what, exactly, is being defended?</p>
+<p class="pull-quote">He did not find Augustine. Augustine had been found before the foundation of the world.</p>
 
-   <h2>If You Feel Something Cracking</h2>
-
-   <p>If this article has left you feeling defensive — notice it. The impulse to argue, to nitpick, to find reasons why this doesn't apply to <em>you</em> — that impulse is worth noticing. It may be the system defending itself against a truth that threatens it.</p>
-
-   <p>But here is the mercy hidden inside this devastating diagnosis: if suppression is the disease, the cure was never going to come from within. It had to come from outside — from a God who <a href="/question-faithgift">grants the very faith your fallen nature could never produce</a>. "In the hope that God will grant them repentance leading them to a knowledge of the truth" (2 Timothy 2:25). <a href="/systematic-repentance">Repentance is itself a gift</a>. You don't generate it. God grants it. And if the suppression is loosening its grip even slightly, that is not you turning reasonable at last — it is grace striking the wall from outside, the one blow strong enough to land. <a href="/devotional-chosen-before-you-were-broken">You were chosen before you were broken</a>.</p>
-
-   <p>The wall did not crack from your side. It never would have. He struck it.</p>
+    <p>And this is why Augustine could write about his transgression without despair. This is why the story of the pears, which should have been a confession of damnation, became instead the most powerful testimony to grace in the history of the church. Because the God who saw that sixteen-year-old boy throwing rotten pears to pigs, doing what was pointless and wrong for no reason other than to prove his own autonomy — that God saw him and said: <em>Mine.</em> Not because Augustine chose it. Because <a href="/question-where-did-your-faith-come-from">grace chose him</a>. And that choice — made <a href="/question-chosen">before the foundation of the world</a> — held firm through every rotten pear, every decade of wandering, every inverted act of the will.</p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **Romans 1:18** — "The wrath of God is being revealed from heaven against all the godlessness and wickedness of people, who suppress the truth by their wickedness."
-- **Romans 1:21-25** — "For although they knew God, they neither glorified him as God nor gave thanks to him, but their thinking became futile and their foolish hearts were darkened. Although they claimed to be wise, they became fools and exchanged the glory of the immortal God for images made to look like a mortal human being and birds and animals and reptiles. Therefore God gave them over in the sinful desires of their hearts to sexual impurity for the degrading of their bodies with one another. They exchanged the truth about God for a lie, and worshiped and served created things rather than the Creator—who is forever praised. Amen."
-- **Romans 1:18-21** — "The wrath of God is being revealed from heaven against all the godlessness and wickedness of people, who suppress the truth by their wickedness, since what may be known about God is plain to them, because God has made it plain to them. For since the creation of the world God’s invisible qualities—his eternal power and divine nature—have been clearly seen, being understood from what has been made, so that people are without excuse. For although they knew God, they neither glorified him as God nor gave thanks to him, but their thinking became futile and their foolish hearts were darkened."
-- **2 Timothy 2:25** — "Opponents must be gently instructed, in the hope that God will grant them repentance leading them to a knowledge of the truth,"
+- (none cited)
+
+---
+
+## story-the-self-made-man
+
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-the-self-made-man.html`
+
+Length 1647w · already spends bridges[] catch-images[mirror]
+
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
+```html
+<p style="margin-top: 3rem; text-align: center; font-style: italic; color: var(--text-secondary);">Gerald never did figure out who was holding the pen.</p>
+
+   <p>But you — you who laughed at Gerald from the first chapter, who saw through his delusions before the narrator pointed them out, who shook your head at a man taking credit for gifts he never earned — you have a chance Gerald never gave himself. You can set down the memoir you have been writing about your own spiritual life. The one where you are the protagonist. The one where the decisive chapter is called "The Day I Chose God." You can close that book, look at the handwriting, and recognize for the first time that it was never yours. The Author has been holding the pen all along. And unlike Gerald, you do not have to die still taking credit. You can simply whisper: <em>I did not write this.</em> And in that whisper, find the most astonishing relief a self-made man has ever known — the relief of <a href="/devotional-rescued-without-a-say">being made by Someone else</a>.</p>
+
+</div>
+</div>
+
+   <!-- Further Reading Section -->
+   <section class="further-reading">
+   <h2>Explore the Truth Behind This Story</h2>
+   <div class="reading-cards">
+   <a href="/question-freewill" class="reading-card">
+   <h3>Free Will: A Biblical Examination</h3>
+   <p>Does Scripture teach that humans have libertarian free will? What does the Bible actually say about choice, agency, and human responsibility?</p>
+</a>
+   <a href="/psychology-autonomy-illusion" class="reading-card">
+   <h3>The Autonomy Illusion</h3>
+   <p>Why do we feel like we're making free choices, even when the evidence suggests otherwise? The psychology of perceived agency.</p>
+</a>
+   <a href="/question-depravity" class="reading-card">
+   <h3>Total Depravity: Scripture's Dark Mirror</h3>
+   <p>Scripture teaches that every part of human nature—including our will—has been corrupted by sin. What does this mean for choice?</p>
+</a>
+</div>
+   </section>
+```
+
+### Scripture this page already cites, resolved to NIV 2011 ground truth
+- (none cited)
+
+---
+
+## story-thought-the-day-you-chose-again
+
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-thought-the-day-you-chose-again.html`
+
+Length 2280w · already spends bridges[] catch-images[]
+
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
+```html
+<p>"So I <em>did</em> choose you."</p>
+
+   <p>"You did. Because <a href="/question-john15">I chose you</a> first. And I gave you the choosing."</p>
+
+   <p>And then you laugh. A laugh that comes from the basement of your soul, from the place where you'd been storing twenty-eight years of quiet terror — the terror that your salvation rested on a person who couldn't keep a New Year's resolution. The terror is gone. In its place: a lightness so complete it feels like flight.</p>
+
+   <p>You didn't save yourself. You couldn't have. And that beautiful, devastating, liberating impossibility — is <a href="/resistance-redefining-grace">the definition of grace</a>.</p>
+
+   <p>"One more thing," He says. "The paper was never really blank."</p>
+
+   <p>You look down. And there, in handwriting that is not yours — in handwriting that predates handwriting — is your name. <a href="/story-the-letter-before-the-world">Written before the paper existed.</a> Written before you existed. Written in the unhurried, unsurprised hand of someone who knew exactly what He was doing when He <a href="/systematic-divine-decrees">made the world and put you in it</a>.</p>
+
+   <p>Your name. His handwriting.</p>
+
+   <blockquote>
+   <p>"For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God — not by works, so that no one can boast."</p>
+   <cite>EPHESIANS 2:8-9</cite>
+   </blockquote>
+
+   <p>The faith to believe — the <em>want</em> to believe — is itself given by God. "No one can come to me unless the Father who sent me draws them" (John 6:44). The draw is the gift. <a href="/objection-faith-choice">The choice is the grace.</a> And that means your salvation rests not on the fragile hinge of your will, but on the <a href="/question-goldchain">unbreakable chain of His purpose</a>.</p>
+
+   <h2>Back to Tuesday Morning</h2>
+
+   <p>Go back to the kitchen. The light is still coming through the window at the autumn angle. The coffee is still the temperature you like. The dust motes are still turning in the air like tiny, unhurried planets. You are still alive. The clot has not broken loose yet. The mug has not hit the tile. This is still Tuesday morning, and you are reading this page instead of making grocery lists, and something in you recognized the thought experiment — not as fiction, but as the truest thing you have encountered all week.</p>
+
+   <p>That recognition is the gift. The fact that your heart just leaned toward a truth it did not manufacture — the fact that something in you said <em>yes</em> to a story about your own powerlessness instead of closing the tab — that is not your free will performing beautifully. That is a Hand reaching into you right now, the same Hand that reached into you at nineteen, the same Hand that wrote your name on a blank page before the kitchen existed, before the coffee existed, before Tuesday existed. And the Hand is not shaking. And the ink is not fading. And you are not going to un-choose Him, because He is not going to un-choose you, because the choosing was never yours to begin with.</p>
+
+   <p>Finish the coffee. It is still warm. The morning is still kind. And somewhere underneath the countertop, underneath the tile, underneath the foundation of the house, underneath the crust of the earth itself, there is a name — your name — in handwriting that is not yours. And it has been there since before the world was made. And it is not going anywhere. And neither are you.</p>
+```
+
+### Scripture this page already cites, resolved to NIV 2011 ground truth
+- **John 6:44** — "No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."
+
+---
+
+## story-thought-the-god-who-let-you-watch
+
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-thought-the-god-who-let-you-watch.html`
+
+Length 1793w · already spends bridges[lottery, drowning] catch-images[]
+
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
+```html
+<p>You chose God the way a drowning person "chooses" the hand that pulls them from the water. You chose God the way <a href="/analogy-lazarus-grave">Lazarus "chose" to walk out of the tomb</a>. You chose God because He chose you first, and His choosing gave you the eyes to see and the <a href="/philosophy-phantom-limb-free-will">hands to reach</a> and the heart to cry out <em>yes</em> — and that <em>yes</em> was real, genuinely yours, but it was also His gift, planted in you before the foundations of the world by a God who would not take no for an answer.</p>
+
+   <p>Because He had already paid for your yes.</p>
+
+   <p style="text-align: center; margin-top: 3rem; font-style: italic; color: var(--text-secondary);">
+  You were looking for God<br>
+  the way a fish looks for water.<br><br>
+  You were already in it.<br>
+  You had always been in it.<br><br>
+  The looking never found the water.<br>
+  The water was holding you the whole time.
+</p>
+
+   <section class="further-reading" style="max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem;">
+   <h2 style="font-family: 'Playfair Display', serif; color: var(--accent-gold); font-size: 1.4rem; text-align: center;">Keep Reading</h2>
+   <p style="text-align: center; color: var(--text-secondary); margin-bottom: 2rem; font-size: 0.95rem;">If you want to go deeper into what you just imagined.</p>
+   <div class="reading-cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 1.5rem;">
+   <a href="/systematic-election" class="reading-card" style="display: block; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.15); border-radius: 8px; text-decoration: none; transition: border-color 0.3s;">
+   <h3 style="color: var(--accent-gold); font-family: 'Playfair Display', serif; margin-bottom: 0.5rem;">The Truth of Election</h3>
+   <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">The full biblical case for unconditional election — every verse, every argument, laid bare.</p>
+</a>
+   <a href="/objection-fairness" class="reading-card" style="display: block; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.15); border-radius: 8px; text-decoration: none; transition: border-color 0.3s;">
+   <h3 style="color: var(--accent-gold); font-family: 'Playfair Display', serif; margin-bottom: 0.5rem;">Is Election Fair?</h3>
+   <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">The hardest objection — met head on. What Paul says in Romans 9 about God's right to choose.</p>
+</a>
+   <a href="/devotional-adoption-papers" class="reading-card" style="display: block; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.15); border-radius: 8px; text-decoration: none; transition: border-color 0.3s;">
+   <h3 style="color: var(--accent-gold); font-family: 'Playfair Display', serif; margin-bottom: 0.5rem;">The Adoption Papers</h3>
+   <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">A baby doesn't interview for a family. The adoption papers were signed before you drew your first breath.</p>
+</a>
+   <a href="/story-the-letter-before-the-world" class="reading-card" style="display: block; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.15); border-radius: 8px; text-decoration: none; transition: border-color 0.3s;">
+   <h3 style="color: var(--accent-gold); font-family: 'Playfair Display', serif; margin-bottom: 0.5rem;">The Letter Before the World</h3>
+   <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">She found a letter her father wrote before she was born. The most tender story about election on the site.</p>
+</a>
+</div>
+   </section>
+```
+
+### Scripture this page already cites, resolved to NIV 2011 ground truth
+- **Ephesians 1:4** — "For he chose us in him before the creation of the world to be holy and blameless in his sight."
+- **Ephesians 2:8-9** — "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast."
 
 ---

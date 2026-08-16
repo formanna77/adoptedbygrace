@@ -1438,7 +1438,7 @@ const CONTENT_MANIFEST = [
     "url": "/question-how-grace-feels",
     "title": "If Grace Is Irresistible, Why Does It Feel Like Choice?",
     "category": "The Evidence",
-    "excerpt": "You felt yourself choosing Christ.",
+    "excerpt": "You felt yourself choosing Christ, and you were.",
     "added": "2026-03-30 22:21:48 -0600"
   },
   {

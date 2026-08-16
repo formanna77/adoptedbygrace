@@ -247,9 +247,24 @@ const CONDITIONAL = /\bif you can\b[^.!?<]{0,90}\b(then )?(?:the )?(?:comfort|pr
 
 function sentencesOf(raw) {
   // Keep JSON-LD and meta: the worst S182 hits lived there.
+  //
+  // S206: strip the GENERATED boilerplate first. Not for tidiness — the nav and the
+  // related-articles cards are byte-identical on every page, so a slip in them is one
+  // site-wide defect, never 618 per-page ones. Worse, once the tags come off, card
+  // titles butt up against prose and against each other and manufacture *frankenstein
+  // sentences* that never existed on the page: `response-william-lane-craig` was
+  // reported on "The same lie that fuels your anxious spiral fuels every theology…
+  // Browse All Articles → Explore by Topic → Truth Best Reads Start Here Questions…",
+  // a "sentence" welded from a real clause plus the browse links plus the whole nav.
+  // gospel-absence and multiplied-close already strip this; this file did not, which is
+  // the only reason its roster carried junk. Do NOT extend this to JSON-LD or meta.
   const text = raw
     .replace(/<(script)(?![^>]*application\/ld\+json)[^>]*>[\s\S]*?<\/\1>/gi, ' ')
     .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<nav[^>]*>[\s\S]*?<\/nav>/gi, ' ')
+    .replace(/<div class="mega-menu"[\s\S]*?<\/div>/i, ' ')
+    .replace(/<!--\s*RELATED-ARTICLES-START\s*-->[\s\S]*?<!--\s*RELATED-ARTICLES-END\s*-->/gi, ' ')
+    .replace(/<div class="article-continue-journey"[\s\S]*?<\/div>\s*<\/div>/gi, ' ')
     .replace(/<!--[\s\S]*?-->/g, ' ')
     .replace(/<[^>]+>/g, ' ')
     .replace(/&[a-z]+;|&#\d+;/gi, ' ')

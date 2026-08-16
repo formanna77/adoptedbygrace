@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-11",
+ "generated": "2026-08-16",
  "current": "§XXIII",
  "matrix": {
   "2-thessalonians-2-13": {
@@ -2927,17 +2927,14 @@
    "lastSession": 58
   },
   "objection-desire": {
-   "lane": "C",
-   "weight": 6,
-   "defects": [
-    "gospel-absence",
-    "feeling-slip"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 206
   },
   "objection-effort": {
    "lane": "DONE",
@@ -4299,17 +4296,14 @@
    "lastSession": 191
   },
   "question-how-grace-feels": {
-   "lane": "C",
-   "weight": 6,
-   "defects": [
-    "gospel-absence",
-    "multiplied-close"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 206
   },
   "question-i-cant-believe": {
    "lane": "A",
@@ -4898,11 +4892,9 @@
    "lastSession": 58
   },
   "response-william-lane-craig": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "feeling-slip"
-   ],
+   "lane": "A",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": false,

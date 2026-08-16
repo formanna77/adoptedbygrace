@@ -205,7 +205,7 @@
  { name: 'Free Will Bible Verses', href: '/question-free-will-bible-verses', desc: 'Every verse used to defend free will in salvation, examined honestly. What Joshua 24:15, Revelation 3:20, John 3:16, and' },
  { name: 'How Do I Know If I’m One of the Elect?', href: '/question-am-i-chosen', desc: 'If God chose His people before the foundation of the world, how can I know I’m one of them? The Bible’s answer isn’t wha' },
  { name: 'I Want to Believe, But I Can\'t', href: '/question-i-cant-believe', desc: 'You cannot command belief the way you command your hand. The most honest sentence in the Bible was spoken by a man who b' },
- { name: 'If Grace Is Irresistible, Why Does It Feel Like Choice?', href: '/question-how-grace-feels', desc: 'You felt yourself choosing Christ. Scripture says God raised you from spiritual death and made you alive. How are both t' },
+ { name: 'If Grace Is Irresistible, Why Does It Feel Like Choice?', href: '/question-how-grace-feels', desc: 'You felt yourself choosing Christ, and you were. What the feeling could not do was report its own cause. Jesus predicted' },
  { name: 'If You Chose God, You Can Boast — The Boasting Problem with Free Will', href: '/question-boasting', desc: '1 Corinthians 1:26-31 — God chose the foolish to shame the wise, for one reason: so that no one may boast.' },
  { name: 'Is Faith a Gift from God? What the Bible Actually Says', href: '/question-faithgift', desc: 'Paul already answered. And the answer should make your knees buckle.' },
  { name: 'Is Free Will Real? What the Bible Actually Teaches About Human Choice', href: '/question-freewill', desc: 'Scripture never teaches libertarian free will. It teaches death — and dead people do not choose their own resurrection. ' },

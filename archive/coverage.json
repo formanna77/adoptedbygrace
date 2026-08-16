@@ -5,7 +5,7 @@
       "date": "2026-07-28",
       "sinceSession": 191
     },
-    "updated": "2026-08-11",
+    "updated": "2026-08-16",
     "note": "Historical seed from HTML markers is approximate (review-freshness, not pass/fail). source:\"stamp\" entries are exact.",
     "history": [
       {
@@ -1948,10 +1948,11 @@
       "source": "marker"
     },
     "objection-desire.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 206,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "Lane C compound: XXIII slip repaired at the prevenient-grace seam; Christ named in the shepherd; conditional catch removed"
     },
     "objection-effort.html": {
       "lastSession": 191,
@@ -2825,10 +2826,11 @@
       "note": "S191 gospel-landing + feeling-slip sweep"
     },
     "question-how-grace-feels.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 206,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "Lane C compound: drowning-lifeguard image replaced; charcoal fire (anthrakia) + Peter's two promises; triple close reduced to one"
     },
     "question-i-cant-believe.html": {
       "lastSession": null,

@@ -51,6 +51,45 @@ is furniture — hub cards, `</article>`, the footer — and you must not write 
 
 ---
 
+## question-predestined-to-hell
+
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/question-predestined-to-hell.html`
+
+Length 1731w · already spends bridges[] catch-images[]
+
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
+```html
+<p>You are still here — and it would be a kindness with a hook in it to tell you that the fear settles the question. Dread is not a credential, and no one was ever brought to peace by grading his own dread. So stop weighing it, in either direction. The man who feels nothing this morning has not thereby been excluded, and the man undone by the question has not thereby been admitted. Your interior was never the instrument, and going back to it for a reading is the same audit reopening under new management. Look somewhere that has no reading on it at all — at where a willingness like that would <a href="/question-where-did-your-faith-come-from">have to have come from</a> in the first place. "You did not choose me, but I chose you" (<a href="/question-john15">John 15:16</a>). Past tense, and the subject of the verb is not you. That is not a threat. That is what a man says to someone he has already decided to keep.</p>
+
+   <p>We were all vessels of wrath, running hard toward destruction, and the staggering miracle is that God looked at the wreckage and made vessels of mercy out of it. The question was never <a href="/objection-why-not-save-everyone">why God doesn't save everyone</a>. The question is why He saves anyone — and the answer is not a doctrine. It is a name.</p>
+
+   <p>The name is Jesus. And the reason none of this is fate wearing a Christian face is the way He went to His death: not dragged, not cornered, not overtaken in the dark. He set His face toward Jerusalem and He walked there — on foot, at walking pace, with every road out of the country still open behind Him and every hour on that road available for changing His mind. No one's hand was on Him. The only human will that has ever been entirely its own, unforced by fear, unbought by appetite, unbent by a nature it did not choose, aimed itself at a hill outside the city and stayed there until it was finished. The fear on this page is a fear of losing your freedom to Someone else's decision. He had that freedom, all of it. He spent it coming after you.</p>
+
+   <blockquote>
+   <p>"For he says to Moses, 'I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.' It does not, therefore, depend on human desire or effort, but on God's mercy."</p>
+   <cite>ROMANS 9:15-16</cite>
+   </blockquote>
+
+   <p>He found you before you knew you were lost. He will not let you go.</p>
+
+   <p><strong>He never pushed. He only pulled.</strong></p>
+```
+
+### Scripture this page already cites, resolved to NIV 2011 ground truth
+- **Romans 8:29-30** — "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters. And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."
+- **Romans 1:24** — "Therefore God gave them over in the sinful desires of their hearts to sexual impurity for the degrading of their bodies with one another."
+- **John 3:18** — "Whoever believes in him is not condemned, but whoever does not believe stands condemned already because they have not believed in the name of God's one and only Son."
+- **Romans 6:23** — "For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord."
+- **Ezekiel 33:11** — "Say to them, 'As surely as I live, declares the Sovereign Lord, I take no pleasure in the death of the wicked, but rather that they turn from their ways and live. Turn! Turn from your evil ways! Why will you die, people of Israel?'"
+- **Micah 7:18** — ""Who is a God like you, who pardons sin and forgives the transgression of the remnant of his inheritance? You do not stay angry forever but delight to show mercy.""
+- **Matthew 23:37** — "Jerusalem, Jerusalem, you who kill the prophets and stone those sent to you, how often I have longed to gather your children together, as a hen gathers her chicks under her wings, and you were not willing."
+- **John 15:16** — "You did not choose me, but I chose you and appointed you so that you might go and bear fruit—fruit that will last—and so that whatever you ask in my name the Father will give you."
+
+---
+
 ## response-william-lane-craig
 
 **Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/response-william-lane-craig.html`

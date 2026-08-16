@@ -2,27 +2,29 @@
   COVERAGE — adoptedbygrace.net prose corpus — review freshness vs. the newest bar
 ========================================================================
   Current standard: §XXIII (2026-07-28); era begins ~S191
-  Ledger updated:   2026-08-11   |   prose pages: 618
+  Ledger updated:   2026-08-16   |   prose pages: 618
 
-  At current standard (§XXIII)   200   32.4%  █████████···················
-  Behind (older bar, dated)          281   45.5%  █████████████···············
+  At current standard (§XXIII)   202   32.7%  █████████···················
+  Behind (older bar, dated)          279   45.1%  █████████████···············
   Unknown (locked, no session tag)   137   22.2%  ██████······················
 
-  REMAINING for the §XXIII pass: 418 pages (behind + unknown).
+  REMAINING for the §XXIII pass: 416 pages (behind + unknown).
   At 10 pages/session: ~42 sessions to full §XXIII coverage.  (tune rate with --rate=N)
 
   ── END-OF-SESSION STANDING ──
-  Since S204 (2026-08-10): at §XXIII 169 -> 200 (+31);  remaining 449 -> 418 (-31).
+  Since S204 (2026-08-10): at §XXIII 169 -> 202 (+33);  remaining 449 -> 416 (-33).
   Remaining trend: S197:525  S198:525  S199:520  S200:520  S201:510  S202:510  S203:502  S204:449
 
   Last-lifted era (approximate for older sessions):
-    §XXII (2026-07-19)          211  ██████████··················
+    §XXII (2026-07-19)          213  ██████████··················
     §XVIII-XXI (2026-06-21)       7  ····························
     §XVII/XVI (2026-05)           9  ····························
-    pre-§XVI (<=S99)            254  ████████████················
+    pre-§XVI (<=S99)            252  ███████████·················
     unknown / untagged          137  ██████······················
 
-  Exactly-tracked lifts (source: stamp) — 211:
+  Exactly-tracked lifts (source: stamp) — 213:
+    S206  lifted   objection-desire.html  — Lane C compound: XXIII slip repaired at the prevenient-grace seam; Christ named in the shepherd; conditional catch removed
+    S206  lifted   question-how-grace-feels.html  — Lane C compound: drowning-lifeguard image replaced; charcoal fire (anthrakia) + Peter's two promises; triple close reduced to one
     S205  lifted   presuppositional-impossibility-of-the-contrary.html  — gospel-absence closed - Christ named in the catch
     S205  lifted   psychology-anosognosia-of-sin.html  — gospel-absence closed - Christ named in the catch
     S205  lifted   psychology-cognitive-biases.html  — gospel-absence closed - Christ named in the catch
@@ -51,8 +53,6 @@
     S205  lifted   question-psalm139.html  — gospel-absence closed - Christ named in the catch
     S205  lifted   question-seven-questions.html  — gospel-absence closed - Christ named in the catch
     S205  lifted   question-sovereignty-logic.html  — gospel-absence closed - Christ named in the catch
-    S205  lifted   question-what-does-chosen-mean.html  — gospel-absence closed - Christ named in the catch
-    S205  lifted   question-what-is-sovereign-grace.html  — gospel-absence closed - Christ named in the catch
 
   Longest-un-lifted (oldest tagged session — first candidates for a §XXII re-read):
     S 58  2-thessalonians-2-13.html
