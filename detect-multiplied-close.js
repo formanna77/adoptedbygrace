@@ -62,6 +62,19 @@ const TRAILING_FURNITURE = [
   '<section class="go-deeper',
   '<div class="next-steps',
   '<h2 class="related-articles-heading"',
+  // S208: in-article trailing components that were being scored as terminal
+  // beats. Each renders a stack of short absolute blocks (label / title / desc),
+  // so a three-card rail read as three consecutive "hammer" closes and inflated
+  // compare-monergism-synergism to 8 trailing beats on a single-beat close.
+  '<div class="cross-links"',
+  '<section class="cross-links"',
+  '<div class="journey-grid"',
+  '<div class="hub-grid"',
+  '<div class="knowledge-check"',
+  '<section class="knowledge-check"',
+  '<div class="obj-cta"',
+  '<a class="obj-cta"',
+  '<a href="/the-objection-collapse" class="obj-cta"',
 ];
 // NOTE: do NOT add bare-text markers like '<h2>Go Deeper' or '<a href="/start-here-phase'
 // here. They occur mid-prose on some pages and truncate the body to nothing
@@ -71,7 +84,13 @@ const TRAILING_FURNITURE = [
 function bodyOf(html) {
   const start = html.indexOf('<article class="article-body">');
   if (start < 0) return null;
+  // S208: the article element itself is a hard boundary. Without this, any page
+  // whose furniture container is not yet on the list below runs the "body" all
+  // the way into the site footer, and the footer's own short blocks score as
+  // terminal beats. The list is now a second line of defence, not the only one.
   let end = html.length;
+  const closeArticle = html.indexOf('</article>', start);
+  if (closeArticle > start) end = closeArticle;
   for (const marker of TRAILING_FURNITURE) {
     const i = html.indexOf(marker, start);
     if (i > start && i < end) end = i;

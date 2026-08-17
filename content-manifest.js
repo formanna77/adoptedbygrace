@@ -4007,7 +4007,7 @@ const CONTENT_MANIFEST = [
     "url": "/devotional-dead-who-live",
     "title": "What Does \"Dead in Sin\" Actually Mean? More Than You Think.",
     "category": "Devotionals",
-    "excerpt": "Ephesians 2:1 says you were dead — not struggling, not searching, dead.",
+    "excerpt": "Ephesians 2:1 does not describe a man in difficulty.",
     "added": "2026-03-01"
   },
   {

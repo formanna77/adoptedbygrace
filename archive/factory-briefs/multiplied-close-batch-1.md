@@ -1,4 +1,4 @@
-# FACTORY BRIEF — multiplied-close — batch 1 of 3
+# FACTORY BRIEF — multiplied-close — batch 1 of 2
 
 Everything you need is in this file. **Do not open the source pages** — the
 closing HTML is reproduced verbatim below, and the only Scripture you might
@@ -13,20 +13,18 @@ file at /Users/aaronforman/Documents/adoptedbygracewebsite/<page>.html
 
 **Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/analogy-orchestra.html`
 
-Length 2085w · already spends bridges[drowning] catch-images[]
+Length 2167w · already spends bridges[drowning] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p>But you are not losing the music.</p>
+<p><a href="/question-revelation13">Revelation 13:8</a> dates it impossibly, in a line about the end of the world: "the Lamb who was slain from the creation of the world." Not planned from the creation of the world. Slain. The cross was not scored in a hurry after the orchestra fell apart; the orchestra fell apart inside a decision already taken, and the blood was in the key signature before the first bar. Nothing that has gone wrong in your life startled Him into loving you. <a href="/systematic-covenant-redemption">He was not improvising</a>.</p>
 
-<p>You are discovering who wrote it.</p>
+<p>So none of this rests on what the music does to you. Some people weep at the second movement; some sit through the whole thing with nothing moving in them at all, and the score does not change, because what finished it was His death and not your response. You are not being auditioned. You are being carried by a piece that had your part in it, and His wounds in it, when there was nothing here yet to make a sound.</p>
 
-<p>The Composer is older than the hall and infinitely better than you imagined. His score is more beautiful than anything that could have come out of the part of you that wanted to write it. Every nuance of your personality, every gift He gave you, every genuine choice you make — all of it, woven into a symphony that began before there was a stage to play it on.</p>
-
-<p>The hall is dark now. The last note has been held and released. The musicians lower their instruments. Somewhere in the audience a stranger is wiping their eyes — not because the violinist proved a point, but because, for the length of one movement, she was carried inside a score so beautiful that her hands forgot to insist they had written it. That carrying is the gift. That forgetting is the freedom. The Composer is real. The score is finished. And the performance — every breath of it — is yours, and was, always, His.</p>
+<p class="landing-line"><strong>Your rescue is older than your ruin.</strong></p>
 
 <section class="cross-links">
 <h3>Explore Related Truths</h3>
@@ -80,57 +78,7 @@ is furniture — hub cards, `</article>`, the footer — and you must not write 
 - **Ephesians 1:4-5** — "For he chose us in him before the creation of the world to be holy and blameless in his sight. In love he predestined us for adoption to sonship through Jesus Christ, in accordance with his pleasure and will."
 - **Ephesians 2:10** — "For we are God's handiwork, created in Christ Jesus to do good works, which God prepared in advance for us to do."
 - **Philippians 2:12-13** — "Therefore, my dear friends, as you have always obeyed—not only in my presence, but now much more in my absence—continue to work out your salvation with fear and trembling, for it is God who works in you to will and to act in order to fulfill his good purpose."
-
----
-
-## analogy-river
-
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/analogy-river.html`
-
-Length 1974w · already spends bridges[] catch-images[]
-
-### Closing HTML — PROSE ONLY, truncated at the article boundary
-(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
-is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
-
-```html
-<p>And that is worth naming gently, because what sits underneath it is almost never pride in the ugly sense. It is fear, and a reasonable one: <em>if I did not choose this love, was it ever really love?</em> The question deserves an answer instead of a rebuke. Here is the answer. <a href="/question-where-did-your-faith-come-from">No one has ever been loved for reasons they supplied.</a> Every love worth the name arrived before you could earn it, and the ones you had to earn were the counterfeits.</p>
-</div>
-
-    <h2>Who Cut the New Channel</h2>
-    <p>Which leaves the one question this whole picture has been running toward. If water goes down, and your terrain ran away from God, and it ran that way freely for as long as you can remember — then how are you still reading this?</p>
-
-    <p>Something cut a new channel.</p>
-
-    <p>Not erosion. Erosion only ever deepens the direction already there. Ezekiel saw what this actually takes and reported it as surgery rather than geology: "I will remove from you your heart of stone and give you a heart of flesh." Stone does not wear into flesh. It has to be taken out.</p>
-
-    <p>And canyons are never cut for free. Something is always spent to move that much rock. In the one channel that runs toward God, what was spent was not time.</p>
-
-    <div class="scripture">
-   <span class="ref">Isaiah 53:5</span>
-   <p>"But he was pierced for our transgressions, he was crushed for our iniquities; the punishment that brought us peace was on him, and by his wounds we are healed."</p>
-</div>
-
-    <p>Jesus Christ is the reason there is a bed in you running a direction water does not go on its own. He went down — lower than your terrain has ever fallen, past every low place you are afraid of, all the way to a grave — and He came up out of it, and the cut He made coming through runs from exactly where you were to exactly where He is.</p>
-
-    <p>So the old fear loses its footing. You were never going to climb. Water does not climb. But you were never asked to, and the Psalmist had already gone looking for the bottom and found it occupied: "if I make my bed in the depths, you are there."</p>
-
-    <p>You are the river. Every bend is truly yours. And the reason your life bends toward Him at all is that a canyon was opened through solid rock by a Man who was crushed opening it, with <a href="/question-chosen">your name on the survey before the world had a shape</a>.</p>
-
-    <p><a href="/start-here">So stop testing whether you are flowing hard enough.</a> Down is no longer away from God. Down is the road He took, and He took it first, and He is standing at the end of your water.</p>
-
-    <p>He is downstream. He always was.</p>
-
-    <div class="never-gives-up-banner">
-   <h3>He Will Never Let You Go</h3>
-   <p>Your life is not out of control. It is not random. You were chosen, shaped, and sustained by Someone whose love is as relentless as a river. Discover what it means to rest in a sovereignty that will never abandon you.</p>
-</div>
-```
-
-### Scripture this page already cites, resolved to NIV 2011 ground truth
-- Isaiah 53:5 — NOT IN GROUND TRUTH (do not quote it verbatim)
-- **Proverbs 21:1** — "In the Lord's hand the king's heart is a stream of water that he channels toward all who please him."
-- **Jeremiah 10:23** — "Lord, I know that people's lives are not their own; it is not for them to direct their steps."
+- **Revelation 13:8** — "All inhabitants of the earth will worship the beast—all whose names have not been written in the Lamb's book of life, the Lamb who was slain from the creation of the world."
 
 ---
 
@@ -138,18 +86,14 @@ is furniture — hub cards, `</article>`, the footer — and you must not write 
 
 **Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/compare-monergism-synergism.html`
 
-Length 2026w · already spends bridges[] catch-images[]
+Length 2131w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-</section>
-
-<!-- VERDICT -->
-<section class="section-block" id="verdict">
-    <div class="scripture-block">
+<div class="scripture-block">
   "It does not, therefore, depend on human desire or effort, but on God's mercy."
    <span class="scripture-ref">— Romans 9:16</span>
 </div>
@@ -168,16 +112,11 @@ is furniture — hub cards, `</article>`, the footer — and you must not write 
   cooperative venture between equals. The consistent testimony of Scripture is monergistic:
   salvation is of the Lord (<a href="/ot-jonah">Jonah</a> 2:9).
 </p>
-   <p><strong>Either grace is sufficient or it isn't. Either God finishes what He starts or He doesn't. There is no third option dressed up as humility.</strong></p>
-
-   <p>
-  If God began the work, God sustains the work, and God will complete the work (Phil 1:6) — then my salvation
-  rests on an immovable foundation: the sovereign, unchangeable, almighty will of God.
-</p>
-
    <p>Stand at the end of a life, and the argument stops being academic. On the last day, when your resolve has finally run out — and it will run out; every resolve does — only one of these two gospels is still standing underneath you. A salvation that leaned even one percent on your grip will have exactly the strength of your grip in the hour you have none left to give. A salvation that leaned on His grip will hold a dying man, because it was always holding a dead one. This was never a quarrel about percentages. It was a quarrel about whose hand is on you when your own goes slack.</p>
 
-   <p>You walked in looking for the middle ground. There never was one — only two options, and one of them wearing a moderate suit. Every hymn you have ever sung, every grave you have stood beside, every thanks you have breathed has been quietly confessing which of the two is true. <a href="/question-where-did-your-faith-come-from">Say it with your knees, not only your head</a>: <em>He alone saved me</em>.</p>
+   <p>And the reason it can hold is that it was never waiting on you to begin with. <a href="/question-revelation13">Revelation 13:8</a> puts the Lamb's death on the far side of creation — decided, and spoken of as finished, before there was a world for it to happen in. That settles the matter at a depth the debate never reaches. Synergism needs the deciding factor to arrive inside history, supplied by a creature in a moment. Scripture has the deciding done before there were creatures, or moments, or a history to arrive inside. You cannot add one percent to a transaction that closed before you existed — and you would not want to, once you see who settled the terms and what it cost the One who agreed to them.</p>
+
+   <p>So the comfort here does not rest on your certainty about it. You may finish this page unconvinced, or convinced and unmoved, or too tired to feel much of anything, and none of that is load-bearing. What bears the load is a decision taken before the world existed and the death of Jesus Christ that carried it out. If you have any faith at all, <a href="/question-where-did-your-faith-come-from">it came from the same place the decision did</a> — which is why it is not the part of this that has to hold. Your grip was never the hinge, in the first hour or the last.</p>
 </div>
 
     <div class="cross-links">
@@ -214,6 +153,7 @@ is furniture — hub cards, `</article>`, the footer — and you must not write 
 - **Ephesians 1:5** — "In love he predestined us for adoption to sonship through Jesus Christ, in accordance with his pleasure and will—"
 - **Romans 9:16** — "It does not, therefore, depend on human desire or effort, but on God's mercy."
 - **John 1:13** — "children born not of natural descent, nor of human decision or a husband's will, but born of God."
+- **Revelation 13:8** — "All inhabitants of the earth will worship the beast—all whose names have not been written in the Lamb's book of life, the Lamb who was slain from the creation of the world."
 
 ---
 
@@ -221,14 +161,14 @@ is furniture — hub cards, `</article>`, the footer — and you must not write 
 
 **Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/devotional-glory-of-divine-choice.html`
 
-Length 1202w · already spends bridges[] catch-images[the rope]
+Length 1255w · already spends bridges[] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p><em>Father, let me believe this today: before I was, I was chosen. Before I could do anything, You determined to make me Yours. Help me rest in that choice. Let the glory of Your decision — made in eternity, paid for in blood — become the ground of my peace. In Jesus' name, amen.</em></p>
+<p><em>Father, before there was a world there was a decision, and before there was a sinner there was a Lamb. You did not look down the years, find something in me worth choosing, and choose it; You chose, and then You made the years. Teach me to stand on that when I cannot feel it — when the reading is dry and the praying is duty and there is nothing in my chest to point at. My peace is not the warmth of my heart. It is the wounds of Your Son, settled before the world was made and not open to revision. In Jesus' name, amen.</em></p>
 
    <section class="keep-reading">
    <h2>Keep Reading</h2>
@@ -268,47 +208,134 @@ is furniture — hub cards, `</article>`, the footer — and you must not write 
 
 ---
 
-## hymn-amazing-grace
+## story-dark-the-woman-who-earned-her-seat
 
-**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/hymn-amazing-grace.html`
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-dark-the-woman-who-earned-her-seat.html`
 
-Length 3109w · already spends bridges[] catch-images[]
+Length 1452w · already spends bridges[drowning] catch-images[]
 
 ### Closing HTML — PROSE ONLY, truncated at the article boundary
 (If this excerpt ends mid-thought, that is the end of the prose. Everything after it
 is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
 
 ```html
-<p>That is what "Amazing Grace" is about. Not a God who stands back and says "Here's grace — take it or leave it." But a God who appears in the storm and says <em>"You are mine,"</em> and that appearance is the grace. His choosing of you is the grace. His making you alive when you were dead is the grace. His keeping you when you would wander is the grace. Newton called it <em>amazing</em> because it shouldn't have happened. He had given God every reason not to save him. And yet grace appeared — not because he chose well in a moment of clarity, but because God saw fit to save a wretch.</p>
+<p>"I used to think the worst thing about my life was that I'd wasted so much of it. But the most terrifying, beautiful thing is that none of it surprised Him. He knew. He chose me anyway. Before I was born. Before I took my first drink. He signed the papers on me before there was a <em>me</em> to sign for."</p>
 
-   <p>The question is not whether you've sung sovereign grace. You have. The question is: when you finally stop arguing with what you believe, what will change? Because the hymn was telling you the truth the whole time.</p>
+   <p>"I can't earn this," Jolene whispered. "<a href="/philosophy-sleep-surrender">I can't earn it and I can't lose it</a>, because it was never mine to earn or lose. It was His to give. And He gave it."</p>
 
-   <p>Picture Newton's church, Olney, 1773. A cold January morning. Stone walls sweating condensation. A congregation of lace-makers and field laborers who can barely read, standing shoulder to shoulder in a room that smells of damp wool and tallow. Their pastor — the former slave trader with the ruined voice and the shaking hands — has written them a new hymn. He reads the first line aloud. They sing it back. They have no idea what they are singing, and no reason to. The tune everyone alive now hears under these words did not exist yet; it would be printed in America in 1835, twenty-eight years after Newton was in the ground. They only know that the man standing before them was once a monster, and now he weeps when he prays, and whatever happened to him happened without his permission.</p>
+   <p>And Doris — in the back row, with no tally to keep and no streak to maintain — felt the stone dissolve. Not all at once. Like ice under <a href="/devotional-the-hands-that-hold-you">a hand you forgot was warm</a>.</p>
 
-   <p>Two and a half centuries later, you are standing in a different room singing the same words. The theology you argue about on weekdays dissolves the moment the melody starts, and something truer than your arguments takes over. Your mouth confesses what your mind hasn't caught up to yet. <em>Found. Saved. Taught. Led home.</em> Every verb a gift. Every subject grace. <a href="/devotional-chosen-before-you-were-broken">The God who found Newton in that storm</a> put this hymn in the mouths of people who would spend decades disagreeing with it on paper. That is not a claim about where you stand. It is a claim about what you have been saying — and the hymn has been saying it correctly, in your own voice, for as long as you can remember. The words are not waiting on your theology to catch up. They were true before you sang them, and they will be true if you never sing them again.</p>
+   <p>She began to cry. The ungovernable kind.</p>
 
-   <h2>What Actually Appeared in the Storm</h2>
+   <p>Because she understood, finally, what she had been keeping score against. Not the church. Not Jolene.</p>
 
-   <p>One more thing about the word, and then the page is finished.</p>
+   <p>Grace.</p>
 
-   <p>We handle <em>grace</em> as though it were a substance — a quantity God holds, dispenses, applies in sufficient or irresistible measure. Newton did not handle it that way, and the New Testament does not either. "For the grace of God has appeared that offers salvation to all people." <em>Appeared.</em> The Greek is <em>epephanē</em>, from <em>epiphainō</em> — the verb for a light breaking over a horizon, a star coming out, a coastline resolving out of fog. You do not use that verb of a substance. You use it of something that walks into view.</p>
+   <p>Thirty-one years of Sundays, brought to God like a child bringing a handful of pennies to a king.</p>
 
-   <p>And Paul does not use it only of grace. The noun built on the same root is <em>epiphaneia</em>, and in 2 Timothy 1:10 it is what he calls the appearing of our Savior, Christ Jesus. The same word, the same coming into view, once for grace and once for Jesus — because in Paul's vocabulary they are not two events that happen to resemble each other. Grace appeared in Judea under Tiberius. It had a face, and a mother, and a trial date. Newton's "amazing grace" is not a quality God possesses; it is the name of what came for him in the water.</p>
+   <p>He took the pennies. Not because He needed them.</p>
 
-   <p>So when the hymn says grace appeared, it is not a poetic upgrade for <em>God helped me</em>. Something came into view on that water. And notice that the hymn never claims to have gone looking: <em>I once was lost, but now am found</em> — the passive of a man who was not searching, found by Someone who was.</p>
+   <p>Because she needed to open her hands.</p>
 
-   <p>This is why the hymn keeps working on people who argue with it. You can argue with a doctrine for forty years. You cannot argue with a face. The hymn is not handing you a position on election to accept or decline; it is telling you, in your own voice, four verbs at a time, that <a href="/systematic-christology">Someone came looking</a> — and that the looking was finished long before you knew you were lost.</p>
+   <p>There was a seat with her name on it, and there had been for a very long time.</p>
 
-   <p>Sing it again sometime and listen to who is doing the verbs.</p>
+   <p>She had spent thirty-one years paying down a debt that was already settled, and the receipt was not in her handwriting. It was signed on a Friday afternoon outside Jerusalem, in the only currency the purchase would take, by a Man who arrived at the counter with no pennies either — only Himself.</p>
 
-   <p>Grace was never a substance.</p>
+   <div class="scripture">
+   <span class="ref">2 Corinthians 5:21</span>
+   <p>"God made him who had no sin to be sin for us, so that in him we might become the righteousness of God."</p>
+</div>
 
-   <p>It was Him, coming into view.</p>
+   <p>Which is why Jolene and Doris end the evening in the same room. One came in with fourteen years of wreckage and nothing to show for it. One came in with thirty-one years of unbroken attendance and nothing to show for it either. Neither of them had the price. Neither of them ever did.</p>
+
+   <p>Christ paid it. And a thing that has been paid for cannot be bought again, however many Sundays you bring to the window.</p>
+
+   <p>The seat was never for sale.</p>
+
+   <p>Her name was on it all along.</p>
 ```
 
 ### Scripture this page already cites, resolved to NIV 2011 ground truth
-- **John 9:39** — "Jesus said, “For judgment I have come into this world, so that the blind will see and those who see will become blind.”"
-- **Philippians 1:29** — "For it has been granted to you on behalf of Christ not only to believe in him, but also to suffer for him,"
-- 2 Timothy 1:10 — NOT IN GROUND TRUTH (do not quote it verbatim)
+- **Hebrews 10:25** — ""not giving up meeting together, as some are in the habit of doing, but encouraging one another—and all the more as you see the Day approaching.""
+- **2 Corinthians 5:21** — "God made him who had no sin to be sin for us, so that in him we might become the righteousness of God."
+
+---
+
+## story-humor-the-man-who-sued-god
+
+**Edit this file:** `/Users/aaronforman/Documents/adoptedbygracewebsite/story-humor-the-man-who-sued-god.html`
+
+Length 2031w · already spends bridges[drowning] catch-images[]
+
+### Closing HTML — PROSE ONLY, truncated at the article boundary
+(If this excerpt ends mid-thought, that is the end of the prose. Everything after it
+is furniture — hub cards, `</article>`, the footer — and you must not write into it.)
+
+```html
+<p>The man who sued God for saving him discovered, in the end, that the only thing more terrifying than a God who saves you without asking is a God who doesn't.</p>
+
+   <h2>The Trial That Already Happened</h2>
+
+   <p>Gerald wanted his day in court. It is not an unreasonable thing to want. Something enormous was decided about him and he was not consulted, and every instinct a person has says that a verdict reached in your absence is not a verdict at all.</p>
+
+   <p>So here is the part of the docket he never checked.</p>
+
+   <p>There was a trial. It ran at night, on short notice, with perjured witnesses and a judge who knew better. The defendant did not contest the charge. He was condemned in the morning and executed by the afternoon, and the transcript survives in four versions because the people who watched it could not stop telling it.</p>
+
+   <p>The defendant had done nothing. The charges belonged to somebody else.</p>
+
+   <div class="scripture">
+   <span class="ref">Romans 8:1</span>
+   <p>"Therefore, there is now no condemnation for those who are in Christ Jesus,"</p>
+</div>
+
+   <p>Gerald's case had already been heard. That is the whole trouble with suing for wrongful rescue: the wrong was real, the damages were assessed at full value, and the judgment was entered — against a Man who volunteered for the seat.</p>
+
+   <p>Which is why nobody asked Gerald's permission. You do not ask a man's permission to hand him an acquittal that cost someone else everything. You simply open the door and tell him he can go.</p>
+
+   <p>He can file whatever he likes. The verdict will not move.</p>
+
+   <p>Somebody already served his sentence.</p>
+
+   <section class="keep-reading">
+   <h2>Keep Reading</h2>
+   <p>The serious versions of Gerald's questions.</p>
+   <div class="hub-grid">
+   <a href="/objection-robots" class="hub-card">
+   <div class="card-number">01</div>
+   <h3 class="card-title">Does Election Make Us Robots?</h3>
+   <p class="card-description">The most common objection — answered. Why sovereignty and genuine human experience are not enemies.</p>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+   
+   <a href="/psychology-autonomy-illusion" class="hub-card">
+   <div class="card-number">02</div>
+   <h3 class="card-title">The Autonomy Illusion</h3>
+   <p class="card-description">Why the freedom you think you have is exactly what sin wants you to believe.</p>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+
+   <a href="/devotional-rescued-without-a-say" class="hub-card">
+   <div class="card-number">03</div>
+   <h3 class="card-title">Rescued Without a Say</h3>
+   <p class="card-description">What it feels like when you realize you were saved before you knew you needed saving.</p>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+</div>
+   </section>
+```
+
+### Scripture this page already cites, resolved to NIV 2011 ground truth
+- **Ephesians 1:4** — "For he chose us in him before the creation of the world to be holy and blameless in his sight."
+- **Ephesians 2:8-9** — "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast."
+- **Philippians 1:6** — "being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus."
+- **Romans 8:38-39** — "For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord."
+- **Romans 8:1** — "Therefore, there is now no condemnation for those who are in Christ Jesus,"
 
 ---

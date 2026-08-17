@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16",
+ "generated": "2026-08-17",
  "current": "§XXIII",
  "matrix": {
   "2-thessalonians-2-13": {
@@ -86,11 +86,9 @@
    "lastSession": 77
   },
   "analogy-orchestra": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "multiplied-close"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
@@ -1129,11 +1127,10 @@
    "lastSession": 58
   },
   "compare-calvinism-molinism": {
-   "lane": "C",
-   "weight": 6,
+   "lane": "B",
+   "weight": 3,
    "defects": [
-    "gospel-absence",
-    "multiplied-close"
+    "gospel-absence"
    ],
    "doorway": false,
    "leadReview": false,
@@ -1202,11 +1199,9 @@
    "lastSession": 204
   },
   "compare-monergism-synergism": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "multiplied-close"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
@@ -5255,11 +5250,9 @@
    "lastSession": 58
   },
   "story-cross-examination": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "A",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": false,
@@ -5287,11 +5280,9 @@
    "lastSession": 58
   },
   "story-dark-the-woman-who-earned-her-seat": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "multiplied-close"
-   ],
+   "lane": "A",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": false,
@@ -5309,11 +5300,9 @@
    "lastSession": 58
   },
   "story-historical-augustine-pears": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "A",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": false,
@@ -5341,11 +5330,9 @@
    "lastSession": 58
   },
   "story-humor-the-man-who-sued-god": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "multiplied-close"
-   ],
+   "lane": "A",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": false,
@@ -5386,11 +5373,9 @@
    "lastSession": 58
   },
   "story-tender-the-gardener-who-waited": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "multiplied-close"
-   ],
+   "lane": "A",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": false,
@@ -5428,11 +5413,9 @@
    "lastSession": 58
   },
   "story-the-garden-that-grew-itself": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "multiplied-close"
-   ],
+   "lane": "A",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": false,
@@ -5493,11 +5476,9 @@
    "lastSession": 58
   },
   "story-the-self-made-man": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "A",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": false,
@@ -5505,11 +5486,9 @@
    "lastSession": 58
   },
   "story-thought-the-day-you-chose-again": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "A",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": false,
@@ -5517,11 +5496,9 @@
    "lastSession": 58
   },
   "story-thought-the-god-who-let-you-watch": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "A",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": false,
@@ -5579,11 +5556,9 @@
    "lastSession": 58
   },
   "systematic-christology": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "multiplied-close"
-   ],
+   "lane": "A",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": false,
@@ -5861,13 +5836,11 @@
    "lastSession": null
   },
   "systematic-theology-proper": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "A",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
+   "leadReview": false,
    "atCurrent": false,
    "untagged": true,
    "lastSession": null
@@ -6039,13 +6012,11 @@
    "lastSession": 191
   },
   "theologian-anselm": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
+   "leadReview": false,
    "atCurrent": true,
    "untagged": false,
    "lastSession": 203
@@ -6121,13 +6092,11 @@
    "lastSession": null
   },
   "theologian-gottschalk": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "A",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
+   "leadReview": false,
    "atCurrent": false,
    "untagged": false,
    "lastSession": 58
