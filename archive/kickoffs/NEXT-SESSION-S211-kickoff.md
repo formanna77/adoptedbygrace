@@ -1,5 +1,58 @@
 # SESSION 211 — KICKOFF
 
+## §0 — THE CANON IS FROZEN. READ THIS BEFORE ANYTHING ELSE.
+
+**Aaron, 2026-08-18: *"This time i will wait for the entire site to be upgraded with the
+most recent updates."***
+
+VOICE.md is held at **§XXIII** and gains no new sections until all **618** prose pages have
+been reviewed against it. That is a change in the shape of the work, not a note in the
+margin.
+
+Until now the standard rose roughly every three to four weeks — §XIII–XIV (04-28), §XVI
+(05-24), §XVII (05-29), §XVIII–XXI (06-21), §XXII (07-19), §XXIII (07-28) — and each
+addition moved 100% of the corpus back to *behind*. That is exactly what the 244 pages
+marked *behind (older bar, dated)* are: already reviewed, at a bar that has since moved. A
+full pass takes ~14–24 sessions; a canon raise resets it. **The denominator is now fixed,
+so for the first time the pass converges.**
+
+Three consequences, all binding:
+
+1. **Do not propose a new VOICE.md section.** If you find a genuinely new law, write it into
+   `archive/PARKED-CANON.md` for after full coverage. Adding it now restarts the count Aaron
+   is waiting on.
+2. **Optimise for coverage throughput, not per-page maximalism.** The Diamond Pass still
+   governs — build nothing new — but a page that is *sound* and *stamped* beats a page that
+   is exquisite while forty others have never been read. Fix what fails the standard; do not
+   gold-plate what passes it.
+3. **Report the single number every session: `at §XXIII` out of 618.** It was **265** at the
+   S210 close. That is the number he is waiting on.
+
+## §0.1 — THE SHAPE THAT GETS THERE FASTEST
+
+S210 proved the binding constraint is **discovery, not writing**. Two Lane A confirm agents
+read 24 detector-clean pages and found **12 real defects**. Reading is the cheap half and it
+has never been scaled.
+
+**So invert the wave. Five readers, three writers.**
+
+```
+WAVE 1 (launch together, ~90K tokens each):
+  5 x Lane A confirm   node archive/make-laneA-brief.js 12 <0|12|24|36|48>   = 60 pages read
+WAVE 2 (from wave 1's findings + the standing queue):
+  3 x repair           node archive/make-factory-brief.js <name> --pages a,b,c,d,e
+```
+
+60 pages read per session against 353 remaining is **~6 sessions of discovery**; repair runs
+behind it at ~13–20 pages/session and becomes the constraint. Expect **~12–15 sessions to
+full coverage** at that shape, against ~24 at S210's mix. Do the reading first, every time —
+findings from wave 1 are what wave 2 repairs.
+
+**The lead runs every coverage stamp.** An agent that can write the ledger can corrupt
+provenance for 353 pages.
+
+---
+
 ## WHERE S210 LEFT IT
 
 **Three queues are at zero. The one that matters is the one that was never measured.**

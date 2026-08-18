@@ -1,15 +1,15 @@
 SCRIPTURE FIDELITY AUDIT — quotations diffed against scripture-niv.js
-Generated 2026-08-18T05:45:36.827Z
+Generated 2026-08-18T06:24:19.029Z
 
 Ground truth: 992 NIV passages
 Pages scanned: 658 (of 687; generated/index pages excluded)
-Quotations with a nearby reference: 4598
+Quotations with a nearby reference: 4604
 
-  VERIFIED  3613  — appear in the NIV verbatim
+  VERIFIED  3614  — appear in the NIV verbatim
   MISQUOTE  61  — high word overlap, wording does not match
   HEADING   84  — title-case heading near a reference, not a quotation
-  UNMATCHED 375  — low overlap; almost all extractor noise
-  REVIEW    19  — no NIV text on file; cross-page divergence only
+  UNMATCHED 376  — low overlap; almost all extractor noise
+  REVIEW    20  — no NIV text on file; cross-page divergence only
   banned "(NIV)" suffix: 0
 
 ========================================================================
@@ -352,6 +352,12 @@ REVIEW — no NIV text on file, wording differs across pages
       [presuppositional-no-neutral-ground.html]
   - "I'm just staying neutral until the evidence comes in,"
       [presuppositional-no-neutral-ground.html]
+
+### Matthew 24:22
+  - "gather his elect from the four winds"
+      [history-apostolic.html]
+  - "To God's elect, exiles scattered throughout the provinces,"
+      [history-apostolic.html]
 
 ### Psalm 23:4
   - "Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff, they comfort me."

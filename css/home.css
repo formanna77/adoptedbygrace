@@ -422,55 +422,6 @@
             position: relative;
             z-index: 1;
         }
-
-        /* Healing sub-section */
-        .explorer-healing {
-            max-width: 1100px;
-            margin: 2rem auto 0;
-        }
-        .healing-label {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.8rem;
-            font-weight: 600;
-            color: var(--accent-ember);
-            letter-spacing: 0.08em;
-            margin-bottom: 1rem;
-            text-align: center;
-        }
-        .healing-icon { margin-right: 0.4rem; }
-        .healing-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 0.8rem;
-        }
-        .healing-tile {
-            background: linear-gradient(135deg, rgba(232, 100, 44, 0.05), rgba(18, 18, 26, 0.8));
-            border: 1px solid rgba(232, 100, 44, 0.12);
-            border-radius: 10px;
-            padding: 1.2rem 0.8rem;
-            text-decoration: none;
-            color: inherit;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            transition: all 0.4s ease;
-        }
-        .healing-tile:hover {
-            transform: translateY(-3px);
-            border-color: rgba(232, 100, 44, 0.35);
-            box-shadow: 0 6px 24px rgba(232, 100, 44, 0.08);
-        }
-        .healing-tile .tile-count {
-            font-size: 2rem;
-            color: var(--accent-ember);
-        }
-        .healing-tile .tile-name {
-            font-size: 0.75rem;
-            font-weight: 600;
-            margin-top: 0.4rem;
-        }
-
         /* ===== THROUGH THE AGES — TIMELINE + THEOLOGIANS ===== */
         .through-ages-section {
             padding: 6rem 2rem 4rem;
@@ -578,9 +529,7 @@
             .explorer-eyebrow-wrapper::before, .explorer-eyebrow-wrapper::after { margin-top: 1.5rem; margin-bottom: 1.5rem; }
             .explorer-eyebrow-wrapper .section-eyebrow { font-size: 0.8rem; }
             .total-number { font-size: 3.5rem; }
-            .explorer-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.8rem; }
-            .healing-grid { grid-template-columns: repeat(3, 1fr); }
-            .through-ages-section { padding: 3rem 1.5rem 2rem; }
+            .explorer-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.8rem; }            .through-ages-section { padding: 3rem 1.5rem 2rem; }
             .cloud-witnesses-section { padding: 3rem 1.5rem 2rem; }
             .crown-jewel-section { padding: 3rem 1.5rem; }
             .crown-jewel-headline { font-size: 2rem; }
@@ -613,11 +562,7 @@
             .explorer-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 0.6rem; }
             .tile-count { font-size: 2rem; }
             .tile-name { font-size: 0.78rem; }
-            .tile-desc { display: none; }
-            .healing-grid { grid-template-columns: repeat(3, 1fr); gap: 0.6rem; }
-            .healing-tile .tile-count { font-size: 1.6rem; }
-            .healing-tile .tile-name { font-size: 0.7rem; }
-            .through-ages-section { padding: 2rem 1rem 1.5rem; }
+            .tile-desc { display: none; }            .through-ages-section { padding: 2rem 1rem 1.5rem; }
             .cloud-witnesses-section { padding: 2rem 1rem 1.5rem; }
             .crown-jewel-section { padding: 2rem 1rem; }
             .crown-jewel-headline { font-size: 1.6rem; }

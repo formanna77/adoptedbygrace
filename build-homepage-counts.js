@@ -50,7 +50,7 @@ const COUNT = {
   '/start-here': byPrefix('start-here-', 'phase-'),
   '/questions': byPrefix('question-'),
   '/apologetics': byPrefix('apologetic-'),
-  '/reformed-apologetics-hub': byPrefix('reformed-apologetics-'),
+  '/reformed-apologetics-hub': byPrefix('reformed-apologetics-', 'presuppositional-'),
   '/presuppositional-apologetics-hub': byPrefix('presuppositional-'),
   '/demolition-hub': byPrefix('demolition-', 'counter-'),
   '/psychology-hub': byPrefix('psychology-', 'resistance-'),
