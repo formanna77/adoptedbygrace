@@ -5,7 +5,7 @@
       "date": "2026-07-28",
       "sinceSession": 191
     },
-    "updated": "2026-08-17",
+    "updated": "2026-08-18",
     "note": "Historical seed from HTML markers is approximate (review-freshness, not pass/fail). source:\"stamp\" entries are exact.",
     "history": [
       {
@@ -139,10 +139,11 @@
       "note": "S199 cold-read + repair"
     },
     "analogy-chess-grandmaster.html": {
-      "lastSession": 80,
-      "voiceRef": "§XXVI",
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 209,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "Lane C rebuild — the player who came down onto the board"
     },
     "analogy-doctor-corpse.html": {
       "lastSession": 197,
@@ -324,10 +325,11 @@
       "source": "marker"
     },
     "apologetic-able-to-save-completely.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 209,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "feeling-slip catch rebuilt — certificate removed, ground relocated to the finished work"
     },
     "apologetic-arrabon-the-down-payment.html": {
       "lastSession": null,
@@ -399,10 +401,11 @@
       "source": "marker"
     },
     "apologetic-god-works-the-willing.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 209,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "feeling-slip catch rebuilt — certificate removed, ground relocated to the finished work"
     },
     "apologetic-he-bore-the-sin-of-many.html": {
       "lastSession": 197,
@@ -502,10 +505,11 @@
       "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "apologetic-no-one-can-come-unless.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 209,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "feeling-slip catch rebuilt — certificate removed, ground relocated to the finished work"
     },
     "apologetic-no-one-righteous.html": {
       "lastSession": null,
@@ -704,10 +708,11 @@
       "source": "marker"
     },
     "apologetic-you-did-not-choose-me.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 209,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "confirmed clean — lands on the living Vine; detector vocabulary gap, not an absent Savior"
     },
     "argument-arminian-sermon-illustrations-refuted.html": {
       "lastSession": 58,
@@ -734,10 +739,11 @@
       "source": "marker"
     },
     "argument-if-arminianism-true-consequences.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 209,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "feeling-slip catch rebuilt — certificate removed, ground relocated to the finished work"
     },
     "argument-logical-collapse-arminianism.html": {
       "lastSession": 192,
@@ -1190,11 +1196,11 @@
       "note": "S204 factory: Christ located inside the page's own image in the catch"
     },
     "demolition-matt11-28.html": {
-      "lastSession": 189,
-      "voiceRef": "§XXII",
+      "lastSession": 209,
+      "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "historical falsehood corrected; boulomai lemma and ho-ean-bouletai gift"
+      "note": "feeling-slip catch rebuilt — certificate removed, ground relocated to the finished work"
     },
     "demolition-matt7-7.html": {
       "lastSession": 58,
@@ -1326,11 +1332,11 @@
       "note": "S204 factory: Christ located inside the page's own image in the catch"
     },
     "devotional-glory-of-divine-choice.html": {
-      "lastSession": 208,
+      "lastSession": 209,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "fourth landing and worn rope image cut; prayer left as the one destination"
+      "note": "four landings collapsed to one; glory shown not announced"
     },
     "devotional-good-i-cannot-do.html": {
       "lastSession": 58,
@@ -1353,10 +1359,11 @@
       "note": "S204 factory: Christ located inside the page's own image in the catch"
     },
     "devotional-i-dont-think-im-saved.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 209,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "feeling-slip catch rebuilt — certificate removed, ground relocated to the finished work"
     },
     "devotional-i-was-lazarus.html": {
       "lastSession": 197,
@@ -1491,11 +1498,11 @@
       "note": "under-linked queue drained: raised to 11-13 verified cross-category prose links"
     },
     "devotional-the-weight-lifted.html": {
-      "lastSession": 196,
+      "lastSession": 209,
       "voiceRef": "§XXIII",
-      "status": "partial",
+      "status": "lifted",
       "source": "stamp",
-      "note": "link floor 3-6 -> 10+"
+      "note": "confirmed clean — link removed from the pullquote, VOICE IX.4"
     },
     "devotional-valley-shadow.html": {
       "lastSession": 58,
@@ -2949,11 +2956,11 @@
       "note": "S192 gospel-landing + feeling-slip; catch derived from page's own image"
     },
     "question-predestined-to-hell.html": {
-      "lastSession": 205,
+      "lastSession": 209,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "gospel-absence closed - Christ named in the catch"
+      "note": "feeling-slip catch rebuilt — certificate removed, ground relocated to the finished work"
     },
     "question-proverbs-sovereignty.html": {
       "lastSession": 205,
@@ -3382,16 +3389,18 @@
       "source": "marker"
     },
     "shattered-lens-pastor.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 209,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence catch rebuilt — the High Priest who prayed and was not spared"
     },
     "shattered-lens-silence-of-god.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 209,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence catch rebuilt — the High Priest who prayed and was not spared"
     },
     "shattered-lens-taught-wrong.html": {
       "lastSession": 197,
@@ -3401,16 +3410,18 @@
       "note": "P0 cold read: cross-page cloned sentences broken; page-native replacements"
     },
     "shattered-lens-when-prayer-stopped-working.html": {
-      "lastSession": 70,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 209,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence catch rebuilt — the High Priest who prayed and was not spared"
     },
     "start-here-phase1.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 209,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "gospel-absence catch rebuilt — the High Priest who prayed and was not spared"
     },
     "start-here-phase2.html": {
       "lastSession": 58,
@@ -3514,10 +3525,11 @@
       "source": "marker"
     },
     "story-real-conversions.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 209,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "Lane C rebuild — the resurrection as the judgment already entered"
     },
     "story-surgeon-stone-heart.html": {
       "lastSession": 58,
@@ -3915,11 +3927,11 @@
       "source": "marker"
     },
     "the-two-arms.html": {
-      "lastSession": 191,
+      "lastSession": 209,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "S191 gospel-landing + feeling-slip sweep"
+      "note": "confirmed clean — both flags were the pair-card diagram, not the prose"
     },
     "theologian-arminius.html": {
       "lastSession": 74,
@@ -4078,6 +4090,13 @@
       "status": "lifted",
       "source": "stamp",
       "note": "XXIII: reading-as-evidence refused out loud instead of claimed"
+    },
+    "for-doubters.html": {
+      "lastSession": 209,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "laundered certificate on the skeptics doorway named and refused"
     }
   }
 }

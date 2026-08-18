@@ -1,12 +1,12 @@
 SCRIPTURE FIDELITY AUDIT — quotations diffed against scripture-niv.js
-Generated 2026-08-17T16:57:53.614Z
+Generated 2026-08-18T00:06:01.298Z
 
 Ground truth: 992 NIV passages
 Pages scanned: 658 (of 687; generated/index pages excluded)
-Quotations with a nearby reference: 4597
+Quotations with a nearby reference: 4596
 
   VERIFIED  3611  — appear in the NIV verbatim
-  MISQUOTE  62  — high word overlap, wording does not match
+  MISQUOTE  61  — high word overlap, wording does not match
   HEADING   84  — title-case heading near a reference, not a quotation
   UNMATCHED 375  — low overlap; almost all extractor noise
   REVIEW    19  — no NIV text on file; cross-page divergence only
@@ -223,10 +223,6 @@ MISQUOTATIONS — presented as a quotation, not what the NIV says
 ### Romans 8:29   [question-foreknowledge.html]   overlap 63%
   PAGE: "Those whose faith God foresaw, He also predestined."
   NIV : "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters."
-
-### Romans 11:33   [start-here-phase1.html]   overlap 62%
-  PAGE: "Oh, the depth of the riches of the wisdom and knowledge of God! How unsearchable his judgments, and his paths beyond tracing out! ... For from him and through him and for him are all things. To him be the glory forever! Amen."
-  NIV : "Oh, the depth of the riches of the wisdom and knowledge of God! How unsearchable his judgments, and his paths beyond tracing out!"
 
 ### Romans 5:12   [systematic-imputation.html]   overlap 60%
   PAGE: "Therefore, just as sin entered the world through one man, and death through sin, and in this way death came to all people, because all sinned... For if, by the trespass of the one man, death reigned through that one man, how much more will those who receive God's abundant provision of grace and of the gift of righteousness reign in life through the one man, Jesus Christ."

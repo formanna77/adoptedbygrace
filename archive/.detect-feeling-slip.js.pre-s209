@@ -242,57 +242,6 @@ const NAMED_TRICK = /\b(?:the trick|it is a trick|it's a trick|that would be|the
 // (ot-isaiah-servant) diagnoses a deficiency, it does not certify election.
 const NOT_YET = /\b(?:proof|evidence|sign)\b[^.!?<]{0,40}\bthat you (?:are|have) (?:still )?not\b|\bnot yet\b/i;
 
-// ---------------------------------------------------------------------------
-// S209 — THE LAUNDERED CERTIFICATE.
-//
-// For eight sessions the REPUDIATE/DENIED branch has run first and cleared any
-// sentence containing a denial. S207 hunted this class by hand and found six
-// live certificates the detector had cleared — one of them on the doorway built
-// for skeptics. The reason is exact:
-//
-//     "The ache you feel for a God you think you have lost is NOT EVIDENCE that
-//      you have been abandoned — it is the trace of having been reached."
-//
-// The denial is real. It denies ABANDONMENT. The clause after the pivot then
-// issues a certificate on the same feeling, and the `not evidence` token
-// launders it through the first branch. A denial does not launder a
-// certificate: what matters is WHAT THE DENIAL DENIES.
-//
-// The test below takes the residue AFTER the last denial, requires a
-// contrastive pivot (— ; but / rather / instead / it is), and asks whether that
-// residue independently re-issues a certificate.
-//
-// IT DOES NOT RECLASSIFY TO SLIP, AND THAT IS DELIBERATE. §XXIII.2 is explicit
-// that no phrase-grep separates a slip from a sanctioned interior paragraph,
-// because the words are identical and only the object differs — and this site
-// has already ruled one member of this exact shape a sanctioned repair
-// ("The wanting is not YOUR proof; it is His fingerprint", S183). Folding the
-// class into SLIP would trade eight sessions of false negatives for a season of
-// false positives and corrupt the ratchet besides. So LAUNDERED is its own
-// column: the detector stops SILENTLY CLEARING the class — which was the whole
-// defect — and hands each one to a human eye instead of a verdict.
-const RESIDUE_CERT =
-  /\b(?:it|that|this)(?:'s| is| was)\b[^.!?<]{0,90}\b(?:the )?(?:trace|mark|print|fingerprint|imprint|echo|residue|footprint|signature|first sign|beginning|stirring|pull|drawing|call|summons|proof|evidence|sign)\b/i
-  .source + '|' + /\bhaving been (?:reached|drawn|found|chosen|called|held|kept|sought|touched|awakened)\b/i.source
-  + '|' + /\b(?:it|that|this)(?:'s| is| was) (?:already )?(?:Him|God|Christ|the Spirit|the Father|grace|mercy|the Shepherd)\b/i.source
-  + '|' + /\bmeans (?:that )?you (?:are|have been|were)\b/i.source;
-const LAUNDER_RESIDUE = new RegExp(RESIDUE_CERT, 'i');
-const PIVOT = /[—–]|;|\b(?:but|rather|instead|yet|it is|it's|that is|that's)\b/i;
-
-function launderedCertificate(s) {
-  let idx = -1;
-  for (const re of [REPUDIATE, DENIED, DENIED_APPOS, NAMED_TRICK, DIAGNOSED]) {
-    if (!re) continue;
-    re.lastIndex = 0;
-    const m = re.exec(s);
-    if (m) idx = Math.max(idx, m.index + m[0].length);
-  }
-  if (idx < 0) return false;
-  const tail = s.slice(idx);
-  if (!PIVOT.test(tail)) return false;
-  return LAUNDER_RESIDUE.test(tail);
-}
-
 // FORM 4 — conditional comfort. Lowest-signal class; reported separately.
 const CONDITIONAL = /\bif you can\b[^.!?<]{0,90}\b(then )?(?:the )?(?:comfort|promise|assurance|rest|peace|hope|verse|word)\b[^.!?<]{0,60}\b(?:is|becomes|belongs to|are)\b[^.!?<]{0,30}\byours?\b/i;
 
@@ -355,12 +304,8 @@ function scan(file) {
     // a slip however closely it rhymes with one — that test stays first. Then
     // an unambiguous election-object claim (S183), which outranks an incidental
     // depravity token. Only then does the depravity direction win.
-    // S209: the laundering test runs in FRONT of the denial branch — it is the
-    // one case where a denial is not a repudiation. Everything below is untouched
-    // and its order is still load-bearing.
     const verdict =
-      launderedCertificate(s) ? 'LAUNDERED'
-      : (REPUDIATE.test(s) || DENIED.test(s) || DENIED_APPOS.test(s) || NAMED_TRICK.test(s) || DIAGNOSED.test(s)) ? 'MODEL'
+      (REPUDIATE.test(s) || DENIED.test(s) || DENIED_APPOS.test(s) || NAMED_TRICK.test(s) || DIAGNOSED.test(s)) ? 'MODEL'
         : STRONG_ELECT.test(s) ? 'SLIP'
           : (DEPRAVE.test(s) || NOT_YET.test(s)) ? 'SANCTIONED'
             : (ELECT.test(s) && GOD_REF.test(s)) ? 'SLIP'
@@ -380,10 +325,9 @@ const rows = [];
 for (const f of files) {
   const hits = scan(f);
   const slips = hits.filter(h => h.verdict === 'SLIP');
-  const laund = hits.filter(h => h.verdict === 'LAUNDERED');
   const conds = hits.filter(h => h.verdict === 'CONDITIONAL');
-  if (slips.length || laund.length || (showCond && conds.length) || (showAll && hits.length)) {
-    rows.push({ f, hits, n: slips.length + laund.length });
+  if (slips.length || (showCond && conds.length) || (showAll && hits.length)) {
+    rows.push({ f, hits, n: slips.length });
   }
 }
 rows.sort((a, b) => b.n - a.n);
@@ -394,22 +338,19 @@ console.log('  SANCTIONED  = interior state as evidence of DEPRAVITY (Move 4). K
 console.log('  MODEL       = the slip explicitly repudiated. Copy these.');
 console.log('  CONDITIONAL = form 4, comfort made conditional. Lowest signal (--cond).\n');
 
-let totalSlip = 0, totalCond = 0, totalLaund = 0;
+let totalSlip = 0, totalCond = 0;
 for (const r of rows) {
   const shown = r.hits.filter(h =>
-    h.verdict === 'SLIP' || h.verdict === 'LAUNDERED' || showAll ||
-    (showCond && h.verdict === 'CONDITIONAL'));
+    h.verdict === 'SLIP' || showAll || (showCond && h.verdict === 'CONDITIONAL'));
   if (!shown.length) continue;
   console.log('  ── ' + r.f.replace(/\.html$/, ''));
   for (const h of shown) {
     if (h.verdict === 'SLIP') totalSlip++;
     if (h.verdict === 'CONDITIONAL') totalCond++;
-    if (h.verdict === 'LAUNDERED') totalLaund++;
     console.log(`     ${h.verdict.padEnd(11)}${h.carrier} ${h.s.slice(0, 205)}`);
   }
 }
 console.log(`\n  ${rows.length} page(s) flagged · ${totalSlip} SLIP candidate(s)` +
-  ` · ${totalLaund} LAUNDERED (denial + re-issued certificate)` +
   (showCond ? ` · ${totalCond} CONDITIONAL` : '') + '\n');
 console.log('  TRIAGE, NOT VERDICT. Hand-check every hit. The fix is never a');
 console.log('  deletion alone: re-ground the passage in God\'s prior and finished');

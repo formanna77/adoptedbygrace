@@ -2,33 +2,49 @@
   COVERAGE — adoptedbygrace.net prose corpus — review freshness vs. the newest bar
 ========================================================================
   Current standard: §XXIII (2026-07-28); era begins ~S191
-  Ledger updated:   2026-08-17   |   prose pages: 618
+  Ledger updated:   2026-08-18   |   prose pages: 618
 
-  At current standard (§XXIII)   227   36.7%  ██████████··················
-  Behind (older bar, dated)          259   41.9%  ████████████················
-  Unknown (locked, no session tag)   132   21.4%  ██████······················
+  At current standard (§XXIII)   240   38.8%  ███████████·················
+  Behind (older bar, dated)          250   40.5%  ███████████·················
+  Unknown (locked, no session tag)   128   20.7%  ██████······················
 
-  REMAINING for the §XXIII pass: 391 pages (behind + unknown).
-  At 10 pages/session: ~40 sessions to full §XXIII coverage.  (tune rate with --rate=N)
+  REMAINING for the §XXIII pass: 378 pages (behind + unknown).
+  At 10 pages/session: ~38 sessions to full §XXIII coverage.  (tune rate with --rate=N)
 
   ── END-OF-SESSION STANDING ──
-  Since S204 (2026-08-10): at §XXIII 169 -> 227 (+58);  remaining 449 -> 391 (-58).
+  Since S204 (2026-08-10): at §XXIII 169 -> 240 (+71);  remaining 449 -> 378 (-71).
   Remaining trend: S197:525  S198:525  S199:520  S200:520  S201:510  S202:510  S203:502  S204:449
 
   Last-lifted era (approximate for older sessions):
-    §XXII (2026-07-19)          238  ███████████·················
+    §XXII (2026-07-19)          250  ███████████·················
     §XVIII-XXI (2026-06-21)       7  ····························
     §XVII/XVI (2026-05)           9  ····························
-    pre-§XVI (<=S99)            232  ███████████·················
-    unknown / untagged          132  ██████······················
+    pre-§XVI (<=S99)            224  ██████████··················
+    unknown / untagged          128  ██████······················
 
-  Exactly-tracked lifts (source: stamp) — 238:
+  Exactly-tracked lifts (source: stamp) — 250:
+    S209  lifted   analogy-chess-grandmaster.html  — Lane C rebuild — the player who came down onto the board
+    S209  lifted   apologetic-able-to-save-completely.html  — feeling-slip catch rebuilt — certificate removed, ground relocated to the finished work
+    S209  lifted   apologetic-god-works-the-willing.html  — feeling-slip catch rebuilt — certificate removed, ground relocated to the finished work
+    S209  lifted   apologetic-no-one-can-come-unless.html  — feeling-slip catch rebuilt — certificate removed, ground relocated to the finished work
+    S209  lifted   apologetic-you-did-not-choose-me.html  — confirmed clean — lands on the living Vine; detector vocabulary gap, not an absent Savior
+    S209  lifted   argument-if-arminianism-true-consequences.html  — feeling-slip catch rebuilt — certificate removed, ground relocated to the finished work
+    S209  lifted   demolition-matt11-28.html  — feeling-slip catch rebuilt — certificate removed, ground relocated to the finished work
+    S209  lifted   devotional-glory-of-divine-choice.html  — four landings collapsed to one; glory shown not announced
+    S209  lifted   devotional-i-dont-think-im-saved.html  — feeling-slip catch rebuilt — certificate removed, ground relocated to the finished work
+    S209  lifted   devotional-the-weight-lifted.html  — confirmed clean — link removed from the pullquote, VOICE IX.4
+    S209  lifted   question-predestined-to-hell.html  — feeling-slip catch rebuilt — certificate removed, ground relocated to the finished work
+    S209  lifted   shattered-lens-pastor.html  — gospel-absence catch rebuilt — the High Priest who prayed and was not spared
+    S209  lifted   shattered-lens-silence-of-god.html  — gospel-absence catch rebuilt — the High Priest who prayed and was not spared
+    S209  lifted   shattered-lens-when-prayer-stopped-working.html  — gospel-absence catch rebuilt — the High Priest who prayed and was not spared
+    S209  lifted   start-here-phase1.html  — gospel-absence catch rebuilt — the High Priest who prayed and was not spared
+    S209  lifted   story-real-conversions.html  — Lane C rebuild — the resurrection as the judgment already entered
+    S209  lifted   the-two-arms.html  — confirmed clean — both flags were the pair-card diagram, not the prose
     S208  lifted   analogy-orchestra.html  — close collapsed to one beat; John 14:3 as a builder's sentence
     S208  lifted   broken-mirror-sin-you-repeat.html  — XXIII: tears-as-evidence removed; the reader who feels nothing no longer terrified
     S208  lifted   compare-monergism-synergism.html  — close rebuilt on Ephesians 5:25 grammar; no subject for the bride
     S208  lifted   devotional-chosen-before-you-were-broken.html  — XXIII: the ache-certificate named and declined; ground moved outside the reader
     S208  lifted   devotional-dead-who-live.html  — XXIII: response-as-proof recast as order; slogan-trap cleared from meta and In Brief
-    S208  lifted   devotional-glory-of-divine-choice.html  — fourth landing and worn rope image cut; prayer left as the one destination
     S208  lifted   shattered-lens-bible-doesnt-make-sense.html  — XXIII: relief-as-verdict removed; the numb reader covered in the same breath
     S208  lifted   story-cross-examination.html  — close rebuilt on the cornerstone verdict; ends on Him, not on the reader's feeling
     S208  lifted   story-dark-the-woman-who-earned-her-seat.html  — close rebuilt; Ephesians 5:27 — He presents, she does not walk herself in
@@ -37,22 +53,6 @@
     S208  lifted   story-tender-the-gardener-who-waited.html  — close rebuilt on Isaiah 53:10; the promise addressed to the Son, not the parent
     S208  lifted   story-the-garden-that-grew-itself.html  — close rebuilt; the seed spent making the flower, John 15:5 in present tense
     S208  lifted   story-the-self-made-man.html  — close rebuilt; the memoir set down, the corner bearing the load unacknowledged
-    S208  lifted   story-thought-the-day-you-chose-again.html  — close rebuilt; the corner under the kitchen floor, noticing made irrelevant
-    S208  lifted   story-thought-the-god-who-let-you-watch.html  — close rebuilt; the watcher shown he was never outside the two positions
-    S208  lifted   systematic-christology.html  — five endings cut to one; the two natures as the shape a burial needs to yield a world
-    S208  lifted   systematic-glorification.html  — XXIII: fear-as-evidence replaced with a report of Another's work
-    S208  lifted   systematic-theology-proper.html  — close rebuilt; aseity turned into unbiddable love, landing on Romans 8:29
-    S208  lifted   theologian-anselm.html  — close rebuilt; why He stayed a man — Hebrews 2:13, the children given
-    S208  lifted   theologian-gottschalk.html  — close rebuilt; condemnation answered by 'not ashamed' (Hebrews 2:11)
-    S207  lifted   analogy-river.html  — channel cut before the water; 1 Peter 1:20; two trailing landings folded into one
-    S207  lifted   broken-mirror-imposter-syndrome.html  — spine rebuilt — the anxiety-as-certificate engine removed in 8 places; Thomas and the kept wounds carry the catch
-    S207  lifted   hymn-amazing-grace.html  — epiphaino section kept as destination; Rev 5:9 replaces the told-superlative warrant
-    S207  lifted   philosophy-resistance-is-proof.html  — close rebuilt on the silent defendant; courtroom image carried through, mirror and locked-door imports cut
-    S207  lifted   question-arminian-steelman.html  — section 09 removed; 1 Peter 1:18-19 on inheritance; steelman untouched
-    S207  lifted   question-depravity.html  — Heb 2:14-15 — captivity not incompetence; Lazarus circular return and stinger cut
-    S207  lifted   question-external-call.html  — Lydia's opened heart; bolded summary stinger and landing-line cut
-    S207  lifted   question-newheart.html  — highest-risk feeling-slip page — new heart grounded outside the chest; Titus 2:14
-    S207  lifted   question-one-question.html  — reflection-box self-verdict cut; single landing
 
   Longest-un-lifted (oldest tagged session — first candidates for a §XXII re-read):
     S 58  2-thessalonians-2-13.html
@@ -61,10 +61,8 @@
     S 58  anxious-mind-intrusive-thoughts.html
     S 58  apologetic-definite-atonement.html
     S 58  apologetic-for-the-sheep.html
-    S 58  apologetic-god-works-the-willing.html
     S 58  apologetic-he-who-began-a-good-work.html
     S 58  apologetic-kept-by-the-power-of-god.html
-    S 58  apologetic-no-one-can-come-unless.html
     S 58  apologetic-not-because-but-because.html
     S 58  apologetic-nothing-can-separate.html
     S 58  apologetic-perseverance.html
@@ -75,6 +73,8 @@
     S 58  apologetic-the-conscience-that-only-accuses.html
     S 58  apologetic-the-deceitful-heart.html
     S 58  apologetic-the-double-grip-of-john-10.html
+    S 58  apologetic-the-fourth-day-corpse.html
+    S 58  apologetic-the-mind-that-cannot-submit.html
 
-  (132 pages carry a lock but no session tag; they need a session assigned on next touch.)
+  (128 pages carry a lock but no session tag; they need a session assigned on next touch.)
 ========================================================================

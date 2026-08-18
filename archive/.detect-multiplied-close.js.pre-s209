@@ -95,37 +95,6 @@ function bodyOf(html) {
     const i = html.indexOf(marker, start);
     if (i > start && i < end) end = i;
   }
-
-  // S209 — THE HEADING RULE, because some furniture has no class to key on.
-  // `analogy-chess-grandmaster` closes with a "Continue Your Journey" rail built
-  // from class-less, inline-styled <div>s. The class allowlist cannot see it;
-  // the S209 suffix rule cannot see it; and the <a>-wraps-block test cannot see
-  // it either, because dedupe-prose-links.js had already unwrapped the anchors,
-  // leaving bare divs. The detector read "The Divine Decrees / God's eternal
-  // plan before creation / Question Answered" as three more hammer closes.
-  //
-  // What no card rail can hide is the heading above it. This is the same
-  // FURNITURE_HEADING pass detect-gospel-absence.js has carried since S191.
-  //
-  // GUARDED, per the S192 lesson learned in that detector: a furniture heading
-  // is NOT a promise that everything below it is furniture —
-  // `psychology-autonomy-illusion` puts its real catch under "Where to Go Next".
-  // So truncate only when nothing substantial follows: no paragraph of 25+ words
-  // below the heading. Prose below the line keeps the line from being drawn.
-  const FURNITURE_HEADING =
-    /^(keep reading|keep exploring|continue (the|your) (journey|study|investigation|exploration|reading)|related reading|next steps?|where to (go|next)|explore (further|more)|go deeper|dig deeper|walk the arms together)\b/i;
-  const H = /<h[23]\b[^>]*>([\s\S]*?)<\/h[23]>/gi;
-  let hm;
-  while ((hm = H.exec(html)) !== null) {
-    if (hm.index <= start || hm.index >= end) continue;
-    const label = hm[1].replace(/<[^>]*>/g, '').replace(/&[a-z]+;/gi, ' ').trim();
-    if (!FURNITURE_HEADING.test(label)) continue;
-    const below = html.slice(hm.index, end);
-    const substantial = [...below.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)].some(
-      (m) => m[1].replace(/<[^>]*>/g, ' ').split(/\s+/).filter(Boolean).length >= 25);
-    if (!substantial) { end = hm.index; break; }
-  }
-
   return html.slice(start, end);
 }
 
@@ -143,29 +112,6 @@ function bodyOf(html) {
 // a fraction of the text for the link-only rule. Strip the chrome by class;
 // the panel prose (fork-body <p>, fork-catch, fork-lede) is still scored on
 // its own merits, so nothing real is lost.
-// S209 — THE SUFFIX RULE, and why a registry of component names was never
-// going to hold. S206 (nav + related cards), S207 (block tags), S208
-// (`cross-links`) and now S209 were all one bug: furniture is recognised by an
-// ALLOWLIST, so a component shipped tomorrow is scored as prose the day it
-// ships. `the-two-arms` has sat on Lane C for several sessions at score 13 on
-// SEVEN hammer beats that are, every one of them, cells of its left-arm /
-// right-arm card diagram — "The Anxious Mind", "Demolition Hub", "→ THEN →",
-// "Right Arm · Devotion". Its classes are `journey-pair`, `pair-title`,
-// `pair-desc`, `pair-tag`, `pair-arrow`, and not one of them was on the list.
-// The page never had the defect.
-//
-// The rule below keys on the GRAMMAR OF THE CLASS NAME rather than on a
-// registry. Every card component in this corpus names its parts the same way —
-// `<something>-title`, `-desc`, `-tag`, `-label`, `-cat`, `-arrow`, `-eyebrow`,
-// `-meta`, `-badge`, `-number`, `-read`. Those suffixes are never prose
-// containers; prose lives in a bare <p> or an <h2>. A component that ships next
-// month will name its parts the same way, and this rule will already know.
-//
-// `-body` and `-verse` are deliberately NOT in the list: `fork-body` and
-// `panel-body` hold real prose and must keep being scored on their merits
-// (S180). Proven both directions in S209 — see archive/NEXT-SESSION-S210.
-const PART_SUFFIX = /\b[a-z0-9]+-(?:title|desc|description|tag|label|cat|category|arrow|eyebrow|meta|badge|number|read)\b/i;
-
 const FURNITURE = /related-article|hub-card|card-title|card-desc|card-meta|card-number|card-footer|card-read|card-scripture|journey-mini|phase-nav|phase-next|browse-link|breadcrumb|nav-|footer-|search-|mega-menu|quiz-|knowledge-check|deep-dive-card|section-label|eyebrow|chain-node|chain-visual|chain-connector|chain-link|diagram-|timeline-|math-|eq-result|fork-actions|fork-btn|fork-progress|fork-stage|next-step/i;
 
 /** Split the body into top-level block elements we care about. */
@@ -191,7 +137,7 @@ function blocks(body) {
     const tag = m[1].toLowerCase();
     const attrs = m[2] || '';
     const inner = m[3];
-    if (FURNITURE.test(attrs) || PART_SUFFIX.test(attrs)) continue;
+    if (FURNITURE.test(attrs)) continue;
     // S179 ROOT-CAUSE FIX. A <div> that WRAPS other block elements is a
     // container, not a prose block. The regex above is non-greedy and does not
     // track nesting, so a structural wrapper (<div class="chain-link-content">,

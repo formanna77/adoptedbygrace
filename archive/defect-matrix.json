@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17",
+ "generated": "2026-08-18",
  "current": "§XXIII",
  "matrix": {
   "2-thessalonians-2-13": {
@@ -33,17 +33,14 @@
    "lastSession": 199
   },
   "analogy-chess-grandmaster": {
-   "lane": "C",
-   "weight": 6,
-   "defects": [
-    "gospel-absence",
-    "multiplied-close"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 80
+   "lastSession": 209
   },
   "analogy-doctor-corpse": {
    "lane": "DONE",
@@ -93,7 +90,7 @@
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 207
+   "lastSession": 208
   },
   "analogy-river": {
    "lane": "DONE",
@@ -333,9 +330,9 @@
    ],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 209
   },
   "apologetic-arrabon-the-down-payment": {
    "lane": "A",
@@ -448,16 +445,14 @@
    "lastSession": null
   },
   "apologetic-god-works-the-willing": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "feeling-slip"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 209
   },
   "apologetic-he-bore-the-sin-of-many": {
    "lane": "DONE",
@@ -610,16 +605,14 @@
    "lastSession": 197
   },
   "apologetic-no-one-can-come-unless": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "feeling-slip"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 209
   },
   "apologetic-no-one-righteous": {
    "lane": "A",
@@ -942,17 +935,16 @@
    "lastSession": 58
   },
   "apologetic-you-did-not-choose-me": {
-   "lane": "C",
-   "weight": 6,
+   "lane": "B",
+   "weight": 3,
    "defects": [
-    "gospel-absence",
     "feeling-slip"
    ],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 209
   },
   "argument-arminian-sermon-illustrations-refuted": {
    "lane": "A",
@@ -1002,9 +994,9 @@
    ],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 209
   },
   "argument-logical-collapse-arminianism": {
    "lane": "DONE",
@@ -1067,14 +1059,14 @@
    "lastSession": null
   },
   "broken-mirror-sin-you-repeat": {
-   "lane": "A",
+   "lane": "DONE",
    "weight": 0,
    "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 208
   },
   "broken-mirror-the-relapse": {
    "lane": "DONE",
@@ -1206,7 +1198,7 @@
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 207
+   "lastSession": 208
   },
   "compare-predestination-foreknowledge": {
    "lane": "A",
@@ -1726,9 +1718,9 @@
    ],
    "doorway": true,
    "leadReview": true,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 189
+   "lastSession": 209
   },
   "demolition-matt7-7": {
    "lane": "A",
@@ -1878,7 +1870,7 @@
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 204
+   "lastSession": 208
   },
   "devotional-cold-church": {
    "lane": "A",
@@ -1891,14 +1883,14 @@
    "lastSession": 58
   },
   "devotional-dead-who-live": {
-   "lane": "A",
+   "lane": "DONE",
    "weight": 0,
    "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 208
   },
   "devotional-drawn-not-dragged": {
    "lane": "DONE",
@@ -1931,16 +1923,14 @@
    "lastSession": 204
   },
   "devotional-glory-of-divine-choice": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "multiplied-close"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 207
+   "lastSession": 209
   },
   "devotional-good-i-cannot-do": {
    "lane": "A",
@@ -1980,9 +1970,9 @@
    ],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 209
   },
   "devotional-i-was-lazarus": {
    "lane": "DONE",
@@ -2192,7 +2182,7 @@
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 196
+   "lastSession": 209
   },
   "devotional-valley-shadow": {
    "lane": "A",
@@ -3398,9 +3388,11 @@
    "lastSession": 204
   },
   "philosophy-copernican-revolution": {
-   "lane": "A",
-   "weight": 0,
-   "defects": [],
+   "lane": "B",
+   "weight": 3,
+   "defects": [
+    "multiplied-close"
+   ],
    "doorway": false,
    "leadReview": false,
    "atCurrent": false,
@@ -4467,7 +4459,7 @@
    "leadReview": true,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 205
+   "lastSession": 209
   },
   "question-proverbs-sovereignty": {
    "lane": "DONE",
@@ -5090,14 +5082,14 @@
    "lastSession": 197
   },
   "shattered-lens-bible-doesnt-make-sense": {
-   "lane": "A",
+   "lane": "DONE",
    "weight": 0,
    "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 208
   },
   "shattered-lens-cant-tell-true": {
    "lane": "DONE",
@@ -5130,28 +5122,24 @@
    "lastSession": 58
   },
   "shattered-lens-pastor": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 209
   },
   "shattered-lens-silence-of-god": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 209
   },
   "shattered-lens-taught-wrong": {
    "lane": "DONE",
@@ -5167,25 +5155,23 @@
    "lane": "B",
    "weight": 3,
    "defects": [
-    "gospel-absence"
+    "feeling-slip"
    ],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 70
+   "lastSession": 209
   },
   "start-here-phase1": {
-   "lane": "B",
-   "weight": 3,
-   "defects": [
-    "gospel-absence"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": true,
-   "leadReview": true,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "leadReview": false,
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 209
   },
   "start-here-phase2": {
    "lane": "A",
@@ -5250,14 +5236,14 @@
    "lastSession": 58
   },
   "story-cross-examination": {
-   "lane": "A",
+   "lane": "DONE",
    "weight": 0,
    "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 208
   },
   "story-dark-the-altar-he-built-himself": {
    "lane": "A",
@@ -5280,14 +5266,14 @@
    "lastSession": 58
   },
   "story-dark-the-woman-who-earned-her-seat": {
-   "lane": "A",
+   "lane": "DONE",
    "weight": 0,
    "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 208
   },
   "story-hard-hitting-the-drowning-man": {
    "lane": "A",
@@ -5300,14 +5286,14 @@
    "lastSession": 58
   },
   "story-historical-augustine-pears": {
-   "lane": "A",
+   "lane": "DONE",
    "weight": 0,
    "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 208
   },
   "story-historical-luther-storm": {
    "lane": "DONE",
@@ -5330,14 +5316,14 @@
    "lastSession": 58
   },
   "story-humor-the-man-who-sued-god": {
-   "lane": "A",
+   "lane": "DONE",
    "weight": 0,
    "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 208
   },
   "story-humor-the-man-who-tried-to-make-himself-hungry": {
    "lane": "A",
@@ -5350,17 +5336,16 @@
    "lastSession": 58
   },
   "story-real-conversions": {
-   "lane": "C",
-   "weight": 6,
+   "lane": "B",
+   "weight": 3,
    "defects": [
-    "gospel-absence",
     "feeling-slip"
    ],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 209
   },
   "story-surgeon-stone-heart": {
    "lane": "A",
@@ -5373,14 +5358,14 @@
    "lastSession": 58
   },
   "story-tender-the-gardener-who-waited": {
-   "lane": "A",
+   "lane": "DONE",
    "weight": 0,
    "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 208
   },
   "story-tender-the-letter-already-written": {
    "lane": "A",
@@ -5413,14 +5398,14 @@
    "lastSession": 58
   },
   "story-the-garden-that-grew-itself": {
-   "lane": "A",
+   "lane": "DONE",
    "weight": 0,
    "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 208
   },
   "story-the-kings-banquet": {
    "lane": "A",
@@ -5476,34 +5461,34 @@
    "lastSession": 58
   },
   "story-the-self-made-man": {
-   "lane": "A",
+   "lane": "DONE",
    "weight": 0,
    "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 208
   },
   "story-thought-the-day-you-chose-again": {
-   "lane": "A",
+   "lane": "DONE",
    "weight": 0,
    "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 208
   },
   "story-thought-the-god-who-let-you-watch": {
-   "lane": "A",
+   "lane": "DONE",
    "weight": 0,
    "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 208
   },
   "story-thought-the-machine-that-asked-why": {
    "lane": "DONE",
@@ -5556,14 +5541,14 @@
    "lastSession": 58
   },
   "systematic-christology": {
-   "lane": "A",
+   "lane": "DONE",
    "weight": 0,
    "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 208
   },
   "systematic-common-grace": {
    "lane": "A",
@@ -5676,14 +5661,14 @@
    "lastSession": 58
   },
   "systematic-glorification": {
-   "lane": "A",
+   "lane": "DONE",
    "weight": 0,
    "defects": [],
    "doorway": false,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 208
   },
   "systematic-hamartiology": {
    "lane": "DONE",
@@ -5786,9 +5771,11 @@
    "lastSession": null
   },
   "systematic-reprobation": {
-   "lane": "A",
-   "weight": 0,
-   "defects": [],
+   "lane": "B",
+   "weight": 3,
+   "defects": [
+    "feeling-slip"
+   ],
    "doorway": false,
    "leadReview": false,
    "atCurrent": false,
@@ -5836,14 +5823,14 @@
    "lastSession": null
   },
   "systematic-theology-proper": {
-   "lane": "A",
+   "lane": "DONE",
    "weight": 0,
    "defects": [],
    "doorway": true,
    "leadReview": false,
-   "atCurrent": false,
-   "untagged": true,
-   "lastSession": null
+   "atCurrent": true,
+   "untagged": false,
+   "lastSession": 208
   },
   "systematic-trinity": {
    "lane": "A",
@@ -5999,17 +5986,14 @@
    "lastSession": null
   },
   "the-two-arms": {
-   "lane": "C",
-   "weight": 6,
-   "defects": [
-    "gospel-absence",
-    "multiplied-close"
-   ],
+   "lane": "DONE",
+   "weight": 0,
+   "defects": [],
    "doorway": false,
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 191
+   "lastSession": 209
   },
   "theologian-anselm": {
    "lane": "DONE",
@@ -6019,7 +6003,7 @@
    "leadReview": false,
    "atCurrent": true,
    "untagged": false,
-   "lastSession": 203
+   "lastSession": 208
   },
   "theologian-arminius": {
    "lane": "A",
@@ -6092,14 +6076,14 @@
    "lastSession": null
   },
   "theologian-gottschalk": {
-   "lane": "A",
+   "lane": "DONE",
    "weight": 0,
    "defects": [],
    "doorway": true,
    "leadReview": false,
-   "atCurrent": false,
+   "atCurrent": true,
    "untagged": false,
-   "lastSession": 58
+   "lastSession": 208
   },
   "theologian-lloydjones": {
    "lane": "A",

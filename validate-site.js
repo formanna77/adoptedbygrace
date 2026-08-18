@@ -1172,7 +1172,7 @@ console.log('\n━━━ CHECK 17: Scripture Fidelity (ratchet) ━━━');
   // case-insensitive book match, containing-range lookup), which together
   // WIDENED the net from 3,578 quotations to 4,575 — a quarter of the site's
   // citations had never been examined at all — and still brought this to 62.
-  const CEILING = 62;    // S198. Ratchet down only.
+  const CEILING = 61;    // S209. Ratchet down only.
   const { execFileSync } = require('child_process');
   let count = null;
   try {
@@ -1289,7 +1289,7 @@ console.log('\n━━━ CHECK 18: JSON-LD Validity ━━━');
 // same thing: proving the instrument itself was wrong.
 console.log('\n━━━ CHECK 19: Cloned Passages (ratchet) ━━━');
 {
-  const CEILING = 5329;   // S205 close (294 passages). Ratchet down only.
+  const CEILING = 5261;   // S209 close (290 passages). Ratchet down only.
   // S205: 40 new Christ-paragraphs pushed this to 5382/295 and the overage was
   // NOT in the new prose. It was a 15-word rhetorical clone that had sat on
   // question-dead-in-sin-meaning and question-freewill for months ("you are

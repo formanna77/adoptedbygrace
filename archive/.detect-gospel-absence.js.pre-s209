@@ -55,20 +55,6 @@ const GOSPEL = new RegExp(
       'savior', 'saviour', 'mediator', 'intercede', 'interceding',
       'intercession', 'high priest', 'lamb of god', 'the lamb',
       'gospel', 'incarnation', 'incarnate',
-      // S209 — THE TITLES. A fourth failure mode, and not a boundary this time
-      // but a VOCABULARY gap: `apologetic-you-did-not-choose-me` closes on "a
-      // hand it could not see had planted it in the living Vine … His hand
-      // closed first," which is Christ named by the title He chose for Himself
-      // in John 15, and the detector reported the page as never reaching the
-      // Savior. Only titles that are unambiguously His are listed — 'the rock'
-      // and a bare 'the shepherd' are not here, because Scripture gives both to
-      // the Father as well, and a triage detector may miss a real absence far
-      // more cheaply than it may clear a page that has one.
-      'the true vine', 'the living vine', 'the vine',
-      'good shepherd', 'the bridegroom', 'bread of life',
-      'the word made flesh', 'the second adam', 'the last adam',
-      'firstborn from the dead', 'the lord jesus', 'emmanuel',
-      'man of sorrows', 'the advocate', 'the cornerstone',
     ].join('|') +
   ')\\b',
   'gi'
@@ -101,7 +87,6 @@ function extractBody(html) {
   let end = html.lastIndexOf('</article>');
   if (end < start) end = html.length;
   let body = html.slice(start, end);
-
 
   // strip the generated related-articles section
   const raStart = body.indexOf('<!-- RELATED-ARTICLES-START -->');
@@ -139,14 +124,6 @@ function extractBody(html) {
     'article-continue-journey',
     'continue-journey-global',
     'journey-mini-card',
-    // S209 — added after the structural rule above, NOT instead of it. A list
-    // is a second line of defence and nothing more; the day it is the only
-    // defence is the day this bug comes back.
-    'cross-links',
-    'hub-grid',
-    'phase-nav',
-    'knowledge-check',
-    'further-reading',
   ];
   const OPEN = /<(div|section|nav|aside)\b/gi;
   for (const cls of FURNITURE) {
@@ -300,51 +277,6 @@ function extractBody(html) {
     body = body.slice(0, cut);
     break;
   }
-
-  // S209 — THE CORRELATIVE FIX, and note where it sits.
-  //
-  // Every detector that walks the article tail has shared one failure mode:
-  // furniture is recognised by an ALLOWLIST of container names, so the day a
-  // new component ships the detector silently starts scoring card text as
-  // prose. S206 (nav + related cards), S207 (block tags welded to text), S208
-  // (`cross-links`, never on the list, scored an eight-card rail as eight
-  // hammer closes) were one bug wearing three coats.
-  //
-  // The rule below does not care what a component is called. An <a> that WRAPS
-  // block-level elements is a link-card, never prose — no writer puts a <div>
-  // or an <h3> inside a sentence. detect-multiplied-close.js has carried this
-  // test since S177; this detector never had it.
-  //
-  // IT MUST RUN LAST, AND THAT IS NOT A STYLE PREFERENCE. The first S209 draft
-  // put it immediately after the article slice, which broke the balanced-tag
-  // walker above: blanking an <a> that contains a <div> removes an opening tag
-  // whose closing tag survives, the depth count goes negative, and the
-  // keep-reading rail stops being excised. Measured on devotional-never-gives-up
-  // the body GREW 1786w -> 1821w and the "catch" window ended on the card text
-  // "Sealed Forever — The Holy Spirit's guarantee of redemption." A fix that
-  // runs before the excision it is meant to back up is not a second line of
-  // defence; it is a hole in the first one.
-  body = body.replace(/<a\b[^>]*>[\s\S]*?<\/a>/gi, (m) =>
-    /<(div|section|article|h[1-6])\b/i.test(m) ? ' ' : m);
-
-  // S209, second half of the same fix — THE SUFFIX RULE. The <a>-wrapper test
-  // above catches link-cards. It does not catch a card GRID whose cells are not
-  // links: `the-two-arms` renders a six-row left-arm/right-arm diagram as
-  // <div class="pair-title"> / <div class="pair-desc"> / <div class="pair-arrow">,
-  // no anchors at all, and that diagram IS the whole final 20% of its body. The
-  // detector was reading "Left Arm · Demolition / The Fork / → THEN → / Right Arm
-  // · Devotion" and reporting that the page never reaches the Savior.
-  //
-  // Keyed on the grammar of the class name, not on a registry of components:
-  // every card part in this corpus is named <something>-title / -desc / -tag /
-  // -label / -cat / -arrow / -eyebrow / -meta / -badge / -number / -read, and a
-  // component shipped next month will be named the same way. `-body` and
-  // `-verse` are deliberately excluded — fork-body and panel-body hold prose.
-  // Same rule now lives in detect-multiplied-close.js; a fix applied to one
-  // detector is not a fix.
-  body = body.replace(
-    /<(div|span|section|p|h[1-6])\b[^>]*class="[^"]*\b[a-z0-9]+-(?:title|desc|description|tag|label|cat|category|arrow|eyebrow|meta|badge|number|read)\b[^"]*"[^>]*>[\s\S]*?<\/\1>/gi,
-    ' ');
 
   return body;
 }
