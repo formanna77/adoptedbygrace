@@ -293,6 +293,115 @@ function launderedCertificate(s) {
   return LAUNDER_RESIDUE.test(tail);
 }
 
+
+// ---------------------------------------------------------------------------
+// S210 — THE COPULA PREDICATION.
+//
+// WHY IT EXISTS. S210 delegated a Lane A confirm run — twelve pages this
+// detector reports as CLEAN — to an agent whose only instruction was to read
+// the opener and the close as a reader would. It came back with FOUR live
+// certificates, all in the same prefix, none of which any branch above can
+// express:
+//
+//     "The ache is the dawn."                          darkened-in-their-understanding
+//     "The ache is the Son, already at work."          a-slave-to-sin
+//     "That ache is not coincidence, and it is not personality."  arrabon
+//     "...the unmistakable sign that you have been born of God."  born-not-of-human-will
+//
+// Meanwhile the SLIP queue did not move at all after four repairs shipped in
+// the same session. Both facts are the same fact: every branch above is an
+// ENUMERATION OF PHRASES. That is the allowlist habit CLAUDE.md names in the
+// CHECK 12 note — "a guard that enumerates known offenders only ever catches
+// the past. Enumerate the CONDITION, not the instances" — and S209 already
+// killed it once, in the furniture detectors, by measuring structure instead
+// of matching names. This is the same fix applied to the same detector class.
+//
+// THE CONDITION. Every slip above is one grammatical shape: an interior-state
+// noun standing as the SUBJECT of a copula whose PREDICATE is not itself an
+// interior state. "Your ache IS X." The Direction Law (§XXIII.1) is then a
+// statement about X, and it is decidable:
+//
+//   X names deadness, inability, resistance ....... SANCTIONED. Apex work.
+//   X names a divine person, act, or evidence ..... the certificate.
+//   X negates a mundane cause ..................... the certificate, obliquely.
+//
+// That last class is the one no vocabulary list would ever have reached.
+// "Not coincidence, not personality, not temperament" asserts nothing on its
+// face; denying every natural explanation IS the supernatural claim, and it is
+// the politest form the defect takes.
+//
+// IT IS ITS OWN COLUMN AND DOES NOT RECLASSIFY TO SLIP — same reasoning S209
+// gave for LAUNDERED, and the reason is §XXIII.2 itself: no phrase-grep
+// separates a slip from a sanctioned interior paragraph, so a branch this
+// broad must hand each hit to a human eye rather than issue a verdict it
+// cannot have. The documented test ORDER below is untouched.
+//
+// Placed in the same slot as launderedCertificate() — in front of the denial
+// branch — because the negated-cause form ("is NOT coincidence") carries a
+// denial and would otherwise be laundered to MODEL by it.
+
+// Predicates that make the copula SANCTIONED (the depravity direction).
+const PRED_DEAD = /(diagnosis|the corpse|corpse|deadness|dead|inability|proof of (?:the |your )?(?:death|deadness|need|problem)|the disease|the symptom|the evidence against|the problem|the point|the objection|the flesh|the wall|the resistance|self-justifw*|pride|autonomy|the audit|the very thing)/i;
+
+// Predicates that make it a certificate. Four families, deliberately written as
+// KINDS rather than as the four sentences that prompted them.
+const PRED_CERT = new RegExp([
+  // (a) a divine person, or a divine act with a divine agent
+  /(?:the )?(?:Son|Father|Spirit|Shepherd|Creator|Redeemer|Saviou?r|Christ|Jesus|God|Him|His)/.source,
+  /(?:His|God's|the Spirit's|Christ's) [a-z]+/.source,
+  // (b) evidential nouns
+  /(?:the |a |an |your |unmistakable |first )?(?:sign|proof|evidence|mark|trace|imprint|fingerprint|print|footprint|receipt|credential|certificate|token|seal|witness|warrant|guarantee|down ?payment|earnest|firstfruits?)/.source,
+  // (c) a cosmic or natural event standing in for a divine act — the figure this
+  //     corpus reaches for most, and the one furthest from any phrase list
+  /(?:the )?(?:dawn|daybreak|sunrise|first light|the light|morning|spring|the thaw|thaw|the tide|the turning|the current|the pull of|gravity|the wind|the summons|the call|the voice|the knock|the drawing|the beginning|the opening|the softening of God)/.source,
+  // (d) the negated mundane cause — denying nature IS asserting grace
+  /not (?:a )?(?:coincidence|accident|chance|personality|temperament|chemistry|biology|conditioning|upbringing|nature|native|normal|nothing|random|an accident|your (?:doing|making|achievement|personality|temperament))/.source,
+].join('|'), 'i');
+
+// The subject side: an interior-state noun behind a determiner, or a gerund of
+// perceiving/wanting used as a noun ("the seeing", "the wanting").
+const PRED_SUBJ = new RegExp(
+  '\\b(?:that|this|the|your|a)\\s+(?:faint\\s+|small\\s+|quiet\\s+|strange\\s+|new\\s+)?' +
+  '(?:' + INTERIOR + '|seeing|hearing|noticing|caring|minding|discomfort|readiness)\\b' +
+  '(?:\\s+(?:you\\s+\\w+|in\\s+you|of\\s+yours|inside\\s+you|in\\s+your\\s+chest|that\\s+\\w+))?' +
+  '\\s+(?:is|are|was|were|isn\'t|aren\'t)\\s+(?:not\\s+)?', 'i');
+
+// (a) family — a divine PERSON. Split out because a NEGATED divine predicate is
+// a denial, not a certificate ("That flinch was not from the Spirit"), while a
+// negated MUNDANE cause is the certificate's politest form ("not coincidence").
+// The two look identical until you ask what is being denied — the same
+// distinction S209 had to draw for LAUNDERED, one clause lower down.
+const PRED_DIVINE = /\b(?:the )?(?:Son|Father|Spirit|Shepherd|Creator|Redeemer|Saviou?r|Christ|Jesus|God|Him|His)\b/i;
+
+// The reader's interior, or somebody else's. Every real hit in the S210 sample
+// is about YOU; the false positives are overwhelmingly third-person or
+// hypothetical — "he did not manufacture the hunger", "every unbelieving human
+// being", "the soul that prefers to be the hero", "his protest". §XXIII.1 is a
+// law about what the page hands THE READER to grade himself with, so a sentence
+// that never turns to the reader cannot commit it.
+const SECOND_PERSON = /\b(?:you|your|yours|yourself)\b/i;
+const THIRD_PERSON  = /\b(?:he|him|his|she|her|they|them|their|one's|a man|the man|the soul|every|whoever|anyone|someone|Paul|Anselm|Augustine|Calvin|Luther|Edwards|Spurgeon)\b/i;
+
+function copulaPredication(s) {
+  const m = PRED_SUBJ.exec(s);
+  if (!m) return false;
+  const negated = /\bnot\s*$/i.test(m[0]);
+  // the predicate is what follows the copula, to the end of the clause
+  const pred = s.slice(m.index + m[0].length).split(/[.!?;]|\s+(?:—|–)\s+/)[0] || '';
+  if (!pred || pred.length < 3) return false;
+  if (PRED_DEAD.test(pred)) return false;            // the sanctioned direction
+
+  // A negated divine predicate DENIES the certificate; only the negated mundane
+  // cause asserts one. Without this, the repair form scores as the defect.
+  if (negated && PRED_DIVINE.test(pred) && !/not (?:a )?(?:coincidence|accident|chance|personality|temperament|chemistry|biology|conditioning|upbringing|nature|native|normal|nothing|random)/i.test(s)) return false;
+
+  // It must be addressed to the reader. Second person anywhere in the sentence
+  // qualifies; a sentence that is purely third-person does not.
+  if (!SECOND_PERSON.test(s) && THIRD_PERSON.test(s)) return false;
+
+  return PRED_CERT.test(pred);
+}
+
 // FORM 4 — conditional comfort. Lowest-signal class; reported separately.
 const CONDITIONAL = /\bif you can\b[^.!?<]{0,90}\b(then )?(?:the )?(?:comfort|promise|assurance|rest|peace|hope|verse|word)\b[^.!?<]{0,60}\b(?:is|becomes|belongs to|are)\b[^.!?<]{0,30}\byours?\b/i;
 
@@ -344,13 +453,36 @@ function scan(file) {
   const ld = (raw.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/gi) || []).join(' ');
   const hits = [];
   for (const s of sentencesOf(raw)) {
-    if (s.length < 25 || s.length > 480) continue;
+    if (s.length > 480) continue;
+    // S210 — THE FLOOR WAS ABOVE THE DEFECT. 25 characters was set to skip
+    // fragments, and it skipped "The ache is the dawn." — 21 characters, and
+    // the most concentrated form the certificate takes. The hammer line is
+    // SHORTER than ordinary prose by design (§VIII), so a length floor tuned
+    // for prose is guaranteed to miss the closing sentence, which §XXIII.2
+    // names as the densest slip real-estate on the site. The trigger-gated
+    // branches keep their floor; the condition-based one gets its own.
+    if (s.length < 12) continue;
     TRIGGER.lastIndex = 0;
     if (!TRIGGER.test(s)) {
+      // S210 — THE ORDER OF A FIX IS PART OF THE FIX (S209's lesson, again).
+      //
+      // copulaPredication() exists precisely because every other branch is an
+      // enumeration of phrases. Wired into the verdict chain below, it sat
+      // BEHIND `if (!TRIGGER.test(s)) continue` — the enumeration it was
+      // written to get past. Measured: it returned true on three of the four
+      // certificates the S210 Lane A read found by eye, and the detector still
+      // reported all four pages clean, because TRIGGER vetoed the sentence
+      // before any verdict ran. A new instrument placed behind the old filter
+      // inherits the old filter's blindness, and looks like it does not work.
+      //
+      // So it runs HERE, on the sentences TRIGGER rejected, alongside form 4 —
+      // which was already exempted from the trigger for the same reason.
+      if (copulaPredication(s)) { hits.push({ verdict: 'PREDICATION', carrier: '', s: s.trim() }); continue; }
       // form 4 stands on its own premise and needs no interior-state trigger
-      if (CONDITIONAL.test(s)) hits.push({ verdict: 'CONDITIONAL', carrier: '', s: s.trim() });
+      if (s.length >= 25 && CONDITIONAL.test(s)) hits.push({ verdict: 'CONDITIONAL', carrier: '', s: s.trim() });
       continue;
     }
+    if (s.length < 25) continue;
     // ORDER IS LOAD-BEARING. A sentence that DENIES the evidence-claim is never
     // a slip however closely it rhymes with one — that test stays first. Then
     // an unambiguous election-object claim (S183), which outranks an incidental
@@ -360,6 +492,7 @@ function scan(file) {
     // and its order is still load-bearing.
     const verdict =
       launderedCertificate(s) ? 'LAUNDERED'
+      : copulaPredication(s) ? 'PREDICATION'
       : (REPUDIATE.test(s) || DENIED.test(s) || DENIED_APPOS.test(s) || NAMED_TRICK.test(s) || DIAGNOSED.test(s)) ? 'MODEL'
         : STRONG_ELECT.test(s) ? 'SLIP'
           : (DEPRAVE.test(s) || NOT_YET.test(s)) ? 'SANCTIONED'
@@ -381,9 +514,10 @@ for (const f of files) {
   const hits = scan(f);
   const slips = hits.filter(h => h.verdict === 'SLIP');
   const laund = hits.filter(h => h.verdict === 'LAUNDERED');
+  const preds = hits.filter(h => h.verdict === 'PREDICATION');
   const conds = hits.filter(h => h.verdict === 'CONDITIONAL');
-  if (slips.length || laund.length || (showCond && conds.length) || (showAll && hits.length)) {
-    rows.push({ f, hits, n: slips.length + laund.length });
+  if (slips.length || laund.length || preds.length || (showCond && conds.length) || (showAll && hits.length)) {
+    rows.push({ f, hits, n: slips.length + laund.length + preds.length });
   }
 }
 rows.sort((a, b) => b.n - a.n);
@@ -392,12 +526,15 @@ console.log('\n  detect-feeling-slip.js v2 — assurance grounded in the reader,
 console.log('  SLIP        = interior state offered as evidence of election. FIX.');
 console.log('  SANCTIONED  = interior state as evidence of DEPRAVITY (Move 4). Keep.');
 console.log('  MODEL       = the slip explicitly repudiated. Copy these.');
+console.log('  LAUNDERED   = a denial that launders a re-issued certificate. Hand-read.');
+console.log('  PREDICATION = interior noun as copula subject, divine or evidential');
+console.log('                predicate (S210). Condition-based, not phrase-based. Hand-read.');
 console.log('  CONDITIONAL = form 4, comfort made conditional. Lowest signal (--cond).\n');
 
-let totalSlip = 0, totalCond = 0, totalLaund = 0;
+let totalSlip = 0, totalCond = 0, totalLaund = 0, totalPred = 0;
 for (const r of rows) {
   const shown = r.hits.filter(h =>
-    h.verdict === 'SLIP' || h.verdict === 'LAUNDERED' || showAll ||
+    h.verdict === 'SLIP' || h.verdict === 'LAUNDERED' || h.verdict === 'PREDICATION' || showAll ||
     (showCond && h.verdict === 'CONDITIONAL'));
   if (!shown.length) continue;
   console.log('  ── ' + r.f.replace(/\.html$/, ''));
@@ -405,11 +542,13 @@ for (const r of rows) {
     if (h.verdict === 'SLIP') totalSlip++;
     if (h.verdict === 'CONDITIONAL') totalCond++;
     if (h.verdict === 'LAUNDERED') totalLaund++;
+    if (h.verdict === 'PREDICATION') totalPred++;
     console.log(`     ${h.verdict.padEnd(11)}${h.carrier} ${h.s.slice(0, 205)}`);
   }
 }
 console.log(`\n  ${rows.length} page(s) flagged · ${totalSlip} SLIP candidate(s)` +
   ` · ${totalLaund} LAUNDERED (denial + re-issued certificate)` +
+  ` · ${totalPred} PREDICATION (interior noun = divine/evidential predicate)` +
   (showCond ? ` · ${totalCond} CONDITIONAL` : '') + '\n');
 console.log('  TRIAGE, NOT VERDICT. Hand-check every hit. The fix is never a');
 console.log('  deletion alone: re-ground the passage in God\'s prior and finished');

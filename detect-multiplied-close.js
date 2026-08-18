@@ -296,11 +296,49 @@ function analyse(html) {
 // never appear in the close queue (S179: terms.html ranked in the worst 32).
 const UTILITY_PAGES = new Set(['terms.html', 'privacy.html', '404.html']);
 
+// S210 — THE STEPPED WIDGETS. NOT AN EXEMPTION; AN UNDEFINED MEASUREMENT.
+//
+// analyse() reads "a FIXED window of the last 8 prose blocks" (see the S177
+// note above — a percentage window slid every time a beat was cut and never
+// converged). That window is correct for a linear article and MEANINGLESS on a
+// page whose body is eight sequential UI steps: on the-fork it lands entirely
+// inside the branching widget and scores four "terminal beats" that are a
+// mid-widget transition line ("Now watch what happens when Scripture walks into
+// the room"), the Door B panel's own copy, the end of step 7, and the nav
+// sentence introducing the next-steps rail. The page's actual close —
+// .fork-catch, "You were found before you were born" through Jeremiah 31:3 —
+// sits OUTSIDE the window and was never looked at. The page has scored 7 for
+// four sessions and has been queued for a lead rebuild in three kickoffs on the
+// strength of a number computed from furniture.
+//
+// The furniture regex cannot rescue this. `fork-body` carries the nav sentence
+// here and carries real prose elsewhere, which is exactly why the suffix rule
+// excludes `-body` on purpose. The defect is not a missing class name; it is
+// that a linear heuristic is being run on a non-linear page — the same category
+// error as measuring a hub against the prose bar.
+//
+// So the list is read FROM validate-site.js's STYLE_ALLOWED rather than
+// retyped, because the site already maintains exactly one list of "pages whose
+// body is a widget, not an article," and two lists of the same thing drifting
+// apart is the defect the last several sessions were spent on. Category 1 only:
+// print utilities and CSS-diagram pages are still ordinary prose underneath.
+const WIDGET_PAGES = (() => {
+  try {
+    const v = fs.readFileSync(__dirname + '/validate-site.js', 'utf8');
+    const blk = v.slice(v.indexOf('const STYLE_ALLOWED'), v.indexOf('// 2. CSS-diagram'));
+    return new Set([...blk.matchAll(/'([a-z0-9-]+\.html)'/g)].map(m => m[1]));
+  } catch { return new Set(); }
+})();
+
 const files = targets.length ? targets : fs.readdirSync('.').filter(f => f.endsWith('.html')).sort();
 const rows = [];
 
 for (const f of files) {
-  if (!targets.length && UTILITY_PAGES.has(f)) continue;
+    // PARENTHESES ARE LOAD-BEARING. A blind s/UTILITY_PAGES.has(f)/… || …/ left this
+  // as (!targets.length && UTILITY) || WIDGET, which skips a widget page even when
+  // it is named explicitly on the command line — removing the only way to inspect
+  // one. "Grep locates; it does not establish."
+  if (!targets.length && (UTILITY_PAGES.has(f) || WIDGET_PAGES.has(f))) continue;
   let html;
   try { html = fs.readFileSync(f, 'utf8'); } catch { continue; }
   const a = analyse(html);

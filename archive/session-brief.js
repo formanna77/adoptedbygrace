@@ -55,6 +55,7 @@
 
 const { execFileSync } = require('child_process');
 const fs = require('fs');
+const { extractBody } = require('./prose-body.js');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
@@ -242,9 +243,14 @@ const IMAGES = ['lazarus', 'passover', 'burning building', 'fireman', 'the rope'
 const fresh = {};
 for (const f of prose) {
   const src = fs.readFileSync(path.join(ROOT, f), 'utf8');
-  const a = src.indexOf(ARTICLE_OPEN);
-  const r = src.indexOf('<!-- RELATED-ARTICLES-START -->');
-  const body = src.slice(a, r > 0 ? r : src.length);
+  // S210 — the closer column was measuring FURNITURE. The top closing cadence
+  // corpus-wide was `Read` on 65 pages (a card rail's "Read ->" label) and
+  // "2026 Adopted by Grace Soli Deo Gloria" on four more (the site footer).
+  // The ledger exists so parallel agents do not converge on the same image and
+  // the same last line; a column reporting card labels cannot do that job.
+  // Same root cause as the four detectors and the brief generator: a raw slice
+  // instead of the one module that knows where the prose stops.
+  const body = extractBody(src) || src.slice(src.indexOf(ARTICLE_OPEN));
   const text = body.replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
   const tail = text.slice(-900).toLowerCase();
   const sentences = text.split(/(?<=[.!?])\s+/).filter(Boolean);
