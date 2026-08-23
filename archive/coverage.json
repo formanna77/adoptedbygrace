@@ -5,7 +5,7 @@
       "date": "2026-07-28",
       "sinceSession": 191
     },
-    "updated": "2026-08-18",
+    "updated": "2026-08-23",
     "note": "Historical seed from HTML markers is approximate (review-freshness, not pass/fail). source:\"stamp\" entries are exact.",
     "history": [
       {
@@ -120,10 +120,11 @@
   },
   "pages": {
     "2-thessalonians-2-13.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 212,
+      "voiceRef": "§XXIII",
+      "status": "partial",
+      "source": "stamp",
+      "note": "population figure corrected; slip + encyclopedia opener NOT yet repaired"
     },
     "acts-13-48.html": {
       "lastSession": 58,
@@ -1708,11 +1709,11 @@
       "source": "marker"
     },
     "history-apostolic.html": {
-      "lastSession": 201,
+      "lastSession": 212,
       "voiceRef": "§XXIII",
       "status": "lifted",
       "source": "stamp",
-      "note": "Polycarp restored to 'my King and my Saviour'; Diospolis 415 acquittal replaces the on-sight-expulsion claim; feeling-slip close re-grounded; Arminian-only opener widened"
+      "note": "the source has a face — Christ as Person not position; Clement + Ignatius double-intros merged"
     },
     "history-augustine-pelagius.html": {
       "lastSession": null,
@@ -1746,10 +1747,11 @@
       "source": "marker"
     },
     "history-dort-deep.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 212,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "the Remonstrance's five articles quoted verbatim from the Arminians' own text and answered one at a time; article 5 declined to teach falling-away; close rebuilt on Christ, not the synod"
     },
     "history-dort.html": {
       "lastSession": null,
@@ -1797,16 +1799,18 @@
       "source": "marker"
     },
     "history-luther.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 212,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "beggar's open hand + 2 Cor 5:21; feeling-slip cut; duplicate Erasmus section deleted; Packer-Johnston wording restored"
     },
     "history-medieval.html": {
-      "lastSession": 79,
-      "voiceRef": "§XVII",
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 212,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "Christ in the catch via the uninterrupted priesthood; 8 told-superlatives grounded; Augustine's prayer un-inverted; Bradwardine 38 days restored"
     },
     "history-open-theism.html": {
       "lastSession": 194,
@@ -1822,10 +1826,11 @@
       "source": "marker"
     },
     "history-spurgeon-downgrade.html": {
-      "lastSession": null,
-      "voiceRef": null,
-      "status": "seeded-nosession",
-      "source": "marker"
+      "lastSession": 212,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "zero Scripture to three load-bearing texts; conditional catch replaced; 250 superseded words cut"
     },
     "history-timeline.html": {
       "lastSession": null,
@@ -1834,10 +1839,11 @@
       "source": "marker"
     },
     "history-today.html": {
-      "lastSession": 58,
-      "voiceRef": null,
-      "status": "seeded",
-      "source": "marker"
+      "lastSession": 212,
+      "voiceRef": "§XXIII",
+      "status": "lifted",
+      "source": "stamp",
+      "note": "two fabricated pastors cut; John 10:16 catch; arrival-beat slip named and refused"
     },
     "history-whitefield-wesley.html": {
       "lastSession": 58,
@@ -2066,10 +2072,11 @@
       "source": "marker"
     },
     "objection-why-believe.html": {
-      "lastSession": 77,
+      "lastSession": 212,
       "voiceRef": "§XXIII",
-      "status": "seeded",
-      "source": "marker"
+      "status": "partial",
+      "source": "stamp",
+      "note": "banned slogan + empty-p bug + XIII.3 restatement fixed; middle third NOT yet raised"
     },
     "objection-why-command.html": {
       "lastSession": 58,
@@ -2291,11 +2298,11 @@
       "note": "S204 factory: Christ located inside the page's own image in the catch"
     },
     "philosophy-copernican-revolution.html": {
-      "lastSession": 210,
+      "lastSession": 212,
       "voiceRef": "§XXIII",
-      "status": "lifted",
+      "status": "partial",
       "source": "stamp",
-      "note": "four landings to one; the centre that came out to the edge"
+      "note": "epicycle claim corrected (Copernicus kept them); parsimony inference rebuilt; multiplied close NOT yet repaired"
     },
     "philosophy-exclusive-love.html": {
       "lastSession": 58,
@@ -2836,11 +2843,11 @@
       "note": "gospel-absence closed - Christ named in the catch"
     },
     "question-freewill.html": {
-      "lastSession": 205,
+      "lastSession": 212,
       "voiceRef": "§XXIII",
-      "status": "lifted",
+      "status": "partial",
       "source": "stamp",
-      "note": "gospel-absence closed - Christ named in the catch"
+      "note": "fabricated Augustine quotation + Ezekiel translation swap fixed; multiplied close + slogan repetition NOT yet repaired"
     },
     "question-godwants.html": {
       "lastSession": 58,

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T06:16:30.815Z",
+  "generated": "2026-08-23T18:51:40.375Z",
   "pageCount": 611,
   "topicCount": 30,
   "pages": [
@@ -1617,9 +1617,9 @@
       "category": "History",
       "tags": [
         "Human Responsibility",
-        "Salvation & Justification",
         "Election & Predestination",
         "Sovereignty of God",
+        "Salvation & Justification",
         "Free Will",
         "Assurance & Comfort",
         "Church History",
@@ -2895,9 +2895,9 @@
         "Sovereignty of God",
         "Free Will",
         "Analogies & Illustrations",
+        "Total Depravity",
         "Salvation & Justification",
-        "Arminianism & Objections",
-        "Fairness & Justice"
+        "Arminianism & Objections"
       ]
     },
     {
@@ -3154,7 +3154,7 @@
         "Total Depravity",
         "Election & Predestination",
         "Salvation & Justification",
-        "Parables & Stories"
+        "Church History"
       ]
     },
     {
@@ -8536,10 +8536,10 @@
         "Church History",
         "Evangelism & Mission",
         "Parables & Stories",
-        "Famous Theologians",
         "Scripture & Bible",
+        "Famous Theologians",
+        "Human Responsibility",
         "God's Love",
-        "Salvation & Justification",
         "Election & Predestination"
       ]
     },
@@ -8634,11 +8634,6 @@
           "url": "/history-medieval#semi-pelagianism-corruption"
         },
         {
-          "id": "aquinas-error",
-          "text": "The Respectable Version of the Same Mistake",
-          "url": "/history-medieval#aquinas-error"
-        },
-        {
           "id": "church-drift-sacramentalism",
           "text": "When the Half-Inch Became an Economy",
           "url": "/history-medieval#church-drift-sacramentalism"
@@ -8650,7 +8645,7 @@
         },
         {
           "id": "gospel-nearly-buried",
-          "text": "What a Thousand Years Proves",
+          "text": "The Direction the Heart Drifts When No One Stops It",
           "url": "/history-medieval#gospel-nearly-buried"
         },
         {
@@ -9828,8 +9823,8 @@
         "Free Will",
         "Prayer & Devotion",
         "Suffering & Grief",
-        "John 6",
-        "Fairness & Justice"
+        "Parables & Stories",
+        "John 6"
       ]
     }
   ],
@@ -10458,6 +10453,7 @@
       "/question-free-will-bible-verses",
       "/theologian-whitefield",
       "/theologian-gottschalk",
+      "/objection-why-believe",
       "/objection-why-command",
       "/question-freewill",
       "/question-is-salvation-my-choice-or-gods",
@@ -11101,6 +11097,7 @@
       "/shattered-lens-silence-of-god",
       "/open-wound-empty-nursery",
       "/shattered-lens-when-prayer-stopped-working",
+      "/history-spurgeon-downgrade",
       "/shattered-lens-bible-doesnt-make-sense",
       "/open-wound-betrayed-by-church",
       "/open-wound-terminal-diagnosis",
@@ -11836,7 +11833,6 @@
       "/broken-mirror-grace-too-good",
       "/shattered-lens-when-prayer-stopped-working",
       "/shattered-lens-lost-community",
-      "/history-spurgeon-downgrade",
       "/history-medieval",
       "/shattered-lens-cant-unsee-it",
       "/invisible-wall-only-one-who-sees",
@@ -12232,6 +12228,7 @@
       "/question-i-cant-believe",
       "/pastoral-prayer",
       "/systematic-imputation",
+      "/question-freewill",
       "/objection-author-of-sin",
       "/theologian-machen",
       "/theologian-arminius",
@@ -12807,7 +12804,6 @@
       "/question-every-conversion-acts",
       "/resistance-redefining-grace",
       "/objection-effort",
-      "/question-freewill",
       "/question-is-salvation-my-choice-or-gods",
       "/ot-jonah",
       "/theologian-edwards",
@@ -12888,7 +12884,8 @@
       "/apologetic-you-did-not-choose-me",
       "/question-john15",
       "/systematic-hamartiology",
-      "/philosophy-mother-tongue"
+      "/philosophy-mother-tongue",
+      "/philosophy-copernican-revolution"
     ],
     "Analogies & Illustrations": [
       "/demolition-2cor5-14-15",
@@ -13489,7 +13486,6 @@
       "/resistance-redefining-grace",
       "/apologetic-i-will-move-you",
       "/objection-effort",
-      "/objection-why-believe",
       "/objection-responsibility",
       "/objection-god-could-save-all",
       "/objection-why-command",
@@ -13636,8 +13632,7 @@
       "/psychology-language-acquisition",
       "/devotional-you-were-wanted-before-you-were",
       "/psychology-illusion-free-will",
-      "/psychology-cognitive-biases",
-      "/philosophy-copernican-revolution"
+      "/psychology-cognitive-biases"
     ],
     "Identity & Adoption": [
       "/demolition-joshua24-15",
@@ -13995,11 +13990,11 @@
   },
   "topicCounts": {
     "Election & Predestination": 354,
-    "Salvation & Justification": 318,
+    "Salvation & Justification": 317,
     "Identity & Adoption": 351,
     "Assurance & Comfort": 255,
     "Free Will": 232,
-    "Human Responsibility": 264,
+    "Human Responsibility": 265,
     "Parables & Stories": 96,
     "Analogies & Illustrations": 127,
     "Ephesians 1": 40,
@@ -14007,16 +14002,16 @@
     "Psychology & Resistance": 83,
     "Sovereignty of God": 180,
     "Arminianism & Objections": 131,
-    "Total Depravity": 117,
+    "Total Depravity": 118,
     "Suffering & Grief": 155,
     "Prayer & Devotion": 146,
     "Scripture & Bible": 195,
     "John 6": 38,
     "Evangelism & Mission": 65,
     "God's Love": 44,
-    "Church History": 99,
+    "Church History": 100,
     "Old Testament": 120,
-    "Fairness & Justice": 212,
+    "Fairness & Justice": 210,
     "Healing & Mental Health": 82,
     "Science & Secular Evidence": 94,
     "Perseverance of the Saints": 29,

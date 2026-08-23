@@ -1,11 +1,11 @@
 SCRIPTURE FIDELITY AUDIT — quotations diffed against scripture-niv.js
-Generated 2026-08-18T06:24:19.029Z
+Generated 2026-08-23T19:01:01.711Z
 
 Ground truth: 992 NIV passages
 Pages scanned: 658 (of 687; generated/index pages excluded)
-Quotations with a nearby reference: 4604
+Quotations with a nearby reference: 4612
 
-  VERIFIED  3614  — appear in the NIV verbatim
+  VERIFIED  3621  — appear in the NIV verbatim
   MISQUOTE  61  — high word overlap, wording does not match
   HEADING   84  — title-case heading near a reference, not a quotation
   UNMATCHED 376  — low overlap; almost all extractor noise

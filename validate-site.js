@@ -1289,7 +1289,7 @@ console.log('\n━━━ CHECK 18: JSON-LD Validity ━━━');
 // same thing: proving the instrument itself was wrong.
 console.log('\n━━━ CHECK 19: Cloned Passages (ratchet) ━━━');
 {
-  const CEILING = 5261;   // S209 close (290 passages). Ratchet down only.
+  const CEILING = 5225;   // S212 close (289 passages). Ratchet down only.
   // S205: 40 new Christ-paragraphs pushed this to 5382/295 and the overage was
   // NOT in the new prose. It was a 15-word rhetorical clone that had sat on
   // question-dead-in-sin-meaning and question-freewill for months ("you are
